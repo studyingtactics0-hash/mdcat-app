@@ -143,7 +143,7 @@ export default function Home() {
             </p>
             <div className="flex gap-4 justify-center md:justify-start">
               <a
-                href="#tests"
+                href="/tests"
                 className="bg-[#ff9800] hover:bg-[#e38000] text-[#0b1e39] font-semibold px-7 py-3 rounded-full text-lg shadow transition duration-150"
               >
                 Start Practicing
