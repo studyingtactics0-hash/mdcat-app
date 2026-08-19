@@ -1,5 +1,14 @@
-export const biologicalMoleculesQuestions = [
+export type Question = {
+    id: string;
+    question: string;
+    options: string[];
+    answer: number;
+    explanation?: string;
+  };
+  
+  export const biologicalMoleculesQuestions: Question[] = [
     {
+      id: "biomolecules-001",
       question: "Which of the following is a correct structural feature of RNA?",
       options: [
         "It contains deoxyribose sugar",
@@ -7,10 +16,11 @@ export const biologicalMoleculesQuestions = [
         "It contains base uracil instead of base thymine",
         "It is confined to the nucleus only",
       ],
-      answer: "It contains base uracil instead of base thymine",
+      answer: 2,
     },
   
     {
+      id: "biomolecules-002",
       question: "The correct function of H⁺ and OH⁻ ions in cells is:",
       options: [
         "Transporting proteins",
@@ -18,10 +28,11 @@ export const biologicalMoleculesQuestions = [
         "Maintaining or changing pH",
         "Producing light energy",
       ],
-      answer: "Maintaining or changing pH",
+      answer: 2,
     },
   
     {
+      id: "biomolecules-003",
       question:
         "Acylglycerols like fats and oils are esters formed by condensation reaction between:",
       options: [
@@ -30,10 +41,11 @@ export const biologicalMoleculesQuestions = [
         "Fatty acid and glucose",
         "Fatty acid and alcohol",
       ],
-      answer: "Fatty acid and alcohol",
+      answer: 3,
     },
   
     {
+      id: "biomolecules-004",
       question: "Which of the following is NOT considered a conjugated molecule?",
       options: [
         "A molecule containing linked sugar units",
@@ -41,10 +53,11 @@ export const biologicalMoleculesQuestions = [
         "A protein attached to a non-protein group",
         "A lipid combined with another chemical component",
       ],
-      answer: "A molecule made up only of carbon and hydrogen",
+      answer: 1,
     },
   
     {
+      id: "biomolecules-005",
       question:
         "The central dogma of molecular biology describes the flow of genetic information as:",
       options: [
@@ -53,10 +66,11 @@ export const biologicalMoleculesQuestions = [
         "Protein → DNA → mRNA",
         "DNA → Protein → mRNA",
       ],
-      answer: "DNA → mRNA → Protein",
+      answer: 0,
     },
   
     {
+      id: "biomolecules-006",
       question: "Each DNA nucleotide differs from the others based on its:",
       options: [
         "Nitrogenous bases",
@@ -64,10 +78,11 @@ export const biologicalMoleculesQuestions = [
         "Sugar molecule",
         "Number of phosphorus atoms",
       ],
-      answer: "Nitrogenous bases",
+      answer: 0,
     },
   
     {
+      id: "biomolecules-007",
       question: "Glycolipid is a combination of:",
       options: [
         "Lipid and carbohydrate",
@@ -75,10 +90,11 @@ export const biologicalMoleculesQuestions = [
         "Nucleic acid and lipid",
         "Protein and carbohydrate",
       ],
-      answer: "Lipid and carbohydrate",
+      answer: 0,
     },
   
     {
+      id: "biomolecules-008",
       question: "Lactose sugar is found in milk and is composed of ____.",
       options: [
         "Glucose + Glucose",
@@ -86,10 +102,11 @@ export const biologicalMoleculesQuestions = [
         "Glucose + Galactose",
         "Fructose + Galactose",
       ],
-      answer: "Glucose + Galactose",
+      answer: 2,
     },
   
     {
+      id: "biomolecules-009",
       question:
         "During sample analysis, students find that it contains Carbon, Hydrogen, Oxygen and Nitrogen, but no phosphorous. Based on this information, which biological molecule is most likely to be in the sample?",
       options: [
@@ -98,10 +115,11 @@ export const biologicalMoleculesQuestions = [
         "Phospholipid",
         "RNA",
       ],
-      answer: "Protein",
+      answer: 1,
     },
   
     {
+      id: "biomolecules-010",
       question:
         "During lab analysis, a student extracted a molecule that contained a sugar, a phosphate group and a nitrogenous base. Which of the following molecules was likely identified?",
       options: [
@@ -110,44 +128,34 @@ export const biologicalMoleculesQuestions = [
         "Monosaccharides",
         "Polysaccharides",
       ],
-      answer: "Nucleotide",
+      answer: 0,
     },
   
     {
+      id: "biomolecules-011",
       question:
         "Pick the smallest form of carbohydrates from the following, which cannot be further hydrolyzed into simpler form.",
-      options: [
-        "Sucrose",
-        "Lactose",
-        "Glucose",
-        "Starch",
-      ],
-      answer: "Glucose",
+      options: ["Sucrose", "Lactose", "Glucose", "Starch"],
+      answer: 2,
     },
   
     {
-      question: "In Watson and Crick's DNA model, which of the following pairs with Cytosine?",
-      options: [
-        "Adenine",
-        "Guanine",
-        "Thymine",
-        "Uracil",
-      ],
-      answer: "Guanine",
+      id: "biomolecules-012",
+      question:
+        "In Watson and Crick's DNA model, which of the following pairs with Cytosine?",
+      options: ["Adenine", "Guanine", "Thymine", "Uracil"],
+      answer: 1,
     },
   
     {
+      id: "biomolecules-013",
       question: "The glycoproteins are commonly found in:",
-      options: [
-        "Mitochondria",
-        "Chloroplasts",
-        "Ribosomes",
-        "Plasma membrane",
-      ],
-      answer: "Plasma membrane",
+      options: ["Mitochondria", "Chloroplasts", "Ribosomes", "Plasma membrane"],
+      answer: 3,
     },
   
     {
+      id: "biomolecules-014",
       question: "The high specific heat capacity of water is due to:",
       options: [
         "Ionic bonding",
@@ -155,32 +163,25 @@ export const biologicalMoleculesQuestions = [
         "Covalent bonding",
         "Hydrophilic bonding",
       ],
-      answer: "Hydrogen bonding",
+      answer: 1,
     },
   
     {
+      id: "biomolecules-015",
       question: "Which of the following is a branched polysaccharide found in animals?",
-      options: [
-        "Cellulose",
-        "Glycogen",
-        "Amylose",
-        "Chitin",
-      ],
-      answer: "Glycogen",
+      options: ["Cellulose", "Glycogen", "Amylose", "Chitin"],
+      answer: 1,
     },
   
     {
+      id: "biomolecules-016",
       question: "Which of the following is NOT a globular protein?",
-      options: [
-        "Enzyme",
-        "Albumen",
-        "Hemoglobin",
-        "Collagen",
-      ],
-      answer: "Collagen",
+      options: ["Enzyme", "Albumen", "Hemoglobin", "Collagen"],
+      answer: 3,
     },
   
     {
+      id: "biomolecules-017",
       question:
         "A diabetic patient is advised to avoid both sucrose and lactose, because they both:",
       options: [
@@ -189,10 +190,11 @@ export const biologicalMoleculesQuestions = [
         "Cannot be digested in humans",
         "Act as non-caloric sweeteners",
       ],
-      answer: "Increase blood glucose after hydrolysis",
+      answer: 1,
     },
   
     {
+      id: "biomolecules-018",
       question:
         "Which properties of water enable it to circulate in living bodies and act as transport medium?",
       options: [
@@ -201,10 +203,11 @@ export const biologicalMoleculesQuestions = [
         "Ionization and adhesion",
         "Adhesion and cohesion",
       ],
-      answer: "Cohesion and adhesion",
+      answer: 1,
     },
   
     {
+      id: "biomolecules-019",
       question: "How are the phospholipid molecules arranged in the plasma membrane?",
       options: [
         "Hydrophilic heads face inwards and hydrophobic tails face outwards",
@@ -212,10 +215,11 @@ export const biologicalMoleculesQuestions = [
         "Hydrophilic heads face outwards and hydrophobic tails face inwards",
         "Hydrophilic heads and hydrophobic tails are randomly distributed",
       ],
-      answer: "Hydrophilic heads face outwards and hydrophobic tails face inwards",
+      answer: 2,
     },
   
     {
+      id: "biomolecules-020",
       question: "The structure of RNA consists of:",
       options: [
         "Double polynucleotide strand",
@@ -223,10 +227,11 @@ export const biologicalMoleculesQuestions = [
         "Five different types of nucleotides",
         "Base uracil instead of thymine",
       ],
-      answer: "Base uracil instead of thymine",
+      answer: 3,
     },
   
     {
+      id: "biomolecules-021",
       question:
         "The constant diameter of DNA is maintained by pairing of:",
       options: [
@@ -235,10 +240,11 @@ export const biologicalMoleculesQuestions = [
         "Purine towards purine",
         "Sugar towards phosphate",
       ],
-      answer: "Thymine towards pyrimidines",
+      answer: 0,
     },
   
     {
+      id: "biomolecules-022",
       question: "Identify the CORRECT option functional group:",
       options: [
         "Ribose – Pentose, Aldehyde Group",
@@ -246,79 +252,57 @@ export const biologicalMoleculesQuestions = [
         "Ribulose – Pentose, Aldehyde Group",
         "Galactose – Hexose, Ketone Group",
       ],
-      answer: "Ribose – Pentose, Aldehyde Group",
+      answer: 0,
     },
   
     {
+      id: "biomolecules-023",
       question:
         "Homopolysaccharide that is found in the cell wall of fungi and in the exoskeleton of arthropods is:",
-      options: [
-        "Cellulose",
-        "Glycogen",
-        "Starch",
-        "Chitin",
-      ],
-      answer: "Chitin",
+      options: ["Cellulose", "Glycogen", "Starch", "Chitin"],
+      answer: 3,
     },
   
     {
+      id: "biomolecules-024",
       question: "The most abundant lipids in living things are:",
-      options: [
-        "Terpenes",
-        "Waxes",
-        "Sterols",
-        "Acylglycerols",
-      ],
-      answer: "Acylglycerols",
+      options: ["Terpenes", "Waxes", "Sterols", "Acylglycerols"],
+      answer: 3,
     },
   
     {
+      id: "biomolecules-025",
       question:
         "Name the type of bond that joins amino acids to form a polypeptide chain:",
-      options: [
-        "Ionic bond",
-        "Covalent bond",
-        "Glycosidic bond",
-        "Peptide bond",
-      ],
-      answer: "Peptide bond",
+      options: ["Ionic bond", "Covalent bond", "Glycosidic bond", "Peptide bond"],
+      answer: 3,
     },
   
     {
+      id: "biomolecules-026",
       question: "Which of the following is not a globular protein?",
-      options: [
-        "Enzyme",
-        "Hormone",
-        "Channel protein",
-        "Collagen",
-      ],
-      answer: "Collagen",
+      options: ["Enzyme", "Hormone", "Channel protein", "Collagen"],
+      answer: 3,
     },
   
     {
-      question: "Which property of water allows it to stick to polar surface like wood?",
-      options: [
-        "Density",
-        "Adhesion",
-        "Cohesion",
-        "Non-polar attraction",
-      ],
-      answer: "Adhesion",
+      id: "biomolecules-027",
+      question:
+        "Which property of water allows it to stick to polar surface like wood?",
+      options: ["Density", "Adhesion", "Cohesion", "Non-polar attraction"],
+      answer: 1,
     },
   
     {
+      id: "biomolecules-028",
       question:
         "Name the biomolecule essential for information storage and transmission within cells.",
-      options: [
-        "Carbohydrates",
-        "Lipids",
-        "Nucleic acids",
-        "Proteins",
-      ],
-      answer: "Nucleic acids",
+      options: ["Carbohydrates", "Lipids", "Nucleic acids", "Proteins"],
+      answer: 2,
     },
   
     {
+      id: "biomolecules-029",
       question: "Guanine-cytosine pairs enhance DNA stability due to:",
       options: [
         "Larger size",
@@ -326,21 +310,18 @@ export const biologicalMoleculesQuestions = [
         "More hydrogen bonds in both",
         "Double ring structure in both",
       ],
-      answer: "More hydrogen bonds in both",
+      answer: 2,
     },
   
     {
+      id: "biomolecules-030",
       question: "Which of the following is NOT related to DNA?",
-      options: [
-        "Adenine",
-        "Thymine",
-        "Uracil",
-        "Guanine",
-      ],
-      answer: "Uracil",
+      options: ["Adenine", "Thymine", "Uracil", "Guanine"],
+      answer: 2,
     },
   
     {
+      id: "biomolecules-031",
       question: "Which of the following best describes glycoproteins?",
       options: [
         "Proteins linked with carbohydrates",
@@ -348,10 +329,11 @@ export const biologicalMoleculesQuestions = [
         "Proteins linked with lipids",
         "Proteins linked with minerals",
       ],
-      answer: "Proteins linked with carbohydrates",
+      answer: 0,
     },
   
     {
+      id: "biomolecules-032",
       question: "Water can circulate in living organism due to:",
       options: [
         "Surface tension",
@@ -359,45 +341,35 @@ export const biologicalMoleculesQuestions = [
         "Solubility in cellulose",
         "Stable liquid range",
       ],
-      answer: "Cohesion and adhesion polarity",
+      answer: 1,
     },
   
     {
+      id: "biomolecules-033",
       question:
         "Which of the following biological molecules releases highest energy from its own gram?",
-      options: [
-        "Carbohydrates",
-        "Lipids",
-        "Protein",
-        "Water",
-      ],
-      answer: "Lipids",
+      options: ["Carbohydrates", "Lipids", "Protein", "Water"],
+      answer: 1,
     },
   
     {
+      id: "biomolecules-034",
       question:
         "A food sample contains long chains of amino acids bounded together. This indicates the presence of:",
-      options: [
-        "Carbohydrates",
-        "Lipids",
-        "Proteins",
-        "Nucleic acids",
-      ],
-      answer: "Proteins",
+      options: ["Carbohydrates", "Lipids", "Proteins", "Nucleic acids"],
+      answer: 2,
     },
   
     {
-      question: "At least how many saccharide units must be present in polysaccharide?",
-      options: [
-        "2",
-        "0",
-        "10",
-        "11",
-      ],
-      answer: "11",
+      id: "biomolecules-035",
+      question:
+        "At least how many saccharide units must be present in polysaccharide?",
+      options: ["2", "0", "10", "11"],
+      answer: 3,
     },
   
     {
+      id: "biomolecules-036",
       question:
         "The complementary base pairing in DNA is important because it:",
       options: [
@@ -406,10 +378,11 @@ export const biologicalMoleculesQuestions = [
         "Enables protein to fold properly",
         "Allows DNA to act as a genetic blueprint during replication",
       ],
-      answer: "Allows DNA to act as a genetic blueprint during replication",
+      answer: 3,
     },
   
     {
+      id: "biomolecules-037",
       question: "The secondary structure of proteins is stabilized by:",
       options: [
         "Ionic bonds",
@@ -417,32 +390,25 @@ export const biologicalMoleculesQuestions = [
         "Disulfide bridges",
         "Hydrophobic exclusion",
       ],
-      answer: "Hydrogen bonds",
+      answer: 1,
     },
   
     {
+      id: "biomolecules-038",
       question: "The following is an example of a globular protein.",
-      options: [
-        "Keratin",
-        "Collagen",
-        "Hemoglobin",
-        "Histone",
-      ],
-      answer: "Hemoglobin",
+      options: ["Keratin", "Collagen", "Hemoglobin", "Histone"],
+      answer: 2,
     },
   
     {
+      id: "biomolecules-039",
       question: "Enzymes belong to which class of biomolecules?",
-      options: [
-        "Carbohydrates",
-        "Lipids",
-        "Proteins",
-        "Nucleic acids",
-      ],
-      answer: "Proteins",
+      options: ["Carbohydrates", "Lipids", "Proteins", "Nucleic acids"],
+      answer: 2,
     },
   
     {
+      id: "biomolecules-040",
       question:
         "Which property of water helps in moderating Earth's climate and maintaining stable temperature in aquatic environment?",
       options: [
@@ -451,10 +417,11 @@ export const biologicalMoleculesQuestions = [
         "High surface tension",
         "High polarity",
       ],
-      answer: "High specific heat capacity",
+      answer: 1,
     },
   
     {
+      id: "biomolecules-041",
       question: "An oligosaccharide is made up of at least:",
       options: [
         "Two saccharide units",
@@ -462,10 +429,11 @@ export const biologicalMoleculesQuestions = [
         "Three to ten saccharide units",
         "More than ten saccharide units",
       ],
-      answer: "Three to ten saccharide units",
+      answer: 2,
     },
   
     {
+      id: "biomolecules-042",
       question: "Which of the following is a key feature of RNA?",
       options: [
         "Deoxyribose and thymine",
@@ -473,10 +441,11 @@ export const biologicalMoleculesQuestions = [
         "Ribose and uracil",
         "Ribose and thymine",
       ],
-      answer: "Ribose and uracil",
+      answer: 2,
     },
   
     {
+      id: "biomolecules-043",
       question:
         "Which of the following types of RNA make up the largest proportion of total cellular RNA?",
       options: [
@@ -485,21 +454,19 @@ export const biologicalMoleculesQuestions = [
         "Transfer RNA",
         "Catalytic RNA (ribozyme)",
       ],
-      answer: "Ribosomal RNA",
+      answer: 1,
     },
   
     {
-      question: "Which one of the following biomolecules is a polymer/polysaccharide?",
-      options: [
-        "Sucrose",
-        "Pentose",
-        "Lactose",
-        "Glycogen",
-      ],
-      answer: "Glycogen",
+      id: "biomolecules-044",
+      question:
+        "Which one of the following biomolecules is a polymer/polysaccharide?",
+      options: ["Sucrose", "Pentose", "Lactose", "Glycogen"],
+      answer: 3,
     },
   
     {
+      id: "biomolecules-045",
       question: "Peptide bonds are important in protein because they:",
       options: [
         "Affect solubility",
@@ -507,10 +474,11 @@ export const biologicalMoleculesQuestions = [
         "Link amino acids",
         "Help in releasing oxygen",
       ],
-      answer: "Link amino acids",
+      answer: 2,
     },
   
     {
+      id: "biomolecules-046",
       question: "Glycoproteins are formed as a result of the combination of:",
       options: [
         "Lipids and proteins",
@@ -518,21 +486,19 @@ export const biologicalMoleculesQuestions = [
         "Nucleic acid and proteins",
         "Fatty acids and carbohydrates",
       ],
-      answer: "Carbohydrates and proteins",
+      answer: 1,
     },
   
     {
-      question: "Which of the following hormones in the body of animal is lipid-based in nature?",
-      options: [
-        "Insulin",
-        "FSH",
-        "Oxytocin",
-        "Aldosterone",
-      ],
-      answer: "Aldosterone",
+      id: "biomolecules-047",
+      question:
+        "Which of the following hormones in the body of animal is lipid-based in nature?",
+      options: ["Insulin", "FSH", "Oxytocin", "Aldosterone"],
+      answer: 3,
     },
   
     {
+      id: "biomolecules-048",
       question:
         "Which of the following base pairing maintains the constant diameter of the DNA double helix as per Watson and Crick’s model?",
       options: [
@@ -541,33 +507,32 @@ export const biologicalMoleculesQuestions = [
         "Purine – Pyrimidine",
         "Sugar-Phosphate",
       ],
-      answer: "Purine – Pyrimidine",
+      answer: 2,
     },
   
     {
+      id: "biomolecules-049",
       question:
         "A mutation prevents proper disulfide bond formation in a fibrous protein, causing brittle nails and slow hair growth. Which of the following proteinaceous substance would be affected?",
-      options: [
-        "Elastin",
-        "Actin",
-        "Keratin",
-        "Collagen",
-      ],
-      answer: "Keratin",
+      options: ["Elastin", "Actin", "Keratin", "Collagen"],
+      answer: 2,
     },
   
     {
-      question: "Polysaccharides such as starch and glycogen are mainly used for:",
+      id: "biomolecules-050",
+      question:
+        "Polysaccharides such as starch and glycogen are mainly used for:",
       options: [
         "Structural framework only",
         "Short-term and long-term energy storage",
         "Enzyme catalysis",
         "Ready source of energy",
       ],
-      answer: "Short-term and long-term energy storage",
+      answer: 1,
     },
   
     {
+      id: "biomolecules-051",
       question:
         "In chromosome, positively charged histone proteins are organized with negatively charged DNA. The positive charges of histone are due to an abundance of basic amino acids:",
       options: [
@@ -576,10 +541,11 @@ export const biologicalMoleculesQuestions = [
         "Lysine and alanine",
         "Phenylalanine and arginine",
       ],
-      answer: "Arginine and lysine",
+      answer: 1,
     },
   
     {
+      id: "biomolecules-052",
       question:
         "Which of the following is common between aldosterone, sex hormone and cortisone?",
       options: [
@@ -588,10 +554,11 @@ export const biologicalMoleculesQuestions = [
         "They are steroids",
         "They are glycoproteins",
       ],
-      answer: "They are steroids",
+      answer: 2,
     },
   
     {
+      id: "biomolecules-053",
       question: "The temperature of underground water remains constant due to:",
       options: [
         "Heat capacity",
@@ -599,22 +566,19 @@ export const biologicalMoleculesQuestions = [
         "Heat of vaporization",
         "Specific heat of vaporization",
       ],
-      answer: "Heat capacity",
+      answer: 0,
     },
   
     {
+      id: "biomolecules-054",
       question:
         "All of the following properties of water are associated with its capillary action, EXCEPT:",
-      options: [
-        "Adhesion",
-        "Density",
-        "Cohesion",
-        "Surface tension",
-      ],
-      answer: "Density",
+      options: ["Adhesion", "Density", "Cohesion", "Surface tension"],
+      answer: 1,
     },
   
     {
+      id: "biomolecules-055",
       question:
         "Arachidonic acid, which is the precursor molecule for prostaglandins is:",
       options: [
@@ -623,22 +587,19 @@ export const biologicalMoleculesQuestions = [
         "A tri-unsaturated fatty acid with 20 carbons",
         "A tetra-unsaturated fatty acid with 20 carbons",
       ],
-      answer: "A tetra-unsaturated fatty acid with 20 carbons",
+      answer: 3,
     },
   
     {
+      id: "biomolecules-056",
       question:
         "The most abundant polysaccharide in plants, widely used in paper and as a source of dietary fibre for humans is:",
-      options: [
-        "Chitin",
-        "Glycogen",
-        "Starch",
-        "Cellulose",
-      ],
-      answer: "Cellulose",
+      options: ["Chitin", "Glycogen", "Starch", "Cellulose"],
+      answer: 3,
     },
   
     {
+      id: "biomolecules-057",
       question:
         "Which of the following characteristics is common among sucrose, lactose and maltose?",
       options: [
@@ -647,10 +608,11 @@ export const biologicalMoleculesQuestions = [
         "Chemical nature of their monosaccharide units",
         "To act as reducing sugar",
       ],
-      answer: "Chemical nature of their monosaccharide units",
+      answer: 2,
     },
   
     {
+      id: "biomolecules-058",
       question: "Water is commonly known as a universal solvent because:",
       options: [
         "It dissolves polar and ionic substances effectively",
@@ -658,10 +620,11 @@ export const biologicalMoleculesQuestions = [
         "It has a high specific heat capacity",
         "It dissolves many substances due to its small molecule size",
       ],
-      answer: "It dissolves polar and ionic substances effectively",
+      answer: 0,
     },
   
     {
+      id: "biomolecules-059",
       question:
         "Which of the following structural change in water molecule leads to the low density of ice?",
       options: [
@@ -670,92 +633,66 @@ export const biologicalMoleculesQuestions = [
         "Increased kinetic energy",
         "Loss of polarity in molecules",
       ],
-      answer: "Expansion due to hydrogen bonding",
+      answer: 1,
     },
   
     {
+      id: "biomolecules-060",
       question:
         "At 25°C the concentration of each of H⁺ and OH⁻ ions in pure water is about __ mole/liter.",
-      options: [
-        "10⁻⁶",
-        "10⁻⁷",
-        "10⁻⁹",
-        "10⁻¹⁴",
-      ],
-      answer: "10⁻⁷",
+      options: ["10⁻⁶", "10⁻⁷", "10⁻⁹", "10⁻¹⁴"],
+      answer: 1,
     },
   
     {
+      id: "biomolecules-061",
       question: "Which of the following proteins do NOT exhibit quaternary structure?",
-      options: [
-        "Actin",
-        "Haemoglobin",
-        "Insulin",
-        "Myoglobin",
-      ],
-      answer: "Myoglobin",
+      options: ["Actin", "Haemoglobin", "Insulin", "Myoglobin"],
+      answer: 3,
     },
   
     {
-      question: "Which one of the following monosaccharides is a hexose-aldehyde form of sugar?",
-      options: [
-        "Fructose",
-        "Galactose",
-        "Glucose",
-        "Ribose",
-      ],
-      answer: "Glucose",
+      id: "biomolecules-062",
+      question:
+        "Which one of the following monosaccharides is a hexose-aldehyde form of sugar?",
+      options: ["Fructose", "Galactose", "Glucose", "Ribose"],
+      answer: 2,
     },
   
     {
+      id: "biomolecules-063",
       question:
         "Which one of the following is the main component of lipid bilayer of plasma membrane?",
-      options: [
-        "Acylglycerol",
-        "Lecithin",
-        "Triglyceride",
-        "Waxes",
-      ],
-      answer: "Lecithin",
+      options: ["Acylglycerol", "Lecithin", "Triglyceride", "Waxes"],
+      answer: 1,
     },
   
     {
+      id: "biomolecules-064",
       question:
         "When 3 fatty acids combine with __, they form triglycerides and 3 molecules of water.",
-      options: [
-        "Alcohol",
-        "Ester",
-        "Glyceride",
-        "Glycerol",
-      ],
-      answer: "Glycerol",
+      options: ["Alcohol", "Ester", "Glyceride", "Glycerol"],
+      answer: 3,
     },
   
     {
+      id: "biomolecules-065",
       question:
         "Which one of the following carbohydrates show dark brown color with iodine solution?",
-      options: [
-        "Cellulose",
-        "Glucose",
-        "Glycogen",
-        "Sucrose",
-      ],
-      answer: "Glycogen",
+      options: ["Cellulose", "Glucose", "Glycogen", "Sucrose"],
+      answer: 2,
     },
   
     {
+      id: "biomolecules-066",
       question:
         "Which of the following part of phospholipids constitutes hydrophobic zone in plasma membrane?",
-      options: [
-        "Cholesterol",
-        "Fatty acid tail",
-        "Glycolipids",
-        "Phosphate head",
-      ],
-      answer: "Fatty acid tail",
+      options: ["Cholesterol", "Fatty acid tail", "Glycolipids", "Phosphate head"],
+      answer: 1,
     },
   
     {
+      id: "biomolecules-067",
       question:
         "Which one of the following types of bonds is formed between the hydroxyl group of one amino acid and hydrogen of amino group of another amino acid with release of water?",
       options: [
@@ -764,10 +701,11 @@ export const biologicalMoleculesQuestions = [
         "Peptide bond",
         "Phosphodiester bond",
       ],
-      answer: "Peptide bond",
+      answer: 2,
     },
   
     {
+      id: "biomolecules-068",
       question:
         "Name the protein complex which stabilizes the separated strand of DNA during replication:",
       options: [
@@ -777,10 +715,11 @@ export const biologicalMoleculesQuestions = [
         "Single-stranded binding enzyme",
         "Non-stranded binding proteins",
       ],
-      answer: "Single-stranded binding proteins",
+      answer: 2,
     },
   
     {
+      id: "biomolecules-069",
       question:
         "Hemoglobin fails to carry sufficient oxygen, leading to death of a person when: Glutamic acid is replaced by Valine at which position?",
       options: [
@@ -790,22 +729,19 @@ export const biologicalMoleculesQuestions = [
         "4th position",
         "2nd position",
       ],
-      answer: "6th position",
+      answer: 1,
     },
   
     {
-      question: "The pigment in the muscles responsible for the binding of oxygen is:",
-      options: [
-        "Oxyhemoglobin",
-        "Plasmin",
-        "Myoglobin",
-        "Heme",
-        "Hemoglobin",
-      ],
-      answer: "Myoglobin",
+      id: "biomolecules-070",
+      question:
+        "The pigment in the muscles responsible for the binding of oxygen is:",
+      options: ["Oxyhemoglobin", "Plasmin", "Myoglobin", "Heme", "Hemoglobin"],
+      answer: 2,
     },
   
     {
+      id: "biomolecules-071",
       question:
         "The type of carbohydrates, made up of 6 to 10 monosaccharides, which are comparatively less sweet in taste and less soluble in water, are called:",
       options: [
@@ -815,10 +751,11 @@ export const biologicalMoleculesQuestions = [
         "Cellulose",
         "Polysaccharides",
       ],
-      answer: "Oligosaccharides",
+      answer: 0,
     },
   
     {
+      id: "biomolecules-072",
       question: "Histone proteins are rich in:",
       options: [
         "Basic amino acid",
@@ -827,10 +764,11 @@ export const biologicalMoleculesQuestions = [
         "Acidic amino acid",
         "Basic fatty acid",
       ],
-      answer: "Basic amino acid",
+      answer: 0,
     },
   
     {
+      id: "biomolecules-073",
       question: "What structure holds sister chromatids together?",
       options: [
         "Gene",
@@ -839,10 +777,11 @@ export const biologicalMoleculesQuestions = [
         "Centromere",
         "Histone protein",
       ],
-      answer: "Centromere",
+      answer: 3,
     },
   
     {
+      id: "biomolecules-074",
       question:
         "Each helix of DNA is made up of four types of nucleotides and both helices are complementary to each other i.e. if one helix contains Adenine the opposite helix will contain:",
       options: [
@@ -852,21 +791,18 @@ export const biologicalMoleculesQuestions = [
         "Thymine",
         "Guanine",
       ],
-      answer: "Thymine",
+      answer: 3,
     },
   
     {
+      id: "biomolecules-075",
       question: "Sugarcane contains __.",
-      options: [
-        "Fructose",
-        "Glucose",
-        "Ribose",
-        "Sucrose",
-      ],
-      answer: "Sucrose",
+      options: ["Fructose", "Glucose", "Ribose", "Sucrose"],
+      answer: 3,
     },
   
     {
+      id: "biomolecules-076",
       question: "Sickle cell anaemia results from?",
       options: [
         "Reduction in oxygen carrying capacity of haemoglobin",
@@ -874,10 +810,11 @@ export const biologicalMoleculesQuestions = [
         "Single amino acid substitution in the haemoglobin molecule",
         "Viral infections of RNA viruses",
       ],
-      answer: "Single amino acid substitution in the haemoglobin molecule",
+      answer: 2,
     },
   
     {
+      id: "biomolecules-077",
       question: "Which is INCORRECT about the globular proteins?",
       options: [
         "Abundantly found in hair",
@@ -885,32 +822,25 @@ export const biologicalMoleculesQuestions = [
         "Have polypeptide chains",
         "Soluble in water",
       ],
-      answer: "Abundantly found in hair",
+      answer: 0,
     },
   
     {
+      id: "biomolecules-078",
       question: "What is the ester of fatty acids and long chain alcohol called?",
-      options: [
-        "Acylglycerol",
-        "Glycerol",
-        "Phospholipid",
-        "Wax",
-      ],
-      answer: "Wax",
+      options: ["Acylglycerol", "Glycerol", "Phospholipid", "Wax"],
+      answer: 3,
     },
   
     {
+      id: "biomolecules-079",
       question: "Lipids, which do not contain fatty acid are:",
-      options: [
-        "Neutral lipids",
-        "Phosphatidic acids",
-        "Steroids",
-        "Waxes",
-      ],
-      answer: "Steroids",
+      options: ["Neutral lipids", "Phosphatidic acids", "Steroids", "Waxes"],
+      answer: 2,
     },
   
     {
+      id: "biomolecules-080",
       question: "Chromosome is typically made up from a combination of?",
       options: [
         "DNA and protein",
@@ -918,21 +848,18 @@ export const biologicalMoleculesQuestions = [
         "RNA and lipids",
         "RNA and proteins",
       ],
-      answer: "DNA and protein",
+      answer: 0,
     },
   
     {
+      id: "biomolecules-081",
       question: "RNA is associated with:",
-      options: [
-        "Lysosome",
-        "Centrosome",
-        "Ribosomes",
-        "Golgi bodies",
-      ],
-      answer: "Ribosomes",
+      options: ["Lysosome", "Centrosome", "Ribosomes", "Golgi bodies"],
+      answer: 2,
     },
   
     {
+      id: "biomolecules-082",
       question: "The hereditary material is:",
       options: [
         "DNA",
@@ -940,43 +867,38 @@ export const biologicalMoleculesQuestions = [
         "Both DNA and Protein",
         "Neither DNA nor Protein",
       ],
-      answer: "DNA",
+      answer: 0,
     },
   
     {
+      id: "biomolecules-083",
       question: "Ribose is an example of __ sugar.",
-      options: [
-        "Pentose",
-        "Hexose",
-        "Heptose",
-        "Tetrose",
-      ],
-      answer: "Pentose",
+      options: ["Pentose", "Hexose", "Heptose", "Tetrose"],
+      answer: 0,
     },
   
     {
+      id: "biomolecules-084",
       question: "Water contributes _ % of total mammalian cell weight.",
-      options: [
-        "40",
-        "50",
-        "60",
-        "70",
-      ],
-      answer: "70",
+      options: ["40", "50", "60", "70"],
+      answer: 3,
     },
   
     {
-      question: "The first step of central dogma is the transfer of information from:",
+      id: "biomolecules-085",
+      question:
+        "The first step of central dogma is the transfer of information from:",
       options: [
         "DNA to Protein",
         "DNA to mRNA",
         "RNA to Protein",
         "DNA to tRNA",
       ],
-      answer: "DNA to mRNA",
+      answer: 1,
     },
   
     {
+      id: "biomolecules-086",
       question:
         "Lactose, maltose and sucrose are the important type of following carbohydrates in the living organisms:",
       options: [
@@ -985,22 +907,19 @@ export const biologicalMoleculesQuestions = [
         "Triaccharides",
         "Polysaccharides",
       ],
-      answer: "Disaccharides",
+      answer: 1,
     },
   
     {
+      id: "biomolecules-087",
       question:
         "If the sequence of bases in DNA is TAGC, the sequence of bases in RNA will be:",
-      options: [
-        "ATCG",
-        "AUCG",
-        "TAGC",
-        "None of these",
-      ],
-      answer: "AUCG",
+      options: ["ATCG", "AUCG", "TAGC", "None of these"],
+      answer: 1,
     },
   
     {
+      id: "biomolecules-088",
       question: "Mono-saccharides have a general formula represented by:",
       options: [
         "Cₙ(H₂O)ₙ",
@@ -1008,75 +927,51 @@ export const biologicalMoleculesQuestions = [
         "C₂(H₂O)ₙ",
         "Cⁿ(H₂O)ₙ",
       ],
-      answer: "Cₙ(H₂O)ₙ",
+      answer: 0,
     },
   
     {
+      id: "biomolecules-089",
       question: "What is the percentage of H₂O in bone cells?",
-      options: [
-        "70%",
-        "20%",
-        "99%",
-        "60%",
-      ],
-      answer: "20%",
+      options: ["70%", "20%", "99%", "60%"],
+      answer: 1,
     },
   
     {
+      id: "biomolecules-090",
       question:
         "When glycerol reacts with fatty acid, which type of chemical bond will form?",
-      options: [
-        "Ester Bond",
-        "Ether Linkage",
-        "Hydrogen Bond",
-        "Ionic Bond",
-      ],
-      answer: "Ester Bond",
+      options: ["Ester Bond", "Ether Linkage", "Hydrogen Bond", "Ionic Bond"],
+      answer: 0,
     },
   
     {
+      id: "biomolecules-091",
       question: "Polysaccharides in plants are synthesized by the process of:",
-      options: [
-        "Hydrolysis",
-        "Oxidation",
-        "Condensation",
-        "Glycolysis",
-      ],
-      answer: "Condensation",
+      options: ["Hydrolysis", "Oxidation", "Condensation", "Glycolysis"],
+      answer: 2,
     },
   
     {
+      id: "biomolecules-092",
       question:
         "Which of the following process is involved in breakdown of protein into Amino acids?",
-      options: [
-        "Condensation",
-        "Hydrolysis",
-        "Glycolysis",
-        "Fixation",
-      ],
-      answer: "Hydrolysis",
+      options: ["Condensation", "Hydrolysis", "Glycolysis", "Fixation"],
+      answer: 1,
     },
   
     {
+      id: "biomolecules-093",
       question:
         "The hydrophilic end of phospholipid molecule is polar because of the presence of:",
-      options: [
-        "Glycerol",
-        "Amine group",
-        "Fatty Acid",
-        "Phosphate group",
-      ],
-      answer: "Phosphate group",
+      options: ["Glycerol", "Amine group", "Fatty Acid", "Phosphate group"],
+      answer: 3,
     },
   
     {
+      id: "biomolecules-094",
       question: "Which monosaccharide will form a glucopyranose ring in solution?",
-      options: [
-        "Fructose",
-        "Glucose",
-        "Ribose",
-        "Deoxyribose",
-      ],
-      answer: "Glucose",
+      options: ["Fructose", "Glucose", "Ribose", "Deoxyribose"],
+      answer: 1,
     },
-  ]
+  ];
