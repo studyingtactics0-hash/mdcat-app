@@ -52,9 +52,12 @@ export default function TestsPage() {
                 Practice Biology MCQs chapter by chapter.
               </p>
   
-              <button className="mt-6 w-full bg-[#ff9800] hover:bg-[#e38000] text-[#0b1e39] font-bold py-3 rounded-xl transition">
-                View Biology Tests
-              </button>
+              <a
+  href="/tests/Biology"
+  className="mt-6 w-full bg-[#ff9800] hover:bg-[#e38000] text-[#0b1e39] font-bold py-3 rounded-xl transition block text-center"
+>
+  View Biology Tests
+              </a>
             </div>
   
             {/* CHEMISTRY */}
