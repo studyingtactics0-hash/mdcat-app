@@ -1,46 +1,46 @@
 export default function EnzymesPage() {
-    const tests = [
-      {
-        title: "Enzymes — Test 1",
-        questions: 20,
-        time: 20,
-        difficulty: "Basic",
-        available: false,
-        link: "#",
-      },
-      {
-        title: "Enzymes — Test 2",
-        questions: 35,
-        time: 35,
-        difficulty: "Moderate",
-        available: false,
-        link: "#",
-      },
-      {
-        title: "Enzymes — Test 3",
-        questions: 50,
-        time: 50,
-        difficulty: "MDCAT",
-        available: false,
-        link: "#",
-      },
-      {
-        title: "Enzymes — Test 4",
-        questions: 50,
-        time: 50,
-        difficulty: "MDCAT",
-        available: false,
-        link: "#",
-      },
-      {
-        title: "Enzymes — Test 5",
-        questions: 50,
-        time: 50,
-        difficulty: "MDCAT",
-        available: false,
-        link: "#",
-      },
-    ];
+  const tests = [
+    {
+      title: "Enzymes — Test 1",
+      questions: 20,
+      time: 20,
+      difficulty: "Basic",
+      available: true,
+      link: "/tests/Biology/enzymes/test-1",
+    },
+    {
+      title: "Enzymes — Test 2",
+      questions: 35,
+      time: 35,
+      difficulty: "Moderate",
+      available: true,
+      link: "/tests/Biology/enzymes/test-2",
+    },
+    {
+      title: "Enzymes — Test 3",
+      questions: 42,
+      time: 42,
+      difficulty: "MDCAT",
+      available: true,
+      link: "/tests/Biology/enzymes/test-3",
+    },
+    {
+      title: "Enzymes — Test 4",
+      questions: 42,
+      time: 42,
+      difficulty: "MDCAT",
+      available: true,
+      link: "/tests/Biology/enzymes/test-4",
+    },
+    {
+      title: "Enzymes — Test 5",
+      questions: 42,
+      time: 42,
+      difficulty: "MDCAT",
+      available: true,
+      link: "/tests/Biology/enzymes/test-5",
+    },
+  ];
   
     return (
       <main className="min-h-screen bg-[#0b1e39] text-white">
@@ -113,9 +113,9 @@ export default function EnzymesPage() {
                       {test.difficulty}
                     </span>
   
-                    <span className="bg-zinc-200 text-zinc-600 rounded-full px-3 py-1 text-xs font-bold">
-                      COMING SOON
-                    </span>
+                    <span className="bg-[#e8f5e9] text-green-700 rounded-full px-3 py-1 text-xs font-bold">
+  AVAILABLE
+</span>
   
                   </div>
   
@@ -138,12 +138,12 @@ export default function EnzymesPage() {
                 </div>
   
                 {/* ACTION BUTTON */}
-                <button
-                  disabled
-                  className="bg-zinc-200 text-zinc-500 font-bold px-7 py-3 rounded-xl whitespace-nowrap cursor-not-allowed"
-                >
-                  Coming Soon
-                </button>
+                <a
+  href={test.link}
+  className="bg-[#0b1e39] hover:bg-[#13294b] text-white font-bold px-7 py-3 rounded-xl whitespace-nowrap transition text-center"
+>
+  Start Test
+</a>
   
               </div>
   

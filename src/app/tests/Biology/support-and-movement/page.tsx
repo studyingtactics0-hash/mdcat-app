@@ -1,36 +1,46 @@
 export default function SupportAndMovementPage() {
-    const tests = [
-      {
-        title: "Support and Movement — Test 1",
-        questions: 20,
-        time: 20,
-        difficulty: "Basic",
-      },
-      {
-        title: "Support and Movement — Test 2",
-        questions: 35,
-        time: 35,
-        difficulty: "Moderate",
-      },
-      {
-        title: "Support and Movement — Test 3",
-        questions: 50,
-        time: 50,
-        difficulty: "MDCAT",
-      },
-      {
-        title: "Support and Movement — Test 4",
-        questions: 50,
-        time: 50,
-        difficulty: "MDCAT",
-      },
-      {
-        title: "Support and Movement — Test 5",
-        questions: 50,
-        time: 50,
-        difficulty: "MDCAT",
-      },
-    ];
+  const tests = [
+    {
+      title: "Support and Movement — Test 1",
+      questions: 20,
+      time: 20,
+      difficulty: "Basic",
+      available: true,
+      link: "/tests/Biology/support-and-movement/test-1",
+    },
+    {
+      title: "Support and Movement — Test 2",
+      questions: 35,
+      time: 35,
+      difficulty: "Moderate",
+      available: true,
+      link: "/tests/Biology/support-and-movement/test-2",
+    },
+    {
+      title: "Support and Movement — Test 3",
+      questions: 50,
+      time: 50,
+      difficulty: "MDCAT",
+      available: true,
+      link: "/tests/Biology/support-and-movement/test-3",
+    },
+    {
+      title: "Support and Movement — Test 4",
+      questions: 50,
+      time: 50,
+      difficulty: "MDCAT",
+      available: true,
+      link: "/tests/Biology/support-and-movement/test-4",
+    },
+    {
+      title: "Support and Movement — Test 5",
+      questions: 50,
+      time: 50,
+      difficulty: "MDCAT",
+      available: true,
+      link: "/tests/Biology/support-and-movement/test-5",
+    },
+  ];
   
     return (
       <main className="min-h-screen bg-[#0b1e39] text-white">
@@ -102,10 +112,7 @@ export default function SupportAndMovementPage() {
                     <span className="bg-[#fff3e0] text-[#e38000] rounded-full px-3 py-1 text-xs font-bold">
                       {test.difficulty}
                     </span>
-  
-                    <span className="bg-zinc-200 text-zinc-600 rounded-full px-3 py-1 text-xs font-bold">
-                      COMING SOON
-                    </span>
+
   
                   </div>
   
@@ -128,12 +135,12 @@ export default function SupportAndMovementPage() {
                 </div>
   
                 {/* ACTION BUTTON */}
-                <button
-                  disabled
-                  className="bg-zinc-200 text-zinc-500 font-bold px-7 py-3 rounded-xl whitespace-nowrap cursor-not-allowed"
-                >
-                  Coming Soon
-                </button>
+                <a
+  href={test.link}
+  className="bg-[#0b1e39] hover:bg-[#13294b] text-white font-bold px-7 py-3 rounded-xl whitespace-nowrap transition text-center"
+>
+  Start Test
+</a>
   
               </div>
   
