@@ -1,5 +1,69 @@
+"use client";
+
+import { useEffect, useState } from "react";
+
 export default function TestsPage() {
-    return (
+
+  const [timeLeft, setTimeLeft] = useState({
+    days: 0,
+    hours: 0,
+    minutes: 0,
+    seconds: 0,
+  });
+
+  const [isLive, setIsLive] = useState(false);
+
+  useEffect(() => {
+    const targetDate = new Date(
+      "2026-08-22T00:00:00+05:00"
+    ).getTime();
+
+    const updateCountdown = () => {
+      const now = new Date().getTime();
+      const difference = targetDate - now;
+
+      if (difference <= 0) {
+        setIsLive(true);
+
+        setTimeLeft({
+          days: 0,
+          hours: 0,
+          minutes: 0,
+          seconds: 0,
+        });
+
+        return;
+      }
+
+      setIsLive(false);
+
+      setTimeLeft({
+        days: Math.floor(
+          difference / (1000 * 60 * 60 * 24)
+        ),
+
+        hours: Math.floor(
+          (difference / (1000 * 60 * 60)) % 24
+        ),
+
+        minutes: Math.floor(
+          (difference / (1000 * 60)) % 60
+        ),
+
+        seconds: Math.floor(
+          (difference / 1000) % 60
+        ),
+      });
+    };
+
+    updateCountdown();
+
+    const interval = setInterval(updateCountdown, 1000);
+
+    return () => clearInterval(interval);
+  }, []);
+
+  return (
       <main className="min-h-screen bg-[#0b1e39] text-white">
         {/* HEADER */}
         <header className="border-b border-[#172d4f]">
@@ -129,24 +193,93 @@ export default function TestsPage() {
             </div>
   
             {/* FULL MOCK */}
-            <div className="bg-[#ff9800] rounded-2xl p-7 text-[#0b1e39] shadow-lg">
-              <div className="text-4xl mb-4">🏆</div>
-  
-              <h2 className="text-2xl font-black">
-                Full MDCAT Mock
-              </h2>
-  
-              <p className="mt-2 font-medium">
-                Simulate the real MDCAT experience with a complete mock test.
-              </p>
-  
-              <a
-  href="/tests/mock-test-1"
-  className="mt-6 w-full bg-[#0b1e39] hover:bg-[#13294b] text-white font-bold py-3 rounded-xl transition block text-center"
->
-  Start Full Mock
-</a>
-            </div>
+<div className="bg-[#ff9800] rounded-2xl p-7 text-[#0b1e39] shadow-lg">
+
+<div className="text-4xl mb-4">🏆</div>
+
+<h2 className="text-2xl font-black">
+  Full MDCAT Mock
+</h2>
+
+<p className="mt-2 font-medium">
+  Simulate the real MDCAT experience with a complete mock test.
+</p>
+
+{!isLive ? (
+  <div className="mt-5">
+
+    <div className="font-semibold text-sm mb-2">
+      Test starts in:
+    </div>
+
+    <div className="grid grid-cols-4 gap-2 text-center">
+
+      <div className="bg-[#0b1e39] text-white rounded-lg px-2 py-2">
+        <div className="text-lg font-bold">
+          {timeLeft.days}
+        </div>
+        <div className="text-xs">
+          Days
+        </div>
+      </div>
+
+      <div className="bg-[#0b1e39] text-white rounded-lg px-2 py-2">
+        <div className="text-lg font-bold">
+          {timeLeft.hours}
+        </div>
+        <div className="text-xs">
+          Hours
+        </div>
+      </div>
+
+      <div className="bg-[#0b1e39] text-white rounded-lg px-2 py-2">
+        <div className="text-lg font-bold">
+          {timeLeft.minutes}
+        </div>
+        <div className="text-xs">
+          Min
+        </div>
+      </div>
+
+      <div className="bg-[#0b1e39] text-white rounded-lg px-2 py-2">
+        <div className="text-lg font-bold">
+          {timeLeft.seconds}
+        </div>
+        <div className="text-xs">
+          Sec
+        </div>
+      </div>
+
+    </div>
+
+    <button
+      disabled
+      className="mt-5 w-full bg-gray-300 text-gray-500 font-bold py-3 rounded-xl cursor-not-allowed"
+    >
+      Test Locked
+    </button>
+
+  </div>
+) : (
+
+  <div className="mt-5">
+
+    <div className="text-green-700 font-bold text-lg mb-3">
+      Test is LIVE
+    </div>
+
+    <a
+      href="/tests/mock-test-1"
+      className="w-full bg-[#0b1e39] hover:bg-[#13294b] text-white font-bold py-3 rounded-xl transition block text-center"
+    >
+      Start Full Mock
+    </a>
+
+  </div>
+
+)}
+
+</div>
   
           </div>
         </section>

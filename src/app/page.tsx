@@ -5,6 +5,55 @@ import { useRouter } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
 
 export default function Home() {
+  const [timeLeft, setTimeLeft] = useState({
+    days: 0,
+    hours: 0,
+    minutes: 0,
+    seconds: 0,
+  });
+  
+  const [isLive, setIsLive] = useState(false);
+  
+  useEffect(() => {
+    const targetDate = new Date("2026-08-22T00:00:00+05:00").getTime();
+  
+    const updateCountdown = () => {
+      const now = new Date().getTime();
+      const difference = targetDate - now;
+  
+      if (difference <= 0) {
+        setIsLive(true);
+        setTimeLeft({
+          days: 0,
+          hours: 0,
+          minutes: 0,
+          seconds: 0,
+        });
+        return;
+      }
+  
+      setIsLive(false);
+  
+      setTimeLeft({
+        days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+        hours: Math.floor(
+          (difference / (1000 * 60 * 60)) % 24
+        ),
+        minutes: Math.floor(
+          (difference / (1000 * 60)) % 60
+        ),
+        seconds: Math.floor(
+          (difference / 1000) % 60
+        ),
+      });
+    };
+  
+    updateCountdown();
+  
+    const interval = setInterval(updateCountdown, 1000);
+  
+    return () => clearInterval(interval);
+  }, []);
   const router = useRouter();
   const supabase = createClient();
 
@@ -14,6 +63,7 @@ export default function Home() {
     averageScore: 0,
     questionsSolved: 0,
     currentStreak: 0,
+    
   });
   useEffect(() => {
     async function getStatistics(userId: string) {
@@ -442,13 +492,64 @@ export default function Home() {
                 <span>•</span>
                 <span className="ml-4">50 Minutes</span>
               </div>
+              {isLive ? (
+  <div className="mt-3 text-green-600 font-bold text-lg">
+    Test is LIVE
+  </div>
+) : (
+  <div className="mt-3">
+    <div className="text-[#0b1e39] font-semibold text-sm mb-1">
+      Test starts in:
+    </div>
+
+    <div className="flex gap-2 text-center">
+      <div className="bg-[#0b1e39] text-white rounded-lg px-3 py-2">
+        <div className="text-lg font-bold">
+          {timeLeft.days}
+        </div>
+        <div className="text-xs">Days</div>
+      </div>
+
+      <div className="bg-[#0b1e39] text-white rounded-lg px-3 py-2">
+        <div className="text-lg font-bold">
+          {timeLeft.hours}
+        </div>
+        <div className="text-xs">Hours</div>
+      </div>
+
+      <div className="bg-[#0b1e39] text-white rounded-lg px-3 py-2">
+        <div className="text-lg font-bold">
+          {timeLeft.minutes}
+        </div>
+        <div className="text-xs">Min</div>
+      </div>
+
+      <div className="bg-[#0b1e39] text-white rounded-lg px-3 py-2">
+        <div className="text-lg font-bold">
+          {timeLeft.seconds}
+        </div>
+        <div className="text-xs">Sec</div>
+      </div>
+    </div>
+  </div>
+)}
+
             </div>
-            <a
-              href="#tests"
-              className="mt-5 md:mt-0 md:ml-8 bg-[#ff9800] hover:bg-[#e38000] text-[#0b1e39] font-semibold px-7 py-2 rounded-full shadow transition duration-150 whitespace-nowrap"
-            >
-              View Test
-            </a>
+            {isLive ? (
+  <a
+    href="/tests/mock-test-1"
+    className="mt-5 md:mt-0 md:ml-8 bg-[#ff9800] hover:bg-[#e38000] text-[#0b1e39] font-semibold px-7 py-2 rounded-full shadow transition duration-150 whitespace-nowrap"
+  >
+    Start Test
+  </a>
+) : (
+  <button
+    disabled
+    className="mt-5 md:mt-0 md:ml-8 bg-gray-300 text-gray-500 font-semibold px-7 py-2 rounded-full shadow cursor-not-allowed whitespace-nowrap"
+  >
+    Test Locked
+  </button>
+)}
           </div>
         </section>
 
