@@ -15,6 +15,7 @@ type TestEngineProps = {
   subject: string;
   chapter: string;
   timeLimit: number;
+  shuffleBySubject?: boolean;
 
   // Optional:
   // If provided, a random selection of this many questions
@@ -39,13 +40,55 @@ function shuffleArray<T>(array: T[]): T[] {
 
 function prepareQuestions(
   questionBank: Question[],
-  questionCount?: number
+  questionCount?: number,
+  shuffleBySubject: boolean = false
 ): Question[] {
-  const selectedQuestions =
-    questionCount &&
-    questionCount < questionBank.length
-      ? shuffleArray(questionBank).slice(0, questionCount)
-      : shuffleArray(questionBank);
+  let selectedQuestions: Question[];
+
+  if (shuffleBySubject) {
+    // Keep subjects in their original order,
+    // but shuffle questions within each subject.
+
+    // For the 180-question MDCAT mock test:
+    // Biology = 81
+    // Chemistry = 45
+    // Physics = 36
+    // English = 9
+    // Logical Reasoning = 9
+
+    const biology = questionBank.slice(0, 81);
+    const chemistry = questionBank.slice(81, 126);
+    const physics = questionBank.slice(126, 162);
+    const english = questionBank.slice(162, 171);
+    const logicalReasoning = questionBank.slice(171, 180);
+
+    selectedQuestions = [
+      ...shuffleArray(biology),
+      ...shuffleArray(chemistry),
+      ...shuffleArray(physics),
+      ...shuffleArray(english),
+      ...shuffleArray(logicalReasoning),
+    ];
+
+    // If questionCount is provided, take the requested number
+    // without changing the subject order.
+    if (
+      questionCount &&
+      questionCount < selectedQuestions.length
+    ) {
+      selectedQuestions = selectedQuestions.slice(
+        0,
+        questionCount
+      );
+    }
+  } else {
+    // Existing behavior for all normal chapter tests.
+    selectedQuestions =
+      questionCount &&
+      questionCount < questionBank.length
+        ? shuffleArray(questionBank).slice(0, questionCount)
+        : shuffleArray(questionBank);
+  }
 
   return selectedQuestions.map((question) => {
     const optionsWithAnswers = question.options.map(
@@ -55,16 +98,15 @@ function prepareQuestions(
       })
     );
 
+    // Options are still shuffled for every test.
     const shuffledOptions =
       shuffleArray(optionsWithAnswers);
 
     return {
       question: question.question,
-
       options: shuffledOptions.map(
         (item) => item.option
       ),
-
       answer: shuffledOptions.findIndex(
         (item) => item.isCorrect
       ),
@@ -79,6 +121,7 @@ export default function TestEngine({
   chapter,
   timeLimit,
   questionCount,
+  shuffleBySubject = false
 }: TestEngineProps) {
   const supabase = createClient();
   const resultSaved = useRef(false);
@@ -100,14 +143,19 @@ useEffect(() => {
    */
   const [questions, setQuestions] = useState<Question[]>([]);
 
-useEffect(() => {
-  setQuestions(
-    prepareQuestions(
-      questionBank,
-      questionCount
-    )
-  );
-}, [questionBank, questionCount]);
+  useEffect(() => {
+    setQuestions(
+      prepareQuestions(
+        questionBank,
+        questionCount,
+        shuffleBySubject
+      )
+    );
+  }, [
+    questionBank,
+    questionCount,
+    shuffleBySubject,
+  ]);
 
   const [currentQuestion, setCurrentQuestion] =
     useState(0);

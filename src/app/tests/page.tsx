@@ -140,9 +140,12 @@ export default function TestsPage() {
                 Simulate the real MDCAT experience with a complete mock test.
               </p>
   
-              <button className="mt-6 w-full bg-[#0b1e39] hover:bg-[#13294b] text-white font-bold py-3 rounded-xl transition">
-                Start Full Mock
-              </button>
+              <a
+  href="/tests/mock-test-1"
+  className="mt-6 w-full bg-[#0b1e39] hover:bg-[#13294b] text-white font-bold py-3 rounded-xl transition block text-center"
+>
+  Start Full Mock
+</a>
             </div>
   
           </div>
