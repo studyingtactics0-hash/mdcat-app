@@ -9,7 +9,7 @@ export default function ReproductionTest3Page() {
       questions={reproductionQuestions}
       title="Reproduction Test 3"
       subject="Biology"
-      chapter="Reproduction"
+      chapter="reproduction"
       timeLimit={50}
       questionCount={50}
     />

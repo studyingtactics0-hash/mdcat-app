@@ -15,7 +15,6 @@ type TestEngineProps = {
   subject: string;
   chapter: string;
   timeLimit: number;
-  backUrl: string;
 
   // Optional:
   // If provided, a random selection of this many questions

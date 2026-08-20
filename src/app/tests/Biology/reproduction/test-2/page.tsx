@@ -10,7 +10,7 @@ export default function ReproductionTest2Page() {
       questions={reproductionQuestions}
       title="Reproduction Test 2"
       subject="Biology"
-      chapter="Reproduction"
+      chapter="reproduction"
       timeLimit={35}
       questionCount={35}
     />
