@@ -15,6 +15,32 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "STUDYING TACTICS",
   description: "WHERE WE GROW TOGETHER",
+
+  icons: {
+    icon: "/logo.jpg",
+    shortcut: "/logo.jpg",
+    apple: "/logo.jpg",
+  },
+
+  openGraph: {
+    title: "STUDYING TACTICS",
+    description: "WHERE WE GROW TOGETHER",
+    images: [
+      {
+        url: "/logo.jpg",
+        width: 512,
+        height: 512,
+        alt: "STUDYING TACTICS",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary",
+    title: "STUDYING TACTICS",
+    description: "WHERE WE GROW TOGETHER",
+    images: ["/logo.jpg"],
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
