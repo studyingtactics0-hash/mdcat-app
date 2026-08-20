@@ -1,4 +1,35 @@
+"use client";
+
+import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
+import { createClient } from "@/lib/supabase/client";
+
 export default function Home() {
+  const router = useRouter();
+  const supabase = createClient();
+
+  const [user, setUser] = useState<any>(null);
+  useEffect(() => {
+    async function getUser() {
+      const {
+        data: { user },
+      } = await supabase.auth.getUser();
+
+      setUser(user);
+    }
+
+    getUser();
+
+    const {
+      data: { subscription },
+    } = supabase.auth.onAuthStateChange((_event, session) => {
+      setUser(session?.user ?? null);
+    });
+
+    return () => {
+      subscription.unsubscribe();
+    };
+  }, []);
   return (
     <div className="min-h-screen flex flex-col bg-[#0b1e39] font-sans">
       {/* NAVIGATION */}
@@ -52,10 +83,26 @@ export default function Home() {
               </a>
             </li>
             <li>
-              <button className="ml-4 bg-[#ff9800] hover:bg-[#e38000] text-[#0b1e39] transition-colors font-semibold px-5 py-2 rounded-full shadow">
-                Login
-              </button>
-            </li>
+  {user ? (
+    <button
+      onClick={async () => {
+        await supabase.auth.signOut();
+        setUser(null);
+        router.refresh();
+      }}
+      className="ml-4 bg-[#ff9800] hover:bg-[#e38000] text-[#0b1e39] transition-colors font-semibold px-5 py-2 rounded-full shadow"
+    >
+      Logout
+    </button>
+  ) : (
+    <button
+      onClick={() => router.push("/login")}
+      className="ml-4 bg-[#ff9800] hover:bg-[#e38000] text-[#0b1e39] transition-colors font-semibold px-5 py-2 rounded-full shadow"
+    >
+      Login
+    </button>
+  )}
+</li>
           </ul>
           {/* Mobile Nav Toggle */}
           <div className="md:hidden flex items-center">
@@ -118,10 +165,26 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                <button className="mt-4 w-full bg-[#ff9800] hover:bg-[#e38000] text-[#0b1e39] font-semibold py-2 rounded-full shadow">
-                  Login
-                </button>
-              </li>
+  {user ? (
+    <button
+      onClick={async () => {
+        await supabase.auth.signOut();
+        setUser(null);
+        router.refresh();
+      }}
+      className="mt-4 w-full bg-[#ff9800] hover:bg-[#e38000] text-[#0b1e39] font-semibold py-2 rounded-full shadow"
+    >
+      Logout
+    </button>
+  ) : (
+    <button
+      onClick={() => router.push("/login")}
+      className="mt-4 w-full bg-[#ff9800] hover:bg-[#e38000] text-[#0b1e39] font-semibold py-2 rounded-full shadow"
+    >
+      Login
+    </button>
+  )}
+</li>
             </ul>
           </div>
         </nav>
