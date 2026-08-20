@@ -12,7 +12,9 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+
 export const metadata: Metadata = {
+  metadataBase: new URL("https://mdcat-app-alpha.vercel.app"),
   title: "STUDYING TACTICS",
   description: "WHERE WE GROW TOGETHER",
 
