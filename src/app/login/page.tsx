@@ -9,9 +9,20 @@ export default function LoginPage() {
   const supabase = createClient();
   useEffect(() => {
     console.log("Supabase URL:", process.env.NEXT_PUBLIC_SUPABASE_URL);
+  
     console.log(
       "Supabase publishable key exists:",
       !!process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY
+    );
+  
+    console.log(
+      "Supabase key length:",
+      process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY?.length
+    );
+  
+    console.log(
+      "Supabase key has whitespace:",
+      /\s/.test(process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY || "")
     );
   }, []);
 
