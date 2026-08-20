@@ -39,13 +39,16 @@ export default function LoginPage() {
     setMessage("");
 
     if (isSignup) {
-      const { error } = await supabase.auth.signUp({
+      const { data, error } = await supabase.auth.signUp({
         email,
         password,
       });
-
+    
+      console.log("SIGNUP DATA:", data);
+      console.log("SIGNUP ERROR:", error);
+    
       if (error) {
-        setMessage(error.message);
+        setMessage(`Signup error: ${error.message}`);
       } else {
         setMessage(
           "Account created successfully. Please check your email if confirmation is required."
@@ -60,8 +63,7 @@ export default function LoginPage() {
       if (error) {
         setMessage(error.message);
       } else {
-        router.push("/");
-        router.refresh();
+        window.location.href = "/";
       }
     }
 

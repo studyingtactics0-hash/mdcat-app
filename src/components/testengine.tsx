@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
+import { createClient } from "@/lib/supabase/client";
 
 type Question = {
   question: string;
@@ -79,6 +80,8 @@ export default function TestEngine({
   timeLimit,
   questionCount,
 }: TestEngineProps) {
+  const supabase = createClient();
+  const resultSaved = useRef(false);
   const [mounted, setMounted] = useState(false);
 
 useEffect(() => {
@@ -140,7 +143,12 @@ useEffect(() => {
     if (submitted) return;
 
     if (timeLeft <= 0) {
-      setSubmitted(true);
+      const saveAndSubmit = async () => {
+        await saveTestResult();
+        setSubmitted(true);
+      };
+    
+      saveAndSubmit();
       return;
     }
 
@@ -173,14 +181,58 @@ useEffect(() => {
       (score, question, index) => {
         return (
           score +
-          (selectedAnswers[index] ===
-          question.answer
+          (selectedAnswers[index] === question.answer
             ? 1
             : 0)
         );
       },
       0
     );
+  };
+  
+  const saveTestResult = async () => {
+    if (resultSaved.current) return;
+  
+    resultSaved.current = true;
+  
+    const {
+      data: { user },
+    } = await supabase.auth.getUser();
+  
+    if (!user) {
+      console.error("No logged-in user. Test result not saved.");
+      resultSaved.current = false;
+      return;
+    }
+  
+    const correctAnswers = calculateScore();
+    const totalQuestions = questions.length;
+  
+    const scorePercentage =
+      totalQuestions > 0
+        ? Math.round((correctAnswers / totalQuestions) * 100)
+        : 0;
+  
+    const { error } = await supabase
+      .from("test_results")
+      .insert({
+        user_id: user.id,
+        test_title: title,
+        subject: subject,
+        chapter: chapter,
+        total_questions: totalQuestions,
+        correct_answers: correctAnswers,
+        "score_percentage": scorePercentage,
+      });
+  
+      if (error) {
+        console.error("SUPABASE TEST RESULT ERROR:", error);
+        alert(`Supabase error: ${error.message}`);
+        resultSaved.current = false;
+      } else {
+        console.log("Test result saved successfully.");
+        alert("Test result saved successfully!");
+      }
   };
 
   const calculateUnanswered = () => {
@@ -701,17 +753,14 @@ useEffect(() => {
               ) : (
 
                 <button
-                  onClick={() => {
-
-                    if (unanswered > 0) {
-                      setShowSubmitWarning(
-                        true
-                      );
-                    } else {
-                      setSubmitted(true);
-                    }
-
-                  }}
+                onClick={async () => {
+                  if (unanswered > 0) {
+                    setShowSubmitWarning(true);
+                  } else {
+                    await saveTestResult();
+                    setSubmitted(true);
+                  }
+                }}
                   className="px-7 py-3 rounded-xl font-bold bg-[#ff9800] text-[#0b1e39]"
                 >
                   Submit Test
@@ -810,24 +859,22 @@ useEffect(() => {
             <div className="flex gap-3 mt-6">
 
               <button
-                onClick={() =>
-                  setShowSubmitWarning(false)
-                }
+                onClick={async () => {
+                  setShowSubmitWarning(false);
+                  await saveTestResult();
+                  setSubmitted(true);
+                }}
                 className="flex-1 bg-[#e9ecef] py-3 rounded-xl font-bold"
               >
                 Go Back
               </button>
 
               <button
-                onClick={() => {
-
-                  setShowSubmitWarning(
-                    false
-                  );
-
-                  setSubmitted(true);
-
-                }}
+  onClick={async () => {
+    setShowSubmitWarning(false);
+    await saveTestResult();
+    setSubmitted(true);
+  }}
                 className="flex-1 bg-[#ff9800] py-3 rounded-xl font-bold"
               >
                 Submit
