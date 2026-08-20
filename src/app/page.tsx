@@ -9,13 +9,98 @@ export default function Home() {
   const supabase = createClient();
 
   const [user, setUser] = useState<any>(null);
+  const [stats, setStats] = useState({
+    testsAttempted: 0,
+    averageScore: 0,
+    questionsSolved: 0,
+    currentStreak: 0,
+  });
   useEffect(() => {
+    async function getStatistics(userId: string) {
+      const { data, error } = await supabase
+        .from("test_results")
+        .select(
+          "total_questions, score_percentage, completed_at"
+        )
+        .eq("user_id", userId)
+        .order("completed_at", { ascending: false });
+    
+      if (error) {
+        console.error("Error fetching statistics:", error);
+        return;
+      }
+    
+      if (!data || data.length === 0) {
+        setStats({
+          testsAttempted: 0,
+          averageScore: 0,
+          questionsSolved: 0,
+          currentStreak: 0,
+        });
+        return;
+      }
+    
+      const testsAttempted = data.length;
+    
+      const questionsSolved = data.reduce(
+        (total, test) => total + (test.total_questions || 0),
+        0
+      );
+    
+      const averageScore =
+        data.reduce(
+          (total, test) => total + Number(test.score_percentage || 0),
+          0
+        ) / testsAttempted;
+    
+      // Get unique test dates
+      const dates = Array.from(
+        new Set(
+          data.map((test) => {
+            return new Date(test.completed_at)
+              .toISOString()
+              .split("T")[0];
+          })
+        )
+      );
+    
+      let currentStreak = 0;
+    
+      const today = new Date();
+      today.setHours(0, 0, 0, 0);
+    
+      for (let i = 0; i < dates.length; i++) {
+        const expectedDate = new Date(today);
+        expectedDate.setDate(today.getDate() - i);
+    
+        const expectedDateString = expectedDate
+          .toISOString()
+          .split("T")[0];
+    
+        if (dates.includes(expectedDateString)) {
+          currentStreak++;
+        } else {
+          break;
+        }
+      }
+    
+      setStats({
+        testsAttempted,
+        averageScore: Math.round(averageScore),
+        questionsSolved,
+        currentStreak,
+      });
+    }
     async function getUser() {
       const {
         data: { user },
       } = await supabase.auth.getUser();
-
+    
       setUser(user);
+    
+      if (user) {
+        getStatistics(user.id);
+      }
     }
 
     getUser();
@@ -370,27 +455,34 @@ export default function Home() {
         {/* PERFORMANCE SECTION */}
         <section className="container mx-auto px-4 py-10 md:py-14">
           <h2 className="text-2xl md:text-3xl font-bold text-white mb-6 text-center md:text-left">
-            Your Statistics <span className="text-[#ff9800]">(Demo)</span>
+            Your Statistics
           </h2>
           <div className="w-full max-w-4xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-5">
             <div className="bg-white rounded-2xl shadow p-6 flex flex-col items-center">
-              <span className="text-2xl font-bold text-[#0b1e39] mb-1">24</span>
+            <span className="text-2xl font-bold text-[#0b1e39] mb-1">
+  {stats.testsAttempted}
+</span>
               <span className="text-[#576a89] text-sm text-center">Tests Attempted</span>
             </div>
             <div className="bg-white rounded-2xl shadow p-6 flex flex-col items-center">
-              <span className="text-2xl font-bold text-[#0b1e39] mb-1">78%</span>
+            <span className="text-2xl font-bold text-[#0b1e39] mb-1">
+  {stats.averageScore}%
+</span>
               <span className="text-[#576a89] text-sm text-center">Average Score</span>
             </div>
             <div className="bg-white rounded-2xl shadow p-6 flex flex-col items-center">
-              <span className="text-2xl font-bold text-[#0b1e39] mb-1">1,240</span>
+            <span className="text-2xl font-bold text-[#0b1e39] mb-1">
+  {stats.questionsSolved.toLocaleString()}
+</span>
               <span className="text-[#576a89] text-sm text-center">Questions Solved</span>
             </div>
             <div className="bg-white rounded-2xl shadow p-6 flex flex-col items-center">
-              <span className="text-2xl font-bold text-[#0b1e39] mb-1">7 Days</span>
+            <span className="text-2xl font-bold text-[#0b1e39] mb-1">
+  {stats.currentStreak} Days
+</span>
               <span className="text-[#576a89] text-sm text-center">Current Streak</span>
             </div>
           </div>
-          <p className="text-[#cdd6e6] text-xs text-center mt-4 font-semibold">These are sample statistics for demonstration purposes.</p>
         </section>
       </main>
 
