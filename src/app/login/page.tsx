@@ -26,8 +26,9 @@ export default function LoginPage() {
     );
   }, []);
 
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [fullName, setFullName] = useState("");
+const [email, setEmail] = useState("");
+const [password, setPassword] = useState("");
   const [isSignup, setIsSignup] = useState(false);
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState("");
@@ -42,6 +43,11 @@ export default function LoginPage() {
       const { data, error } = await supabase.auth.signUp({
         email,
         password,
+        options: {
+          data: {
+            full_name: fullName,
+          },
+        },
       });
     
       console.log("SIGNUP DATA:", data);
@@ -85,6 +91,22 @@ export default function LoginPage() {
           </p>
 
           <form onSubmit={handleSubmit} className="space-y-5">
+          {isSignup && (
+  <div>
+    <label className="block text-sm font-medium mb-2">
+      Full Name
+    </label>
+
+    <input
+      type="text"
+      required
+      value={fullName}
+      onChange={(e) => setFullName(e.target.value)}
+      placeholder="Enter your full name"
+      className="w-full rounded-lg border px-4 py-3 outline-none"
+    />
+  </div>
+)}
             <div>
               <label className="block text-sm font-medium mb-2">
                 Email
