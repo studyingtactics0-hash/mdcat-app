@@ -261,17 +261,18 @@ useEffect(() => {
         ? Math.round((correctAnswers / totalQuestions) * 100)
         : 0;
   
-    const { error } = await supabase
-      .from("test_results")
-      .insert({
-        user_id: user.id,
-        test_title: title,
-        subject: subject,
-        chapter: chapter,
-        total_questions: totalQuestions,
-        correct_answers: correctAnswers,
-        "score_percentage": scorePercentage,
-      });
+        const { error } = await supabase
+        .from("test_results")
+        .insert({
+          user_id: user.id,
+          student_name: user.user_metadata?.full_name || "Unknown Student",
+          test_title: title,
+          subject: subject,
+          chapter: chapter,
+          total_questions: totalQuestions,
+          correct_answers: correctAnswers,
+          score_percentage: scorePercentage,
+        });
   
       if (error) {
         console.error("SUPABASE TEST RESULT ERROR:", error);
