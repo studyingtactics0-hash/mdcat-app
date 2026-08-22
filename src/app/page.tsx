@@ -427,31 +427,41 @@ export default function Home() {
           </div>
         </section>
 
-        {/* UPCOMING TEST */}
-        <section className="container mx-auto px-4 py-10 md:py-14">
-          <h2 className="text-2xl md:text-3xl font-bold text-white mb-7 text-center md:text-left">
-            Upcoming Test
-          </h2>
-          <div className="max-w-lg mx-auto bg-white rounded-2xl shadow-lg p-7 flex flex-col md:flex-row items-center justify-between border-l-4 border-[#ff9800]">
-            <div className="flex-1">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="inline-block bg-[#e9ecef] rounded-full px-3 py-1 text-[#0b1e39] font-semibold text-sm">Biology</span>
-                <span className="text-zinc-600 font-medium text-base">— Genetics</span>
-              </div>
-              <div className="text-zinc-600 mb-2 text-sm">
-                <span className="mr-4">50 Questions</span>
-                <span>•</span>
-                <span className="ml-4">50 Minutes</span>
-              </div>
-            </div>
-            <a
-  href="/tests/mock-test-1"
-  className="mt-5 md:mt-0 md:ml-8 bg-[#ff9800] hover:bg-[#e38000] text-[#0b1e39] font-semibold px-7 py-2 rounded-full shadow transition duration-150 whitespace-nowrap"
->
-  Start Test
-</a>
-          </div>
-        </section>
+        {/* MOCK TESTS */}
+<section className="container mx-auto px-4 py-10 md:py-14">
+  <h2 className="text-2xl md:text-3xl font-bold text-white mb-7 text-center md:text-left">
+    Mock Tests
+  </h2>
+
+  <div className="max-w-lg mx-auto bg-white rounded-2xl shadow-lg p-7 border-l-4 border-[#ff9800]">
+    <div className="flex items-center gap-3 mb-3">
+      <div className="bg-[#e9ecef] text-[#0b1e39] w-12 h-12 rounded-full flex items-center justify-center text-2xl">
+        📝
+      </div>
+
+      <div>
+        <h3 className="text-xl font-bold text-[#0b1e39]">
+          Full MDCAT Mock Tests
+        </h3>
+
+        <p className="text-zinc-600 text-sm">
+          Practice complete MDCAT-style mock tests
+        </p>
+      </div>
+    </div>
+
+    <p className="text-zinc-600 text-sm mb-5">
+      Test your preparation with full-length mock tests covering the MDCAT syllabus.
+    </p>
+
+    <button
+      onClick={() => router.push("/mock-tests")}
+      className="w-full bg-[#ff9800] hover:bg-[#e38000] text-[#0b1e39] font-semibold px-7 py-3 rounded-full shadow transition duration-150"
+    >
+      View Mock Tests
+    </button>
+  </div>
+</section>
 
         {/* PERFORMANCE SECTION */}
         <section className="container mx-auto px-4 py-10 md:py-14">
