@@ -183,6 +183,21 @@ useEffect(() => {
   const [showReview, setShowReview] =
     useState(false);
 
+    const [showReport, setShowReport] =
+  useState(false);
+
+const [reportType, setReportType] =
+  useState("");
+
+const [reportComment, setReportComment] =
+  useState("");
+
+const [reportSubmitting, setReportSubmitting] =
+  useState(false);
+
+const [reportedQuestions, setReportedQuestions] =
+  useState<number[]>([]);
+
   /* =========================
      TIMER
   ========================= */
@@ -261,27 +276,97 @@ useEffect(() => {
         ? Math.round((correctAnswers / totalQuestions) * 100)
         : 0;
   
-        const { error } = await supabase
-        .from("test_results")
-        .insert({
-          user_id: user.id,
-          student_name: user.user_metadata?.full_name || "Unknown Student",
-          test_title: title,
-          subject: subject,
-          chapter: chapter,
-          total_questions: totalQuestions,
-          correct_answers: correctAnswers,
-          score_percentage: scorePercentage,
-        });
+    const { error } = await supabase
+      .from("test_results")
+      .insert({
+        user_id: user.id,
+        student_name:
+          user.user_metadata?.full_name || "Unknown Student",
+        test_title: title,
+        subject: subject,
+        chapter: chapter,
+        total_questions: totalQuestions,
+        correct_answers: correctAnswers,
+        score_percentage: scorePercentage,
+      });
   
-      if (error) {
-        console.error("SUPABASE TEST RESULT ERROR:", error);
-        alert(`Supabase error: ${error.message}`);
-        resultSaved.current = false;
-      } else {
-        console.log("Test result saved successfully.");
-        alert("Test result saved successfully!");
-      }
+    if (error) {
+      console.error(
+        "SUPABASE TEST RESULT ERROR:",
+        error
+      );
+  
+      alert(`Supabase error: ${error.message}`);
+  
+      resultSaved.current = false;
+    } else {
+      console.log("Test result saved successfully.");
+      alert("Test result saved successfully!");
+    }
+  };
+  
+  
+  const submitQuestionReport = async () => {
+    if (!reportType) {
+      alert(
+        "Please select a reason for reporting this question."
+      );
+      return;
+    }
+  
+    const {
+      data: { user },
+    } = await supabase.auth.getUser();
+  
+    if (!user) {
+      alert("Please log in to report a question.");
+      return;
+    }
+  
+    setReportSubmitting(true);
+  
+    const { error } = await supabase
+      .from("question_reports")
+      .insert({
+        user_id: user.id,
+        student_name:
+          user.user_metadata?.full_name || "Unknown Student",
+        question_number: currentQuestion + 1,
+        question_text: question.question,
+        subject: subject,
+        chapter: chapter,
+        test_title: title,
+        report_type: reportType,
+        comment: reportComment.trim() || null,
+      });
+  
+    setReportSubmitting(false);
+  
+    if (error) {
+      console.error(
+        "QUESTION REPORT ERROR:",
+        error
+      );
+  
+      alert(
+        `Unable to submit report: ${error.message}`
+      );
+  
+      return;
+    }
+  
+    setReportedQuestions((previous) => [
+      ...previous,
+      currentQuestion,
+    ]);
+  
+    setShowReport(false);
+    setReportType("");
+    setReportComment("");
+  
+    alert(
+      "Thank you. Your report has been submitted."
+    );
   };
 
   const calculateUnanswered = () => {
@@ -768,6 +853,28 @@ useEffect(() => {
 
             </div>
 
+            {/* REPORT QUESTION */}
+<div className="mt-6 pt-5 border-t border-zinc-200">
+
+{!reportedQuestions.includes(currentQuestion) ? (
+
+  <button
+    onClick={() => setShowReport(true)}
+    className="text-sm font-bold text-zinc-500 hover:text-red-600 transition"
+  >
+    🚩 Report Question
+  </button>
+
+) : (
+
+  <div className="text-sm font-bold text-green-600">
+    ✓ Question reported
+  </div>
+
+)}
+
+</div>
+
             {/* NAVIGATION */}
             <div className="flex justify-between gap-4 mt-10">
 
@@ -879,64 +986,244 @@ useEffect(() => {
       </section>
 
       {/* SUBMIT WARNING */}
-      {showSubmitWarning && (
 
-        <div className="fixed inset-0 bg-black/60 flex items-center justify-center px-4 z-50">
+{showSubmitWarning && (
 
-          <div className="bg-white text-[#0b1e39] rounded-2xl p-7 max-w-md w-full shadow-2xl">
+<div className="fixed inset-0 bg-black/60 flex items-center justify-center px-4 z-50">
 
-            <h2 className="text-2xl font-black">
-              Submit Test?
-            </h2>
+  <div className="bg-white text-[#0b1e39] rounded-2xl p-7 max-w-md w-full shadow-2xl">
 
-            <p className="text-zinc-600 mt-3">
-              You still have{" "}
-              <strong>
-                {unanswered}
-              </strong>{" "}
-              unanswered question
-              {unanswered !== 1
-                ? "s"
-                : ""}.
-            </p>
+    <h2 className="text-2xl font-black">
+      Submit Test?
+    </h2>
 
-            <p className="text-zinc-600 mt-2">
-              Are you sure you want to
-              submit?
-            </p>
+    <p className="text-zinc-600 mt-3">
+      You still have{" "}
+      <strong>
+        {unanswered}
+      </strong>{" "}
+      unanswered question
+      {unanswered !== 1
+        ? "s"
+        : ""}.
+    </p>
 
-            <div className="flex gap-3 mt-6">
+    <p className="text-zinc-600 mt-2">
+      Are you sure you want to
+      submit?
+    </p>
 
-              <button
-                onClick={async () => {
-                  setShowSubmitWarning(false);
-                  await saveTestResult();
-                  setSubmitted(true);
-                }}
-                className="flex-1 bg-[#e9ecef] py-3 rounded-xl font-bold"
-              >
-                Go Back
-              </button>
+    <div className="flex gap-3 mt-6">
 
-              <button
-  onClick={async () => {
-    setShowSubmitWarning(false);
-    await saveTestResult();
-    setSubmitted(true);
-  }}
-                className="flex-1 bg-[#ff9800] py-3 rounded-xl font-bold"
-              >
-                Submit
-              </button>
+      {/* FIXED GO BACK BUTTON */}
+      <button
+        onClick={() =>
+          setShowSubmitWarning(false)
+        }
+        className="flex-1 bg-[#e9ecef] py-3 rounded-xl font-bold"
+      >
+        Go Back
+      </button>
 
-            </div>
+      {/* SUBMIT BUTTON */}
+      <button
+        onClick={async () => {
+          setShowSubmitWarning(false);
+          await saveTestResult();
+          setSubmitted(true);
+        }}
+        className="flex-1 bg-[#ff9800] py-3 rounded-xl font-bold"
+      >
+        Submit
+      </button>
 
-          </div>
+    </div>
 
-        </div>
+  </div>
 
-      )}
+</div>
 
-    </main>
-  );
+)}
+
+{/* 👇 PUT REPORT QUESTION POPUP HERE */}
+
+{showReport && (
+
+<div className="fixed inset-0 bg-black/60 flex items-center justify-center px-4 z-50">
+
+  <div className="bg-white text-[#0b1e39] rounded-2xl p-7 max-w-lg w-full shadow-2xl">
+
+    <div className="flex items-start justify-between gap-4">
+
+      <div>
+        <h2 className="text-2xl font-black">
+          Report Question
+        </h2>
+
+        <p className="text-zinc-600 mt-2 text-sm">
+          Tell us what seems wrong with this question.
+        </p>
+      </div>
+
+      <button
+        onClick={() => {
+          setShowReport(false);
+          setReportType("");
+          setReportComment("");
+        }}
+        className="text-zinc-400 hover:text-zinc-700 text-xl font-bold"
+      >
+        ✕
+      </button>
+
+    </div>
+
+    {/* REPORT OPTIONS */}
+
+    <div className="mt-6 space-y-3">
+
+      <label className="flex items-center gap-3 border-2 border-zinc-200 rounded-xl p-4 cursor-pointer hover:border-[#ff9800]">
+
+        <input
+          type="radio"
+          name="reportType"
+          value="Answer key is wrong"
+          checked={
+            reportType === "Answer key is wrong"
+          }
+          onChange={(e) =>
+            setReportType(e.target.value)
+          }
+          className="w-4 h-4"
+        />
+
+        <span className="font-medium">
+          Answer key is wrong
+        </span>
+
+      </label>
+
+      <label className="flex items-center gap-3 border-2 border-zinc-200 rounded-xl p-4 cursor-pointer hover:border-[#ff9800]">
+
+        <input
+          type="radio"
+          name="reportType"
+          value="Out of syllabus"
+          checked={
+            reportType === "Out of syllabus"
+          }
+          onChange={(e) =>
+            setReportType(e.target.value)
+          }
+          className="w-4 h-4"
+        />
+
+        <span className="font-medium">
+          Question is out of syllabus
+        </span>
+
+      </label>
+
+      <label className="flex items-center gap-3 border-2 border-zinc-200 rounded-xl p-4 cursor-pointer hover:border-[#ff9800]">
+
+        <input
+          type="radio"
+          name="reportType"
+          value="Wrong chapter"
+          checked={
+            reportType === "Wrong chapter"
+          }
+          onChange={(e) =>
+            setReportType(e.target.value)
+          }
+          className="w-4 h-4"
+        />
+
+        <span className="font-medium">
+          Question belongs to another chapter
+        </span>
+
+      </label>
+
+      <label className="flex items-center gap-3 border-2 border-zinc-200 rounded-xl p-4 cursor-pointer hover:border-[#ff9800]">
+
+        <input
+          type="radio"
+          name="reportType"
+          value="Other"
+          checked={
+            reportType === "Other"
+          }
+          onChange={(e) =>
+            setReportType(e.target.value)
+          }
+          className="w-4 h-4"
+        />
+
+        <span className="font-medium">
+          Other issue
+        </span>
+
+      </label>
+
+    </div>
+
+    {/* COMMENT */}
+
+    <div className="mt-5">
+
+      <label className="block text-sm font-bold mb-2">
+        Additional details{" "}
+        <span className="text-zinc-400 font-normal">
+          (optional)
+        </span>
+      </label>
+
+      <textarea
+        value={reportComment}
+        onChange={(e) =>
+          setReportComment(e.target.value)
+        }
+        placeholder="Explain the problem if needed..."
+        rows={4}
+        className="w-full border-2 border-zinc-200 rounded-xl p-3 outline-none focus:border-[#ff9800] resize-none"
+      />
+
+    </div>
+
+    {/* BUTTONS */}
+
+    <div className="flex gap-3 mt-6">
+
+      <button
+        onClick={() => {
+          setShowReport(false);
+          setReportType("");
+          setReportComment("");
+        }}
+        className="flex-1 bg-[#e9ecef] py-3 rounded-xl font-bold"
+      >
+        Cancel
+      </button>
+
+      <button
+        onClick={submitQuestionReport}
+        disabled={reportSubmitting}
+        className="flex-1 bg-[#ff9800] py-3 rounded-xl font-bold disabled:opacity-50"
+      >
+        {reportSubmitting
+          ? "Submitting..."
+          : "Submit Report"}
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+)}
+
+</main>
+);
 }
