@@ -5,40 +5,35 @@ export default function CoordinationAndControlPage() {
         questions: 20,
         time: 20,
         difficulty: "Basic",
-        available: false,
-        link: "#",
+        link: "/tests/Biology/coordination-and-control/test-1",
       },
       {
         title: "Coordination and Control — Test 2",
         questions: 35,
         time: 35,
         difficulty: "Moderate",
-        available: false,
-        link: "#",
+        link: "/tests/Biology/coordination-and-control/test-2",
       },
       {
         title: "Coordination and Control — Test 3",
         questions: 50,
         time: 50,
         difficulty: "MDCAT",
-        available: false,
-        link: "#",
+        link: "/tests/Biology/coordination-and-control/test-3",
       },
       {
         title: "Coordination and Control — Test 4",
         questions: 50,
         time: 50,
         difficulty: "MDCAT",
-        available: false,
-        link: "#",
+        link: "/tests/Biology/coordination-and-control/test-4",
       },
       {
         title: "Coordination and Control — Test 5",
         questions: 50,
         time: 50,
         difficulty: "MDCAT",
-        available: false,
-        link: "#",
+        link: "/tests/Biology/coordination-and-control/test-5",
       },
     ];
   
@@ -114,7 +109,7 @@ export default function CoordinationAndControlPage() {
                     </span>
   
                     <span className="bg-zinc-200 text-zinc-600 rounded-full px-3 py-1 text-xs font-bold">
-                      COMING SOON
+                      AVAILABLE
                     </span>
   
                   </div>
@@ -138,12 +133,12 @@ export default function CoordinationAndControlPage() {
                 </div>
   
                 {/* ACTION BUTTON */}
-                <button
-                  disabled
-                  className="bg-zinc-200 text-zinc-500 font-bold px-7 py-3 rounded-xl whitespace-nowrap cursor-not-allowed"
-                >
-                  Coming Soon
-                </button>
+                <a
+  href={test.link}
+  className="bg-[#ff9800] hover:bg-[#e38000] text-[#0b1e39] font-bold px-7 py-3 rounded-xl whitespace-nowrap transition text-center"
+>
+  Start Test →
+</a>
   
               </div>
   
