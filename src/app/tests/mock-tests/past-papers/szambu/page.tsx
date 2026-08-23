@@ -17,10 +17,10 @@ const szambuPapers = [
     title: "SZABMU 2024",
     description:
       "Practice the SZABMU 2024 past paper and strengthen your preparation with another authentic examination paper.",
-    href: "#",
-    button: "Coming Soon",
-    available: false,
-    featured: false,
+    href: "/tests/mock-tests/past-papers/szambu/szambu-24",
+    button: "Start SZABMU 2024",
+    available: true,
+    featured: true,
   },
 ];
 
