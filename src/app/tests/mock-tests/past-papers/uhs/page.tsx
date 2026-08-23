@@ -17,10 +17,10 @@ const uhsPapers = [
     title: "UHS 2024",
     description:
       "Practice the UHS 2024 past paper and strengthen your preparation with another authentic examination paper.",
-    href: "#",
-    button: "Coming Soon",
-    available: false,
-    featured: false,
+    href: "/tests/mock-tests/past-papers/uhs/uhs-24",
+    button: "Start UHS 2025",
+    available: true,
+    featured: true,
   },
 ];
 
