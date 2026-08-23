@@ -3,23 +3,23 @@
 const kmuPapers = [
   {
     icon: "📝",
-    title: "KMU 2025",
+    title: "BUMHS 2025",
     description:
-      "Practice the complete KMU 2025 past paper with authentic questions and experience the style and difficulty of the actual examination.",
-    href: "/tests/mock-tests/past-papers/kmu/kmu-25",
-    button: "Start KMU 2025",
+      "Practice the complete BUMHS 2025 past paper with authentic questions and experience the style and difficulty of the actual examination.",
+    href: "/tests/mock-tests/past-papers/bumhs/bumhs-25",
+    button: "Start BUMHS 2025",
     available: true,
     featured: true,
   },
   {
     icon: "📚",
-    title: "KMU 2024",
+    title: "BUMHS 2024",
     description:
-      "Practice the KMU 2024 past paper and strengthen your preparation with another authentic examination paper.",
-    href: "#",
-    button: "Coming Soon",
-    available: false,
-    featured: false,
+      "Practice the BUMHS 2024 past paper and strengthen your preparation with another authentic examination paper.",
+    href: "/tests/mock-tests/past-papers/bumhs/bumhs-24",
+    button: "Start BUMHS 2024",
+    available: true,
+    featured: true,
   },
 ];
 
@@ -49,15 +49,15 @@ export default function KmuPastPapersPage() {
       <section className="container mx-auto px-4 pb-8 pt-12">
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-sm font-semibold uppercase tracking-widest text-[#ff9800]">
-            KMU Preparation
+            BUMHS Preparation
           </p>
 
           <h1 className="mt-3 text-4xl font-black tracking-tight md:text-5xl">
-            KMU Past Papers
+            BUMHS Past Papers
           </h1>
 
           <p className="mx-auto mt-5 max-w-2xl text-base leading-7 text-[#cdd6e6] md:text-lg">
-            Practice authentic KMU past papers and become familiar with
+            Practice authentic BUMHS past papers and become familiar with
             the examination style, question patterns and difficulty.
           </p>
         </div>
