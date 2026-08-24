@@ -94,10 +94,13 @@ export default function TestsPage() {
             </p>
 
             <button
-              className="mt-6 w-full bg-[#ff9800] hover:bg-[#e38000] text-[#0b1e39] font-bold py-3 rounded-xl transition"
-            >
-              View Physics Tests
-            </button>
+  onClick={() => {
+    window.location.href = "/tests/Physics";
+  }}
+  className="mt-6 w-full bg-[#ff9800] hover:bg-[#e38000] text-[#0b1e39] font-bold py-3 rounded-xl transition"
+>
+  View Physics Tests
+</button>
           </div>
 
           {/* ENGLISH */}
