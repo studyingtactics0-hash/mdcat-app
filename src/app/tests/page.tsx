@@ -75,7 +75,7 @@ export default function TestsPage() {
             </p>
 
             <button
-  onClick={() => window.location.href = "/tests/chemistry"}
+  onClick={() => window.location.href = "/tests/Chemistry"}
   className="mt-6 w-full bg-[#ff9800] hover:bg-[#e38000] text-[#0b1e39] font-bold py-3 rounded-xl transition"
 >
   View Chemistry Tests
