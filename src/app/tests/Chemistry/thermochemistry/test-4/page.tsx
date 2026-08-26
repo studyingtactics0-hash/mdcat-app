@@ -10,6 +10,8 @@ export default function Test4Page() {
       title="Thermochemistry Test 4"
       subject="Chemistry"
       chapter="Thermochemistry"
+      timeLimit={20}
+      questionCount={20}
     />
   );
 }

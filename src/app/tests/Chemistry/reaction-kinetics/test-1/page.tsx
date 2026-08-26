@@ -10,6 +10,8 @@ export default function Test1Page() {
       title="Reaction Kinetics Test 1"
       subject="Chemistry"
       chapter="Reaction Kinetics"
+      timeLimit={20}
+      questionCount={20}
     />
   );
 }

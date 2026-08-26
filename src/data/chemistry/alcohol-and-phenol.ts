@@ -6,7 +6,7 @@ export type Question = {
     explanation?: string;
   };
   
-  export const alcohol-and-phenolQuestions: Question[] = [
+  export const alcoholAndPhenolQuestions: Question[] = [
     // --- BUMHS 2025 CHEM ---
     {
       id: "bumhs-2025-chem-94",

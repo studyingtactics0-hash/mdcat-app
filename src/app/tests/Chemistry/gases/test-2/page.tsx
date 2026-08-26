@@ -10,6 +10,8 @@ export default function Test2Page() {
       title="Gases Test 2"
       subject="Chemistry"
       chapter="Gases"
+      timeLimit={20}
+      questionCount={20}
     />
   );
 }

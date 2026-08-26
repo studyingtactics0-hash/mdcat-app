@@ -1,15 +1,17 @@
 ﻿"use client";
 
 import TestEngine from "@/components/testengine";
-import { s-block-elementsQuestions } from "@/data/chemistry/s-block-elements";
+import { sAndPBlockElementsQuestions } from "@/data/chemistry/s-and-p-block";
 
 export default function Test4Page() {
   return (
     <TestEngine
-      questions={s-block-elementsQuestions}
+      questions={sAndPBlockElementsQuestions}
       title="S Block Elements Test 4"
       subject="Chemistry"
       chapter="S Block Elements"
+      timeLimit={20}
+      questionCount={20}
     />
   );
 }

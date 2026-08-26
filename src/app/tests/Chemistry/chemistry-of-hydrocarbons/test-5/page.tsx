@@ -1,12 +1,12 @@
 ﻿"use client";
 
 import TestEngine from "@/components/testengine";
-import { chemistry-of-hydrocarbonsQuestions } from "@/data/chemistry/chemistry-of-hydrocarbons";
+import { chemistryOfHydrocarbonsQuestions } from "@/data/chemistry/chemistry-of-hydrocarbons";
 
 export default function Test5Page() {
   return (
     <TestEngine
-      questions={chemistry-of-hydrocarbonsQuestions}
+      questions={chemistryOfHydrocarbonsQuestions}
       title="Chemistry Of Hydrocarbons Test 5"
       subject="Chemistry"
       chapter="Chemistry Of Hydrocarbons"

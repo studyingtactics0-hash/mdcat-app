@@ -10,6 +10,8 @@ export default function Test2Page() {
       title="Macromolecules Test 2"
       subject="Chemistry"
       chapter="Macromolecules"
+      timeLimit={20}
+      questionCount={20}
     />
   );
 }

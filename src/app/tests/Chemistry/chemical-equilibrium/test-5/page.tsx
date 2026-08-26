@@ -1,12 +1,12 @@
 ﻿"use client";
 
 import TestEngine from "@/components/testengine";
-import { chemical-equilibriumQuestions } from "@/data/chemistry/chemical-equilibrium";
+import { chemicalEquilibriumQuestions } from "@/data/chemistry/chemical-equilibrium";
 
 export default function Test5Page() {
   return (
     <TestEngine
-      questions={chemical-equilibriumQuestions}
+      questions={chemicalEquilibriumQuestions}
       title="Chemical Equilibrium Test 5"
       subject="Chemistry"
       chapter="Chemical Equilibrium"

@@ -10,6 +10,8 @@ export default function Test3Page() {
       title="Thermochemistry Test 3"
       subject="Chemistry"
       chapter="Thermochemistry"
+      timeLimit={20}
+      questionCount={20}
     />
   );
 }

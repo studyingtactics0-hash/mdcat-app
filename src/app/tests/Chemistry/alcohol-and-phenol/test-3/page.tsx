@@ -1,15 +1,17 @@
 ﻿"use client";
 
 import TestEngine from "@/components/testengine";
-import { alcohol-and-phenolQuestions } from "@/data/chemistry/alcohol-and-phenol";
+import { alcoholAndPhenolQuestions } from "@/data/chemistry/alcohol-and-phenol";
 
 export default function Test3Page() {
   return (
     <TestEngine
-      questions={alcohol-and-phenolQuestions}
+      questions={alcoholAndPhenolQuestions}
       title="Alcohol And Phenol Test 3"
       subject="Chemistry"
       chapter="Alcohol And Phenol"
+      timeLimit={20}
+      questionCount={20}
     />
   );
 }

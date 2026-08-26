@@ -1,15 +1,17 @@
 ﻿"use client";
 
 import TestEngine from "@/components/testengine";
-import { industrial-chemistryQuestions } from "@/data/chemistry/industrial-chemistry";
+import { industrialChemistryQuestions } from "@/data/chemistry/industrial-chemistry";
 
 export default function Test3Page() {
   return (
     <TestEngine
-      questions={industrial-chemistryQuestions}
+      questions={industrialChemistryQuestions}
       title="Industrial Chemistry Test 3"
       subject="Chemistry"
       chapter="Industrial Chemistry"
+      timeLimit={20}
+      questionCount={20}
     />
   );
 }
