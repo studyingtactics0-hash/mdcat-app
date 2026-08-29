@@ -148,7 +148,7 @@ export default function TestsPage() {
             <div className="text-4xl mb-4">🏆</div>
 
             <h2 className="text-2xl font-black">
-              Full MDCAT Mock
+              Full MDCAT + NUMS Mock
             </h2>
 
             <p className="mt-2 font-medium">

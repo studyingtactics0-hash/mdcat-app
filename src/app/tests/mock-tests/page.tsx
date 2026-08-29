@@ -37,6 +37,15 @@ const mockCategories = [
     button: "View Half-Syllabus Mocks",
     featured: false,
   },
+  {
+    icon: "🎓",
+    title: "NUMS Mock Tests",
+    description:
+      "Prepare for NUMS with dedicated mock tests designed around the NUMS entry test pattern and difficulty level.",
+    href: "/tests/mock-tests/nums",
+    button: "Explore NUMS Mocks",
+    featured: false,
+  },
 ];
 
 export default function MockTestsPage() {
