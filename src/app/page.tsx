@@ -161,7 +161,7 @@ export default function Home() {
             </li>
             <li>
               <a
-                href="#tests"
+                href="tests"
                 className="hover:text-[#ff9800] transition-colors"
               >
                 Tests
@@ -582,7 +582,7 @@ export default function Home() {
           </div>
           <ul className="flex flex-wrap gap-6 mt-4 md:mt-0 text-[#cdd6e6] text-sm font-medium">
             <li>
-              <a href="#tests" className="hover:text-[#ff9800] transition">Tests</a>
+              <a href="tests" className="hover:text-[#ff9800] transition">Tests</a>
             </li>
             <li>
               <a href="#lectures" className="hover:text-[#ff9800] transition">Lectures</a>
