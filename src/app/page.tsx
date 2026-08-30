@@ -168,18 +168,27 @@ export default function Home() {
                 MDCAT Updates
               </a>
             </li>
-            <li>
+            <li className="flex items-center gap-3">
   {user ? (
-    <button
-      onClick={async () => {
-        await supabase.auth.signOut();
-        setUser(null);
-        router.refresh();
-      }}
-      className="ml-4 bg-[#ff9800] hover:bg-[#e38000] text-[#0b1e39] transition-colors font-semibold px-5 py-2 rounded-full shadow"
-    >
-      Logout
-    </button>
+    <>
+      <span className="text-white font-semibold">
+        👋 Welcome,{" "}
+        <span className="text-[#ff9800]">
+          {user.user_metadata?.full_name || "Student"}
+        </span>
+      </span>
+
+      <button
+        onClick={async () => {
+          await supabase.auth.signOut();
+          setUser(null);
+          router.refresh();
+        }}
+        className="ml-2 bg-[#ff9800] hover:bg-[#e38000] text-[#0b1e39] transition-colors font-semibold px-5 py-2 rounded-full shadow"
+      >
+        Logout
+      </button>
+    </>
   ) : (
     <button
       onClick={() => router.push("/login")}
