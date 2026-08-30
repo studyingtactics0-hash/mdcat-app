@@ -99,24 +99,62 @@ export default function Home() {
     async function getTopScorer() {
       const { data, error } = await supabase
         .from("test_results")
-        .select("student_name, score_percentage, completed_at")
-        .order("score_percentage", { ascending: false })
-        .order("completed_at", { ascending: true })
-        .limit(1);
+        .select("user_id, student_name, score_percentage");
     
       if (error) {
-        console.error("Error fetching top scorer:", error);
+        console.error("Error fetching leaderboard:", error);
         return;
       }
     
-      if (data && data.length > 0) {
-        setTopScorer({
-          student_name: data[0].student_name || "Student",
-          score_percentage: Number(data[0].score_percentage || 0),
-        });
-      } else {
+      if (!data || data.length === 0) {
         setTopScorer(null);
+        return;
       }
+    
+      // Calculate average score for each student
+      const studentScores: {
+        [userId: string]: {
+          student_name: string;
+          totalScore: number;
+          testCount: number;
+        };
+      } = {};
+    
+      data.forEach((test) => {
+        if (!test.user_id) return;
+    
+        if (!studentScores[test.user_id]) {
+          studentScores[test.user_id] = {
+            student_name: test.student_name || "Student",
+            totalScore: 0,
+            testCount: 0,
+          };
+        }
+    
+        studentScores[test.user_id].totalScore += Number(
+          test.score_percentage || 0
+        );
+    
+        studentScores[test.user_id].testCount += 1;
+      });
+    
+      // Find student with highest average
+      let topStudent = null;
+      let highestAverage = -1;
+    
+      Object.values(studentScores).forEach((student) => {
+        const average = student.totalScore / student.testCount;
+    
+        if (average > highestAverage) {
+          highestAverage = average;
+          topStudent = {
+            student_name: student.student_name,
+            score_percentage: Number(average.toFixed(1)),
+          };
+        }
+      });
+    
+      setTopScorer(topStudent);
     }
     async function getUser() {
       const {
