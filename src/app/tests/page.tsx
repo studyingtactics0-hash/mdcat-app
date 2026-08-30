@@ -117,11 +117,14 @@ export default function TestsPage() {
             </p>
 
             <button
-              className="mt-6 w-full bg-[#ff9800] hover:bg-[#e38000] text-[#0b1e39] font-bold py-3 rounded-xl transition"
-            >
-              View English Tests
-            </button>
-          </div>
+    onClick={() => {
+      window.location.href = "/tests/English";
+    }}
+    className="mt-6 w-full bg-[#ff9800] hover:bg-[#e38000] text-[#0b1e39] font-bold py-3 rounded-xl transition"
+  >
+    View English Tests
+  </button>
+</div>
 
           {/* LOGICAL REASONING */}
           <div className="bg-white rounded-2xl p-7 text-[#0b1e39] shadow-lg">
