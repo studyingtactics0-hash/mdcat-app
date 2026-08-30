@@ -9,6 +9,10 @@ export default function Home() {
   const supabase = createClient();
 
   const [user, setUser] = useState<any>(null);
+  const [topScorer, setTopScorer] = useState<{
+    student_name: string;
+    score_percentage: number;
+  } | null>(null);
   const [stats, setStats] = useState({
     testsAttempted: 0,
     averageScore: 0,
@@ -92,6 +96,28 @@ export default function Home() {
         currentStreak,
       });
     }
+    async function getTopScorer() {
+      const { data, error } = await supabase
+        .from("test_results")
+        .select("student_name, score_percentage, completed_at")
+        .order("score_percentage", { ascending: false })
+        .order("completed_at", { ascending: true })
+        .limit(1);
+    
+      if (error) {
+        console.error("Error fetching top scorer:", error);
+        return;
+      }
+    
+      if (data && data.length > 0) {
+        setTopScorer({
+          student_name: data[0].student_name || "Student",
+          score_percentage: Number(data[0].score_percentage || 0),
+        });
+      } else {
+        setTopScorer(null);
+      }
+    }
     async function getUser() {
       const {
         data: { user },
@@ -105,6 +131,7 @@ export default function Home() {
     }
 
     getUser();
+getTopScorer();
 
     const {
       data: { subscription },
@@ -503,8 +530,48 @@ export default function Home() {
               <span className="text-[#576a89] text-sm text-center">Current Streak</span>
             </div>
           </div>
-        </section>
-      </main>
+          </section>
+
+{/* TOP SCORER */}
+<section className="container mx-auto px-4 py-10 md:py-14">
+  <h2 className="text-2xl md:text-3xl font-bold text-white mb-6 text-center md:text-left">
+    🏆 Leaderboard
+  </h2>
+
+  <div className="max-w-md mx-auto bg-white rounded-2xl shadow-xl overflow-hidden border-t-4 border-[#ff9800]">
+    <div className="bg-[#ff9800] px-6 py-4 text-center">
+      <div className="text-4xl mb-1">🏆</div>
+      <h3 className="text-lg font-extrabold text-[#0b1e39]">
+        TOP SCORER
+      </h3>
+    </div>
+
+    <div className="p-7 text-center">
+      {topScorer ? (
+        <>
+          <p className="text-2xl font-black text-[#0b1e39]">
+            {topScorer.student_name}
+          </p>
+
+          <p className="mt-2 text-sm text-[#576a89]">
+            Highest score achieved
+          </p>
+
+          <div className="mt-5 inline-flex items-center justify-center rounded-full bg-[#0b1e39] px-7 py-3">
+            <span className="text-2xl font-black text-[#ff9800]">
+              {topScorer.score_percentage}%
+            </span>
+          </div>
+        </>
+      ) : (
+        <p className="text-gray-500">
+          No test results yet.
+        </p>
+      )}
+    </div>
+  </div>
+</section>
+</main>
 
       {/* FOOTER */}
       <footer className="w-full bg-[#142542] py-8 mt-auto border-t border-[#172d4f]">
