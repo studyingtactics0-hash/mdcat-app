@@ -24,17 +24,15 @@ export default function Home() {
     async function getStatistics(userId: string) {
       const { data, error } = await supabase
         .from("test_results")
-        .select(
-          "total_questions, score_percentage, completed_at"
-        )
+        .select("total_questions, score_percentage, completed_at")
         .eq("user_id", userId)
         .order("completed_at", { ascending: false });
-    
+  
       if (error) {
         console.error("Error fetching statistics:", error);
         return;
       }
-    
+  
       if (!data || data.length === 0) {
         setStats({
           testsAttempted: 0,
@@ -44,51 +42,48 @@ export default function Home() {
         });
         return;
       }
-    
+  
       const testsAttempted = data.length;
-    
+  
       const questionsSolved = data.reduce(
         (total, test) => total + (test.total_questions || 0),
         0
       );
-    
+  
       const averageScore =
         data.reduce(
           (total, test) => total + Number(test.score_percentage || 0),
           0
         ) / testsAttempted;
-    
-      // Get unique test dates
+  
       const dates = Array.from(
         new Set(
-          data.map((test) => {
-            return new Date(test.completed_at)
-              .toISOString()
-              .split("T")[0];
-          })
+          data.map((test) =>
+            new Date(test.completed_at).toISOString().split("T")[0]
+          )
         )
       );
-    
+  
       let currentStreak = 0;
-    
+  
       const today = new Date();
       today.setHours(0, 0, 0, 0);
-    
+  
       for (let i = 0; i < dates.length; i++) {
         const expectedDate = new Date(today);
         expectedDate.setDate(today.getDate() - i);
-    
+  
         const expectedDateString = expectedDate
           .toISOString()
           .split("T")[0];
-    
+  
         if (dates.includes(expectedDateString)) {
           currentStreak++;
         } else {
           break;
         }
       }
-    
+  
       setStats({
         testsAttempted,
         averageScore: Math.round(averageScore),
@@ -96,87 +91,50 @@ export default function Home() {
         currentStreak,
       });
     }
+  
     async function getTopScorer() {
-      const { data, error } = await supabase
-        .from("test_results")
-        .select("user_id, student_name, score_percentage");
-    
+      const { data, error } = await supabase.rpc("get_top_student");
+  
       if (error) {
-        console.error("Error fetching leaderboard:", error);
+        console.error("Error fetching top student:", error);
         return;
       }
-    
-      if (!data || data.length === 0) {
+  
+      if (data && data.length > 0) {
+        setTopScorer({
+          student_name: data[0].student_name || "Student",
+          score_percentage: Number(data[0].average_score || 0),
+        });
+      } else {
         setTopScorer(null);
-        return;
       }
-    
-      // Calculate average score for each student
-      const studentScores: {
-        [userId: string]: {
-          student_name: string;
-          totalScore: number;
-          testCount: number;
-        };
-      } = {};
-    
-      data.forEach((test) => {
-        if (!test.user_id) return;
-    
-        if (!studentScores[test.user_id]) {
-          studentScores[test.user_id] = {
-            student_name: test.student_name || "Student",
-            totalScore: 0,
-            testCount: 0,
-          };
-        }
-    
-        studentScores[test.user_id].totalScore += Number(
-          test.score_percentage || 0
-        );
-    
-        studentScores[test.user_id].testCount += 1;
-      });
-    
-      // Find student with highest average
-      let topStudent = null;
-      let highestAverage = -1;
-    
-      Object.values(studentScores).forEach((student) => {
-        const average = student.totalScore / student.testCount;
-    
-        if (average > highestAverage) {
-          highestAverage = average;
-          topStudent = {
-            student_name: student.student_name,
-            score_percentage: Number(average.toFixed(1)),
-          };
-        }
-      });
-    
-      setTopScorer(topStudent);
     }
+  
     async function getUser() {
       const {
         data: { user },
       } = await supabase.auth.getUser();
-    
+  
       setUser(user);
-    
+  
       if (user) {
         getStatistics(user.id);
       }
     }
-
+  
     getUser();
-getTopScorer();
-
+    getTopScorer();
+  
     const {
       data: { subscription },
     } = supabase.auth.onAuthStateChange((_event, session) => {
       setUser(session?.user ?? null);
+  
+      if (session?.user) {
+        getStatistics(session.user.id);
+      }
     });
-
+  
     return () => {
       subscription.unsubscribe();
     };
