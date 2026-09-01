@@ -377,5 +377,556 @@ export type Question = {
       ],
       answer: 2,
       explanation: "Artificial radioactivity is induced by bombarding stable target nuclei with high-energy nuclear projectiles (such as alpha particles, protons, or neutrons)."
-    }
+    },
+     // --- TESTMOZ ---
+      {
+        id: "testmoz-phys-1",
+        question: "Both xenon and cesium each have isotopes",
+        options: [
+          "12",
+          "36",
+          "33",
+          "39"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-2",
+        question: "A newly prepared radioactive nucleoid has a decay constant of second inverse. What is the approximate half life of the nuclide?",
+        options: [
+          "1 hour",
+          "1 day",
+          "1 week",
+          "1 month"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-3",
+        question: "At the end of 14 minutes 1/16 of a sample of radioactive polonium remains. The corresponding half life is",
+        options: [
+          "7/8 min",
+          "7/4 min",
+          "8/7 min",
+          "7/2 min"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-4",
+        question: "Among the following select the correct statement",
+        options: [
+          "The rate of disintegration is directly proportional to the number of atoms present in the sample at that instant",
+          "Equal fractions disintegrate in equal intervals of time",
+          "Radioactive sample takes infinite time to disintegrate",
+          "All"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-5",
+        question: "Due to emission of Beta particle by a Thorium nucleus we get",
+        options: [
+          "Radium",
+          "Protactinium",
+          "Uranium",
+          "Radon"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-6",
+        question: "Half life period of Radium is 1600 years. Its average lifetime will be",
+        options: [
+          "3200 years",
+          "4800 years",
+          "2319 years",
+          "4217 years"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-7",
+        question: "Radiation from a point source follows the Inverse Square Law. If the count rate at a distance of 1 m from the counter is 360 counts per minute, the count rate at a distance of 3 m will be",
+        options: [
+          "90 counts per minute",
+          "40 counts per minute",
+          "120 counts per minute",
+          "45 counts per minute"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-8",
+        question: "Half life of iodine-131",
+        options: [
+          "3 days",
+          "16 days",
+          "14 days",
+          "8 days"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-9",
+        question: "In the uranium disintegration series",
+        options: [
+          "The emission of Beta particle increases the mass number A by 1 and decreases the atomic number by one",
+          "The disintegrating element merely ejects atomic electrons",
+          "The emission of an Alpha particle decreases the mass number A by 4 and decreases the atomic number Z by 2",
+          "The nucleus always remains unaffected"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-10",
+        question: "If 10% of a radioactive substance decays in every 5 years, then the percentage of the substance that will be decayed in 20 years is",
+        options: [
+          "40%",
+          "50%",
+          "65.6%",
+          "34.4%"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-11",
+        question: "Half life of a radioactive element can be increased by",
+        options: [
+          "Increasing temperature",
+          "Changing volume",
+          "Increasing pressure",
+          "Can’t be increased"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-12",
+        question: "Alpha particles can produce fluorescence in",
+        options: [
+          "ZnS",
+          "Sodium iodide",
+          "Barium platinocyanide",
+          "All"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-13",
+        question: "Which one of the following will be a better shield against gamma rays?",
+        options: [
+          "Ordinary water",
+          "Lead",
+          "Heavy water",
+          "Aluminium"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-14",
+        question: "Half life of Radium-226 is",
+        options: [
+          "1820 years",
+          "1620 years",
+          "1940 years",
+          "1680 years"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-15",
+        question: "In Gamma emission the atomic number of the nucleus",
+        options: [
+          "Increases by 1",
+          "Decreases by 1",
+          "Decreases by 2",
+          "No change"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-16",
+        question: "The half life of a certain radioactive element is such that 7/8 of a given quantity decreases in 12 days. What fraction remains undecayed after 24 days?",
+        options: [
+          "0",
+          "1/28",
+          "1/64",
+          "1/32"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-17",
+        question: "Which of the following is a correct statement?",
+        options: [
+          "Protons and neutrons have exactly the same mass",
+          "Gamma rays are higher energy neutrons",
+          "Alpha particles are singly ionized Helium nuclei",
+          "Beta rays are the same as cathode rays"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-18",
+        question: "Which one of the following combinations of radioactive decay results in the formation of an isotope of the original nuclide?",
+        options: [
+          "Alpha and beta",
+          "Alpha and two beta",
+          "Two alpha and two beta",
+          "Alpha and four beta"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-19",
+        question: "Materials can be identified by measuring",
+        options: [
+          "Hardness",
+          "Masses",
+          "Densities",
+          "Half lives"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-20",
+        question: "Heavy radioactive elements eventually turn into",
+        options: [
+          "Barium",
+          "Hydrogen",
+          "Lead",
+          "Radium"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-21",
+        question: "The average distance covered by an Alpha particle in air before its ionizing power ceases is called its",
+        options: [
+          "Trajectory",
+          "Firing level",
+          "Range",
+          "Limit"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-22",
+        question: "In an Alpha decay the disintegration energy appears chiefly as",
+        options: [
+          "Photon energy",
+          "The kinetic energy of the Alpha particle and the daughter nucleus",
+          "The excitation energy of the daughter nucleus",
+          "The excitation energy of the Alpha particle"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-23",
+        question: "In radioactivity the rate of decay",
+        options: [
+          "Can be increased by a magnetic field",
+          "Can be decreased by a magnetic field",
+          "Can be kept constant by an electric field",
+          "Is not affected by electric and magnetic fields"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-24",
+        question: "Alpha, beta and gamma rays emitted by a radioactive substance are passed through a region containing a magnetic field at right angles to their path. The energy gained will be",
+        options: [
+          "Maximum for alpha rays",
+          "Maximum for beta rays",
+          "Maximum for gamma rays",
+          "0 for all of them"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-25",
+        question: "Radioactivity is the phenomenon associated with",
+        options: [
+          "Production of radio waves",
+          "Transmission of radio waves",
+          "Reception of radio waves",
+          "Decay of the atomic nucleus"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-26",
+        question: "A particle having the same mass as an electron and the charge of a proton is called",
+        options: [
+          "Anti-proton",
+          "Gamma rays",
+          "Positron",
+          "Photon"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-27",
+        question: "In which radioactive disintegration does a neutron dissociate into a proton and an electron?",
+        options: [
+          "Alpha emission",
+          "Beta emission",
+          "None",
+          "Gamma emission"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-28",
+        question: "The half life of Radium is about 1600 years. If 100 g of radium exists now, 25 g remains undecayed after",
+        options: [
+          "4800 years",
+          "6400 years",
+          "6800 years",
+          "3200 years"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-29",
+        question: "When a radioactive nucleus emits a beta particle the proton-to-neutron ratio",
+        options: [
+          "Decreases",
+          "Remains the same",
+          "Increases",
+          "None of the above"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-30",
+        question: "Which one of the following processes is not related to radioactive disintegration?",
+        options: [
+          "Positron emission",
+          "Beta decay",
+          "Alpha decay",
+          "Nuclear fission"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-31",
+        question: "A detector is exposed to a radioactive source. Fluctuations in the count rate are observed. What do these fluctuations indicate about radioactive decay?",
+        options: [
+          "It is random",
+          "It is exponential",
+          "It is non-linear",
+          "It is spontaneous"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-32",
+        question: "Beta particles possess greater penetrating power than alpha particles due to their",
+        options: [
+          "Smaller ionizing power",
+          "Same ionizing power",
+          "Energy is not conserved",
+          "Neither greater nor smaller ionizing power"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-33",
+        question: "Half life of iodine-131 is 8 days. It weighs 20 mg. After 4 half lives the amount left undecayed will be",
+        options: [
+          "2.5 mg",
+          "0.625 mg",
+          "1.25 mg",
+          "0.3125 mg"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-34",
+        question: "The weight of a radioactive element is 1 g. After 3 days it becomes 0.25 g. The half life of the element is",
+        options: [
+          "72 hours",
+          "144 hours",
+          "36 hours",
+          "Impossible fact"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-35",
+        question: "In a large collection of nuclei undergoing Alpha decay, the rate of decay at any instant is proportional to",
+        options: [
+          "The number of undecayed nuclei present at that instant",
+          "The time since the decay started",
+          "The time remaining before all have decayed",
+          "The half life of the decay"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-36",
+        question: "Starting with a sample of pure Cu-66, 7/8 of it decays into zinc in 15 minutes. The corresponding half life is",
+        options: [
+          "15 minutes",
+          "7 minutes",
+          "5 minutes",
+          "3.75 minutes"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-37",
+        question: "When we compare the ionizing power of alpha, beta and gamma rays it is",
+        options: [
+          "The same for all three",
+          "Maximum for alpha particles",
+          "Maximum for beta particles",
+          "Maximum for gamma rays"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-38",
+        question: "A radioactive element emits 200 particles per second. After three hours 25 particles per second are emitted. The half-life period of the element will be",
+        options: [
+          "80 minutes",
+          "50 minutes",
+          "60 minutes",
+          "70 minutes"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-39",
+        question: "Beta particles have a penetrating power of about",
+        options: [
+          "100 times more than that of gamma particles",
+          "100 times less than that of an alpha ray",
+          "100 times more than that of an alpha ray",
+          "10 times more than that of an alpha particle"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-40",
+        question: "When a tritium nucleus captures a proton it becomes",
+        options: [
+          "Neutron",
+          "Meson",
+          "Alpha particle",
+          "Deuteron"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-41",
+        question: "Which statement concerning alpha particles is correct?",
+        options: [
+          "An alpha particle has a charge of +4 electrons",
+          "An alpha particle is a helium atom",
+          "When alpha particles travel through air they cause ionization",
+          "When alpha particles travel through a sheet of gold foil they make the gold radioactive"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-42",
+        question: "A beta particle ionizes an atom",
+        options: [
+          "Through direct collision",
+          "Through electrostatic repulsion",
+          "Through electrostatic attraction",
+          "All of the above"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-43",
+        question: "Which one of the following is formed during beta emission?",
+        options: [
+          "Isobars",
+          "Isotones",
+          "Isotopes",
+          "Isomers"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-44",
+        question: "Half life of a radioactive element depends upon",
+        options: [
+          "Temperature",
+          "Amount of element present",
+          "Pressure",
+          "None of the above"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-45",
+        question: "A beta particle is",
+        options: [
+          "A helium nucleus",
+          "A radioactive element",
+          "An electron or positron",
+          "Any negative particle"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-46",
+        question: "In the nucleus of uranium the number of neutrons will be",
+        options: [
+          "92",
+          "143",
+          "235",
+          "Different for different isotopes"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-47",
+        question: "The path of a beta particle is",
+        options: [
+          "Rectilinear",
+          "Zigzag or erratic",
+          "Curved",
+          "Elliptical"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-48",
+        question: "The amount of energy equivalent to 1 u is",
+        options: [
+          "9.315 MeV",
+          "93.45 MeV",
+          "931 MeV",
+          "1.025 MeV"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-49",
+        question: "An alpha particle travels a well-defined distance before coming to rest. This distance is known as the range of the particle. The range depends upon",
+        options: [
+          "Energy of the particle",
+          "Charge of the particle",
+          "Mass of the particle",
+          "All of these"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-50",
+        question: "Radioactive atom X emits a beta particle. The resulting atom",
+        options: [
+          "Must be very reactive chemically",
+          "Has an atomic number that is one more than that of X",
+          "Has a mass number that is one less than that of X",
+          "Must be radioactive"
+        ],
+        answer: 1
+      }
   ];

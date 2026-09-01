@@ -617,5 +617,556 @@ export type Question = {
       ],
       answer: 1,
       explanation: "Electric forces act specifically on electric charges, not uncharged mass particles."
-    }
+    },
+     // --- TESTMOZ ---
+      {
+        id: "testmoz-phys-1",
+        question: "When the potential difference across the capacitor is decreased by the dielectric then the capacitance of the capacitor will be",
+        options: [
+          "Reman same",
+          "Decreases",
+          "Increases",
+          "Zero"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-2",
+        question: "Electrostatic force as compared to gravitational force is",
+        options: [
+          "Very weak",
+          "Equal",
+          "Very strong",
+          "Half of the gravitational force"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-3",
+        question: "The potential difference between the pair of similar conducting plates is known what additional information is needed in order to find the electric field intensity",
+        options: [
+          "Permittivity of the medium",
+          "Separation between the plates",
+          "Dielectric constant",
+          "Separation and area of the plates"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-4",
+        question: "The capacitance of parallel plate condenser does not depend on",
+        options: [
+          "Area of the plates",
+          "Metal of the plates",
+          "Medium between the plates",
+          "Distance between the plates"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-5",
+        question: "Some charge is being given to a conductor then its potential",
+        options: [
+          "Is maximum at surface",
+          "Is maximum at centre",
+          "Is remain same through out the conductor",
+          "Is maximum somewhere between surface and centre"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-6",
+        question: "If the potential difference across the two plates of a parallel plate capacitor is doubled then its energy stored in it will be",
+        options: [
+          "2 times",
+          "4 times",
+          "16 times",
+          "Remains same"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-7",
+        question: "1kJ work is required to transverse a charged particle through a potential difference of 20V. The magnitude of charge on particle is",
+        options: [
+          "20C",
+          "50C",
+          "2000C",
+          "0.2C"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-8",
+        question: "Two particles A and B have identical charge q for a net force of zero to be exerted on a third charge particle it must be placed",
+        options: [
+          "Midway between a and b",
+          "On the perpendicular bisector of the line joining A and B but away from the line",
+          "On the line joining A and B not between the particles",
+          "On the line joining A and B closer to one of them then the other"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-9",
+        question: "A hollow sphere of copper is positively charged then the electric field inside the sphere is",
+        options: [
+          "The same is the field at the surface",
+          "Less than the field at the surface but not zero",
+          "Greater than the field at the surface",
+          "Zero"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-10",
+        question: "A capacitor is a perfect insulator for",
+        options: [
+          "Direct current",
+          "Alternating current",
+          "Both for direct and alternating current",
+          "Rapidly fluctuating current"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-11",
+        question: "An electron proton and alpha particle are displaced through a potential difference of 1V then placed between a capacitor. The gain in KE will be highest for",
+        options: [
+          "Electron",
+          "Alpha particle",
+          "Proton",
+          "Equal for all particles"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-12",
+        question: "Capacitor is charged with a battery and then it is disconnected a slave of dielectric is now inserted between the plates then",
+        options: [
+          "The charge in the plates reduces in potential difference increases",
+          "Potential difference between the plate increases stored energy decreases and charge remains the same",
+          "Potential difference between the plates decreases stored energy decreases and charge remains unchanged",
+          "None of the above"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-13",
+        question: "When one electron is taking towards the other electron then the electric potential energy of the system",
+        options: [
+          "Decreases",
+          "Increases",
+          "Remains unchanged",
+          "Becomes zero"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-14",
+        question: "A metallic charged sphere is placed in uniform electric field e the electric field inside the sphere will be",
+        options: [
+          "Less than E",
+          "Greater than E",
+          "Zero",
+          "E"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-15",
+        question: "The capacitance unit of convenient size is",
+        options: [
+          "Farad",
+          "Micro farad",
+          "Kilo farad",
+          "Maga Farad"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-16",
+        question: "Two charged sphere of radii 10 cm and 15 cm are connected by a thin wire. No current will flow, if they have:",
+        options: [
+          "The same charge on each",
+          "The same potential",
+          "The same energy",
+          "The same field on their surface"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-17",
+        question: "If the distance between the plates of parallel plates capacitor is increased, it's potential will",
+        options: [
+          "Remains same",
+          "Decreases",
+          "Increases",
+          "Decrease exponentially"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-18",
+        question: "A charges produces an electric field E at a point if the charge of on particle is double then the electric field at that point is",
+        options: [
+          "Half",
+          "Doubled",
+          "Unchanged",
+          "One fourth"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-19",
+        question: "The unit of product of resistance and capacitance is equal to unit of",
+        options: [
+          "Time",
+          "Work",
+          "Potential difference",
+          "Current"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-20",
+        question: "Capacitor is approximately fully charged after",
+        options: [
+          "Two time constant",
+          "Three time constant",
+          "Four time constant",
+          "Five time constant"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-21",
+        question: "Dielectric Field through the surface of sphere due to charge Q plate it Centre depends upon",
+        options: [
+          "The radius of the sphere",
+          "The quantity of charge outside the sphere",
+          "The surface area of the sphere",
+          "The quantity of charge inside the sphere"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-22",
+        question: "If the potential difference across the two plates of parallel capacitor is doubled then its energy is stored in it will be",
+        options: [
+          "Two times",
+          "16 times",
+          "Four times",
+          "Remain same"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-23",
+        question: "Charge is distributed uniformly on the surface of a spherical balloon (an insulator). A point particle with charge q is inside. The electric force on the particle is greatest when",
+        options: [
+          "It's at center of balloon",
+          "It's halfway b/w the Ballon center and inside the surface",
+          "It's anywhere inside (the force is same everywhere and it is not zero)",
+          "It is anywhere inside (the force is zero everywhere)"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-24",
+        question: "A point charge q produces an absolute potential of 5V at a distance of 1m what will be the absolute potential due to q at a distance of 3 meters",
+        options: [
+          "15V",
+          "5/9 volt",
+          "3/5 volt",
+          "5/3 Volt"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-25",
+        question: "A capacitor of capacitance C has charge Q and stored energy is E, if the charge is increases to 2Q, the stored energy will be",
+        options: [
+          "E/4",
+          "2E",
+          "E/2",
+          "4E"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-26",
+        question: "Electric potential of earth is taken to be zero because the earth is good",
+        options: [
+          "Semiconductor",
+          "Insulator",
+          "Conductor",
+          "Dielectric"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-27",
+        question: "Two points charges are separated by a distance of 4m. The force between them is 4N what is the force between the charges, when the distance between them is 1m",
+        options: [
+          "16N",
+          "1N",
+          "64N",
+          "32N"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-28",
+        question: "The automobiles wind shield wipers works on",
+        options: [
+          "Electricity",
+          "Cell",
+          "Charging and discharging of capacitor",
+          "Charging and discharging of inductor"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-29",
+        question: "Two point charges +2C and +6C repel each other with a force of 12N. If a charge of 2C is given to each of the, then force between them will become",
+        options: [
+          "-10N",
+          "+20N",
+          "+10N",
+          "-20N"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-30",
+        question: "After charging a capacitor, battery is disconnected and a dielectric slab is placed between capacitor plates, then energy stored in it",
+        options: [
+          "Increases",
+          "Decreases",
+          "Unchanged",
+          "Both a and b"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-31",
+        question: "12J of work has to be done against an existing electric field to take a charge of 0.01C from A to B. Find the potential difference between B and A",
+        options: [
+          "120V",
+          "1200 V",
+          "1.2V",
+          "12V"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-32",
+        question: "Neutral zone in electric field of two similar charges is region where",
+        options: [
+          "Both positive and negative charges are present",
+          "Equal quantity of both positive and negative charges are present",
+          "An electric dipole exist",
+          "No electric field line passes"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-33",
+        question: "Two particles x and y are 4 m apart X has a charge of 2q and Y is a charge of Q the force of x on y",
+        options: [
+          "Has twice the magnitude of Y on X",
+          "Has half the magnitude of the force of y on X",
+          "Has the same magnitude is the force of y on X",
+          "Has has one fourth the magnitude of force of y on X"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-34",
+        question: "The electric intensity is expressed in unit of N divided by C or",
+        options: [
+          "Volts",
+          "Joules",
+          "Watt",
+          "V/m"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-35",
+        question: "The dipole moment is defined as the product of",
+        options: [
+          "Charge and distance",
+          "Charge and displacement",
+          "Charge and force",
+          "Charge and electric field"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-36",
+        question: "The equipotential surfaces associated with a charged point particle are",
+        options: [
+          "Radially outward from the particle",
+          "Vertical planes",
+          "Horizontal planes",
+          "Concentric spheres"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-37",
+        question: "The number of electrons removed from an object to create a charge of 1 coulomb are",
+        options: [
+          "6.2×10^-23",
+          "6.2×10^18",
+          "1.6×10^-19",
+          "6.2×10^-18"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-38",
+        question: "A capacitor when air as a dielectric is charged to a potential of 100 volt. If the space between the plates is now filled with dielectric of dielectric constant 10, the potential difference between the plates will be",
+        options: [
+          "1000V",
+          "100V",
+          "10V",
+          "0V"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-39",
+        question: "Relative permittivity of a material is 10, it's absolute or actual permittivity is",
+        options: [
+          "8.85×10^-12 F/m",
+          "9×10^9 F/m",
+          "8.85×10^-11 F/m",
+          "10 F/m"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-40",
+        question: "A 200 micro farad capacitor is charged to 200V, it's energy stored is",
+        options: [
+          "4000J",
+          "4J",
+          "0.4J",
+          "2000J"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-41",
+        question: "Two plates are 2cm a part. If a potential difference of 10V is applied between the plates. The electric field between the plates is",
+        options: [
+          "10N/C",
+          "250N/C",
+          "500N/C",
+          "250N/C"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-42",
+        question: "Electron volt is the unit of",
+        options: [
+          "Energy",
+          "Charge",
+          "Current",
+          "Electric potential"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-43",
+        question: "If the both area and plate separation of a parallel plate capacitor are doubled then the capacitance is",
+        options: [
+          "Doubled",
+          "Unchanged",
+          "Halved",
+          "Tripled"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-44",
+        question: "If a 10F capacitor is to have an energy content of 20J, it must be placed across a potential difference of",
+        options: [
+          "4 volts",
+          "9 volts",
+          "2 volts",
+          "1 volts"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-45",
+        question: "The dimension of an electric potential is same as that of",
+        options: [
+          "Work",
+          "Work Per unit charge",
+          "Electric field Per unit charge",
+          "Electric force per unit charge"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-46",
+        question: "The electrostatic force between two point charges is independent of one of the following quantities",
+        options: [
+          "Magnitude of charges",
+          "Temperature of the charges",
+          "Distance between charges",
+          "Medium between charges"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-47",
+        question: "The concept of electric field was introduced by",
+        options: [
+          "Coloumb",
+          "Faraday",
+          "Guass",
+          "Ampere"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-48",
+        question: "In the presence of dielectric material the electric field between the plates of the capacitor will be",
+        options: [
+          "Reman same",
+          "Decreased",
+          "Increased",
+          "Zero"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-49",
+        question: "In a charged capacitor the energy resides in",
+        options: [
+          "Electric field surrounding the capacitor",
+          "Electric field inside the capacitor",
+          "Both a and b",
+          "Gravitational field"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-50",
+        question: "The electric flux is maximum when angle between area vector and electric intensity is",
+        options: [
+          "Zero degree",
+          "45 degree",
+          "60 degree",
+          "90 degree"
+        ],
+        answer: 0
+      }
   ];

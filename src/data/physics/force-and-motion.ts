@@ -675,5 +675,559 @@ export type Question = {
       ],
       answer: 1,
       explanation: "Mass is the scalar quantitative measure of a body's inertia."
-    }
+    },
+     // --- TESTMOZ ---
+      {
+        id: "testmoz-phys-1",
+        question: "A field in which work done on a closed path is zero is called",
+        options: [
+          "Gravitational force",
+          "Conservative field",
+          "Electric field",
+          "Magnetic field"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-2",
+        question: "If we drop an object it's initial velocity is zero how far will it fall in time \"t\"?",
+        options: [
+          "9.8t^2",
+          "4.9t^2",
+          "0.49t^2",
+          "98t^2"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-3",
+        question: "The necessary centripetal force to the moving car around a corner track is provided by",
+        options: [
+          "Gravitational force",
+          "Centripetal force",
+          "Force of friction",
+          "Centrifugal force"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-4",
+        question: "If a body moves with constant speed in a circle",
+        options: [
+          "No work is done on it",
+          "No force acts on it",
+          "No acceleration is produced on it",
+          "It's velocity remains constant"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-5",
+        question: "1 hp equal to",
+        options: [
+          "234 watt",
+          "246 watt",
+          "746 watt",
+          "None"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-6",
+        question: "A player throws a ball at an initial velocity of 36 m/s the maximum distance the ball can reach (assume ball is caught at the same height at which it was released) is:",
+        options: [
+          "146m",
+          "130m",
+          "132m",
+          "129m"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-7",
+        question: "A ball is moving on table which energy does it possess",
+        options: [
+          "Potential energy",
+          "Kinetic energy",
+          "Both of them",
+          "None"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-8",
+        question: "Calculate the power of pump which can lift 200bkg of water through a vertical height of 6m in 10 sec",
+        options: [
+          "12000W",
+          "1.20KW",
+          "120W",
+          "None"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-9",
+        question: "What is the kinetic energy of base ball mass =0.15kg moving with a speed of 20m/s",
+        options: [
+          "20J",
+          "30J",
+          "40J",
+          "50J",
+          "100J"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-10",
+        question: "A ball falls from a height H from a tower. Which of the following statement is true?",
+        options: [
+          "The potential energy of ball is conserved as it falls",
+          "The kinetic energy of the ball is conserved as it falls",
+          "The difference between kinetic energy and potential energy is conserved as it falls",
+          "The sum of potential and kinetic energy is constant"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-11",
+        question: "A bullet is fire horizontally with 20m/s in the absence of air Friction its horizontal velocity after 2 seconds",
+        options: [
+          "10m/s",
+          "5m/s",
+          "60m/s",
+          "20m/s"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-12",
+        question: "The unit of power",
+        options: [
+          "Watt",
+          "kwh",
+          "Joules",
+          "Ergs"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-13",
+        question: "One complete execution of periodic motion. Is called",
+        options: [
+          "Oscillation",
+          "Vibration",
+          "Revolution",
+          "Simple harmonic motion"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-14",
+        question: "What force will give a Mass of 10kg when it is accelerated at 5m/s^2 frictional force is 50N",
+        options: [
+          "50N",
+          "100N",
+          "25N",
+          "60N"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-15",
+        question: "What is the kinetic energy of base ball mass=0.15kg moving with a speed of 20m/s",
+        options: [
+          "20J",
+          "30J",
+          "40J",
+          "50J"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-16",
+        question: "The slope of distance ...... time graph will always be",
+        options: [
+          "Negative",
+          "Positive",
+          "Zero",
+          "Maximum"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-17",
+        question: "Which one of the following statement is correct?",
+        options: [
+          "A body has a constant velocity but varying speed",
+          "A body has a constant speed but varying acceleration",
+          "A body has a constant speed cannot has an acceleration",
+          "A body has a constant speed can has varying velocity"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-18",
+        question: "The velocity of alpha particle is?",
+        options: [
+          "0.8×10^8 m/s",
+          "0.5×10^8 m/s",
+          "0.3×10^8 m/s",
+          "0.1×10^8 m/s"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-19",
+        question: "Unit of static co efficient of friction is",
+        options: [
+          "Poise",
+          "Newton",
+          "Dyne",
+          "None"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-20",
+        question: "A ball falls freely towards the earth if the action force is the earth pulling down on the ball the reaction force is",
+        options: [
+          "The pulling up on the earth",
+          "Air resistance acting on the ball",
+          "The ball striking the earth when it lands",
+          "The inertia of the ball",
+          "There is no reaction force in this case"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-21",
+        question: "Object displaced from 5m height reaches ground at a distance of 10m what it's final velocity",
+        options: [
+          "10 m/s",
+          "10×1.414 m/s",
+          "20 m/s",
+          "20×1.414 m/s"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-22",
+        question: "The Newton × second is unit of",
+        options: [
+          "Work",
+          "Power",
+          "Impulse",
+          "Momentum"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-23",
+        question: "A ball is the height of 80m find the time taken by ball to reach ground.",
+        options: [
+          "16 sec",
+          "4 sec",
+          "32 sec",
+          "8 sec"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-24",
+        question: "The ...... component of velocity remains same in projectile motion",
+        options: [
+          "Y component",
+          "X component",
+          "Both X and Y",
+          "None of them"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-25",
+        question: "If the axis of rotation passes through the body and the body moves around it self then the motion is called",
+        options: [
+          "Spin motion",
+          "Orbital",
+          "Rectilinear motion",
+          "Translatory motion"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-26",
+        question: "If the velocity of the body is decreasing, the acceleration is negative, this negative acceleration is known as",
+        options: [
+          "Retardation",
+          "Deceleration",
+          "Negative displacement",
+          "Both a and b"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-27",
+        question: "The box of mass M=6kg slides with speed V=4m/s across a frictionless floor. It suddenly explodes into two pieces. One piece with mass M1 =2kg moves in the same direction with speed V1=5m/s. The velocity of second piece is",
+        options: [
+          "6m/s",
+          "4m/s",
+          "3m/s",
+          "2m/s"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-28",
+        question: "A vehicle starting from rest attain a speed of 72km/h covering a distance of 100m if the mass of the vehicle is 500kg find the force exerted by the engine?",
+        options: [
+          "3000N",
+          "1000N",
+          "4000N",
+          "2000N"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-29",
+        question: "The third law of motion given by Newton deals with action reaction pair of forces. Consider two bodies: if the action is due to one body, the reaction will be due to:",
+        options: [
+          "Both the bodies",
+          "The other body",
+          "The same body",
+          "Atmosphere"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-30",
+        question: "A car is traveling in straight line along a highway at a constant speed of 80 miles per hour for 10 seconds. Find its acceleration.",
+        options: [
+          "100m/s^2",
+          "200m/s^2",
+          "0m/s^2",
+          "150m/s^2"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-31",
+        question: "What is the speed of 2.0kg metallic Bob at the mean position of a simple pendulum, when release from its extreme position 0.5m height?",
+        options: [
+          "3.16m/s",
+          "10m/s",
+          "100m/s",
+          "50m/s"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-32",
+        question: "Momentum of a body depends on its",
+        options: [
+          "Mass",
+          "Velocity",
+          "Either Mass or velocity",
+          "Both mass and velocity"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-33",
+        question: "A body is said to move with ...... if it's rate of change of distance moved with time in a specified direction is constant",
+        options: [
+          "Uniform velocity",
+          "Velocity",
+          "Speed",
+          "Uniform speed",
+          "None"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-34",
+        question: "...... is that which changes a body's state of rest or of uniform motion",
+        options: [
+          "Momentum",
+          "Acceleration",
+          "Force",
+          "Balanced force"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-35",
+        question: "A car of mass of 1000kg traveling at 36km/h is brought to rest over a distance of 20m. Find the average breaking force in newton's?",
+        options: [
+          "1000N",
+          "2500N",
+          "5000N",
+          "10000N"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-36",
+        question: "The escape velocity of a body depends upon",
+        options: [
+          "The mass of the body",
+          "The mass of the planet",
+          "Density of the planet",
+          "Volume of the planet"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-37",
+        question: "An object with an initial velocity of 4m/s moves along a straight line under constant acceleration. Three second later, it's velocity is 14m/s how far did it travel during this time",
+        options: [
+          "27m",
+          "17m",
+          "67m",
+          "57m"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-38",
+        question: "At what angle of projection of projectile the range become half of its maximum value?",
+        options: [
+          "15°",
+          "20°",
+          "30°",
+          "45°"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-39",
+        question: "A body is dropped from certain height and falls freely its velocity after 5 seconds will be",
+        options: [
+          "94m/s",
+          "9.4m/s",
+          "4.9m/s",
+          "49m/s"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-40",
+        question: "Rate of change of linear momentum",
+        options: [
+          "Energy",
+          "Impulse",
+          "Force",
+          "Torque"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-41",
+        question: "Which if the following is non-conservative force",
+        options: [
+          "Fractional force",
+          "Gravitational force",
+          "Elastic force",
+          "Elastic spring force"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-42",
+        question: "A massive ball collides with a light ball. What will be the velocity of the heavy ball after collision",
+        options: [
+          "Doubled",
+          "Halved",
+          "It will remain stationary",
+          "Lighter will be rebound with double velocity"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-43",
+        question: "Which shows the correct relation between time of flight and maximum height",
+        options: [
+          "H=gt^2/8",
+          "H=gt^2/g",
+          "H=8g/T^2",
+          "H=8/Gt"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-44",
+        question: "A body is thrown height vertically upward with initially velocity 9.8m/sec it will attain height",
+        options: [
+          "9.8m",
+          "29.4m",
+          "4.9m",
+          "19.6m"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-45",
+        question: "How much force is required to cause an object of mass 2kg to have an acceleration of 4m/s²?",
+        options: [
+          "8N",
+          "10N",
+          "4N",
+          "2N"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-46",
+        question: "Dimension of Force is",
+        options: [
+          "ML^-1T",
+          "MLT^-1",
+          "M2LT^-1",
+          "MLT^-2"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-47",
+        question: "A ball is thrown vertically upward with a velocity of 98m/s how high does the ball rise?",
+        options: [
+          "360 meters",
+          "389 meters",
+          "490 meters",
+          "510 meters"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-48",
+        question: "A cannon ball is fired from a cannon so that the cannon recoils backward as the ball is fired forward. Which of the following statement is true",
+        options: [
+          "The velocity of the cannon ball is equal and opposite to the velocity of cannon",
+          "The momentum of the cannon ball must be greater than the magnitude of the momentum of the cannon",
+          "The momentum of the cannon must be equal to the magnitude of the momentum of the cannon ball",
+          "The momentum of the cannon must be greater than the magnitude of the momentum of the cannon ball"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-49",
+        question: "When a bullet is fired by a gun, the gun moves backward with a",
+        options: [
+          "Velocity less than bullet",
+          "Velocity more than bullet",
+          "Velocity equal to the bullet",
+          "Remains at rest"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-50",
+        question: "The rate of change of angular momentum of a body is called",
+        options: [
+          "Net force",
+          "Net displacement",
+          "Net torque",
+          "Net velocity"
+        ],
+        answer: 2
+      }
   ];

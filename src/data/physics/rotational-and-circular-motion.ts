@@ -376,5 +376,557 @@ export type Question = {
       ],
       answer: 3,
       explanation: "Centripetal force F_c = (m v²) / r = (m × 30²) / 30 = (m × 900) / 30 = 30 m."
-    }
+    },
+     // --- TESTMOZ ---
+      {
+        id: "testmoz-phys-1",
+        question: "The angular velocity of the minute hand of a clock is",
+        options: [
+          "2π/60 rad/s",
+          "2π/3600 rad/s",
+          "π/24 rad/s",
+          "Choice 4",
+          "π/3600 rad/s"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-2",
+        question: "A mud flies off the Tyre of fast moving car in the direction",
+        options: [
+          "Parallel to moving Tyre",
+          "Tangent to the moving tyre",
+          "Anti parallel to the moving tyre",
+          "None"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-3",
+        question: "A disk is free to rotate on a fixed axis. A force of magnitude F, in the plane of the disk, is to be applied. On the following alternatives the greatest angular acceleration is obtained if the force is",
+        options: [
+          "Applied tangentially halfway between the axis and rim",
+          "Applied tangentially at the rim",
+          "Applied radially halfway between the axis and rim",
+          "Applied radially at the rim"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-4",
+        question: "The angular velocity of a rotating wheel increases by 2 rev/s every minute. The angular acceleration in rad/s² of this wheel is",
+        options: [
+          "4π²",
+          "1/30",
+          "2π",
+          "π/15"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-5",
+        question: "If a particle moves in a circle describing equal angles in equal intervals of time, the velocity vector",
+        options: [
+          "Remains constant",
+          "Changes in magnitude only",
+          "Changes in direction only",
+          "Changes both in magnitude and direction"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-6",
+        question: "A cyclist turns around a curve at 15 miles/hour. If he turns at double the speed, the tendency to overturn is",
+        options: [
+          "Quadrupled",
+          "Halved",
+          "Unchanged",
+          "Doubled"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-7",
+        question: "For positive angular displacement the rotation would be",
+        options: [
+          "Clockwise",
+          "Anti clock wise",
+          "Parallel",
+          "Perpendicular"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-8",
+        question: "A cyclist cycling around a circular racing track, skids because",
+        options: [
+          "The centripetal force upon him is less than limiting friction",
+          "The centripetal force upon him is greater than limiting friction",
+          "The force upon him is equal to the limiting friction",
+          "The Friction between the tyres of the cycle and road vanishes"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-9",
+        question: "A particle P is moving in a circle of radius with a uniform speed v, C is the center of the circle and AB is diameter. The angular velocity of P about A and C are in the ratio",
+        options: [
+          "1:1",
+          "1:2",
+          "4:1",
+          "2:1"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-10",
+        question: "The ratio of angular frequency and linear frequency is",
+        options: [
+          "2π",
+          "1/2π",
+          "π/2",
+          "π"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-11",
+        question: "A point on the rim of a wheel 4 m in diameter has a velocity of 1600 cm/s the angular velocity of wheel is",
+        options: [
+          "2 rad/s",
+          "6 rad/s",
+          "4 rad/s",
+          "8 rad/s"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-12",
+        question: "Which of the following is an axial vector",
+        options: [
+          "Torque",
+          "Angular displacement",
+          "Angular velocity",
+          "All"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-13",
+        question: "If a satellite moves above earth's atmosphere in a circular orbit with constant speed, then",
+        options: [
+          "It's acceleration and velocity are always in the same direction",
+          "It's acceleration is towards the earth",
+          "It's velocity is constant",
+          "It will fall back to earth when it's fuel is used up"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-14",
+        question: "The angle between the centripetal force and tangential velocity is",
+        options: [
+          "0 degree",
+          "90 degree",
+          "180 degree",
+          "60 degree"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-15",
+        question: "If a body is moving in a circular path with constant speed, then the",
+        options: [
+          "Velocity and acceleration are perpendicular to each other",
+          "Velocity and acceleration are parallel to each other",
+          "Velocity and acceleration are anti parallel",
+          "Both have zero magnitude"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-16",
+        question: "Work done due to centripetal force for circular motion will be",
+        options: [
+          "Reduced",
+          "Maximum",
+          "Half",
+          "Zero"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-17",
+        question: "A particle is moving with constant speed by keeping itself at constant distance from a fixed point in given plane its motion is",
+        options: [
+          "Circular motion",
+          "Uniform circular motion",
+          "Uniform circular motion with fixed axis of rotation",
+          "Uniform circular motion with axis of motion not defined"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-18",
+        question: "Two wheels roll side by side without sliding at the same speed the radius of wheel 2 is twice the radius of wheel 1. The angular velocity of wheel 2 is",
+        options: [
+          "Twice the angular velocity of wheel 1",
+          "The same as the velocity of wheel 1",
+          "Half the angular velocity of wheel 1",
+          "More than twice the angular velocity of wheel 1"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-19",
+        question: "The magnitude of the force required to cause a 0.04 kg object to move at 0.6 m/s in a circle of radius 1.0 m is",
+        options: [
+          "2.4 × 10⁻² N",
+          "1.4π × 10⁻² N",
+          "1.4 × 10⁻² N",
+          "2.4π² × 10⁻² N"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-20",
+        question: "For a body moving in a circle, it's linear ...... is equal to radius times angular ....",
+        options: [
+          "Displacement",
+          "Velocity",
+          "Acceleration",
+          "All of these"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-21",
+        question: "Which of the following is not directed along the axis of rotation",
+        options: [
+          "Angular displacement",
+          "Centripetal acceleration",
+          "Angular velocity",
+          "All of these"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-22",
+        question: "The angular momentum changes from 2 units to 6 units in 4 s. The torque is",
+        options: [
+          "1 unit",
+          "1/2 unit",
+          "3/2 unit",
+          "4 unit"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-23",
+        question: "Ten seconds after an electric fan is turned on, the fan rotates at 300 rev/min it's average angular acceleration is",
+        options: [
+          "30 rad/s²",
+          "3.14 rad/s²",
+          "30 rev/s²",
+          "500 rev/s²"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-24",
+        question: "For a particle in uniform circular motion is relation a = rα of acceleration hold the acceleration 'a'",
+        options: [
+          "Is centripetal acceleration",
+          "Is radial acceleration",
+          "Is tangential acceleration",
+          "Both a and b"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-25",
+        question: "A small body of mass m tied to a string and revolved in vertical circle is just able to reach the top of the path and complete the circle. The tension in the string at lowest point of the path is",
+        options: [
+          "mg",
+          "4mg",
+          "2mg",
+          "6mg"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-26",
+        question: "A body is traveling in a circular path at constant speed",
+        options: [
+          "Has a constant velocity",
+          "Is not accelerated",
+          "Has an inward acceleration",
+          "Has transverse acceleration"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-27",
+        question: "A stone of mass m tied to a string of length l is rotated in a circle with the inherent end of the string as the center. The speed of the stone is v if the string brakes, the stone will move",
+        options: [
+          "Towards the center of circle",
+          "Along the tangent",
+          "Away from the center of circle",
+          "All of these"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-28",
+        question: "The weight of body at the center of earth is",
+        options: [
+          "Slightly less",
+          "Zero",
+          "Slightly greater",
+          "Maximum"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-29",
+        question: "Two bodies of mass 10 kg and 5 kg moving in concentric orbits of radii R and r such that their periods are the same. Then the ratio between their centripetal acceleration is",
+        options: [
+          "R/r",
+          "r/R",
+          "R²/r²",
+          "r²/R²"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-30",
+        question: "In uniform circular motion, the factor that remains constant is",
+        options: [
+          "Linear velocity",
+          "Acceleration",
+          "Centripetal force",
+          "Speed"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-31",
+        question: "The shaft of motor rotates at a constant angular speed of 360 rev/min. Angle through in 1 sec in 1 radian is",
+        options: [
+          "Pi",
+          "3 pi",
+          "6 pi",
+          "12 pi"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-32",
+        question: "A particle moves in a circle of radius 25 cm at two revolutions per second. The acceleration of the particle in m/s² is",
+        options: [
+          "π²",
+          "8π²",
+          "4π²",
+          "2π²"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-33",
+        question: "The body of mass 8 kg moves along a circle of radius of 4 m with a constant speed of 8 m/s the centripetal force on the body is",
+        options: [
+          "48 N",
+          "128 N",
+          "8 N",
+          "72 N"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-34",
+        question: "An object moves around a circle. If the radius is doubled keeping the speed the same then the magnitude of the centripetal force must be",
+        options: [
+          "Twice",
+          "Four times",
+          "Half",
+          "One fourth"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-35",
+        question: "A child, riding on a large merry go round, travel a distance of 3000 m in a circle of diameter 40 m. The total angle through which she revolves is",
+        options: [
+          "50 rad",
+          "150 rad",
+          "75 rad",
+          "314 rad"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-36",
+        question: "A wheel of radius 50 cm having angular speed of 5 rad/s will have linear speed in m/s",
+        options: [
+          "1.5",
+          "2.5",
+          "3.5",
+          "4"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-37",
+        question: "The ratio of circumference of a circle to its diameter is equal to",
+        options: [
+          "2π rad",
+          "π/2 rad",
+          "π rad",
+          "1 sr"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-38",
+        question: "The force which provide necessary centripetal force to keep the mud in circular path is called",
+        options: [
+          "Cohesive force",
+          "Frictional force",
+          "Adhesive force",
+          "Gravitational force"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-39",
+        question: "Particle is moving in a circle of radius r with constant angular speed ω its acceleration, directed towards center of circle is",
+        options: [
+          "ω/r",
+          "ω²/r",
+          "ω²r",
+          "ωr²"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-40",
+        question: "A wheel of radius 2 m through an angle of 57.3°. It lays out a tangential distance",
+        options: [
+          "2 m",
+          "57.3 m",
+          "4 m",
+          "114.6 m"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-41",
+        question: "The angular speed in radian/hour for rotation of the earth is",
+        options: [
+          "2 pi",
+          "Pi/6",
+          "4 pi",
+          "Pi/12"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-42",
+        question: "When a body is whirled in a horizontal circle by means of a string, the centripetal force is supplied by",
+        options: [
+          "Mass of a body",
+          "Tension in string",
+          "Velocity of a body",
+          "Centripetal acceleration"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-43",
+        question: "One radian is equal to",
+        options: [
+          "2π rev",
+          "π/4 rev",
+          "π/2 rev",
+          "1/2π rev"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-44",
+        question: "The driver of car traveling at velocity v suddenly sees a board wall in front of him at a distance a. the should",
+        options: [
+          "Brake sharply",
+          "Turn sharply",
+          "A and B both",
+          "None"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-45",
+        question: "The ratio of angular speed of minute hand of a clock to the second hand of clock for one complete rotation is",
+        options: [
+          "1:15",
+          "15:1",
+          "1:60",
+          "60:1"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-46",
+        question: "What is wrong about centripetal and centrifugal forces",
+        options: [
+          "None of these",
+          "Their magnitudes are same",
+          "Their direction are opposite",
+          "Both perform work done"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-47",
+        question: "Angular velocity has same dimensions as that of",
+        options: [
+          "Angular displacement",
+          "Linear acceleration",
+          "Frequency",
+          "Linear velocity"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-48",
+        question: "The driver of a 1000 kg car tries to turn through a circle of radius 100 m on an unbanked curve at a speed of 10 m/s. The actual frictional force between the tyres and slippery road has a magnitude of 900 N the car",
+        options: [
+          "Slides in to the inside of the curve",
+          "Slides off to the outside of the curve",
+          "Makes the turn",
+          "Makes the turn only if it goes faster"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-49",
+        question: "For a body moving with constant speed in a horizontal circle, which of the following remains constant",
+        options: [
+          "Velocity",
+          "Acceleration",
+          "Centripetal force",
+          "Kinetic energy"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-50",
+        question: "The direction of centrifugal force is directed at ........ center",
+        options: [
+          "Towards",
+          "Away",
+          "At",
+          "Perpendicular to the plane"
+        ],
+        answer: 1
+      }
   ];

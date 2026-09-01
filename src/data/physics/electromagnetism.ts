@@ -237,5 +237,556 @@ export type Question = {
       ],
       answer: 2,
       explanation: "Magnetic flux density B = Φ / A, giving units of Weber per meter squared (Wb m⁻²), also known as Tesla (T)."
-    }
+    },
+     // --- TESTMOZ ---
+      {
+        id: "testmoz-phys-1",
+        question: "An electron and a Proton enters into a magnetic field perpendicularly with the same momentum",
+        options: [
+          "The proton will deflect more",
+          "Both will deflect equally",
+          "Electron will deflect more",
+          "They will not deflect at all"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-2",
+        question: "If a particle is moving in a region of both electric and magnetic fields then the total force acting on it is",
+        options: [
+          "Sum of electric and magnetic force",
+          "No force will act on it",
+          "Difference of electric and magnetic force",
+          "None of the above"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-3",
+        question: "Two long parallel straight wires carry equal currents in the opposite direction. At a point Midway between the wires the magnetic field they produce is",
+        options: [
+          "Zero",
+          "Non zero and along a line connecting the wires",
+          "Non zero and parallel to the wires",
+          "Non zero and perpendicular to the plane of the two wires"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-4",
+        question: "An electron Travels due north through a vacuum in a region of uniform magnetic field B that is also directed due north. It will",
+        options: [
+          "Be undeflected by the field",
+          "Slow down",
+          "Speed up",
+          "Follow a right handed cork screw path"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-5",
+        question: "Magnetic force acts like",
+        options: [
+          "Centripetal force",
+          "Gravitational force",
+          "Strong nuclear force",
+          "Electrical force"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-6",
+        question: "The radius of curvature of the path of a charged particle moving in a static uniform magnetic field is",
+        options: [
+          "Directly proportional to the magnitude of the charge on the particle",
+          "Directly proportional to the magnitude of linear momentum of the particle",
+          "Directly proportional to the kinetic energy of particle",
+          "Inversely proportional to the magnitude of the magnetic field"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-7",
+        question: "The direction of a point on the magnetic field of force can be taken along",
+        options: [
+          "Normal at that point",
+          "The tangent at that point",
+          "Axis of the magnetic line of force at that point",
+          "Can’t be taken"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-8",
+        question: "Thomson’s experiment involving the motion of an electron in mutually perpendicular E and B fields gave the value of",
+        options: [
+          "Mass of an electron",
+          "Earth magnetic field",
+          "Charge of an electron",
+          "Charge to mass ratio of an electron"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-9",
+        question: "Two parallel long wires carry the same current and repel each other with the force of F per unit length. If both these currents are doubled and the wire separation tripled, the force per unit length becomes",
+        options: [
+          "2F/9",
+          "2F/3",
+          "4F/9",
+          "4F/3"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-10",
+        question: "The magnetic field due to electric current in a conducting wire is",
+        options: [
+          "Towards the centre of conducting wire",
+          "Circular around the conducting wire",
+          "In the direction of the electric current",
+          "In the direction opposite to electric current"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-11",
+        question: "When a current conductor is placed in a magnetic field it moves from region of",
+        options: [
+          "Stronger to weak field",
+          "Strong field if current is large",
+          "Weak to strong field",
+          "Weak to strong if current is large"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-12",
+        question: "A charged particle is projected at an angle into a uniform magnetic field. Which of the following parameters of the charged particle will be affected by the magnetic field",
+        options: [
+          "Energy",
+          "Speed",
+          "Velocity",
+          "Kinetic energy"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-13",
+        question: "In the formula F = q(v × B)",
+        options: [
+          "F must be perpendicular to v but not necessarily to B",
+          "F must be perpendicular to B but not necessarily to V",
+          "V be perpendicular to B but not necessarily to F",
+          "F must be perpendicular to both v and B"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-14",
+        question: "Magnetic force acting on a unit positive charge moving at right angle to the magnetic field with unit velocity is called",
+        options: [
+          "Magnetic flux",
+          "Motional EMF",
+          "Induced EMF",
+          "Magnetic induction"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-15",
+        question: "Flux through an area 1 m² in xy plane in a magnetic field of one tesla directing along Z Axis will be",
+        options: [
+          "0",
+          "0.5 wb",
+          "1 wb",
+          "2 wb"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-16",
+        question: "When a charged particle moves through a magnetic field it suffers change in",
+        options: [
+          "Direction",
+          "Speed",
+          "Energy",
+          "No change"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-17",
+        question: "Two parallel wires carrying current in opposite directions",
+        options: [
+          "Repel each other",
+          "Attract each other",
+          "Have no effect upon each other",
+          "They cancel out their individual magnetic fields"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-18",
+        question: "Magnetic lines around the current carrying wire are drawn in clockwise direction on a page. The current is flowing",
+        options: [
+          "Into the page",
+          "Out of the page",
+          "Left side of the page",
+          "Right side of the page"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-19",
+        question: "Lines of the magnetic field produced by a long current carrying wire are",
+        options: [
+          "Circles that are concentric with wire",
+          "Opposite to the direction of a current",
+          "Radially outward from the wire",
+          "Radially inward toward the wire"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-20",
+        question: "Which of the following particles moving in a magnetic field cannot be deflected",
+        options: [
+          "Alpha particle",
+          "Electron",
+          "Beta particle",
+          "Neutron"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-21",
+        question: "If current flows from top towards bottom through a wire then the direction of magnetic line of force would be",
+        options: [
+          "Parallel to the wire",
+          "Clockwise",
+          "Perpendicular to the wire",
+          "Anticlockwise"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-22",
+        question: "A charged particle in uniform motion produces",
+        options: [
+          "An electric field only",
+          "A magnetic field only",
+          "Both an electric field and magnetic field",
+          "No such field at all"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-23",
+        question: "The magnetic field produced due to the current in a straight wire is proportional to",
+        options: [
+          "Electric current",
+          "Length of the wire",
+          "Conducting material",
+          "Diameter of the wire"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-24",
+        question: "A uniform magnetic field is represented by a set of lines of force which are",
+        options: [
+          "Parallel",
+          "Divergent",
+          "Convergent",
+          "None of these"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-25",
+        question: "The direction of magnetic line of force can be found by using",
+        options: [
+          "Right hand rule",
+          "Left hand rule",
+          "Henry’s law",
+          "Faraday’s law"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-26",
+        question: "Magnetic force is simply a",
+        options: [
+          "Reflecting force",
+          "Restoring force",
+          "Deflecting force",
+          "Gravitational force"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-27",
+        question: "A Proton is moving northward in a magnetic field directed vertically upward. The proton will be deflected",
+        options: [
+          "Eastward",
+          "Westward",
+          "Vertically upward",
+          "Remain undeflected"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-28",
+        question: "The SI unit of magnetic flux is",
+        options: [
+          "Tesla",
+          "Joule",
+          "Weber",
+          "Newton"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-29",
+        question: "A Proton and an electron both moving with same velocity enter into a region of magnetic field directed perpendicular to velocity of the particles. They will now move in a circular orbit such that",
+        options: [
+          "Their time periods will be same",
+          "The time period for electron will be higher",
+          "The time period for Proton will be higher",
+          "Their orbital radii will be same"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-30",
+        question: "The direction of the magnetic line of force depends upon",
+        options: [
+          "Nature of material of conducting wire",
+          "Area of the conducting wire",
+          "Amount of the current",
+          "Direction of the current"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-31",
+        question: "Charged particle enters at 30 degree to the magnetic field. Its path becomes",
+        options: [
+          "Helical",
+          "Elliptical",
+          "Circular",
+          "Straight line"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-32",
+        question: "Which of the following is a vector quantity",
+        options: [
+          "Magnetic flux density",
+          "Magnetic field intensity",
+          "Magnetic flux",
+          "Both a and b"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-33",
+        question: "Hydrogen atom that has lost its electron is moving east in the region where the magnetic field is directed from South to North. It will be deflected",
+        options: [
+          "Up",
+          "Down",
+          "North",
+          "South"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-34",
+        question: "A magnetic field exerts a force on a charged particle",
+        options: [
+          "Always",
+          "Never",
+          "If the particle is moving across the field",
+          "If the particle is moving along the field"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-35",
+        question: "The value of ……… around the current carrying wire is found by Ampere’s circuital law",
+        options: [
+          "Magnetic field strength",
+          "Magnetic flux density",
+          "Magnetic induction",
+          "All of these"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-36",
+        question: "Four particles enter a uniform magnetic field perpendicularly with the same speed. Which particle has the largest radius",
+        options: [
+          "Electron",
+          "Proton",
+          "Alpha particle",
+          "Beta particle"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-37",
+        question: "A charged particle enters in a direction parallel to an electric field and magnetic field such that both fields are parallel to each other. The force on the charge is",
+        options: [
+          "Zero",
+          "Due to electric field",
+          "Due to magnetic field",
+          "Due to both fields"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-38",
+        question: "A charged particle moves through a magnetic field in a direction perpendicular to it. Which of the following remains unchanged for the particle",
+        options: [
+          "Velocity",
+          "Acceleration",
+          "Speed",
+          "Direction"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-39",
+        question: "Oppositely charged particles moving due east enter a region of uniform magnetic field directed vertically upwards. The particles will",
+        options: [
+          "Continue to move due east",
+          "Move in a circular orbit with its speed unchanged",
+          "Move in circular orbit with its speed increases",
+          "Get deflected vertically upward"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-40",
+        question: "Current is flowing in a long conducting wire. The magnetic induction at a distance r from it is 0.4 Tesla. Then its value at double the distance will be",
+        options: [
+          "1.6 tesla",
+          "0.8 tesla",
+          "0.2 tesla",
+          "0.1 tesla"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-41",
+        question: "A strong magnetic field is applied to a stationary electron. Then",
+        options: [
+          "Electron moves in the direction of field",
+          "Electron moves opposite to field",
+          "Electron starts spinning",
+          "Electron remains stationary"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-42",
+        question: "Two parallel wires carrying current in the opposite direction",
+        options: [
+          "Repel each other",
+          "Have no effect upon each other",
+          "Attract each other",
+          "They cancel out their individual magnetic fields"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-43",
+        question: "Proton moves with velocity V in a perpendicular magnetic field. If the strength is increased to 2B and the proton still moves in the same circular path, its kinetic energy will",
+        options: [
+          "Be doubled",
+          "Become four times",
+          "Be halved",
+          "No change"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-44",
+        question: "A homogeneous electric field and uniform magnetic field are pointing in the same direction. A Proton is projected with its velocity parallel to the electric field. It will",
+        options: [
+          "Go on moving in the same direction with increasing velocity",
+          "Go on moving in the same direction with constant velocity",
+          "Turn to its right",
+          "Turn to its left"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-45",
+        question: "An electron is moving North in a region where the magnetic field is South. The magnetic force exerted on the electron is",
+        options: [
+          "Zero",
+          "Down",
+          "Up",
+          "East"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-46",
+        question: "An electron travels from left to right in the plane of the paper in a magnetic field perpendicular to and directed out of the paper. It is deflected",
+        options: [
+          "Downward direction",
+          "Into the paper",
+          "Upward direction",
+          "Out of the paper"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-47",
+        question: "A force exerted on a wire of 1 m length carrying 1 ampere current placed at right angle to the field is called",
+        options: [
+          "Lorentz force",
+          "Self inductance",
+          "Magnetic flux",
+          "Magnetic induction"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-48",
+        question: "A constant current is sent through a helical coil. The coil",
+        options: [
+          "Tends to get shorter",
+          "Tends to rotate about its axis",
+          "Tends to get longer",
+          "Produces zero magnetic field at its centre"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-49",
+        question: "Uniform electric field and a uniform magnetic field exist in a region in the same direction. An electron is projected with velocity in the same direction. The electron will",
+        options: [
+          "Turn to its right",
+          "Turn to its left",
+          "Keep moving in the same direction but its speed will increase",
+          "Keep moving in the same direction but its speed will decrease"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-50",
+        question: "Double the applied magnetic field, the charge to mass ratio of electron will",
+        options: [
+          "Half",
+          "Remain same",
+          "Double",
+          "Zero"
+        ],
+        answer: 1
+      }
   ];

@@ -437,5 +437,561 @@ export type Question = {
       ],
       answer: 1,
       explanation: "Height h = 100 cm = 1 m. Work done = F × h = 2.0 N × 1 m = 2 J. Power = W / t = 2 J / 4 s = 0.5 W."
-    }
+    },
+     // --- TESTMOZ ---
+      {
+        id: "testmoz-phys-1",
+        question: "Power can be defined as the dot product of",
+        options: [
+          "Force and displacement",
+          "Force and time",
+          "Force and velocity",
+          "Force and mass"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-2",
+        question: "When the speed of your car is halved by what factor does its kinetic energy decreases",
+        options: [
+          "1/4",
+          "1/2",
+          "1/8",
+          "1/6"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-3",
+        question: "A tennis ball is dropped on to a horizontal surface. As the ball bounce up and down, the height of each bounce gradually decreases during the motion of the ball",
+        options: [
+          "The kinetic energy of ball is constant",
+          "The potential energy of ball is constant",
+          "The sum of kinetic energy and potential energy of ball is constant",
+          "The total of ball, ground and air is constant"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-4",
+        question: "A truck and car are moving with equal velocity on applying brakes, both will stop after certain distance then?",
+        options: [
+          "Truck will cover less distance before stopping",
+          "Car will cover less distance before stopping",
+          "Both will cover equal",
+          "None of the mentioned"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-5",
+        question: "1 hp equals to",
+        options: [
+          "746 watt",
+          "346 watt",
+          "246 watt",
+          "None"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-6",
+        question: "A body of mass 1 kg moving with initial velocity of 1 m/s is acted upon by a force for 1 sec. The increase in KE is?",
+        options: [
+          "1.0J",
+          "2.0J",
+          "2.5J",
+          "3.0J"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-7",
+        question: "An electric motor creates a tension of 45N in hosting cable and reels it in at the rate of 2 m/s the power of the motor is",
+        options: [
+          "15Kw",
+          "90 watt",
+          "225Kw",
+          "900hp"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-8",
+        question: "Potential energy per unit volume is given by",
+        options: [
+          "mgh",
+          "Mgh/P",
+          "gh",
+          "Pgh"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-9",
+        question: "The power output of a lamp is 6W how much energy does the lamp give out in 2 minutes",
+        options: [
+          "3J",
+          "120J",
+          "720J",
+          "430J"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-10",
+        question: "The workdone in holding a weight of 40N at height of 3m above the floor for 2 sec is, in joules",
+        options: [
+          "0",
+          "40",
+          "30",
+          "120"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-11",
+        question: "Work done is not product of \"F\" and \"S\" if F and S are non zero then the work done will be zero when",
+        options: [
+          "They are along same direction",
+          "They are perpendicular to each other",
+          "They are parallel to each other",
+          "None"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-12",
+        question: "One erg is equal to",
+        options: [
+          "10^-5 dynes",
+          "10^-7 dynes",
+          "10^-7 joules",
+          "10^-5 newton"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-13",
+        question: "A ball is thrown vertically upwards. Neglecting air resistance, which statement is correct",
+        options: [
+          "The kinetic energy of ball is greatest at the greatest height attained",
+          "The potential energy of ball increases uniformly with time during the ascent",
+          "By the principal of conservation momentum, the momentum of ball is constant throughout its motion",
+          "By the principal of conservation of energy, the total energy of the ball is constant throughout its motion"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-14",
+        question: "Slope of work time graph is equal to",
+        options: [
+          "Displacement",
+          "Power",
+          "Acceleration",
+          "Energy"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-15",
+        question: "The power needed to lift a mass of 5000g to height of 1 m in 2 sec is",
+        options: [
+          "2.45 watt",
+          "245 watt",
+          "24.5 watt",
+          "2.45 kw"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-16",
+        question: "The rate of doing Work is zero when angle between force and velocity is",
+        options: [
+          "0 degree",
+          "180 degree",
+          "90 degree",
+          "60 degree"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-17",
+        question: "Which unit expresses work per unit charge?",
+        options: [
+          "Hertz",
+          "Watt",
+          "Joule",
+          "Volt"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-18",
+        question: "The bodies of one kg and four kg have same kinetic energy the ratio in their momenta will be",
+        options: [
+          "1:2",
+          "1:16",
+          "1:4",
+          "1:1"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-19",
+        question: "Which of the following type of force cannot do work on which it acts",
+        options: [
+          "Frictional force",
+          "Centripetal force",
+          "Gravitational force",
+          "Restoring force"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-20",
+        question: "When the velocity of body is doubled and the mass is halved the KE will be",
+        options: [
+          "Unchanged",
+          "Doubled",
+          "Halved",
+          "Four times"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-21",
+        question: "If force and displacement of particle in direction of force are doubled work would be",
+        options: [
+          "Double",
+          "half",
+          "1/4 times",
+          "4 times"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-22",
+        question: "A man pushes a wall with 50N and it displaces if zero m his work is",
+        options: [
+          "Negative",
+          "Positive",
+          "No work",
+          "May all possible"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-23",
+        question: "The power of load is one watt if",
+        options: [
+          "1 ampere current flows through a conductor when a potential difference of 1 volt is applied",
+          "0.1 ampere current flows when a potential difference of 0.1 volt is applied",
+          "1 ampere current flows when a potential difference of 10 volt is applied",
+          "10 amperes current flows when a potential difference of 10 volt is applied"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-24",
+        question: "In inelastic collision .... remains conserved .... but .... changes",
+        options: [
+          "KE and momentum",
+          "Momentum and KE",
+          "None",
+          "Direction and momentum"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-25",
+        question: "The amount of work done against Friction to slide a box in a straight line across a uniform horizontal floor depends most on the",
+        options: [
+          "Time taken to move the box",
+          "Distance the box is moved",
+          "Speed of the box",
+          "Direction of the box's motion"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-26",
+        question: "The time taken by an engine of power 10Kw to lift a mass of 200 kg to the height of 40m is",
+        options: [
+          "2s",
+          "4s",
+          "8s",
+          "16s"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-27",
+        question: "In gravitational field, the work done in closed path is",
+        options: [
+          "Zero",
+          "Positive",
+          "Negative",
+          "Minimum"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-28",
+        question: "In freely falling system, if potential energy is equal to kinetic energy, the force of friction of air will",
+        options: [
+          "Be negligible",
+          "Be maximum",
+          "Be zero",
+          "Not be predicted"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-29",
+        question: "Which of the following is biggest unit of energy",
+        options: [
+          "Joule",
+          "Micro joule",
+          "Electron volt",
+          "None of these"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-30",
+        question: "A 70kg athlete runs up a hill through a height 3m in 2 seconds. His average power output will be",
+        options: [
+          "8000W",
+          "9000W",
+          "9080W",
+          "1030W"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-31",
+        question: "An 80kg man runs up a hill through a height of 4m in 3 seconds, how much work does he do against gravitational forces",
+        options: [
+          "2136J",
+          "3136J",
+          "4136J",
+          "5136J"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-32",
+        question: "If 10kg mass is dropped from a certain height. Hits the ground with speed 10m/s the height will be",
+        options: [
+          "100m",
+          "10m",
+          "50m",
+          "5m"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-33",
+        question: "When force and displacement are in the same direction, the kinetic energy of the body",
+        options: [
+          "Increases",
+          "Decreases",
+          "Remains constant",
+          "Becomes zero"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-34",
+        question: "At what angle the workdone will be half of its maximum value",
+        options: [
+          "0 degree",
+          "45 degree",
+          "60 degree",
+          "30 degree"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-35",
+        question: "Kilo watt hour is the unit of",
+        options: [
+          "Power",
+          "Force",
+          "Momentum",
+          "Energy"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-36",
+        question: "Energy stored in the spring of watch is",
+        options: [
+          "Electrical energy",
+          "Kinetic energy",
+          "Potential energy",
+          "Elastic potential energy"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-37",
+        question: "A stone is thrown up from the surface of the earth when it reaches at maximum height its total energy is equal to",
+        options: [
+          "mgh",
+          "Zero",
+          "1/2mv^2",
+          "2mgh"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-38",
+        question: "A shot leaves a gun at the rate of 160m/s calculate the greatest distance to which it could be projected",
+        options: [
+          "2460m",
+          "2560m",
+          "2680m",
+          "2760m",
+          "2860m"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-39",
+        question: "1.75m height weight-lifter rises weights with a Mass of 50kg to a height of 0.5m above his head how much work is being done by him?",
+        options: [
+          "2125J",
+          "250J",
+          "100J",
+          "50J"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-40",
+        question: "The unit of power in British engineering system is",
+        options: [
+          "Watt",
+          "Choice 3",
+          "Choice 4"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-41",
+        question: "Identify the examples of kinetic energy",
+        options: [
+          "A moving ball can break a glass window",
+          "A striking hammer can drive a nail",
+          "A stone thrown can upward can lift itself against the force of gravity",
+          "1 only",
+          "2 only",
+          "3 only",
+          "2 and 3 only",
+          "1, 2 and 3 only"
+        ],
+        answer: 7
+      },
+      {
+        id: "testmoz-phys-42",
+        question: "KE is defined as dot product of",
+        options: [
+          "Momentum and force",
+          "Force and velocity",
+          "Average momentum and velocity",
+          "All"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-43",
+        question: "A body is falling from a height h. After it has fallen a height h/2, it will possess",
+        options: [
+          "Only potential energy",
+          "Kinetic energy",
+          "Half potential and half kinetic energy",
+          "More kinetic less potential"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-44",
+        question: "If mass and speed of moving object is double, the KE will be",
+        options: [
+          "Eight times",
+          "Four times",
+          "Doubled",
+          "Six times",
+          "Sixteen times"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-45",
+        question: "If a body of mass 2kg is raised vertically through 2m, then the work will be",
+        options: [
+          "38.2J",
+          "39.2J",
+          "392.1J",
+          "40J"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-46",
+        question: "The workdone by the gravity during the descent of projectile",
+        options: [
+          "Is positive",
+          "Is negative",
+          "is zero",
+          "Depends for its sign on the direction of the y axis"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-47",
+        question: "Which one of the following quantities cannot be used as a unit of potential energy",
+        options: [
+          "Watt sec",
+          "Kgm^2/s^2",
+          "gcm/s^2",
+          "ft lb"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-48",
+        question: "The average power and instantaneous power become equal if work is done at",
+        options: [
+          "Any rate",
+          "Uniform rate",
+          "Variable rate",
+          "High rate"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-49",
+        question: "The work to a system is characterized as",
+        options: [
+          "Positive",
+          "Negative",
+          "Both",
+          "Either positive or negative"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-50",
+        question: "A ball whose kinetic energy is E is thrown at an angle 45 degree with horizontal its kinetic energy at the highest point of its trajectory will be",
+        options: [
+          "E",
+          "E/2",
+          "E/1.414",
+          "Zero"
+        ],
+        answer: 1
+      }
   ];

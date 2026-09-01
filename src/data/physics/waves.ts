@@ -639,5 +639,556 @@ export type Question = {
       ],
       answer: 2,
       explanation: "Wavelength is defined as the minimum spatial distance between any two adjacent points vibrating in the same phase."
-    }
+    },
+     // --- TESTMOZ ---
+      {
+        id: "testmoz-phys-1",
+        question: "What is true about acceleration of an object undergoing simple harmonic motion",
+        options: [
+          "Acceleration is minimum when velocity is maximum",
+          "Acceleration is proportional to the frequency of oscillation",
+          "Acceleration is opposite direction to its velocity",
+          "Acceleration is minimum when potential energy is maximum"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-2",
+        question: "If mass spring system, which of the following doesn't depends on the initial displacement of the spring",
+        options: [
+          "Maximum kinetic energy of the mass",
+          "Total energy of the mass",
+          "Average speed of the mass",
+          "Angular frequency of the oscillation"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-3",
+        question: "Restoring force is directing towards",
+        options: [
+          "Mean position",
+          "Extreme position",
+          "None",
+          "Both"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-4",
+        question: "The displacement of particle executing SHM is given by x=0.01 sin(100πt). The time period is",
+        options: [
+          "0.01sec",
+          "0.2sec",
+          "0.02sec",
+          "0.1sec"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-5",
+        question: "KE is maximum at",
+        options: [
+          "Mean position",
+          "Extreme position",
+          "Both",
+          "None"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-6",
+        question: "The SI unit of spring constant is same as that of",
+        options: [
+          "Force",
+          "Surface tension",
+          "Pressure",
+          "Intensity"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-7",
+        question: "Under the action of restoring force",
+        options: [
+          "The body moves at constant speed",
+          "The speed of body always increases",
+          "The body always slow down",
+          "The body accelerates"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-8",
+        question: "PE is maximum at",
+        options: [
+          "Extreme position",
+          "Mean position",
+          "Both",
+          "None"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-9",
+        question: "Distance covered during one vibration of an oscillating body in terms of amplitude A is",
+        options: [
+          "Zero",
+          "A",
+          "2A",
+          "4A"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-10",
+        question: "Acceleration is maximum at",
+        options: [
+          "Extreme position",
+          "Mean position",
+          "Both",
+          "None"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-11",
+        question: "When the antinodes are all at their extreme displacements, the energy stored is",
+        options: [
+          "KE",
+          "Thermal energy",
+          "PE",
+          "All of these"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-12",
+        question: "The wave form of SHM is",
+        options: [
+          "Sine wave",
+          "Square wave",
+          "Pulsed wave",
+          "Tangent wave"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-13",
+        question: "An object undergoes simple harmonic motion. It's amplitude is X₀. The speed of the object is v when it's displacement is x₀/3. What is the speed when it's displacement is x₀",
+        options: [
+          "V/3",
+          "3/2v",
+          "2v",
+          "0"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-14",
+        question: "The direction of the restoring force is always towards",
+        options: [
+          "Right hand",
+          "Rest or mean position",
+          "Upward",
+          "Extreme position"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-15",
+        question: "In simple harmonic motion, which two quantities are always in opposite direction",
+        options: [
+          "Kinetic energy and potential energy",
+          "Velocity and acceleration",
+          "Kinetic energy and velocity",
+          "Acceleration and displacement"
+        ],
+        answer: 3
+      },
+        {
+          id: "testmoz-phys-1",
+          question: "A whistle producing sound waves of frequencies 9500Hz and it is approaching a stationary person with speed v m/s. The velocity of sound in air is 300m/s. If the person can hear frequencies up to a maximum of 10,000Hz, the maximum value of V upto which he can hear the whistle is",
+          options: [
+            "30m/s",
+            "15m/s",
+            "10m/s",
+            "20m/s"
+          ],
+          answer: 1
+        },
+        {
+          id: "testmoz-phys-2",
+          question: "If 20 waves passes through the medium in 1 sec with speed of 20 m/s then wavelength is",
+          options: [
+            "20m",
+            "2m",
+            "400m",
+            "1m"
+          ],
+          answer: 3
+        },
+        {
+          id: "testmoz-phys-3",
+          question: "If velocity of sound in a gas is 360m/s and the distance between a compression and the nearest rarefaction is 1m, then the frequency of sound is",
+          options: [
+            "90Hz",
+            "180Hz",
+            "360Hz",
+            "720Hz"
+          ],
+          answer: 1
+        },
+        {
+          id: "testmoz-phys-4",
+          question: "When a wave moves through 10m, a point changes from crest to trough and time taken is 1 sec then the wavelength of the wave and its frequency are",
+          options: [
+            "20m, 0.5Hz",
+            "0.5m, 20 Hz",
+            "10m, 1Hz",
+            "1m, 10 Hz"
+          ],
+          answer: 0
+        },
+        {
+          id: "testmoz-phys-5",
+          question: "Whenever a transverse wave traveling in rarer medium m, encounters a denser medium, it",
+          options: [
+            "Bounces back such that the direction of its displacement remains same",
+            "Bounces back such that the direction of its displacement is reversed",
+            "Travels in to second medium and the direction of its displacement is reversed",
+            "Travel in to second medium and the direction of its displacement remains same"
+          ],
+          answer: 1
+        },
+        {
+          id: "testmoz-phys-6",
+          question: "The frequency of stationary waves In an organ pipe for third overtone when both ends are open is given by",
+          options: [
+            "F4=V/2L",
+            "F4=V/2L",
+            "F4=3V/2L",
+            "F4=V/L"
+          ],
+          answer: 3
+        },
+        {
+          id: "testmoz-phys-7",
+          question: "The first resonance length in a closed pipe is 20cm then second resonance at",
+          options: [
+            "60cm",
+            "90cm",
+            "120cm",
+            "80cm"
+          ],
+          answer: 0
+        },
+        {
+          id: "testmoz-phys-8",
+          question: "The speed of air sound in air is approximately",
+          options: [
+            "1500m/s",
+            "330m/s",
+            "5000m/s",
+            "50m/s"
+          ],
+          answer: 1
+        },
+        {
+          id: "testmoz-phys-9",
+          question: "A wave have the speed 0.50m/s. If it's wavelength is 1.5m what is the period of the wave",
+          options: [
+            "0.33s",
+            "1.5s",
+            "3s",
+            "6s"
+          ],
+          answer: 2
+        },
+        {
+          id: "testmoz-phys-10",
+          question: "Electric and magnetic field constitutes",
+          options: [
+            "Electromagnetic waves",
+            "Transverse wave",
+            "Longitudinal wave",
+            "Stationary wave"
+          ],
+          answer: 0
+        },
+        {
+          id: "testmoz-phys-11",
+          question: "Velocity of sound is maximum in",
+          options: [
+            "Air",
+            "Steel",
+            "Water",
+            "Vaccum"
+          ],
+          answer: 1
+        },
+        {
+          id: "testmoz-phys-12",
+          question: "Dopplers effect is applicable to",
+          options: [
+            "Transverse wave",
+            "Longitudinal wave",
+            "Mechanical waves",
+            "Mechanical and electromagnetic wave"
+          ],
+          answer: 3
+        },
+        {
+          id: "testmoz-phys-13",
+          question: "Wave speed per frequency is equivalent to",
+          options: [
+            "Beats",
+            "Wavelength",
+            "Time period",
+            "None"
+          ],
+          answer: 1
+        },
+        {
+          id: "testmoz-phys-14",
+          question: "In a stationary wave the distance between adjacent antinodes is equal to",
+          options: [
+            "λ",
+            "2λ",
+            "λ/2",
+            "λ/4"
+          ],
+          answer: 2
+        },
+        {
+          id: "testmoz-phys-15",
+          question: "The distance b/w two particles in a wave motion in the same phase is",
+          options: [
+            "λ/4",
+            "3λ/4",
+            "λ/2",
+            "λ"
+          ],
+          answer: 3
+        },
+        {
+          id: "testmoz-phys-16",
+          question: "Consider a stretched string under tension and fixed at both ends. If the tension is doubled and the cross sectional area halved then the frequency becomes",
+          options: [
+            "Twice",
+            "Four times",
+            "Half",
+            "All"
+          ],
+          answer: 0
+        },
+        {
+          id: "testmoz-phys-17",
+          question: "The organ pipe which is open at both ends is",
+          options: [
+            "Weaker in harmonics",
+            "No harmonics produce",
+            "Richer in harmonics",
+            "None"
+          ],
+          answer: 2
+        },
+        {
+          id: "testmoz-phys-18",
+          question: "A phase angle of 180° is equivalent to the path difference of",
+          options: [
+            "λ/4",
+            "λ/2",
+            "λ",
+            "2λ"
+          ],
+          answer: 1
+        },
+        {
+          id: "testmoz-phys-19",
+          question: "Bat's navigate and find food by",
+          options: [
+            "Ultrasonic",
+            "Amplitude",
+            "Echo location",
+            "Refraction"
+          ],
+          answer: 2
+        },
+        {
+          id: "testmoz-phys-20",
+          question: "A longitudinal standing wave in second harmonic mode is established in a tube that is open at both ends the length of tube is 0.80m what is the wavelength of the wave that makeup the standing wave",
+          options: [
+            "0.20m",
+            "0.80m",
+            "0.40m",
+            "1.60m"
+          ],
+          answer: 1
+        },
+        {
+          id: "testmoz-phys-21",
+          question: "Which of the following cannot be used in RADAR system",
+          options: [
+            "Infrared rays",
+            "X rays",
+            "Microwaves",
+            "Radiowaves"
+          ],
+          answer: 1
+        },
+        {
+          id: "testmoz-phys-22",
+          question: "If stationary wave, the velocity of particle at node is",
+          options: [
+            "Maximum",
+            "Minimum",
+            "Zero",
+            "Constant"
+          ],
+          answer: 2
+        },
+        {
+          id: "testmoz-phys-23",
+          question: "The speed of the wave depends upon the",
+          options: [
+            "Tension of string",
+            "Tension and mass per unit length of the string",
+            "Diameter of the string",
+            "Mass per unit length of the string"
+          ],
+          answer: 1
+        },
+        {
+          id: "testmoz-phys-24",
+          question: "Longitudinal and transverse wave can be distinguished by the property of",
+          options: [
+            "Interference",
+            "Diffraction",
+            "Reflection",
+            "Polarization"
+          ],
+          answer: 3
+        },
+        {
+          id: "testmoz-phys-25",
+          question: "Due to overlapping of two identical wave the speed of resultant wave",
+          options: [
+            "Decrease",
+            "Increase",
+            "Becomes velocity",
+            "Remains same"
+          ],
+          answer: 3
+        },
+        {
+          id: "testmoz-phys-26",
+          question: "Stars moving towards earth shows",
+          options: [
+            "Blue shift",
+            "Red shift",
+            "No shift",
+            "May be A may be B depending upon speed of stars"
+          ],
+          answer: 0
+        },
+        {
+          id: "testmoz-phys-27",
+          question: "The source is moving towards a stationary observer then the pitch of sound will",
+          options: [
+            "Sometimes increase and sometimes decrease",
+            "Remains constant",
+            "Decrease",
+            "Increase"
+          ],
+          answer: 3
+        },
+        {
+          id: "testmoz-phys-28",
+          question: "If the successive overtones of a vibrating string clamped at its ends are 280Hz and 350Hz, the frequency of fundamental is",
+          options: [
+            "350Hz",
+            "280Hz",
+            "140Hz",
+            "70Hz"
+          ],
+          answer: 3
+        },
+        {
+          id: "testmoz-phys-29",
+          question: "If a radar system designed in accordance with the dopplers effect, if an airplane is moving away from a radar, the wavelength of the reflected wave from the air plane would be",
+          options: [
+            "Smaller than the transmitting wave",
+            "Larger than transmitting wave",
+            "Same as that of transmitting wave",
+            "Either smaller or larger than the transmitting wave"
+          ],
+          answer: 1
+        },
+        {
+          id: "testmoz-phys-30",
+          question: "As the wavelength of light increases the distance between bright fringes in the interference pattern",
+          options: [
+            "Increases",
+            "Decreases",
+            "Remains same",
+            "None"
+          ],
+          answer: 0
+        },
+        {
+          id: "testmoz-phys-31",
+          question: "A plane produce a sonic boom when",
+          options: [
+            "It's speed is greater than sound",
+            "It's sound is much louder",
+            "It produces sound of high energy",
+            "It produce sound of high amplitude"
+          ],
+          answer: 0
+        },
+        {
+          id: "testmoz-phys-32",
+          question: "A whistle giving out 450Hz approaches a stationary observer at a speed of 332m/s. The frequency heard by the observer in Hz is (speed of sound = 330m/s)",
+          options: [
+            "409",
+            "429",
+            "517",
+            "500"
+          ],
+          answer: 3
+        },
+        {
+          id: "testmoz-phys-33",
+          question: "Infransonic wave has frequency",
+          options: [
+            "Less than 20 Hz",
+            "20Hz",
+            "Greater than 20kHz",
+            "Greater than 20khs"
+          ],
+          answer: 0
+        },
+        {
+          id: "testmoz-phys-34",
+          question: "Whenever a transverse wave traveling in a denser medium, is reflected from the boundary of the rarer medium",
+          options: [
+            "The direction of its displacement remains same",
+            "The direction of displacement is reverse",
+            "The displacement disappears",
+            "The displacement becomes double"
+          ],
+          answer: 0
+        },
+        {
+          id: "testmoz-phys-35",
+          question: "The wave used in sonar are",
+          options: [
+            "Electromagnetic waves",
+            "Sound waves",
+            "Matter waves",
+            "Water waves"
+          ],
+          answer: 1
+        }
   ];

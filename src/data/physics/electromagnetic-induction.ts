@@ -353,5 +353,555 @@ export type Question = {
       ],
       answer: 0,
       explanation: "An ideal transformer operates with 100% efficiency, so input power equals output power (P_in = P_out)."
-    }
+    },
+     // --- TESTMOZ ---
+      {
+        id: "testmoz-phys-1",
+        question: "The current which fluctuates from zero to maximum and maximum to zero is called",
+        options: [
+          "Steady current",
+          "Direct current",
+          "Alternating current",
+          "Pulsating direct current"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-2",
+        question: "Primary secondary coils of a transformer have 50 and 200 turns respectively when primary is connected to a 9 volt battery secondary voltage is",
+        options: [
+          "90",
+          "36",
+          "18",
+          "Zero"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-3",
+        question: "The induced current in a loop can be increased by",
+        options: [
+          "Using stronger magnetic field",
+          "Replacing loop by a coil of many turns",
+          "Moving the loop faster",
+          "All of these"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-4",
+        question: "The induced EMF does not depends on",
+        options: [
+          "Area of the coil",
+          "Number of turns of the coil",
+          "Resistance of the coil",
+          "Length of the coil"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-5",
+        question: "Magnetic flux passing normally through a unit area is called",
+        options: [
+          "Magnetization",
+          "Magnetic flux density",
+          "Magnetic field intensity",
+          "All of these"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-6",
+        question: "A step down Transformer reduces the voltage from 220 volt to 11 volt the primary coil draws a current of 5 ampere while secondary draws 90 ampere the efficiency of the transformer is",
+        options: [
+          "20%",
+          "40%",
+          "70%",
+          "90%"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-7",
+        question: "At what angle the magnetic flux will be half of its maximum value",
+        options: [
+          "30 degree",
+          "60 degree",
+          "90 degree",
+          "45 degree"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-8",
+        question: "An EMF of 0.03 volt is induced in a wire when it moves it right angles to uniform magnetic field with speed of 4 m per second if the length of the wire in the field is 15 cm what is the flux density in Tesla",
+        options: [
+          "0.003",
+          "0.005",
+          "6",
+          "12"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-9",
+        question: "A generator supplies hundred volt to the primary coil of Transformer the primary is 50 terms and the secondary is 500 terms the secondary voltage is",
+        options: [
+          "1000 volt",
+          "500 volt",
+          "250 volt",
+          "100 volt"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-10",
+        question: "A transformer changes to 1800 volt and there are 6000 turns in secondary coil the number of turns on the primary coil is",
+        options: [
+          "40",
+          "20",
+          "10",
+          "2"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-11",
+        question: "When magnet is in motion relative to a coil and induced EMF is produced it does not depend upon",
+        options: [
+          "Resistance of the coil",
+          "Pole strength of the pole",
+          "Motion of the magnet",
+          "Number of turns of the coil"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-12",
+        question: "Lenz's law is consistent with law of conservation of",
+        options: [
+          "Mass",
+          "Charge",
+          "Energy",
+          "Momentum"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-13",
+        question: "Suppose this page is perpendicular to a uniform magnetic field and the magnetic flux through it is 5 Weber if the page is turned to 60 degrees around the flux through it will be",
+        options: [
+          "2.5wb",
+          "5wb",
+          "4.3wb",
+          "5.8wb"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-14",
+        question: "A copper ring is held horizontally and a bar magnet is dropped through the ring with its length along the axis of the ring the acceleration of the falling magnet is",
+        options: [
+          "Equal to that due to gravity",
+          "Less than that due to gravity",
+          "More than that due to gravity",
+          "Depends on the diameter of the ring and length of the magnet"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-15",
+        question: "In the actual transformer the output is always",
+        options: [
+          "Equal to input",
+          "More than input",
+          "Less than input",
+          "Infinity"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-16",
+        question: "Laminated core in a transformer is used to reduce",
+        options: [
+          "Power loss",
+          "Eddy current losses",
+          "Iron losses"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-17",
+        question: "As a loop of wire with resistance of 10 ohm moves in a constant uniform magnetic field it losses kinetic energy at a uniform rate of 4mJ/s second The induced current in the Loop is",
+        options: [
+          "0",
+          "2mA",
+          "2.8mA",
+          "20mA"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-18",
+        question: "North pole of a magnet is moving towards a face of metallic loop then the face of the loop becomes",
+        options: [
+          "North Pole",
+          "South Pole",
+          "Both a and b",
+          "Mono pole"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-19",
+        question: "In a coil where magnetic flux is constantly changing there should exist",
+        options: [
+          "A current",
+          "An emf",
+          "Torque",
+          "All of these"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-20",
+        question: "To minimize the heating effect in the transmission lines",
+        options: [
+          "High current low voltage is used",
+          "Same voltage and current is used",
+          "High voltage low current is used",
+          "High Voltage high current is used"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-21",
+        question: "Current can be induced in a coil by changing the area of the coil placed in",
+        options: [
+          "Uniform magnetic field",
+          "Uniform magnetic and electric field",
+          "Uniform electric field",
+          "All of these"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-22",
+        question: "A magnet is introduced into the coil and voltage is induced across the coil which of the following factor has no effect on the induced voltage",
+        options: [
+          "Thickness of the wire of the coil",
+          "The time in which magnet is introduced",
+          "The strength of the magnetic field",
+          "Number of the turns the coil"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-23",
+        question: "In ideal Transformer when potential difference is doubled the current is",
+        options: [
+          "Doubled",
+          "Halved",
+          "Tripled",
+          "Same"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-24",
+        question: "The EMF induced in a coil is ...... the rate of change in flux linkages",
+        options: [
+          "Directly proportional to",
+          "Inversely proportional to",
+          "Independence of",
+          "None of the above"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-25",
+        question: "The direction of induced current in a coil or circuit is such that it opposes every cause of its production this law is given by",
+        options: [
+          "Faraday",
+          "Kirchhoffs",
+          "Lenzs",
+          "Amperes"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-26",
+        question: "The practical application of the mutual induction phenomena is",
+        options: [
+          "Electric motor",
+          "AC generator",
+          "Transformer",
+          "Transistor"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-27",
+        question: "To induce an EMF in a coil the linking magnetic flux",
+        options: [
+          "Must decreases",
+          "Must increases",
+          "Must remain constant",
+          "Can either increases or decreases"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-28",
+        question: "When a transformer is connected to 120 volt AC it supplies 300 volt to device the current through secondary winding is 0.6 ampere and current through primary is 2 ampere the number of turns on primary is 400 what is the efficiency of transformer",
+        options: [
+          "75%",
+          "80%",
+          "85%",
+          "100%"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-29",
+        question: "Two different loops are concentric and lie in the same plane the current in the outer loop is clockwise an increasing with time the induced current in the inner loop then is",
+        options: [
+          "Zero",
+          "Clockwise",
+          "Counter clockwise",
+          "In a direction did depends on the ratio of the loop radii"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-30",
+        question: "A copper wire is moved in a uniform magnetic field such that it cuts the magnetic lines of force than",
+        options: [
+          "EMF will not be induced",
+          "EMF will be induced",
+          "Sometimes EMF will be induced in sometimes not",
+          "Nothing can be predicted"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-31",
+        question: "In Step Up Transformer voltage in the secondary increases and power in secondary",
+        options: [
+          "Remain same",
+          "Decreases because voltage increases",
+          "Increases because current increases",
+          "Main increase if voltage remain same"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-32",
+        question: "Square loop of wire lies in the Plane of the page a decreasing magnetic field is directed into the page then used current in the loop is",
+        options: [
+          "Counter clockwise",
+          "Clockwise",
+          "Zero",
+          "Up the left Edge end from right to left along the top Edge"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-33",
+        question: "In an ideal Transformer the following factors are used",
+        options: [
+          "Inputs and output power is same",
+          "Currents are inversely proportional to voltage",
+          "Currents are dial the proportional to voltage",
+          "Both a and b"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-34",
+        question: "One can increase the performance of Transformer by",
+        options: [
+          "Using primary and secondary wires of less resistance",
+          "Making the sheets of Transformer Core full insulated",
+          "Making methods to increase the flux coupling between the coils",
+          "All of these"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-35",
+        question: "The core of a transformer is made up of soft iron because",
+        options: [
+          "Iron is cheaper than copper",
+          "Iron is a good conductor of current",
+          "Iron is a good magnetic substance",
+          "Iron has high melting point"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-36",
+        question: "A 1 m^2 circular coil of 10 loops is placed parallel to changing magnetic field at 0.3 Tesla per second The induced dmf is",
+        options: [
+          "0.5V",
+          "3V",
+          "Zero",
+          "3.5V"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-37",
+        question: "EMF induced by the motion of a conductor across a magnetic field is called",
+        options: [
+          "Back EMF",
+          "Motional EMF",
+          "Directional EMF",
+          "None"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-38",
+        question: "To improve efficiency of Transformer the flux coupling between primary and secondary coil should be",
+        options: [
+          "Small",
+          "May be small or may be maximum",
+          "Maximum",
+          "Zero"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-39",
+        question: "A transformer is used to",
+        options: [
+          "Convert alternating current to direct current",
+          "Convert direct current to alternating current",
+          "Convert mechanical energy to electrical energy",
+          "Change the level of alternating voltage"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-40",
+        question: "A transformer steps down the voltage of 220 volt to 40 volt with the help of 40 turns on the secondary coil then number of turns on the primary are",
+        options: [
+          "20",
+          "40",
+          "220",
+          "120"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-41",
+        question: "A transformer is used to light a 100 watt and 110 volt lamp from 220 volt mains if the main current is 0.5 ampere the efficiency of the transformer is a proximately",
+        options: [
+          "10%",
+          "50%",
+          "30%",
+          "90%"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-42",
+        question: "For transmission of electricity to for of places from the AC power generation plant we always use",
+        options: [
+          "Transformer with several secondaries",
+          "Step Up transformer",
+          "Step down transformer",
+          "All of these"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-43",
+        question: "The number of turns in secondary coil is twice the number of turns in primary coil and ac source of 200 volt is connected across the primary the voltage across secondary is",
+        options: [
+          "440V",
+          "100V",
+          "200V",
+          "400V"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-44",
+        question: "In a step up Transformer the ratio of voltages is it if the advantage across primary is 120 volt the voltage across secondary will be",
+        options: [
+          "150 volt",
+          "120 volt",
+          "180 volt",
+          "960 volt"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-45",
+        question: "A transformer step down 100 volt to 10 volt operate advice within impedance of 2 ohms then current in a primary coil is",
+        options: [
+          "50 amperes",
+          "5 amperes",
+          "0.5 amperes",
+          "0.05 amperes"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-46",
+        question: "For a good Transformer the material of the core should have the has the hysterics loop of",
+        options: [
+          "Small area",
+          "Large area",
+          "No area",
+          "Moderate area"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-47",
+        question: "Rectangular loop of wire is place perpendicular to a uniform magnetic field and then spin around one of its side its frequency The induced EMF is a maximum when",
+        options: [
+          "The flux is zero",
+          "The flux is maximum",
+          "The flux is half of its maximum value",
+          "The derivatives of the falaks with respect to time is zero"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-48",
+        question: "The primary of an ideal Transformer his 100 turns in the secondary has 600 turns then",
+        options: [
+          "The power in the primary circuit is less than that and the secondary circuit",
+          "The current in the two circuits are the same",
+          "The voltages in the two circuits are same",
+          "The primary current is 6 times the secondary current"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-49",
+        question: "Alternating current changes",
+        options: [
+          "It's magnitude as well as direction",
+          "Only magnitude but not direction",
+          "Only direction but not magnitude",
+          "Both remains same"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-50",
+        question: "The coils of Transformer are",
+        options: [
+          "Magnetically linked",
+          "Electrically linked",
+          "Both a and b",
+          "Isolated with each other"
+        ],
+        answer: 0
+      }
   ];

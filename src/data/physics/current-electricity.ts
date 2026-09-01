@@ -533,5 +533,556 @@ export type Question = {
       ],
       answer: 3,
       explanation: "Power P = V × I. Therefore, Volt × Ampere equals Watts, measuring electrical Power."
-    }
+    },
+    // --- TESTMOZ ---
+    {
+        id: "testmoz-phys-1",
+        question: "Specific resistance of wire",
+        options: [
+          "Will depend on its length",
+          "Will depend on its radius",
+          "Will depend on the type of material of the wire",
+          "Will depend on none of the above mentioned"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-2",
+        question: "If heater coil is cut into two equal parts and only one part is now used in the heater the heat generated will now be",
+        options: [
+          "Halved",
+          "One fourth",
+          "Four times",
+          "Doubled"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-3",
+        question: "Power dissipated into parallel resistors is inversely proportional to",
+        options: [
+          "Potential difference",
+          "Current",
+          "Resistance",
+          "All of the above mentioned"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-4",
+        question: "Which one gives pure nature of the material",
+        options: [
+          "Resistivity",
+          "Temperature coefficient of resistance",
+          "Resistance",
+          "Both a and b"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-5",
+        question: "The slope of ohm law is",
+        options: [
+          "Straight line",
+          "Parabola",
+          "Hyperbola",
+          "None"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-6",
+        question: "Six 1.1V cells with internal resistance 3.0 ohm each are connected in three parallel branches of two cells each if the resistance of external circuit is 2 ohm then the current is",
+        options: [
+          "0.33A",
+          "0.44A",
+          "0.55A",
+          "0.66A"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-7",
+        question: "A fuse is placed in a series with circuit to protect against",
+        options: [
+          "High power",
+          "High current",
+          "High voltage",
+          "Overheating"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-8",
+        question: "EMF of battery or Cell is the voltage between its terminal when",
+        options: [
+          "The circuit is open",
+          "It’s internal resistance is minimum",
+          "The circuit closed",
+          "It’s internal resistance is maximum"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-9",
+        question: "Material of heating element of electric heater should have",
+        options: [
+          "High Resistivity and high melting point",
+          "High Resistivity and low melting point",
+          "Low Resistivity and low melting point",
+          "Low Resistivity and high melting point"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-10",
+        question: "For an open circuit the resistance of circuit will be",
+        options: [
+          "Infinite",
+          "Maximum",
+          "Finite",
+          "Zero"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-11",
+        question: "A copper wire has resistance R it is stretched such that its length is thrice then its new resistance become",
+        options: [
+          "2R",
+          "9R",
+          "4R",
+          "27R"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-12",
+        question: "A wire of resistance R is stretched to four times its length uniformly its new resistance will be",
+        options: [
+          "16R",
+          "R/4",
+          "4R",
+          "R/16"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-13",
+        question: "An immersion heater of 400 Watts keep on for five hours will consume electric energy of",
+        options: [
+          "2Kwh",
+          "6kwh",
+          "20kwh",
+          "12kwh"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-14",
+        question: "A source of 200 V provides a current of 10 amps to a house the power delivered by the source is",
+        options: [
+          "20 W",
+          "2000 W",
+          "40 W",
+          "200 W"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-15",
+        question: "An energy source will supply a constant current into the load if its internal resistance is",
+        options: [
+          "Non zero but less than the load resistance",
+          "Zero",
+          "Very large as compared to the load resistance",
+          "Equal to the resistance of the load"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-16",
+        question: "Which of the following statement is not true",
+        options: [
+          "Conductance is the reciprocal of resistance and it is measured in Siemens",
+          "Ohm’s law is not applicable at very low and very high temperature",
+          "Ohm’s law is applicable to semiconductors",
+          "Ohm’s law is not applicable to electron tubes discharge tubes and electrolytes"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-17",
+        question: "Two wires made of the same material have the same length but different diameters they are connected in parallel to a battery the quantity that is not the same for the wires is",
+        options: [
+          "The end to end potential difference",
+          "The current density",
+          "The current",
+          "The electric field"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-18",
+        question: "A 60 watt light bulb carries a current of 0.5 amperes the total charge passing through it in one hour is",
+        options: [
+          "120C",
+          "3600C",
+          "3000C",
+          "1800C"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-19",
+        question: "If the potential difference across a resistor is doubled",
+        options: [
+          "Only the current is doubled",
+          "Only the resistance is doubled",
+          "Only the current is half",
+          "Only the resistance is half"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-20",
+        question: "The fractional change in resistivity per Kelvin",
+        options: [
+          "Temperature coefficient of resistance",
+          "Resistance",
+          "Temperature coefficient of resistivity",
+          "All of the above mentioned"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-21",
+        question: "Slope of the graph between V on x-axis and I on the y axis is",
+        options: [
+          "Resistance",
+          "EMF",
+          "Conductance",
+          "Capacitance"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-22",
+        question: "SI unit of EMF is same as",
+        options: [
+          "Work",
+          "Power",
+          "Energy",
+          "Voltage"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-23",
+        question: "The Terminal potential difference of battery is less than its EMF when",
+        options: [
+          "Under all conditions",
+          "Only when the battery is being charged",
+          "Only when the battery is being discharged",
+          "When battery is disconnected"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-24",
+        question: "When we double the voltage in a simple electric circuit we double the",
+        options: [
+          "Current",
+          "Resistance",
+          "Power",
+          "Both a and c"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-25",
+        question: "In case of gases the charge carriers are",
+        options: [
+          "Positive and negative ions",
+          "Electrons and holes",
+          "Positive ions and electrons",
+          "Negative ions and electrons"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-26",
+        question: "Potential difference is directly proportional to the current",
+        options: [
+          "Ohm’s law",
+          "Gauss’s law",
+          "Kirchhoff law",
+          "None of the above mentioned"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-27",
+        question: "Why should a resistance be introduced in a circuit in series deliberately",
+        options: [
+          "To increase current",
+          "To control current",
+          "Decrease current",
+          "Just to give a good look to circuit"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-28",
+        question: "Free electrons in an electric field move from",
+        options: [
+          "All potentials",
+          "Low potential to high potential",
+          "High potential to low potential",
+          "Remains stationary"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-29",
+        question: "If the length and diameter of conductor is double the resistance is",
+        options: [
+          "Remain same",
+          "Double",
+          "Four times",
+          "Half"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-30",
+        question: "A large number of bulbs are connected in series combination with a battery if one of them is fused",
+        options: [
+          "The others will stop glowing",
+          "The others will keep glowing",
+          "The others will start blinking",
+          "The others will also be fused"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-31",
+        question: "A steady current is flowing in a conductor of non uniform cross section the charge passing through any cross section per unit time is",
+        options: [
+          "Directly proportional to the area of cross section",
+          "Inversely proportional to the area of cross section",
+          "Proportional to the square of the cross section",
+          "Independent of the area of cross section"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-32",
+        question: "A piece of Copper and piece of Germanium are cooled from the room temperature down to 77 Kelvin",
+        options: [
+          "The resistance of each of them increases",
+          "The resistance of each of them decreases",
+          "The resistance of copper increases and that of Germanium decreases",
+          "The resistance of copper decreases and that of Germanium increases"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-33",
+        question: "Current is the measure of",
+        options: [
+          "Force that moves a charge past a point",
+          "Resistance to the movement of a charge past a point",
+          "Energy used to move a charge past a point",
+          "Amount of charge that moves past a point per unit time"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-34",
+        question: "Conductance is a quantity used to describe the",
+        options: [
+          "Physical state of the conductor",
+          "Dimension of the conductor",
+          "Electrical properties of the material",
+          "All of the above mentioned"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-35",
+        question: "Magnetic effect of current is utilised in",
+        options: [
+          "Iron",
+          "Measurement of current",
+          "Thermocouple",
+          "Electroplating"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-36",
+        question: "You wish to triple the rate of energy dissipation in a heating device to do this you could triple",
+        options: [
+          "The potential difference keeping the resistance same",
+          "The current keeping the resistance the same",
+          "The resistance keeping the potential difference the same",
+          "The resistance keeping the current same"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-37",
+        question: "A certain wire has resistance R another wire of the same material has the length and half the diameter of the first wire the resistance of the second wire is",
+        options: [
+          "4R",
+          "R/4",
+          "8R",
+          "2R"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-38",
+        question: "Out of two bulbs in a house one glow Brighter Than The Other which of the following has larger resistance",
+        options: [
+          "The brighter bulb",
+          "Both have same resistance",
+          "The dim",
+          "Brightness does not depend on resistance"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-39",
+        question: "The current is zero in a conductor when no potential difference is applied because",
+        options: [
+          "The electrons are not moving",
+          "Electrons are not moving fast enough",
+          "For every electron with a given velocity there is an other with a velocity of equal magnitude and opposite direction",
+          "Equal number of electrons and protons are moving together"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-40",
+        question: "When same current passes for same time through a thick and thin wire",
+        options: [
+          "More heat is produced in thick wire",
+          "More heat is produced in thin wire",
+          "No heat is produced in wire",
+          "Equal heat is produced in thick and thin wire"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-41",
+        question: "20 ohm resistance take 20 minutes to boil a given amount of water how much resistance will be required to boil the same amount of water using the same source in 1 minute",
+        options: [
+          "20 Ohm",
+          "40 Ohm",
+          "5 Ohm",
+          "100 Ohm"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-42",
+        question: "For maximum power output from the cell the requirement is",
+        options: [
+          "r > R",
+          "r < R",
+          "R = r",
+          "r = 0"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-43",
+        question: "A wire of resistance R is cut into equal parts its resistance become R/2 what happens to resistivity",
+        options: [
+          "Double",
+          "Remain same",
+          "One fourth",
+          "Four times"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-44",
+        question: "The capacity of storage cell is 5 ampere hour the maximum current it can supply for 10 hour is",
+        options: [
+          "5 amperes",
+          "0.5 Ampere",
+          "50 ampere",
+          "0.25 ampere"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-45",
+        question: "Temperature coefficient of resistivity of a material is measured in",
+        options: [
+          "Ohm × kelvin",
+          "K",
+          "Ohm × meter",
+          "K⁻¹"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-46",
+        question: "An ordinary light bulb is marked 60 watt 120 volt its resistance is",
+        options: [
+          "60 ohm",
+          "180 ohm",
+          "120 ohm",
+          "240 ohm"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-phys-47",
+        question: "Three bulbs of 25 watt 50 Watt and 100 watt are connected in series with same supply the bulb with maximum brightness is",
+        options: [
+          "25 watt",
+          "50 Watt",
+          "100 watt",
+          "All of these"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-phys-48",
+        question: "A car battery is rated at 80 amp hour an ampere hour is a unit of",
+        options: [
+          "Power",
+          "Energy",
+          "Charge",
+          "Current"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-phys-49",
+        question: "Which one of the following substance that resistance decreases with increase in temperature",
+        options: [
+          "Copper",
+          "Carbon",
+          "Silver",
+          "Iron"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-phys-50",
+        question: "Internal resistance is the resistance offered by",
+        options: [
+          "Conductor",
+          "Resistor",
+          "Circuit",
+          "Electrolyte"
+        ],
+        answer: 3
+      }
   ];
