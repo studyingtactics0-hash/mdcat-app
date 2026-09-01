@@ -515,4 +515,236 @@ export type Question = {
       ],
       answer: 0,
     },
+  // --- TESTMOZ ---
+    {
+      id: "testmoz-bio-1",
+      question: "Proteinaceous part of holoenzyme is:",
+      options: [
+        "Prosthetic group",
+        "Lecithin",
+        "Apoenzyme",
+        "None of these"
+      ],
+      answer: 2
+    },
+    {
+      id: "testmoz-bio-2",
+      question: "What is the best physiological pH for optimum functioning for most of the cellular enzymes for human?",
+      options: [
+        "2-3 pH",
+        "6-8 pH",
+        "8-10 pH",
+        "3-5 pH"
+      ],
+      answer: 1
+    },
+    {
+      id: "testmoz-bio-3",
+      question: "Non competitive inhibitors react with enzyme at:",
+      options: [
+        "Active site",
+        "Allosteric site",
+        "Both A & B",
+        "None of them"
+      ],
+      answer: 1
+    },
+    {
+      id: "testmoz-bio-4",
+      question: "Enzymes lower the activation energy by stabilizing the transition state of a metabolic reaction due to?",
+      options: [
+        "Changing conditions within the active site",
+        "Changing condition within the protein framework",
+        "Rearranging the fatty acids in active site",
+        "Distorting the molecules in allosteric site"
+      ],
+      answer: 0
+    },
+    {
+      id: "testmoz-bio-5",
+      question: "Induced fit model of enzyme activity suggests that an enzyme:",
+      options: [
+        "Cannot modify its active sites",
+        "Cannot bind to single substrate",
+        "Can catalyze related reaction",
+        "Usually belongs to non-regulatory enzyme"
+      ],
+      answer: 2
+    },
+    {
+      id: "testmoz-bio-6",
+      question: "Pepsin, protein digesting enzyme, sets best pH:",
+      options: [
+        "3.00",
+        "4.50",
+        "6.58",
+        "2.00"
+      ],
+      answer: 3
+    },
+    {
+      id: "testmoz-bio-7",
+      question: "Combination of apoenzyme and coenzyme produces:",
+      options: [
+        "Prosthetic group",
+        "Holoenzyme",
+        "Enzyme",
+        "Isoenzyme"
+      ],
+      answer: 1
+    },
+    {
+      id: "testmoz-bio-8",
+      question: "The most important property of an enzyme is its:",
+      options: [
+        "Composition",
+        "Thermal denaturation",
+        "Solubility",
+        "Specificity"
+      ],
+      answer: 3
+    },
+    {
+      id: "testmoz-bio-9",
+      question: "Cofactors:",
+      options: [
+        "Break hydrogen bonds in proteins",
+        "Increase activation energy",
+        "Help facilitate enzyme activity",
+        "Very rare in living organism"
+      ],
+      answer: 2
+    },
+    {
+      id: "testmoz-bio-10",
+      question: "Enzyme succinate dehydrogenase converts succinate into:",
+      options: [
+        "Malate",
+        "Citrate",
+        "Malonic acid",
+        "Fumarate"
+      ],
+      answer: 3
+    },
+    {
+      id: "testmoz-bio-11",
+      question: "According to ........ model the active site of enzyme is modified as the substrate interacts with enzyme:",
+      options: [
+        "Induced fit model",
+        "Emil Fischer",
+        "Lock and key",
+        "Fluid mosaic"
+      ],
+      answer: 0
+    },
+    {
+      id: "testmoz-bio-12",
+      question: "The non protein part of enzyme which is covalently and permanently bonded is called:",
+      options: [
+        "Prosthetic group",
+        "Coenzyme",
+        "Co factor",
+        "Activator"
+      ],
+      answer: 0
+    },
+    {
+      id: "testmoz-bio-13",
+      question: "Enzyme which attaches the Okazaki fragments in lagging strands is called:",
+      options: [
+        "Restriction endonuclease",
+        "Primase",
+        "DNA ligase",
+        "DNA helicase"
+      ],
+      answer: 2
+    },
+    {
+      id: "testmoz-bio-14",
+      question: "Zinc ion is attached at the active site of the enzyme Carboxypeptidase. The zinc ion functions as:",
+      options: [
+        "A co enzyme molecule",
+        "An activator",
+        "An inhibitor molecule",
+        "Controller of allosteric site"
+      ],
+      answer: 0
+    },
+    {
+      id: "testmoz-bio-15",
+      question: "Which of the following is an example of competitive inhibitor?",
+      options: [
+        "Glucose",
+        "Succinic acid",
+        "Fumarate",
+        "Malonate"
+      ],
+      answer: 3
+    },
+    {
+      id: "testmoz-bio-16",
+      question: "Non-competitive inhibitor molecules have:",
+      options: [
+        "A similar structure to the normal substrate molecule",
+        "A quite different structure from the substrate molecule",
+        "A different conformation but fit into the active site",
+        "A similar conformation but doesn’t fit into the active site"
+      ],
+      answer: 1
+    },
+    {
+      id: "testmoz-bio-17",
+      question: "Many enzymes are secreted in inactive form to protect:",
+      options: [
+        "Cell proteins",
+        "Mitochondria",
+        "Cell membrane",
+        "Cell DNA"
+      ],
+      answer: 2
+    },
+    {
+      id: "testmoz-bio-18",
+      question: "At a temperature below the freezing point an enzyme is:",
+      options: [
+        "Unaffected",
+        "Slightly inactive",
+        "Inactivated",
+        "Killed"
+      ],
+      answer: 2
+    },
+    {
+      id: "testmoz-bio-19",
+      question: "A ribozyme is ...... with a well defined tertiary structure that enables it to catalyze a chemical reaction:",
+      options: [
+        "RNA molecule",
+        "Protein molecule",
+        "Conjugate molecule of RNA & protein",
+        "Globular protein having RNA"
+      ],
+      answer: 0
+    },
+    {
+      id: "testmoz-bio-20",
+      question: "Which molecular structure of enzyme is essential for activity of enzyme?",
+      options: [
+        "Primary structure",
+        "Secondary structure",
+        "Quaternary structure",
+        "Tertiary structure"
+      ],
+      answer: 3
+    },
+    {
+      id: "testmoz-bio-21",
+      question: "The specificity of enzyme is due to their:",
+      options: [
+        "Surface configuration",
+        "pH",
+        "Hydrogen bonding",
+        "High molecular weight"
+      ],
+      answer: 0
+    }
   ];

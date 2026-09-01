@@ -285,4 +285,556 @@ export type Question = {
       ],
       answer: 3,
     },
+    // --- TESTMOZ ---
+      {
+        id: "testmoz-bio-1",
+        question: "Opening and closing of stomata is greatly influenced by",
+        options: [
+          "Concentration of oxygen",
+          "Concentration of hydrogen",
+          "Concentration of Nitrogen",
+          "Concentration of potassium ions"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-2",
+        question: "Dub sound by heart is made due to",
+        options: [
+          "Closing of AV valves",
+          "Opening of AV valves",
+          "Closing of semi lunar walls",
+          "Opening of semi lunar valves"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-3",
+        question: "A circulatory system has how many characteristics",
+        options: [
+          "1",
+          "2",
+          "3",
+          "6"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-4",
+        question: "Debsorption of water through a compound without dissolving in it is known as",
+        options: [
+          "Ascent of SAP",
+          "Imbibition",
+          "Plasmolysis",
+          "Gutation"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-5",
+        question: "In the heart the thick walled chamber are located at",
+        options: [
+          "Apex",
+          "Lower side",
+          "Literal side",
+          "Dorsal side"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-6",
+        question: "The pressure capillaries cause a continuous leakage of fluid from the blood plasma into space its around the capillaries and tissue this fluid is known as",
+        options: [
+          "Interstitial fluid",
+          "Intracellular fluid",
+          "Serum",
+          "Lymph"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-7",
+        question: "Four plants are present in different environmental conditions plant a is present in warm climate with continuous rainfall plant b is present in cool forest plant C is present in warm climate with little Breeze while plant D is present in warm climate high wind speed which one of the above plant will have highest rate of transpiration",
+        options: [
+          "Plant B",
+          "Plant D",
+          "Plant C",
+          "Plant A"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-8",
+        question: "The number of stages involved in the Heartbeat is",
+        options: [
+          "Two",
+          "Four",
+          "Three",
+          "Five"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-9",
+        question: "The upward movement of sap by the xylem is",
+        options: [
+          "Ascent of SAP",
+          "Deplasmolysis",
+          "Plasmolysis",
+          "Gutation"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-10",
+        question: "Which one of the following act is pacemaker in the heart",
+        options: [
+          "Atrio ventricular bundle of fibres",
+          "Atrio ventricular node",
+          "Sinoartrial node",
+          "Bundle of his"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-11",
+        question: "Vein differs from artery in having",
+        options: [
+          "Narrow lumen",
+          "Pigmented walls",
+          "Strong muscular walls",
+          "Valves"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-12",
+        question: "The only vein in human body carrying oxygenated blood is",
+        options: [
+          "Femoral",
+          "Pulmonary",
+          "Renal",
+          "All"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-13",
+        question: "Casparian strips are found in",
+        options: [
+          "Epidermis",
+          "Endodermis",
+          "Cortex",
+          "Vascular"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-14",
+        question: "The stomatal pore will open when",
+        options: [
+          "Turgor pressure of Guard cells decreases",
+          "Turgar of guard cell increases",
+          "Leaf is keep in the dark",
+          "Amount of carbon dioxide in the Guard cells increases"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-15",
+        question: "In humans the closed sac which surround the heart is",
+        options: [
+          "Endocardium",
+          "Myocardium",
+          "Pericardium",
+          "Epicardium"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-16",
+        question: "The tricuspid valve is present between",
+        options: [
+          "Ventricle and Pulmonary artery",
+          "Left Atrium and left ventrical",
+          "Ventricle and aorta",
+          "Right Atrium and right ventricle"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-17",
+        question: "In human heart the left Atrium receives",
+        options: [
+          "The superior vena cava",
+          "The inferior Vena cava",
+          "The coronary sinus",
+          "The four pulmonary veins"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-18",
+        question: "Thymes is found in human body",
+        options: [
+          "In the medulla oblongata",
+          "In the mediastinum if the upper Thorax",
+          "Both a and b",
+          "None of these"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-19",
+        question: "White blood cells picking up foreign bodies from the blood stream is an example of",
+        options: [
+          "Pinocytosis",
+          "Exocytosis",
+          "Phagocytosis",
+          "None of the above mentioned"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-20",
+        question: "The following are found in both arteries and capillaries",
+        options: [
+          "Endothelial cells",
+          "Collagen fibres",
+          "Elastic fibres",
+          "Smooth muscle cells"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-21",
+        question: "The possible cause of arthclerosis are",
+        options: [
+          "Hypertension",
+          "High serum cholesterol level",
+          "Family history of arterial diseases",
+          "Physical in activity",
+          "All"
+        ],
+        answer: 4
+      },
+      {
+        id: "testmoz-bio-22",
+        question: "During ventricular systole",
+        options: [
+          "Oxygenated blood is pumped into the and deoxygenated blood is pump into the pulmonary vein",
+          "Oxygenated blood is pumped into the Pulmonary artery and deoxygenated blood is pumped into the aorta",
+          "Oxygenated blood is pumped into the aorta and deoxygenated blood is pumped into the Pulmonary artery",
+          "Oxygenated blood is pumped into the Pulmonary artery and deoxygenated blood is pump into the Pulmonary vein"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-23",
+        question: "Which of the following statement based describe the function of sianaatrial node",
+        options: [
+          "It sends our electrical impulses to ventricles to contract",
+          "It is present at Upper end of the left Atrium",
+          "It consists of small number of diffusely oriented cardiac fibres",
+          "It sends out electrical impulses to atrial muscles causing both atria to contract"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-24",
+        question: "Outer valves of heart are called",
+        options: [
+          "Tricuspid valve",
+          "Semilunar",
+          "Semillunar valve",
+          "Bicuspid valve"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-25",
+        question: "Elastic fibres and muscles are absent in",
+        options: [
+          "Arteries",
+          "Veins",
+          "Capillaries",
+          "Present in all"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-26",
+        question: "The open type circulatory system is present in",
+        options: [
+          "Humans",
+          "Fishes",
+          "Arthropods",
+          "None of the above mentioned"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-27",
+        question: "Sap ascends in Woody plants because of the root pressure and",
+        options: [
+          "Transpiration pull",
+          "Capillarity",
+          "Molecular adhesion",
+          "Photosynthesis"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-28",
+        question: "One complete hurt beat consist of one systole and one diastole and last for about",
+        options: [
+          "0.8 seconds",
+          "0.2 seconds",
+          "0.4 seconds",
+          "0.5 seconds"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-29",
+        question: "Water will be absorbed by root hairs when",
+        options: [
+          "Concentration of solutes in cell sap is high",
+          "Plant is rapidly respiring",
+          "They are separated from soil by a permeable membrane",
+          "Concentration of salts in the soil is high"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-30",
+        question: "The oxygen at blood from lungs to heart is transported by the",
+        options: [
+          "Pulmonary artery",
+          "Coronary artery",
+          "Pulmonary vein",
+          "Jugular vein"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-31",
+        question: "Transpiration take place when outer atmosphere has",
+        options: [
+          "Percentage of moisture more than data of stomatal cavity",
+          "Percentage of moisture less than data of stomatal cavity",
+          "Percentage of moisture equal in atmosphere and stomatal cavity",
+          "High percentage of moisture"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-32",
+        question: "Deficiency of which element causes yellowing in plants",
+        options: [
+          "Magnesium",
+          "Iron",
+          "Chlorine",
+          "Oxygen"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-33",
+        question: "Pulse is found in",
+        options: [
+          "Arteries",
+          "Capillaries",
+          "Veins",
+          "Both a and b"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-34",
+        question: "Blood is collected from legs by",
+        options: [
+          "Hepatic Vein",
+          "Vena cava",
+          "Renal vein",
+          "Iliac vein"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-35",
+        question: "The face in which bicuspid and tricuspid valve open and semilunar valve close which produce second heart sound dubbed this phase is known as",
+        options: [
+          "Atrial diastole",
+          "Ventricular diastole",
+          "Ventricular sistella",
+          "Contraction of heart"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-36",
+        question: "Which is a macro molecule found in blood",
+        options: [
+          "Hemoglobin",
+          "Creatinine",
+          "Plasma",
+          "Plasmids"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-37",
+        question: "In the Osmosis water molecule move from area of",
+        options: [
+          "Higher solute concentration to lower solute concentration",
+          "Lower solvent to higher solute concentration",
+          "Lower solute concentration to higher solute concentration",
+          "All of these"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-38",
+        question: "Arteries are based defined as the vessel which",
+        options: [
+          "Carry blood away from the heart to different organs",
+          "Breakup into capillaries which reunite to form a vein",
+          "Carry blood from one visceral organ to in other visceral organ",
+          "Supply oxygenated blood to different organs"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-39",
+        question: "Pulmonary circulation is required for",
+        options: [
+          "Nutrient supply to lungs",
+          "Elimination of waste product from the lungs",
+          "Oxygenation of deoxygenated blood",
+          "Nutrients supply to heart"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-40",
+        question: "Which statement is correct about atria at systole",
+        options: [
+          "Atria relax and ventricles contract",
+          "Atria contract and ventricle also contract",
+          "Atria and ventricles are relaxed",
+          "Ventricles remain relax while artria contract"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-41",
+        question: "Inferior Vena cover receive blood from all of the following except",
+        options: [
+          "Hepatic portal veins",
+          "Renal veins",
+          "Hepatic veins",
+          "Iliac veins"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-42",
+        question: "About 55% of the blood volume is",
+        options: [
+          "Plasma",
+          "Blood proteins",
+          "Blood cells",
+          "Both"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-43",
+        question: "Which of these is common in both lymph vessels and veins",
+        options: [
+          "Both have small bore",
+          "Both have low blood pressure",
+          "Both have valves",
+          "Both are communicated"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-44",
+        question: "Lymph nodes may be located in the human body in the tissue of the",
+        options: [
+          "Stomach and brain",
+          "Ventricle and Atrium",
+          "Groin and neck",
+          "Thyroid gland and adrenal gland"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-45",
+        question: "Which statement Consulting transpiration is correct",
+        options: [
+          "Plant transpire more rapidly in reduce light",
+          "Humidity and rate of transpiration are directly proportional to each other",
+          "Rise in temperature increase in kinetic energy Of water which requires in rapid transpiration",
+          "None of the above"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-46",
+        question: "Transpiration rates are greatest when the leaf sales are fully turgid when the relative humidity in the atmosphere is",
+        options: [
+          "High",
+          "Low",
+          "Intermediate",
+          "None"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-47",
+        question: "Which valve action result from an increase in pressure in the ventricles of the heart",
+        options: [
+          "The closing of all heart valves",
+          "The closing of semilunar valves",
+          "Opening of bicuspid valve",
+          "The opening of semilunar valves"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-48",
+        question: "In roots the apoplast pathway of water is destructed when water reaches",
+        options: [
+          "Plasmodesmata",
+          "Cortex",
+          "Endodermis",
+          "Pitb"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-49",
+        question: "Which of the following blood vessel have the highest pressure of blood",
+        options: [
+          "Arota",
+          "Pulmonary arteries",
+          "Pulmonary veins",
+          "Vena cava"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-50",
+        question: "A sample of blood is taken from an unknown site in a human patient the blood shows in oxygen content equivalent roughly to date of Venus and not the arterial circulation among the following which statement is best described to the blood that was drawn",
+        options: [
+          "It was drawn from Pulmonary vein and is rich in oxygen",
+          "It was drawn from an alveoles and is rich in oxygen",
+          "It was drawn from the large branches of the Pulmonary artery",
+          "It was drawn from the superior Vena cava and will enter the heart at the left ventricle"
+        ],
+        answer: 3
+      }
   ];

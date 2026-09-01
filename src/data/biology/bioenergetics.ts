@@ -199,4 +199,332 @@ export type Question = {
       ],
       answer: 0,
     },
+    // --- TESTMOZ ---
+      {
+        id: "testmoz-bio-2",
+        question: "In glycolysis during oxidation electrons are removed by",
+        options: [
+          "Molecular oxygen",
+          "ATP",
+          "Glyceraldehyde 3 phosphate",
+          "NAD+"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-3",
+        question: "Where are the enzymes located which are involved in the chemical reactions which occur during glycolysis?",
+        options: [
+          "In the fluid matrix of cytoplasm",
+          "In the mitochondrial matrix",
+          "In the nuclear sap",
+          "On the cristae of mitochondria"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-4",
+        question: "Which one of the following molecules of respiratory chain is found at the lowest energy level?",
+        options: [
+          "Cytochrome a",
+          "Cytochrome b",
+          "Cytochrome a3",
+          "Coenzyme Q"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-6",
+        question: "In aerobic respiration most of the ATP is synthesized during",
+        options: [
+          "Oxidation of pyruvic acid",
+          "Electron transport chain",
+          "Krebs cycle",
+          "Glycolysis"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-7",
+        question: "When yeast is producing wine, which of the following is NOT formed?",
+        options: [
+          "Ethyl alcohol",
+          "Carbon dioxide",
+          "Acetyl coenzyme A",
+          "Pyruvic acid"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-9",
+        question: "One molecule of FADH₂ is produced in Krebs cycle during conversion of",
+        options: [
+          "Fumarate to malate",
+          "Succinate to malate",
+          "Malate to oxaloacetate",
+          "Alpha-ketoglutarate to succinate"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-11",
+        question: "How many molecules of oxygen are used during the glycolysis of one glucose molecule?",
+        options: [
+          "1",
+          "16",
+          "32",
+          "0"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-12",
+        question: "Coenzyme NAD+ is",
+        options: [
+          "Mononucleotide",
+          "Dinucleotide",
+          "Trinucleotide",
+          "None"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-13",
+        question: "Oxidative phosphorylation synthesis of ATP in presence of oxygen occurs in",
+        options: [
+          "All types of cells",
+          "All anaerobic cells",
+          "All primitive cells",
+          "All aerobic cells"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-16",
+        question: "When oxygen is not available to a muscle cell, NADH formed during glycolysis does not pass electrons to the electron transport system; instead, it passes hydrogen atoms to",
+        options: [
+          "Acetyl coenzyme A",
+          "Fructose",
+          "ADP",
+          "Pyruvic acid"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-17",
+        question: "What is the importance of respiration in plants?",
+        options: [
+          "It provides oxygen to plants",
+          "It liberates energy",
+          "It liberates carbon dioxide",
+          "All of the above mentioned"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-19",
+        question: "In the Krebs cycle, the FAD electron transport system operates during the conversion of",
+        options: [
+          "Succinyl CoA to succinic acid",
+          "Alpha-ketoglutarate to succinyl CoA",
+          "Succinic acid to fumaric acid",
+          "Fumaric acid to malic acid"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-21",
+        question: "Total NADP formed by one glucose molecule during Krebs cycle are",
+        options: [
+          "6",
+          "12",
+          "3",
+          "18"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-22",
+        question: "Cytochromes are electron transport intermediates containing haem related to",
+        options: [
+          "Coenzymes",
+          "Prosthetic group",
+          "Activator",
+          "Ribozymes"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-24",
+        question: "The common phase between aerobic and anaerobic respiration is called",
+        options: [
+          "Glycolysis",
+          "Tricarboxylic acid cycle",
+          "Oxidative phosphorylation",
+          "Krebs cycle"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-25",
+        question: "Fermentation is",
+        options: [
+          "Incomplete oxidation of proteins",
+          "Complete oxidation of carbohydrates",
+          "Aerobic respiration",
+          "Incomplete oxidation of carbohydrates"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-26",
+        question: "C₃H₆O₃ is",
+        options: [
+          "Pyruvic acid",
+          "Lactic acid",
+          "Ethyl alcohol",
+          "Acetyl CoA"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-27",
+        question: "Glyceraldehyde phosphate is oxidised during glycolysis. What happens to the hydrogen atom and the electron that are removed during oxidation?",
+        options: [
+          "They reduce NADP",
+          "They are transferred to pyruvic acid",
+          "They are eliminated in the form of methane",
+          "They reduce NAD+"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-28",
+        question: "In the electron transport chain, which undergoes terminal oxidation?",
+        options: [
+          "Cytochrome b",
+          "Cytochrome a",
+          "Cytochrome a3",
+          "Cytochrome c"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-29",
+        question: "Organelles which are regarded as powerhouse of the cell and in which the oxidative reactions of the respiratory process take place are",
+        options: [
+          "Chloroplast",
+          "Mitochondria",
+          "Lysosomes",
+          "Endoplasmic reticulum"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-30",
+        question: "When a molecule of pyruvic acid is subjected to aerobic oxidation and forms lactic acid, there is",
+        options: [
+          "Gain of 2 ATP molecules",
+          "Loss of 3 ATP molecules",
+          "Loss of 6 ATP molecules",
+          "Gain of 3 ATP molecules"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-31",
+        question: "In oxidation of one molecule of glucose during respiration, 36 molecules of ATP liberated is",
+        options: [
+          "All 36 ATP molecules inside the mitochondria",
+          "Two ATP molecules during glycolysis and 34 ATP during Krebs cycle",
+          "2 molecules during glycolysis and 34 ATP during respiratory chain",
+          "2 molecules outside the mitochondria and 34 ATP molecules inside the mitochondria"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-33",
+        question: "Both glucose and appropriate enzymes are necessary for the process of glycolysis to begin. Which additional compound must also be present?",
+        options: [
+          "Acetyl coenzyme A",
+          "ATP",
+          "Pyruvate",
+          "Reduced NAD"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-34",
+        question: "Before entering the tricarboxylic acid cycle, the pyruvate produced by the glycolytic pathway is first converted to",
+        options: [
+          "Acetyl coenzyme A"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-35",
+        question: "What kind of fermentation is carried out by muscle cells?",
+        options: [
+          "Alcohol",
+          "Lactic acid",
+          "Citric acid",
+          "Formic acid"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-38",
+        question: "The overall goal of glycolysis, Krebs cycle and electron transport system is the formation of",
+        options: [
+          "ATP is one large oxidation reaction",
+          "Sugars",
+          "Nucleic acids",
+          "ATP in small stepwise units"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-39",
+        question: "Which is the final acceptor of electron in respiration?",
+        options: [
+          "Cytochromes",
+          "Dehydrogenase",
+          "Oxygen",
+          "Hydrogen"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-41",
+        question: "Inner membrane of mitochondria is very selective about what it allows to leave the organelle. One molecule that regularly passes out of a mitochondrion is",
+        options: [
+          "ATP",
+          "Pyruvic acid",
+          "Glucose",
+          "Citric acid"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-44",
+        question: "Respiratory enzymes are present in bacteria on",
+        options: [
+          "Mitochondria",
+          "Golgi complex",
+          "Plasma membrane",
+          "Endoplasmic reticulum"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-45",
+        question: "The formation of acetyl CoA from pyruvic acid is the result of its",
+        options: [
+          "Reduction",
+          "Dehydration",
+          "Dephosphorylation",
+          "Oxidative decarboxylation"
+        ],
+        answer: 3
+      }
   ];

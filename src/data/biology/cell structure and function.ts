@@ -704,4 +704,555 @@ export type Question = {
       ],
       answer: 4,
     },
+    // --- TESTMOZ ---
+      {
+        id: "testmoz-bio-1",
+        question: "Cell membrane is chemically composed of",
+        options: [
+          "Lipids and carbohydrates",
+          "Lipids and proteins",
+          "Proteins and carbohydrates",
+          "Lipid, proteins and carbohydrates"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-2",
+        question: "Which of the following is present in eukaryotic cells?",
+        options: [
+          "Cell wall",
+          "Diploid nucleus",
+          "Falgellum",
+          "Membrane bounded organells"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-3",
+        question: "Which of the following is concerned with cell secretions",
+        options: [
+          "Golgi complex",
+          "Mitochondria",
+          "Ribosomes",
+          "Peroxisomes"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-4",
+        question: "Smooth Endoplasmic reticulum helps to",
+        options: [
+          "Synthesis",
+          "Prepare food",
+          "Detoxify the harmful drugs",
+          "Decompose proteins"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-5",
+        question: "DNA is present in",
+        options: [
+          "Chromosomes and dictyosomes",
+          "Mitochondria and chloroplast",
+          "Chloroplast and lysosomes",
+          "Mitochondria and Endoplasmic reticulum"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-6",
+        question: "The outer membrane of the nuclear envelope is at places continous with the:",
+        options: [
+          "Golgi body",
+          "Endoplasmic reticulum",
+          "Lysosomes",
+          "Peroxisomes"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-7",
+        question: "What is sequence of organells that a secreted protein would have passed through on its journey out of the cell, m",
+        options: [
+          "Mitochondria, golgi complex, cell membrane",
+          "Cell membrane, mitochondria, golgi complex",
+          "Rough Endoplasmic reticulum, Golgi complex, cell membrane",
+          "Golgi complex rough Endoplasmic reticulum, cell membrane"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-8",
+        question: "The ribosome are attached to mRNA through ....... ribosomal subunit",
+        options: [
+          "Large",
+          "Small",
+          "Both a and b",
+          "None of these"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-9",
+        question: "Unit specify sedimentation rate of a specific proteins or molecules In a medium during ultracentrifugation is",
+        options: [
+          "Micrometer",
+          "Kcal/mol",
+          "Svedberg",
+          "Joule"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-10",
+        question: "Kitchen of the cell",
+        options: [
+          "Mitochondria",
+          "Chloroplast",
+          "Lysosomes",
+          "Golgi bodies"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-11",
+        question: "Which of the following is the function of SER?",
+        options: [
+          "Detoxification of drugs",
+          "Synthesis of steroids",
+          "Storage of calcium",
+          "All of the above"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-12",
+        question: "Mitochondria is also called",
+        options: [
+          "Chondrosomes",
+          "Dictyosomes",
+          "Plasmalemma",
+          "None"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-13",
+        question: "Important site for formation of glycoprotein and glycolipids is",
+        options: [
+          "Plastids",
+          "Vaccoules",
+          "Lysosomes",
+          "Golgi complex"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-14",
+        question: "The inner membrane of mitochondria form extensive infoldings called",
+        options: [
+          "Centrioles",
+          "Cristae",
+          "Cisternae",
+          "Lamella"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-15",
+        question: "The complex of Sugar polymers and proteins which are patchilly distributed on the plasma membrane of animal cell is called",
+        options: [
+          "Cellulose",
+          "Glycocalyx",
+          "Chitin",
+          "Cytoskeleton"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-16",
+        question: "The elasticity of the plasma membrane demonstrates that it is madeup of",
+        options: [
+          "Lipids",
+          "Nucleic acids",
+          "Carbohydrates",
+          "Proteins"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-17",
+        question: "Protoplasm of plant cell is",
+        options: [
+          "Less viscous than animal cell",
+          "Equal in viscosity to the animal cells",
+          "More viscous than animal",
+          "None"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-18",
+        question: "Which of the following in plasma membrane don't have transport function?",
+        options: [
+          "Channel protein",
+          "Receptor molecule",
+          "Carrier protein",
+          "None"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-19",
+        question: "Prokaryotic cell wall is madeup of",
+        options: [
+          "Cellulose",
+          "Chitin",
+          "Muerin",
+          "Lignin and pectin"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-20",
+        question: "The ...... model of plasma membrane suggests that protein are embedded in lipid bilayer",
+        options: [
+          "Unit membrane",
+          "Ultracentrifuge",
+          "Permeable",
+          "Fluid mosaic model"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-21",
+        question: "Which of the following is responsible for mechanical support protein synthesis and enzyme transport",
+        options: [
+          "Cell membrane",
+          "Dictyosomes",
+          "Chondriosomes",
+          "ER"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-22",
+        question: "Which of the following structure in an organelle within an organelle?",
+        options: [
+          "Peroxisomes",
+          "Mesosomes",
+          "ER",
+          "Ribosomes"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-23",
+        question: "Main servant of the cell",
+        options: [
+          "Mitochondria",
+          "Chloroplast",
+          "DNA",
+          "mRNA"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-24",
+        question: "Which of the following is energy consuming process",
+        options: [
+          "Endocytosis",
+          "Exocytosis",
+          "Active transport",
+          "All of these"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-25",
+        question: "Nucleus is only visible when the cells is in ...... stages",
+        options: [
+          "Non dividing",
+          "Dividing",
+          "Active",
+          "Both a and b"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-26",
+        question: "RNA is present in",
+        options: [
+          "Plasmalemma",
+          "Ribosomes",
+          "Chromosome",
+          "Cytoplasm"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-27",
+        question: "Which of the following best describes the fluid mosaic model of the plasma membrane ?",
+        options: [
+          "A single layer of protein surrounding a single layer of lipid",
+          "A lipid bilayer with protein molecules dispersed within it",
+          "A single layer of lipid surrounding a layer of protein",
+          "A single layer of proteins with lipid molecules dispersed within"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-28",
+        question: "The cell wall of plant cell is different from that of prokaryotes in",
+        options: [
+          "Both structure and chemical composition",
+          "Structure only",
+          "Chemical composition only",
+          "Number of layers only"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-29",
+        question: "Among the following which cellular organelle contains circular DNA similar to those found in bacteria?",
+        options: [
+          "Lysosomes",
+          "Chloroplast",
+          "Nucleus",
+          "Ribosome"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-30",
+        question: "The attachment of ribosomal subunits is controlled by ...... ions?",
+        options: [
+          "Mg ions",
+          "Ca ions",
+          "Na ions",
+          "K ions"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-31",
+        question: "A tadpole tail is gradually broken down during metamorphosis in to an adult frog. Which organelle increase in number in the cells of the tail at this time",
+        options: [
+          "Centrioles",
+          "Endoplasmic reticulum",
+          "Golgi complex",
+          "Lysosomes"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-32",
+        question: "A major site of lipid synthesis",
+        options: [
+          "RER",
+          "SER",
+          "Both",
+          "None"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-33",
+        question: "Oxidative metabolism is carried out ...... of mitochondria",
+        options: [
+          "In the side of the outer membrane",
+          "On the surface on the inner membrane",
+          "In the inter membrane space",
+          "In the matrix"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-34",
+        question: "Which of the following always contain DNA",
+        options: [
+          "Centrioles",
+          "Golgi body",
+          "Endoplasmic reticulum",
+          "Nucleus"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-35",
+        question: "Movement of material against concentration gradient through plasma membrane is known as",
+        options: [
+          "Osmosis",
+          "Passive transport",
+          "Active transport",
+          "Diffusion"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-36",
+        question: "Amount of lipid in plasma membrane is about",
+        options: [
+          "20-40%",
+          "20-60%",
+          "40-69%",
+          "40-80%"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-37",
+        question: "Plasmodesmata are",
+        options: [
+          "Membrane connecting the nucleus with plasmalemma",
+          "Connection between adjacent cells",
+          "Lignified cemented layers between cells",
+          "Locomotory structure"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-38",
+        question: "Which of the following is present in prokaryotic cells",
+        options: [
+          "Chloroplast, DNA, nuclear envelope",
+          "Chromosomes, mitochondria, nuclear envelope",
+          "Cytoplasm, DNA, mitochondria",
+          "Cytoplasm, DNA, ribosome"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-39",
+        question: "The inner mitochondrial membrane is compartmentalized into numerous Cristae which",
+        options: [
+          "Expand the surface area of the inner mitochondrial membrane",
+          "Enhance its ability to produce ATP",
+          "Have F1 particles attached",
+          "All"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-40",
+        question: "Power house of cell",
+        options: [
+          "Mitochondria",
+          "Chloroplast",
+          "Glyoxisomes",
+          "Cytoplasm"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-41",
+        question: "The cisternae breaks up into vesicles from ...... of golgi complex",
+        options: [
+          "Convex maturing face",
+          "Concave forming face",
+          "Convex forming face",
+          "Concave maturing face"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-42",
+        question: "Each cell of frog contains autosomes",
+        options: [
+          "18",
+          "26",
+          "24",
+          "48"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-43",
+        question: "Membranous units forming a series of continuous and discontinuous cavities in cell are called",
+        options: [
+          "Plasmodesmata",
+          "Chromatin network",
+          "Plasmalemma",
+          "Endoplasmic reticulum"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-44",
+        question: "Which one of the following is responsible for cyclosis?",
+        options: [
+          "Microtubule",
+          "Microfilament",
+          "Intermediate filament",
+          "None"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-45",
+        question: "The soluble part of cytoplasm or liquid that remains when all organells are removed is known as",
+        options: [
+          "Cytosol",
+          "Gelatin material",
+          "Solution",
+          "Cytoskeleton"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-46",
+        question: "How many triplets of microtubules ads present in centrioles",
+        options: [
+          "Ten",
+          "Nine",
+          "Eight",
+          "Seven"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-47",
+        question: "Filaments present in flagella and Cillia are",
+        options: [
+          "Microfibrils",
+          "Microtubule",
+          "Microfilament",
+          "Microvilli"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-48",
+        question: "Ribosomal RNA is actively synthesized in",
+        options: [
+          "Nucleoplasm",
+          "Lysosomes",
+          "Ribosomes",
+          "Nucleolus"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-49",
+        question: "Ctyoskeleton is madeup of",
+        options: [
+          "Cellulosic microfibrils",
+          "Calcium carbonate granules",
+          "Protaneious filaments",
+          "Callose deposits"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-50",
+        question: "Centrioles are madeup of ...... microtubules",
+        options: [
+          "9",
+          "12",
+          "3",
+          "27"
+        ],
+        answer: 3
+      }
   ];

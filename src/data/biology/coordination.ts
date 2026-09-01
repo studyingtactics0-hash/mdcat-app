@@ -721,4 +721,555 @@ export type Question = {
       ],
       answer: 2,
     },
+    // --- TESTMOZ ---
+      {
+        id: "testmoz-bio-1",
+        question: "Which is a part of spinal cord",
+        options: [
+          "Ventricle",
+          "Vertebral canal",
+          "Ventral canal",
+          "Central canal"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-2",
+        question: "These content cell bodies of neurones",
+        options: [
+          "Nerve and white matter",
+          "Grey and white matter",
+          "Ganglia and grey matter",
+          "Nerve and ganglia"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-3",
+        question: "Reflex action below the neck are under control of",
+        options: [
+          "Brain",
+          "Hypothalamus",
+          "Spinal cord",
+          "Pituitary gland"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-4",
+        question: "Which of the following increases when an action potential is initiated",
+        options: [
+          "Diffusion of sodium ions into neurone",
+          "Diffusion of sodium Ion out of neurone",
+          "Diffusion of potassium ion out of the neurone",
+          "Diffusion of potassium ion into the neuron"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-5",
+        question: "Stimulation of the Vagus nerve will cause",
+        options: [
+          "Increase blood pressure",
+          "Decrease heart rate",
+          "Dilation of the pupil of the eye",
+          "Increase blood flow to Limbs"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-6",
+        question: "Aldosterone helps in the maintenance of all except",
+        options: [
+          "Electrolyte and body fluid volume",
+          "Blood pressure",
+          "Osmotic pressure",
+          "Smooth muscle contraction"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-7",
+        question: "The part of neuron did contain a nucleus and other organelles typical of cell is called",
+        options: [
+          "Schawan cells",
+          "Axons",
+          "Dendrite",
+          "Cell body"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-8",
+        question: "It is important in coordinating the movement of the body",
+        options: [
+          "Cerebrum",
+          "Medulla",
+          "Pons",
+          "Cerebellum"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-9",
+        question: "Hypothalamus does not control",
+        options: [
+          "Sexual behaviour",
+          "Osmoregulation",
+          "Hunger",
+          "Creative thinking and consciousness"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-10",
+        question: "All the unconscious activities like Heartbeat involuntary breathing and get movement are controlled by",
+        options: [
+          "Medulla oblongata",
+          "Cerebrum and medulla",
+          "Cerebellum and medulla",
+          "Cerebrum and cerebellum"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-11",
+        question: "Part of mammalian brain controls the muscular coordination",
+        options: [
+          "Cerebrum",
+          "Medula oblongata",
+          "Cerebellum",
+          "Corpus collasum"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-12",
+        question: "Insufficient thyroxine in adults leads to",
+        options: [
+          "Dwarfism",
+          "Myxedema",
+          "Graves disease",
+          "Cretinism"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-13",
+        question: "Number of cranial nerves are",
+        options: [
+          "42",
+          "24",
+          "36",
+          "12"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-14",
+        question: "Adissions disease can be due to all reasons except",
+        options: [
+          "Hypothalamus",
+          "Pituitary gland",
+          "Adrenal cortex",
+          "Adrenal medulla"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-15",
+        question: "The is a crurical relay Centre among the senses the limbic system",
+        options: [
+          "Cerebral cortex",
+          "Adrenal cortex",
+          "Cerebellum",
+          "Thalamus"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-16",
+        question: "A male body tense more towards the form of immature female after",
+        options: [
+          "Spermiogenesis",
+          "Deficiency of dopamine",
+          "Castration",
+          "Hypergoandism"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-17",
+        question: "During repolarization of nerve",
+        options: [
+          "Sodium channels are closed and potassium channels are open",
+          "Potassium Gate closes and sodium Gate opens",
+          "Both potassium and sodium gates are closed",
+          "Both Gates remains open"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-18",
+        question: "All are parts of brain stem except",
+        options: [
+          "Mid brain",
+          "Medulla",
+          "Pons",
+          "Cerebellum"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-19",
+        question: "Which of the following membrane potential depicts hyper polarization",
+        options: [
+          "-50 millivolt",
+          "-70 millivolt",
+          "50 millivolt",
+          "-90 millivolt"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-20",
+        question: "Secretion of oestrogen is under the control of",
+        options: [
+          "FSH",
+          "LH",
+          "Progesterone",
+          "STH"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-21",
+        question: "Diuresis is reduced by",
+        options: [
+          "Oxytocin",
+          "LH",
+          "Prolactin",
+          "Vasopressin"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-22",
+        question: "Cell bodies sensory neuron constitute",
+        options: [
+          "Dorsal root ganglion",
+          "Dorsal root",
+          "Ventral root ganglion",
+          "Posterior root ganglion"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-23",
+        question: "Impulses travel very rapidly along nerve from the leg muscle of mammal because",
+        options: [
+          "There is a high concentration of sodium Ion inside the axons",
+          "The nerve contain myelinated fibres",
+          "There is a potential across the axon membrane",
+          "The cell bodies of the fibres are content within the dorsal root ganglion"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-24",
+        question: "The type of neuron is most prevalent in the human body",
+        options: [
+          "Unipolar neuron",
+          "Multipolar neuron",
+          "Bipolar neuron",
+          "None of the above mentioned"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-25",
+        question: "Which part of human brain is more developed in comparison of others",
+        options: [
+          "Cerebrum",
+          "Optic lobes",
+          "Cerebellum",
+          "Medulla oblongata"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-26",
+        question: "Which part of a neurone May act is receptor as well",
+        options: [
+          "Dendrite",
+          "Cell body",
+          "Axons",
+          "Gaglion"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-27",
+        question: "Motor neuron carry messages from associative neurons to",
+        options: [
+          "Skeletal muscle",
+          "Cardiac muscle",
+          "Smooth muscle",
+          "All"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-28",
+        question: "The longest cell in the body of an animal is",
+        options: [
+          "Osteocyte",
+          "Chromatophore",
+          "Neuron",
+          "Lymph corpuscles"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-29",
+        question: "All are amino acid derivative except",
+        options: [
+          "Thyroxine",
+          "Aldosterone",
+          "Epinephrine",
+          "Nor adrenaline"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-30",
+        question: "Outermost covering of brain is called as",
+        options: [
+          "Dura matter",
+          "Pericardium",
+          "Pia matter",
+          "Grey matter"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-31",
+        question: "One that connects both cerebral hemispheres is called",
+        options: [
+          "Corpus luteum",
+          "Corpus striatum",
+          "Corpus collasum",
+          "tracts"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-32",
+        question: "It is considered one out of three parts of four brain and is further subdivided into 3 parts",
+        options: [
+          "Thalamus",
+          "Hypothalamus",
+          "Limbic system",
+          "Cerebrum"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-33",
+        question: "Motor neuron have",
+        options: [
+          "Short axon",
+          "Long axon",
+          "Long dendrites",
+          "dendron"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-34",
+        question: "Saltatory transmission occurs in",
+        options: [
+          "Cell body",
+          "Continuous fashion",
+          "Non-milinated nerve fibre",
+          "Myleinated nerve fibre"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-35",
+        question: "The part of neurone that perform basic cellular functions such as Protein synthesis are the",
+        options: [
+          "Somas",
+          "Dendrites",
+          "Axons",
+          "Synaptic knobs"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-36",
+        question: "In action potential depolarization repolarization and recovery takes how much time",
+        options: [
+          "2 to 3 sec",
+          "2 to 3 minutes",
+          "2 to 3 millisec",
+          "2 to 3 micro sec"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-37",
+        question: "The most important ions present in the neurones and surrounding Fluids are",
+        options: [
+          "Sodium and Calcium",
+          "Sodium and potassium",
+          "Calcium and potassium",
+          "Negative organic ions"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-38",
+        question: "Which of the following is not the part of fore brain",
+        options: [
+          "Reticular formation",
+          "Amygdala",
+          "Hippo campus",
+          "Thalamus"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-39",
+        question: "The diurnal rhythm of our body such as sleep wake cycle is regulated by the hormone",
+        options: [
+          "Calcitonin",
+          "Adrenaline",
+          "Prolactin",
+          "Melatonin"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-40",
+        question: "A nerve impulse will travel through an nerve fibre only if its membrane sudden becomes more permeable to ions of",
+        options: [
+          "Sodium",
+          "Calcium",
+          "Chloride",
+          "Potassium"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-41",
+        question: "These are the structures did respond when they are stimulated by an impulse coming through motor neuron",
+        options: [
+          "Glands",
+          "Thermo receptors",
+          "Sensory neurons",
+          "Pacinian corpuscles"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-42",
+        question: "Dwarfism is a hormonal disorder due to",
+        options: [
+          "Deficiency of thyroxine",
+          "Deficiency of STH",
+          "Excess of thyroxine",
+          "Excess of STH"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-43",
+        question: "Peripheral part of brain contain",
+        options: [
+          "White matter",
+          "Blue matter",
+          "Yellow matter",
+          "Grey matter"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-44",
+        question: "Hypothalamus contains several groups of Neuro secretary cells called and produce which hormones",
+        options: [
+          "Ganglia",
+          "Nuclei",
+          "Plexus",
+          "Astrocytes"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-45",
+        question: "How many sensations are detected by the skin",
+        options: [
+          "5",
+          "4",
+          "3",
+          "2"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-46",
+        question: "A patient to excretes a large quantity of sodium in urine",
+        options: [
+          "Diseased adrenal medulla",
+          "Diseased pancreas",
+          "Diseased adrenal cortex",
+          "Diseased thymus"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-47",
+        question: "Hormones can regulate other hormones through",
+        options: [
+          "Competition",
+          "Inhibition",
+          "Feedback mechanism",
+          "Antagonizing"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-48",
+        question: "The pineal gland is located in",
+        options: [
+          "Spinal cord",
+          "Brain",
+          "Neck",
+          "Stomach mucosa"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-49",
+        question: "Sodium pump stop operating during",
+        options: [
+          "Repolarization",
+          "Action potential",
+          "Resting potential",
+          "None of the above"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-50",
+        question: "The type of receptors present in the hypothalamus are",
+        options: [
+          "Mechno receptors",
+          "Cherno receptors",
+          "Photoreceptors",
+          "Pressure receptors"
+        ],
+        answer: 1
+      }
   ];

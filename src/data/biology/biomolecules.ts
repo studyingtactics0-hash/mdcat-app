@@ -974,4 +974,324 @@ export type Question = {
       options: ["Fructose", "Glucose", "Ribose", "Deoxyribose"],
       answer: 1,
     },
+    // --- TESTMOZ ---
+      {
+        id: "testmoz-bio-1",
+        question: "Hemoglobin exhibits:",
+        options: [
+          "Primary structure",
+          "Secondary structure",
+          "Tertiary structure",
+          "Quaternary structure"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-2",
+        question: "Which monosaccharide will form a pyranose ring in solution?",
+        options: [
+          "Fructose",
+          "Glucose",
+          "Ribose",
+          "Deoxyribose"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-3",
+        question: "The number of base pairs in one turn of DNA is:",
+        options: [
+          "10",
+          "34",
+          "20",
+          "25"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-4",
+        question: "Which one of the following is a precursor of steroid hormones?",
+        options: [
+          "Glycerol",
+          "Sterol",
+          "Amino acids",
+          "Cholesterol"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-5",
+        question: "Which of the following is an example of unsaturated fatty acids?",
+        options: [
+          "Butyric acid",
+          "Palmitic acid",
+          "Oleic acid",
+          "Acetic acid"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-6",
+        question: "The structure of fibrous protein comprises of polypeptide chains in the form of:",
+        options: [
+          "Cluster",
+          "Long strands of fibrils",
+          "Spherical or curled up ball",
+          "Flat uncoiled chains"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-7",
+        question: "Cellulose of wood, cotton and paper is an example of:",
+        options: [
+          "Carbohydrates",
+          "Proteins",
+          "Nucleic acids",
+          "Lipids"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-8",
+        question: "The enantiomer of D-glucose is:",
+        options: [
+          "D-galactose",
+          "L-galactose",
+          "Both of them",
+          "None of them"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-9",
+        question: "Amino acid in which R group is hydrogen is:",
+        options: [
+          "Glycine",
+          "Alanine",
+          "Serine",
+          "Valine"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-10",
+        question: "The bond formed between glucose and fructose to form sucrose is:",
+        options: [
+          "1,4 Glycosidic linkage",
+          "1,6 Glycosidic linkage",
+          "1,2 Glycosidic linkage",
+          "1,3 Glycosidic linkage"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-11",
+        question: "Myosin is type of protein:",
+        options: [
+          "Intermediate",
+          "Globular",
+          "Simple",
+          "Fibrous"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-12",
+        question: "In translation the terminating codon is:",
+        options: [
+          "GUA",
+          "UUG",
+          "UAA",
+          "AGU"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-13",
+        question: "The two dimensional shape of tRNA is:",
+        options: [
+          "L shape",
+          "X shape",
+          "Clover leaf like",
+          "Y shape"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-14",
+        question: "It is an Aldo-hexose:",
+        options: [
+          "Fructose",
+          "Glucose",
+          "Ribulose",
+          "Ribose"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-15",
+        question: "Involved in blood transfusion?",
+        options: [
+          "Glycoprotein",
+          "Glycolipid",
+          "Cerebrosides",
+          "Both A & B"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-16",
+        question: "Secondary structure of protein is found in:",
+        options: [
+          "Trypsin",
+          "Insulin",
+          "Keratin",
+          "Glucagon"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-17",
+        question: "Waxes are formed by combination of fatty acids with:",
+        options: [
+          "Alcohol",
+          "Serine",
+          "Glycerol",
+          "Cysteine"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-18",
+        question: "Which of the following is purine?",
+        options: [
+          "Guanine",
+          "Cytosine",
+          "Thymine",
+          "Uracil"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-19",
+        question: "Fatty acids are organic compounds containing hydrogen, oxygen and one of the following:",
+        options: [
+          "COOH",
+          "Acyl",
+          "-NH2",
+          "Sucrose"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-20",
+        question: "Phosphodiester bond is:",
+        options: [
+          "C—O—P—O—C",
+          "C—O—P",
+          "C—C—O—P",
+          "None"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-21",
+        question: "Collagen and albumin are:",
+        options: [
+          "Simple proteins",
+          "Polyamides",
+          "Derived proteins",
+          "Polysaccharides"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-22",
+        question: "What term is used to describe the process by which proteins are synthesized from a genetic code?",
+        options: [
+          "Reproduction",
+          "Transcription",
+          "Translation",
+          "Replication"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-23",
+        question: "Immediate source of energy for cellular metabolism is:",
+        options: [
+          "Lipids",
+          "ATP",
+          "Carbohydrates",
+          "Proteins"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-24",
+        question: "Which of the following gives red color with iodine?",
+        options: [
+          "Starch",
+          "Glycogen",
+          "Cellulose",
+          "All of these"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-25",
+        question: "The combination of a Pentose sugar with a base results in a compound known as:",
+        options: [
+          "Nucleotide",
+          "Nucleic acid",
+          "Nucleoside",
+          "Polynucleotide"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-26",
+        question: "Which one are intermediates in respiration and photosynthesis both?",
+        options: [
+          "Ribose and heptulose",
+          "Glucose and galactose",
+          "Glyceraldehyde and dihydroxyacetone",
+          "Fructose and ribulose"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-27",
+        question: "Which lipid is totally hydrophobic or insoluble?",
+        options: [
+          "Triglycerides",
+          "Waxes",
+          "Phospholipids",
+          "Terpenoids"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-28",
+        question: "If the genetic code is made up of three nucleotides, then total possible genetic codes will be:",
+        options: [
+          "6",
+          "34",
+          "64",
+          "29"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-29",
+        question: "Estrogen, vitamin D and cholesterol are all examples of:",
+        options: [
+          "Glycolipids",
+          "Lipoprotein",
+          "Terpenes",
+          "Steroids"
+        ],
+        answer: 3
+      }
   ];

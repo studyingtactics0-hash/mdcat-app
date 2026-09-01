@@ -770,4 +770,556 @@ export type Question = {
       ],
       answer: 0,
     },
+    // --- TESTMOZ ---
+      {
+        id: "testmoz-bio-1",
+        question: "The thick filament in a muscle are made up of",
+        options: [
+          "Hemoglobin",
+          "Myosin",
+          "Thin",
+          "Myoglobin"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-2",
+        question: "Bones of the skulls are joined by",
+        options: [
+          "Fixed joints",
+          "Sliding joints",
+          "Pivot joints",
+          "Gliding joints"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-3",
+        question: "The point of attachment of the nerve to the muscle is called a",
+        options: [
+          "Neuromuscular Junction",
+          "Mechanical Junction",
+          "Chemical Junction",
+          "Synaptic Junction"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-4",
+        question: "All of the following are true about collagen fibres except",
+        options: [
+          "In elastic",
+          "Flexible",
+          "Living",
+          "Protein"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-5",
+        question: "How many lumber vertebrae are present",
+        options: [
+          "12",
+          "5",
+          "14",
+          "6"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-6",
+        question: "Which of the following bones are present in Palm of hand",
+        options: [
+          "Carpals",
+          "Metacarpals",
+          "Tarsals",
+          "Metatarsals"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-7",
+        question: "Five hip vertebrae fuse together to",
+        options: [
+          "Coccyx",
+          "Sacrum",
+          "Phalanges",
+          "Femur"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-8",
+        question: "Sarcolema is made up of",
+        options: [
+          "Lipoprotein",
+          "Glycoprotein",
+          "Glyco lipids",
+          "Nucleoproteins"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-9",
+        question: "It acts is immediate source of energy for muscle contraction",
+        options: [
+          "ATP",
+          "Phospho creatine",
+          "Fatty acids",
+          "Glycogen"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-10",
+        question: "In which of the following exoskeleton of Glass like silica is found",
+        options: [
+          "Mall uses sponges",
+          "Arthropoda",
+          "Diatoms",
+          "Star fish"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-11",
+        question: "Pathway of energy used by muscles convert from food is",
+        options: [
+          "Food -ATP- keratin- phosphate- protein",
+          "Food- glycogen- ATP-creatine- phosphate",
+          "Food -glycogen- creatine-phosphate ATP",
+          "Food- protein -creatine -phosphate ATP"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-12",
+        question: "The bones present in fingers",
+        options: [
+          "Phalanges",
+          "Tarslas",
+          "Lumbar",
+          "None"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-13",
+        question: "Which of the following statement is true",
+        options: [
+          "Muscle has many muscle fibres",
+          "Muscle fibre has many muscle cells",
+          "Muscle cell has many myofibrils",
+          "Sarcomere has bundles of muscle fibres"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-14",
+        question: "Diameter of each myofibril is approximately",
+        options: [
+          "2 micrometre",
+          "10 micrometer",
+          "100 nanometer",
+          "100 micrometer"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-15",
+        question: "The function of calcium ions in muscle contraction is to",
+        options: [
+          "Bind to troponin molecule and cause them to move",
+          "Aid in the transmission of nerve impulse",
+          "Polarize visible light",
+          "Bindotropomials in molecule and cause them to form cross Bridge"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-16",
+        question: "How many bones are present in the wrist",
+        options: [
+          "Four bones",
+          "Six bones",
+          "Eight bones",
+          "14 bones"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-17",
+        question: "The lower two pairs of ribs are",
+        options: [
+          "True ribs",
+          "False ribs",
+          "Floating ribs",
+          "articulated ribs"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-18",
+        question: "All of the following are true regarding muscle contraction except",
+        options: [
+          "I band shortens",
+          "A band remains unchanged",
+          "Z lines get closer",
+          "M line disappears"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-19",
+        question: "Connective tissue raping around a muscle that is found continuous with tendons",
+        options: [
+          "Perimysium",
+          "Endomysium",
+          "Epimysium",
+          "Perichondrium"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-20",
+        question: "How many coxal bones are present in human body",
+        options: [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-21",
+        question: "The protein present in muscles",
+        options: [
+          "Hemoglobin",
+          "Myoglobin",
+          "Albumin",
+          "None of these"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-22",
+        question: "Which one of the following is correct regarding A band",
+        options: [
+          "It is non polarizing",
+          "It contains only myosin",
+          "It is isotropic",
+          "Myosin act as polarizer of light"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-23",
+        question: "Which type of cartilages present in our respiratory passages",
+        options: [
+          "Hyaline cartilage",
+          "Elastic cartilage",
+          "Hyaline and elastic both",
+          "Fibro cartilage"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-24",
+        question: "When the knee moves back and fourth as a person walks what keep the surface of the lake born from rubbing against each other",
+        options: [
+          "The periosteum",
+          "Articular cartilage",
+          "The bone marrow",
+          "Ligament"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-25",
+        question: "Each myosin filament is surrounded by",
+        options: [
+          "Four thin filaments",
+          "Two thin filaments",
+          "Eight thin fimans",
+          "Six thin filaments"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-26",
+        question: "Contractile protein of skeletal muscle cell involving atpas activity is",
+        options: [
+          "Actin",
+          "Myosin",
+          "Troponin",
+          "Tropomyosin"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-27",
+        question: "Formation of ...... will be greater With The fater breakdown of glucose and glycogen to compensate energy requirements in anaerobic respiration",
+        options: [
+          "Enzymes",
+          "Harmon",
+          "Lactic acid",
+          "Fat"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-28",
+        question: "When muscle contracts thick and thin filament undergo",
+        options: [
+          "Overlapping",
+          "Shortening",
+          "Contraction",
+          "Lengthening"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-29",
+        question: "Which of the following is not true",
+        options: [
+          "The joints of elbow and knee are hinge joints",
+          "The joint cavities filled with lubricating Synovial fluid",
+          "Bones of the skull are connected through fixed joints",
+          "Hips and Shoulder joints are example of ball and socket joints",
+          "Cells of the bones are called osteoclasts"
+        ],
+        answer: 4
+      },
+      {
+        id: "testmoz-bio-30",
+        question: "The axial skeleton of an adult human includes",
+        options: [
+          "The skull pectoral gridle and ribs",
+          "Skull ribs and bones of arms and legs",
+          "Pectoral and pelvic girdles",
+          "The ribs the skull the sternum and the vertebrae"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-31",
+        question: "Of the following statements about skeletal muscle tissue is true",
+        options: [
+          "In the muscle fibre actin is thick filament",
+          "The sarcoplasmic reticulum stores calcium ions within a muscle cell",
+          "In a muscle fibre myosin is thin filament",
+          "Contraction of muscle fibre can occur in the absence of calcium ions"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-32",
+        question: "The repeated protein pattern of myofibril is called",
+        options: [
+          "Sarcomere",
+          "Sarcolemma",
+          "Zymere",
+          "Cross bridges"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-33",
+        question: "The Sarcolemma of muscle fibre folds in world and form a system of tubes which run through the sarcoplasm called",
+        options: [
+          "Myofilaments",
+          "Z lines",
+          "Sarcoplasmic reticulum",
+          "Transverse tubules"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-34",
+        question: "Chief component of thin filaments is",
+        options: [
+          "Actin",
+          "Myosin",
+          "Troponin",
+          "Fibrous proteins"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-35",
+        question: "A motor unit is made up of",
+        options: [
+          "All the muscle fibres within a given muscle",
+          "A motor neuron in the muscle fibre it innervates",
+          "All the neurons going into an individual section of a body",
+          "A fascicle and a nerve"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-36",
+        question: "Which triggers the release of calcium ions from sarcoplasmic reticulum",
+        options: [
+          "Formation of actin myosin bridges",
+          "An action potential",
+          "Sarcomere contraction",
+          "An increase in calcium Ion concentration"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-37",
+        question: "Globular monomers are present in",
+        options: [
+          "Sarcolemma",
+          "Sarcoplasm",
+          "Plasma membrane",
+          "Myofibrils"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-38",
+        question: "When a physician ellipse the knee jerk reflex by taping deep tendons in the knee the normal response is for the Leer leg to Swing forward when this happens",
+        options: [
+          "Muscles in the front of Thigh are contracting and muscles in the back of Thigh are relaxing",
+          "Muscles in the front of the lower Leg are contracting and muscles in the back of the lower Leg are relaxing",
+          "Muscles in the back of Thigh are contracting and muscles in the front of Thigh are relaxing",
+          "Muscles in the back of the lower Leg are contracting and muscles in the front of the lower Leg are relaxing"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-39",
+        question: "Which one of the following muscles are myogenic type",
+        options: [
+          "Smooth muscles",
+          "Cardiac muscles",
+          "Skeletal muscle",
+          "None"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-40",
+        question: "Hydrostatic skeleton can be seen in",
+        options: [
+          "Earthworm",
+          "Roundworm",
+          "Flatworm",
+          "All of these"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-bio-41",
+        question: "Whenever muscle contracts a sarcomere can be shorten up to percentage ...... of its total length",
+        options: [
+          "25",
+          "15",
+          "35",
+          "45"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-42",
+        question: "It is not a part of axial skeleton",
+        options: [
+          "Sternum",
+          "Altas and axis",
+          "Inferior choncha",
+          "Patella"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-43",
+        question: "A motor unit is made up of",
+        options: [
+          "All the muscle fibres within and given muscle",
+          "All motor neuron and the muscle fibre it innervates",
+          "All the neurons going into an individual section of a body",
+          "A fascicle and a nerve"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-bio-44",
+        question: "The muscles attached to bones are",
+        options: [
+          "Voluntary and smooth",
+          "Involuntary and smooth",
+          "Voluntary and striated",
+          "Involuntary and striated"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-45",
+        question: "The sliding protein of muscle",
+        options: [
+          "Tubulin",
+          "Myoglobin",
+          "Actin",
+          "Myosin"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-46",
+        question: "Knee and elbow joints are example of",
+        options: [
+          "Ball and socket joint",
+          "Cartilaginous joint",
+          "Fibrous joint",
+          "Hinge joint"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-bio-47",
+        question: "Each muscle fibres contain long Threads that extend along its entire length these are called as",
+        options: [
+          "Myosin",
+          "Microtubules",
+          "Myofibrils"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-48",
+        question: "Earliest form of muscles is",
+        options: [
+          "Cardiac muscles",
+          "Skeletal muscles",
+          "Smooth muscles",
+          "Striated"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-bio-49",
+        question: "Identify the bones in which the connecting joints are freely movable joints",
+        options: [
+          "Ankle",
+          "Wrist",
+          "vertebrae",
+          "Elbow",
+          "All"
+        ],
+        answer: 4
+      },
+      {
+        id: "testmoz-bio-50",
+        question: "Cross bridges from between",
+        options: [
+          "Troponin and tropomyosin",
+          "Actin filament and myosin heads",
+          "Calcium and sodium",
+          "Sarcoleema and sarcoplasmic reticulum"
+        ],
+        answer: 1
+      }
   ];
