@@ -399,5 +399,556 @@ export type Question = {
       ],
       answer: 0,
       explanation: "Added H⁺ ions neutralize free OH⁻ ions in the buffer. The weak base dissociation NH₄OH ⇌ NH₄⁺ + OH⁻ shifts forward to replace OH⁻, or added H⁺ combines with NH₄OH/OH⁻ to form more un-ionized species, keeping pH constant."
-    }
+    },
+    // --- TESTMOZ ---
+      {
+        id: "testmoz-chem-1",
+        question: "NaNO3 + heat ⇌ NaNO2 + O2 in this reaction",
+        options: [
+          "Kp = Kc",
+          "Kp > Kc",
+          "Kp < Kc",
+          "Kp < ksc"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-2",
+        question: "In which of the following cases, does the reaction goes farthest to completion",
+        options: [
+          "K = 10^3",
+          "K = 10",
+          "K = 10^-2",
+          "K = 1"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-3",
+        question: "At 100°C, 0.1 mole of N2O4 is heated in a one dm³ flask. At equilibrium concentration of NO2 was found to be 0.12 moles. Calculate Kc for the reaction",
+        options: [
+          "0.12",
+          "0.36",
+          "0.21",
+          "0.012"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-4",
+        question: "A solubility product Ksp predicts whether",
+        options: [
+          "Diffusion",
+          "Solubility",
+          "Precipitation will take place or no",
+          "MP and BP"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-5",
+        question: "For which reaction, the volume is an irrelevant factor in determining Kc",
+        options: [
+          "Formation of ester",
+          "Dissociation of PCl5",
+          "Decomposition of N2O4",
+          "Synthesis of NH3"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-6",
+        question: "When a catalyst is added to a reversible reaction in equilibrium state, the value of equilibrium constant",
+        options: [
+          "Increases",
+          "Decreases",
+          "Does not change",
+          "Become zero"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-7",
+        question: "The solubility of AgI in NaI solution is less than in pure water because",
+        options: [
+          "AgI forms a complex with NaI",
+          "Of common ion effect",
+          "Solubility product of AgI is less than that of NaI",
+          "The temperature of the solution decreases"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-8",
+        question: "A catalyst can’t initiate the reaction but speeds up a reaction which is possible",
+        options: [
+          "Physically",
+          "Thermodynamically",
+          "Chemically",
+          "In laboratory"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-9",
+        question: "If the ratio of initial concentration of the reagents is greater than the Kc then",
+        options: [
+          "The reaction will shift towards the reverse direction",
+          "More quantity of product is obtained",
+          "The ratio increase to the value of Kc",
+          "Equilibrium has been attained"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-10",
+        question: "Amongst the following hydroxide, the one which has the lowest value of Ksp at ordinary temp about 25°C is",
+        options: [
+          "Mg(OH)2",
+          "Ba(OH)2",
+          "Ca(OH)2",
+          "Be(OH)2"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-11",
+        question: "The wrong statement among the following is",
+        options: [
+          "Buffer solutions have reverse pH",
+          "An acidic buffer mixture can be prepared by mixing a solution of formic acid and sodium formate",
+          "Buffer solution resist the change in pH by the addition of an acid or base",
+          "Addition of sodium acetate to a buffer solution of sodium acetate and acetic acid doesn’t affect its pH"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-12",
+        question: "Which of the following is correct statement about Kc",
+        options: [
+          "May or may not have a unit",
+          "Depend upon equilibrium concentration",
+          "Thermodynamic property",
+          "All of these"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-13",
+        question: "The reaction H2 + I2 ⇌ 2HI is independent of",
+        options: [
+          "Temperature",
+          "Concentration",
+          "Catalyst",
+          "Pressure"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-14",
+        question: "When no of moles of reactants and product are equal then Kc has units",
+        options: [
+          "Moles/dm³",
+          "Moles²/dm⁶",
+          "Moles⁻²/dm⁻⁶",
+          "No unit"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-15",
+        question: "Which of the following statement is false",
+        options: [
+          "If 1M CH3COONa is added to 1M CH3COOH, pH of the solution decreases",
+          "If water is added to a mixture of CH3COOH + CH3COONa its pH remains constant",
+          "If HCl is added to acetic acid its ionization will be suppressed",
+          "If a crystal of NH4Cl is added to NH4OH solution its pH decreases"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-16",
+        question: "The higher value of equilibrium constant K shows that",
+        options: [
+          "The reaction has gone to near completion towards right",
+          "The reaction has not yet started",
+          "The reaction has gone to near completion towards left",
+          "Whenever equilibrium will be achieved, the product will be very high"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-17",
+        question: "For a reversible reaction, if the concentrations of the reactants are doubled, at constant temperature the reaction will",
+        options: [
+          "Stand still",
+          "Slow down",
+          "Speed up in reverse direction",
+          "Moves towards right"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-18",
+        question: "A system at equilibrium can be disturbed by",
+        options: [
+          "Concentration change",
+          "Pressure change",
+          "Temperature",
+          "All of these"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-19",
+        question: "The reaction PCl5 ⇌ PCl3 + Cl2 is an example of",
+        options: [
+          "Backward reaction",
+          "Irreversible reaction",
+          "Forward reaction",
+          "Reversible reaction"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-20",
+        question: "The addition of any of the reactants or removal of any products favor",
+        options: [
+          "Forward reaction",
+          "Equilibrium position",
+          "Backward reaction",
+          "Equilibrium constant"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-21",
+        question: "Chemical equilibrium is established in",
+        options: [
+          "Reversible reaction",
+          "Irreversible reactions",
+          "Both a and b",
+          "Forward"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-22",
+        question: "According to law of mass action, “the rate of chemical reaction is proportional to”",
+        options: [
+          "Products",
+          "Product of molar concentration of reactants",
+          "Initial concentration of reactants",
+          "Catalyst"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-23",
+        question: "In Kp = Kc(RT)^Δn, Δn may have",
+        options: [
+          "Integer or fractional values",
+          "Negative values",
+          "Either of these",
+          "Positive values"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-24",
+        question: "The solubility product of sparingly soluble salt AB at room temperature is 1.21×10^-6 its molar solubility is",
+        options: [
+          "1.21×10^-6",
+          "1×10^-4",
+          "1.21×10^-3",
+          "1.1×10^-3"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-25",
+        question: "The addition of NaCl to AgCl decreases the solubility of AgCl",
+        options: [
+          "As solubility product decreases",
+          "As solubility becomes unsaturated",
+          "Due to common ion effect of Cl-",
+          "As solution becomes supersaturated"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-26",
+        question: "In a given system water and ice are in equilibrium if pressure is applied to the above system then",
+        options: [
+          "More ice is formed",
+          "More ice is melted",
+          "Amount of ice and water remains constant",
+          "None of these"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-27",
+        question: "Which of the following is correct",
+        options: [
+          "Kp will always have some unit",
+          "Kp and Kc will never have units",
+          "Kc will always have some unit",
+          "Kp and Kc will have some unit if Δn ≠ 0"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-28",
+        question: "The most important buffer in blood consist of",
+        options: [
+          "HCl and Cl-",
+          "H2CO3 and Cl-",
+          "H2CO3 and HCO3-",
+          "HCl and HCO3-"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-29",
+        question: "If a reversible reaction attains equilibrium quickly, it predicts that",
+        options: [
+          "Kc > 1",
+          "Kc = 1",
+          "Kc < 1",
+          "Kc >> 1"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-30",
+        question: "A precipitate is formed when",
+        options: [
+          "The solution become saturated",
+          "The ionic product is nearly equal to the solubility product",
+          "The ionic product is less than the solubility product",
+          "The ionic product exceeds the solubility product"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-31",
+        question: "Rate at which a reaction proceeds is directly related to the",
+        options: [
+          "Concentration of product",
+          "Concentration of reactant",
+          "Volume of reactant",
+          "Volume of product"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-32",
+        question: "Ksp is called",
+        options: [
+          "Solubility product",
+          "Concentration",
+          "Equilibrium",
+          "None"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-33",
+        question: "In exothermic reaction by decreasing the temperature equilibrium constant",
+        options: [
+          "Same",
+          "Sometimes decreases Sometimes increases",
+          "Reaction moves backward",
+          "Increases"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-34",
+        question: "If a product of a reaction act as a catalyst, such process is called",
+        options: [
+          "Positive catalyst",
+          "Negative catalyst",
+          "Auto catalyst",
+          "Both a and b"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-35",
+        question: "Chemical equilibrium is dynamic nature because",
+        options: [
+          "The equilibrium is attained slowly",
+          "Concentration of reactant is always greater than products",
+          "Concentration of reactant does not become equal at equilibrium",
+          "Both forward and backward reaction occurs at all time with the same speed"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-36",
+        question: "Purification of table salt NaCl by passing HCl gas through its saturated aqueous solution is an example of",
+        options: [
+          "Law of mass action",
+          "Hess’s law",
+          "Common ion effect",
+          "Henry’s law"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-37",
+        question: "For a gaseous reaction, when number of moles of reactant and product are equal",
+        options: [
+          "The value of Kp and Kc are different",
+          "The value of Kp is greater than Kc",
+          "The value of Kc is greater than Kp",
+          "The value of Kp and Kc are same"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-38",
+        question: "At a constant temperature the concentration of reactant is increased at equilibrium, the equilibrium constant",
+        options: [
+          "Increases",
+          "Remains unaffected",
+          "Decreases",
+          "First increases and then decreases"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-39",
+        question: "A chemist who is concerned with large scale manufacture of useful compounds is primarily interested in",
+        options: [
+          "Minimizing the energy consumption",
+          "Minimizing the reverse reaction",
+          "Maximizing the backward reaction",
+          "Decreasing the acidity of product"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-40",
+        question: "A chemical reaction is catalyzed by a catalyst X. Hence, X",
+        options: [
+          "Increases activation energy of the reaction",
+          "Does not affect equilibrium position of the reaction",
+          "Increase rate constant of the reaction",
+          "Reduce enthalpy of the reaction"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-41",
+        question: "Ionization of KClO3 is suppressed by",
+        options: [
+          "Changing temperature",
+          "Adding of KCl",
+          "Adding of NaNO3",
+          "Decreasing pressure"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-42",
+        question: "When the total number of moles of reactant and products are equal then the equilibrium state is not disturbed by",
+        options: [
+          "Concentration change",
+          "Pressure change",
+          "Temperature change",
+          "Catalyst"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-43",
+        question: "In a buffer solution consisting of a weak acid and its salt, the ratio of concentration of salt to acid is increased 10-fold, then the pH of the solution",
+        options: [
+          "Increases by one",
+          "Decrease by one",
+          "Increases by 10 folds",
+          "Decreases by 10 folds"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-44",
+        question: "The equilibrium between water and its vapors in an open vessel",
+        options: [
+          "Can be achieved",
+          "Cannot be achieved",
+          "Depends on pressure",
+          "Depends on temperature"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-45",
+        question: "Dissolution of which of these increase with temperature",
+        options: [
+          "Li2CO3",
+          "LiCl",
+          "NaCl",
+          "KI"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-46",
+        question: "When the equilibrium constant is small, it indicates",
+        options: [
+          "Reaction is at start",
+          "Reaction is at equilibrium",
+          "Reaction is at end",
+          "Very little forward reaction"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-47",
+        question: "Which of the following is not the characteristics feature of dynamic equilibrium",
+        options: [
+          "It’s characterized by constant macroscopic property",
+          "It is only achieved in open system",
+          "It can be obtained in either direction",
+          "It can be achieved in closed system"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-48",
+        question: "In equilibrium Ksp is expressed as\nBaSO4 ⇌ Ba²⁺ + SO4²⁻",
+        options: [
+          "Ksp = [BaSO4]",
+          "Ksp = [Ba²⁺][SO4²⁻]/[BaSO4]",
+          "Ksp = [Ba²⁺][SO4²⁻]",
+          "None"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-49",
+        question: "A reversible reaction is said to have attained equilibrium, when",
+        options: [
+          "Backward reaction stops",
+          "Both backward and forward reaction take place at equal speed",
+          "Both backward and forward reaction stop",
+          "Concentration of each of the reactions and products become equal"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-50",
+        question: "Buffer action can be explained by",
+        options: [
+          "Le Chatelier principle",
+          "Common ion effect",
+          "Solubility product",
+          "A and B"
+        ],
+        answer: 3
+      }
   ];

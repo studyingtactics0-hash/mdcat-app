@@ -437,5 +437,382 @@ export type Question = {
       ],
       answer: 0,
       explanation: "Boron (Z=5) has ground state configuration 1s² 2s² 2p¹, which contains 1 unpaired electron."
-    }
+    },
+    // --- TESTMOZ ---
+      {
+        id: "testmoz-chem-1",
+        question: "The total relative charge of an element is equal to",
+        options: [
+          "It's charge of electrons",
+          "It's charge of proton",
+          "Zero",
+          "None of these"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-2",
+        question: "The options having all the properties of gamma rays:",
+        options: [
+          "Neutrons highly penetrating, velocity is equal to that of light, remains undeflected in magnetic field",
+          "Most penetrating, velocity is equal to that of light, no deflection in magnetic field",
+          "Least penetrating, velocity 1/10th of light deflected in magnetic field helium nucleus",
+          "Proton least penetrating, deflects like negative particle in magnetic field"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-3",
+        question: "Lowest energy electrons are present in",
+        options: [
+          "s",
+          "p",
+          "d",
+          "f"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-4",
+        question: "Which of the following orbital has different number of lobes than the other three orbitals",
+        options: [
+          "dxy",
+          "dx²-y²",
+          "dyz",
+          "dz²"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-5",
+        question: "The relationship between quantum number n and l is",
+        options: [
+          "n = l - 1",
+          "l = n - 2",
+          "l = n - 1",
+          "n = l - 2"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-6",
+        question: "Rutherford's model of atom failed because:",
+        options: [
+          "The atom did not have a nucleus and electrons",
+          "It did not account for the attraction between protons and neutrons",
+          "It did not account for the stability of the atom",
+          "There is actually no space between the nucleus and the electrons"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-7",
+        question: "The ground state of an atom corresponds to a state of:",
+        options: [
+          "Maximum energy",
+          "Minimum energy",
+          "Positive energy",
+          "Negative energy"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-8",
+        question: "If n = 3 then the maximum number of “l” values will be",
+        options: [
+          "2",
+          "3",
+          "1",
+          "0"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-9",
+        question: "The relative energies of 4s, 4p and 3d orbitals are in the order.",
+        options: [
+          "3d < 4p < 4s",
+          "4p < 4s < 3d",
+          "4s < 3d < 4p",
+          "4p < 3d < 4s"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-10",
+        question: "What kind of orbital must an electron with the principal quantum number n = 2 occupy?",
+        options: [
+          "A spherically shaped orbital",
+          "The orbital closest to the nucleus",
+          "Either an S or P orbital",
+          "A dumb bell shaped orbital"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-11",
+        question: "Which of the following has the lowest e/m ratio",
+        options: [
+          "Li⁺²",
+          "H⁺¹",
+          "H",
+          "F"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-12",
+        question: "Which pair has 1 electron in its orbital",
+        options: [
+          "Li, Fe",
+          "Na, Cr",
+          "K, Mn",
+          "H, He"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-13",
+        question: "Oxygen has very high second ionization potential value because of:",
+        options: [
+          "Completely filled p orbital",
+          "Half filled s orbital",
+          "Completely filled s orbital",
+          "Half filled p orbital"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-14",
+        question: "Who observed radioactivity first",
+        options: [
+          "Henry Becquerel",
+          "Rutherford",
+          "Newton",
+          "Bohr"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-15",
+        question: "Orbitals of equal energy are called",
+        options: [
+          "Atomic orbitals",
+          "Degenerate orbitals",
+          "Molecular orbitals",
+          "Anti bonding orbitals"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-16",
+        question: "Nitrogen and phosphorus have 3 of their valence electrons unpaired because of:",
+        options: [
+          "Aufbau principle",
+          "Heisenberg’s principle",
+          "Hund’s rule",
+          "Planck’s statement"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-17",
+        question: "Elements have almost zero electron affinity if they have",
+        options: [
+          "Inert gas configuration",
+          "Full filled configuration",
+          "Half filled configuration",
+          "All of the above"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-18",
+        question: "If proton number of an element ‘Z’ is 37 then the total number of electron in its ion ‘Z⁻²’ is",
+        options: [
+          "37",
+          "39",
+          "35",
+          "18"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-19",
+        question: "The average atomic mass of boron is 10.8. It has two isotopes of masses 10 and 11 respectively. What is the percentage of isotope with the mass of 10?",
+        options: [
+          "20%",
+          "60%",
+          "80%",
+          "50%"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-20",
+        question: "Which particle cannot be accelerated in a magnetic field",
+        options: [
+          "Alpha particle",
+          "Beta particle",
+          "Neutron",
+          "Proton"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-21",
+        question: "Balmer series is important as",
+        options: [
+          "It is the first series",
+          "It gives sharp lines",
+          "It lies in visible region",
+          "It was first discovered"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-22",
+        question: "The effective nuclear charge for an atom for outer electron is less than the atomic number due to",
+        options: [
+          "Intervening electron",
+          "Paramagnetism",
+          "Penetration",
+          "Electron pair repulsion"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-23",
+        question: "Which orbital have number of lobes equal to 2?",
+        options: [
+          "s",
+          "p",
+          "d",
+          "f"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-24",
+        question: "Which of the following shows maximum penetration?",
+        options: [
+          "Electrons",
+          "Protons",
+          "Alpha particles",
+          "Neutrons"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-25",
+        question: "The principal quantum number is related to the",
+        options: [
+          "Orbital angular momentum",
+          "Size of the orbital",
+          "Orientation of the orbital",
+          "Spin of the orbital"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-26",
+        question: "The maximum number of electron in a shell “n” can accommodate is given by",
+        options: [
+          "n",
+          "n²",
+          "2n²",
+          "2n³"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-27",
+        question: "Cathode rays:",
+        options: [
+          "Are heavy in the case of bigger atoms",
+          "Is light in the case of smaller atoms",
+          "Is more intense in the case of radioactive atoms",
+          "Depends on the nature of gas",
+          "Independent on the nature of gas"
+        ],
+        answer: 4
+      },
+      {
+        id: "testmoz-chem-28",
+        question: "Quantum number which tells the energy of electron is?",
+        options: [
+          "n",
+          "m",
+          "l",
+          "s"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-29",
+        question: "The radius of third Bohr orbit is",
+        options: [
+          "0.529 Å",
+          "0.529/4 Å",
+          "0.529 × 2 Å",
+          "0.529 × 9 Å"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-30",
+        question: "If uncertainty in the position of an electron is zero, the uncertainty in the momentum is",
+        options: [
+          "1",
+          "Zero",
+          "2π",
+          "2h/4π",
+          "Infinite"
+        ],
+        answer: 4
+      },
+      {
+        id: "testmoz-chem-31",
+        question: "Electrical conductivity depends upon",
+        options: [
+          "Temperature",
+          "Degree of dilution",
+          "Nature of electrolyte",
+          "Speed of ions"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-32",
+        question: "A sodium lamp emit yellow light with a wavelength of 589 nm which electron is involved in this context",
+        options: [
+          "3s electron",
+          "4s electron",
+          "3p electron",
+          "3d electron"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-33",
+        question: "Which is lighter than the rest",
+        options: [
+          "Electron",
+          "None",
+          "Proton",
+          "Neutron"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-34",
+        question: "Maximum number of electron in M shell",
+        options: [
+          "2",
+          "3",
+          "1",
+          "4"
+        ],
+        answer: 0
+      }
   ];

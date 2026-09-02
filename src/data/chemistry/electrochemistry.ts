@@ -314,5 +314,556 @@ export type Question = {
       ],
       answer: 1,
       explanation: "Redox (reduction-oxidation) reactions are fundamentally defined by the transfer of electrons from a reducing agent to an oxidizing agent."
-    }
+    },
+    // --- TESTMOZ ---
+      {
+        id: "testmoz-chem-1",
+        question: "By the electrolysis of CuCl₂ using inert electrodes of platinum which species is deposited at cathode",
+        options: [
+          "Hydrogen",
+          "Copper",
+          "Oxygen",
+          "Chlorine"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-2",
+        question: "A cell in which a non spontaneous Redox reaction is carried out by passing an electric current is",
+        options: [
+          "Galvanic cell",
+          "Volatile cell",
+          "Daniel cell",
+          "Electrolytic cell"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-3",
+        question: "On ascending the electrochemical series strength as reducing agent",
+        options: [
+          "Increases",
+          "Remain same",
+          "Decreases",
+          "Not determinable"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-4",
+        question: "In Galvanic cell salt Bridge is used in order to",
+        options: [
+          "Pass the electric current",
+          "Prevent the flow of ions",
+          "Mix solution of two half cells",
+          "Allow movement of Ions between two half cells"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-5",
+        question: "Which of the following is Oxidation state of oxygen in peroxides",
+        options: [
+          "-2",
+          "-1",
+          "-1/2",
+          "+2"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-6",
+        question: "The value of oxidation potential would be positive if it is",
+        options: [
+          "Below SHE",
+          "For SHE",
+          "About SHE",
+          "Just below SHE"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-7",
+        question: "The oxidation number of magnesium in MgCO₃ is",
+        options: [
+          "+3",
+          "+2",
+          "+1",
+          "-1"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-8",
+        question: "The product of electrolysis of which of the following are known",
+        options: [
+          "Fused electrolyte",
+          "Solid electrolyte",
+          "Acqueous solution of electrolyte",
+          "Solid metal"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-9",
+        question: "Molten Lead and lead II Bromide both conduct electricity which one of the following statement relating to this is true",
+        options: [
+          "Both undergo chemical change when they conduct",
+          "Both conduct by the movement of charge particles",
+          "Both will also conduct in the solid state",
+          "Both contain mobile electrons"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-10",
+        question: "Weak electrolyte in solution is",
+        options: [
+          "Completely ionized",
+          "Slightly ionized",
+          "Never ionized",
+          "Destroyed"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-11",
+        question: "The electrolysis product of acqueous sodium chloride at electrodes",
+        options: [
+          "Na and Cl₂",
+          "Na and NaOH",
+          "H₂ and Cl₂",
+          "H₂, Cl₂ and NaOH"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-12",
+        question: "The oxide in which oxygen has positive Oxidation state is",
+        options: [
+          "OF₂",
+          "H₂O",
+          "KO₂",
+          "Na₂O₂"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-13",
+        question: "Which of the following is an application of electrochemical series",
+        options: [
+          "Production of the feasibility of chemical reaction",
+          "Calculation of the cell voltage",
+          "Prediction of reaction of metal with dilute acid",
+          "All of the above"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-14",
+        question: "In SO₄²⁻ the oxidation no of sulphur",
+        options: [
+          "-8",
+          "+8",
+          "-6",
+          "+6"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-15",
+        question: "Cu + H₂SO₄ → CuSO₄ + SO₂ + H₂O  What is true about this reaction",
+        options: [
+          "Diproportionation",
+          "Redox",
+          "Not feasible",
+          "Cu is oxidizing agent"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-16",
+        question: "SHE acts as anode when connected with copper electrode but act as cathode with zinc electrode which one is correct",
+        options: [
+          "Zinc has less reduction potential than hydrogen and copper",
+          "Zinc has higher reduction potential then hydrogen and copper",
+          "Zinc is below electrochemical series than hydrogen and copper",
+          "Zinc has least tendency to lose electron"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-17",
+        question: "In electrolytic cell the cathode has a charge",
+        options: [
+          "Positive",
+          "Negative",
+          "Neutral",
+          "Zero"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-18",
+        question: "Only those metal can replace hydrogen from dilute acids which have",
+        options: [
+          "High reduction potential",
+          "Low negative reduction potential",
+          "High positive reduction potential",
+          "Low positive reduction potential"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-19",
+        question: "The cell in which electricity is converted into chemical energy is",
+        options: [
+          "Electrolytic cell",
+          "Galvanic cell",
+          "Fuel cell",
+          "Ni Cd cell"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-20",
+        question: "The working conditions for SHE",
+        options: [
+          "One atmosphere pressure",
+          "298 Kelvin temperature",
+          "1 M H⁺ solution",
+          "All of these"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-21",
+        question: "Which one of the following substances oxidized in the reaction given below  Mg + 2HCl → MgCl₂ + H₂",
+        options: [
+          "Mg",
+          "HCl",
+          "MgCl₂",
+          "H₂"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-22",
+        question: "If a strip of copper metal is placed in a solution of ferrous sulphate",
+        options: [
+          "Copper will be deposited",
+          "Iron is precipitated out",
+          "Copper and iron both dissolve",
+          "No reaction take place"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-23",
+        question: "Galvanizing is a process in which sheets of metal are coated with thin layer of ........ to prevent corrosion",
+        options: [
+          "Tin",
+          "Zinc",
+          "Copper",
+          "Silver"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-24",
+        question: "The reaction taking place at anode and cathode are respectively",
+        options: [
+          "Oxidation and reduction",
+          "Reduction and oxidation",
+          "Reduction and hydrolysis",
+          "Oxidation and hydrolysis"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-25",
+        question: "In the reaction H₂S + Cl₂ → 2HCl + S, H₂S acts as",
+        options: [
+          "Reducing agent",
+          "Oxidizing agent",
+          "Nitrating agent",
+          "Sulphonating agent"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-26",
+        question: "Oxidation number of iron in Fe₃O₄ is",
+        options: [
+          "5/4",
+          "4/5",
+          "3/2",
+          "8/3"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-27",
+        question: "The product produced at the cathode when acqueous sodium chloride is electrolyzed",
+        options: [
+          "Hydrogen",
+          "Oxygen",
+          "Chlorine",
+          "Sodium"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-28",
+        question: "The strongest reducing agent is",
+        options: [
+          "Aluminium",
+          "Magnesium",
+          "Potassium",
+          "Bromine"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-29",
+        question: "For the purification of copper impure copper is made with",
+        options: [
+          "Cathode",
+          "Anode",
+          "Solution",
+          "Both a and b"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-30",
+        question: "The oxidation number of Cl in HClO₃ is",
+        options: [
+          "-1",
+          "+1",
+          "+3",
+          "+5"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-31",
+        question: "Which is not true about SHE",
+        options: [
+          "Finely divided platinum black is used as electrode",
+          "Temperature is kept 25 centigrade",
+          "One molar solution of sulphuric acid is used as electrolyte",
+          "Electrode potential of any element can be calculated by comparison method"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-32",
+        question: "Which one of the following is the strongest oxidizing agent",
+        options: [
+          "Oxygen",
+          "Chlorine",
+          "Fluorine",
+          "Nitrogen"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-33",
+        question: "When a metal rod is dipped in its one molar ionic solution",
+        options: [
+          "Electricity is produced",
+          "Retox reaction occurs",
+          "Electricity is consumed",
+          "Potential difference is set up"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-34",
+        question: "The reaction that occurs at Cathode is known as",
+        options: [
+          "Redox",
+          "Oxidation",
+          "Reduction",
+          "Decomposition"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-35",
+        question: "Which of the following statement is not correct about Galvanic cell",
+        options: [
+          "Anode is negatively charged",
+          "Cathode is positively charged",
+          "Reduction occur at anode",
+          "Reduction occurs at cathode"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-36",
+        question: "The standard reduction potential of zinc is",
+        options: [
+          "0.76 volt",
+          "-0.34 volt",
+          "0.34 volt",
+          "-0.76 volt"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-37",
+        question: "Which one of the following metals can replaced the copper from aqueous solution of its salt more easily",
+        options: [
+          "Cd",
+          "Zn",
+          "Fe",
+          "Na"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-38",
+        question: "If a Salt Bridge is removed from two half cell the EMF is",
+        options: [
+          "Increased",
+          "Dropped to zero",
+          "Decreased",
+          "Electrodes will be reversed"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-39",
+        question: "Cell potential depends upon",
+        options: [
+          "Temperature",
+          "Nature of electrolyte",
+          "Concentration of ions",
+          "All of these"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-40",
+        question: "Apparent charge on an atom of an element in a molecule or ion is called oxidation number it may be",
+        options: [
+          "Positive",
+          "Negative",
+          "Zero OR fraction",
+          "All of these"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-41",
+        question: "When an element is in contact with aqueous solution of its own ions then potential is called",
+        options: [
+          "Standard reduction potential",
+          "Electrode potential",
+          "Standard electrode potential",
+          "Standard oxidation potential"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-42",
+        question: "Oxidation number of oxygen atom in OF₂ and H₂O₂",
+        options: [
+          "-2, -1",
+          "-1, +2",
+          "+2, -1",
+          "+2, +1"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-43",
+        question: "Which of the following statement is not correct for a Galvanic cell",
+        options: [
+          "Oxidation occurs at anode",
+          "Reduction occurs at cathode",
+          "Both a and b",
+          "Electrons flow from cathode to anode"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-44",
+        question: "Electrolysis is a process in which the cations and anions liberated from electrolyte are",
+        options: [
+          "Hydrated",
+          "Hydrolyzed",
+          "Charged",
+          "Discharged"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-45",
+        question: "A standard hydrogen electrode had zero electrode potential because",
+        options: [
+          "Hydrogen is easiest to oxidise",
+          "It's electrode potential is assumed to be zero",
+          "Hydrogen atom has only one electron",
+          "Hydrogen is the lightest element"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-46",
+        question: "Electrode potential of Hydrogen",
+        options: [
+          "0.34",
+          "0.76",
+          "00",
+          "None"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-47",
+        question: "Which of these will react most spontaneously with gold to Give reaction Au → Au³⁺",
+        options: [
+          "Fluorine",
+          "Chlorine",
+          "Bromine",
+          "Iodine"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-48",
+        question: "Oxidation state of manganese is +3 in",
+        options: [
+          "MnO",
+          "MnO₂",
+          "Mn₂O₃",
+          "Mn₂O₇"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-49",
+        question: "Which one of the following is strong electrolyte in a solution",
+        options: [
+          "Acetic acid",
+          "Ammonium hydroxide",
+          "Carbonic acid",
+          "Potassium iodide"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-50",
+        question: "Which of the following metals those that cannot be obtained by the electrolysis of acqueous solution of their salts are",
+        options: [
+          "Ag and Mg",
+          "Mg and Al",
+          "Cu and Cr",
+          "None"
+        ],
+        answer: 1
+      }
   ];

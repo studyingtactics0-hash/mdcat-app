@@ -500,5 +500,557 @@ export type Question = {
       ],
       answer: 2,
       explanation: "As s-character increases (sp³ 25% → sp² 33% → sp 50%), electrons are pulled closer to the nucleus, making sp hybrid orbitals the smallest. Thus, orbital size follows sp³ > sp² > sp."
-    }
+    },
+    // --- TESTMOZ ---
+      {
+        id: "testmoz-chem-1",
+        question: "Covalent bond maybe",
+        options: [
+          "100% covalent",
+          "100% ionic",
+          "Partially ionic",
+          "Both a and c"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-2",
+        question: "When the two partially filled atomic orbital overlap in such a way that the probability of finding electron is maximum around the line joining the two nuclei the result is the formation of",
+        options: [
+          "Sigma bond",
+          "Pi bond",
+          "Hydrogen bond",
+          "Metallic Bond"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-3",
+        question: "The all elements get their stabilization to attain nearest configuration",
+        options: [
+          "Alkali metals",
+          "Noble metals",
+          "Alkaloids",
+          "Noble gases"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-4",
+        question: "In the second period of elements although oxygen lies next to nitrogen yet its ionization first energy is lower than that of Nitrogen because",
+        options: [
+          "In oxygen there exist repulsion between pair of electrons present in the same orbital of valence shell",
+          "Oxygen is paramagnetic in character",
+          "Nuclear charge of oxygen is greater than nitrogen",
+          "Oxygen is higher electron affinity"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-5",
+        question: "Bond energy of molecule depends upon",
+        options: [
+          "Bond distance and Bond polarity",
+          "Ionization energy",
+          "Internal energy",
+          "Kinetic energy"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-6",
+        question: "Energy required to remove electron from an atom",
+        options: [
+          "Ionization potential",
+          "Electropositivity",
+          "Electronegativity",
+          "Electron affinity"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-7",
+        question: "All are true for pi bond except",
+        options: [
+          "Pi bond is formed from SP hybrid orbitals",
+          "Pi bond is weaker than sigma bond",
+          "Pi bond is formed by the parallel overlap of half filled P orbital",
+          "Pi bond is formed when is sigma bond is already present"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-8",
+        question: "Which Bond are present in molecule of hydrogen according to VBT",
+        options: [
+          "Pi bond",
+          "Electrovalent Bond",
+          "Sigma bond",
+          "Double bond"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-9",
+        question: "For formation of ionic bond electronegativity difference should be",
+        options: [
+          "Equal to zero",
+          "More than 1.7",
+          "Equal to 0.5",
+          "Less than 1.7"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-10",
+        question: "The number of bonds in nitrogen molecule is",
+        options: [
+          "One Sigma and one Pi",
+          "Three Sigma bonds only",
+          "One Sigma and two Pi",
+          "Two Sigma and one Pi"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-11",
+        question: "Polarity of molecule is expressed in terms of",
+        options: [
+          "Bond strength",
+          "Bond length",
+          "Dipole moment",
+          "Shape"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-12",
+        question: "In an atom no two electrons can have same set of quantum numbers this statement was given by",
+        options: [
+          "Uncertainty principle",
+          "Pauli’s exclusion principle",
+          "Hund’s rule",
+          "Aufbau principle"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-13",
+        question: "The unhybridised P orbital in SP2 hybridization is",
+        options: [
+          "Parallel to SP2",
+          "In the same plane",
+          "Out of plane",
+          "Perpendicular to SP2 orbitals"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-14",
+        question: "Which is not characteristic of Pi bond",
+        options: [
+          "Pi bond is formed when sigma bond already exist",
+          "Pi bond results from lateral overlap of atomic orbitals",
+          "Pi bond are formed from hybrid orbitals",
+          "Pi bond mein bhi formed by the overlap of P orbital"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-15",
+        question: "The shielding effect of inner electron is responsible for",
+        options: [
+          "Decreasing ionization energy",
+          "Having no effect on ionization energy",
+          "Increasing ionization energy",
+          "Increasing electronegativity"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-16",
+        question: "Which of these will not show AB4 type geometry",
+        options: [
+          "Group 4A element with four single bonds",
+          "Group 4A element with three single and one coordinate Bond",
+          "Group 4A element with two single and double bonds",
+          "Group 4A element with 3 double bonds"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-17",
+        question: "Which of the following best describe the shape and polarity of carbon disulphide molecule",
+        options: [
+          "Bent and polar",
+          "Pyramidal and polar",
+          "Linear and nonpolar",
+          "Bent and nonpolar"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-18",
+        question: "Which of the following Bond has more energy",
+        options: [
+          "Covalent",
+          "Non polar covalent",
+          "Polar covalent",
+          "Ionic"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-19",
+        question: "Which of the following is not planner",
+        options: [
+          "Benzene",
+          "Formaldehyde",
+          "BF3",
+          "Propane"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-20",
+        question: "Linear combination of atomic orbitals result in the formation of",
+        options: [
+          "Sigma bond",
+          "Pi bond",
+          "Bonding molecular orbitals only",
+          "Bonding and antibonding molecular orbitals",
+          "All"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-21",
+        question: "Element which have completely filled outermost shell and do not combine other metals are called",
+        options: [
+          "Metal elements",
+          "Reactive elements",
+          "Unstable elements",
+          "Noble gases"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-22",
+        question: "Liquid oxygen is",
+        options: [
+          "Diamagnetic",
+          "Paramagnetic",
+          "Antimagnetic",
+          "Ferromagnetic"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-23",
+        question: "What will be the shape of a molecule which contain two sigma bond pairs and one lone pair",
+        options: [
+          "Linear",
+          "Tetragonal",
+          "V shape",
+          "Triangular"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-24",
+        question: "The chemical species having smallest bond angle",
+        options: [
+          "NH3",
+          "NCl3",
+          "NF3",
+          "NBr3"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-25",
+        question: "In which of the following has different molecular geometry and electron pair geometry",
+        options: [
+          "SO3",
+          "SnCl2",
+          "CO2",
+          "BF3"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-26",
+        question: "The bond formed by electrostatic attraction between negative end of one molecule and positive end of other molecule is called",
+        options: [
+          "Covalent bond",
+          "Hydrogen bond",
+          "Ionic bond",
+          "Co-ordinate covalent bond"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-27",
+        question: "Electron affinity of the atom is the energy released when",
+        options: [
+          "Electron is added to gaseous atom",
+          "Covalent bond of molecule is broken",
+          "Electron is removed from gaseous atom",
+          "Covalent bond is formed between the atoms"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-28",
+        question: "The cationic radius is always ........ than the atomic radius from which it is derived",
+        options: [
+          "Higher",
+          "Larger",
+          "Moderate",
+          "Smaller"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-29",
+        question: "In HF Bond electronegativity difference is 1.9 what is the type of this bond",
+        options: [
+          "Polar covalent",
+          "Non polar covalent bond",
+          "Pi bond",
+          "Coordinate covalent bond"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-30",
+        question: "The s character of hybridized Orbital decrease the bond angle",
+        options: [
+          "Decreases",
+          "Increases",
+          "Becomes zero",
+          "Does not change"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-31",
+        question: "Which information cannot be deduced from the fact that an element has low ionization energy",
+        options: [
+          "It is a metal",
+          "It forms positive ions",
+          "It may form ionic",
+          "It belongs to P block"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-32",
+        question: "The number of unpaired electrons in ammonia",
+        options: [
+          "Zero",
+          "One",
+          "Three",
+          "Four"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-33",
+        question: "The ionization energy increases from left to right in a period due to increase",
+        options: [
+          "Nuclear charge",
+          "Atomic number",
+          "Number of electrons",
+          "All of these"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-34",
+        question: "P character in SP",
+        options: [
+          "75%",
+          "25%",
+          "50%",
+          "33%"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-35",
+        question: "Total number of valence electrons in phosphonium ion is",
+        options: [
+          "8",
+          "10",
+          "9",
+          "12"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-36",
+        question: "Bond angle of water",
+        options: [
+          "109.5 degree",
+          "107.5 degree",
+          "120 degree",
+          "104.5 degree"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-37",
+        question: "The difference in electronegativity values of the bonded atoms between the two atoms is an index of which of covalent bond",
+        options: [
+          "Polar nature",
+          "Nonpolar nature",
+          "Strength",
+          "Nature"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-38",
+        question: "Pi bonds are produced by the overlapping of orbitals",
+        options: [
+          "Some unhybridized orbitals",
+          "Hybrid and hybridized orbitals",
+          "Hybrid orbitals",
+          "S orbitals"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-39",
+        question: "The ionization energy",
+        options: [
+          "Generally increase from left to right in a period",
+          "Increase from top bottom in a group",
+          "Does not change in a period",
+          "Does not change in a group"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-40",
+        question: "Which one of the following molecules does not follow the duplet or octet rule",
+        options: [
+          "NH3",
+          "HCl",
+          "AlCl3",
+          "CCl4"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-41",
+        question: "Ionic bond is produced after complete transfer of",
+        options: [
+          "Nucleus",
+          "Electron",
+          "Neutron",
+          "Proton"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-42",
+        question: "H2O has a higher boiling point than HF because",
+        options: [
+          "H2O is more polar than HF",
+          "H2O can form more hydrogen bonds",
+          "H2O has a higher molecular weight",
+          "H2O does not have a higher boiling point than HF"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-43",
+        question: "The geometry of AB3 molecule is",
+        options: [
+          "Trigonal pyramidal",
+          "Trigonal planar",
+          "Trigonal bipyramidal",
+          "Tetragonal"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-44",
+        question: "H2S has a net dipole moment while BeF2 has zero dipole moment because",
+        options: [
+          "H2S molecule is linear while BeF2 is angular",
+          "H2S molecule is angular while BeF2 molecule is linear",
+          "Fluorine has more electronegativity than S",
+          "Be is more electronegativity than S"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-45",
+        question: "In a group atomic radii",
+        options: [
+          "Increases",
+          "Decreases",
+          "First increase than decreases",
+          "Remains same"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-46",
+        question: "The carbon to carbon Bond distance is",
+        options: [
+          "1.10 angstrom",
+          "1.20 angstrom",
+          "1.30 angstrom",
+          "1.54 angstrom"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-47",
+        question: "Zinc has only one Oxidation State because",
+        options: [
+          "Completely filled 4s orbital",
+          "Half filled 4s orbital",
+          "Completely filled 3d orbital",
+          "Half filled 3s orbital"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-48",
+        question: "Which bond is formed between two atoms",
+        options: [
+          "Sigma bond",
+          "Pi bond",
+          "Double bond",
+          "Triple Bond"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-49",
+        question: "Which of the following bond is not present in NH4Cl",
+        options: [
+          "Ionic bond",
+          "Coordinate covalent bond",
+          "Covalent bond",
+          "Delocalised covalent bond"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-50",
+        question: "Which of the following is a false statement concerning ionic compound",
+        options: [
+          "Greater the lattice energy the greater is the solubility",
+          "Higher the dielectric constant of the solvent the greater is the solubility",
+          "Higher the dipole moment of the solvent the greater the solubility",
+          "Increase of temperature generally increase solubility"
+        ],
+        answer: 0
+      }
   ];

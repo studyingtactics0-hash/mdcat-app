@@ -349,5 +349,556 @@ export type Question = {
       ],
       answer: 0,
       explanation: "The mathematical equation expressing reaction rate in terms of molar concentrations of reactants is called the Rate Law (or Rate Equation)."
-    }
+    },
+    // --- TESTMOZ ---
+      {
+        id: "testmoz-chem-1",
+        question: "For which of the following order of reaction, rate of reaction is inversely proportional to the concentration of reactant",
+        options: [
+          "Ist",
+          "2nd",
+          "Negative order of reaction",
+          "Zero"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-2",
+        question: "The slope of concentration time graph gives values of",
+        options: [
+          "Concentration of reactant",
+          "Amount of catalyst",
+          "Concentration of products",
+          "Rate of reaction"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-3",
+        question: "All are examples of fast reactions except",
+        options: [
+          "Neutralization",
+          "Redox",
+          "Decomposition",
+          "Ionic"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-4",
+        question: "Some reactions are slower than others because they",
+        options: [
+          "Lack light",
+          "Lack catalyst",
+          "Have high Ea",
+          "Have low [R]"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-5",
+        question: "A property of a system that depends only on the state of a system is called",
+        options: [
+          "State action",
+          "State reaction",
+          "State function",
+          "State of system"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-6",
+        question: "The curve of concentration time graph becomes horizontal when the rate of reaction",
+        options: [
+          "Increases",
+          "Become constant",
+          "Decreases",
+          "Becomes zero"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-7",
+        question: "What will be order of reaction if doubling the concentration of reactant increase the rate by factor 4 and tripling the concentration of reactant by a factor 9",
+        options: [
+          "1",
+          "3",
+          "2",
+          "0"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-8",
+        question: "The rate of reaction increases four times by doubling ...... concentration of reactant",
+        options: [
+          "First",
+          "Second",
+          "Third",
+          "Zero"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-9",
+        question: "Oxidation reduction reactions are ...... than ionic reactions",
+        options: [
+          "Faster",
+          "Equal In speed",
+          "Slower",
+          "Comprised of lesser number of steps"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-10",
+        question: "Unit of first order reaction is",
+        options: [
+          "S^-1",
+          "Moles dm^-3 s^-1",
+          "Moles dm^-3",
+          "Mol^-1 dm^3"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-11",
+        question: "The order of reaction provides valuable information about ...... of reaction",
+        options: [
+          "Condition",
+          "Mechanism",
+          "Concentration",
+          "Parameters"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-12",
+        question: "What will be the effect on rate constant, if conc of NO is halved\n2NO + O2 → 2NO2\nRate = k[NO]²[O2]",
+        options: [
+          "1/4 times",
+          "Doubled",
+          "Unchanged",
+          "Increase 4 times"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-13",
+        question: "Sum of all exponent of molar concentration of the reactant present in the rate equation is known as",
+        options: [
+          "Molecularity",
+          "Order of reaction",
+          "Rate of reaction",
+          "Slope"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-14",
+        question: "A substance which doesn’t lower the energy of activation but combines with reactant molecule is called",
+        options: [
+          "Catalyst",
+          "Negative catalyst",
+          "Positive catalyst",
+          "None"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-15",
+        question: "The reaction take place among the molecule when they have",
+        options: [
+          "Activation energy",
+          "Properly oriented",
+          "Concentrated",
+          "Activation energy and proper orientation"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-16",
+        question: "The concentration of gas can be increased by increasing ...... of the gas",
+        options: [
+          "Temperature",
+          "Volume",
+          "Pressure",
+          "Specific gravity"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-17",
+        question: "Reaction kinetics is important to discover that ...... under which reaction will proceed most economically",
+        options: [
+          "Rate constant",
+          "Volume",
+          "Conditions",
+          "Equilibrium point"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-18",
+        question: "Which of the following reactions are usually slow",
+        options: [
+          "Neutralization of acid and base",
+          "Organic substitution reactions",
+          "Displacement reaction",
+          "Free radical reaction"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-19",
+        question: "A substance which doesn’t lower energy of activation but combines with reactant molecule is called",
+        options: [
+          "Catalyst",
+          "Negative catalyst",
+          "Positive catalyst",
+          "None"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-20",
+        question: "If a buffer solution of higher pH than seven is to be made we use",
+        options: [
+          "Strong acid and strong base",
+          "Weak acid and strong base",
+          "Weak acid and strong base",
+          "Weak acid and it’s salt with strong base"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-21",
+        question: "For the reaction 2NO + O2 → 2NO2 the order of reaction is",
+        options: [
+          "Fractional order",
+          "First order",
+          "Second order",
+          "Third order"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-22",
+        question: "R = K[N2O5] has ...... of reaction",
+        options: [
+          "First order",
+          "Pseudo first order",
+          "Second order",
+          "None"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-23",
+        question: "Some of the methods are used for determination of rate of reaction are called physical method because",
+        options: [
+          "They involve a simple chemical reaction",
+          "They produce mass change",
+          "They Ea physically",
+          "They monitor some physical property"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-24",
+        question: "The specific rate constant of a chemical reaction is the rate of reaction when the concentration of the reaction is",
+        options: [
+          "Less than unity",
+          "Equal to unity",
+          "Greater than unity",
+          "Equal to the concentration of 2nd order reaction"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-25",
+        question: "If the rate of reaction is equal to the rate constant, the order of reaction is",
+        options: [
+          "3",
+          "1",
+          "0",
+          "2"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-26",
+        question: "Pulverized CsCu3 reacts faster because of the increase in",
+        options: [
+          "Pressure",
+          "Surface area",
+          "Volume",
+          "Surface tension"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-27",
+        question: "If reactants are conductor of electricity, then .... method to used to measure the change in concentration of reaction",
+        options: [
+          "Optical rotation",
+          "Dilatometric",
+          "Refractometric",
+          "Electrical conductivity"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-28",
+        question: "Which one of the following does not influence rate of reaction",
+        options: [
+          "Concentration",
+          "Temperature",
+          "Catalyst",
+          "Activation energy"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-29",
+        question: "...... are units of rate of reaction",
+        options: [
+          "Moldm^-3 sec^-1",
+          "Mol dm^-3 minute^-1",
+          "Mol dm^-3 sec^-1",
+          "Mol dm^-3 hour^-1"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-30",
+        question: "For a chemical reaction A → B the rate if reaction doubles when the concentration of A is increased four times. The order of reaction for A is",
+        options: [
+          "Zero",
+          "Two",
+          "One",
+          "Half"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-31",
+        question: "Activation energy of a reaction",
+        options: [
+          "Excludes the average kinetic energy of the reactants",
+          "Is in the addition to the total KE energy of the reactants",
+          "Is in addition to the average KE of the products",
+          "Is needed for effective collision"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-32",
+        question: "Arrhenius depends upon ...... reacting substance",
+        options: [
+          "Concentration",
+          "Pressure",
+          "Volume",
+          "Collision frequency"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-33",
+        question: "The reaction rate in forward direction decreases with the passage of time because",
+        options: [
+          "Concentration of reactant decreases",
+          "Concentration of product decreases",
+          "The order of reaction changes",
+          "Temperature of system changes"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-34",
+        question: "Amount of product formed increase with time, this statement is true for reactions with ...... kinetics",
+        options: [
+          "Ist order",
+          "Zero order",
+          "3rd order",
+          "Any order"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-35",
+        question: "Which of the following is an element",
+        options: [
+          "Tape water",
+          "Graphite",
+          "Sea water",
+          "Brass"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-36",
+        question: "What is the speed of rate determining step",
+        options: [
+          "Very fast increasing",
+          "Slow and decreasing",
+          "Moderate and decreasing",
+          "Continuously increasing"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-37",
+        question: "At the start of chemical reaction, the instantaneous rate is ...... than average rate",
+        options: [
+          "Higher",
+          "Equal to",
+          "Lower",
+          "Comparable"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-38",
+        question: "If the energy of the activated complex lies close to energy of reactants, it means that reaction is",
+        options: [
+          "Slow",
+          "Endothermic",
+          "Exothermic",
+          "Exothermic and fast"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-39",
+        question: "Law of mass action expresses relationship between",
+        options: [
+          "Rate of reaction and concentration if reacting substance",
+          "Rate of reaction and concentration of products",
+          "Concentration of reactant and Concentration of products",
+          "Concentration of reactant and catalyst"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-40",
+        question: "The reaction occurs due to",
+        options: [
+          "Slow moving molecules",
+          "Polar molecules",
+          "Collision b/w molecules",
+          "High Ea"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-41",
+        question: "The rate at any one instant during the intervals called as",
+        options: [
+          "Average rate",
+          "Instantaneous rate",
+          "Reaction rate",
+          "Limiting rate"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-42",
+        question: "Which of the following can give order of reaction",
+        options: [
+          "Balanced chemical equation",
+          "Experimental in to law",
+          "Magnitude of specific reaction rate",
+          "Nature of reactants"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-43",
+        question: "If Ef and Er are activation energies of forward and reverse reaction. The reaction is known to be exothermic then",
+        options: [
+          "Ef > Er",
+          "Er < Ef",
+          "Ef >> Er",
+          "Ef = Er"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-44",
+        question: "Which substance controls rate of reaction in method of large excess?",
+        options: [
+          "Substance in excess",
+          "Catalyst",
+          "Quantity of product",
+          "Substance in small amount"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-45",
+        question: "The effect of temperature on rate of reaction is given by",
+        options: [
+          "Arrhenius equation",
+          "Newtons equation",
+          "Change in degree of hydration",
+          "All of these"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-46",
+        question: "The term dx/dt in the rate expression refers to the",
+        options: [
+          "Decrease in conc of the reactant",
+          "Instantaneous rate of reaction",
+          "Increase in concentration of reactant",
+          "Increase in solubility of reactant"
+        ],
+        answer: 0
+      },
+      {
+        id: "testmoz-chem-47",
+        question: "Reaction H2 + Cl2 → is a",
+        options: [
+          "Second order",
+          "Ist order",
+          "Third order",
+          "Zero order"
+        ],
+        answer: 3
+      },
+      {
+        id: "testmoz-chem-48",
+        question: "A certain chemical reaction follow the following rate law\nRate = K [A][B]^2\nThe order of reaction is",
+        options: [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        answer: 2
+      },
+      {
+        id: "testmoz-chem-49",
+        question: "A reaction is found to be second order with respect to B, if B is doubled, keeping every other substance constant. The rate of reaction will,",
+        options: [
+          "Remains unchanged",
+          "Increase four times",
+          "Increase three times",
+          "Double"
+        ],
+        answer: 1
+      },
+      {
+        id: "testmoz-chem-50",
+        question: "Which of the following will increase the rate of reaction",
+        options: [
+          "Lowering the temperature",
+          "Increasing volume",
+          "Reducing activation energy",
+          "Increasing activation energy"
+        ],
+        answer: 2
+      }
   ];
