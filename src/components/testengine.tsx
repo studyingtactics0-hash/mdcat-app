@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { createClient } from "@/lib/supabase/client";
 
 type Question = {
@@ -28,12 +28,12 @@ type TestEngineProps = {
   chapter: string;
   timeLimit: number;
   shuffleBySubject?: boolean;
-
-  // Optional:
-  // If provided, a random selection of this many questions
-  // will be taken from the question bank.
   questionCount?: number;
 };
+
+/* =========================================================
+   SHUFFLE
+   ========================================================= */
 
 function shuffleArray<T>(array: T[]): T[] {
   const shuffled = [...array];
@@ -50,23 +50,27 @@ function shuffleArray<T>(array: T[]): T[] {
   return shuffled;
 }
 
+/* =========================================================
+   PREPARE QUESTIONS
+   ========================================================= */
+
 function prepareQuestions(
   questionBank: Question[],
   questionCount?: number,
-  shuffleBySubject: boolean = false
+  shuffleBySubject = false
 ): Question[] {
   let selectedQuestions: Question[];
 
   if (shuffleBySubject) {
-    // Keep subjects in their original order,
-    // but shuffle questions within each subject.
-
-    // For the 180-question MDCAT mock test:
-    // Biology = 81
-    // Chemistry = 45
-    // Physics = 36
-    // English = 9
-    // Logical Reasoning = 9
+    /*
+     * MDCAT mock test structure:
+     *
+     * Biology = 81
+     * Chemistry = 45
+     * Physics = 36
+     * English = 9
+     * Logical Reasoning = 9
+     */
 
     const biology = questionBank.slice(0, 81);
     const chemistry = questionBank.slice(81, 126);
@@ -82,8 +86,6 @@ function prepareQuestions(
       ...shuffleArray(logicalReasoning),
     ];
 
-    // If questionCount is provided, take the requested number
-    // without changing the subject order.
     if (
       questionCount &&
       questionCount < selectedQuestions.length
@@ -94,14 +96,23 @@ function prepareQuestions(
       );
     }
   } else {
-    // Existing behavior for all normal chapter tests.
     selectedQuestions =
       questionCount &&
       questionCount < questionBank.length
-        ? shuffleArray(questionBank).slice(0, questionCount)
+        ? shuffleArray(questionBank).slice(
+            0,
+            questionCount
+          )
         : shuffleArray(questionBank);
   }
 
+  /*
+   * Shuffle options while keeping the correct answer
+   * attached to the correct option.
+   *
+   * IMPORTANT:
+   * We do NOT use option text as a React key anywhere.
+   */
   return selectedQuestions.map((question) => {
     const optionsWithAnswers = question.options.map(
       (option, index) => ({
@@ -110,7 +121,6 @@ function prepareQuestions(
       })
     );
 
-    // Options are still shuffled for every test.
     const shuffledOptions =
       shuffleArray(optionsWithAnswers);
 
@@ -125,6 +135,10 @@ function prepareQuestions(
     };
   });
 }
+
+/* =========================================================
+   TEST ENGINE
+   ========================================================= */
 
 export default function TestEngine({
   questions: questionBank,
@@ -141,48 +155,26 @@ export default function TestEngine({
 
   const [mounted, setMounted] = useState(false);
 
-  /*
-   * =========================================================
-   * SAVE / RESUME SYSTEM
-   * =========================================================
-   */
-
-  /*
-   * This key identifies a specific test.
-   *
-   * We include:
-   * - subject
-   * - chapter
-   * - title
-   * - question count
-   *
-   * This prevents progress from one test being loaded
-   * into another test.
-   */
-  const progressKey = `studying_tactics_test_progress_${encodeURIComponent(
-    `${subject}_${chapter}_${title}_${questionCount || "all"}`
-  )}`;
-
-  /*
-   * "pending" means we are checking whether an unfinished
-   * attempt exists.
-   *
-   * "new" means start a fresh test.
-   *
-   * "resume" means continue the saved test.
-   */
-  const [resumeDecision, setResumeDecision] = useState<
-    "pending" | "new" | "resume"
-  >("pending");
+  const [resumeDecision, setResumeDecision] =
+    useState<"pending" | "new" | "resume">(
+      "pending"
+    );
 
   const [savedProgress, setSavedProgress] =
     useState<SavedTestProgress | null>(null);
 
-  const [questions, setQuestions] = useState<Question[]>([]);
+  const [questions, setQuestions] =
+    useState<Question[]>([]);
 
   const [currentQuestion, setCurrentQuestion] =
     useState(0);
 
+  /*
+   * ONE answer per question.
+   *
+   * null = unanswered
+   * number = selected option index
+   */
   const [selectedAnswers, setSelectedAnswers] =
     useState<(number | null)[]>([]);
 
@@ -213,11 +205,27 @@ export default function TestEngine({
   const [reportedQuestions, setReportedQuestions] =
     useState<number[]>([]);
 
+  const [saveReady, setSaveReady] =
+    useState(false);
+
   /*
-   * Used to make sure we don't accidentally overwrite
-   * saved progress while the resume system is initializing.
+   * This prevents the preparation effect from
+   * unnecessarily resetting the test.
    */
-  const [saveReady, setSaveReady] = useState(false);
+  const initializedTestKey = useRef<string | null>(
+    null
+  );
+
+  /*
+   * =========================================================
+   * PROGRESS KEY
+   * =========================================================
+   */
+
+  const progressKey =
+    `studying_tactics_test_progress_${encodeURIComponent(
+      `${subject}_${chapter}_${title}_${questionCount || "all"}`
+    )}`;
 
   /*
    * =========================================================
@@ -231,23 +239,32 @@ export default function TestEngine({
 
   /*
    * =========================================================
-   * PREPARE QUESTIONS
+   * PREPARE TEST
    * =========================================================
    *
-   * IMPORTANT:
+   * Important:
+   * The test is prepared only once for this particular test.
    *
-   * Questions are only randomly prepared for a NEW attempt.
-   *
-   * If a saved attempt exists, we will replace these questions
-   * with the exact questions saved in localStorage.
+   * This prevents accidental re-shuffling/re-initialization
+   * when the parent component re-renders.
    */
 
   useEffect(() => {
-    const preparedQuestions = prepareQuestions(
-      questionBank,
-      questionCount,
-      shuffleBySubject
-    );
+    const testKey =
+      `${subject}|${chapter}|${title}|${questionCount || "all"}|${timeLimit}`;
+
+    if (initializedTestKey.current === testKey) {
+      return;
+    }
+
+    initializedTestKey.current = testKey;
+
+    const preparedQuestions =
+      prepareQuestions(
+        questionBank,
+        questionCount,
+        shuffleBySubject
+      );
 
     setQuestions(preparedQuestions);
 
@@ -262,16 +279,24 @@ export default function TestEngine({
     setSaveReady(false);
     setResumeDecision("pending");
     setSavedProgress(null);
+    setSubmitted(false);
+    setShowSubmitWarning(false);
+    setShowReview(false);
+
+    resultSaved.current = false;
   }, [
-    questionBank,
+    subject,
+    chapter,
+    title,
     questionCount,
-    shuffleBySubject,
     timeLimit,
+    questionBank,
+    shuffleBySubject,
   ]);
 
   /*
    * =========================================================
-   * CHECK FOR SAVED PROGRESS
+   * CHECK SAVED PROGRESS
    * =========================================================
    */
 
@@ -286,11 +311,10 @@ export default function TestEngine({
       const saved =
         localStorage.getItem(progressKey);
 
+      /*
+       * No previous attempt.
+       */
       if (!saved) {
-        /*
-         * No previous attempt.
-         * Start normally.
-         */
         setResumeDecision("new");
         setSaveReady(true);
         return;
@@ -300,9 +324,7 @@ export default function TestEngine({
         JSON.parse(saved);
 
       /*
-       * Validate the saved progress before using it.
-       *
-       * This protects against corrupted/old localStorage data.
+       * Validate saved data.
        */
       const isValid =
         parsed &&
@@ -312,10 +334,12 @@ export default function TestEngine({
         parsed.chapter === chapter &&
         Array.isArray(parsed.questions) &&
         Array.isArray(parsed.selectedAnswers) &&
-        parsed.questions.length === questions.length &&
+        parsed.questions.length ===
+          questions.length &&
         parsed.selectedAnswers.length ===
           questions.length &&
-        typeof parsed.currentQuestion === "number" &&
+        typeof parsed.currentQuestion ===
+          "number" &&
         typeof parsed.timeLeft === "number";
 
       if (!isValid) {
@@ -328,8 +352,38 @@ export default function TestEngine({
       }
 
       /*
-       * If time has already expired, don't offer
-       * a resume for an expired test.
+       * Validate every saved answer.
+       *
+       * This protects against corrupted localStorage
+       * containing impossible option indexes.
+       */
+      const cleanedAnswers =
+        parsed.selectedAnswers.map(
+          (answer, index) => {
+            if (answer === null) {
+              return null;
+            }
+
+            const optionCount =
+              parsed.questions[index]?.options
+                ?.length ?? 0;
+
+            if (
+              answer < 0 ||
+              answer >= optionCount
+            ) {
+              return null;
+            }
+
+            return answer;
+          }
+        );
+
+      parsed.selectedAnswers =
+        cleanedAnswers;
+
+      /*
+       * Expired attempt.
        */
       if (parsed.timeLeft <= 0) {
         localStorage.removeItem(progressKey);
@@ -340,9 +394,6 @@ export default function TestEngine({
         return;
       }
 
-      /*
-       * We found a valid unfinished attempt.
-       */
       setSavedProgress(parsed);
     } catch (error) {
       console.error(
@@ -350,7 +401,11 @@ export default function TestEngine({
         error
       );
 
-      localStorage.removeItem(progressKey);
+      try {
+        localStorage.removeItem(progressKey);
+      } catch {
+        // Ignore storage errors.
+      }
 
       setResumeDecision("new");
       setSaveReady(true);
@@ -375,19 +430,21 @@ export default function TestEngine({
     if (!savedProgress) return;
 
     /*
-     * Restore the exact shuffled questions.
+     * Restore EXACT questions.
+     *
+     * This is important because they were already shuffled.
      */
     setQuestions(savedProgress.questions);
 
     /*
-     * Restore all selected answers.
+     * Restore answers.
      */
     setSelectedAnswers(
       savedProgress.selectedAnswers
     );
 
     /*
-     * Restore the exact question the student was on.
+     * Restore question position.
      */
     setCurrentQuestion(
       Math.min(
@@ -400,7 +457,7 @@ export default function TestEngine({
     );
 
     /*
-     * Restore remaining time.
+     * Restore timer.
      */
     setTimeLeft(
       Math.max(0, savedProgress.timeLeft)
@@ -408,7 +465,6 @@ export default function TestEngine({
 
     setResumeDecision("resume");
     setSaveReady(true);
-
     setSavedProgress(null);
   };
 
@@ -419,9 +475,6 @@ export default function TestEngine({
    */
 
   const startNewTest = () => {
-    /*
-     * Delete the previous attempt first.
-     */
     try {
       localStorage.removeItem(progressKey);
     } catch (error) {
@@ -431,10 +484,6 @@ export default function TestEngine({
       );
     }
 
-    /*
-     * We already have freshly prepared questions
-     * from the question preparation effect.
-     */
     setCurrentQuestion(0);
 
     setSelectedAnswers(
@@ -446,8 +495,9 @@ export default function TestEngine({
     setSavedProgress(null);
 
     setResumeDecision("new");
-
     setSaveReady(true);
+
+    resultSaved.current = false;
   };
 
   /*
@@ -457,31 +507,40 @@ export default function TestEngine({
    */
 
   const saveTestProgress = () => {
-    /*
-     * Never save after submission.
-     */
     if (submitted) return;
 
-    /*
-     * Don't save before initialization is complete.
-     */
     if (!saveReady) return;
 
-    /*
-     * Don't save while waiting for the user to choose
-     * Resume or Restart.
-     */
     if (resumeDecision === "pending") return;
 
-    /*
-     * Don't save if questions aren't ready.
-     */
     if (questions.length === 0) return;
 
-    /*
-     * Don't save an already-expired test.
-     */
     if (timeLeft <= 0) return;
+
+    /*
+     * Always create a clean answer array.
+     *
+     * This guarantees that each question can have
+     * only ONE selected answer.
+     */
+    const cleanAnswers =
+      selectedAnswers.map((answer, index) => {
+        if (answer === null) {
+          return null;
+        }
+
+        const optionCount =
+          questions[index]?.options?.length ?? 0;
+
+        if (
+          answer < 0 ||
+          answer >= optionCount
+        ) {
+          return null;
+        }
+
+        return answer;
+      });
 
     const progress: SavedTestProgress = {
       version: 1,
@@ -489,7 +548,7 @@ export default function TestEngine({
       subject,
       chapter,
       questions,
-      selectedAnswers,
+      selectedAnswers: cleanAnswers,
       currentQuestion,
       timeLeft,
       savedAt: Date.now(),
@@ -501,12 +560,6 @@ export default function TestEngine({
         JSON.stringify(progress)
       );
     } catch (error) {
-      /*
-       * localStorage can fail in rare situations,
-       * such as storage being disabled/full.
-       *
-       * We don't want this to crash the test.
-       */
       console.error(
         "Unable to save test progress:",
         error
@@ -516,15 +569,8 @@ export default function TestEngine({
 
   /*
    * =========================================================
-   * AUTO-SAVE
+   * AUTO SAVE
    * =========================================================
-   *
-   * Saves whenever:
-   * - student selects an answer
-   * - student moves to another question
-   * - timer changes
-   *
-   * Because the data is small, localStorage is suitable here.
    */
 
   useEffect(() => {
@@ -551,10 +597,8 @@ export default function TestEngine({
 
   /*
    * =========================================================
-   * EXTRA PERIODIC BACKUP
+   * PERIODIC BACKUP
    * =========================================================
-   *
-   * This runs every 10 seconds as an additional safety net.
    */
 
   useEffect(() => {
@@ -584,15 +628,8 @@ export default function TestEngine({
 
   /*
    * =========================================================
-   * SAVE WHEN LEAVING / CLOSING PAGE
+   * SAVE WHEN LEAVING PAGE
    * =========================================================
-   *
-   * If the student:
-   * - closes the tab
-   * - refreshes
-   * - navigates away
-   *
-   * the latest state is stored before leaving.
    */
 
   useEffect(() => {
@@ -636,10 +673,6 @@ export default function TestEngine({
    */
 
   useEffect(() => {
-    /*
-     * Don't start the timer while the Resume popup
-     * is waiting for the student's decision.
-     */
     if (resumeDecision === "pending") return;
 
     if (submitted) return;
@@ -647,23 +680,23 @@ export default function TestEngine({
     if (!saveReady) return;
 
     if (timeLeft <= 0) {
-      const saveAndSubmit = async () => {
-        /*
-         * Delete saved progress before submitting.
-         */
-        try {
-          localStorage.removeItem(progressKey);
-        } catch (error) {
-          console.error(
-            "Unable to clear test progress:",
-            error
-          );
-        }
+      const saveAndSubmit =
+        async () => {
+          try {
+            localStorage.removeItem(
+              progressKey
+            );
+          } catch (error) {
+            console.error(
+              "Unable to clear test progress:",
+              error
+            );
+          }
 
-        await saveTestResult();
+          await saveTestResult();
 
-        setSubmitted(true);
-      };
+          setSubmitted(true);
+        };
 
       saveAndSubmit();
 
@@ -671,10 +704,17 @@ export default function TestEngine({
     }
 
     const timer = setInterval(() => {
-      setTimeLeft((time) => time - 1);
+      setTimeLeft((time) => {
+        if (time <= 1) {
+          return 0;
+        }
+
+        return time - 1;
+      });
     }, 1000);
 
-    return () => clearInterval(timer);
+    return () =>
+      clearInterval(timer);
   }, [
     timeLeft,
     submitted,
@@ -687,20 +727,53 @@ export default function TestEngine({
    * =========================================================
    * SELECT ANSWER
    * =========================================================
+   *
+   * CRITICAL FIX:
+   *
+   * selectedAnswers[currentQuestion] stores exactly
+   * ONE option index.
+   *
+   * Clicking another option REPLACES the previous
+   * selection instead of adding another selection.
    */
 
-  const selectAnswer = (optionIndex: number) => {
-    const updatedAnswers = [...selectedAnswers];
+  const selectAnswer = (
+    optionIndex: number
+  ) => {
+    if (submitted) return;
 
-    updatedAnswers[currentQuestion] =
-      optionIndex;
+    if (!questions[currentQuestion]) return;
 
-    setSelectedAnswers(updatedAnswers);
+    const optionCount =
+      questions[currentQuestion].options.length;
+
+    if (
+      optionIndex < 0 ||
+      optionIndex >= optionCount
+    ) {
+      return;
+    }
+
+    setSelectedAnswers(
+      (previousAnswers) => {
+        const updatedAnswers = [
+          ...previousAnswers,
+        ];
+
+        /*
+         * ONE answer only.
+         */
+        updatedAnswers[currentQuestion] =
+          optionIndex;
+
+        return updatedAnswers;
+      }
+    );
   };
 
   /*
    * =========================================================
-   * RESULTS
+   * SCORE
    * =========================================================
    */
 
@@ -744,9 +817,11 @@ export default function TestEngine({
       return;
     }
 
-    const correctAnswers = calculateScore();
+    const correctAnswers =
+      calculateScore();
 
-    const totalQuestions = questions.length;
+    const totalQuestions =
+      questions.length;
 
     const scorePercentage =
       totalQuestions > 0
@@ -757,20 +832,24 @@ export default function TestEngine({
           )
         : 0;
 
-    const { error } = await supabase
-      .from("test_results")
-      .insert({
-        user_id: user.id,
-        student_name:
-          user.user_metadata?.full_name ||
-          "Unknown Student",
-        test_title: title,
-        subject: subject,
-        chapter: chapter,
-        total_questions: totalQuestions,
-        correct_answers: correctAnswers,
-        score_percentage: scorePercentage,
-      });
+    const { error } =
+      await supabase
+        .from("test_results")
+        .insert({
+          user_id: user.id,
+          student_name:
+            user.user_metadata?.full_name ||
+            "Unknown Student",
+          test_title: title,
+          subject,
+          chapter,
+          total_questions:
+            totalQuestions,
+          correct_answers:
+            correctAnswers,
+          score_percentage:
+            scorePercentage,
+        });
 
     if (error) {
       console.error(
@@ -802,10 +881,12 @@ export default function TestEngine({
 
   const clearSavedProgress = () => {
     try {
-      localStorage.removeItem(progressKey);
+      localStorage.removeItem(
+        progressKey
+      );
     } catch (error) {
       console.error(
-        "Unable to clear saved test progress:",
+        "Unable to clear test progress:",
         error
       );
     }
@@ -818,11 +899,6 @@ export default function TestEngine({
    */
 
   const submitTest = async () => {
-    /*
-     * Remove the saved attempt immediately.
-     *
-     * The test is now considered completed.
-     */
     clearSavedProgress();
 
     await saveTestResult();
@@ -832,82 +908,95 @@ export default function TestEngine({
 
   /*
    * =========================================================
-   * QUESTION REPORT
+   * REPORT QUESTION
    * =========================================================
    */
 
-  const submitQuestionReport = async () => {
-    if (!reportType) {
+  const submitQuestionReport =
+    async () => {
+      if (!reportType) {
+        alert(
+          "Please select a reason for reporting this question."
+        );
+
+        return;
+      }
+
+      const {
+        data: { user },
+      } = await supabase.auth.getUser();
+
+      if (!user) {
+        alert(
+          "Please log in to report a question."
+        );
+
+        return;
+      }
+
+      setReportSubmitting(true);
+
+      const { error } =
+        await supabase
+          .from("question_reports")
+          .insert({
+            user_id: user.id,
+            student_name:
+              user.user_metadata?.full_name ||
+              "Unknown Student",
+            question_number:
+              currentQuestion + 1,
+            question_text:
+              questions[currentQuestion]
+                ?.question || "",
+            subject,
+            chapter,
+            test_title: title,
+            report_type: reportType,
+            comment:
+              reportComment.trim() || null,
+          });
+
+      setReportSubmitting(false);
+
+      if (error) {
+        console.error(
+          "QUESTION REPORT ERROR:",
+          error
+        );
+
+        alert(
+          `Unable to submit report: ${error.message}`
+        );
+
+        return;
+      }
+
+      setReportedQuestions(
+        (previous) => {
+          if (
+            previous.includes(
+              currentQuestion
+            )
+          ) {
+            return previous;
+          }
+
+          return [
+            ...previous,
+            currentQuestion,
+          ];
+        }
+      );
+
+      setShowReport(false);
+      setReportType("");
+      setReportComment("");
+
       alert(
-        "Please select a reason for reporting this question."
+        "Thank you. Your report has been submitted."
       );
-
-      return;
-    }
-
-    const {
-      data: { user },
-    } = await supabase.auth.getUser();
-
-    if (!user) {
-      alert(
-        "Please log in to report a question."
-      );
-
-      return;
-    }
-
-    setReportSubmitting(true);
-
-    const { error } = await supabase
-      .from("question_reports")
-      .insert({
-        user_id: user.id,
-        student_name:
-          user.user_metadata?.full_name ||
-          "Unknown Student",
-        question_number:
-          currentQuestion + 1,
-        question_text:
-          question.question,
-        subject: subject,
-        chapter: chapter,
-        test_title: title,
-        report_type: reportType,
-        comment:
-          reportComment.trim() || null,
-      });
-
-    setReportSubmitting(false);
-
-    if (error) {
-      console.error(
-        "QUESTION REPORT ERROR:",
-        error
-      );
-
-      alert(
-        `Unable to submit report: ${error.message}`
-      );
-
-      return;
-    }
-
-    setReportedQuestions((previous) => [
-      ...previous,
-      currentQuestion,
-    ]);
-
-    setShowReport(false);
-
-    setReportType("");
-
-    setReportComment("");
-
-    alert(
-      "Thank you. Your report has been submitted."
-    );
-  };
+    };
 
   /*
    * =========================================================
@@ -921,7 +1010,9 @@ export default function TestEngine({
     ).length;
   };
 
-  const formatTime = (seconds: number) => {
+  const formatTime = (
+    seconds: number
+  ) => {
     const minutes = Math.floor(
       seconds / 60
     );
@@ -942,13 +1033,14 @@ export default function TestEngine({
 
   /*
    * =========================================================
-   * LOADING SCREEN
+   * LOADING
    * =========================================================
    */
 
   if (
     !mounted ||
-    questions.length === 0
+    questions.length === 0 ||
+    !question
   ) {
     return (
       <main className="min-h-screen bg-[#0b1e39] flex items-center justify-center text-white">
@@ -967,7 +1059,7 @@ export default function TestEngine({
 
   /*
    * =========================================================
-   * RESUME TEST SCREEN
+   * RESUME SCREEN
    * =========================================================
    */
 
@@ -989,8 +1081,6 @@ export default function TestEngine({
 
     return (
       <main className="min-h-screen bg-[#0b1e39] text-white">
-        {/* HEADER */}
-
         <header className="border-b border-[#172d4f]">
           <div className="container mx-auto px-4 py-5">
             <div className="text-2xl font-black">
@@ -1014,12 +1104,11 @@ export default function TestEngine({
               </h1>
 
               <p className="text-zinc-600 mt-3">
-                You have an unfinished test.
-                Your answers and remaining
-                time have been saved.
+                You have an unfinished
+                test. Your answers and
+                remaining time have been
+                saved.
               </p>
-
-              {/* TEST NAME */}
 
               <div className="bg-[#f4f6f8] rounded-2xl p-5 mt-6 text-left">
                 <p className="text-xs font-black uppercase text-[#ff9800]">
@@ -1066,8 +1155,6 @@ export default function TestEngine({
                 )}
               </div>
 
-              {/* BUTTONS */}
-
               <div className="flex flex-col gap-3 mt-7">
                 <button
                   onClick={
@@ -1107,7 +1194,8 @@ export default function TestEngine({
    */
 
   if (submitted) {
-    const score = calculateScore();
+    const score =
+      calculateScore();
 
     const incorrect =
       questions.length -
@@ -1125,8 +1213,6 @@ export default function TestEngine({
 
     return (
       <main className="min-h-screen bg-[#0b1e39] text-white">
-        {/* HEADER */}
-
         <header className="border-b border-[#172d4f]">
           <div className="container mx-auto px-4 py-5">
             <div className="text-2xl font-black">
@@ -1141,10 +1227,6 @@ export default function TestEngine({
         <section className="container mx-auto px-4 py-12">
           <div className="max-w-3xl mx-auto">
             {!showReview ? (
-              /* =========================
-                 RESULT
-              ========================= */
-
               <div className="bg-white text-[#0b1e39] rounded-3xl shadow-xl p-8 text-center">
                 <div className="text-6xl">
                   🏆
@@ -1158,8 +1240,6 @@ export default function TestEngine({
                   {title}
                 </p>
 
-                {/* SCORE */}
-
                 <div className="mt-8">
                   <div className="text-6xl font-black text-[#ff9800]">
                     {score}/
@@ -1170,8 +1250,6 @@ export default function TestEngine({
                     {percentage}%
                   </p>
                 </div>
-
-                {/* STATS */}
 
                 <div className="grid grid-cols-3 gap-3 mt-8">
                   <div className="bg-green-100 rounded-xl p-4">
@@ -1205,8 +1283,6 @@ export default function TestEngine({
                   </div>
                 </div>
 
-                {/* BUTTONS */}
-
                 <div className="flex flex-col md:flex-row gap-3 mt-8">
                   <button
                     onClick={() =>
@@ -1221,7 +1297,7 @@ export default function TestEngine({
                     onClick={() =>
                       window.location.reload()
                     }
-                    className="flex-1 bg-[#ff9800] hover:bg-[#e38000] font-bold py-3 rounded-xl"
+                    className="flex-1 bg-[#ff9800] hover:bg-[#e68900] font-bold py-3 rounded-xl"
                   >
                     Retake Test
                   </button>
@@ -1235,10 +1311,6 @@ export default function TestEngine({
                 </a>
               </div>
             ) : (
-              /* =========================
-                 REVIEW
-              ========================= */
-
               <div>
                 <div className="flex items-center justify-between mb-6">
                   <div>
@@ -1264,7 +1336,7 @@ export default function TestEngine({
                 <div className="space-y-5">
                   {questions.map(
                     (
-                      question,
+                      reviewQuestion,
                       index
                     ) => {
                       const selected =
@@ -1274,22 +1346,21 @@ export default function TestEngine({
 
                       const isCorrect =
                         selected ===
-                        question.answer;
+                        reviewQuestion.answer;
 
                       const isUnanswered =
-                        selected ===
-                        null;
+                        selected === null;
 
                       return (
                         <div
-                          key={index}
+                          key={`review-question-${index}`}
                           className="bg-white text-[#0b1e39] rounded-2xl p-6"
                         >
                           <div className="flex justify-between items-start gap-4">
                             <h2 className="font-bold text-lg">
                               Q{index + 1}.{" "}
                               {
-                                question.question
+                                reviewQuestion.question
                               }
                             </h2>
 
@@ -1311,7 +1382,7 @@ export default function TestEngine({
                           </div>
 
                           <div className="mt-5 space-y-2">
-                            {question.options.map(
+                            {reviewQuestion.options.map(
                               (
                                 option,
                                 optionIndex
@@ -1321,14 +1392,12 @@ export default function TestEngine({
                                   optionIndex;
 
                                 const isAnswer =
-                                  question.answer ===
+                                  reviewQuestion.answer ===
                                   optionIndex;
 
                                 return (
                                   <div
-                                    key={
-                                      optionIndex
-                                    }
+                                    key={`review-option-${index}-${optionIndex}`}
                                     className={`p-3 rounded-lg border-2 ${
                                       isAnswer
                                         ? "border-green-500 bg-green-50"
@@ -1383,6 +1452,9 @@ export default function TestEngine({
    * =========================================================
    */
 
+  const selectedOption =
+    selectedAnswers[currentQuestion];
+
   return (
     <main className="min-h-screen bg-[#0b1e39] text-white">
       {/* HEADER */}
@@ -1407,8 +1479,6 @@ export default function TestEngine({
           </div>
         </div>
       </header>
-
-      {/* TEST */}
 
       <section className="container mx-auto px-4 py-8">
         <div className="max-w-4xl mx-auto">
@@ -1463,17 +1533,42 @@ export default function TestEngine({
 
             <div className="mt-8 space-y-4">
               {question.options.map(
-                (option, index) => {
+                (
+                  option,
+                  optionIndex
+                ) => {
+                  /*
+                   * IMPORTANT FIX:
+                   *
+                   * Selection is based ONLY on
+                   * the option index.
+                   *
+                   * The key is ALSO based on index,
+                   * NOT option text.
+                   *
+                   * This means duplicate options such as:
+                   *
+                   * ["explanation", "explanation",
+                   *  "explanation", "explanation"]
+                   *
+                   * are still four separate React elements.
+                   */
+
                   const isSelected =
-                    selectedAnswers[
-                      currentQuestion
-                    ] === index;
+                    selectedOption ===
+                    optionIndex;
 
                   return (
                     <button
-                      key={option}
+                      type="button"
+                      key={`question-${currentQuestion}-option-${optionIndex}`}
                       onClick={() =>
-                        selectAnswer(index)
+                        selectAnswer(
+                          optionIndex
+                        )
+                      }
+                      aria-pressed={
+                        isSelected
                       }
                       className={`w-full text-left border-2 rounded-xl p-4 transition ${
                         isSelected
@@ -1489,7 +1584,8 @@ export default function TestEngine({
                         }`}
                       >
                         {String.fromCharCode(
-                          65 + index
+                          65 +
+                            optionIndex
                         )}
                       </span>
 
@@ -1515,6 +1611,7 @@ export default function TestEngine({
                 currentQuestion
               ) ? (
                 <button
+                  type="button"
                   onClick={() =>
                     setShowReport(true)
                   }
@@ -1533,10 +1630,14 @@ export default function TestEngine({
 
             <div className="flex justify-between gap-4 mt-10">
               <button
+                type="button"
                 onClick={() =>
                   setCurrentQuestion(
                     (q) =>
-                      Math.max(0, q - 1)
+                      Math.max(
+                        0,
+                        q - 1
+                      )
                   )
                 }
                 disabled={
@@ -1550,9 +1651,15 @@ export default function TestEngine({
               {currentQuestion <
               questions.length - 1 ? (
                 <button
+                  type="button"
                   onClick={() =>
                     setCurrentQuestion(
-                      (q) => q + 1
+                      (q) =>
+                        Math.min(
+                          questions.length -
+                            1,
+                          q + 1
+                        )
                     )
                   }
                   className="px-7 py-3 rounded-xl font-bold bg-[#ff9800] text-[#0b1e39]"
@@ -1561,6 +1668,7 @@ export default function TestEngine({
                 </button>
               ) : (
                 <button
+                  type="button"
                   onClick={() => {
                     if (unanswered > 0) {
                       setShowSubmitWarning(
@@ -1589,7 +1697,9 @@ export default function TestEngine({
               <p className="text-sm text-[#cdd6e6]">
                 {questions.length -
                   unanswered}
-                /{questions.length} answered
+                /
+                {questions.length}{" "}
+                answered
               </p>
             </div>
 
@@ -1603,7 +1713,8 @@ export default function TestEngine({
 
                   return (
                     <button
-                      key={index}
+                      type="button"
+                      key={`question-nav-${index}`}
                       onClick={() =>
                         setCurrentQuestion(
                           index
@@ -1628,7 +1739,9 @@ export default function TestEngine({
         </div>
       </section>
 
-      {/* SUBMIT WARNING */}
+      {/* =====================================================
+          SUBMIT WARNING
+          ===================================================== */}
 
       {showSubmitWarning && (
         <div className="fixed inset-0 bg-black/60 flex items-center justify-center px-4 z-50">
@@ -1654,9 +1767,8 @@ export default function TestEngine({
             </p>
 
             <div className="flex gap-3 mt-6">
-              {/* GO BACK */}
-
               <button
+                type="button"
                 onClick={() =>
                   setShowSubmitWarning(
                     false
@@ -1667,9 +1779,8 @@ export default function TestEngine({
                 Go Back
               </button>
 
-              {/* SUBMIT */}
-
               <button
+                type="button"
                 onClick={async () => {
                   setShowSubmitWarning(
                     false
@@ -1686,7 +1797,9 @@ export default function TestEngine({
         </div>
       )}
 
-      {/* REPORT QUESTION POPUP */}
+      {/* =====================================================
+          REPORT QUESTION POPUP
+          ===================================================== */}
 
       {showReport && (
         <div className="fixed inset-0 bg-black/60 flex items-center justify-center px-4 z-50">
@@ -1698,12 +1811,13 @@ export default function TestEngine({
                 </h2>
 
                 <p className="text-zinc-600 mt-2 text-sm">
-                  Tell us what seems wrong with
-                  this question.
+                  Tell us what seems wrong
+                  with this question.
                 </p>
               </div>
 
               <button
+                type="button"
                 onClick={() => {
                   setShowReport(false);
                   setReportType("");
@@ -1791,7 +1905,8 @@ export default function TestEngine({
                   name="reportType"
                   value="Other"
                   checked={
-                    reportType === "Other"
+                    reportType ===
+                    "Other"
                   }
                   onChange={(e) =>
                     setReportType(
@@ -1834,6 +1949,7 @@ export default function TestEngine({
 
             <div className="flex gap-3 mt-6">
               <button
+                type="button"
                 onClick={() => {
                   setShowReport(false);
                   setReportType("");
@@ -1845,6 +1961,7 @@ export default function TestEngine({
               </button>
 
               <button
+                type="button"
                 onClick={
                   submitQuestionReport
                 }
