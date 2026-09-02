@@ -11,8 +11,8 @@ export default function DawnOfModernPhysicsTest5Page() {
       title="Dawn of Modern Physics — Test 5"
       subject="Physics"
       chapter="Dawn of Modern Physics"
-      timeLimit={50}
-      questionCount={50}
+      timeLimit={200}
+      questionCount={200}
     />
   );
 }

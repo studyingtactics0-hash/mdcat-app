@@ -11,8 +11,8 @@ export default function ThermodynamicsTest5Page() {
       title="Thermodynamics — Test 5"
       subject="Physics"
       chapter="Thermodynamics"
-      timeLimit={50}
-      questionCount={50}
+      timeLimit={200}
+      questionCount={200}
     />
   );
 }

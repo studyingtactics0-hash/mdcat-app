@@ -10,8 +10,8 @@ export default function Test5Page() {
       title="Liquids Test 5"
       subject="Chemistry"
       chapter="Liquids"
-      timeLimit={20}
-      questionCount={20}
+      timeLimit={200}
+      questionCount={200}
     />
   );
 }

@@ -11,8 +11,8 @@ export default function AtomicSpectraTest5Page() {
       title="Atomic Spectra — Test 5"
       subject="Physics"
       chapter="Atomic Spectra"
-      timeLimit={50}
-      questionCount={50}
+      timeLimit={200}
+      questionCount={200}
     />
   );
 }

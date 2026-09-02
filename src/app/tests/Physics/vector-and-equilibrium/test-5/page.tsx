@@ -11,8 +11,8 @@ export default function VectorsAndEquilibriumTest2Page() {
       title="Vectors and Equilibrium — Test 5"
       subject="Physics"
       chapter="Vectors and Equilibrium"
-      timeLimit={35}
-      questionCount={35}
+      timeLimit={200}
+      questionCount={200}
     />
   );
 }

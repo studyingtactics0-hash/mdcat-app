@@ -11,8 +11,8 @@ export default function AlternatingCurrentTest5Page() {
       title="Alternating Current — Test 5"
       subject="Physics"
       chapter="Alternating Current"
-      timeLimit={50}
-      questionCount={50}
+      timeLimit={200}
+      questionCount={200}
     />
   );
 }

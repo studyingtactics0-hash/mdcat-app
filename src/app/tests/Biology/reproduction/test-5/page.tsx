@@ -10,8 +10,8 @@ export default function ReproductionTest2Page() {
       title="Reproduction Test 5"
       subject="Biology"
       chapter="reproduction"
-      timeLimit={60}
-      questionCount={60}
+      timeLimit={200}
+      questionCount={200}
     />
   );
 }

@@ -10,8 +10,8 @@ export default function Test5Page() {
       title="Solids Test 5"
       subject="Chemistry"
       chapter="Solids"
-      timeLimit={20}
-      questionCount={20}
+      timeLimit={200}
+      questionCount={200}
     />
   );
 }

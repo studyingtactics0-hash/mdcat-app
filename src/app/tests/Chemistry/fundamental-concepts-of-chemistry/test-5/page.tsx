@@ -10,8 +10,8 @@ export default function Test5Page() {
       title="Fundamental Concepts Of Chemistry Test 5"
       subject="Chemistry"
       chapter="Fundamental Concepts Of Chemistry"
-      timeLimit={20}
-      questionCount={20}
+      timeLimit={200}
+      questionCount={200}
     />
   );
 }

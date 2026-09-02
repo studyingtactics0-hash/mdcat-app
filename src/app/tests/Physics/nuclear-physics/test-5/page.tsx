@@ -11,8 +11,8 @@ export default function NuclearPhysicsTest5Page() {
       title="Nuclear Physics — Test 5"
       subject="Physics"
       chapter="Nuclear Physics"
-      timeLimit={50}
-      questionCount={50}
+      timeLimit={200}
+      questionCount={200}
     />
   );
 }

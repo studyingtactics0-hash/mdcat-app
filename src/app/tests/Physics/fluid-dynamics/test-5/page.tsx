@@ -11,8 +11,8 @@ export default function FluidDynamicsTest5Page() {
       title="Fluid Dynamics — Test 5"
       subject="Physics"
       chapter="Fluid Dynamics"
-      timeLimit={50}
-      questionCount={50}
+      timeLimit={200}
+      questionCount={200}
     />
   );
 }

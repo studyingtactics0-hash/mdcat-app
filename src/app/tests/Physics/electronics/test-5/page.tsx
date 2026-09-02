@@ -11,8 +11,8 @@ export default function ElectronicsTest5Page() {
       title="Electronics — Test 5"
       subject="Physics"
       chapter="Electronics"
-      timeLimit={50}
-      questionCount={50}
+      timeLimit={200}
+      questionCount={200}
     />
   );
 }

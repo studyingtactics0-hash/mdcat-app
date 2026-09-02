@@ -10,8 +10,8 @@ export default function Test5Page() {
       title="Alkyl Halides Test 5"
       subject="Chemistry"
       chapter="Alkyl Halides"
-      timeLimit={20}
-      questionCount={20}
+      timeLimit={200}
+      questionCount={200}
     />
   );
 }

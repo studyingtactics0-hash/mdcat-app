@@ -8,8 +8,8 @@ export default function Page() {
       title="Circulation Test 5"
       subject="Biology"
       chapter="circulation"
-      timeLimit={20}
-      questionCount={20}
+      timeLimit={200}
+      questionCount={200}
     />
   );
 }
