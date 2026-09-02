@@ -608,7 +608,7 @@ export type Question = {
         "Chemical nature of their monosaccharide units",
         "To act as reducing sugar",
       ],
-      answer: 2,
+      answer: 1,
     },
   
     {

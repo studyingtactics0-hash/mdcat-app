@@ -3,9 +3,15 @@
 import { useEffect, useRef, useState } from "react";
 import { createClient } from "@/lib/supabase/client";
 
+type QuestionOption = {
+  text?: string;
+  image?: string;
+};
+
 type Question = {
   question: string;
-  options: string[];
+  image?: string;
+  options: (string | QuestionOption)[];
   answer: number;
 };
 
@@ -48,6 +54,14 @@ function shuffleArray<T>(array: T[]): T[] {
   }
 
   return shuffled;
+}
+
+function normalizeOption(option: string | QuestionOption): QuestionOption {
+  if (typeof option === "string") {
+    return { text: option };
+  }
+
+  return option;
 }
 
 /* =========================================================
@@ -116,7 +130,7 @@ function prepareQuestions(
   return selectedQuestions.map((question) => {
     const optionsWithAnswers = question.options.map(
       (option, index) => ({
-        option,
+        option: normalizeOption(option),
         isCorrect: index === question.answer,
       })
     );
@@ -126,6 +140,7 @@ function prepareQuestions(
 
     return {
       question: question.question,
+      image: question.image,
       options: shuffledOptions.map(
         (item) => item.option
       ),
@@ -1414,20 +1429,43 @@ export default function TestEngine({
                                       .
                                     </span>
 
-                                    {option}
+                                    {(() => {
+                                      const normalizedOption =
+                                        normalizeOption(option);
 
-                                    {isAnswer && (
-                                      <span className="ml-2 text-green-700 font-bold">
-                                        ✓ Correct Answer
-                                      </span>
-                                    )}
+                                      return (
+                                        <div className="flex flex-col gap-3">
+                                          {normalizedOption.image && (
+                                            <img
+                                              src={normalizedOption.image}
+                                              alt={`Option ${String.fromCharCode(
+                                                65 + optionIndex
+                                              )}`}
+                                              className="max-w-full max-h-64 object-contain rounded-lg"
+                                            />
+                                          )}
 
-                                    {isSelected &&
-                                      !isAnswer && (
-                                        <span className="ml-2 text-red-700 font-bold">
-                                          ✗ Your Answer
-                                        </span>
-                                      )}
+                                          {normalizedOption.text && (
+                                            <span>
+                                              {normalizedOption.text}
+                                            </span>
+                                          )}
+
+                                          {isAnswer && (
+                                            <span className="text-green-700 font-bold">
+                                              ✓ Correct Answer
+                                            </span>
+                                          )}
+
+                                          {isSelected &&
+                                            !isAnswer && (
+                                              <span className="text-red-700 font-bold">
+                                                ✗ Your Answer
+                                              </span>
+                                            )}
+                                        </div>
+                                      );
+                                    })()}
                                   </div>
                                 );
                               }
@@ -1529,6 +1567,16 @@ export default function TestEngine({
               {question.question}
             </h2>
 
+            {question.image && (
+              <div className="mt-6 flex justify-center">
+                <img
+                  src={question.image}
+                  alt="Question diagram"
+                  className="max-w-full max-h-96 object-contain rounded-xl"
+                />
+              </div>
+            )}
+
             {/* OPTIONS */}
 
             <div className="mt-8 space-y-4">
@@ -1570,7 +1618,7 @@ export default function TestEngine({
                       aria-pressed={
                         isSelected
                       }
-                      className={`w-full text-left border-2 rounded-xl p-4 transition ${
+                      className={`w-full text-left border-2 rounded-xl p-4 transition flex items-start gap-3 ${
                         isSelected
                           ? "border-[#ff9800] bg-[#fff3e0]"
                           : "border-zinc-200 hover:border-[#ff9800]"
@@ -1589,9 +1637,30 @@ export default function TestEngine({
                         )}
                       </span>
 
-                      <span className="font-medium">
-                        {option}
-                      </span>
+                      {(() => {
+                        const normalizedOption =
+                          normalizeOption(option);
+
+                        return (
+                          <div className="flex-1 flex flex-col gap-3">
+                            {normalizedOption.image && (
+                              <img
+                                src={normalizedOption.image}
+                                alt={`Option ${String.fromCharCode(
+                                  65 + optionIndex
+                                )}`}
+                                className="max-w-full max-h-64 object-contain rounded-lg"
+                              />
+                            )}
+
+                            {normalizedOption.text && (
+                              <span className="font-medium">
+                                {normalizedOption.text}
+                              </span>
+                            )}
+                          </div>
+                        );
+                      })()}
                     </button>
                   );
                 }

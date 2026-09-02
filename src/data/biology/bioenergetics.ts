@@ -184,7 +184,7 @@ export type Question = {
         "10%",
         "36%",
       ],
-      answer: 1,
+      answer: 0,
     },
   
     {

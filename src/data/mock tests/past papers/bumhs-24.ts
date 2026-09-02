@@ -632,18 +632,6 @@ export type MockQuestion = {
       subject: "Biology",
     },
     {
-      id: "bumhs2024-q53",
-      question: "Hemichordata belongs to:",
-      options: [
-        "Deuterostomes",
-        "Proterostomes",
-        "Both (a) and (b)",
-        "None of these"
-      ],
-      answer: 0,
-      subject: "Biology",
-    },
-    {
       id: "bumhs2024-q54",
       question: "In binomial nomenclature, the first name refers to the ________.",
       options: [

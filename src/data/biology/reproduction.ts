@@ -168,18 +168,6 @@ export const reproductionQuestions = [
     answer: 2,
   },
   {
-    id: 19,
-    question:
-      "On the basis of morphological classification, influenza virus is an example of:",
-    options: [
-      "Helical capsid virus",
-      "Polyhedral capsid virus",
-      "Enveloped capsid",
-      "Non-enveloped capsid virus",
-    ],
-    answer: 0,
-  },
-  {
     id: 20,
     question: "Which of the following is the sexually transmitted disease?",
     options: [
@@ -438,17 +426,6 @@ export const reproductionQuestions = [
       "Sperms",
     ],
     answer: 2,
-  },
-  {
-    id: 48,
-    question: "Hemichordata belongs to:",
-    options: [
-      "Deuterostomes",
-      "Proterostomes",
-      "Both Deuterostomes and Proterostomes",
-      "None of the given options",
-    ],
-    answer: 0,
   },
   {
     id: 49,

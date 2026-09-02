@@ -556,5 +556,16 @@ export type Question = {
         "Annelida"
       ],
       answer: 1
+    },
+    {
+      id: "testmoz-bio-51",
+      question: "Hemichordata belongs to:",
+      options: [
+        "Deuterostomes",
+        "Proterostomes",
+        "Both Deuterostomes and Proterostomes",
+        "None of the given options",
+      ],
+      answer: 0,
     }
   ]

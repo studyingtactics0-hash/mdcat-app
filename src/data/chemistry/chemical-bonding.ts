@@ -272,7 +272,7 @@ export type Question = {
         "CH₃⁻",
         "All of the given options"
       ],
-      answer: 1,
+      answer: 3,
       explanation: "In NH₃, nitrogen forms 3 σ bonds and holds 1 lone pair (steric number = 4), using sp³ hybrid orbitals."
     },
     {
@@ -486,7 +486,7 @@ export type Question = {
         "Valence Shell Electron Pair Repulsion Theory (VSEPR)",
         "Crystal Field Theory (CFT)"
       ],
-      answer: 2,
+      answer: 3,
       explanation: "VSEPR theory predicts 3D molecular shapes based on electron repulsion, but does not explain orbital overlap mechanics forming σ and π covalent bonds."
     },
     {
