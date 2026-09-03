@@ -722,7 +722,10 @@ const needleAngle = -90 + predictedPercentage * 1.8;
   </p>
 </button>
 
-<div className="bg-white rounded-2xl shadow-lg p-5 border-t-4 border-[#0b1e39] hover:border-[#ff9800] transition-all flex flex-col items-center text-center">
+
+<div
+id="score-predictor"
+className="bg-white rounded-2xl shadow-lg p-5 border-t-4 border-[#0b1e39] hover:border-[#ff9800] transition-all flex flex-col items-center text-center">
 
 <h3 className="font-bold text-lg text-[#0b1e39] mb-1">
   Score Predictor
