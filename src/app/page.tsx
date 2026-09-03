@@ -332,6 +332,16 @@ export default function Home() {
         )
       : null;
 
+      // SCORE PREDICTOR
+const predictedMarks = Math.max(
+  0,
+  Math.min(180, (stats.averageScore / 100) * 180 - 5)
+);
+
+const predictedPercentage = (predictedMarks / 180) * 100;
+
+const needleAngle = -90 + predictedPercentage * 1.8;
+
   return (
     <div className="min-h-screen flex flex-col bg-[#0b1e39] font-sans">
       {/* NAVIGATION */}
@@ -676,47 +686,106 @@ export default function Home() {
           className="container mx-auto px-4 py-10 md:py-16"
         >
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-7">
-            <div className="bg-white rounded-2xl shadow-lg p-7 border-t-4 border-[#0b1e39] hover:border-[#ff9800] transition-all flex flex-col items-center text-center">
-              <div className="bg-[#e9ecef] text-[#0b1e39] w-14 h-14 rounded-full flex items-center justify-center mb-3 text-2xl">
-                📝
-              </div>
+          <button
+  onClick={() => (window.location.href = "/tests")}
+  className="bg-white rounded-2xl shadow-lg p-7 border-t-4 border-[#0b1e39] hover:border-[#ff9800] hover:shadow-xl transition-all flex flex-col items-center text-center w-full cursor-pointer"
+>
+  <div className="bg-[#e9ecef] text-[#0b1e39] w-14 h-14 rounded-full flex items-center justify-center mb-3 text-2xl">
+    📝
+  </div>
+  <h3 className="font-bold text-lg text-[#0b1e39] mb-2">
+    MDCAT Tests
+  </h3>
+  <p className="text-zinc-700 text-sm">
+    Practice chapter-wise, subject-wise and full-syllabus tests.
+  </p>
+</button>
 
-              <h3 className="font-bold text-lg text-[#0b1e39] mb-2">
-                MDCAT Tests
-              </h3>
+<button
+  onClick={() => {
+    document.getElementById("subject-analytics")?.scrollIntoView({
+      behavior: "smooth",
+    });
+  }}
+  className="bg-white rounded-2xl shadow-lg p-7 border-t-4 border-[#0b1e39] hover:border-[#ff9800] hover:shadow-xl transition-all flex flex-col items-center text-center w-full cursor-pointer"
+>
+  <div className="bg-[#e9ecef] text-[#0b1e39] w-14 h-14 rounded-full flex items-center justify-center mb-3 text-2xl">
+    📊
+  </div>
 
-              <p className="text-zinc-700 text-sm">
-                Practice chapter-wise, subject-wise and full-syllabus tests.
-              </p>
-            </div>
+  <h3 className="font-bold text-lg text-[#0b1e39] mb-2">
+    Performance Analytics
+  </h3>
 
-            <div className="bg-white rounded-2xl shadow-lg p-7 border-t-4 border-[#0b1e39] hover:border-[#ff9800] transition-all flex flex-col items-center text-center">
-              <div className="bg-[#e9ecef] text-[#0b1e39] w-14 h-14 rounded-full flex items-center justify-center mb-3 text-2xl">
-                📊
-              </div>
+  <p className="text-zinc-700 text-sm">
+    Track your accuracy, scores and weak topics.
+  </p>
+</button>
 
-              <h3 className="font-bold text-lg text-[#0b1e39] mb-2">
-                Performance Analytics
-              </h3>
+<div className="bg-white rounded-2xl shadow-lg p-5 border-t-4 border-[#0b1e39] hover:border-[#ff9800] transition-all flex flex-col items-center text-center">
 
-              <p className="text-zinc-700 text-sm">
-                Track your accuracy, scores and weak topics.
-              </p>
-            </div>
+<h3 className="font-bold text-lg text-[#0b1e39] mb-1">
+  Score Predictor
+</h3>
 
-            <div className="bg-white rounded-2xl shadow-lg p-7 border-t-4 border-[#0b1e39] hover:border-[#ff9800] transition-all flex flex-col items-center text-center">
-              <div className="bg-[#e9ecef] text-[#0b1e39] w-14 h-14 rounded-full flex items-center justify-center mb-3 text-2xl">
-                📈
-              </div>
+<p className="text-zinc-600 text-xs mb-3">
+  Predicted MDCAT performance
+</p>
 
-              <h3 className="font-bold text-lg text-[#0b1e39] mb-2">
-                Score Predictor
-              </h3>
+{/* SPEEDOMETER */}
+<div className="relative w-[250px] h-[135px] overflow-hidden">
 
-              <p className="text-zinc-700 text-sm">
-                Estimate your MDCAT performance based on your test history.
-              </p>
-            </div>
+  {/* Gauge */}
+  <div
+    className="absolute left-0 top-0 w-[250px] h-[250px] rounded-full"
+    style={{
+      background:
+        "conic-gradient(from 270deg, #ff4d00 0deg 36deg, #ff9800 36deg 72deg, #ffe066 72deg 108deg, #9acd32 108deg 144deg, #65c900 144deg 180deg, transparent 180deg 360deg)",
+    }}
+  />
+
+  {/* Inner white circle */}
+  <div className="absolute left-[35px] top-[35px] w-[180px] h-[180px] rounded-full bg-white" />
+
+  {/* Needle */}
+  <div
+    className="absolute left-1/2 bottom-[8px] w-[4px] h-[100px] bg-[#333] rounded-full origin-bottom"
+    style={{
+      transform: `translateX(-50%) rotate(${needleAngle}deg)`,
+    }}
+  />
+
+  {/* Needle center */}
+  <div className="absolute left-1/2 bottom-[-2px] -translate-x-1/2 w-12 h-12 rounded-full bg-[#333] flex items-center justify-center">
+    <div className="w-5 h-5 rounded-full bg-zinc-200 border-2 border-white" />
+  </div>
+
+  {/* Scale labels */}
+  <span className="absolute left-1 bottom-[-12px] text-[10px] font-bold text-zinc-500">
+  0%
+</span>
+
+<span className="absolute right-1 bottom-[-12px] text-[10px] font-bold text-zinc-500">
+  100%
+</span>
+</div>
+
+{/* Predicted percentage */}
+<div className="-mt-1">
+<p className="text-4xl font-extrabold text-[#0b1e39]">
+  {Math.round(predictedMarks)}
+</p>
+
+<p className="text-sm font-semibold text-zinc-600">
+  Expected MDCAT Score
+</p>
+
+<p className="text-base font-bold text-[#ff9800]">
+  out of 180
+</p>
+</div>
+
+</div>
 
             <div className="bg-white rounded-2xl shadow-lg p-7 border-t-4 border-[#0b1e39] hover:border-[#ff9800] transition-all flex flex-col items-center text-center">
               <div className="bg-[#e9ecef] text-[#0b1e39] w-14 h-14 rounded-full flex items-center justify-center mb-3 text-2xl">
@@ -764,7 +833,7 @@ export default function Home() {
             </p>
 
             <button
-              onClick={() => router.push("/mock-tests")}
+              onClick={() => router.push("/tests/mock-tests")}
               className="w-full bg-[#ff9800] hover:bg-[#e38000] text-[#0b1e39] font-semibold px-7 py-3 rounded-full shadow transition duration-150"
             >
               View Mock Tests
@@ -824,7 +893,10 @@ export default function Home() {
 
         {/* SUBJECT-WISE STATISTICS */}
 
-        <section className="container mx-auto px-4 py-10 md:py-14">
+        <section
+  id="subject-analytics"
+  className="container mx-auto px-4 py-10 md:py-14"
+>
           <div className="mb-8">
             <h2 className="text-2xl md:text-3xl font-bold text-white text-center md:text-left">
               📊 Subject-wise Performance
