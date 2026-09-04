@@ -38,6 +38,33 @@ time: 150,
 difficulty: "NUMS",
 year: 2022,
 },
+{
+  id: 5,
+  title: "MOCK NUMS 1",
+  questions: 150,
+  time: 150,
+  difficulty: "NUMS",
+  year: 2026,
+  link: "/tests/mock-tests/nums/nums-test-1",
+  },
+  {
+  id: 6,
+  title: "MOCK NUMS 2",
+  questions: 150,
+  time: 150,
+  difficulty: "NUMS",
+  year: 2026,
+  link: "/tests/mock-tests/nums/nums-test-2",
+  },
+  {
+  id: 7,
+  title: "MOCK NUMS 3",
+  questions: 150,
+  time: 150,
+  difficulty: "NUMS",
+  year: 2026,
+  link: "/tests/mock-tests/nums/nums-test-3",
+  }, 
 ];
 
 return (
@@ -100,7 +127,9 @@ return (
   
               <button
                 onClick={() =>
-                  router.push(`/tests/mock-tests/nums/nums-${test.year}`)
+                  router.push(
+                    test.link || `/tests/mock-tests/nums/nums-${test.year}`
+                  )
                 }
                 className="mt-6 w-full rounded-full bg-[#ff9800] px-6 py-3 font-semibold text-[#0b1e39] shadow transition hover:bg-[#e38000]"
               >

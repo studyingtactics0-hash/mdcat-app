@@ -1,0 +1,4 @@
+
+import { acellularLifeQuestions } from "@/data/biology/acellular-life";
+import { bioenergeticsQuestions } from "@/data/biology/bioenergetics";
+import { biologicalMoleculesQuestios } from "@/data/biology/biological-molecules";
