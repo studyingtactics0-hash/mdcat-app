@@ -16,12 +16,14 @@ type Question = {
 };
 
 type SavedTestProgress = {
-  version: number;
+  version: 2;
   title: string;
   subject: string;
   chapter: string;
   questions: Question[];
   selectedAnswers: (number | null)[];
+  firstAnswers: (number | null)[];
+  wrongAttempts: number[][];
   currentQuestion: number;
   timeLeft: number;
   savedAt: number;
@@ -56,9 +58,17 @@ function shuffleArray<T>(array: T[]): T[] {
   return shuffled;
 }
 
-function normalizeOption(option: string | QuestionOption): QuestionOption {
+/* =========================================================
+   NORMALIZE OPTION
+   ========================================================= */
+
+function normalizeOption(
+  option: string | QuestionOption
+): QuestionOption {
   if (typeof option === "string") {
-    return { text: option };
+    return {
+      text: option,
+    };
   }
 
   return option;
@@ -77,14 +87,14 @@ function prepareQuestions(
 
   if (shuffleBySubject) {
     /*
-     * MDCAT mock test structure:
-     *
-     * Biology = 81
-     * Chemistry = 45
-     * Physics = 36
-     * English = 9
-     * Logical Reasoning = 9
-     */
+      MDCAT structure:
+
+      Biology = 81
+      Chemistry = 45
+      Physics = 36
+      English = 9
+      Logical Reasoning = 9
+    */
 
     const biology = questionBank.slice(0, 81);
     const chemistry = questionBank.slice(81, 126);
@@ -101,7 +111,8 @@ function prepareQuestions(
     ];
 
     if (
-      questionCount &&
+      questionCount !== undefined &&
+      questionCount > 0 &&
       questionCount < selectedQuestions.length
     ) {
       selectedQuestions = selectedQuestions.slice(
@@ -110,23 +121,24 @@ function prepareQuestions(
       );
     }
   } else {
-    selectedQuestions =
-      questionCount &&
+    if (
+      questionCount !== undefined &&
+      questionCount > 0 &&
       questionCount < questionBank.length
-        ? shuffleArray(questionBank).slice(
-            0,
-            questionCount
-          )
-        : shuffleArray(questionBank);
+    ) {
+      selectedQuestions = shuffleArray(questionBank).slice(
+        0,
+        questionCount
+      );
+    } else {
+      selectedQuestions = shuffleArray(questionBank);
+    }
   }
 
   /*
-   * Shuffle options while keeping the correct answer
-   * attached to the correct option.
-   *
-   * IMPORTANT:
-   * We do NOT use option text as a React key anywhere.
-   */
+    Shuffle options while preserving the correct answer.
+  */
+
   return selectedQuestions.map((question) => {
     const optionsWithAnswers = question.options.map(
       (option, index) => ({
@@ -135,8 +147,9 @@ function prepareQuestions(
       })
     );
 
-    const shuffledOptions =
-      shuffleArray(optionsWithAnswers);
+    const shuffledOptions = shuffleArray(
+      optionsWithAnswers
+    );
 
     return {
       question: question.question,
@@ -167,13 +180,13 @@ export default function TestEngine({
   const supabase = createClient();
 
   const resultSaved = useRef(false);
+  const initializedTestKey = useRef<string | null>(null);
 
   const [mounted, setMounted] = useState(false);
 
-  const [resumeDecision, setResumeDecision] =
-    useState<"pending" | "new" | "resume">(
-      "pending"
-    );
+  const [resumeDecision, setResumeDecision] = useState<
+    "pending" | "new" | "resume"
+  >("pending");
 
   const [savedProgress, setSavedProgress] =
     useState<SavedTestProgress | null>(null);
@@ -185,18 +198,37 @@ export default function TestEngine({
     useState(0);
 
   /*
-   * ONE answer per question.
-   *
-   * null = unanswered
-   * number = selected option index
-   */
+    selectedAnswers:
+    The student's CURRENT/latest selection.
+
+    firstAnswers:
+    The FIRST answer the student gave.
+    This is what determines the score.
+  */
+
   const [selectedAnswers, setSelectedAnswers] =
     useState<(number | null)[]>([]);
+
+  const [firstAnswers, setFirstAnswers] =
+    useState<(number | null)[]>([]);
+
+  /*
+    wrongAttempts[index] contains every option index
+    that the student clicked incorrectly for that question.
+
+    These remain red permanently during the attempt.
+  */
+
+  const [wrongAttempts, setWrongAttempts] =
+    useState<number[][]>([]);
 
   const [timeLeft, setTimeLeft] =
     useState(timeLimit * 60);
 
   const [submitted, setSubmitted] =
+    useState(false);
+
+  const [submitting, setSubmitting] =
     useState(false);
 
   const [showSubmitWarning, setShowSubmitWarning] =
@@ -223,50 +255,35 @@ export default function TestEngine({
   const [saveReady, setSaveReady] =
     useState(false);
 
-  /*
-   * This prevents the preparation effect from
-   * unnecessarily resetting the test.
-   */
-  const initializedTestKey = useRef<string | null>(
-    null
-  );
+  const [showFireworks, setShowFireworks] =
+    useState(false);
 
-  /*
-   * =========================================================
-   * PROGRESS KEY
-   * =========================================================
-   */
+  /* =========================================================
+     PROGRESS KEY
+     ========================================================= */
 
   const progressKey =
     `studying_tactics_test_progress_${encodeURIComponent(
       `${subject}_${chapter}_${title}_${questionCount || "all"}`
     )}`;
 
-  /*
-   * =========================================================
-   * MOUNT
-   * =========================================================
-   */
+  /* =========================================================
+     MOUNT
+     ========================================================= */
 
   useEffect(() => {
     setMounted(true);
   }, []);
 
-  /*
-   * =========================================================
-   * PREPARE TEST
-   * =========================================================
-   *
-   * Important:
-   * The test is prepared only once for this particular test.
-   *
-   * This prevents accidental re-shuffling/re-initialization
-   * when the parent component re-renders.
-   */
+  /* =========================================================
+     PREPARE TEST
+     ========================================================= */
 
   useEffect(() => {
     const testKey =
-      `${subject}|${chapter}|${title}|${questionCount || "all"}|${timeLimit}`;
+      `${subject}|${chapter}|${title}|${
+        questionCount || "all"
+      }|${timeLimit}`;
 
     if (initializedTestKey.current === testKey) {
       return;
@@ -274,12 +291,11 @@ export default function TestEngine({
 
     initializedTestKey.current = testKey;
 
-    const preparedQuestions =
-      prepareQuestions(
-        questionBank,
-        questionCount,
-        shuffleBySubject
-      );
+    const preparedQuestions = prepareQuestions(
+      questionBank,
+      questionCount,
+      shuffleBySubject
+    );
 
     setQuestions(preparedQuestions);
 
@@ -289,14 +305,34 @@ export default function TestEngine({
       Array(preparedQuestions.length).fill(null)
     );
 
+    setFirstAnswers(
+      Array(preparedQuestions.length).fill(null)
+    );
+
+    setWrongAttempts(
+      Array.from(
+        { length: preparedQuestions.length },
+        () => []
+      )
+    );
+
     setTimeLeft(timeLimit * 60);
 
     setSaveReady(false);
+
     setResumeDecision("pending");
+
     setSavedProgress(null);
+
     setSubmitted(false);
+
+    setSubmitting(false);
+
     setShowSubmitWarning(false);
+
     setShowReview(false);
+
+    setShowFireworks(false);
 
     resultSaved.current = false;
   }, [
@@ -309,41 +345,31 @@ export default function TestEngine({
     shuffleBySubject,
   ]);
 
-  /*
-   * =========================================================
-   * CHECK SAVED PROGRESS
-   * =========================================================
-   */
+  /* =========================================================
+     CHECK SAVED PROGRESS
+     ========================================================= */
 
   useEffect(() => {
     if (!mounted) return;
-
     if (questions.length === 0) return;
-
     if (resumeDecision !== "pending") return;
 
     try {
       const saved =
         localStorage.getItem(progressKey);
 
-      /*
-       * No previous attempt.
-       */
       if (!saved) {
         setResumeDecision("new");
         setSaveReady(true);
         return;
       }
 
-      const parsed: SavedTestProgress =
-        JSON.parse(saved);
+      const parsed = JSON.parse(saved);
 
-      /*
-       * Validate saved data.
-       */
-      const isValid =
+      const basicValid =
         parsed &&
-        parsed.version === 1 &&
+        (parsed.version === 1 ||
+          parsed.version === 2) &&
         parsed.title === title &&
         parsed.subject === subject &&
         parsed.chapter === chapter &&
@@ -355,9 +381,10 @@ export default function TestEngine({
           questions.length &&
         typeof parsed.currentQuestion ===
           "number" &&
-        typeof parsed.timeLeft === "number";
+        typeof parsed.timeLeft ===
+          "number";
 
-      if (!isValid) {
+      if (!basicValid) {
         localStorage.removeItem(progressKey);
 
         setResumeDecision("new");
@@ -366,15 +393,16 @@ export default function TestEngine({
         return;
       }
 
-      /*
-       * Validate every saved answer.
-       *
-       * This protects against corrupted localStorage
-       * containing impossible option indexes.
-       */
+      /* =====================================================
+         CLEAN CURRENT ANSWERS
+         ===================================================== */
+
       const cleanedAnswers =
         parsed.selectedAnswers.map(
-          (answer, index) => {
+          (
+            answer: number | null,
+            index: number
+          ) => {
             if (answer === null) {
               return null;
             }
@@ -384,6 +412,7 @@ export default function TestEngine({
                 ?.length ?? 0;
 
             if (
+              typeof answer !== "number" ||
               answer < 0 ||
               answer >= optionCount
             ) {
@@ -397,9 +426,133 @@ export default function TestEngine({
       parsed.selectedAnswers =
         cleanedAnswers;
 
-      /*
-       * Expired attempt.
-       */
+      /* =====================================================
+         FIRST ANSWERS
+
+         Version 1 did not have firstAnswers.
+
+         For old saved attempts, we treat the old selected
+         answer as the first answer.
+         ===================================================== */
+
+      let cleanedFirstAnswers:
+        (number | null)[];
+
+      if (
+        parsed.version === 2 &&
+        Array.isArray(parsed.firstAnswers) &&
+        parsed.firstAnswers.length ===
+          questions.length
+      ) {
+        cleanedFirstAnswers =
+          parsed.firstAnswers.map(
+            (
+              answer: number | null,
+              index: number
+            ) => {
+              if (answer === null) {
+                return null;
+              }
+
+              const optionCount =
+                parsed.questions[index]?.options
+                  ?.length ?? 0;
+
+              if (
+                typeof answer !== "number" ||
+                answer < 0 ||
+                answer >= optionCount
+              ) {
+                return null;
+              }
+
+              return answer;
+            }
+          );
+      } else {
+        cleanedFirstAnswers =
+          parsed.selectedAnswers.map(
+            (
+              answer: number | null,
+              index: number
+            ) => {
+              if (answer === null) {
+                return null;
+              }
+
+              const optionCount =
+                parsed.questions[index]?.options
+                  ?.length ?? 0;
+
+              if (
+                typeof answer !== "number" ||
+                answer < 0 ||
+                answer >= optionCount
+              ) {
+                return null;
+              }
+
+              return answer;
+            }
+          );
+      }
+
+      parsed.firstAnswers =
+        cleanedFirstAnswers;
+
+      /* =====================================================
+         WRONG ATTEMPTS
+         ===================================================== */
+
+      let cleanedWrongAttempts:
+        number[][];
+
+      if (
+        parsed.version === 2 &&
+        Array.isArray(parsed.wrongAttempts) &&
+        parsed.wrongAttempts.length ===
+          questions.length
+      ) {
+        cleanedWrongAttempts =
+          parsed.wrongAttempts.map(
+            (
+              attempts: unknown,
+              index: number
+            ) => {
+              if (!Array.isArray(attempts)) {
+                return [];
+              }
+
+              const optionCount =
+                parsed.questions[index]?.options
+                  ?.length ?? 0;
+
+              return attempts.filter(
+                (optionIndex) =>
+                  typeof optionIndex ===
+                    "number" &&
+                  optionIndex >= 0 &&
+                  optionIndex < optionCount
+              );
+            }
+          );
+      } else {
+        cleanedWrongAttempts =
+          Array.from(
+            {
+              length: questions.length,
+            },
+            () => []
+          );
+      }
+
+      parsed.wrongAttempts =
+        cleanedWrongAttempts;
+
+      /* =====================================================
+         EXPIRED ATTEMPT
+         ===================================================== */
+
       if (parsed.timeLeft <= 0) {
         localStorage.removeItem(progressKey);
 
@@ -409,7 +562,27 @@ export default function TestEngine({
         return;
       }
 
-      setSavedProgress(parsed);
+      setSavedProgress({
+        version: 2,
+        title: parsed.title,
+        subject: parsed.subject,
+        chapter: parsed.chapter,
+        questions: parsed.questions,
+        selectedAnswers:
+          parsed.selectedAnswers,
+        firstAnswers:
+          parsed.firstAnswers,
+        wrongAttempts:
+          parsed.wrongAttempts,
+        currentQuestion:
+          parsed.currentQuestion,
+        timeLeft: parsed.timeLeft,
+        savedAt:
+          typeof parsed.savedAt ===
+          "number"
+            ? parsed.savedAt
+            : Date.now(),
+      });
     } catch (error) {
       console.error(
         "Unable to read saved test progress:",
@@ -417,7 +590,9 @@ export default function TestEngine({
       );
 
       try {
-        localStorage.removeItem(progressKey);
+        localStorage.removeItem(
+          progressKey
+        );
       } catch {
         // Ignore storage errors.
       }
@@ -435,63 +610,65 @@ export default function TestEngine({
     chapter,
   ]);
 
-  /*
-   * =========================================================
-   * RESUME SAVED TEST
-   * =========================================================
-   */
+  /* =========================================================
+     RESUME SAVED TEST
+     ========================================================= */
 
   const resumeSavedTest = () => {
     if (!savedProgress) return;
 
-    /*
-     * Restore EXACT questions.
-     *
-     * This is important because they were already shuffled.
-     */
-    setQuestions(savedProgress.questions);
+    setQuestions(
+      savedProgress.questions
+    );
 
-    /*
-     * Restore answers.
-     */
     setSelectedAnswers(
       savedProgress.selectedAnswers
     );
 
-    /*
-     * Restore question position.
-     */
+    setFirstAnswers(
+      savedProgress.firstAnswers
+    );
+
+    setWrongAttempts(
+      savedProgress.wrongAttempts
+    );
+
     setCurrentQuestion(
       Math.min(
         Math.max(
           savedProgress.currentQuestion,
           0
         ),
-        savedProgress.questions.length - 1
+        Math.max(
+          savedProgress.questions.length - 1,
+          0
+        )
       )
     );
 
-    /*
-     * Restore timer.
-     */
     setTimeLeft(
-      Math.max(0, savedProgress.timeLeft)
+      Math.max(
+        0,
+        savedProgress.timeLeft
+      )
     );
 
     setResumeDecision("resume");
+
     setSaveReady(true);
+
     setSavedProgress(null);
   };
 
-  /*
-   * =========================================================
-   * START NEW TEST
-   * =========================================================
-   */
+  /* =========================================================
+     START NEW TEST
+     ========================================================= */
 
   const startNewTest = () => {
     try {
-      localStorage.removeItem(progressKey);
+      localStorage.removeItem(
+        progressKey
+      );
     } catch (error) {
       console.error(
         "Unable to clear old test progress:",
@@ -505,65 +682,124 @@ export default function TestEngine({
       Array(questions.length).fill(null)
     );
 
-    setTimeLeft(timeLimit * 60);
+    setFirstAnswers(
+      Array(questions.length).fill(null)
+    );
+
+    setWrongAttempts(
+      Array.from(
+        {
+          length: questions.length,
+        },
+        () => []
+      )
+    );
+
+    setTimeLeft(
+      timeLimit * 60
+    );
 
     setSavedProgress(null);
 
     setResumeDecision("new");
+
     setSaveReady(true);
+
+    setSubmitted(false);
+
+    setSubmitting(false);
+
+    setShowReview(false);
 
     resultSaved.current = false;
   };
 
-  /*
-   * =========================================================
-   * SAVE TEST PROGRESS
-   * =========================================================
-   */
+  /* =========================================================
+     SAVE TEST PROGRESS
+     ========================================================= */
 
   const saveTestProgress = () => {
     if (submitted) return;
-
     if (!saveReady) return;
-
     if (resumeDecision === "pending") return;
-
     if (questions.length === 0) return;
-
     if (timeLeft <= 0) return;
 
-    /*
-     * Always create a clean answer array.
-     *
-     * This guarantees that each question can have
-     * only ONE selected answer.
-     */
-    const cleanAnswers =
-      selectedAnswers.map((answer, index) => {
-        if (answer === null) {
-          return null;
+    const cleanSelectedAnswers =
+      selectedAnswers.map(
+        (answer, index) => {
+          if (answer === null) {
+            return null;
+          }
+
+          const optionCount =
+            questions[index]?.options
+              ?.length ?? 0;
+
+          if (
+            typeof answer !== "number" ||
+            answer < 0 ||
+            answer >= optionCount
+          ) {
+            return null;
+          }
+
+          return answer;
         }
+      );
 
-        const optionCount =
-          questions[index]?.options?.length ?? 0;
+    const cleanFirstAnswers =
+      firstAnswers.map(
+        (answer, index) => {
+          if (answer === null) {
+            return null;
+          }
 
-        if (
-          answer < 0 ||
-          answer >= optionCount
-        ) {
-          return null;
+          const optionCount =
+            questions[index]?.options
+              ?.length ?? 0;
+
+          if (
+            typeof answer !== "number" ||
+            answer < 0 ||
+            answer >= optionCount
+          ) {
+            return null;
+          }
+
+          return answer;
         }
+      );
 
-        return answer;
-      });
+    const cleanWrongAttempts =
+      wrongAttempts.map(
+        (attempts, index) => {
+          const optionCount =
+            questions[index]?.options
+              ?.length ?? 0;
+
+          return attempts.filter(
+            (optionIndex) =>
+              typeof optionIndex ===
+                "number" &&
+              optionIndex >= 0 &&
+              optionIndex < optionCount
+          );
+        }
+      );
 
     const progress: SavedTestProgress = {
-      version: 1,
+      version: 2,
       title,
       subject,
       chapter,
       questions,
-      selectedAnswers: cleanAnswers,
+      selectedAnswers:
+        cleanSelectedAnswers,
+      firstAnswers:
+        cleanFirstAnswers,
+      wrongAttempts:
+        cleanWrongAttempts,
       currentQuestion,
       timeLeft,
       savedAt: Date.now(),
@@ -582,26 +818,22 @@ export default function TestEngine({
     }
   };
 
-  /*
-   * =========================================================
-   * AUTO SAVE
-   * =========================================================
-   */
+  /* =========================================================
+     AUTO SAVE
+     ========================================================= */
 
   useEffect(() => {
     if (!saveReady) return;
-
     if (submitted) return;
-
     if (resumeDecision === "pending") return;
-
     if (questions.length === 0) return;
-
     if (timeLeft <= 0) return;
 
     saveTestProgress();
   }, [
     selectedAnswers,
+    firstAnswers,
+    wrongAttempts,
     currentQuestion,
     timeLeft,
     questions,
@@ -610,55 +842,52 @@ export default function TestEngine({
     resumeDecision,
   ]);
 
-  /*
-   * =========================================================
-   * PERIODIC BACKUP
-   * =========================================================
-   */
+  /* =========================================================
+     PERIODIC BACKUP
+     ========================================================= */
 
   useEffect(() => {
     if (!saveReady) return;
-
     if (submitted) return;
-
     if (resumeDecision === "pending") return;
-
     if (questions.length === 0) return;
 
-    const backupTimer = setInterval(() => {
-      saveTestProgress();
-    }, 10000);
+    const backupTimer =
+      setInterval(() => {
+        saveTestProgress();
+      }, 10000);
 
-    return () =>
-      clearInterval(backupTimer);
+    return () => {
+      clearInterval(
+        backupTimer
+      );
+    };
   }, [
     saveReady,
     submitted,
     resumeDecision,
     questions,
     selectedAnswers,
+    firstAnswers,
+    wrongAttempts,
     currentQuestion,
     timeLeft,
   ]);
 
-  /*
-   * =========================================================
-   * SAVE WHEN LEAVING PAGE
-   * =========================================================
-   */
+  /* =========================================================
+     SAVE WHEN LEAVING PAGE
+     ========================================================= */
 
   useEffect(() => {
     if (!saveReady) return;
-
     if (submitted) return;
-
     if (resumeDecision === "pending") return;
-
     if (questions.length === 0) return;
 
-    const handleBeforeUnload = () => {
-      saveTestProgress();
-    };
+    const handleBeforeUnload =
+      () => {
+        saveTestProgress();
+      };
 
     window.addEventListener(
       "beforeunload",
@@ -677,26 +906,47 @@ export default function TestEngine({
     resumeDecision,
     questions,
     selectedAnswers,
+    firstAnswers,
+    wrongAttempts,
     currentQuestion,
     timeLeft,
   ]);
 
-  /*
-   * =========================================================
-   * TIMER
-   * =========================================================
-   */
+  /* =========================================================
+     TIMER
+     ========================================================= */
 
   useEffect(() => {
-    if (resumeDecision === "pending") return;
+    if (resumeDecision === "pending") {
+      return;
+    }
 
-    if (submitted) return;
+    if (submitted) {
+      return;
+    }
 
-    if (!saveReady) return;
+    if (!saveReady) {
+      return;
+    }
 
     if (timeLeft <= 0) {
       const saveAndSubmit =
         async () => {
+          /*
+            IMPORTANT:
+            Save result FIRST.
+
+            Only remove localStorage after Supabase
+            successfully saves the result.
+          */
+
+          const success =
+            await saveTestResult();
+
+          if (!success) {
+            return;
+          }
+
           try {
             localStorage.removeItem(
               progressKey
@@ -708,8 +958,6 @@ export default function TestEngine({
             );
           }
 
-          await saveTestResult();
-
           setSubmitted(true);
         };
 
@@ -718,18 +966,22 @@ export default function TestEngine({
       return;
     }
 
-    const timer = setInterval(() => {
-      setTimeLeft((time) => {
-        if (time <= 1) {
-          return 0;
-        }
+    const timer =
+      setInterval(() => {
+        setTimeLeft(
+          (time) => {
+            if (time <= 1) {
+              return 0;
+            }
 
-        return time - 1;
-      });
-    }, 1000);
+            return time - 1;
+          }
+        );
+      }, 1000);
 
-    return () =>
+    return () => {
       clearInterval(timer);
+    };
   }, [
     timeLeft,
     submitted,
@@ -738,29 +990,22 @@ export default function TestEngine({
     progressKey,
   ]);
 
-  /*
-   * =========================================================
-   * SELECT ANSWER
-   * =========================================================
-   *
-   * CRITICAL FIX:
-   *
-   * selectedAnswers[currentQuestion] stores exactly
-   * ONE option index.
-   *
-   * Clicking another option REPLACES the previous
-   * selection instead of adding another selection.
-   */
+  /* =========================================================
+     SELECT ANSWER
+     ========================================================= */
 
   const selectAnswer = (
     optionIndex: number
   ) => {
     if (submitted) return;
 
-    if (!questions[currentQuestion]) return;
+    const current =
+      questions[currentQuestion];
+
+    if (!current) return;
 
     const optionCount =
-      questions[currentQuestion].options.length;
+      current.options.length;
 
     if (
       optionIndex < 0 ||
@@ -769,35 +1014,137 @@ export default function TestEngine({
       return;
     }
 
-    setSelectedAnswers(
-      (previousAnswers) => {
-        const updatedAnswers = [
-          ...previousAnswers,
-        ];
+    const isCorrect =
+      optionIndex === current.answer;
 
-        /*
-         * ONE answer only.
-         */
-        updatedAnswers[currentQuestion] =
-          optionIndex;
+    /*
+      FIRST ANSWER
 
-        return updatedAnswers;
+      We only set firstAnswers if this question
+      has never been answered before.
+    */
+
+    setFirstAnswers(
+      (previous) => {
+        const updated = [...previous];
+
+        if (
+          updated[currentQuestion] ===
+          null ||
+          updated[currentQuestion] ===
+            undefined
+        ) {
+          updated[currentQuestion] =
+            optionIndex;
+        }
+
+        return updated;
       }
     );
+
+    /*
+      CURRENT/LATEST ANSWER
+
+      This can change whenever the student clicks
+      another option.
+    */
+
+    setSelectedAnswers(
+      (previous) => {
+        const updated = [...previous];
+
+        updated[currentQuestion] =
+          optionIndex;
+
+        return updated;
+      }
+    );
+
+    /*
+      WRONG ATTEMPT
+
+      Every wrong option clicked gets permanently
+      recorded.
+
+      Example:
+
+      Student clicks B -> B becomes red.
+      Student clicks C -> C becomes red too.
+      Student clicks A -> A is green.
+
+      B and C remain red.
+    */
+
+    if (!isCorrect) {
+      setWrongAttempts(
+        (previous) => {
+          const updated =
+            previous.map(
+              (attempts) => [
+                ...attempts,
+              ]
+            );
+
+          if (
+            !updated[currentQuestion]
+          ) {
+            updated[currentQuestion] =
+              [];
+          }
+
+          if (
+            !updated[
+              currentQuestion
+            ].includes(optionIndex)
+          ) {
+            updated[
+              currentQuestion
+            ].push(optionIndex);
+          }
+
+          return updated;
+        }
+      );
+
+      return;
+    }
+
+    /*
+      Correct answer selected.
+
+      Show fireworks.
+    */
+
+    setShowFireworks(true);
+
+    window.setTimeout(() => {
+      setShowFireworks(false);
+    }, 900);
   };
 
-  /*
-   * =========================================================
-   * SCORE
-   * =========================================================
-   */
+  /* =========================================================
+     SCORE
+     ========================================================= */
 
   const calculateScore = () => {
     return questions.reduce(
-      (score, question, index) => {
+      (
+        score,
+        question,
+        index
+      ) => {
+        /*
+          CRITICAL:
+
+          Score is based ONLY on firstAnswers.
+
+          Changing the answer later does NOT change
+          the score.
+        */
+
         return (
           score +
-          (selectedAnswers[index] ===
+          (firstAnswers[index] ===
           question.answer
             ? 1
             : 0)
@@ -807,125 +1154,158 @@ export default function TestEngine({
     );
   };
 
-  /*
-   * =========================================================
-   * SAVE TEST RESULT
-   * =========================================================
-   */
+  /* =========================================================
+     SAVE TEST RESULT
+     ========================================================= */
 
-  const saveTestResult = async () => {
-    if (resultSaved.current) return;
+  const saveTestResult =
+    async (): Promise<boolean> => {
+      if (resultSaved.current) {
+        return true;
+      }
 
-    resultSaved.current = true;
+      resultSaved.current = true;
 
-    const {
-      data: { user },
-    } = await supabase.auth.getUser();
+      try {
+        const {
+          data: { user },
+        } =
+          await supabase.auth.getUser();
 
-    if (!user) {
-      console.error(
-        "No logged-in user. Test result not saved."
-      );
+        if (!user) {
+          console.error(
+            "No logged-in user. Test result not saved."
+          );
 
-      resultSaved.current = false;
+          resultSaved.current =
+            false;
 
+          alert(
+            "Please log in before submitting the test."
+          );
+
+          return false;
+        }
+
+        const correctAnswers =
+          calculateScore();
+
+        const totalQuestions =
+          questions.length;
+
+        const scorePercentage =
+          totalQuestions > 0
+            ? Math.round(
+                (correctAnswers /
+                  totalQuestions) *
+                  100
+              )
+            : 0;
+
+        const { error } =
+          await supabase
+            .from("test_results")
+            .insert({
+              user_id: user.id,
+              student_name:
+                user.user_metadata
+                  ?.full_name ||
+                "Unknown Student",
+              test_title: title,
+              subject,
+              chapter,
+              total_questions:
+                totalQuestions,
+              correct_answers:
+                correctAnswers,
+              score_percentage:
+                scorePercentage,
+            });
+
+        if (error) {
+          console.error(
+            "SUPABASE TEST RESULT ERROR:",
+            error
+          );
+
+          resultSaved.current =
+            false;
+
+          alert(
+            `Unable to save test result: ${error.message}`
+          );
+
+          return false;
+        }
+
+        console.log(
+          "Test result saved successfully."
+        );
+
+        return true;
+      } catch (error) {
+        console.error(
+          "Unexpected error while saving test result:",
+          error
+        );
+
+        resultSaved.current =
+          false;
+
+        alert(
+          "Unable to save the test result. Please try again."
+        );
+
+        return false;
+      }
+    };
+
+  /* =========================================================
+     CLEAR SAVED PROGRESS
+     ========================================================= */
+
+  const clearSavedProgress =
+    () => {
+      try {
+        localStorage.removeItem(
+          progressKey
+        );
+      } catch (error) {
+        console.error(
+          "Unable to clear test progress:",
+          error
+        );
+      }
+    };
+
+  /* =========================================================
+     SUBMIT TEST
+     ========================================================= */
+
+  const submitTest = async () => {
+    if (submitting) return;
+    if (submitted) return;
+
+    setSubmitting(true);
+
+    const success =
+      await saveTestResult();
+
+    if (!success) {
+      setSubmitting(false);
       return;
     }
 
-    const correctAnswers =
-      calculateScore();
-
-    const totalQuestions =
-      questions.length;
-
-    const scorePercentage =
-      totalQuestions > 0
-        ? Math.round(
-            (correctAnswers /
-              totalQuestions) *
-              100
-          )
-        : 0;
-
-    const { error } =
-      await supabase
-        .from("test_results")
-        .insert({
-          user_id: user.id,
-          student_name:
-            user.user_metadata?.full_name ||
-            "Unknown Student",
-          test_title: title,
-          subject,
-          chapter,
-          total_questions:
-            totalQuestions,
-          correct_answers:
-            correctAnswers,
-          score_percentage:
-            scorePercentage,
-        });
-
-    if (error) {
-      console.error(
-        "SUPABASE TEST RESULT ERROR:",
-        error
-      );
-
-      alert(
-        `Supabase error: ${error.message}`
-      );
-
-      resultSaved.current = false;
-    } else {
-      console.log(
-        "Test result saved successfully."
-      );
-
-      alert(
-        "Test result saved successfully!"
-      );
-    }
-  };
-
-  /*
-   * =========================================================
-   * CLEAR SAVED PROGRESS
-   * =========================================================
-   */
-
-  const clearSavedProgress = () => {
-    try {
-      localStorage.removeItem(
-        progressKey
-      );
-    } catch (error) {
-      console.error(
-        "Unable to clear test progress:",
-        error
-      );
-    }
-  };
-
-  /*
-   * =========================================================
-   * SUBMIT TEST
-   * =========================================================
-   */
-
-  const submitTest = async () => {
     clearSavedProgress();
 
-    await saveTestResult();
-
     setSubmitted(true);
+
+    setSubmitting(false);
   };
 
-  /*
-   * =========================================================
-   * REPORT QUESTION
-   * =========================================================
-   */
+  /* =========================================================
+     REPORT QUESTION
+     ========================================================= */
 
   const submitQuestionReport =
     async () => {
@@ -937,9 +1317,16 @@ export default function TestEngine({
         return;
       }
 
+      if (
+        reportSubmitting
+      ) {
+        return;
+      }
+
       const {
         data: { user },
-      } = await supabase.auth.getUser();
+      } =
+        await supabase.auth.getUser();
 
       if (!user) {
         alert(
@@ -951,86 +1338,97 @@ export default function TestEngine({
 
       setReportSubmitting(true);
 
-      const { error } =
-        await supabase
-          .from("question_reports")
-          .insert({
-            user_id: user.id,
-            student_name:
-              user.user_metadata?.full_name ||
-              "Unknown Student",
-            question_number:
-              currentQuestion + 1,
-            question_text:
-              questions[currentQuestion]
-                ?.question || "",
-            subject,
-            chapter,
-            test_title: title,
-            report_type: reportType,
-            comment:
-              reportComment.trim() || null,
-          });
+      try {
+        const { error } =
+          await supabase
+            .from("question_reports")
+            .insert({
+              user_id: user.id,
+              student_name:
+                user.user_metadata
+                  ?.full_name ||
+                "Unknown Student",
+              question_number:
+                currentQuestion + 1,
+              question_text:
+                questions[
+                  currentQuestion
+                ]?.question || "",
+              subject,
+              chapter,
+              test_title: title,
+              report_type: reportType,
+              comment:
+                reportComment.trim() ||
+                null,
+            });
 
-      setReportSubmitting(false);
+        if (error) {
+          console.error(
+            "QUESTION REPORT ERROR:",
+            error
+          );
 
-      if (error) {
-        console.error(
-          "QUESTION REPORT ERROR:",
-          error
+          alert(
+            `Unable to submit report: ${error.message}`
+          );
+
+          return;
+        }
+
+        setReportedQuestions(
+          (previous) => {
+            if (
+              previous.includes(
+                currentQuestion
+              )
+            ) {
+              return previous;
+            }
+
+            return [
+              ...previous,
+              currentQuestion,
+            ];
+          }
         );
+
+        setShowReport(false);
+        setReportType("");
+        setReportComment("");
 
         alert(
-          `Unable to submit report: ${error.message}`
+          "Thank you. Your report has been submitted."
         );
-
-        return;
+      } finally {
+        setReportSubmitting(false);
       }
-
-      setReportedQuestions(
-        (previous) => {
-          if (
-            previous.includes(
-              currentQuestion
-            )
-          ) {
-            return previous;
-          }
-
-          return [
-            ...previous,
-            currentQuestion,
-          ];
-        }
-      );
-
-      setShowReport(false);
-      setReportType("");
-      setReportComment("");
-
-      alert(
-        "Thank you. Your report has been submitted."
-      );
     };
 
-  /*
-   * =========================================================
-   * HELPERS
-   * =========================================================
-   */
+  /* =========================================================
+     HELPERS
+     ========================================================= */
 
-  const calculateUnanswered = () => {
-    return selectedAnswers.filter(
-      (answer) => answer === null
-    ).length;
-  };
+  const calculateUnanswered =
+    () => {
+      /*
+        Unanswered is based on CURRENT answer.
+
+        This is only for navigation/submission UI.
+
+        Score itself uses firstAnswers.
+      */
+
+      return selectedAnswers.filter(
+        (answer) => answer === null
+      ).length;
+    };
 
   const formatTime = (
     seconds: number
   ) => {
-    const minutes = Math.floor(
-      seconds / 60
-    );
+    const minutes =
+      Math.floor(seconds / 60);
 
     const remainingSeconds =
       seconds % 60;
@@ -1043,14 +1441,15 @@ export default function TestEngine({
   const question =
     questions[currentQuestion];
 
+  const selectedOption =
+    selectedAnswers[currentQuestion];
+
   const unanswered =
     calculateUnanswered();
 
-  /*
-   * =========================================================
-   * LOADING
-   * =========================================================
-   */
+  /* =========================================================
+     LOADING
+     ========================================================= */
 
   if (
     !mounted ||
@@ -1072,11 +1471,9 @@ export default function TestEngine({
     );
   }
 
-  /*
-   * =========================================================
-   * RESUME SCREEN
-   * =========================================================
-   */
+  /* =========================================================
+     RESUME SCREEN
+     ========================================================= */
 
   if (
     resumeDecision === "pending" &&
@@ -1084,7 +1481,8 @@ export default function TestEngine({
   ) {
     const answeredCount =
       savedProgress.selectedAnswers.filter(
-        (answer) => answer !== null
+        (answer) =>
+          answer !== null
       ).length;
 
     const savedAtText =
@@ -1172,6 +1570,7 @@ export default function TestEngine({
 
               <div className="flex flex-col gap-3 mt-7">
                 <button
+                  type="button"
                   onClick={
                     resumeSavedTest
                   }
@@ -1181,6 +1580,7 @@ export default function TestEngine({
                 </button>
 
                 <button
+                  type="button"
                   onClick={
                     startNewTest
                   }
@@ -1202,11 +1602,9 @@ export default function TestEngine({
     );
   }
 
-  /*
-   * =========================================================
-   * RESULT SCREEN
-   * =========================================================
-   */
+  /* =========================================================
+     RESULT SCREEN
+     ========================================================= */
 
   if (submitted) {
     const score =
@@ -1298,8 +1696,20 @@ export default function TestEngine({
                   </div>
                 </div>
 
+                <div className="mt-6 rounded-xl bg-[#fff8e8] border border-[#ff9800]/30 px-4 py-3 text-sm text-[#7a4b00] text-left">
+                  <strong>
+                    Important:
+                  </strong>{" "}
+                  Your score is based on
+                  your first answer to each
+                  question. Changing an answer
+                  later does not change your
+                  score.
+                </div>
+
                 <div className="flex flex-col md:flex-row gap-3 mt-8">
                   <button
+                    type="button"
                     onClick={() =>
                       setShowReview(true)
                     }
@@ -1309,6 +1719,7 @@ export default function TestEngine({
                   </button>
 
                   <button
+                    type="button"
                     onClick={() =>
                       window.location.reload()
                     }
@@ -1339,6 +1750,7 @@ export default function TestEngine({
                   </div>
 
                   <button
+                    type="button"
                     onClick={() =>
                       setShowReview(false)
                     }
@@ -1354,10 +1766,13 @@ export default function TestEngine({
                       reviewQuestion,
                       index
                     ) => {
+                      /*
+                        Review uses FIRST ANSWER,
+                        because that is what was graded.
+                      */
+
                       const selected =
-                        selectedAnswers[
-                          index
-                        ];
+                        firstAnswers[index];
 
                       const isCorrect =
                         selected ===
@@ -1396,13 +1811,25 @@ export default function TestEngine({
                             </span>
                           </div>
 
+                          {reviewQuestion.image && (
+                            <div className="mt-5 flex justify-center">
+                              <img
+                                src={
+                                  reviewQuestion.image
+                                }
+                                alt="Question diagram"
+                                className="max-w-full max-h-96 object-contain rounded-xl"
+                              />
+                            </div>
+                          )}
+
                           <div className="mt-5 space-y-2">
                             {reviewQuestion.options.map(
                               (
                                 option,
                                 optionIndex
                               ) => {
-                                const isSelected =
+                                const isFirstAnswer =
                                   selected ===
                                   optionIndex;
 
@@ -1410,67 +1837,103 @@ export default function TestEngine({
                                   reviewQuestion.answer ===
                                   optionIndex;
 
+                                const normalizedOption =
+                                  normalizeOption(
+                                    option
+                                  );
+
                                 return (
                                   <div
                                     key={`review-option-${index}-${optionIndex}`}
                                     className={`p-3 rounded-lg border-2 ${
                                       isAnswer
                                         ? "border-green-500 bg-green-50"
-                                        : isSelected
+                                        : isFirstAnswer
                                         ? "border-red-500 bg-red-50"
                                         : "border-zinc-200"
                                     }`}
                                   >
-                                    <span className="font-bold mr-2">
-                                      {String.fromCharCode(
-                                        65 +
-                                          optionIndex
-                                      )}
-                                      .
-                                    </span>
+                                    <div className="flex items-start gap-3">
+                                      <span className="font-bold">
+                                        {String.fromCharCode(
+                                          65 +
+                                            optionIndex
+                                        )}
+                                        .
+                                      </span>
 
-                                    {(() => {
-                                      const normalizedOption =
-                                        normalizeOption(option);
+                                      <div className="flex-1 flex flex-col gap-3">
+                                        {normalizedOption.image && (
+                                          <img
+                                            src={
+                                              normalizedOption.image
+                                            }
+                                            alt={`Option ${String.fromCharCode(
+                                              65 +
+                                                optionIndex
+                                            )}`}
+                                            className="max-w-full max-h-64 object-contain rounded-lg"
+                                          />
+                                        )}
 
-                                      return (
-                                        <div className="flex flex-col gap-3">
-                                          {normalizedOption.image && (
-                                            <img
-                                              src={normalizedOption.image}
-                                              alt={`Option ${String.fromCharCode(
-                                                65 + optionIndex
-                                              )}`}
-                                              className="max-w-full max-h-64 object-contain rounded-lg"
-                                            />
-                                          )}
+                                        {normalizedOption.text && (
+                                          <span>
+                                            {
+                                              normalizedOption.text
+                                            }
+                                          </span>
+                                        )}
 
-                                          {normalizedOption.text && (
-                                            <span>
-                                              {normalizedOption.text}
+                                        {isAnswer && (
+                                          <span className="text-green-700 font-bold">
+                                            ✓ Correct Answer
+                                          </span>
+                                        )}
+
+                                        {isFirstAnswer &&
+                                          !isAnswer && (
+                                            <span className="text-red-700 font-bold">
+                                              ✗ Your First Answer
                                             </span>
                                           )}
-
-                                          {isAnswer && (
-                                            <span className="text-green-700 font-bold">
-                                              ✓ Correct Answer
-                                            </span>
-                                          )}
-
-                                          {isSelected &&
-                                            !isAnswer && (
-                                              <span className="text-red-700 font-bold">
-                                                ✗ Your Answer
-                                              </span>
-                                            )}
-                                        </div>
-                                      );
-                                    })()}
+                                      </div>
+                                    </div>
                                   </div>
                                 );
                               }
                             )}
                           </div>
+
+                          /*
+                            Show later answer changes if the
+                            student changed their answer.
+                          */
+
+                          {selectedAnswers[
+                            index
+                          ] !==
+                            firstAnswers[
+                              index
+                            ] &&
+                            selectedAnswers[
+                              index
+                            ] !== null && (
+                              <div className="mt-4 text-sm text-zinc-500 bg-zinc-50 rounded-lg p-3">
+                                Your final
+                                selection was{" "}
+                                <strong>
+                                  {String.fromCharCode(
+                                    65 +
+                                      (selectedAnswers[
+                                        index
+                                      ] as number)
+                                  )}
+                                </strong>
+                                , but your
+                                first answer was
+                                used for scoring.
+                              </div>
+                            )}
                         </div>
                       );
                     }
@@ -1484,18 +1947,15 @@ export default function TestEngine({
     );
   }
 
-  /*
-   * =========================================================
-   * TEST SCREEN
-   * =========================================================
-   */
-
-  const selectedOption =
-    selectedAnswers[currentQuestion];
+  /* =========================================================
+     TEST SCREEN
+     ========================================================= */
 
   return (
     <main className="min-h-screen bg-[#0b1e39] text-white">
-      {/* HEADER */}
+      {/* =====================================================
+          HEADER
+          ===================================================== */}
 
       <header className="border-b border-[#172d4f]">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
@@ -1520,7 +1980,9 @@ export default function TestEngine({
 
       <section className="container mx-auto px-4 py-8">
         <div className="max-w-4xl mx-auto">
-          {/* TEST INFO */}
+          {/* =================================================
+              TEST INFO
+              ================================================= */}
 
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-7">
             <div>
@@ -1540,7 +2002,9 @@ export default function TestEngine({
             </div>
           </div>
 
-          {/* PROGRESS */}
+          {/* =================================================
+              PROGRESS
+              ================================================= */}
 
           <div className="w-full bg-[#243b60] rounded-full h-2 mb-8">
             <div
@@ -1555,7 +2019,9 @@ export default function TestEngine({
             />
           </div>
 
-          {/* QUESTION CARD */}
+          {/* =================================================
+              QUESTION CARD
+              ================================================= */}
 
           <div className="bg-white text-[#0b1e39] rounded-3xl shadow-xl p-6 md:p-10">
             <div className="text-sm font-bold text-[#ff9800] mb-3">
@@ -1577,7 +2043,9 @@ export default function TestEngine({
               </div>
             )}
 
-            {/* OPTIONS */}
+            {/* =================================================
+                OPTIONS
+                ================================================= */}
 
             <div className="mt-8 space-y-4">
               {question.options.map(
@@ -1585,26 +2053,63 @@ export default function TestEngine({
                   option,
                   optionIndex
                 ) => {
-                  /*
-                   * IMPORTANT FIX:
-                   *
-                   * Selection is based ONLY on
-                   * the option index.
-                   *
-                   * The key is ALSO based on index,
-                   * NOT option text.
-                   *
-                   * This means duplicate options such as:
-                   *
-                   * ["explanation", "explanation",
-                   *  "explanation", "explanation"]
-                   *
-                   * are still four separate React elements.
-                   */
+                  const normalizedOption =
+                    normalizeOption(
+                      option
+                    );
 
                   const isSelected =
                     selectedOption ===
                     optionIndex;
+
+                  const isCorrect =
+                    question.answer ===
+                    optionIndex;
+
+                  const wasWrong =
+                    wrongAttempts[
+                      currentQuestion
+                    ]?.includes(
+                      optionIndex
+                    ) ?? false;
+
+                  /*
+                    Priority:
+
+                    1. Wrong attempt = RED
+                    2. Correct answer currently selected = GREEN
+                    3. Current selection = ORANGE
+                    4. Normal = white
+                  */
+
+                  let optionClass =
+                    "border-zinc-200 hover:border-[#ff9800]";
+
+                  let letterClass =
+                    "bg-[#e9ecef] text-[#0b1e39]";
+
+                  if (wasWrong) {
+                    optionClass =
+                      "border-red-500 bg-red-50";
+
+                    letterClass =
+                      "bg-red-500 text-white";
+                  } else if (
+                    isCorrect &&
+                    isSelected
+                  ) {
+                    optionClass =
+                      "border-green-500 bg-green-50";
+
+                    letterClass =
+                      "bg-green-500 text-white";
+                  } else if (isSelected) {
+                    optionClass =
+                      "border-[#ff9800] bg-[#fff3e0]";
+
+                    letterClass =
+                      "bg-[#ff9800] text-[#0b1e39]";
+                  }
 
                   return (
                     <button
@@ -1618,18 +2123,10 @@ export default function TestEngine({
                       aria-pressed={
                         isSelected
                       }
-                      className={`w-full text-left border-2 rounded-xl p-4 transition flex items-start gap-3 ${
-                        isSelected
-                          ? "border-[#ff9800] bg-[#fff3e0]"
-                          : "border-zinc-200 hover:border-[#ff9800]"
-                      }`}
+                      className={`w-full text-left border-2 rounded-xl p-4 transition flex items-start gap-3 ${optionClass}`}
                     >
                       <span
-                        className={`inline-flex items-center justify-center w-9 h-9 rounded-full mr-3 font-bold ${
-                          isSelected
-                            ? "bg-[#ff9800] text-[#0b1e39]"
-                            : "bg-[#e9ecef]"
-                        }`}
+                        className={`inline-flex items-center justify-center w-9 h-9 rounded-full mr-3 font-bold shrink-0 ${letterClass}`}
                       >
                         {String.fromCharCode(
                           65 +
@@ -1637,43 +2134,82 @@ export default function TestEngine({
                         )}
                       </span>
 
-                      {(() => {
-                        const normalizedOption =
-                          normalizeOption(option);
+                      <div className="flex-1 flex flex-col gap-3">
+                        {normalizedOption.image && (
+                          <img
+                            src={
+                              normalizedOption.image
+                            }
+                            alt={`Option ${String.fromCharCode(
+                              65 +
+                                optionIndex
+                            )}`}
+                            className="max-w-full max-h-64 object-contain rounded-lg"
+                          />
+                        )}
 
-                        return (
-                          <div className="flex-1 flex flex-col gap-3">
-                            {normalizedOption.image && (
-                              <img
-                                src={normalizedOption.image}
-                                alt={`Option ${String.fromCharCode(
-                                  65 + optionIndex
-                                )}`}
-                                className="max-w-full max-h-64 object-contain rounded-lg"
-                              />
-                            )}
+                        {normalizedOption.text && (
+                          <span className="font-medium">
+                            {
+                              normalizedOption.text
+                            }
+                          </span>
+                        )}
 
-                            {normalizedOption.text && (
-                              <span className="font-medium">
-                                {normalizedOption.text}
-                              </span>
-                            )}
-                          </div>
-                        );
-                      })()}
+                        {wasWrong && (
+                          <span className="text-red-700 font-bold">
+                            ✗ Wrong
+                          </span>
+                        )}
+
+                        {isCorrect &&
+                          isSelected &&
+                          !wasWrong && (
+                            <span className="text-green-700 font-bold">
+                              ✓ Correct
+                            </span>
+                          )}
+                      </div>
                     </button>
                   );
                 }
               )}
             </div>
 
-            {/* SAVE STATUS */}
+            {/* =================================================
+                FIRST ANSWER NOTICE
+                ================================================= */}
+
+            {firstAnswers[
+              currentQuestion
+            ] !== null &&
+              selectedAnswers[
+                currentQuestion
+              ] !==
+                firstAnswers[
+                  currentQuestion
+                ] && (
+                <div className="mt-5 rounded-xl bg-[#fff8e8] border border-[#ff9800]/30 px-4 py-3 text-sm text-[#7a4b00]">
+                  <strong>
+                    First answer recorded.
+                  </strong>{" "}
+                  Your score will be based on
+                  your first answer, even if you
+                  change your selection.
+                </div>
+              )}
+
+            {/* =================================================
+                SAVE STATUS
+                ================================================= */}
 
             <div className="mt-5 text-xs text-zinc-400 text-right">
               ✓ Progress saved automatically
             </div>
 
-            {/* REPORT QUESTION */}
+            {/* =================================================
+                REPORT QUESTION
+                ================================================= */}
 
             <div className="mt-6 pt-5 border-t border-zinc-200">
               {!reportedQuestions.includes(
@@ -1695,7 +2231,9 @@ export default function TestEngine({
               )}
             </div>
 
-            {/* NAVIGATION */}
+            {/* =================================================
+                NAVIGATION
+                ================================================= */}
 
             <div className="flex justify-between gap-4 mt-10">
               <button
@@ -1710,9 +2248,10 @@ export default function TestEngine({
                   )
                 }
                 disabled={
-                  currentQuestion === 0
+                  currentQuestion ===
+                  0
                 }
-                className="px-6 py-3 rounded-xl font-bold bg-[#e9ecef] disabled:opacity-40"
+                className="px-6 py-3 rounded-xl font-bold bg-[#e9ecef] text-[#0b1e39] disabled:opacity-40"
               >
                 ← Previous
               </button>
@@ -1738,8 +2277,14 @@ export default function TestEngine({
               ) : (
                 <button
                   type="button"
+                  disabled={
+                    submitting
+                  }
                   onClick={() => {
-                    if (unanswered > 0) {
+                    if (
+                      unanswered >
+                      0
+                    ) {
                       setShowSubmitWarning(
                         true
                       );
@@ -1747,15 +2292,19 @@ export default function TestEngine({
                       submitTest();
                     }
                   }}
-                  className="px-7 py-3 rounded-xl font-bold bg-[#ff9800] text-[#0b1e39]"
+                  className="px-7 py-3 rounded-xl font-bold bg-[#ff9800] text-[#0b1e39] disabled:opacity-50"
                 >
-                  Submit Test
+                  {submitting
+                    ? "Submitting..."
+                    : "Submit Test"}
                 </button>
               )}
             </div>
           </div>
 
-          {/* QUESTION NAVIGATOR */}
+          {/* =================================================
+              QUESTION NAVIGATOR
+              ================================================= */}
 
           <div className="mt-6 bg-[#142542] rounded-2xl p-5">
             <div className="flex justify-between items-center mb-4">
@@ -1774,11 +2323,18 @@ export default function TestEngine({
 
             <div className="flex flex-wrap gap-2">
               {questions.map(
-                (_, index) => {
-                  const answered =
-                    selectedAnswers[
-                      index
-                    ] !== null;
+                (
+                  navQuestion,
+                  index
+                ) => {
+                  const firstAnswer =
+                    firstAnswers[index];
+
+                  const firstWasCorrect =
+                    firstAnswer !==
+                      null &&
+                    firstAnswer ===
+                      navQuestion.answer;
 
                   return (
                     <button
@@ -1793,9 +2349,12 @@ export default function TestEngine({
                         index ===
                         currentQuestion
                           ? "bg-[#ff9800] text-[#0b1e39]"
-                          : answered
-                          ? "bg-white text-[#0b1e39]"
-                          : "bg-[#243b60] text-white"
+                          : firstAnswer ===
+                            null
+                          ? "bg-[#243b60] text-white"
+                          : firstWasCorrect
+                          ? "bg-green-500 text-white"
+                          : "bg-red-500 text-white"
                       }`}
                     >
                       {index + 1}
@@ -1804,9 +2363,68 @@ export default function TestEngine({
                 }
               )}
             </div>
+
+            <div className="flex flex-wrap gap-4 mt-5 text-xs text-[#cdd6e6]">
+              <div className="flex items-center gap-2">
+                <span className="w-3 h-3 rounded bg-[#243b60]" />
+                Unanswered
+              </div>
+
+              <div className="flex items-center gap-2">
+                <span className="w-3 h-3 rounded bg-green-500" />
+                First answer correct
+              </div>
+
+              <div className="flex items-center gap-2">
+                <span className="w-3 h-3 rounded bg-red-500" />
+                First answer incorrect
+              </div>
+            </div>
           </div>
         </div>
       </section>
+
+      {/* =====================================================
+          FIREWORKS
+          ===================================================== */}
+
+      {showFireworks && (
+        <div className="fixed inset-0 pointer-events-none z-[9999] flex items-center justify-center">
+          <div className="relative w-40 h-40">
+            {Array.from({
+              length: 20,
+            }).map(
+              (_, index) => {
+                const angle =
+                  (index / 20) *
+                  360;
+
+                const distance =
+                  55 +
+                  (index % 3) *
+                    18;
+
+                return (
+                  <span
+                    key={`firework-${index}`}
+                    className="absolute left-1/2 top-1/2 w-3 h-3 rounded-full bg-green-500 animate-ping"
+                    style={{
+                      transform: `rotate(${angle}deg) translateY(-${distance}px)`,
+                      animationDelay: `${
+                        index * 15
+                      }ms`,
+                    }}
+                  />
+                );
+              }
+            )}
+
+            <div className="absolute inset-0 flex items-center justify-center text-5xl">
+              ✓
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* =====================================================
           SUBMIT WARNING
@@ -1850,6 +2468,9 @@ export default function TestEngine({
 
               <button
                 type="button"
+                disabled={
+                  submitting
+                }
                 onClick={async () => {
                   setShowSubmitWarning(
                     false
@@ -1857,9 +2478,11 @@ export default function TestEngine({
 
                   await submitTest();
                 }}
-                className="flex-1 bg-[#ff9800] py-3 rounded-xl font-bold"
+                className="flex-1 bg-[#ff9800] py-3 rounded-xl font-bold disabled:opacity-50"
               >
-                Submit
+                {submitting
+                  ? "Submitting..."
+                  : "Submit"}
               </button>
             </div>
           </div>
@@ -2002,7 +2625,9 @@ export default function TestEngine({
               </label>
 
               <textarea
-                value={reportComment}
+                value={
+                  reportComment
+                }
                 onChange={(e) =>
                   setReportComment(
                     e.target.value
