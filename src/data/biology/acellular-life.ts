@@ -1,3 +1,11 @@
+export type Question = {
+  id: string;
+  question: string;
+  options: string[];
+  answer: number;
+  explanation?: string;
+};
+
 export const acellularLifeQuestions = [
   {
     question: "The conversion of lysogenic cycle to lytic cycle is called:",
