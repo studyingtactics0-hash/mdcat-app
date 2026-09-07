@@ -253,5 +253,173 @@ export type Question = {
       ],
       answer: 3,
       explanation: "Copper (Cu) is a pure metallic crystalline solid with a face-centered cubic (FCC) lattice structure."
-    }
+    },
+   {
+        id: "solids-9",
+        question: "One characteristic feature of a solid is that:",
+        options: [
+          "The particles moves rapidly",
+          "It has a lattice energy",
+          "The particles are loosely packed",
+          "It has no definite volume"
+        ],
+        answer: 1,
+        explanation: "Crystalline solids possess a defined 3D periodic arrangement of particles held together by cohesive forces, quantified by their lattice energy."
+      },
+      {
+        id: "solids-10",
+        question: "A solid substance which shows variable intensity of a property in different directions is called:",
+        options: [
+          "Cleavage",
+          "Asymmetric",
+          "Anisotropy",
+          "Polymorphism"
+        ],
+        answer: 2,
+        explanation: "Anisotropy is the direction-dependent variation of physical properties (e.g., electrical conductivity, refractive index, mechanical strength) within a crystalline lattice."
+      },
+      {
+        id: "solids-19",
+        question: "The dimensional array of points is called:",
+        options: [
+          "Unit cell",
+          "Crystals",
+          "Crystal lattice",
+          "A and B"
+        ],
+        answer: 2,
+        explanation: "A crystal lattice (or space lattice) is a regular 3D geometrical arrangement of points in space representing the positions of constituent particles."
+      },
+      {
+        id: "solids-21",
+        question: "Which of the following had diffused melting point?",
+        options: [
+          "Crystalline solid",
+          "Amorphous solids",
+          "Metallic solids",
+          "Covalent solids"
+        ],
+        answer: 1,
+        explanation: "Amorphous solids lack a long-range orderly lattice and soften gradually over a temperature range rather than melting at a sharp temperature."
+      },
+      {
+        id: "solids-24",
+        question: "The stability of ionic crystal depends principally on:",
+        options: [
+          "High electron affinity of anion forming species",
+          "Lattice energy of crystal",
+          "Low ionization energy of cation forming species",
+          "Low heat of sublimation of cation forming solid"
+        ],
+        answer: 1,
+        explanation: "Lattice energy measures the electrostatic binding forces holding cations and anions together in an ionic crystal, determining its overall structural stability."
+      },
+      {
+        id: "solids-28",
+        question: "Which of the following statements is true of amorphous solids?",
+        options: [
+          "They possess symmetry",
+          "They are isotropic",
+          "They are anisotropic",
+          "They cleavage along particular direction"
+        ],
+        answer: 3,
+        explanation: "Note: According to standard chemistry, amorphous solids are isotropic and break irregularly. However, per the provided answer key, option D is mapped."
+      },
+      {
+        id: "solids-29",
+        question: "A solid melts sharply just above 100°C. It does not conduct electricity even when molten. It has weak van der Waals forces. What is the structure of solid most likely to be?",
+        options: [
+          "An atomic crystal",
+          "An ionic crystal",
+          "A molecular crystal",
+          "Metallic"
+        ],
+        answer: 2,
+        explanation: "Molecular crystals are held together by weak van der Waals forces or dipole interactions, giving them relatively low melting points and non-conducting behavior."
+      },
+      {
+        id: "solids-30",
+        question: "The two crystals NaNO₃ and CaCO₃ are both trigonal, they are:",
+        options: [
+          "Isomers",
+          "Polymorphs",
+          "Allotropes",
+          "Isomorphs"
+        ],
+        answer: 3,
+        explanation: "Isomorphism occurs when different chemical substances crystallize in the same geometric shape with similar empirical formula stoichiometry."
+      },
+      {
+        id: "solids-33",
+        question: "Small diffusion in solids is due to:",
+        options: [
+          "Very fast motion of its particle",
+          "Vibrational motion of its particle",
+          "Rotational motion of its particle",
+          "Translational motion of its particle"
+        ],
+        answer: 1,
+        explanation: "Particles in solids are held in fixed lattice positions and only oscillate/vibrate around their equilibrium positions, severely restricting translational diffusion."
+      },
+      {
+        id: "solids-40",
+        question: "Which of the following is not molecular solid?",
+        options: [
+          "Bromine",
+          "Sulphur",
+          "Phosphorus",
+          "Carbon dioxide"
+        ],
+        answer: 0,
+        explanation: "Note: In conventional chemistry, Br2, S8, P4, and CO2 all form molecular crystals. Option A is mapped to match the provided key."
+      },
+      {
+        id: "solids-42",
+        question: "ZnSO₄ and NiSO₄ are ______ crystals:",
+        options: [
+          "Cubic",
+          "Trigonal",
+          "Orthorhombic",
+          "Hexagonal"
+        ],
+        answer: 2,
+        explanation: "Zinc sulfate (ZnSO4·7H2O) and Nickel sulfate (NiSO4·7H2O) form isomorphic orthorhombic crystal structures."
+      },
+      {
+        id: "solids-43",
+        question: "Solids which have regular geometrical shape are called:",
+        options: [
+          "Symmetric solids",
+          "Crystalline solids",
+          "Vitreous solids",
+          "Amorphous solids"
+        ],
+        answer: 1,
+        explanation: "Crystalline solids possess long-range periodic order resulting in characteristic, sharp, regular geometrical shapes with definite faces and angles."
+      },
+      {
+        id: "solids-44",
+        question: "CO₂ and SO₂ both are triatomic molecules but heat of vaporization of SO₂ is greater than that of CO₂ due to:",
+        options: [
+          "High electronegativity of S",
+          "Greater size of SO₂",
+          "SO₂ is polar and CO₂ due to non-polar",
+          "SO₂ is more acidic than CO₂"
+        ],
+        answer: 2,
+        explanation: "SO₂ is a bent polar molecule exhibiting dipole-dipole attractions, whereas linear CO₂ is non-polar and held only by weaker dispersion forces, resulting in a higher heat of vaporization for SO₂."
+      },
+      {
+        id: "solids-50",
+        question: "The crystalline form of allotropes is:",
+        options: [
+          "Chemically same",
+          "Chemically different",
+          "Sometimes same, sometimes different",
+          "Depends upon substance"
+        ],
+        answer: 0,
+        explanation: "Allotropes are different structural modifications of the same chemical element; hence, they share identical chemical composition despite differing physical crystal forms."
+      }
   ];

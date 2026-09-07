@@ -11,8 +11,8 @@ export default function EvolutionTest1Page() {
       title="Evolution Test 5"
       subject="Biology"
       chapter="Evolution"
-      timeLimit={20}
-      questionCount={20}
+      timeLimit={30}
+      questionCount={30}
     />
   );
 }
