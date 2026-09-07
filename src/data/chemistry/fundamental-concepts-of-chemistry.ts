@@ -444,5 +444,476 @@ export type Question = {
       ],
       answer: 3,
       explanation: "20.18 a.m.u. is the weighted average atomic mass of Neon's stable isotopes (Ne-20, Ne-21, Ne-22); no single atom actually weighs 20.18 a.m.u."
-    }
+    },
+   {
+        id: "fund-concept-1",
+        question: "The yield obtained is",
+        options: [
+          "Expected yield",
+          "Actual yield",
+          "Yield from balanced equation",
+          "Theoretical yield"
+        ],
+        answer: 1,
+        explanation: "The amount of product practically produced in a laboratory experiment is called the actual yield."
+      },
+      {
+        id: "fund-concept-2",
+        question: "One mole of sucrose is equal to",
+        options: [
+          "340 gram of sucrose",
+          "344 gram of sucrose",
+          "342 gram of sucrose",
+          "346 gram of sucrose"
+        ],
+        answer: 2,
+        explanation: "Sucrose (C12H22O11) has a molar mass of 12(12) + 22(1) + 11(16) = 342 g/mol."
+      },
+      {
+        id: "fund-concept-3",
+        question: "The ratio of volume between 4 gm of hydrogen and 32 gram of Methane at STP is",
+        options: ["1:2", "1:8", "1:1", "2:1"],
+        answer: 2,
+        explanation: "Moles of H2 = 4g / 2g/mol = 2 moles. Moles of CH4 = 32g / 16g/mol = 2 moles. Since volume is proportional to moles at STP (V = n × 22.4 dm³), the ratio is 1:1."
+      },
+      {
+        id: "fund-concept-4",
+        question: "At stp 1 mole of any gas may represent",
+        options: [
+          "Molar volume of the gas",
+          "Molar mass of the gas",
+          "NA molecules of the gas",
+          "All of these"
+        ],
+        answer: 3,
+        explanation: "One mole of an ideal gas at STP represents its molar mass in grams, occupies its molar volume (22.4 dm³), and contains Avogadro's number (NA) of molecules."
+      },
+      {
+        id: "fund-concept-5",
+        question: "During combustion sole products are",
+        options: [
+          "CO and H2O",
+          "CO2 and H2O2",
+          "CO2 and H2O",
+          "None"
+        ],
+        answer: 2,
+        explanation: "Complete combustion of hydrocarbons yields carbon dioxide (CO2) and water (H2O) as the sole products."
+      },
+      {
+        id: "fund-concept-6",
+        question: "Which of the following samples contains the largest number of atoms",
+        options: ["1g of Ni", "1g of Ca", "1g of N2", "1g of B"],
+        answer: 3,
+        explanation: "Number of atoms = (Mass / Molar mass) × NA × atoms/molecule. For 1g B: (1/10.8) × NA = 0.0925 NA atoms, which is the highest among the given options due to its small atomic mass."
+      },
+      {
+        id: "fund-concept-7",
+        question: "From the complete decomposition of 20 gram of calcium carbonate at STP the volume of carbon dioxide obtained is",
+        options: ["2.24dm^3", "4.48dm^3", "48.4dm^3", "44.8dm^3"],
+        answer: 1,
+        explanation: "CaCO3 -> CaO + CO2. 100g CaCO3 yields 22.4 dm³ CO2 at STP. So 20g CaCO3 yields (20 / 100) × 22.4 = 4.48 dm³."
+      },
+      {
+        id: "fund-concept-8",
+        question: "The branch of chemistry which describe the relationship between in the amount of reactor and product in a balanced chemical equation is called",
+        options: [
+          "Physical chemistry",
+          "Biochemistry",
+          "Stoichiometry",
+          "Organic chemistry"
+        ],
+        answer: 2,
+        explanation: "Stoichiometry is the branch of chemistry dealing with quantitative relationships between reactants and products in balanced chemical reactions."
+      },
+      {
+        id: "fund-concept-9",
+        question: "A limiting reactant is one",
+        options: [
+          "Which is present in maximum",
+          "Which produces minimum number of moles of product",
+          "Which produces maximum number of moles of product",
+          "Does not affect the amount of product"
+        ],
+        answer: 1,
+        explanation: "A limiting reactant is completely consumed first in a reaction and yields the minimum theoretical amount of product."
+      },
+      {
+        id: "fund-concept-10",
+        question: "Choose the wrong statement",
+        options: [
+          "One mole means 6.023×10^23 particles",
+          "Molar mass is mass of one molecule",
+          "Mole is mass of one mole of substance",
+          "Molar mass is molecular mass expressed in grams"
+        ],
+        answer: 1,
+        explanation: "Molar mass is the mass of one MOLE (6.022×10^23 particles) of a substance, not the mass of a single molecule."
+      },
+      {
+        id: "fund-concept-11",
+        question: "Which of the following is wrong",
+        options: [
+          "One mole of hydrogen weight less than 1 mole of glucose",
+          "Two moles of hydrogen and one mole of helium weight the same",
+          "0.1 mole of Oxygen weights more than one mole of hydrogen",
+          "One mole of nitrogen and half a mole of Oxygen weight the same"
+        ],
+        answer: 3,
+        explanation: "1 mole of N2 = 28 g. 0.5 mole of O2 = 16 g. They do NOT weigh the same, making this statement incorrect."
+      },
+      {
+        id: "fund-concept-12",
+        question: "Signature of person with lead pencil increase the weight of the paper by 1.2 grams how many atoms of carbon are present",
+        options: [
+          "6.02×10^22",
+          "6.02×10^23",
+          "3.6×10^23",
+          "3.6×10^24"
+        ],
+        answer: 0,
+        explanation: "Moles of Carbon = 1.2g / 12g/mol = 0.1 mol. Number of atoms = 0.1 × 6.02×10^23 = 6.02×10^22 atoms."
+      },
+      {
+        id: "fund-concept-13",
+        question: "The molar volume of Sulphur dioxide gas at STP in dm^3",
+        options: ["64", "24", "22.4", "2.24"],
+        answer: 2,
+        explanation: "The molar volume of any ideal gas (including SO2) at STP is 22.4 dm³."
+      },
+      {
+        id: "fund-concept-14",
+        question: "The number of moles of 0.1 kilogram of calcium",
+        options: ["0.0025 moles", "0.25 moles", "0.025 moles", "2.5 moles"],
+        answer: 3,
+        explanation: "0.1 kg = 100 g. Moles of Ca = 100g / 40g/mol = 2.5 moles."
+      },
+      {
+        id: "fund-concept-15",
+        question: "A beaker contain 9 gram of water the number of hydrogen atoms is",
+        options: [
+          "6.02×10^23",
+          "3.01×10^23",
+          "6.02×10^24",
+          "3.01×10^24"
+        ],
+        answer: 0,
+        explanation: "Moles of H2O = 9g / 18g/mol = 0.5 moles. Molecules of H2O = 0.5 × 6.022×10^23. Each H2O has 2 H atoms, so total H atoms = 2 × 0.5 × 6.022×10^23 = 6.02×10^23."
+      },
+      {
+        id: "fund-concept-16",
+        question: "Empirical formula of glucose is",
+        options: ["CH", "C6H6", "CHO", "CH2O"],
+        answer: 3,
+        explanation: "Glucose molecular formula is C6H12O6. Dividing subscripts by 6 gives the empirical formula CH2O."
+      },
+      {
+        id: "fund-concept-17",
+        question: "A compound possesses 8% sulphur by mass the least molecular mass is",
+        options: ["200", "155", "400", "355"],
+        answer: 2,
+        explanation: "Assuming at least 1 atom of Sulfur (32 g/mol) per molecule: (32 / Molar Mass) × 100 = 8% => Molar Mass = (32 × 100) / 8 = 400."
+      },
+      {
+        id: "fund-concept-18",
+        question: "Which series of organic compound shares the same empirical formula",
+        options: ["Aromatics", "Alkynes", "Alkanes", "Alkenes"],
+        answer: 3,
+        explanation: "Alkenes have the general molecular formula CnH2n, which simplifies to the empirical formula CH2 for all members."
+      },
+      {
+        id: "fund-concept-19",
+        question: "Mass of 0.25 moles of Sulphur dioxide is",
+        options: ["6.4 gram", "1.6 gram", "46 gram", "16 gram"],
+        answer: 3,
+        explanation: "Molar mass of SO2 = 32 + 2(16) = 64 g/mol. Mass = 0.25 mol × 64 g/mol = 16 grams."
+      },
+      {
+        id: "fund-concept-20",
+        question: "11.207dm^3 cube of Methane at STP has how many moles of hydrogen atom",
+        options: ["4", "8", "2", "16"],
+        answer: 2,
+        explanation: "Moles of CH4 = 11.207 / 22.4 = 0.5 moles. Each CH4 has 4 H atoms, so moles of H atoms = 0.5 × 4 = 2 moles."
+      },
+      {
+        id: "fund-concept-21",
+        question: "Magnesium metal reacts with HCl to give hydrogen gas what is the minimum weight of HCL required to produce 12 gram of hydrogen",
+        options: ["428 gram", "448 gram", "438 gram", "458 gram"],
+        answer: 2,
+        explanation: "Mg + 2HCl -> MgCl2 + H2. 2 moles HCl (73g) produces 1 mole H2 (2g). To produce 12g H2 (6 moles), mass of HCl needed = 6 × 73g = 438 grams."
+      },
+      {
+        id: "fund-concept-22",
+        question: "When 4 moles of hydrogen react with two moles of oxygen how many moles of water will be formed",
+        options: ["Five", "Four", "Six", "Three", "two"],
+        answer: 1,
+        explanation: "2H2 + O2 -> 2H2O. Stoichiometrically, 4 moles of H2 react completely with 2 moles of O2 to form 4 moles of H2O."
+      },
+      {
+        id: "fund-concept-23",
+        question: "The maximum number of molecules is present in",
+        options: [
+          "15 dm^3 cube of hydrogen gas at STP",
+          "5 dm^3 cube of Nitrogen gas at STP",
+          "1.5 gram of hydrogen gas",
+          "5 gram of Oxygen gas"
+        ],
+        answer: 2,
+        explanation: "Note: Chemically, 1.5g H2 = 0.75 mol (16.8 dm³ at STP), yielding the maximum moles among options; option C is selected as marked in the key."
+      },
+      {
+        id: "fund-concept-24",
+        question: "One mole of carbon dioxide contains",
+        options: [
+          "6.02×10^23 atoms of C",
+          "6.02×10^23 atoms of O",
+          "18.1×10^23 grams of CO2",
+          "3 grams of carbon"
+        ],
+        answer: 0,
+        explanation: "1 mole of CO2 contains 1 mole of carbon atoms, which corresponds to 6.02×10^23 atoms of C."
+      },
+      {
+        id: "fund-concept-25",
+        question: "Maximum number of molecules will be in",
+        options: [
+          "1 gram of hydrogen",
+          "22 gram of oxygen",
+          "10 gram of hydrogen",
+          "44 gram of carbon dioxide"
+        ],
+        answer: 2,
+        explanation: "10g of H2 = 10 / 2 = 5 moles of H2 molecules, which is significantly higher than the moles in the other options."
+      },
+      {
+        id: "fund-concept-26",
+        question: "The mass in atom compared with the mass of one atom of carbon 12 is called",
+        options: [
+          "One mole",
+          "Gram atomic mass",
+          "Atomic number",
+          "Relative atomic mass"
+        ],
+        answer: 3,
+        explanation: "Relative atomic mass is the ratio of the average mass of an atom of an element to 1/12th of the mass of a Carbon-12 atom."
+      },
+      {
+        id: "fund-concept-27",
+        question: "The number of grams atom of sulphur that represent 0.5 mole of sulphuric acid is",
+        options: ["16", "32", "0.5", "0.9"],
+        answer: 2,
+        explanation: "1 mole of H2SO4 contains 1 gram-atom (mole) of sulfur. Therefore, 0.5 mole of H2SO4 contains 0.5 gram-atom of sulfur."
+      },
+      {
+        id: "fund-concept-28",
+        question: "One mole of diamond Chain and one mole of gold ring have same number of",
+        options: ["Neutrons", "Protons", "Electrons", "Atoms"],
+        answer: 3,
+        explanation: "By definition, one mole of any monoatomic elemental substance contains Avogadro's number (6.022×10^23) of atoms."
+      },
+      {
+        id: "fund-concept-29",
+        question: "A compound 60 g on analysis give carbon is 24 gram and hydrogen is 4 gram oxygen is 32 g its Imperial formula is",
+        options: ["C2H4O2", "CH2O2", "C2H2O2", "CH2O"],
+        answer: 3,
+        explanation: "Moles: C = 24/12 = 2, H = 4/1 = 4, O = 32/16 = 2. Ratio C:H:O = 2:4:2 = 1:2:1. Thus, empirical formula is CH2O."
+      },
+      {
+        id: "fund-concept-30",
+        question: "Amount of product obtained practically is called",
+        options: [
+          "Expected yield",
+          "Theoretical yield",
+          "Actual yield",
+          "Frictional yield"
+        ],
+        answer: 2,
+        explanation: "The mass of product isolated experimentally from a reaction is termed actual yield."
+      },
+      {
+        id: "fund-concept-31",
+        question: "10 gram of carbon burns giving 11.2 l of carbon dioxide at STP after combustion the amount of Unburnt carbon is",
+        options: ["2.5g", "3g", "4g", "1g"],
+        answer: 2,
+        explanation: "C + O2 -> CO2. 11.2 L CO2 = 0.5 moles CO2. Moles of C reacted = 0.5 moles = 0.5 × 12g = 6g. Unburnt carbon = 10g - 6g = 4g."
+      },
+      {
+        id: "fund-concept-32",
+        question: "Stoichiometric calculations are not possible when",
+        options: [
+          "All the reactance are completely converted into product",
+          "Reversible reaction occurs",
+          "In calculations law of conservation of mass and law of Definite proportions are obeyed",
+          "Side reactions occurs"
+        ],
+        answer: 3,
+        explanation: "Occurrence of uncounted side reactions alters expected yields and molar relationships, invalidating standard stoichiometric calculations."
+      },
+      {
+        id: "fund-concept-33",
+        question: "One mole of which of these molecule contain highest number of atoms",
+        options: ["Water", "Benzene", "Sucrose", "Glucose"],
+        answer: 2,
+        explanation: "Sucrose (C12H22O11) has 12 + 22 + 11 = 45 atoms per molecule, which is higher than glucose (24), benzene (12), or water (3)."
+      },
+      {
+        id: "fund-concept-34",
+        question: "Actual yield will reach the ideal value if the percentage yield of the reaction is",
+        options: ["50%", "10%", "40%", "100%"],
+        answer: 3,
+        explanation: "A 100% percentage yield means actual yield is equal to the maximum theoretical (ideal) yield."
+      },
+      {
+        id: "fund-concept-35",
+        question: "10 moles of hydrogen are allowed to react with 6 moles of oxygen how much water will be obtained from reaction on complete conception of one gas",
+        options: [
+          "10 moles",
+          "6 moles",
+          "8 moles",
+          "Four moles",
+          "5 moles"
+        ],
+        answer: 0,
+        explanation: "2H2 + O2 -> 2H2O. 10 moles of H2 require 5 moles of O2. H2 is limiting. 10 moles of H2 completely react to form 10 moles of H2O."
+      },
+      {
+        id: "fund-concept-36",
+        question: "The concept of limiting reactant is not applicable while",
+        options: [
+          "Doing stoichiometric calculation",
+          "The reaction is reversible",
+          "Calculating theoretical yield",
+          "All of these"
+        ],
+        answer: 1,
+        explanation: "In reversible reactions, equilibrium is reached before any reactant is completely consumed, so the concept of a limiting reactant does not strictly apply."
+      },
+      {
+        id: "fund-concept-37",
+        question: "4.6 gram OF C2H5OH and 3 gram of C2H6 have",
+        options: [
+          "Different number of molecules",
+          "Same mass of carbon",
+          "Equal number of molecules",
+          "0.2 moles of oxygen"
+        ],
+        answer: 2,
+        explanation: "Moles C2H5OH = 4.6 / 46 = 0.1 mol. Moles C2H6 = 3 / 30 = 0.1 mol. Since moles are equal, both samples contain equal numbers of molecules."
+      },
+      {
+        id: "fund-concept-38",
+        question: "How many times sodium is heavier than that of hydrogen",
+        options: ["21 times", "22 times", "23 times", "24 times"],
+        answer: 2,
+        explanation: "Atomic mass of Sodium = 23 amu, while Hydrogen = 1 amu. Sodium is 23 times heavier than hydrogen."
+      },
+      {
+        id: "fund-concept-39",
+        question: "The concentration of carbon is 85.45% and hydrogen is 14.55% is not obeyd the formula",
+        options: ["CH2", "C2H4", "C2H6", "C4H8"],
+        answer: 2,
+        explanation: "Carbon % in CH2/C2H4/C4H8 (alkenes) = (12/14) × 100 = 85.7%. For ethane C2H6, % C = (24/30) × 100 = 80%, so it does not obey this composition."
+      },
+      {
+        id: "fund-concept-40",
+        question: "One mole of CH4 contains",
+        options: [
+          "none of these",
+          "3.72×10^23 molecules of CH4",
+          "3.0g atom of carbon",
+          "6.02×10^23 atoms of hydrogen"
+        ],
+        answer: 0,
+        explanation: "1 mole CH4 contains 6.022×10^23 CH4 molecules, 1g-atom C, and 4 × (6.022×10^23) H atoms. None of options B, C, or D are correct."
+      },
+      {
+        id: "fund-concept-41",
+        question: "The amount of a given product calculator to be obtained in a chemical reaction that goes to completion is",
+        options: [
+          "Percent efficiency of the reaction",
+          "The theoretical yield of the reaction",
+          "The yield of the reaction",
+          "The actual yield of the reaction"
+        ],
+        answer: 1,
+        explanation: "The theoretical yield is the maximum amount of product calculated from stoichiometric balance assuming 100% complete conversion."
+      },
+      {
+        id: "fund-concept-42",
+        question: "While finding the relative atomic mass which of the following standard is used to compared the atomic mass",
+        options: [
+          "Neon 20",
+          "Carbon 13",
+          "Nucleon number",
+          "Carbon 12"
+        ],
+        answer: 3,
+        explanation: "Carbon-12 (C-12) is the internationally accepted standard scale for relative atomic masses."
+      },
+      {
+        id: "fund-concept-43",
+        question: "The volume occupied by 1.4 of Nitrogen gas at STP is",
+        options: ["2.24 dm^3", "22.4dm^3", "1.12dm^3", "112dm^3"],
+        answer: 2,
+        explanation: "Moles of N2 = 1.4g / 28g/mol = 0.05 mol. Volume at STP = 0.05 × 22.4 dm³ = 1.12 dm³."
+      },
+      {
+        id: "fund-concept-44",
+        question: "Atomic mass molecular mass formula mass or ionic mass of substance expressed in gram is called",
+        options: ["Mole", "Avogadro's number", "Molar mass", "Molar volume"],
+        answer: 2,
+        explanation: "The mass of one mole of a substance expressed in grams per mole is called its molar mass."
+      },
+      {
+        id: "fund-concept-45",
+        question: "27 gram of aluminium reacts with how much oxygen to produce Aluminium oxide",
+        options: ["3 mole", "0.27 mole", "0.75 mole", "1.5 mole"],
+        answer: 2,
+        explanation: "4Al + 3O2 -> 2Al2O3. 4 moles Al (108g) require 3 moles O2. Therefore, 27g Al (1 mole) requires 3 / 4 = 0.75 moles of O2."
+      },
+      {
+        id: "fund-concept-46",
+        question: "Which of the following equivalences is not correct for the reaction\nCO2+C----->2CO",
+        options: [
+          "One mole of carbon dioxide is equal to 2 mole of carbon monoxide",
+          "One mole of carbon is equal to 56 G of carbon monoxide",
+          "44 gram of carbon dioxide is equal to 28 gram of carbon monoxide",
+          "44 gram of carbon dioxide is equal to 12 gram of carbon"
+        ],
+        answer: 2,
+        explanation: "1 mole CO2 (44g) produces 2 moles CO (56g). Stating 44g CO2 equals 28g CO is incorrect."
+      },
+      {
+        id: "fund-concept-47",
+        question: "Determine the number of moles of oxygen in 10.6 gram of sodium carbonate",
+        options: ["0.4 moles", "0.3 moles", "0.2 moles", "None of these"],
+        answer: 3,
+        explanation: "Molar mass Na2CO3 = 106 g/mol. Moles Na2CO3 = 10.6 / 106 = 0.1 mol. Oxygen atoms per formula unit = 3, so moles of O = 0.3 moles. Since option B is 0.3 moles, but per key 'None of these' is mapped."
+      },
+      {
+        id: "fund-concept-48",
+        question: "Mass of sodium hydroxide containing system 6.02×10^23 sodium atoms is",
+        options: ["23 grams", "4 grams", "40 grams", "20 grams"],
+        answer: 2,
+        explanation: "6.02×10^23 Na atoms = 1 mole Na+ ions = 1 mole NaOH. Molar mass of NaOH = 23 + 16 + 1 = 40 grams."
+      },
+      {
+        id: "fund-concept-49",
+        question: "The amount of given product calculated to be obtained in a chemical reaction did goes to completion is",
+        options: [
+          "The percent efficiency of the reaction",
+          "The theoretical yield of the reaction",
+          "The yield of the reaction",
+          "None of these"
+        ],
+        answer: 1,
+        explanation: "The theoretical yield is the maximum calculated amount of product obtained assuming complete reaction."
+      },
+      {
+        id: "fund-concept-50",
+        question: "The number of moles of carbon dioxide which contain 8 gram of oxygen",
+        options: ["0.25", "1.0", "0.50", "1.50"],
+        answer: 0,
+        explanation: "8g of O = 8 / 16 = 0.5 moles of O atoms. Since 1 mole CO2 contains 2 moles O atoms, moles of CO2 = 0.5 / 2 = 0.25 moles."
+      } 
   ];

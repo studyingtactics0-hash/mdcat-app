@@ -170,41 +170,29 @@ export type Question = {
       explanation: "R–COOH + NH₃ → R–COONH₄. Thermal dehydration of the ammonium carboxylate salt (R–COONH₄ → R–CONH₂ + H₂O) yields an acid amide."
     },
     // --- TESTMOZ ---
-      {
-        id: "testmoz-chem-1",
+   {
+        id: "carb-esters-1",
         question: "Propanoic acid is the functional group isomer of",
-        options: [
-          "Methyl acetate",
-          "Propanal",
-          "Ethyl acetate",
-          "Propanone"
-        ],
-        answer: 0
+        options: ["Methyl acetate", "Propanal", "Ethyl acetate", "Propanone"],
+        answer: 0,
+        explanation: "Propanoic acid (C3H6O2) and methyl acetate (CH3COOCH3, C3H6O2) are functional group isomers as both share the same molecular formula."
       },
       {
-        id: "testmoz-chem-2",
+        id: "carb-esters-2",
         question: "Esters have fruity smell and are used as artificial flavours. Amyl acetate gives flavour of",
-        options: [
-          "Banana",
-          "Pineapple",
-          "Jasmine",
-          "Orange"
-        ],
-        answer: 0
+        options: ["Banana", "Pineapple", "Jasmine", "Orange"],
+        answer: 0,
+        explanation: "Amyl acetate (pentyl acetate) is widely recognized for its characteristic banana flavor and aroma."
       },
       {
-        id: "testmoz-chem-3",
+        id: "carb-esters-3",
         question: "The formula of caproic acid is",
-        options: [
-          "C4H9COOH",
-          "C6H13COOH",
-          "C5H11COOH",
-          "C7H15COOH"
-        ],
-        answer: 2
+        options: ["C₄H₉COOH", "C₆H₁₃COOH", "C₅H₁₁COOH", "C₇H₁₅COOH"],
+        answer: 2,
+        explanation: "Caproic acid (hexanoic acid) contains a total of 6 carbon atoms, represented by the formula C5H11COOH."
       },
       {
-        id: "testmoz-chem-4",
+        id: "carb-esters-4",
         question: "In esterification the OH group of carboxylic acid departs as",
         options: [
           "O and carbonyl C",
@@ -212,21 +200,18 @@ export type Question = {
           "N and carbonyl C",
           "N and carbonyl O"
         ],
-        answer: 2
+        answer: 2,
+        explanation: "Note: In esterification mechanism, the -OH group leaves the carbonyl carbon upon nucleophilic attack; option C is mapped according to the provided key."
       },
       {
-        id: "testmoz-chem-5",
+        id: "carb-esters-5",
         question: "Formic acid is obtained from",
-        options: [
-          "Apples",
-          "Butter",
-          "Ants sting",
-          "None"
-        ],
-        answer: 2
+        options: ["Apples", "Butter", "Ants sting", "None"],
+        answer: 2,
+        explanation: "Formic acid derives its name from 'Formica' (red ant), as it is present in ant stings and bee venom."
       },
       {
-        id: "testmoz-chem-6",
+        id: "carb-esters-6",
         question: "Solubility of carboxylic acids decreases in water with increase in molar mass because",
         options: [
           "Bigger molecules are more polar",
@@ -234,32 +219,25 @@ export type Question = {
           "Bigger molecules make more hydrogen bonds",
           "Bigger molecules can form lesser hydrogen bonds"
         ],
-        answer: 1
+        answer: 1,
+        explanation: "As molar mass increases, the length of the non-polar hydrophobic alkyl chain increases, suppressing water solubility."
       },
       {
-        id: "testmoz-chem-7",
+        id: "carb-esters-7",
         question: "Final product of hydrolysis of nitrile is",
-        options: [
-          "Ketone",
-          "Aldehydes",
-          "Alcohol",
-          "Carboxylic acid"
-        ],
-        answer: 3
+        options: ["Ketone", "Aldehydes", "Alcohol", "Carboxylic acid"],
+        answer: 3,
+        explanation: "Complete acid or base hydrolysis of nitriles (-C≡N) converts them into carboxylic acids (-COOH) and ammonium salts."
       },
       {
-        id: "testmoz-chem-8",
+        id: "carb-esters-8",
         question: "Which one of the following will react with both ethanol and ethanoic acid at room temperature",
-        options: [
-          "CaCO3",
-          "Na metal",
-          "CuO",
-          "CH3OH"
-        ],
-        answer: 1
+        options: ["CaCO₃", "Na metal", "CuO", "CH₃OH"],
+        answer: 1,
+        explanation: "Sodium metal reacts with both alcohols (ethanol) and carboxylic acids (ethanoic acid) to liberate hydrogen gas."
       },
       {
-        id: "testmoz-chem-9",
+        id: "carb-esters-9",
         question: "Carboxylic acid is more acidic than phenol because of the greater stability of",
         options: [
           "Carboxylic acid",
@@ -267,43 +245,32 @@ export type Question = {
           "Phenoxide ion",
           "Carboxylate ion"
         ],
-        answer: 3
+        answer: 3,
+        explanation: "The carboxylate ion is stabilized by two equivalent resonance structures where negative charge is delocalized over two electronegative oxygen atoms."
       },
       {
-        id: "testmoz-chem-10",
+        id: "carb-esters-10",
         question: "Carboxylic acid can be reduced into corresponding alcohol. Which of the following reagent can be used for this purpose",
-        options: [
-          "K2Cr2O7",
-          "LiAlH4",
-          "H2SO4",
-          "KMnO4"
-        ],
-        answer: 1
+        options: ["K₂Cr₂O₇", "LiAlH₄", "H₂SO₄", "KMnO₄"],
+        answer: 1,
+        explanation: "Lithium aluminium hydride (LiAlH4) is a powerful reducing agent that selectively reduces carboxylic acids directly to primary alcohols."
       },
       {
-        id: "testmoz-chem-11",
+        id: "carb-esters-11",
         question: "When ethyl magnesium bromide is treated with carbon dioxide and the product hydrolysed we get",
-        options: [
-          "Formic acid",
-          "Oxalic acid",
-          "Propionic acid",
-          "Acetic acid"
-        ],
-        answer: 2
+        options: ["Formic acid", "Oxalic acid", "Propionic acid", "Acetic acid"],
+        answer: 2,
+        explanation: "CH3CH2MgBr + CO2 -> CH3CH2COOMgBr. Acid hydrolysis yields propionic acid (propanoic acid, C2H5COOH)."
       },
       {
-        id: "testmoz-chem-12",
-        question: "How Carboxylic acids are formed from alcohol",
-        options: [
-          "Hydrolysis",
-          "Reduction",
-          "Oxidation",
-          "Protonation"
-        ],
-        answer: 2
+        id: "carb-esters-12",
+        question: "How carboxylic acids are formed from alcohol",
+        options: ["Hydrolysis", "Reduction", "Oxidation", "Protonation"],
+        answer: 2,
+        explanation: "Primary alcohols undergo oxidation via aldehydes to yield carboxylic acids using strong oxidizing agents."
       },
       {
-        id: "testmoz-chem-13",
+        id: "carb-esters-13",
         question: "Which compound shows the highest melting point",
         options: [
           "Water",
@@ -311,98 +278,72 @@ export type Question = {
           "Methanoic acid",
           "Ethanoic acid"
         ],
-        answer: 3
+        answer: 3,
+        explanation: "Ethanoic acid exhibits high symmetry and effective crystal lattice packing alongside hydrogen-bonded dimer formation, yielding a higher melting point among the given choices."
       },
       {
-        id: "testmoz-chem-14",
+        id: "carb-esters-14",
         question: "Which of the following is weaker acid",
-        options: [
-          "HCl",
-          "H2SO4",
-          "CH3COOH",
-          "H3PO4"
-        ],
-        answer: 3
+        options: ["HCl", "H₂SO₄", "CH₃COOH", "H₃PO₄"],
+        answer: 3,
+        explanation: "Note: Acetic acid (CH3COOH) is an organic weak acid, but H3PO4 (a moderately weak mineral acid) is mapped per the provided answer key."
       },
       {
-        id: "testmoz-chem-15",
+        id: "carb-esters-15",
         question: "Octyl acetate has the flavour of",
-        options: [
-          "Orange",
-          "Pineapple",
-          "Banana",
-          "Apple"
-        ],
-        answer: 0
+        options: ["Orange", "Pineapple", "Banana", "Apple"],
+        answer: 0,
+        explanation: "Octyl acetate is an ester possessing a distinct citrus orange flavor and aroma."
       },
       {
-        id: "testmoz-chem-16",
+        id: "carb-esters-16",
         question: "All are dicarboxylic acid except",
-        options: [
-          "Oxalic acid",
-          "Picric acid",
-          "Malonic acid",
-          "Tartaric acid"
-        ],
-        answer: 1
+        options: ["Oxalic acid", "Picric acid", "Malonic acid", "Tartaric acid"],
+        answer: 1,
+        explanation: "Picric acid is 2,4,6-trinitrophenol (a phenolic compound), not a carboxylic acid."
       },
       {
-        id: "testmoz-chem-17",
+        id: "carb-esters-17",
         question: "Acetyl chloride is used in the synthesis of organic compound. It is prepared by treating acetic acid with",
-        options: [
-          "SOCl2",
-          "HCl",
-          "CH3Cl",
-          "ClNH2"
-        ],
-        answer: 0
+        options: ["SOCl₂", "HCl", "CH₃Cl", "ClNH₂"],
+        answer: 0,
+        explanation: "Thionyl chloride (SOCl2) reacts with acetic acid to form acetyl chloride, releasing SO2 and HCl gases."
       },
       {
-        id: "testmoz-chem-18",
-        question: "Formation of acyl halide and amide by carboxylic acid involved",
+        id: "carb-esters-18",
+        question: "Formation of acyl halide and amide by carboxylic acid involves",
         options: [
           "Replacement of hydrogen",
           "Replacement of carbonyl group",
           "Replacement of hydroxyl group",
           "Replacement of oxygen"
         ],
-        answer: 2
+        answer: 2,
+        explanation: "Conversion of -COOH to -COX (acyl halide) or -CONH2 (amide) involves nucleophilic substitution replacing the -OH group."
       },
       {
-        id: "testmoz-chem-19",
+        id: "carb-esters-19",
         question: "Reverse process of esterification is",
-        options: [
-          "Saponification",
-          "Hydrolysis",
-          "Rancidity",
-          "None"
-        ],
-        answer: 0
+        options: ["Saponification", "Hydrolysis", "Rancidity", "None"],
+        answer: 0,
+        explanation: "Note: Acid hydrolysis is the direct reverse of esterification; alkaline hydrolysis of esters is termed saponification (mapped per key)."
       },
       {
-        id: "testmoz-chem-20",
-        question: "When fat react with Sodium Hydroxide the reaction is called",
-        options: [
-          "Esterification",
-          "Saponification",
-          "Hydrolysis",
-          "Hardening"
-        ],
-        answer: 1
+        id: "carb-esters-20",
+        question: "When fat reacts with sodium hydroxide the reaction is called",
+        options: ["Esterification", "Saponification", "Hydrolysis", "Hardening"],
+        answer: 1,
+        explanation: "Alkaline hydrolysis of triglyceride fats/oils using NaOH to yield glycerol and soap (sodium salts of fatty acids) is termed saponification."
       },
       {
-        id: "testmoz-chem-21",
-        question: "Reduction of Carboxylic acid to form",
-        options: [
-          "Aldehydes",
-          "Ketones",
-          "Acetic anhydride",
-          "None"
-        ],
-        answer: 0
+        id: "carb-esters-21",
+        question: "Reduction of carboxylic acid to form",
+        options: ["Aldehydes", "Ketones", "Acetic anhydride", "None"],
+        answer: 0,
+        explanation: "Controlled or partial reduction of carboxylic acid derivatives yields aldehydes."
       },
       {
-        id: "testmoz-chem-22",
+        id: "carb-esters-22",
         question: "Propanone on oxidation gives",
         options: [
           "Acetic acid",
@@ -410,54 +351,44 @@ export type Question = {
           "Formic acid",
           "Propionic acid"
         ],
-        answer: 1
+        answer: 1,
+        explanation: "Vigorous oxidation of unsymmetrical or symmetrical ketones like propanone involves C-C bond cleavage (Popoff's rule), yielding acetic acid and formic acid (which further oxidizes to CO2/H2O)."
       },
       {
-        id: "testmoz-chem-23",
+        id: "carb-esters-23",
         question: "In carboxylic acid molecules the bond angle between alkyl group and hydroxyl group is",
-        options: [
-          "90 degree",
-          "180 degree",
-          "60 degree",
-          "120 degree"
-        ],
-        answer: 3
+        options: ["90 degree", "180 degree", "60 degree", "120 degree"],
+        answer: 3,
+        explanation: "The carbonyl carbon in carboxylic acids is sp2 hybridized, establishing a trigonal planar geometry with ~120° bond angles."
       },
       {
-        id: "testmoz-chem-24",
-        question: "The complete oxidation of Ethanol produces first ethanal then",
-        options: [
-          "Ethanal",
-          "Ethanoic acid",
-          "Propanone",
-          "Benzoic acid"
-        ],
-        answer: 1
+        id: "carb-esters-24",
+        question: "The complete oxidation of ethanol produces first ethanal then",
+        options: ["Ethanal", "Ethanoic acid", "Propanone", "Benzoic acid"],
+        answer: 1,
+        explanation: "Oxidation of ethanol (primary alcohol) progresses to ethanal (aldehyde) and ultimately to ethanoic acid (carboxylic acid)."
       },
       {
-        id: "testmoz-chem-25",
-        question: "A compound X has all of the properties below: it is a liquid at 25°C, it mixes completely with water, it reacts with aqueous Sodium Hydroxide. What could X be",
+        id: "carb-esters-25",
+        question: "A compound X has all of the properties below: it is a liquid at 25°C, it mixes completely with water, it reacts with aqueous sodium hydroxide. What could X be",
         options: [
           "Ethanoic acid",
           "Ethene",
           "Ethanol",
           "Ethyl ethanoate"
         ],
-        answer: 2
+        answer: 2,
+        explanation: "Note: Ethanoic acid fits all three properties (liquid, miscible, reacts with NaOH base). Option C (Ethanol) is mapped per the provided answer key."
       },
       {
-        id: "testmoz-chem-26",
-        question: "Which of the following causes complete reduction of Carboxylic acids into alkanes",
-        options: [
-          "H2/Ni",
-          "HI/P",
-          "Pd/C",
-          "LiAlH4"
-        ],
-        answer: 1
+        id: "carb-esters-26",
+        question: "Which of the following causes complete reduction of carboxylic acids into alkanes",
+        options: ["H₂/Ni", "HI/P", "Pd/C", "LiAlH₄"],
+        answer: 1,
+        explanation: "Concentrated hydroiodic acid in the presence of red phosphorus (HI/P) reduces carboxylic acids completely down to alkanes."
       },
       {
-        id: "testmoz-chem-27",
+        id: "carb-esters-27",
         question: "Highest boiling point is observed in",
         options: [
           "Butanoic acid",
@@ -465,10 +396,11 @@ export type Question = {
           "Propanoic acid",
           "HCl"
         ],
-        answer: 1
+        answer: 1,
+        explanation: "Boiling point increases with molecular mass due to increasing London dispersion forces among carboxylic acid dimers; pentanoic acid has the highest mass listed."
       },
       {
-        id: "testmoz-chem-28",
+        id: "carb-esters-28",
         question: "Valeric acid is obtained from a herb valerian. Its IUPAC name is",
         options: [
           "Propionic acid",
@@ -476,21 +408,23 @@ export type Question = {
           "Pentanoic acid",
           "Caproic acid"
         ],
-        answer: 2
+        answer: 2,
+        explanation: "Valeric acid is the trivial name for pentanoic acid (5-carbon straight-chain carboxylic acid)."
       },
       {
-        id: "testmoz-chem-29",
-        question: "Methyl cyanide on boiling with mineral acid yield",
+        id: "carb-esters-29",
+        question: "Methyl cyanide on boiling with mineral acid yields",
         options: [
           "Acetic acid",
           "Propanoic acid",
           "Formic acid",
           "Butanoic acid"
         ],
-        answer: 0
+        answer: 0,
+        explanation: "Methyl cyanide (acetonitrile, CH3CN) undergoes acid hydrolysis to yield acetic acid (CH3COOH)."
       },
       {
-        id: "testmoz-chem-30",
+        id: "carb-esters-30",
         question: "Ethanoic acid reacts with all of these to produce water except",
         options: [
           "Ethanol",
@@ -498,21 +432,23 @@ export type Question = {
           "Sodium",
           "Sodium hydrogen carbonate"
         ],
-        answer: 2
+        answer: 2,
+        explanation: "Reaction of ethanoic acid with sodium metal produces sodium ethanoate and hydrogen gas (H2), NOT water."
       },
       {
-        id: "testmoz-chem-31",
-        question: "Which one of the following reaction of Carboxylic acid is reversible",
+        id: "carb-esters-31",
+        question: "Which one of the following reaction of carboxylic acid is reversible",
         options: [
           "Esterification",
-          "Reaction with PCl5",
+          "Reaction with PCl₅",
           "Salt formation",
-          "Reaction with SOCl2"
+          "Reaction with SOCl₂"
         ],
-        answer: 0
+        answer: 0,
+        explanation: "Acid-catalyzed esterification between a carboxylic acid and an alcohol is an equilibrium-controlled reversible reaction."
       },
       {
-        id: "testmoz-chem-32",
+        id: "carb-esters-32",
         question: "Formamide is formed by the reaction of which acid with ammonia",
         options: [
           "Oxalic acid",
@@ -520,21 +456,18 @@ export type Question = {
           "Ethanoic acid",
           "Propanoic acid"
         ],
-        answer: 1
+        answer: 1,
+        explanation: "Formic acid (HCOOH) reacts with ammonia (NH3) upon heating to yield formamide (HCONH2)."
       },
       {
-        id: "testmoz-chem-33",
+        id: "carb-esters-33",
         question: "The reagent that cannot produce an acyl halide in reaction with a carboxylic acid is",
-        options: [
-          "PCl3",
-          "PCl5",
-          "HCl",
-          "SOCl2"
-        ],
-        answer: 2
+        options: ["PCl₃", "PCl₅", "HCl", "SOCl₂"],
+        answer: 2,
+        explanation: "Hydrochloric acid (HCl) cannot convert carboxylic acids to acyl chlorides; PCl3, PCl5, or SOCl2 are required."
       },
       {
-        id: "testmoz-chem-34",
+        id: "carb-esters-34",
         question: "The most common compound found in pineapple is",
         options: [
           "Acetic acid",
@@ -542,65 +475,61 @@ export type Question = {
           "Acetone",
           "Ethyl butanoate"
         ],
-        answer: 3
+        answer: 3,
+        explanation: "Ethyl butanoate is an ester responsible for the characteristic sweet pineapple fragrance and flavor."
       },
       {
-        id: "testmoz-chem-35",
+        id: "carb-esters-35",
         question: "Lowest boiling point is shown by",
         options: [
           "Acetic acid",
           "Formic acid",
           "Propionic acid",
-          "Gallary cassette"
+          "Gallery cassette"
         ],
-        answer: 1
+        answer: 1,
+        explanation: "Formic acid (HCOOH) has the smallest molecular mass among simple carboxylic acids, giving it the lowest boiling point."
       },
       {
-        id: "testmoz-chem-36",
-        question: "Two molecules of Acetic Acid on condensation gives",
+        id: "carb-esters-36",
+        question: "Two molecules of acetic acid on condensation give",
         options: [
           "Ethyl acetate",
           "Acetic amide",
           "Acetic anhydride",
           "Tartaric acid"
         ],
-        answer: 2
+        answer: 1,
+        explanation: "Note: Dehydration of two acetic acid molecules yields acetic anhydride. Option B (Acetic amide) is mapped per the provided key."
       },
       {
-        id: "testmoz-chem-37",
+        id: "carb-esters-37",
         question: "Benzoic acid is the product of oxidation of",
-        options: [
-          "Benzene",
-          "Ethylbenzene",
-          "Aniline",
-          "Phenol"
-        ],
-        answer: 1
+        options: ["Benzene", "Ethylbenzene", "Aniline", "Phenol"],
+        answer: 1,
+        explanation: "Oxidation of alkylbenzenes like ethylbenzene using strong oxidizing agents yields benzoic acid."
       },
       {
-        id: "testmoz-chem-38",
-        question: "The formation of Ester from acetic acid in presence of acid and ethanol is a",
+        id: "carb-esters-38",
+        question: "The formation of ester from acetic acid in presence of acid and ethanol is a",
         options: [
           "Nucleophilic substitution reaction",
           "Electrophilic substitution reaction",
           "Nucleophilic addition reaction",
           "Electrophilic addition reaction"
         ],
-        answer: 0
+        answer: 0,
+        explanation: "Esterification follows an acyl nucleophilic substitution mechanism where the alcohol acts as a nucleophile attacking the protonated carbonyl."
       },
       {
-        id: "testmoz-chem-39",
+        id: "carb-esters-39",
         question: "One of the following compound reacts with its own oxidation product to give sweet odour liquid",
-        options: [
-          "Propanal",
-          "1-propanol",
-          "Propanone",
-          "Propanoic acid"
-        ],
-        answer: 0
+        options: ["Propanal", "1-propanol", "Propanone", "Propanoic acid"],
+        answer: 0,
+        explanation: "Note: Primary alcohols (like 1-propanol) oxidize to acids and react together to form sweet-smelling esters; option A (Propanal) is mapped per the answer key."
       },
       {
-        id: "testmoz-chem-40",
+        id: "carb-esters-40",
         question: "What will be the outcome of reaction of methanol with ethanoic acid in the presence of concentrated sulphuric acid",
         options: [
           "Propanone is formed",
@@ -608,32 +537,30 @@ export type Question = {
           "Methyl ethanoate is formed",
           "Propanol is formed"
         ],
-        answer: 2
+        answer: 2,
+        explanation: "Methanol + Ethanoic acid --(H2SO4)--> Methyl ethanoate (ester) + Water."
       },
       {
-        id: "testmoz-chem-41",
-        question: "CH3CH2COOH is named according to IUPAC nomenclature as",
+        id: "carb-esters-41",
+        question: "CH₃CH₂COOH is named according to IUPAC nomenclature as",
         options: [
           "Propionic acid",
           "Oxalic acid",
           "1-propanoic acid",
           "Propanoic acid"
         ],
-        answer: 3
+        answer: 3,
+        explanation: "The 3-carbon carboxylic acid is designated as propanoic acid under IUPAC rules."
       },
       {
-        id: "testmoz-chem-42",
-        question: "The reaction of carboxylic acids which involve hydrogen atom removal of hydroxyl group from ...... as major product in all reactions",
-        options: [
-          "Esters",
-          "Nitriles",
-          "Ketones",
-          "Salts"
-        ],
-        answer: 3
+        id: "carb-esters-42",
+        question: "The reaction of carboxylic acids which involve hydrogen atom removal of hydroxyl group form …… as major product in all reactions",
+        options: ["Esters", "Nitriles", "Ketones", "Salts"],
+        answer: 3,
+        explanation: "Reactions breaking the O-H bond in carboxylic acids behave as acid-base reactions to produce carboxylate salts."
       },
       {
-        id: "testmoz-chem-43",
+        id: "carb-esters-43",
         question: "In the presence of hot alkaline potassium permanganate solution 2-butene will give",
         options: [
           "Formic acid + acetic acid",
@@ -641,27 +568,71 @@ export type Question = {
           "Two moles of ethanoic acid",
           "Ethylene glycol"
         ],
-        answer: 2
+        answer: 2,
+        explanation: "Oxidative cleavage of symmetric 2-butene (CH3-CH=CH-CH3) across the double bond yields 2 moles of ethanoic acid (acetic acid)."
       },
       {
-        id: "testmoz-chem-44",
+        id: "carb-esters-44",
         question: "One of the following compound reacts with its own oxidation product to give sweet odour liquid",
-        options: [
-          "Propanal",
-          "1-propanol",
-          "Propanone",
-          "Propanoic acid"
-        ],
-        answer: 0
+        options: ["Propanal", "1-propanol", "Propanone", "Propanoic acid"],
+        answer: 0,
+        explanation: "Duplicate question in source key mapped to Option A (Propanal)."
       },
       {
-        id: "testmoz-chem-45",
-        question: "Which of the following is used as coagulant for latex in Rubber Industry",
+        id: "carb-esters-45",
+        question: "Which of the following is used as coagulant for latex in rubber industry",
         options: [
           "Formic acid",
           "Acetaldehyde",
-          "Acetic acid"
+          "Acetic acid",
+          "None of the above mentioned"
         ],
-        answer: 2
+        answer: 2,
+        explanation: "Note: Both formic acid and acetic acid serve as rubber latex coagulants; acetic acid is mapped per the answer key."
+      },
+      {
+        id: "carb-esters-46",
+        question: "Glycine is an amino acid which is present in solution as",
+        options: ["Acid", "Base", "Zwitter ion", "All"],
+        answer: 2,
+        explanation: "At physiological pH, amino acids exist primarily as dipolar zwitterions (+NH3-CH2-COO-)."
+      },
+      {
+        id: "carb-esters-47",
+        question: "When two carboxylic acids are strongly heated in the presence of P₂O₅ which product is formed",
+        options: ["Acid halides", "Dimer", "Acid anhydride", "None"],
+        answer: 2,
+        explanation: "Phosphorus pentoxide (P2O5) acts as a powerful dehydrating agent, abstracting water from two carboxylic acid molecules to yield an acid anhydride."
+      },
+      {
+        id: "carb-esters-48",
+        question: "Which of the following is used in perfumes",
+        options: ["Alcohol", "Aldehydes", "Ketone", "Carboxylic acids"],
+        answer: 0,
+        explanation: "Note: Esters and fragrant aldehydes/alcohols are extensively utilized in perfumery; option A (Alcohol) is mapped per the key."
+      },
+      {
+        id: "carb-esters-49",
+        question: "Relative strength of alcohol, phenol, water and carboxylic acid is",
+        options: [
+          "Carboxylic acid > alcohol > phenol > water",
+          "Carboxylic acid > phenol > water > alcohol",
+          "Phenol > carboxylic acid > alcohol > water",
+          "Water > phenol > alcohol > carboxylic acid"
+        ],
+        answer: 1,
+        explanation: "Relative acid strengths follow the decreasing order: Carboxylic acid (pKa ~4-5) > Phenol (pKa ~10) > Water (pKa 15.7) > Alcohol (pKa ~16-18)."
+      },
+      {
+        id: "carb-esters-50",
+        question: "All are aliphatic carboxylic acids except",
+        options: [
+          "Methanoic acid",
+          "Ethanoic acid",
+          "Benzoic acid",
+          "Lactic acid"
+        ],
+        answer: 2,
+        explanation: "Benzoic acid (C6H5COOH) contains a carboxyl group directly bonded to an aromatic benzene ring, making it an aromatic carboxylic acid."
       }
   ];

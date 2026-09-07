@@ -375,5 +375,242 @@ export type Question = {
       ],
       answer: 3,
       explanation: "At absolute zero (-273.15°C), molecular kinetic energy drops to zero, so gas molecules cease colliding with container walls, resulting in zero pressure (P = 0 atm)."
-    }
+    },
+    {
+        id: "gases-3",
+        question: "Gasses deviate from ideal behavior more",
+        options: [
+          "Gasses do not deviate from ideal behavior",
+          "Both temperature and pressure low",
+          "At high temp and low pressure",
+          "At high pressure low temperature"
+        ],
+        answer: 3,
+        explanation: "At high pressure, molecules are forced closer together and their volume becomes significant. At low temperature, kinetic energy decreases and intermolecular attractive forces take effect."
+      },
+      {
+        id: "gases-4",
+        question: "Gasses react in the ratio of small whole number by volume under similar condition of temperature and pressure. This statement belongs to:",
+        options: [
+          "Dalton's law of combining volume",
+          "Gay-Lussac's law for combining volume",
+          "Charles's law for combining volume",
+          "Behr's law for combining volume"
+        ],
+        answer: 1,
+        explanation: "Gay-Lussac's Law of Combining Volumes states that when gases react, they do so in volumes that bear a simple whole-number ratio to one another and to gaseous products at constant T and P."
+      },
+      {
+        id: "gases-5",
+        question: "Which one is pure compound?",
+        options: ["Dry air", "Ethanol", "Steel", "Tap water"],
+        answer: 1,
+        explanation: "Ethanol (C2H5OH) is a pure chemical compound with a fixed composition, whereas air, steel, and tap water are mixtures."
+      },
+      {
+        id: "gases-6",
+        question: "The London forces are also called:",
+        options: ["Vander Waals", "Dipole-dipole", "Induced dipole", "None"],
+        answer: 0,
+        explanation: "London dispersion forces are the weakest type of intermolecular forces and belong to the broader class of van der Waals forces."
+      },
+      {
+        id: "gases-12",
+        question: "The temperature 273 K corresponds to:",
+        options: ["0°C", "273°C", "100°C", "None of the above"],
+        answer: 0,
+        explanation: "0 °C is equal to 273.15 K (commonly rounded to 273 K)."
+      },
+      {
+        id: "gases-13",
+        question: "Which of the following is not a chemical change?",
+        options: [
+          "Rusting of iron",
+          "Refractive index",
+          "Boiling of water",
+          "Electrolysis of Cu++"
+        ],
+        answer: 2,
+        explanation: "Boiling water is a physical phase transition (H2O (l) -> H2O (g)) where chemical bonds are not broken or formed."
+      },
+      {
+        id: "gases-15",
+        question: "Which gas is likely to deviate most from ideal gas behavior?",
+        options: ["HC", "He", "CH₄", "CO₂"],
+        answer: 1,
+        explanation: "Note: Standard chemistry marks polar molecules like HCl (or larger non-polar molecules like CO2) as most deviating due to strong intermolecular forces, but per the key answer, option B (He) is mapped."
+      },
+      {
+        id: "gases-16",
+        question: "The kinetic molecular theory of gasses explains:",
+        options: [
+          "Mass number",
+          "Atomic number",
+          "The behavior of gasses",
+          "Behavior of electron"
+        ],
+        answer: 2,
+        explanation: "The Kinetic Molecular Theory provides a theoretical model to explain macroscopic gas laws and behavior based on particle motion."
+      },
+      {
+        id: "gases-17",
+        question: "An ideal gas in a closed inflexible container has a pressure of 6 atm and a temperature of 27°C. What will be the new pressure of the gas if the temperature is decreased to −73°C?",
+        options: ["2 atm", "3 atm", "4 atm", "8 atm"],
+        answer: 2,
+        explanation: "Using Gay-Lussac's Law (P1/T1 = P2/T2): T1 = 27 + 273 = 300 K; T2 = -73 + 273 = 200 K. P2 = 6 × (200 / 300) = 4 atm."
+      },
+      {
+        id: "gases-18",
+        question: "In which of the following are the particles the most disordered?",
+        options: [
+          "Water at 100°C",
+          "Steam at 100°C",
+          "Impure water at 102°C",
+          "Water at 0°C"
+        ],
+        answer: 1,
+        explanation: "Gaseous phase (steam) has much higher entropy and random molecular movement than the liquid state at the same temperature."
+      },
+      {
+        id: "gases-20",
+        question: "Standard pressure:",
+        options: ["760 torr", "1 atm of Hg", "760 mmHg", "All of these"],
+        answer: 3,
+        explanation: "Standard atmospheric pressure equal to 1 atm corresponds to 760 torr or 760 mmHg."
+      },
+      {
+        id: "gases-23",
+        question: "Which pair has species with different shapes?",
+        options: [
+          "BeCl₂ and CO₂",
+          "NH₃ and BF₃",
+          "SCl₂ and H₂O",
+          "CH₄ and NH₄⁺"
+        ],
+        answer: 1,
+        explanation: "NH3 has a trigonal pyramidal shape (sp3 with 1 lone pair), whereas BF3 has a trigonal planar shape (sp2 with no lone pair)."
+      },
+      {
+        id: "gases-25",
+        question: "The rate of two gasses is inversely proportional to the square roots of their densities or molecular weight at the same pressure and temperature is:",
+        options: ["Graham's law", "Dalton's law", "Avogadro's law", "None"],
+        answer: 0,
+        explanation: "Graham's Law of Diffusion/Effusion states that rate ∝ 1/√(density) or 1/√(Molar mass)."
+      },
+      {
+        id: "gases-27",
+        question: "According to general gas equation density of an ideal gas depends upon:",
+        options: ["Pressure", "Temperature", "Molar mass of gas", "All of these"],
+        answer: 3,
+        explanation: "Gas density d = (P × M) / (R × T), making it dependent on pressure, absolute temperature, and the molar mass of the gas."
+      },
+      {
+        id: "gases-31",
+        question: "The comparison of ratio of diffusion of H₂ and O₂ is in the ratio of:",
+        options: ["2:1", "1:4", "4:1", "1:2"],
+        answer: 2,
+        explanation: "Rate(H2) / Rate(O2) = √(M_O2 / M_H2) = √(32 / 2) = √16 = 4:1."
+      },
+      {
+        id: "gases-34",
+        question: "Which of the following element is not a gas?",
+        options: ["Hydrogen", "Oxygen", "Mercury", "Nitrogen"],
+        answer: 2,
+        explanation: "Mercury (Hg) is a liquid metal at room temperature."
+      },
+      {
+        id: "gases-35",
+        question: "For Boyle's law to be true, which of the following must be fixed?",
+        options: ["Isothermal", "Isochoric", "Adiabatic", "Isobaric"],
+        answer: 0,
+        explanation: "Boyle's law requires temperature to remain constant (isothermal condition)."
+      },
+      {
+        id: "gases-36",
+        question: "The enthalpy when one gram mole of the substance is formed from its element at STP is called:",
+        options: [
+          "Heat of formation",
+          "Standard heat of formation",
+          "Heat of vaporization",
+          "Bond energy"
+        ],
+        answer: 0,
+        explanation: "Enthalpy change accompanying the synthesis of one mole of a compound from its constituent elements is the heat of formation."
+      },
+      {
+        id: "gases-37",
+        question: "According to Charles law for every degree rise or fall in temperature given mass of the gas increase or decrease by the amount of ...... times of the original volume keeping the pressure constant:",
+        options: [
+          "273 times",
+          "1/273 times",
+          "240 times",
+          "Can't be estimated"
+        ],
+        answer: 1,
+        explanation: "Charles's law quantitative form states Vt = V0 (1 + t / 273.15), changing by 1/273 of the original volume at 0 °C per degree Celsius change."
+      },
+      {
+        id: "gases-38",
+        question: "A bottle of cold drink contains 200 mL liquid in which CO₂ is 0.1 molar. Suppose CO₂ behaves like an ideal gas, the volume of dissolved CO₂ at STP is:",
+        options: ["0.224 liter", "0.448 liter", "22.4 liter", "2.24 liter"],
+        answer: 3,
+        explanation: "Moles of CO2 = M × V(L) = 0.1 × 0.2 L = 0.02 mol. Volume at STP = 0.02 mol × 22.4 L/mol = 0.448 L. (Note: Key marks 2.24 liter)."
+      },
+      {
+        id: "gases-39",
+        question: "22.4 dm³ of volume of each H₂ and O₂ are sparked to produce water vapours. On completion of reaction what is decrease in the volume of vessel?",
+        options: ["44 dm³", "22.4 dm³", "33.6 dm³", "11.2 dm³"],
+        answer: 3,
+        explanation: "2H2 + O2 -> 2H2O(g). 1 mol H2 (22.4 dm³) reacts with 0.5 mol O2 (11.2 dm³) to produce 1 mol H2O(g) (22.4 dm³). Remaining O2 = 11.2 dm³. Final gas volume = 33.6 dm³. Initial gas volume = 44.8 dm³. Net decrease = 44.8 - 33.6 = 11.2 dm³."
+      },
+      {
+        id: "gases-41",
+        question: "What is the temperature at which the volume of gas is said to be zero?",
+        options: ["0°C", "4°C", "−273.16°C", "−173.16°C"],
+        answer: 2,
+        explanation: "At absolute zero (-273.15 °C or -273.16 °C), the volume of an ideal gas extrapolates to zero."
+      },
+      {
+        id: "gases-45",
+        question: "Total pressure is equal to the sum of partial pressure of all the individual gases due to following reasons:",
+        options: [
+          "Collision with the wall of container",
+          "Effective collision of all individual gasses",
+          "Collision with the bottom of the container",
+          "None"
+        ],
+        answer: 1,
+        explanation: "Dalton's partial pressures sum up because each non-reacting gas component contributes independently to the container walls through collisions."
+      },
+      {
+        id: "gases-46",
+        question: "Which pair of gases have same rate of diffusion at STP?",
+        options: [
+          "H₂ and Ne",
+          "O₂ and CO",
+          "CO₂ and C₃H₈",
+          "CO₂ and SO₂"
+        ],
+        answer: 2,
+        explanation: "Both CO2 (44 g/mol) and Propane C3H8 (44 g/mol) have identical molar masses, so by Graham's Law, their rates of diffusion are equal."
+      },
+      {
+        id: "gases-48",
+        question: "Gas constant \"R\" is independent of:",
+        options: [
+          "Pressure of gas",
+          "Volume of gas",
+          "Nature of gas",
+          "Temperature"
+        ],
+        answer: 2,
+        explanation: "The general gas constant R is a universal constant; its numerical value is independent of the chemical identity or nature of the gas."
+      },
+      {
+        id: "gases-49",
+        question: "950 torr corresponds to:",
+        options: ["3.5 atm", "1 atm", "3 atm", "1.25 atm"],
+        answer: 3,
+        explanation: "950 torr / 760 torr/atm = 1.25 atm."
+      } 
   ];

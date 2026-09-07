@@ -484,5 +484,495 @@ export type Question = {
       ],
       answer: 1,
       explanation: "Chlorination of the benzene ring in the presence of a Lewis acid catalyst proceeds via an Electrophilic Aromatic Substitution (S_EAr) mechanism."
-    }
+    },
+   {
+        id: "hydrocarbons-1",
+        question: "Aromatic compounds are divided into",
+        options: [
+          "Saturated and unsaturated hydrocarbons",
+          "Homo nuclear and heteronuclear compounds",
+          "Cyclic and open chain hydrocarbons",
+          "Unsaturated and cyclic hydrocarbons",
+          "None"
+        ],
+        answer: 4,
+        explanation: "Note: Aromatic compounds are typically classified as monocyclic, polycyclic, or heterocyclic compounds. Option E (None) is selected per the provided answer key."
+      },
+      {
+        id: "hydrocarbons-2",
+        question: "Which derivative of benzene show maximum reactivity in electrophilic substitution reactions",
+        options: [
+          "Benzaldehyde",
+          "Methyl benzene",
+          "Benzoic acid",
+          "Nitrobenzene"
+        ],
+        answer: 1,
+        explanation: "Methyl benzene (toluene) contains a methyl (-CH3) group which donates electron density via hyperconjugation and inductive effect, activating the benzene ring toward electrophilic substitution."
+      },
+      {
+        id: "hydrocarbons-3",
+        question: "Which is obtained in the laboratory of heating mixture of Sodium Acetate and soda line",
+        options: [
+          "Alcohol",
+          "Ethane",
+          "Methane",
+          "None of the above mentioned"
+        ],
+        answer: 2,
+        explanation: "Decarboxylation of sodium acetate (CH3COONa) with soda lime (NaOH + CaO) produces methane gas (CH4) and sodium carbonate."
+      },
+      {
+        id: "hydrocarbons-4",
+        question: "Benzene is the simplest example of hydrocarbon called",
+        options: [
+          "A cyclic",
+          "Aromatic",
+          "Open chain",
+          "All of these"
+        ],
+        answer: 1,
+        explanation: "Benzene (C6H6) is the fundamental parent compound of aromatic hydrocarbons."
+      },
+      {
+        id: "hydrocarbons-5",
+        question: "Hybridization of ethene",
+        options: ["Sp", "Sp2", "Sp3", "None"],
+        answer: 1,
+        explanation: "Each carbon atom in ethene (CH2=CH2) is bound to three other atoms via sigma bonds, adopting sp2 hybridization with a trigonal planar geometry."
+      },
+      {
+        id: "hydrocarbons-6",
+        question: "Acetophenone can be formed by which of the following reaction of benzene",
+        options: ["Alkylation", "Acylation", "Halogenation", "Nitration"],
+        answer: 1,
+        explanation: "Friedel-Crafts acylation of benzene using acetyl chloride (CH3COCl) in the presence of anhydrous AlCl3 forms acetophenone."
+      },
+      {
+        id: "hydrocarbons-7",
+        question: "Reaction mechanism of alkanes with halogen is known as",
+        options: [
+          "Addition reaction",
+          "Elimination reaction",
+          "Free radical substitution",
+          "Propagation reaction"
+        ],
+        answer: 2,
+        explanation: "Halogenation of alkanes in the presence of sunlight/UV light proceeds via a free-radical substitution mechanism involving initiation, propagation, and termination steps."
+      },
+      {
+        id: "hydrocarbons-8",
+        question: "All of the following are electrophilic substitution reaction of benzene except",
+        options: [
+          "Halogenation",
+          "Nitration",
+          "Sulphonation",
+          "Hydrogenation"
+        ],
+        answer: 3,
+        explanation: "Hydrogenation of benzene (addition of H2 to yield cyclohexane) is an electrophilic addition reaction, not a substitution reaction."
+      },
+      {
+        id: "hydrocarbons-9",
+        question: "Which of the following is not a use of acetone",
+        options: [
+          "It is used as nail polish remover",
+          "It is used in the silvering of mirrors",
+          "It is used in the formation of chloroform",
+          "It is used in the preparation of artificial Scents",
+          "It used in the preparation of synthetic rubber"
+        ],
+        answer: 1,
+        explanation: "Tollens' reagent (ammoniacal silver nitrate) used in the silvering of mirrors is reduced by aldehydes, not ketones like acetone."
+      },
+      {
+        id: "hydrocarbons-10",
+        question: "Which of the following test can be used for distinguishing of an alkane and alkene",
+        options: [
+          "Bromine water test",
+          "Hydroxylation",
+          "Both a and b",
+          "Ozonolysis"
+        ],
+        answer: 2,
+        explanation: "Alkenes decolorize bromine water (addition reaction) and discharge the pink color of alkaline KMnO4 (Baeyer's reagent / hydroxylation), whereas alkanes do not."
+      },
+      {
+        id: "hydrocarbons-11",
+        question: "The oxidation of toluene by acidified KMnO4 produces",
+        options: [
+          "Phenol",
+          "Benzyl alcohol",
+          "Benzoic acid",
+          "Benzene"
+        ],
+        answer: 2,
+        explanation: "Strong oxidation of alkylbenzenes like toluene using acidified or alkaline KMnO4 oxidizes the side chain completely to give benzoic acid."
+      },
+      {
+        id: "hydrocarbons-12",
+        question: "Elimination of halogen atom together with the hydrogen atom from an alkyl halide produces",
+        options: ["Alkane", "Alkene", "Alcohols", "Ethers"],
+        answer: 1,
+        explanation: "Dehydrohalogenation (-HX) of an alkyl halide using alcoholic KOH forms an alkene."
+      },
+      {
+        id: "hydrocarbons-13",
+        question: "The density of Methane at 27 centigrade and 2 atmosphere is",
+        options: ["0.6 gm/dm³", "9.1 g/dm³", "1.8 gm/dm³", "0.91 gm/dm³"],
+        answer: 0,
+        explanation: "Using d = (P × M) / (R × T): P = 2 atm, M = 16 g/mol, T = 300 K, R = 0.0821 L atm mol⁻¹ K⁻¹. d = (2 × 16) / (0.0821 × 300) = 32 / 24.63 ≈ 1.3 g/dm³. Per the provided key, 0.6 gm/dm³ is selected."
+      },
+      {
+        id: "hydrocarbons-14",
+        question: "Dehydration of alcohols with concentrated sulphuric acid at 180 centigrade gives",
+        options: ["Alkanes", "Alkenes", "Alkynes", "Diethyl ether"],
+        answer: 1,
+        explanation: "Intramolecular dehydration of primary alcohols with conc. H2SO4 at high temperatures (around 170–180 °C) produces alkenes."
+      },
+      {
+        id: "hydrocarbons-15",
+        question: "Total number of hybrid orbitals of all the carbon atoms in Benzene are",
+        options: ["3", "6", "12", "18"],
+        answer: 3,
+        explanation: "Benzene contains 6 carbon atoms, each with sp2 hybridization (3 hybrid orbitals per carbon atom). Total hybrid orbitals = 6 × 3 = 18."
+      },
+      {
+        id: "hydrocarbons-16",
+        question: "Treatment of ethene with cold sulphuric acid followed by reaction with boiling water yields",
+        options: ["Ethyne", "Ethane", "Ethanal", "Ethanol"],
+        answer: 3,
+        explanation: "Ethene adds conc. H2SO4 to form ethyl hydrogen sulfate, which upon boiling with water undergoes hydrolysis to form ethanol (CH3CH2OH)."
+      },
+      {
+        id: "hydrocarbons-17",
+        question: "Which of the following is not acidic in nature",
+        options: ["Ethyne", "Propyne", "1-butyne", "2-butyne"],
+        answer: 2,
+        explanation: "Note: Terminal alkynes (ethyne, propyne, 1-butyne) contain acidic acetylenic hydrogens, whereas non-terminal alkynes (2-butyne) lack acidic hydrogens. Per the answer key, 1-butyne is selected."
+      },
+      {
+        id: "hydrocarbons-18",
+        question: "Benzene is subjected to alkylation Nitration and oxidation the product is",
+        options: [
+          "Ortho and para nitro toluene",
+          "Meta nitro benzoic acid",
+          "Ortho and para nitro benzoic acid",
+          "Ortho nitro benzoic acid"
+        ],
+        answer: 2,
+        explanation: "Alkylation forms toluene (ortho/para directing). Nitration gives o- and p-nitrotoluene. Subsequent oxidation of the methyl group yields o- and p-nitrobenzoic acids."
+      },
+      {
+        id: "hydrocarbons-19",
+        question: "Hybridization of alkanes",
+        options: ["SP2", "SP3", "Sp", "None"],
+        answer: 1,
+        explanation: "Carbon atoms in saturated hydrocarbons (alkanes) are tetrahedrally bonded via single sp3 hybrid orbitals."
+      },
+      {
+        id: "hydrocarbons-20",
+        question: "Which of the following is not used for the dehydration of alcohols",
+        options: ["P₄O₁₀", "HNO₃", "H₂SO₄", "H₃PO₄"],
+        answer: 1,
+        explanation: "Nitric acid (HNO3) is a strong oxidizing agent rather than a typical dehydrating agent like H2SO4, H3PO4, or P4O10."
+      },
+      {
+        id: "hydrocarbons-21",
+        question: "The preparation of vegetable ghee involves",
+        options: ["Halogenation", "Hydrogenation", "Hydroxylation", "None"],
+        answer: 1,
+        explanation: "Catalytic hydrogenation (addition of H2 using Ni catalyst at 200°C) converts unsaturated liquid vegetable oils into solid saturated vegetable ghee."
+      },
+      {
+        id: "hydrocarbons-22",
+        question: "How do amine groups direct subsequent reaction in the benzene ring",
+        options: [
+          "Deactivate the ring Ortho para directing",
+          "Activate the ring meta directing",
+          "Activate the ring ortho para directing",
+          "Deactivate the ring meta directing"
+        ],
+        answer: 2,
+        explanation: "The amino group (-NH2) donates its lone pair into the aromatic pi-system via resonance, strongly activating the ring and directing electrophiles to ortho and para positions."
+      },
+      {
+        id: "hydrocarbons-23",
+        question: "Which of the following compound react slower than benzene in electrophilic substitution reaction",
+        options: ["Nitrobenzene", "Phenol", "Aniline", "Toluene"],
+        answer: 0,
+        explanation: "The nitro group (-NO2) is a strong electron-withdrawing group that deactivates the aromatic ring, making nitrobenzene react much slower than benzene."
+      },
+      {
+        id: "hydrocarbons-24",
+        question: "The conversion of benzene into cyclohexane is",
+        options: [
+          "Exothermic process",
+          "Isothermic process",
+          "Endothermic process",
+          "Both end"
+        ],
+        answer: 0,
+        explanation: "Hydrogenation of aromatic rings releases heat of hydrogenation, making the catalytic conversion of benzene to cyclohexane an exothermic reaction."
+      },
+      {
+        id: "hydrocarbons-25",
+        question: "Benzene in presence of AlCl₃ gives acetophenone when reacts with",
+        options: [
+          "Acetyl chloride",
+          "Acetic acid",
+          "Ethyl Benzene",
+          "Ethanoic acid"
+        ],
+        answer: 0,
+        explanation: "Benzene reacts with acetyl chloride (CH3COCl) in the presence of an AlCl3 catalyst to yield acetophenone via Friedel-Crafts acylation."
+      },
+      {
+        id: "hydrocarbons-26",
+        question: "Baeyers reagent is used in the laboratory for",
+        options: [
+          "Reduction",
+          "Oxidation",
+          "Detection of double bond",
+          "Detection of glucose"
+        ],
+        answer: 2,
+        explanation: "Baeyer's reagent (cold 1% alkaline KMnO4 solution) is used to detect unsaturation (double or triple carbon-carbon bonds) by discharging its purple color."
+      },
+      {
+        id: "hydrocarbons-27",
+        question: "The test of unsaturation of organic compound is carried out by treating alkys with 1% dilute alkaline KMnO₄ solution the colour of KMnO₄ is discharge with the formation of",
+        options: [
+          "Ethylene glycol",
+          "Vicinal glycol",
+          "Glyoxal",
+          "Oxalic acid"
+        ],
+        answer: 1,
+        explanation: "Hydroxylation of alkenes using cold alkaline KMnO4 adds -OH groups across the double bond to produce vicinal glycols (1,2-diols)."
+      },
+      {
+        id: "hydrocarbons-28",
+        question: "Ethene on polymerization gives the product polythene this reaction may be called as",
+        options: ["Addition", "Substitution", "Condensation"],
+        answer: 0,
+        explanation: "Polythene formation is an addition polymerization process where monomer units link together without the loss of any small molecules."
+      },
+      {
+        id: "hydrocarbons-29",
+        question: "Hydrogenation of unsaturated oil is done by using",
+        options: [
+          "Pyrolysis",
+          "Finely divided Nickel",
+          "Finely divided iron",
+          "Vanadium pentoxide",
+          "Copper"
+        ],
+        answer: 1,
+        explanation: "Finely divided Nickel (Ni) serves as the catalyst for the commercial hydrogenation of unsaturated vegetable oils."
+      },
+      {
+        id: "hydrocarbons-30",
+        question: "Which type of reaction occurs between ethene and hydrogen",
+        options: ["Addition", "Neutralization", "Dehydration", "Oxidation"],
+        answer: 0,
+        explanation: "Hydrogenation of ethene (CH2=CH2 + H2 -> CH3-CH3) is a catalytic addition reaction across the double bond."
+      },
+      {
+        id: "hydrocarbons-31",
+        question: "The reaction of benzene with bromine in the presence of FeBr₃ follows the mechanism of",
+        options: [
+          "Electrophilic addition",
+          "Electrophilic substitution",
+          "Nucleophilic substitution",
+          "Nucleophilic addition"
+        ],
+        answer: 1,
+        explanation: "Bromination of benzene in the presence of a Lewis acid catalyst (FeBr3) proceeds via an electrophilic aromatic substitution mechanism."
+      },
+      {
+        id: "hydrocarbons-32",
+        question: "An alkane hydrocarbon chain cyclization would result in the formation of",
+        options: [
+          "Ali cyclic compound",
+          "Aromatic compound",
+          "Ethers",
+          "All"
+        ],
+        answer: 0,
+        explanation: "Cyclization of an open-chain aliphatic alkane yields a non-aromatic cyclic hydrocarbon known as an alicyclic compound (cycloalkane)."
+      },
+      {
+        id: "hydrocarbons-33",
+        question: "In the halogenation and alkylation of benzene the process involved is",
+        options: [
+          "Substitution",
+          "Addition",
+          "Friedel crafts reaction",
+          "None of these"
+        ],
+        answer: 2,
+        explanation: "Alkylation of benzene using alkyl halides and Lewis acid catalysts is specifically known as the Friedel-Crafts reaction."
+      },
+      {
+        id: "hydrocarbons-34",
+        question: "Mustard gas is formed by the treatment of Sulphur monochloride with",
+        options: ["Ethane", "Methane", "Ethene", "Ethylene glycol"],
+        answer: 2,
+        explanation: "Mustard gas (2,2'-dichlorodiethyl sulfide) is synthesized by reacting ethene (ethylene) with sulfur monochloride (S2Cl2)."
+      },
+      {
+        id: "hydrocarbons-35",
+        question: "Methane when heated in the absence of oxygen gives by product carbon black which is used in",
+        options: [
+          "Rubber Industry",
+          "Pigments for paint",
+          "Type writer carbon papers",
+          "Pigment for plastic",
+          "All"
+        ],
+        answer: 4,
+        explanation: "Carbon black produced by thermal decomposition of methane is used as a reinforcing agent in rubber tires and as a black pigment in paints, inks, and plastics."
+      },
+      {
+        id: "hydrocarbons-36",
+        question: "Physical properties of ethyne is",
+        options: [
+          "It is colourless with sweet smell",
+          "It is sparingly soluble in water",
+          "Is less dense than air",
+          "It explodes on compression to a liquid because of unstable nature",
+          "All"
+        ],
+        answer: 4,
+        explanation: "All listed properties accurately describe the physical characteristics and safety behavior of pure acetylene (ethyne)."
+      },
+      {
+        id: "hydrocarbons-37",
+        question: "2 chloropropane is heated with sodium metal product is 2,3 dimethyl butane reaction is",
+        options: [
+          "Dehydrohalogenation",
+          "Wurtz reaction",
+          "Dehydration",
+          "Catalytic hydrogenation"
+        ],
+        answer: 1,
+        explanation: "Coupling two alkyl halide molecules using metallic sodium in dry ether to form a higher symmetric alkane is known as the Wurtz reaction."
+      },
+      {
+        id: "hydrocarbons-38",
+        question: "Which of the following reactions is used for the production of alcohol on industrial scale",
+        options: [
+          "Hydro halogenation of alkenes",
+          "Hydration of alkenes",
+          "Hydroxylation of alkenes",
+          "Hydrogenation of alkanes"
+        ],
+        answer: 1,
+        explanation: "Industrial production of ethanol and other alcohols is widely carried out via the acid-catalyzed hydration of alkenes with steam."
+      },
+      {
+        id: "hydrocarbons-39",
+        question: "Homolysis of covalent bond yields a very reactive species with incomplete octate in its valence shell what is this species",
+        options: [
+          "Complex ion",
+          "Free radical",
+          "Electrophile",
+          "Nucleophile"
+        ],
+        answer: 1,
+        explanation: "Homolytic cleavage splits a covalent bond equally, leaving one unpaired electron on each fragment to form neutral, highly reactive free radicals."
+      },
+      {
+        id: "hydrocarbons-40",
+        question: "Propagation of free radical mechanism take place by the",
+        options: [
+          "Reaction of free radicals with free radical",
+          "Formation of two free radicals",
+          "Consumption as well as production of another free radical",
+          "Reaction between two molecules"
+        ],
+        answer: 2,
+        explanation: "A propagation step in a radical mechanism consumes a free radical reactant while simultaneously generating a new free radical product to sustain the chain reaction."
+      },
+      {
+        id: "hydrocarbons-41",
+        question: "When hydrogen atom is removed from benzene group left is called",
+        options: ["Alkyl group", "Phenyl group", "Benzyl group", "Ethyl group"],
+        answer: 1,
+        explanation: "Note: Removing one hydrogen atom from benzene (C6H6) leaves a phenyl group (-C6H5). Option C (Benzyl group) is selected per the provided answer key."
+      },
+      {
+        id: "hydrocarbons-42",
+        question: "How many Pie electrons are there in Benzene to form delocalized electronic cloud",
+        options: ["3", "4", "8", "6"],
+        answer: 3,
+        explanation: "Benzene has 6 unhybridized p-orbitals contributed by its 6 carbon atoms, containing a total of 6 delocalized pi electrons satisfying Huckel's rule (4n + 2 for n = 1)."
+      },
+      {
+        id: "hydrocarbons-43",
+        question: "When Sodium Acetate is heated with soda lime a hydrocarbon is obtained what is that",
+        options: ["Methane", "Ethane", "Ethene", "Ethyne"],
+        answer: 0,
+        explanation: "Decarboxylation of CH3COONa with soda lime yields methane gas (CH4)."
+      },
+      {
+        id: "hydrocarbons-44",
+        question: "When CH₃ is attached with the benzene ring it makes the ring",
+        options: [
+          "Good electrophile",
+          "Good nucleophile",
+          "Resonance hybrid",
+          "Extraordinary table"
+        ],
+        answer: 1,
+        explanation: "The electron-donating methyl group increases electron density on the benzene ring, making it a stronger nucleophile toward incoming electrophiles."
+      },
+      {
+        id: "hydrocarbons-45",
+        question: "The first organic compound manufactured from inorganic compound was",
+        options: ["Ethyl acetate", "Urea", "Acetic acid", "Methane"],
+        answer: 1,
+        explanation: "Urea was synthesized by Friedrich Wöhler in 1828 by heating ammonium cyanate (an inorganic precursor), disproving the vital force theory."
+      },
+      {
+        id: "hydrocarbons-46",
+        question: "Dehydrohalogenation of alkyl halide occurs in the presence of",
+        options: [
+          "Alcoholic base",
+          "Alcoholic acid",
+          "Alcoholic salt",
+          "Alcoholic grignard reagent"
+        ],
+        answer: 0,
+        explanation: "Dehydrohalogenation of alkyl halides requires a strong base in an alcoholic medium (such as alcoholic KOH)."
+      },
+      {
+        id: "hydrocarbons-47",
+        question: "Acetone is prepared by the hydration of",
+        options: ["Ethyne", "Ethane", "Propene", "Propyne"],
+        answer: 2,
+        explanation: "Note: Hydration of propyne (CH3-C≡CH) gives acetone via enol-keto tautomerization. Option C (Propene) is selected per the provided answer key."
+      },
+      {
+        id: "hydrocarbons-48",
+        question: "Which of the following contains single bond",
+        options: ["Alkanes", "Benzene", "Alkenes", "All of these"],
+        answer: 0,
+        explanation: "Alkanes are saturated hydrocarbons containing exclusively single C-C and C-H sigma bonds."
+      },
+      {
+        id: "hydrocarbons-49",
+        question: "Electrophile in sulphonation of benzene is",
+        options: ["HSO₄", "H₂SO₄", "SO₃", "HSO₃"],
+        answer: 2,
+        explanation: "Neutral sulfur trioxide (SO3) acts as the active electrophile during aromatic sulfonation due to the electron deficiency of the central sulfur atom."
+      },
+      {
+        id: "hydrocarbons-50",
+        question: "Acetylene gives which precipitates with AgNO₃ in Ammonium hydroxide solution",
+        options: ["White", "Red", "Orange", "Yellow"],
+        answer: 0,
+        explanation: "Acetylene reacts with ammoniacal silver nitrate solution (Tollens' reagent) to yield a white precipitate of silver acetylide (AgC≡CAg)."
+      }
   ];

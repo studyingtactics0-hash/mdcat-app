@@ -243,5 +243,126 @@ export type Question = {
       ],
       answer: 2,
       explanation: "Isopentane is a branched non-polar alkane with very weak London dispersion forces and a low boiling point (~28°C), giving it the highest vapour pressure among these choices."
-    }
+    },
+    {
+        id: "liquids-1",
+        question: "Which of the following has no effect on boiling point?",
+        options: [
+          "Pressure",
+          "Intermolecular force",
+          "Amount of liquid",
+          "Impurities in liquid",
+          "None of the above"
+        ],
+        answer: 2,
+        explanation: "Boiling point is an intensive property of a substance, meaning it depends on chemical identity and external conditions (like pressure), not on the quantity or amount of liquid present."
+      },
+      {
+        id: "liquids-2",
+        question: "Which of the following has lowest vapor pressure at 20°C?",
+        options: [
+          "Chloroform",
+          "Diethyl ether",
+          "Carbon tetrachloride",
+          "Water"
+        ],
+        answer: 3,
+        explanation: "Water has strong hydrogen bonding compared to the dominant dispersion/dipole forces in ether, chloroform, and CCl4. Stronger intermolecular forces result in a lower vapor pressure."
+      },
+      {
+        id: "liquids-7",
+        question: "Which of the following will raise the boiling point of a sample of water?",
+        options: [
+          "Heat and water",
+          "Mix gasoline into water",
+          "Bring the water to a higher altitude",
+          "Place the water sample on a magnetic stirrer"
+        ],
+        answer: 1,
+        explanation: "Adding solutes or immiscible non-volatile/less volatile liquids elevates the boiling point of a solvent due to vapor pressure changes."
+      },
+      {
+        id: "liquids-8",
+        question: "Which of these processes involves a weakening of the attraction between particles?",
+        options: [
+          "Condensation",
+          "Freezing",
+          "Crystallization",
+          "Evaporation"
+        ],
+        answer: 3,
+        explanation: "Evaporation is an endothermic phase change (liquid to gas) where energy is absorbed to overcome and weaken attractive intermolecular forces."
+      },
+      {
+        id: "liquids-11",
+        question: "Falling drop of liquid is spherical due to:",
+        options: [
+          "Evaporation on exposure",
+          "Surface tension",
+          "Atomic structure",
+          "Vapor pressure"
+        ],
+        answer: 1,
+        explanation: "Surface tension causes liquid surfaces to contract into the minimum surface area possible for a given volume, which is a sphere."
+      },
+      {
+        id: "liquids-14",
+        question: "Viscosity of liquid depends upon:",
+        options: [
+          "Temperature",
+          "Shape of the molecule",
+          "Size of the molecule",
+          "All of these"
+        ],
+        answer: 3,
+        explanation: "Viscosity decreases with rising temperature, increases with larger molecular mass/size, and depends on molecular shape (tangled chains flow less easily)."
+      },
+      {
+        id: "liquids-22",
+        question: "Which of the following has high BP?",
+        options: [
+          "Ethyl alcohol",
+          "Diethyl ether",
+          "H₂O",
+          "Acetone"
+        ],
+        answer: 2,
+        explanation: "Water (H₂O) has two hydrogen bond donors and two acceptors per molecule, forming an extensive 3D hydrogen bonding network that results in a significantly higher boiling point (100°C)."
+      },
+      {
+        id: "liquids-26",
+        question: "Unit of viscosity is:",
+        options: [
+          "Joule",
+          "N/m²",
+          "Dynes/cm",
+          "Poises"
+        ],
+        answer: 3,
+        explanation: "The CGS unit of dynamic viscosity is the Poise (1 Poise = 1 g·cm⁻¹·s⁻¹ or 0.1 Pa·s)."
+      },
+      {
+        id: "liquids-32",
+        question: "Capillary action is due to:",
+        options: [
+          "Surface tension",
+          "Cohesion",
+          "Adhesion",
+          "Viscosity"
+        ],
+        answer: 0,
+        explanation: "Capillary action results from the combined effects of surface tension alongside adhesive and cohesive forces driving liquid movement within narrow channels."
+      },
+      {
+        id: "liquids-47",
+        question: "The correct sequence of high vapor pressure is:",
+        options: [
+          "Water > ethanol > acetone > ether",
+          "Ether > acetone > ethanol > water",
+          "Ether > ethanol > acetone > water",
+          "Water > ethanol > acetone > ether"
+        ],
+        answer: 1,
+        explanation: "Vapor pressure is inversely related to intermolecular force strength. Diethyl ether (weakest IMF) has the highest vapor pressure, followed by acetone, ethanol, and water (strongest IMF)."
+      } 
   ];
