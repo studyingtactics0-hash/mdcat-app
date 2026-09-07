@@ -1,5 +1,11 @@
+"use client";
+
+import { useRouter } from "next/navigation";
+
 export default function ChemistryPage() {
-const chapters = [
+  const router = useRouter();
+
+  const chapters = [
     {
       name: "Alcohol and Phenol",
       tests: 5,
@@ -121,6 +127,7 @@ const chapters = [
       link: "/tests/Chemistry/transition-elements",
     },
   ];
+
   return (
     <main className="min-h-screen bg-[#0b1e39] text-white">
       {/* HEADER */}
@@ -160,7 +167,9 @@ const chapters = [
         </div>
 
         {/* QUICK TEST OPTIONS */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 max-w-5xl mx-auto mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-5xl mx-auto mt-10">
+          
+          {/* Chapter Tests */}
           <div className="bg-[#ff9800] text-[#0b1e39] rounded-2xl p-6 shadow-lg">
             <div className="text-3xl">📝</div>
 
@@ -173,19 +182,13 @@ const chapters = [
             </p>
           </div>
 
-          <div className="bg-white text-[#0b1e39] rounded-2xl p-6 shadow-lg">
-            <div className="text-3xl">📚</div>
-
-            <h2 className="text-xl font-black mt-3">
-              Subject Test
-            </h2>
-
-            <p className="text-sm text-zinc-600 mt-2">
-              Test yourself on the complete Chemistry syllabus.
-            </p>
-          </div>
-
-          <div className="bg-white text-[#0b1e39] rounded-2xl p-6 shadow-lg">
+          {/* Chemistry Mock */}
+          <div
+            onClick={() =>
+              router.push("/tests/mock-tests/subject-wise/chemistry")
+            }
+            className="cursor-pointer bg-white text-[#0b1e39] rounded-2xl p-6 shadow-lg transition hover:-translate-y-1 hover:shadow-xl"
+          >
             <div className="text-3xl">🏆</div>
 
             <h2 className="text-xl font-black mt-3">
@@ -195,7 +198,12 @@ const chapters = [
             <p className="text-sm text-zinc-600 mt-2">
               Attempt a timed MDCAT-style Chemistry mock.
             </p>
+
+            <div className="mt-5 w-full bg-[#ff9800] text-[#0b1e39] font-bold py-3 rounded-xl text-center transition hover:bg-[#e38000]">
+              View Mock Tests →
+            </div>
           </div>
+
         </div>
 
         {/* CHAPTERS */}
