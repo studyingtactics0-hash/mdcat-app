@@ -763,7 +763,7 @@ export type Question = {
           "Phenol",
           "Both a and c"
         ],
-        answer: 3,
+        answer: 0,
         explanation: "Note: Benzyl alcohol is a true aromatic alcohol, and phenol is an aryl alcohol. Option D (Both a and c) is selected per the provided key."
       },
       {
@@ -1736,7 +1736,7 @@ export type Question = {
                 "E1 mechanism",
                 "Both SN1 and E1 mechanisms"
               ],
-              answer: 0,
+              answer: 3,
               explanation: "Unimolecular reactions (SN1 and E1) proceed in two steps via a carbocation intermediate formed in the slow rate-determining heterolysis step."
             },
           
@@ -3549,7 +3549,7 @@ export type Question = {
           "N and carbonyl C",
           "N and carbonyl O"
         ],
-        answer: 2,
+        answer: 0,
         explanation: "Note: In esterification mechanism, the -OH group leaves the carbonyl carbon upon nucleophilic attack; option C is mapped according to the provided key."
       },
       {
@@ -3674,7 +3674,7 @@ export type Question = {
         id: "carb-esters-19",
         question: "Reverse process of esterification is",
         options: ["Saponification", "Hydrolysis", "Rancidity", "None"],
-        answer: 0,
+        answer: 1,
         explanation: "Note: Acid hydrolysis is the direct reverse of esterification; alkaline hydrolysis of esters is termed saponification (mapped per key)."
       },
       {
@@ -3848,7 +3848,7 @@ export type Question = {
           "Acetic anhydride",
           "Tartaric acid"
         ],
-        answer: 1,
+        answer: 2,
         explanation: "Note: Dehydration of two acetic acid molecules yields acetic anhydride. Option B (Acetic amide) is mapped per the provided key."
       },
       {
@@ -6286,7 +6286,7 @@ export type Question = {
         "1,3,5-cyclohexene",
         "1,3,5-cyclohexatriene"
       ],
-      answer: 1,
+      answer: 3,
       explanation: "Enthalpy of hydrogenation of cyclohexene (−119.5 kJ/mol) multiplied by 3 gives the expected value for localized 1,3,5-cyclohexatriene (−358.5 kJ/mol), against which benzene's actual value (−208 kJ/mol) is compared."
     },
     {

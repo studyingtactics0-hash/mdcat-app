@@ -594,7 +594,7 @@ export type Question = {
           "The strength of the magnetic field",
           "Number of the turns the coil"
         ],
-        answer: 3
+        answer: 0
       },
       {
         id: "testmoz-phys-23",

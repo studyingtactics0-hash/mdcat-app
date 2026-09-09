@@ -567,5 +567,11 @@ export type Question = {
         "None of the given options",
       ],
       answer: 0,
-    }
+    },
+    {
+      id: "mock1-bio-031",
+      question: "Double fertilization is characteristic of:",
+      options: ["Gymnosperms", "Angiosperms", "Pteridophytes", "Bryophytes"],
+      answer: 1,
+    },
   ]

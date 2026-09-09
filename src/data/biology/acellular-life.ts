@@ -218,18 +218,6 @@ export const acellularLifeQuestions = [
     answer: 0,
   },
   {
-    question:
-      "A bacterium with a tuft of flagella present at each of two poles is called:",
-    options: [
-      "Amphitrichous",
-      "Atrichous",
-      "Lophotrichous",
-      "Peritrichous",
-      "Monotrichous",
-    ],
-    answer: 0,
-  },
-  {
     question: "Proteins which cause disease in humans and animals are called:",
     options: [
       "Prions",
@@ -267,17 +255,6 @@ export const acellularLifeQuestions = [
       "Which of the following is an example of a sub-viral particle that infects plants?",
     options: ["Prion", "Viroid", "Bacteriophage", "Infectious protein"],
     answer: 1,
-  },
-  {
-    question: "The type of bacteria which oxidize CO into CO2 is:",
-    options: [
-      "Bacillus oligocarphobillous",
-      "Hydrogenomonas",
-      "Pseudomonas",
-      "Thiobacillus",
-      "Azobacter",
-    ],
-    answer: 2,
   },
   {
     question: "Bacteriophages escape from host cells by the activity of:",

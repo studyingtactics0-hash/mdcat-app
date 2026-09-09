@@ -216,12 +216,6 @@ export type MockQuestion = {
       answer: 2,
     },
     {
-      id: "mock1-bio-031",
-      question: "Double fertilization is characteristic of:",
-      options: ["Gymnosperms", "Angiosperms", "Pteridophytes", "Bryophytes"],
-      answer: 1,
-    },
-    {
       id: "mock1-bio-032",
       question: "Which enzyme digests proteins in stomach?",
       options: ["Amylase", "Lipase", "Pepsin", "Trypsin"],

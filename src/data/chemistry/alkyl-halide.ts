@@ -29,7 +29,7 @@ export type Question = {
         "E1 mechanism",
         "Both SN1 and E1 mechanisms"
       ],
-      answer: 0,
+      answer: 3,
       explanation: "Unimolecular reactions (SN1 and E1) proceed in two steps via a carbocation intermediate formed in the slow rate-determining heterolysis step."
     },
   

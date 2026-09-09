@@ -556,5 +556,30 @@ export type Question = {
         "Decline phase"
       ],
       answer: 2
-    }
+    },
+    {
+      id: "testmoz-bio-51",
+      question:
+        "A bacterium with a tuft of flagella present at each of two poles is called:",
+      options: [
+        "Amphitrichous",
+        "Atrichous",
+        "Lophotrichous",
+        "Peritrichous",
+        "Monotrichous",
+      ],
+      answer: 0,
+    },    
+    {
+      id: "testmoz-bio-52",
+      question: "The type of bacteria which oxidize CO into CO2 is:",
+      options: [
+        "Bacillus oligocarphobillous",
+        "Hydrogenomonas",
+        "Pseudomonas",
+        "Thiobacillus",
+        "Azobacter",
+      ],
+      answer: 2,
+    },
   ]

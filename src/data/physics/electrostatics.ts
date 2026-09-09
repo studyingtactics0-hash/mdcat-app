@@ -760,7 +760,7 @@ export type Question = {
           "Remains unchanged",
           "Becomes zero"
         ],
-        answer: 2
+        answer: 1
       },
       {
         id: "testmoz-phys-14",

@@ -9441,13 +9441,6 @@ export const biologyquestions = [
       answer: 2,
     },
     {
-      id: 50,
-      question:
-        "Which one of the following is a derivative of indole acetic acid or its variant?",
-      options: ["Auxins", "Cytokinins", "Cytochrome", "Abscisic acid"],
-      answer: 0,
-    },
-    {
       id: 51,
       question:
         "What is/are the element(s) of nervous system which help in nervous coordination?",

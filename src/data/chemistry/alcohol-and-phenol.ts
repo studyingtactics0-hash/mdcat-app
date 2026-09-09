@@ -763,7 +763,7 @@ export type Question = {
           "Phenol",
           "Both a and c"
         ],
-        answer: 3,
+        answer: 0,
         explanation: "Note: Benzyl alcohol is a true aromatic alcohol, and phenol is an aryl alcohol. Option D (Both a and c) is selected per the provided key."
       },
       {

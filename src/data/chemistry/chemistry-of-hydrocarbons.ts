@@ -320,7 +320,7 @@ export type Question = {
         "1,3,5-cyclohexene",
         "1,3,5-cyclohexatriene"
       ],
-      answer: 1,
+      answer: 3,
       explanation: "Enthalpy of hydrogenation of cyclohexene (−119.5 kJ/mol) multiplied by 3 gives the expected value for localized 1,3,5-cyclohexatriene (−358.5 kJ/mol), against which benzene's actual value (−208 kJ/mol) is compared."
     },
     {
