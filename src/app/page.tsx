@@ -378,7 +378,7 @@ const needleAngle = -90 + predictedPercentage * 1.8;
 
             <li>
               <a
-                href="#lectures"
+                href="/lectures"
                 className="hover:text-[#ff9800] transition-colors"
               >
                 Lectures
@@ -480,7 +480,7 @@ const needleAngle = -90 + predictedPercentage * 1.8;
 
               <li>
                 <a
-                  href="#lectures"
+                  href="/lectures"
                   className="block text-white text-lg font-semibold hover:text-[#ff9800] transition-colors"
                 >
                   Lectures
@@ -561,7 +561,7 @@ const needleAngle = -90 + predictedPercentage * 1.8;
               </a>
 
               <a
-                href="#lectures"
+                href="/lectures"
                 className="border border-[#ff9800] hover:bg-[#13294b] text-[#ff9800] font-semibold px-7 py-3 rounded-full text-lg shadow transition duration-150"
               >
                 Explore Lectures
@@ -1164,7 +1164,7 @@ className="bg-white rounded-2xl shadow-lg p-5 border-t-4 border-[#0b1e39] hover:
 
             <li>
               <a
-                href="#lectures"
+                href="/lectures"
                 className="hover:text-[#ff9800] transition"
               >
                 Lectures
