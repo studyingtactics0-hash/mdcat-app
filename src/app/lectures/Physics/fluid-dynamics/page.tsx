@@ -6,31 +6,31 @@ import Link from "next/link";
 const lectures = [
   {
     number: 1,
-    title: "Work and Energy — Lecture 1",
-    shortTitle: "Work & Its Applications",
+    title: "Fluid Dynamics — Lecture 1",
+    shortTitle: "Properties & Pressure of Fluids",
     description:
-      "Understanding work, conditions for work to be done, work by constant and variable forces, and applications.",
-    videoId: "5z1ytgQYnAU",
+      "Understanding fluids, density, pressure, atmospheric pressure and pressure variation in fluids.",
+    videoId: "nPcyr3GxRxQ",
   },
   {
     number: 2,
-    title: "Work and Energy — Lecture 2",
-    shortTitle: "Kinetic & Potential Energy",
+    title: "Fluid Dynamics — Lecture 2",
+    shortTitle: "Fluid Flow & Equation of Continuity",
     description:
-      "Kinetic energy, potential energy, gravitational potential energy and the relationship between work and energy.",
-    videoId: "IbFt-lqrZKg",
+      "Understanding fluid flow, streamline motion, volume flow rate and the equation of continuity.",
+    videoId: "Qamd1gKcnac",
   },
   {
     number: 3,
-    title: "Work and Energy — Lecture 3",
-    shortTitle: "Power & Conservation of Energy",
+    title: "Fluid Dynamics — Lecture 3",
+    shortTitle: "Bernoulli's Equation & Applications",
     description:
-      "Power, efficiency and the law of conservation of energy with important MDCAT applications.",
-    videoId: "13QoscqPvcs",
+      "Bernoulli's equation, conservation of energy in fluid flow and important MDCAT applications.",
+    videoId: "9zO11vVRjQc",
   },
 ];
 
-export default function WorkAndEnergyPage() {
+export default function FluidDynamicsPage() {
   const [selectedLecture, setSelectedLecture] = useState(0);
 
   const currentLecture = lectures[selectedLecture];
@@ -63,8 +63,8 @@ export default function WorkAndEnergyPage() {
           </Link>
 
           <div className="flex items-center gap-4">
-            <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-emerald-100 text-3xl shadow-sm">
-              ⚡
+            <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-cyan-100 text-3xl shadow-sm">
+              🌊
             </div>
 
             <div className="min-w-0">
@@ -76,16 +76,16 @@ export default function WorkAndEnergyPage() {
                 <span className="text-slate-500">•</span>
 
                 <span className="text-xs font-medium text-slate-300">
-                  Chapter 03
+                  Chapter 05
                 </span>
               </div>
 
               <h1 className="truncate text-2xl font-bold sm:text-3xl">
-                Work and Energy
+                Fluid Dynamics
               </h1>
 
               <p className="mt-1 text-sm text-slate-300">
-                Work, energy, power and conservation of energy
+                Fluid pressure, flow, continuity and Bernoulli&apos;s equation
               </p>
             </div>
           </div>
@@ -203,7 +203,7 @@ export default function WorkAndEnergyPage() {
             </div>
 
             {/* Study Tip */}
-            <div className="mt-5 rounded-2xl border border-emerald-100 bg-emerald-50 p-5">
+            <div className="mt-5 rounded-2xl border border-cyan-100 bg-cyan-50 p-5">
               <div className="flex gap-4">
                 <div className="text-2xl">💡</div>
 
@@ -213,9 +213,10 @@ export default function WorkAndEnergyPage() {
                   </h3>
 
                   <p className="mt-1 text-sm leading-6 text-gray-600">
-                    Make sure you understand the relationship between work,
-                    force, displacement and energy. Then practice numerical
-                    and conceptual MDCAT questions from this chapter.
+                    Focus on understanding pressure, flow rate and conservation
+                    principles. Practice numerical questions involving the
+                    equation of continuity and Bernoulli&apos;s equation after
+                    completing the lectures.
                   </p>
                 </div>
               </div>
@@ -234,11 +235,11 @@ export default function WorkAndEnergyPage() {
 
                 <div>
                   <p className="text-xs font-semibold uppercase tracking-widest text-orange-400">
-                    Chapter 03
+                    Chapter 05
                   </p>
 
                   <h2 className="mt-1 text-lg font-bold">
-                    Work & Energy
+                    Fluid Dynamics
                   </h2>
                 </div>
 

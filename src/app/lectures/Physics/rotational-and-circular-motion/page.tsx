@@ -6,31 +6,23 @@ import Link from "next/link";
 const lectures = [
   {
     number: 1,
-    title: "Work and Energy — Lecture 1",
-    shortTitle: "Work & Its Applications",
+    title: "Rotational and Circular Motion — Lecture 1",
+    shortTitle: "Circular Motion",
     description:
-      "Understanding work, conditions for work to be done, work by constant and variable forces, and applications.",
-    videoId: "5z1ytgQYnAU",
+      "Understanding circular motion, angular displacement, angular velocity, angular acceleration and centripetal force.",
+    videoId: "KM2Q2q9dB14",
   },
   {
     number: 2,
-    title: "Work and Energy — Lecture 2",
-    shortTitle: "Kinetic & Potential Energy",
+    title: "Rotational and Circular Motion — Lecture 2",
+    shortTitle: "Rotational Motion",
     description:
-      "Kinetic energy, potential energy, gravitational potential energy and the relationship between work and energy.",
-    videoId: "IbFt-lqrZKg",
-  },
-  {
-    number: 3,
-    title: "Work and Energy — Lecture 3",
-    shortTitle: "Power & Conservation of Energy",
-    description:
-      "Power, efficiency and the law of conservation of energy with important MDCAT applications.",
-    videoId: "13QoscqPvcs",
+      "Rotational motion, torque, angular momentum, rotational dynamics and important MDCAT applications.",
+    videoId: "h0lxdYvntaM",
   },
 ];
 
-export default function WorkAndEnergyPage() {
+export default function RotationalAndCircularMotionPage() {
   const [selectedLecture, setSelectedLecture] = useState(0);
 
   const currentLecture = lectures[selectedLecture];
@@ -63,8 +55,8 @@ export default function WorkAndEnergyPage() {
           </Link>
 
           <div className="flex items-center gap-4">
-            <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-emerald-100 text-3xl shadow-sm">
-              ⚡
+            <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-orange-100 text-3xl shadow-sm">
+              🔄
             </div>
 
             <div className="min-w-0">
@@ -76,16 +68,16 @@ export default function WorkAndEnergyPage() {
                 <span className="text-slate-500">•</span>
 
                 <span className="text-xs font-medium text-slate-300">
-                  Chapter 03
+                  Chapter 04
                 </span>
               </div>
 
               <h1 className="truncate text-2xl font-bold sm:text-3xl">
-                Work and Energy
+                Rotational and Circular Motion
               </h1>
 
               <p className="mt-1 text-sm text-slate-300">
-                Work, energy, power and conservation of energy
+                Circular motion, rotational motion, torque and angular dynamics
               </p>
             </div>
           </div>
@@ -203,7 +195,7 @@ export default function WorkAndEnergyPage() {
             </div>
 
             {/* Study Tip */}
-            <div className="mt-5 rounded-2xl border border-emerald-100 bg-emerald-50 p-5">
+            <div className="mt-5 rounded-2xl border border-orange-100 bg-orange-50 p-5">
               <div className="flex gap-4">
                 <div className="text-2xl">💡</div>
 
@@ -213,9 +205,9 @@ export default function WorkAndEnergyPage() {
                   </h3>
 
                   <p className="mt-1 text-sm leading-6 text-gray-600">
-                    Make sure you understand the relationship between work,
-                    force, displacement and energy. Then practice numerical
-                    and conceptual MDCAT questions from this chapter.
+                    Pay special attention to the relationships between linear
+                    and angular quantities. Practice the important circular
+                    motion and torque formulas after watching the lectures.
                   </p>
                 </div>
               </div>
@@ -234,11 +226,11 @@ export default function WorkAndEnergyPage() {
 
                 <div>
                   <p className="text-xs font-semibold uppercase tracking-widest text-orange-400">
-                    Chapter 03
+                    Chapter 04
                   </p>
 
                   <h2 className="mt-1 text-lg font-bold">
-                    Work & Energy
+                    Rotational & Circular Motion
                   </h2>
                 </div>
 
