@@ -1730,7 +1730,7 @@ export default function TestEngine({
                 </div>
 
                 <a
-                  href={`/tests/${subject}/${chapter}`}
+                  href="/tests"
                   className="block mt-3 bg-[#e9ecef] text-[#0b1e39] font-bold py-3 rounded-xl"
                 >
                   Back to Tests
