@@ -1202,16 +1202,16 @@ export default function Home() {
 
                     <div
                       key={`${student.student_name}-${index}`}
-                      className={`flex items-center justify-between rounded-xl px-4 py-4 ${
+                      className={`flex items-center justify-between rounded-xl px-4 py-4 border ${
                         index === 0
                           ? "bg-[#fff3e0] border-2 border-[#ff9800]"
-                          : "bg-[#f4f6f9]"
+                          : "bg-[#e8edf3] border-[#cbd5e1]"
                       }`}
                     >
 
                       <div className="flex items-center gap-4">
 
-                        <div className="w-10 text-center text-xl font-black">
+                      <div className="w-10 text-center text-xl font-black text-[#0b1e39]">
                           {index === 0
                             ? "🥇"
                             : index === 1
