@@ -70,10 +70,12 @@ export default function Home() {
 
   const [user, setUser] = useState<any>(null);
 
-  const [topScorer, setTopScorer] = useState<{
-    student_name: string;
-    score_percentage: number;
-  } | null>(null);
+  const [topScorers, setTopScorers] = useState<
+    {
+      student_name: string;
+      score_percentage: number;
+    }[]
+  >([]);
 
   const [stats, setStats] = useState({
     testsAttempted: 0,
@@ -112,9 +114,9 @@ export default function Home() {
         return;
       }
 
-      /* --------------------------------
-         OVERALL STATISTICS
-      -------------------------------- */
+      // --------------------------------
+      // OVERALL STATISTICS
+      // --------------------------------
 
       const testsAttempted = data.length;
 
@@ -125,20 +127,22 @@ export default function Home() {
 
       const averageScore =
         data.reduce(
-          (total, test) => total + Number(test.score_percentage || 0),
+          (total, test) =>
+            total + Number(test.score_percentage || 0),
           0
         ) / testsAttempted;
 
-      /* --------------------------------
-         CURRENT STREAK
-      -------------------------------- */
+      // --------------------------------
+      // CURRENT STREAK
+      // --------------------------------
 
       const dates = Array.from(
         new Set(
           data
             .filter((test) => test.completed_at)
-            .map((test) =>
-              new Date(test.completed_at).toISOString().split("T")[0]
+            .map(
+              (test) =>
+                new Date(test.completed_at).toISOString().split("T")[0]
             )
         )
       );
@@ -171,9 +175,9 @@ export default function Home() {
         currentStreak,
       });
 
-      /* --------------------------------
-         SUBJECT-WISE STATISTICS
-      -------------------------------- */
+      // --------------------------------
+      // SUBJECT-WISE STATISTICS
+      // --------------------------------
 
       const calculatedSubjectStats: Record<string, SubjectStats> = {
         Biology: {
@@ -207,8 +211,11 @@ export default function Home() {
         calculatedSubjectStats[subject].tests += 1;
         calculatedSubjectStats[subject].questions += totalQuestions;
         calculatedSubjectStats[subject].correct += correctAnswers;
-        calculatedSubjectStats[subject].incorrect +=
-          Math.max(totalQuestions - correctAnswers, 0);
+
+        calculatedSubjectStats[subject].incorrect += Math.max(
+          totalQuestions - correctAnswers,
+          0
+        );
 
         calculatedSubjectStats[subject].averageScore += score;
       });
@@ -236,31 +243,34 @@ export default function Home() {
       setSubjectStats(calculatedSubjectStats);
     }
 
-    /* --------------------------------
-       TOP SCORER
-    -------------------------------- */
+    // --------------------------------
+    // TOP 5 SCORERS
+    // --------------------------------
 
-    async function getTopScorer() {
-      const { data, error } = await supabase.rpc("get_top_student");
+    async function getTopScorers() {
+      const { data, error } = await supabase.rpc("get_top_students");
 
       if (error) {
-        console.error("Error fetching top student:", error);
+        console.error("Error fetching top students:", error);
+        setTopScorers([]);
         return;
       }
 
       if (data && data.length > 0) {
-        setTopScorer({
-          student_name: data[0].student_name || "Student",
-          score_percentage: Number(data[0].average_score || 0),
-        });
+        setTopScorers(
+          data.slice(0, 5).map((student: any) => ({
+            student_name: student.student_name || "Student",
+            score_percentage: Number(student.average_score || 0),
+          }))
+        );
       } else {
-        setTopScorer(null);
+        setTopScorers([]);
       }
     }
 
-    /* --------------------------------
-       GET USER
-    -------------------------------- */
+    // --------------------------------
+    // GET USER
+    // --------------------------------
 
     async function getUser() {
       const {
@@ -284,7 +294,7 @@ export default function Home() {
     }
 
     getUser();
-    getTopScorer();
+    getTopScorers();
 
     const {
       data: { subscription },
@@ -310,9 +320,9 @@ export default function Home() {
     };
   }, []);
 
-  /* --------------------------------
-     STRONGEST / WEAKEST SUBJECT
-  -------------------------------- */
+  // --------------------------------
+  // STRONGEST / WEAKEST SUBJECT
+  // --------------------------------
 
   const attemptedSubjects = Object.entries(subjectStats).filter(
     ([, subject]) => subject.tests > 0
@@ -328,36 +338,46 @@ export default function Home() {
   const weakestSubject =
     attemptedSubjects.length > 0
       ? attemptedSubjects.reduce((weakest, current) =>
-          current[1].accuracy < weakest[1].accuracy ? current : weakest
+          current[1].accuracy < weakest[1].accuracy
+            ? current
+            : weakest
         )
       : null;
 
-      // SCORE PREDICTOR
-const predictedMarks = Math.max(
-  0,
-  Math.min(180, (stats.averageScore / 100) * 180 - 5)
-);
+  // --------------------------------
+  // SCORE PREDICTOR
+  // --------------------------------
 
-const predictedPercentage = (predictedMarks / 180) * 100;
+  const predictedMarks = Math.max(
+    0,
+    Math.min(180, (stats.averageScore / 100) * 180 - 5)
+  );
 
-const needleAngle = -90 + predictedPercentage * 1.8;
+  const predictedPercentage = (predictedMarks / 180) * 100;
+
+  const needleAngle = -90 + predictedPercentage * 1.8;
 
   return (
     <div className="min-h-screen flex flex-col bg-[#0b1e39] font-sans">
+
       {/* NAVIGATION */}
 
       <header className="w-full border-b border-[#172d4f] bg-[#0b1e39]">
         <nav className="container mx-auto flex items-center justify-between px-4 py-4 relative">
+
           <div className="flex items-center space-x-2">
             <span className="text-2xl md:text-3xl font-black tracking-tight text-white select-none">
               STUDYING{" "}
-              <span className="text-[#ff9800]">TACTICS</span>
+              <span className="text-[#ff9800]">
+                TACTICS
+              </span>
             </span>
           </div>
 
           {/* Desktop Nav */}
 
           <ul className="hidden md:flex items-center space-x-8 text-white font-medium text-base">
+
             <li>
               <a
                 href="#home"
@@ -404,6 +424,7 @@ const needleAngle = -90 + predictedPercentage * 1.8;
             </li>
 
             <li className="flex items-center gap-3">
+
               {user ? (
                 <>
                   <span className="text-white font-semibold">
@@ -432,12 +453,14 @@ const needleAngle = -90 + predictedPercentage * 1.8;
                   Login
                 </button>
               )}
+
             </li>
           </ul>
 
           {/* Mobile Nav Toggle */}
 
           <div className="md:hidden flex items-center">
+
             <input
               type="checkbox"
               id="mobile-menu-toggle"
@@ -452,7 +475,7 @@ const needleAngle = -90 + predictedPercentage * 1.8;
             >
               <span className="block w-7 h-1 bg-white rounded mb-1 transition-all"></span>
               <span className="block w-7 h-1 bg-white rounded mb-1 transition-all"></span>
-              <span className="block w-7 h-1 bg-white rounded transition-all"></span>
+              <span className="block w-7 h-1 bg-white rounded"></span>
             </label>
 
             {/* Mobile Drawer */}
@@ -460,6 +483,7 @@ const needleAngle = -90 + predictedPercentage * 1.8;
             <div className="fixed inset-0 z-10 bg-black/40 hidden peer-checked:block" />
 
             <ul className="fixed top-0 right-0 w-64 h-full bg-[#0b1e39] z-30 transform translate-x-full peer-checked:translate-x-0 peer-checked:shadow-xl transition-transform duration-300 flex flex-col space-y-6 px-8 pt-20">
+
               <li>
                 <a
                   href="#home"
@@ -526,6 +550,7 @@ const needleAngle = -90 + predictedPercentage * 1.8;
                   </button>
                 )}
               </li>
+
             </ul>
           </div>
         </nav>
@@ -537,13 +562,19 @@ const needleAngle = -90 + predictedPercentage * 1.8;
         id="home"
         className="flex-1 w-full bg-[#0b1e39] flex flex-col"
       >
+
         <section className="container mx-auto flex flex-col-reverse md:flex-row items-center justify-between px-4 py-12 md:py-20 gap-10">
+
           {/* Hero Left */}
 
           <div className="flex-1 flex flex-col md:items-start items-center">
+
             <h1 className="text-3xl md:text-5xl font-black text-white mb-5 text-center md:text-left leading-tight drop-shadow-md">
-              Prepare <span className="text-[#ff9800]">Smarter</span> for
-              MDCAT
+              Prepare{" "}
+              <span className="text-[#ff9800]">
+                Smarter
+              </span>{" "}
+              for MDCAT
             </h1>
 
             <p className="text-[#cdd6e6] text-base md:text-lg mb-8 text-center md:text-left max-w-xl">
@@ -553,6 +584,7 @@ const needleAngle = -90 + predictedPercentage * 1.8;
             </p>
 
             <div className="flex gap-4 justify-center md:justify-start">
+
               <a
                 href="/tests"
                 className="bg-[#ff9800] hover:bg-[#e38000] text-[#0b1e39] font-semibold px-7 py-3 rounded-full text-lg shadow transition duration-150"
@@ -566,19 +598,23 @@ const needleAngle = -90 + predictedPercentage * 1.8;
               >
                 Explore Lectures
               </a>
+
             </div>
           </div>
 
           {/* Hero Right */}
 
           <div className="flex-1 flex items-center justify-center mb-6 md:mb-0">
+
             <div className="w-[260px] md:w-[320px]">
+
               <svg
                 viewBox="0 0 320 250"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                aria-hidden
+                aria-hidden="true"
               >
+
                 <rect
                   x="15"
                   y="35"
@@ -674,6 +710,7 @@ const needleAngle = -90 + predictedPercentage * 1.8;
                   rx="2"
                   fill="#ff9800"
                 />
+
               </svg>
             </div>
           </div>
@@ -685,112 +722,114 @@ const needleAngle = -90 + predictedPercentage * 1.8;
           id="features"
           className="container mx-auto px-4 py-10 md:py-16"
         >
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-7">
-          <button
-  onClick={() => (window.location.href = "/tests")}
-  className="bg-white rounded-2xl shadow-lg p-7 border-t-4 border-[#0b1e39] hover:border-[#ff9800] hover:shadow-xl transition-all flex flex-col items-center text-center w-full cursor-pointer"
->
-  <div className="bg-[#e9ecef] text-[#0b1e39] w-14 h-14 rounded-full flex items-center justify-center mb-3 text-2xl">
-    📝
-  </div>
-  <h3 className="font-bold text-lg text-[#0b1e39] mb-2">
-    MDCAT Tests
-  </h3>
-  <p className="text-zinc-700 text-sm">
-    Practice chapter-wise, subject-wise and full-syllabus tests.
-  </p>
-</button>
 
-<button
-  onClick={() => {
-    document.getElementById("subject-analytics")?.scrollIntoView({
-      behavior: "smooth",
-    });
-  }}
-  className="bg-white rounded-2xl shadow-lg p-7 border-t-4 border-[#0b1e39] hover:border-[#ff9800] hover:shadow-xl transition-all flex flex-col items-center text-center w-full cursor-pointer"
->
-  <div className="bg-[#e9ecef] text-[#0b1e39] w-14 h-14 rounded-full flex items-center justify-center mb-3 text-2xl">
-    📊
-  </div>
+            <button
+              onClick={() => (window.location.href = "/tests")}
+              className="bg-white rounded-2xl shadow-lg p-7 border-t-4 border-[#0b1e39] hover:border-[#ff9800] hover:shadow-xl transition-all flex flex-col items-center text-center w-full cursor-pointer"
+            >
+              <div className="bg-[#e9ecef] text-[#0b1e39] w-14 h-14 rounded-full flex items-center justify-center mb-3 text-2xl">
+                📝
+              </div>
 
-  <h3 className="font-bold text-lg text-[#0b1e39] mb-2">
-    Performance Analytics
-  </h3>
+              <h3 className="font-bold text-lg text-[#0b1e39] mb-2">
+                MDCAT Tests
+              </h3>
 
-  <p className="text-zinc-700 text-sm">
-    Track your accuracy, scores and weak topics.
-  </p>
-</button>
+              <p className="text-zinc-700 text-sm">
+                Practice chapter-wise, subject-wise and full-syllabus tests.
+              </p>
+            </button>
 
+            <button
+              onClick={() => {
+                document
+                  .getElementById("subject-analytics")
+                  ?.scrollIntoView({
+                    behavior: "smooth",
+                  });
+              }}
+              className="bg-white rounded-2xl shadow-lg p-7 border-t-4 border-[#0b1e39] hover:border-[#ff9800] hover:shadow-xl transition-all flex flex-col items-center text-center w-full cursor-pointer"
+            >
+              <div className="bg-[#e9ecef] text-[#0b1e39] w-14 h-14 rounded-full flex items-center justify-center mb-3 text-2xl">
+                📊
+              </div>
 
-<div
-id="score-predictor"
-className="bg-white rounded-2xl shadow-lg p-5 border-t-4 border-[#0b1e39] hover:border-[#ff9800] transition-all flex flex-col items-center text-center">
+              <h3 className="font-bold text-lg text-[#0b1e39] mb-2">
+                Performance Analytics
+              </h3>
 
-<h3 className="font-bold text-lg text-[#0b1e39] mb-1">
-  Score Predictor
-</h3>
+              <p className="text-zinc-700 text-sm">
+                Track your accuracy, scores and weak topics.
+              </p>
+            </button>
 
-<p className="text-zinc-600 text-xs mb-3">
-  Predicted MDCAT performance
-</p>
+            <div
+              id="score-predictor"
+              className="bg-white rounded-2xl shadow-lg p-5 border-t-4 border-[#0b1e39] hover:border-[#ff9800] transition-all flex flex-col items-center text-center"
+            >
+              <h3 className="font-bold text-lg text-[#0b1e39] mb-1">
+                Score Predictor
+              </h3>
 
-{/* SPEEDOMETER */}
-<div className="relative w-[250px] h-[135px] overflow-hidden">
+              <p className="text-zinc-600 text-xs mb-3">
+                Predicted MDCAT performance
+              </p>
 
-  {/* Gauge */}
-  <div
-    className="absolute left-0 top-0 w-[250px] h-[250px] rounded-full"
-    style={{
-      background:
-        "conic-gradient(from 270deg, #ff4d00 0deg 36deg, #ff9800 36deg 72deg, #ffe066 72deg 108deg, #9acd32 108deg 144deg, #65c900 144deg 180deg, transparent 180deg 360deg)",
-    }}
-  />
+              {/* SPEEDOMETER */}
 
-  {/* Inner white circle */}
-  <div className="absolute left-[35px] top-[35px] w-[180px] h-[180px] rounded-full bg-white" />
+              <div className="relative w-[250px] h-[135px] overflow-hidden">
 
-  {/* Needle */}
-  <div
-    className="absolute left-1/2 bottom-[8px] w-[4px] h-[100px] bg-[#333] rounded-full origin-bottom"
-    style={{
-      transform: `translateX(-50%) rotate(${needleAngle}deg)`,
-    }}
-  />
+                <div
+                  className="absolute left-0 top-0 w-[250px] h-[250px] rounded-full"
+                  style={{
+                    background:
+                      "conic-gradient(from 270deg, #ff4d00 0deg 36deg, #ff9800 36deg 72deg, #ffe066 72deg 108deg, #9acd32 108deg 144deg, #65c900 144deg 180deg, transparent 180deg 360deg)",
+                  }}
+                />
 
-  {/* Needle center */}
-  <div className="absolute left-1/2 bottom-[-2px] -translate-x-1/2 w-12 h-12 rounded-full bg-[#333] flex items-center justify-center">
-    <div className="w-5 h-5 rounded-full bg-zinc-200 border-2 border-white" />
-  </div>
+                <div className="absolute left-[35px] top-[35px] w-[180px] h-[180px] rounded-full bg-white" />
 
-  {/* Scale labels */}
-  <span className="absolute left-1 bottom-[-12px] text-[10px] font-bold text-zinc-500">
-  0%
-</span>
+                <div
+                  className="absolute left-1/2 bottom-[8px] w-[4px] h-[100px] bg-[#333] rounded-full origin-bottom"
+                  style={{
+                    transform: `translateX(-50%) rotate(${needleAngle}deg)`,
+                  }}
+                />
 
-<span className="absolute right-1 bottom-[-12px] text-[10px] font-bold text-zinc-500">
-  100%
-</span>
-</div>
+                <div className="absolute left-1/2 bottom-[-2px] -translate-x-1/2 w-12 h-12 rounded-full bg-[#333] flex items-center justify-center">
+                  <div className="w-5 h-5 rounded-full bg-zinc-200 border-2 border-white" />
+                </div>
 
-{/* Predicted percentage */}
-<div className="-mt-1">
-<p className="text-4xl font-extrabold text-[#0b1e39]">
-  {Math.round(predictedMarks)}
-</p>
+                <span className="absolute left-1 bottom-[-12px] text-[10px] font-bold text-zinc-500">
+                  0%
+                </span>
 
-<p className="text-sm font-semibold text-zinc-600">
-  Expected MDCAT Score
-</p>
+                <span className="absolute right-1 bottom-[-12px] text-[10px] font-bold text-zinc-500">
+                  100%
+                </span>
+              </div>
 
-<p className="text-base font-bold text-[#ff9800]">
-  out of 180
-</p>
-</div>
+              <div className="-mt-1">
 
-</div>
+                <p className="text-4xl font-extrabold text-[#0b1e39]">
+                  {Math.round(predictedMarks)}
+                </p>
+
+                <p className="text-sm font-semibold text-zinc-600">
+                  Expected MDCAT Score
+                </p>
+
+                <p className="text-base font-bold text-[#ff9800]">
+                  out of 180
+                </p>
+
+              </div>
+            </div>
 
             <div className="bg-white rounded-2xl shadow-lg p-7 border-t-4 border-[#0b1e39] hover:border-[#ff9800] transition-all flex flex-col items-center text-center">
+
               <div className="bg-[#e9ecef] text-[#0b1e39] w-14 h-14 rounded-full flex items-center justify-center mb-3 text-2xl">
                 📢
               </div>
@@ -802,6 +841,7 @@ className="bg-white rounded-2xl shadow-lg p-5 border-t-4 border-[#0b1e39] hover:
               <p className="text-zinc-700 text-sm">
                 Stay informed about important MDCAT and admission updates.
               </p>
+
             </div>
           </div>
         </section>
@@ -809,12 +849,15 @@ className="bg-white rounded-2xl shadow-lg p-5 border-t-4 border-[#0b1e39] hover:
         {/* MOCK TESTS */}
 
         <section className="container mx-auto px-4 py-10 md:py-14">
+
           <h2 className="text-2xl md:text-3xl font-bold text-white mb-7 text-center md:text-left">
             Mock Tests
           </h2>
 
           <div className="max-w-lg mx-auto bg-white rounded-2xl shadow-lg p-7 border-l-4 border-[#ff9800]">
+
             <div className="flex items-center gap-3 mb-3">
+
               <div className="bg-[#e9ecef] text-[#0b1e39] w-12 h-12 rounded-full flex items-center justify-center text-2xl">
                 📝
               </div>
@@ -828,6 +871,7 @@ className="bg-white rounded-2xl shadow-lg p-5 border-t-4 border-[#0b1e39] hover:
                   Practice complete MDCAT-style mock tests
                 </p>
               </div>
+
             </div>
 
             <p className="text-zinc-600 text-sm mb-5">
@@ -841,17 +885,20 @@ className="bg-white rounded-2xl shadow-lg p-5 border-t-4 border-[#0b1e39] hover:
             >
               View Mock Tests
             </button>
+
           </div>
         </section>
 
         {/* OVERALL PERFORMANCE */}
 
         <section className="container mx-auto px-4 py-10 md:py-14">
+
           <h2 className="text-2xl md:text-3xl font-bold text-white mb-6 text-center md:text-left">
             Your Statistics
           </h2>
 
           <div className="w-full max-w-4xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-5">
+
             <div className="bg-white rounded-2xl shadow p-6 flex flex-col items-center">
               <span className="text-2xl font-bold text-[#0b1e39] mb-1">
                 {stats.testsAttempted}
@@ -891,16 +938,19 @@ className="bg-white rounded-2xl shadow-lg p-5 border-t-4 border-[#0b1e39] hover:
                 Current Streak
               </span>
             </div>
+
           </div>
         </section>
 
         {/* SUBJECT-WISE STATISTICS */}
 
         <section
-  id="subject-analytics"
-  className="container mx-auto px-4 py-10 md:py-14"
->
+          id="subject-analytics"
+          className="container mx-auto px-4 py-10 md:py-14"
+        >
+
           <div className="mb-8">
+
             <h2 className="text-2xl md:text-3xl font-bold text-white text-center md:text-left">
               📊 Subject-wise Performance
             </h2>
@@ -908,35 +958,42 @@ className="bg-white rounded-2xl shadow-lg p-5 border-t-4 border-[#0b1e39] hover:
             <p className="text-[#cdd6e6] text-sm md:text-base mt-2 text-center md:text-left">
               See exactly how you are performing in each MDCAT subject.
             </p>
+
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+
             {Object.entries(subjectStats).map(([subject, data]) => (
+
               <div
                 key={subject}
                 className="bg-white rounded-2xl shadow-xl overflow-hidden border-t-4 border-[#ff9800] hover:shadow-2xl transition-all"
               >
-                {/* Subject Header */}
 
                 <div className="bg-[#f4f6f9] px-6 py-5 flex items-center justify-between">
+
                   <div className="flex items-center gap-3">
+
                     <div className="w-12 h-12 rounded-full bg-[#e9ecef] flex items-center justify-center text-2xl">
                       {subjectIcons[subject]}
                     </div>
 
                     <div>
+
                       <h3 className="text-lg font-black text-[#0b1e39]">
                         {subject}
                       </h3>
 
                       <p className="text-xs text-[#576a89]">
-                        {data.tests} {data.tests === 1 ? "test" : "tests"}{" "}
-                        attempted
+                        {data.tests}{" "}
+                        {data.tests === 1 ? "test" : "tests"} attempted
                       </p>
+
                     </div>
                   </div>
 
                   <div className="text-right">
+
                     <div className="text-2xl font-black text-[#0b1e39]">
                       {data.accuracy}%
                     </div>
@@ -944,13 +1001,14 @@ className="bg-white rounded-2xl shadow-lg p-5 border-t-4 border-[#0b1e39] hover:
                     <div className="text-xs text-[#576a89]">
                       Accuracy
                     </div>
+
                   </div>
                 </div>
 
-                {/* Accuracy Progress Bar */}
-
                 <div className="px-6 pt-5">
+
                   <div className="flex justify-between text-xs mb-2">
+
                     <span className="text-[#576a89]">
                       Performance
                     </span>
@@ -958,21 +1016,23 @@ className="bg-white rounded-2xl shadow-lg p-5 border-t-4 border-[#0b1e39] hover:
                     <span className="font-semibold text-[#0b1e39]">
                       {data.accuracy}%
                     </span>
+
                   </div>
 
                   <div className="w-full h-3 bg-[#e9ecef] rounded-full overflow-hidden">
+
                     <div
                       className="h-full bg-[#ff9800] rounded-full transition-all duration-500"
                       style={{
                         width: `${Math.min(data.accuracy, 100)}%`,
                       }}
                     />
+
                   </div>
                 </div>
 
-                {/* Statistics */}
-
                 <div className="p-6 grid grid-cols-2 gap-3">
+
                   <div className="bg-[#f4f6f9] rounded-xl p-4">
                     <div className="text-lg font-bold text-[#0b1e39]">
                       {data.questions.toLocaleString()}
@@ -1012,6 +1072,7 @@ className="bg-white rounded-2xl shadow-lg p-5 border-t-4 border-[#0b1e39] hover:
                       Avg. Score
                     </div>
                   </div>
+
                 </div>
               </div>
             ))}
@@ -1021,20 +1082,25 @@ className="bg-white rounded-2xl shadow-lg p-5 border-t-4 border-[#0b1e39] hover:
         {/* PERFORMANCE HIGHLIGHTS */}
 
         <section className="container mx-auto px-4 py-10 md:py-14">
+
           <h2 className="text-2xl md:text-3xl font-bold text-white mb-7 text-center md:text-left">
             🎯 Performance Highlights
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+
             {/* Strongest Subject */}
 
             <div className="bg-white rounded-2xl shadow-xl p-7 border-l-4 border-[#ff9800]">
+
               <div className="flex items-center gap-4">
+
                 <div className="w-14 h-14 rounded-full bg-[#fff3e0] flex items-center justify-center text-3xl">
                   🏆
                 </div>
 
                 <div>
+
                   <p className="text-sm text-[#576a89] font-medium">
                     Strongest Subject
                   </p>
@@ -1055,6 +1121,7 @@ className="bg-white rounded-2xl shadow-lg p-5 border-t-4 border-[#0b1e39] hover:
                       No data yet
                     </h3>
                   )}
+
                 </div>
               </div>
             </div>
@@ -1062,12 +1129,15 @@ className="bg-white rounded-2xl shadow-lg p-5 border-t-4 border-[#0b1e39] hover:
             {/* Weakest Subject */}
 
             <div className="bg-white rounded-2xl shadow-xl p-7 border-l-4 border-[#0b1e39]">
+
               <div className="flex items-center gap-4">
+
                 <div className="w-14 h-14 rounded-full bg-[#e9ecef] flex items-center justify-center text-3xl">
                   🎯
                 </div>
 
                 <div>
+
                   <p className="text-sm text-[#576a89] font-medium">
                     Needs Improvement
                   </p>
@@ -1088,71 +1158,133 @@ className="bg-white rounded-2xl shadow-lg p-5 border-t-4 border-[#0b1e39] hover:
                       No data yet
                     </h3>
                   )}
+
                 </div>
               </div>
             </div>
+
           </div>
         </section>
 
-        {/* TOP SCORER */}
+        {/* TOP 5 LEADERBOARD */}
 
         <section className="container mx-auto px-4 py-10 md:py-14">
+
           <h2 className="text-2xl md:text-3xl font-bold text-white mb-6 text-center md:text-left">
             🏆 Leaderboard
           </h2>
 
-          <div className="max-w-md mx-auto bg-white rounded-2xl shadow-xl overflow-hidden border-t-4 border-[#ff9800]">
-            <div className="bg-[#ff9800] px-6 py-4 text-center">
-              <div className="text-4xl mb-1">🏆</div>
+          <div className="max-w-2xl mx-auto bg-white rounded-2xl shadow-xl overflow-hidden border-t-4 border-[#ff9800]">
 
-              <h3 className="text-lg font-extrabold text-[#0b1e39]">
-                TOP SCORER
+            <div className="bg-[#ff9800] px-6 py-5 text-center">
+
+              <div className="text-4xl mb-1">
+                🏆
+              </div>
+
+              <h3 className="text-xl font-extrabold text-[#0b1e39]">
+                TOP 5 SCORERS
               </h3>
+
+              <p className="text-sm text-[#0b1e39]/70 mt-1">
+                Highest performing students
+              </p>
+
             </div>
 
-            <div className="p-7 text-center">
-              {topScorer ? (
-                <>
-                  <p className="text-2xl font-black text-[#0b1e39]">
-                    {topScorer.student_name}
-                  </p>
+            <div className="p-5 md:p-7">
 
-                  <p className="mt-2 text-sm text-[#576a89]">
-                    Highest score achieved
-                  </p>
+              {topScorers.length > 0 ? (
 
-                  <div className="mt-5 inline-flex items-center justify-center rounded-full bg-[#0b1e39] px-7 py-3">
-                    <span className="text-2xl font-black text-[#ff9800]">
-                      {topScorer.score_percentage}%
-                    </span>
-                  </div>
-                </>
+                <div className="space-y-3">
+
+                  {topScorers.map((student, index) => (
+
+                    <div
+                      key={`${student.student_name}-${index}`}
+                      className={`flex items-center justify-between rounded-xl px-4 py-4 ${
+                        index === 0
+                          ? "bg-[#fff3e0] border-2 border-[#ff9800]"
+                          : "bg-[#f4f6f9]"
+                      }`}
+                    >
+
+                      <div className="flex items-center gap-4">
+
+                        <div className="w-10 text-center text-xl font-black">
+                          {index === 0
+                            ? "🥇"
+                            : index === 1
+                            ? "🥈"
+                            : index === 2
+                            ? "🥉"
+                            : `#${index + 1}`}
+                        </div>
+
+                        <div>
+
+                          <p className="font-bold text-[#0b1e39]">
+                            {student.student_name}
+                          </p>
+
+                          {index === 0 && (
+                            <p className="text-xs text-[#ff9800] font-semibold">
+                              🏆 Top Scorer
+                            </p>
+                          )}
+
+                        </div>
+                      </div>
+
+                      <div className="rounded-full bg-[#0b1e39] px-4 py-2">
+
+                        <span className="text-lg font-black text-[#ff9800]">
+                          {student.score_percentage}%
+                        </span>
+
+                      </div>
+
+                    </div>
+                  ))}
+                </div>
+
               ) : (
-                <p className="text-gray-500">
+
+                <p className="text-center text-gray-500 py-6">
                   No test results yet.
                 </p>
+
               )}
+
             </div>
           </div>
         </section>
+
       </main>
 
       {/* FOOTER */}
 
       <footer className="w-full bg-[#142542] py-8 mt-auto border-t border-[#172d4f]">
+
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-4 gap-6">
+
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
+
             <div className="text-xl font-black tracking-tight text-white">
               STUDYING{" "}
-              <span className="text-[#ff9800]">TACTICS</span>
+              <span className="text-[#ff9800]">
+                TACTICS
+              </span>
             </div>
 
             <div className="text-[#cdd6e6] text-sm mt-1">
               MDCAT Preparation Platform
             </div>
+
           </div>
 
           <ul className="flex flex-wrap gap-6 mt-4 md:mt-0 text-[#cdd6e6] text-sm font-medium">
+
             <li>
               <a
                 href="/tests"
@@ -1188,9 +1320,11 @@ className="bg-white rounded-2xl shadow-lg p-5 border-t-4 border-[#0b1e39] hover:
                 MDCAT Updates
               </a>
             </li>
+
           </ul>
         </div>
       </footer>
+
     </div>
   );
 }
