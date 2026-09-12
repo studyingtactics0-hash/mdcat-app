@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+
 import { createClient } from "@/lib/supabase/client";
 
 export default function LoginPage() {
@@ -13,6 +14,8 @@ export default function LoginPage() {
   const [isSignup, setIsSignup] = useState(false);
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState("");
+
+  const [redirectTo, setRedirectTo] = useState("/");
 
   useEffect(() => {
     console.log(
@@ -36,6 +39,15 @@ export default function LoginPage() {
         process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY || ""
       )
     );
+
+    // Get the page the student originally tried to visit
+    const params = new URLSearchParams(window.location.search);
+    const next = params.get("next");
+
+    // Only allow internal redirects
+    if (next && next.startsWith("/") && !next.startsWith("//")) {
+      setRedirectTo(next);
+    }
   }, []);
 
   async function handleSubmit(e: React.FormEvent) {
@@ -75,7 +87,8 @@ export default function LoginPage() {
       if (error) {
         setMessage(error.message);
       } else {
-        window.location.href = "/";
+        // Return the student to the page they originally wanted
+        window.location.href = redirectTo;
       }
     }
 
