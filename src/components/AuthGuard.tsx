@@ -15,26 +15,30 @@ export default function AuthGuard({
   const [checking, setChecking] = useState(true);
 
   useEffect(() => {
+    const supabase = createClient();
+
+    let mounted = true;
+
     const checkAuth = async () => {
-      const supabase = createClient();
-
-      const {
-        data: { user },
-      } = await supabase.auth.getUser();
-
       // Login page must always remain accessible
       if (pathname === "/login") {
-        setChecking(false);
+        if (mounted) {
+          setChecking(false);
+        }
         return;
       }
 
-      if (!user) {
+      // Get the current session first.
+      // This waits for Supabase to restore the browser session.
+      const {
+        data: { session },
+      } = await supabase.auth.getSession();
+
+      if (!mounted) return;
+
+      if (!session?.user) {
         const next = pathname || "/";
-
-        router.replace(
-          `/login?next=${encodeURIComponent(next)}`
-        );
-
+        router.replace(`/login?next=${encodeURIComponent(next)}`);
         return;
       }
 
@@ -42,10 +46,42 @@ export default function AuthGuard({
     };
 
     checkAuth();
+
+    // Keep AuthGuard synchronized with Supabase authentication changes.
+    const {
+      data: { subscription },
+    } = supabase.auth.onAuthStateChange((event, session) => {
+      if (!mounted) return;
+
+      // Ignore the initial session event because checkAuth()
+      // already handles the initial authentication check.
+      if (event === "INITIAL_SESSION") {
+        if (session?.user) {
+          setChecking(false);
+        }
+        return;
+      }
+
+      if (event === "SIGNED_IN" && session?.user) {
+        setChecking(false);
+        return;
+      }
+
+      if (event === "SIGNED_OUT") {
+        if (pathname !== "/login") {
+          const next = pathname || "/";
+          router.replace(`/login?next=${encodeURIComponent(next)}`);
+        }
+      }
+    });
+
+    return () => {
+      mounted = false;
+      subscription.unsubscribe();
+    };
   }, [pathname, router]);
 
-  // Prevent protected page from briefly appearing
-  // before authentication is checked.
+  // Don't show protected pages until authentication has been checked.
   if (checking && pathname !== "/login") {
     return (
       <main className="min-h-screen bg-[#f5f7fb] flex items-center justify-center">
