@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+
 import AuthGuard from "@/components/AuthGuard";
+import Header from "@/components/Header";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,18 +15,15 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-
 export const metadata: Metadata = {
   metadataBase: new URL("https://mdcat-app-alpha.vercel.app"),
   title: "STUDYING TACTICS",
   description: "WHERE WE GROW TOGETHER",
-
   icons: {
     icon: "/logo.jpg",
     shortcut: "/logo.jpg",
     apple: "/logo.jpg",
   },
-
   openGraph: {
     title: "STUDYING TACTICS",
     description: "WHERE WE GROW TOGETHER",
@@ -37,7 +36,6 @@ export const metadata: Metadata = {
       },
     ],
   },
-
   twitter: {
     card: "summary",
     title: "STUDYING TACTICS",
@@ -46,15 +44,22 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-      <AuthGuard>{children}</AuthGuard>
-</body>
+        <AuthGuard>
+          <Header />
+          {children}
+        </AuthGuard>
+      </body>
     </html>
   );
 }
