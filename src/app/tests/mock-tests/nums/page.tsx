@@ -6,65 +6,81 @@ export default function NUMSMockTestsPage() {
 const router = useRouter();
 
 const mockTests = [
-{
-id: 1,
-title: "NUMS 2025",
-questions: 150,
-time: 150,
-difficulty: "NUMS",
-year: 2025,
-},
-{
-id: 2,
-title: "NUMS 2024",
-questions: 150,
-time: 150,
-difficulty: "NUMS",
-year: 2024,
-},
-{
-id: 3,
-title: "NUMS 2023",
-questions: 150,
-time: 150,
-difficulty: "NUMS",
-year: 2023,
-},
-{
-id: 4,
-title: "NUMS 2022",
-questions: 150,
-time: 150,
-difficulty: "NUMS",
-year: 2022,
-},
-{
-  id: 5,
-  title: "MOCK NUMS 1",
-  questions: 150,
-  time: 150,
-  difficulty: "NUMS",
-  year: 2026,
-  link: "/tests/mock-tests/nums/nums-test-1",
-  },
   {
-  id: 6,
-  title: "MOCK NUMS 2",
-  questions: 150,
-  time: 150,
-  difficulty: "NUMS",
-  year: 2026,
-  link: "/tests/mock-tests/nums/nums-test-2",
+    id: 1,
+    title: "NUMS 2026",
+    questions: 150,
+    time: 150,
+    difficulty: "NUMS",
+    year: 2026,
+    link: "/tests/mock-tests/nums/nums-2026",
   },
+
   {
-  id: 7,
-  title: "MOCK NUMS 3",
-  questions: 150,
-  time: 150,
-  difficulty: "NUMS",
-  year: 2026,
-  link: "/tests/mock-tests/nums/nums-test-3",
-  }, 
+    id: 2,
+    title: "NUMS 2025",
+    questions: 150,
+    time: 150,
+    difficulty: "NUMS",
+    year: 2025,
+  },
+
+  {
+    id: 3,
+    title: "NUMS 2024",
+    questions: 150,
+    time: 150,
+    difficulty: "NUMS",
+    year: 2024,
+  },
+
+  {
+    id: 4,
+    title: "NUMS 2023",
+    questions: 150,
+    time: 150,
+    difficulty: "NUMS",
+    year: 2023,
+  },
+
+  {
+    id: 5,
+    title: "NUMS 2022",
+    questions: 150,
+    time: 150,
+    difficulty: "NUMS",
+    year: 2022,
+  },
+
+  {
+    id: 6,
+    title: "MOCK NUMS 1",
+    questions: 150,
+    time: 150,
+    difficulty: "NUMS",
+    year: 2026,
+    link: "/tests/mock-tests/nums/nums-test-1",
+  },
+
+  {
+    id: 7,
+    title: "MOCK NUMS 2",
+    questions: 150,
+    time: 150,
+    difficulty: "NUMS",
+    year: 2026,
+    link: "/tests/mock-tests/nums/nums-test-2",
+  },
+
+  {
+    id: 8,
+    title: "MOCK NUMS 3",
+    questions: 150,
+    time: 150,
+    difficulty: "NUMS",
+    year: 2026,
+    link: "/tests/mock-tests/nums/nums-test-3",
+  },
 ];
 
 return (
