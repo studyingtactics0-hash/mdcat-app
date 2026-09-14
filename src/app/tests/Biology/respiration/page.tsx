@@ -22,13 +22,13 @@ export default function RespirationPage() {
         title: "Respiration — Test 4",
         questions: 50,
         time: 50,
-        difficulty: "MDCAT",
+        difficulty: "ARE YOU READY FOR REAL MCQs",
       },
       {
         title: "Respiration — Test 5",
         questions: 50,
         time: 50,
-        difficulty: "MDCAT",
+        difficulty: "UNLIMITED BACK TO BACK MCQs!",
       },
     ];
   

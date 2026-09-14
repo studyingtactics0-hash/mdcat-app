@@ -25,14 +25,14 @@ export default function ChemistryOfHydrocarbonsPage() {
         title: "Chemistry of Hydrocarbons — Test 4",
         questions: 50,
         time: 50,
-        difficulty: "MDCAT",
+        difficulty: "ARE YOU READY FOR REAL MCQs",
         link: "/tests/Chemistry/chemistry-of-hydrocarbons/test-4",
       },
       {
         title: "Chemistry of Hydrocarbons — Test 5",
         questions: 50,
         time: 50,
-        difficulty: "MDCAT",
+        difficulty: "UNLIMITED BACK TO BACK MCQs!",
         link: "/tests/Chemistry/chemistry-of-hydrocarbons/test-5",
       },
     ];

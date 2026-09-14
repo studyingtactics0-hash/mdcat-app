@@ -25,14 +25,14 @@ export default function FundamentalConceptsOfChemistryPage() {
         title: "Fundamental Concepts of Chemistry — Test 4",
         questions: 50,
         time: 50,
-        difficulty: "MDCAT",
+        difficulty: "ARE YOU READY FOR REAL MCQs",
         link: "/tests/Chemistry/fundamental-concepts-of-chemistry/test-4",
       },
       {
         title: "Fundamental Concepts of Chemistry — Test 5",
         questions: 50,
         time: 50,
-        difficulty: "MDCAT",
+        difficulty: "UNLIMITED BACK TO BACK MCQs!",
         link: "/tests/Chemistry/fundamental-concepts-of-chemistry/test-5",
       },
     ];

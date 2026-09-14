@@ -31,14 +31,14 @@ export default function HomeostasisPage() {
       title: "Homeostasis — Test 4",
       questions: 50,
       time: 50,
-      difficulty: "MDCAT",
+      difficulty: "ARE YOU READY FOR REAL MCQs",
       link: "/tests/Biology/homeostasis/test-4",
     },
     {
       title: "Homeostasis — Test 5",
       questions: 50,
       time: 50,
-      difficulty: "MDCAT",
+      difficulty: "UNLIMITED BACK TO BACK MCQs!",
       link: "/tests/Biology/homeostasis/test-5",
     },
   ];

@@ -25,14 +25,14 @@ export default function IndustrialChemistryPage() {
         title: "Industrial Chemistry — Test 4",
         questions: 50,
         time: 50,
-        difficulty: "MDCAT",
+        difficulty: "ARE YOU READY FOR REAL MCQs",
         link: "/tests/Chemistry/industrial-chemistry/test-4",
       },
       {
         title: "Industrial Chemistry — Test 5",
         questions: 50,
         time: 50,
-        difficulty: "MDCAT",
+        difficulty: "UNLIMITED BACK TO BACK MCQs!",
         link: "/tests/Chemistry/industrial-chemistry/test-5",
       },
     ];

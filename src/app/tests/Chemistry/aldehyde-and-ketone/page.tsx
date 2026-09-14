@@ -25,14 +25,14 @@ export default function AldehydeAndKetonePage() {
         title: "Aldehyde and Ketone — Test 4",
         questions: 50,
         time: 50,
-        difficulty: "MDCAT",
+        difficulty: "ARE YOU READY FOR REAL MCQs",
         link: "/tests/Chemistry/aldehyde-and-ketone/test-4",
       },
       {
         title: "Aldehyde and Ketone — Test 5",
         questions: 50,
         time: 50,
-        difficulty: "MDCAT",
+        difficulty: "UNLIMITED BACK TO BACK MCQs!",
         link: "/tests/Chemistry/aldehyde-and-ketone/test-5",
       },
     ];

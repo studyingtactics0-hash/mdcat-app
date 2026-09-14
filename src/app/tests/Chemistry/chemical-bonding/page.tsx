@@ -25,14 +25,14 @@ export default function ChemicalBondingPage() {
         title: "Chemical Bonding — Test 4",
         questions: 50,
         time: 50,
-        difficulty: "MDCAT",
+        difficulty: "ARE YOU READY FOR REAL MCQs",
         link: "/tests/Chemistry/chemical-bonding/test-4",
       },
       {
         title: "Chemical Bonding — Test 5",
         questions: 50,
         time: 50,
-        difficulty: "MDCAT",
+        difficulty: "UNLIMITED BACK TO BACK MCQs!",
         link: "/tests/Chemistry/chemical-bonding/test-5",
       },
     ];

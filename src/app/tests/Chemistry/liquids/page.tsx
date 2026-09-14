@@ -25,14 +25,14 @@ export default function LiquidsPage() {
         title: "Liquids — Test 4",
         questions: 50,
         time: 50,
-        difficulty: "MDCAT",
+        difficulty: "ARE YOU READY FOR REAL MCQs",
         link: "/tests/Chemistry/liquids/test-4",
       },
       {
         title: "Liquids — Test 5",
         questions: 50,
         time: 50,
-        difficulty: "MDCAT",
+        difficulty: "UNLIMITED BACK TO BACK MCQs!",
         link: "/tests/Chemistry/liquids/test-5",
       },
     ];

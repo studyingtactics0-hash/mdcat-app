@@ -25,14 +25,14 @@ export default function SolidsPage() {
         title: "Solids — Test 4",
         questions: 50,
         time: 50,
-        difficulty: "MDCAT",
+        difficulty: "ARE YOU READY FOR REAL MCQs",
         link: "/tests/Chemistry/solids/test-4",
       },
       {
         title: "Solids — Test 5",
         questions: 50,
         time: 50,
-        difficulty: "MDCAT",
+        difficulty: "UNLIMITED BACK TO BACK MCQs!",
         link: "/tests/Chemistry/solids/test-5",
       },
     ];
