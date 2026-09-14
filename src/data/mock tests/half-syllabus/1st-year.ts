@@ -276,7 +276,7 @@ export type Question = {
           options: [
             "Condensed",
             "Thick",
-            "Moderate",
+            "BASIC KNOWLEDGE TEST",
             "Thin",
             "Entangled",
           ],
@@ -14296,7 +14296,7 @@ export type Question = {
         options: [
           "Higher",
           "Larger",
-          "Moderate",
+          "BASIC KNOWLEDGE TEST",
           "Smaller"
         ],
         answer: 3
@@ -16646,7 +16646,7 @@ export type Question = {
       question: "Intermolecular forces between molecules of ideal gas are",
       options: [
         "Strong",
-        "Moderate",
+        "BASIC KNOWLEDGE TEST",
         "Weak",
         "Absent"
       ],
@@ -17010,7 +17010,7 @@ export type Question = {
         "weak electrolyte",
         "strong electrolyte",
         "very strong electrolyte",
-        "moderate electrolyte"
+        "BASIC KNOWLEDGE TEST electrolyte"
       ],
       answer: 0,
       explanation: "Pure water auto-ionizes to a very small extent ([H⁺][OH⁻] = 10⁻¹⁴), functioning as a very weak electrolyte."
@@ -18045,7 +18045,7 @@ export type Question = {
         options: [
           "Very fast increasing",
           "Slow and decreasing",
-          "Moderate and decreasing",
+          "BASIC KNOWLEDGE TEST and decreasing",
           "Continuously increasing"
         ],
         answer: 1

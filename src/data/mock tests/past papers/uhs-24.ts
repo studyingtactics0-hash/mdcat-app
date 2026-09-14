@@ -674,7 +674,7 @@ export type PastPaperQuestion = {
     {
       id: "uhs2024-q75",
       question: "Intermolecular forces between molecules of ideal gas are:",
-      options: ["Strong", "Moderate", "Weak", "Absent"],
+      options: ["Strong", "BASIC KNOWLEDGE TEST", "Weak", "Absent"],
       answer: 3,
     },
     {

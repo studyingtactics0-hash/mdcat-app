@@ -167,7 +167,7 @@ export type Question = {
       options: [
         "Maximum capacity to regenerate",
         "Very little capacity to regenerate",
-        "Moderate capacity to regenerate",
+        "BASIC KNOWLEDGE TEST capacity to regenerate",
         "No regeneration capacity"
       ],
       answer: 0

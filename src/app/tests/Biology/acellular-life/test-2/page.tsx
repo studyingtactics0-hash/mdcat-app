@@ -10,8 +10,8 @@ export default function AcellularLifeTest2Page() {
       title="Acellular Life — Test 2"
       subject="Biology"
       chapter="Acellular Life"
-      timeLimit={20}
-      questionCount={20}
+      timeLimit={15}
+      questionCount={15}
     />
   );
 }

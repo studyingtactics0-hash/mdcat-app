@@ -742,7 +742,7 @@ export type Question = {
         options: [
           "Very fast increasing",
           "Slow and decreasing",
-          "Moderate and decreasing",
+          "BASIC KNOWLEDGE TEST and decreasing",
           "Continuously increasing"
         ],
         answer: 1

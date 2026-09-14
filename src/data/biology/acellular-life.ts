@@ -244,7 +244,7 @@ export const acellularLifeQuestions = [
     options: [
       "Condensed",
       "Thick",
-      "Moderate",
+      "BASIC KNOWLEDGE TEST",
       "Thin",
       "Entangled",
     ],

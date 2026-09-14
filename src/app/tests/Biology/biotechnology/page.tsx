@@ -8,19 +8,19 @@ export default function BiotechnologyPage() {
       title: "Biotechnology — Test 1",
       questions: 20,
       time: 20,
-      difficulty: "Basic",
+      difficulty: "DO YOU KNOW ANYTHING",
     },
     {
       title: "Biotechnology — Test 2",
       questions: 35,
       time: 35,
-      difficulty: "Moderate",
+      difficulty: "BASIC KNOWLEDGE TEST",
     },
     {
       title: "Biotechnology — Test 3",
       questions: 50,
       time: 50,
-      difficulty: "MDCAT",
+      difficulty: "LET'S BE REAL",
     },
     {
       title: "Biotechnology — Test 4",

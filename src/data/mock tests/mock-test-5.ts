@@ -713,7 +713,7 @@ export const chemistryQuestions: Question[] = [
         "Highest number of chloride atoms",
         "Lesser number of hydrogen atoms",
         "Highest number of hydrogen atoms",
-        "Moderate number of hydrogen atoms",
+        "BASIC KNOWLEDGE TEST number of hydrogen atoms",
         "Lesser number of chloride atoms"
       ],
       answer: 1,

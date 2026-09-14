@@ -1094,7 +1094,7 @@ export type MockQuestion = {
         "weak electrolyte",
         "strong electrolyte",
         "very strong electrolyte",
-        "moderate electrolyte"
+        "BASIC KNOWLEDGE TEST electrolyte"
       ],
       answer: 0,
       subject: "Chemistry",

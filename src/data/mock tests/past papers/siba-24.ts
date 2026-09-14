@@ -133,7 +133,7 @@ export type SibaQuestion = {
     {
       id: "siba24-q18",
       question: "In Gram -ve bacteria, the peptidoglycan layer is:",
-      options: ["Condensed", "Thick", "Moderate", "Thin", "Entangled"],
+      options: ["Condensed", "Thick", "BASIC KNOWLEDGE TEST", "Thin", "Entangled"],
       answer: 3,
     },
     {
@@ -544,7 +544,7 @@ export type SibaQuestion = {
         "Highest number of chloride atoms",
         "Lesser number of hydrogen atoms",
         "Highest number of hydrogen atoms",
-        "Moderate number of hydrogen atoms",
+        "BASIC KNOWLEDGE TEST number of hydrogen atoms",
         "Lesser number of chloride atoms",
       ],
       answer: 1,

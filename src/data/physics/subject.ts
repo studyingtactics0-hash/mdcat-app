@@ -3401,7 +3401,7 @@ export type Question = {
           "Small area",
           "Large area",
           "No area",
-          "Moderate area"
+          "BASIC KNOWLEDGE TEST area"
         ],
         answer: 0
       },
@@ -4588,7 +4588,7 @@ export type Question = {
         options: [
           "Heavily doped",
           "Lightly doped and thin",
-          "Moderately doped and thick",
+          "BASIC KNOWLEDGE TESTly doped and thick",
           "Heavily doped and thick"
         ],
         answer: 1

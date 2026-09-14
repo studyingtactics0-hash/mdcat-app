@@ -2388,7 +2388,7 @@ export const numsTest2: NUMSQuestion[] = [
     "options": [
       "Higher",
       "Larger",
-      "Moderate",
+      "BASIC KNOWLEDGE TEST",
       "Smaller"
     ],
     "answer": 3
@@ -2716,7 +2716,7 @@ export const numsTest2: NUMSQuestion[] = [
     "question": "Intermolecular forces between molecules of ideal gas are",
     "options": [
       "Strong",
-      "Moderate",
+      "BASIC KNOWLEDGE TEST",
       "Weak",
       "Absent"
     ],

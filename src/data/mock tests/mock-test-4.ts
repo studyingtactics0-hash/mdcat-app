@@ -217,7 +217,7 @@ export type Question = {
     {
       id: "acellularLifeQuestions-26",
       question: "In Gram-negative bacteria, the peptidoglycan layer is:",
-      options: ["Condensed", "Thick", "Moderate", "Thin", "Entangled"],
+      options: ["Condensed", "Thick", "BASIC KNOWLEDGE TEST", "Thin", "Entangled"],
       answer: 3,
       chapter: "acellularLifeQuestions"
     },
@@ -1159,7 +1159,7 @@ export type Question = {
       options: [
         "Heavily doped",
         "Lightly doped and thin",
-        "Moderately doped and thick",
+        "BASIC KNOWLEDGE TESTly doped and thick",
         "Heavily doped and thick"
       ],
       answer: 1,

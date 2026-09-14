@@ -3635,7 +3635,7 @@ export type Question = {
         question: "Which of the following is weaker acid",
         options: ["HCl", "H₂SO₄", "CH₃COOH", "H₃PO₄"],
         answer: 3,
-        explanation: "Note: Acetic acid (CH3COOH) is an organic weak acid, but H3PO4 (a moderately weak mineral acid) is mapped per the provided answer key."
+        explanation: "Note: Acetic acid (CH3COOH) is an organic weak acid, but H3PO4 (a BASIC KNOWLEDGE TESTly weak mineral acid) is mapped per the provided answer key."
       },
       {
         id: "carb-esters-15",
@@ -4782,7 +4782,7 @@ export type Question = {
         options: [
           "Higher",
           "Larger",
-          "Moderate",
+          "BASIC KNOWLEDGE TEST",
           "Smaller"
         ],
         answer: 3
@@ -6068,7 +6068,7 @@ export type Question = {
         "Highest number of chloride atoms",
         "Lesser number of hydrogen atoms",
         "Highest number of hydrogen atoms",
-        "Moderate number of hydrogen atoms",
+        "BASIC KNOWLEDGE TEST number of hydrogen atoms",
         "Lesser number of chloride atoms"
       ],
       answer: 1,
@@ -9784,7 +9784,7 @@ export type Question = {
       question: "Intermolecular forces between molecules of ideal gas are",
       options: [
         "Strong",
-        "Moderate",
+        "BASIC KNOWLEDGE TEST",
         "Weak",
         "Absent"
       ],
@@ -10199,7 +10199,7 @@ export type Question = {
         "weak electrolyte",
         "strong electrolyte",
         "very strong electrolyte",
-        "moderate electrolyte"
+        "BASIC KNOWLEDGE TEST electrolyte"
       ],
       answer: 0,
       explanation: "Pure water auto-ionizes to a very small extent ([H⁺][OH⁻] = 10⁻¹⁴), functioning as a very weak electrolyte."
@@ -11830,7 +11830,7 @@ export type Question = {
         options: [
           "Very fast increasing",
           "Slow and decreasing",
-          "Moderate and decreasing",
+          "BASIC KNOWLEDGE TEST and decreasing",
           "Continuously increasing"
         ],
         answer: 1

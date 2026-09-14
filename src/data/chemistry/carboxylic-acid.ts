@@ -286,7 +286,7 @@ export type Question = {
         question: "Which of the following is weaker acid",
         options: ["HCl", "H₂SO₄", "CH₃COOH", "H₃PO₄"],
         answer: 3,
-        explanation: "Note: Acetic acid (CH3COOH) is an organic weak acid, but H3PO4 (a moderately weak mineral acid) is mapped per the provided answer key."
+        explanation: "Note: Acetic acid (CH3COOH) is an organic weak acid, but H3PO4 (a BASIC KNOWLEDGE TESTly weak mineral acid) is mapped per the provided answer key."
       },
       {
         id: "carb-esters-15",

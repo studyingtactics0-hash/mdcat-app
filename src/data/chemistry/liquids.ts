@@ -65,7 +65,7 @@ export type Question = {
         "weak electrolyte",
         "strong electrolyte",
         "very strong electrolyte",
-        "moderate electrolyte"
+        "BASIC KNOWLEDGE TEST electrolyte"
       ],
       answer: 0,
       explanation: "Pure water auto-ionizes to a very small extent ([H⁺][OH⁻] = 10⁻¹⁴), functioning as a very weak electrolyte."

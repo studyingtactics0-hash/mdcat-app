@@ -806,7 +806,7 @@ export type Question = {
         options: [
           "Higher",
           "Larger",
-          "Moderate",
+          "BASIC KNOWLEDGE TEST",
           "Smaller"
         ],
         answer: 3

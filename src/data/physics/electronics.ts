@@ -364,7 +364,7 @@ export type Question = {
         options: [
           "Heavily doped",
           "Lightly doped and thin",
-          "Moderately doped and thick",
+          "BASIC KNOWLEDGE TESTly doped and thick",
           "Heavily doped and thick"
         ],
         answer: 1

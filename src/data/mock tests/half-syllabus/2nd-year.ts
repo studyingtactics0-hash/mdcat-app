@@ -6065,7 +6065,7 @@ export type Question = {
           options: ["HCl", "H₂SO₄", "CH₃COOH", "H₃PO₄"],
           answer: 3,
           explanation:
-            "Note: Acetic acid (CH3COOH) is an organic weak acid, but H3PO4 (a moderately weak mineral acid) is mapped per the provided answer key.",
+            "Note: Acetic acid (CH3COOH) is an organic weak acid, but H3PO4 (a BASIC KNOWLEDGE TESTly weak mineral acid) is mapped per the provided answer key.",
         },
         {
           id: "carb-esters-15",
@@ -6532,7 +6532,7 @@ export type Question = {
             "Highest number of chloride atoms",
             "Lesser number of hydrogen atoms",
             "Highest number of hydrogen atoms",
-            "Moderate number of hydrogen atoms",
+            "BASIC KNOWLEDGE TEST number of hydrogen atoms",
             "Lesser number of chloride atoms",
           ],
           answer: 1,
@@ -13475,7 +13475,7 @@ export type Question = {
     {
       id: "testmoz-phys-emi-46",
       question: "For a good Transformer the material of the core should have the has the hysterics loop of",
-      options: ["Small area", "Large area", "No area", "Moderate area"],
+      options: ["Small area", "Large area", "No area", "BASIC KNOWLEDGE TEST area"],
       answer: 0
     },
     {
@@ -14306,7 +14306,7 @@ export type Question = {
       options: [
         "Heavily doped",
         "Lightly doped and thin",
-        "Moderately doped and thick",
+        "BASIC KNOWLEDGE TESTly doped and thick",
         "Heavily doped and thick"
       ],
       answer: 1

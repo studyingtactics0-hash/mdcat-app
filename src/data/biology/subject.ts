@@ -248,7 +248,7 @@ export const biologyquestions = [
       options: [
         "Condensed",
         "Thick",
-        "Moderate",
+        "BASIC KNOWLEDGE TEST",
         "Thin",
         "Entangled",
       ],

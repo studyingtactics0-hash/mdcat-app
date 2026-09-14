@@ -307,7 +307,7 @@ export type Question = {
       question: "Intermolecular forces between molecules of ideal gas are",
       options: [
         "Strong",
-        "Moderate",
+        "BASIC KNOWLEDGE TEST",
         "Weak",
         "Absent"
       ],

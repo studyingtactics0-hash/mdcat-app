@@ -856,7 +856,7 @@ export type Question = {
           "Small area",
           "Large area",
           "No area",
-          "Moderate area"
+          "BASIC KNOWLEDGE TEST area"
         ],
         answer: 0
       },
