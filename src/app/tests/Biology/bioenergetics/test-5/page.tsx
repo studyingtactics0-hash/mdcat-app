@@ -10,8 +10,8 @@ export default function BioenergeticsTest5Page() {
       title="Bioenergetics — Test 5"
       subject="Biology"
       chapter="Bioenergetics"
-      timeLimit={200}
-      questionCount={200}
+      timeLimit={45}
+      questionCount={45}
     />
   );
 }

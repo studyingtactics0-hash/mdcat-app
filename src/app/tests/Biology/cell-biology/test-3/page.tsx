@@ -5,11 +5,11 @@ export default function TestOnePage() {
   return (
     <TestEngine
       questions={biologyQuestions}
-      title="Cell Structure and Function — Test 1"
+      title="Cell Structure and Function — Test 3"
       subject="Biology"
       chapter="Cell Biology"
-      timeLimit={5}
-      questionCount={5}
+      timeLimit={25}
+      questionCount={25}
     />
   );
 }

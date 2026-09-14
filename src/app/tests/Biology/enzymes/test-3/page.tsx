@@ -10,8 +10,8 @@ export default function EnzymesTest3Page() {
       title="Enzymes Test 3"
       subject="Biology"
       chapter="Enzymes"
-      timeLimit={20}
-      questionCount={20}
+      timeLimit={25}
+      questionCount={25}
     />
   );
 }

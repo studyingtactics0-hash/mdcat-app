@@ -8,8 +8,8 @@ export default function TestThreePage() {
       title="Coordination and Control — Test 3"
       subject="Biology"
       chapter="coordination-and-control"
-      timeLimit={50}
-      questionCount={50}
+      timeLimit={25}
+      questionCount={25}
     />
   );
 }

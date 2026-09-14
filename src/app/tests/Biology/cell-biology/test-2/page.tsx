@@ -8,8 +8,8 @@ export default function TestTwoPage() {
       title="Cell Structure and Function — Test 2"
       subject="Biology"
       chapter="Cell Biology"
-      timeLimit={200}
-      questionCount={200}
+      timeLimit={15}
+      questionCount={15}
     />
   );
 }

@@ -10,8 +10,8 @@ export default function SupportAndMovementTest2Page() {
       title="Support and Movement Test 2"
       subject="Biology"
       chapter="Support and Movement"
-      timeLimit={20}
-      questionCount={20}
+      timeLimit={15}
+      questionCount={15}
     />
   );
 }

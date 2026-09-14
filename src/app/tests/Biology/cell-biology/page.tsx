@@ -2,7 +2,7 @@ export default function CellBiologyPage() {
   const tests = [
     {
       title: "Cell Structure and Function — Test 1",
-      questions: 20,
+      questions: 5,
       time: 5,
       difficulty: "DO YOU KNOW ANYTHING",
       available: true,
@@ -10,19 +10,19 @@ export default function CellBiologyPage() {
     },
     {
       title: "Cell Structure and Function — Test 2",
-      questions: 35,
-      time: 35,
+      questions: 15,
+      time: 15,
       difficulty: "BASIC KNOWLEDGE TEST",
       available: true,
       link: "/tests/Biology/cell-biology/test-2",
     },
     {
       title: "Cell Structure and Function — Test 3",
-      questions: 50,
-      time: 50,
+      questions: 25,
+      time: 25,
       difficulty: "LET'S BE REAL",
       available: true,
-      link: "#",
+      link: "/tests/Biology/cell-biology/test-3",
     },
     {
       title: "Cell Structure and Function — Test 4",
@@ -30,15 +30,15 @@ export default function CellBiologyPage() {
       time: 50,
       difficulty: "ARE YOU READY FOR REAL MCQs",
       available: true,
-      link: "#",
+      link: "/tests/Biology/cell-biology/test-4",
     },
     {
       title: "Cell Structure and Function — Test 5",
-      questions: 50,
-      time: 50,
+      questions: 103,
+      time: 103,
       difficulty: "UNLIMITED BACK TO BACK MCQs!",
       available: true,
-      link: "#",
+      link: "/tests/Biology/cell-biology/test-5",
     },
   ];
 

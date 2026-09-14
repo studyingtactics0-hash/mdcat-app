@@ -8,8 +8,8 @@ export default function TestFivePage() {
       title="Coordination and Control — Test 5"
       subject="Biology"
       chapter="coordination-and-control"
-      timeLimit={200}
-      questionCount={200}
+      timeLimit={105}
+      questionCount={105}
     />
   );
 }

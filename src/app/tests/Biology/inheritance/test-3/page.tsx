@@ -10,8 +10,8 @@ export default function InheritanceTest3Page() {
       title="Inheritance Test 3"
       subject="Biology"
       chapter="Inheritance"
-      timeLimit={20}
-      questionCount={20}
+      timeLimit={25}
+      questionCount={25}
     />
   );
 }

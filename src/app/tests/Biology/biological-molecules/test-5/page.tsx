@@ -10,8 +10,8 @@ export default function BiologicalMoleculesTest5Page() {
       title="Biological Molecules — Test 5"
       subject="Biology"
       chapter="Biological Molecules"
-      timeLimit={200}
-      questionCount={200}
+      timeLimit={123}
+      questionCount={123}
     />
   );
 }

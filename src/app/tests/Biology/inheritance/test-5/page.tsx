@@ -8,8 +8,8 @@ export default function Page() {
       title="Inheritance Test 5"
       subject="Biology"
       chapter="inheritance"
-      timeLimit={200}
-      questionCount={200}
+      timeLimit={93}
+      questionCount={93}
     />
   );
 }
