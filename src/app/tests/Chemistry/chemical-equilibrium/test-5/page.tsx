@@ -10,8 +10,8 @@ export default function Test5Page() {
       title="Chemical Equilibrium Test 5"
       subject="Chemistry"
       chapter="Chemical Equilibrium"
-      timeLimit={200}
-      questionCount={200}
+      timeLimit={81}
+      questionCount={81}
     />
   );
 }

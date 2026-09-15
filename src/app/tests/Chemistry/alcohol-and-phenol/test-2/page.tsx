@@ -10,8 +10,8 @@ export default function Test2Page() {
       title="Alcohol And Phenol Test 2"
       subject="Chemistry"
       chapter="Alcohol And Phenol"
-      timeLimit={20}
-      questionCount={20}
+      timeLimit={15}
+      questionCount={15}
     />
   );
 }

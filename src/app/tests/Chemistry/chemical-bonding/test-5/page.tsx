@@ -10,8 +10,8 @@ export default function Test5Page() {
       title="Chemical Bonding Test 5"
       subject="Chemistry"
       chapter="Chemical Bonding"
-      timeLimit={200}
-      questionCount={200}
+      timeLimit={89}
+      questionCount={89}
     />
   );
 }

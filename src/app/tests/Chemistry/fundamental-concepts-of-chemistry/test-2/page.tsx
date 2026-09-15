@@ -10,8 +10,8 @@ export default function Test2Page() {
       title="Fundamental Concepts Of Chemistry Test 2"
       subject="Chemistry"
       chapter="Fundamental Concepts Of Chemistry"
-      timeLimit={20}
-      questionCount={20}
+      timeLimit={15}
+      questionCount={15}
     />
   );
 }

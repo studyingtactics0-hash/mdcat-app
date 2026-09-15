@@ -10,8 +10,8 @@ export default function Test5Page() {
       title="Electrochemistry Test 5"
       subject="Chemistry"
       chapter="Electrochemistry"
-      timeLimit={200}
-      questionCount={200}
+      timeLimit={74}
+      questionCount={74}
     />
   );
 }

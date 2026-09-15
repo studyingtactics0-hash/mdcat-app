@@ -10,8 +10,8 @@ export default function Test4Page() {
       title="Carboxylic Acids Test 4"
       subject="Chemistry"
       chapter="Carboxylic Acids"
-      timeLimit={20}
-      questionCount={20}
+      timeLimit={50}
+      questionCount={50}
     />
   );
 }

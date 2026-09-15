@@ -10,8 +10,8 @@ export default function Test3Page() {
       title="Transition Elements Test 3"
       subject="Chemistry"
       chapter="Transition Elements"
-      timeLimit={20}
-      questionCount={20}
+      timeLimit={25}
+      questionCount={25}
     />
   );
 }

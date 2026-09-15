@@ -10,8 +10,8 @@ export default function Test4Page() {
       title="S Block Elements Test 4"
       subject="Chemistry"
       chapter="S Block Elements"
-      timeLimit={20}
-      questionCount={20}
+      timeLimit={50}
+      questionCount={50}
     />
   );
 }

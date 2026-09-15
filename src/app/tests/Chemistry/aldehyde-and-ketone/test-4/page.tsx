@@ -10,8 +10,8 @@ export default function Test4Page() {
       title="Aldehyde And Ketone Test 4"
       subject="Chemistry"
       chapter="Aldehyde And Ketone"
-      timeLimit={20}
-      questionCount={20}
+      timeLimit={50}
+      questionCount={50}
     />
   );
 }

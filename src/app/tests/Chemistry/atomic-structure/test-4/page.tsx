@@ -10,8 +10,8 @@ export default function Test4Page() {
       title="Atomic Structure Test 4"
       subject="Chemistry"
       chapter="Atomic Structure"
-      timeLimit={20}
-      questionCount={20}
+      timeLimit={50}
+      questionCount={50}
     />
   );
 }

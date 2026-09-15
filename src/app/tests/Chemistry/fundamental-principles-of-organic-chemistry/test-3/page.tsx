@@ -10,8 +10,8 @@ export default function Test3Page() {
       title="Fundamental Principles of Organic Chemistry Test 3"
       subject="Chemistry"
       chapter="Fundamental Principles of Organic Chemistry"
-      timeLimit={20}
-      questionCount={20}
+      timeLimit={25}
+      questionCount={25}
     />
   );
 }

@@ -10,8 +10,8 @@ export default function Test5Page() {
       title="Reaction Kinetics Test 5"
       subject="Chemistry"
       chapter="Reaction Kinetics"
-      timeLimit={200}
-      questionCount={200}
+      timeLimit={77}
+      questionCount={77}
     />
   );
 }

@@ -10,8 +10,8 @@ export default function Test4Page() {
       title="Chemistry Of Hydrocarbons Test 4"
       subject="Chemistry"
       chapter="Chemistry Of Hydrocarbons"
-      timeLimit={20}
-      questionCount={20}
+      timeLimit={50}
+      questionCount={50}
     />
   );
 }
