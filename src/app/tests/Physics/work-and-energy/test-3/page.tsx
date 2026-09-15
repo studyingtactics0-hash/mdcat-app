@@ -11,8 +11,8 @@ export default function WorkAndEnergyTest1Page() {
       title="Work and Energy — Test 3"
       subject="Physics"
       chapter="Work and Energy"
-      timeLimit={20}
-      questionCount={20}
+      timeLimit={25}
+      questionCount={25}
     />
   );
 }

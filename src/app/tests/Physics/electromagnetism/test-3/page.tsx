@@ -11,8 +11,8 @@ export default function ElectromagnetismTest3Page() {
       title="Electromagnetism — Test 3"
       subject="Physics"
       chapter="Electromagnetism"
-      timeLimit={50}
-      questionCount={50}
+      timeLimit={25}
+      questionCount={25}
     />
   );
 }

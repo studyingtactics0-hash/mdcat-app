@@ -11,8 +11,8 @@ export default function ForceAndMotionTest1Page() {
       title="Force and Motion — Test 5"
       subject="Physics"
       chapter="Force and Motion"
-      timeLimit={200}
-      questionCount={200}
+      timeLimit={104}
+      questionCount={104}
     />
   );
 }

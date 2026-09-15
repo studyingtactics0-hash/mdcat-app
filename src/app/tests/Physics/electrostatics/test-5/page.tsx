@@ -11,8 +11,8 @@ export default function ElectrostaticsTest5Page() {
       title="Electrostatics — Test 5"
       subject="Physics"
       chapter="Electrostatics"
-      timeLimit={200}
-      questionCount={200}
+      timeLimit={99}
+      questionCount={99}
     />
   );
 }

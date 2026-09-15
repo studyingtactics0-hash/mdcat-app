@@ -11,8 +11,8 @@ export default function WavesTest3Page() {
       title="Waves — Test 3"
       subject="Physics"
       chapter="Waves"
-      timeLimit={50}
-      questionCount={50}
+      timeLimit={25}
+      questionCount={25}
     />
   );
 }

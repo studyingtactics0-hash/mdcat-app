@@ -11,8 +11,8 @@ export default function FormalAndWritingSkillTest5Page() {
       title="Formal and Writing Skill — Test 5"
       subject="English"
       chapter="Formal and Writing Skill"
-      timeLimit={50}
-      questionCount={50}
+      timeLimit={123}
+      questionCount={123}
     />
   );
 }

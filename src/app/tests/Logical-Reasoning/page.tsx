@@ -11,8 +11,8 @@ export default function LogicalReasoningTest1Page() {
       title="Logical Reasoning — Test"
       subject="Logical Reasoning"
       chapter="Logical Reasoning"
-      timeLimit={80}
-      questionCount={80}
+      timeLimit={75}
+      questionCount={75}
     />
   );
 }

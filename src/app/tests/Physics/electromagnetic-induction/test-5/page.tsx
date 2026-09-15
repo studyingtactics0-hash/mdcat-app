@@ -11,8 +11,8 @@ export default function ElectromagneticInductionTest5Page() {
       title="Electromagnetic Induction — Test 5"
       subject="Physics"
       chapter="Electromagnetic Induction"
-      timeLimit={200}
-      questionCount={200}
+      timeLimit={77}
+      questionCount={77}
     />
   );
 }

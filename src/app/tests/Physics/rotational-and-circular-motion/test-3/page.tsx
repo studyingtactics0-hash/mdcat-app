@@ -13,8 +13,8 @@ export default function RotationalAndCircularMotionTest3Page() {
       title="Rotational and Circular Motion — Test 3"
       subject="Physics"
       chapter="Rotational and Circular Motion"
-      timeLimit={50}
-      questionCount={50}
+      timeLimit={25}
+      questionCount={25}
     />
   );
 }

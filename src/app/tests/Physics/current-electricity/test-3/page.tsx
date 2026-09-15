@@ -11,8 +11,8 @@ export default function CurrentElectricityTest3Page() {
       title="Current Electricity — Test 3"
       subject="Physics"
       chapter="Current Electricity"
-      timeLimit={50}
-      questionCount={50}
+      timeLimit={25}
+      questionCount={25}
     />
   );
 }

@@ -11,8 +11,8 @@ export default function ReadingAndThinkingSkillTest5Page() {
       title="Reading and Thinking Skill — Test 5"
       subject="English"
       chapter="Reading and Thinking Skill"
-      timeLimit={50}
-      questionCount={50}
+      timeLimit={250}
+      questionCount={520}
     />
   );
 }
