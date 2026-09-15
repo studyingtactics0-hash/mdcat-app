@@ -244,9 +244,8 @@ export default function Header() {
   </button>
 
   {lecturesOpen && (
-    <div className="absolute right-[-30px] top-full pt-3">
-      <div className="w-[320px] bg-white text-[#0b1e39] rounded-2xl shadow-2xl border border-gray-200 p-5">
-
+    <div className="absolute right-[-30px] top-full pt-3 z-50">
+  <div className="w-[320px] max-w-[calc(100vw-24px)] bg-white text-[#0b1e39] rounded-2xl shadow-2xl border border-gray-200 p-5">
         <h3 className="text-[#ff9800] font-black text-sm uppercase tracking-wide mb-3">
           🎓 Choose Your Subject
         </h3>
