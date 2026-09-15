@@ -535,15 +535,67 @@ export default function Header() {
               )}
             </div>
 
-            {/* OTHER MOBILE NAV ITEMS */}
-            <a
-              href="/lectures"
-              onClick={() => setMenuOpen(false)}
-              className="block bg-[#173355] px-4 py-3 rounded-xl font-semibold hover:bg-[#214466] transition"
-            >
-              🎥 Lectures
-            </a>
+            {/* MOBILE LECTURES DROPDOWN */}
+<div className="rounded-xl overflow-hidden">
+  <button
+    type="button"
+    onClick={() => setLecturesOpen((prev) => !prev)}
+    className="w-full flex items-center justify-between bg-[#173355] px-4 py-3 rounded-xl font-semibold hover:bg-[#214466] transition"
+  >
+    <span>🎥 Lectures</span>
+    <span className="text-xs">
+      {lecturesOpen ? "▲" : "▼"}
+    </span>
+  </button>
 
+  {lecturesOpen && (
+    <div className="mt-2 ml-2 space-y-1">
+
+      <a
+        href="/lectures/Biology"
+        onClick={() => setMenuOpen(false)}
+        className="block bg-[#214466] px-4 py-3 rounded-lg font-semibold hover:bg-[#2b5278] transition"
+      >
+        🧬 Biology
+      </a>
+
+      <a
+        href="/lectures/Physics"
+        onClick={() => setMenuOpen(false)}
+        className="block bg-[#214466] px-4 py-3 rounded-lg font-semibold hover:bg-[#2b5278] transition"
+      >
+        ⚡ Physics
+      </a>
+
+      <a
+        href="/lectures/Chemistry"
+        onClick={() => setMenuOpen(false)}
+        className="block bg-[#214466] px-4 py-3 rounded-lg font-semibold hover:bg-[#2b5278] transition"
+      >
+        ⚗️ Chemistry
+      </a>
+
+      <a
+        href="/lectures/English"
+        onClick={() => setMenuOpen(false)}
+        className="block bg-[#214466] px-4 py-3 rounded-lg font-semibold hover:bg-[#2b5278] transition"
+      >
+        📖 English
+      </a>
+
+      <a
+        href="/lectures/Logical-Reasoning"
+        onClick={() => setMenuOpen(false)}
+        className="block bg-[#214466] px-4 py-3 rounded-lg font-semibold hover:bg-[#2b5278] transition"
+      >
+        🧠 Logical Reasoning
+      </a>
+
+    </div>
+  )}
+</div>
+
+            {/* OTHER MOBILE NAV ITEMS */}
             <a
               href="/score-predictor"
               onClick={() => setMenuOpen(false)}
