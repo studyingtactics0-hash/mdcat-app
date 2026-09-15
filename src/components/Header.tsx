@@ -1,10 +1,53 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
+import { createClient } from "@/lib/supabase/client";
+import type { User } from "@supabase/supabase-js";
 
 export default function Header() {
+  const router = useRouter();
+  const supabase = createClient();
+
   const [menuOpen, setMenuOpen] = useState(false);
   const [testsOpen, setTestsOpen] = useState(false);
+  const [user, setUser] = useState<User | null>(null);
+
+  useEffect(() => {
+    const client = createClient();
+
+    async function getUser() {
+      const {
+        data: { user: currentUser },
+      } = await client.auth.getUser();
+
+      setUser(currentUser);
+    }
+
+    getUser();
+
+    const {
+      data: { subscription },
+    } = client.auth.onAuthStateChange((_event, session) => {
+      setUser(session?.user ?? null);
+    });
+
+    return () => {
+      subscription.unsubscribe();
+    };
+  }, []);
+
+  async function handleLogout() {
+    await supabase.auth.signOut();
+    setUser(null);
+    setMenuOpen(false);
+    router.refresh();
+  }
+
+  function handleLogin() {
+    setMenuOpen(false);
+    router.push("/login");
+  }
 
   return (
     <header className="bg-[#0b1e39] border-b border-[#172d4f] text-white relative z-50">
@@ -205,6 +248,31 @@ export default function Header() {
           >
             MDCAT Updates
           </a>
+
+          {user ? (
+            <div className="flex items-center gap-3">
+              <span className="text-white font-semibold">
+                👋 Welcome,{" "}
+                <span className="text-[#ff9800]">
+                  {user.user_metadata?.full_name || "Student"}
+                </span>
+              </span>
+
+              <button
+                onClick={handleLogout}
+                className="bg-[#ff9800] hover:bg-[#e38000] text-[#0b1e39] transition-colors font-semibold px-5 py-2 rounded-full shadow"
+              >
+                Logout
+              </button>
+            </div>
+          ) : (
+            <button
+              onClick={handleLogin}
+              className="bg-[#ff9800] hover:bg-[#e38000] text-[#0b1e39] transition-colors font-semibold px-5 py-2 rounded-full shadow"
+            >
+              Login
+            </button>
+          )}
         </nav>
 
         {/* MOBILE HAMBURGER */}
@@ -432,6 +500,31 @@ export default function Header() {
             >
               📰 MDCAT Updates
             </a>
+
+            {user ? (
+              <div className="space-y-2 pt-2">
+                <p className="px-4 text-sm font-semibold text-[#cdd6e6]">
+                  👋 Welcome,{" "}
+                  <span className="text-[#ff9800]">
+                    {user.user_metadata?.full_name || "Student"}
+                  </span>
+                </p>
+
+                <button
+                  onClick={handleLogout}
+                  className="w-full bg-[#ff9800] hover:bg-[#e38000] text-[#0b1e39] font-semibold py-3 rounded-xl shadow"
+                >
+                  Logout
+                </button>
+              </div>
+            ) : (
+              <button
+                onClick={handleLogin}
+                className="w-full bg-[#ff9800] hover:bg-[#e38000] text-[#0b1e39] font-semibold py-3 rounded-xl shadow"
+              >
+                Login
+              </button>
+            )}
           </div>
         </div>
       )}
