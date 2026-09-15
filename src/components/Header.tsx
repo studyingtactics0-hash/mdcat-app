@@ -228,15 +228,15 @@ export default function Header() {
             )}
           </div>
 
-          {/* OTHER DESKTOP NAV ITEMS */}
           {/* LECTURES DROPDOWN */}
 <div
   className="relative"
   onMouseEnter={() => setLecturesOpen(true)}
   onMouseLeave={() => setLecturesOpen(false)}
 >
-  <button
-    onClick={() => setLecturesOpen(!lecturesOpen)}
+<button
+  type="button"
+  onClick={() => setLecturesOpen((prev) => !prev)}
     className="flex items-center gap-1 font-semibold text-[#cdd6e6] hover:text-[#ff9800] transition"
   >
     Lectures
@@ -293,6 +293,7 @@ export default function Header() {
   )}
 </div>
 
+        {/* OTHER DESKTOP NAV ITEMS */}
           <a
             href="/score-predictor"
             className="font-semibold text-[#cdd6e6] hover:text-[#ff9800] transition"
