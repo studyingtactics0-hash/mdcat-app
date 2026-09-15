@@ -11,6 +11,7 @@ export default function Header() {
 
   const [menuOpen, setMenuOpen] = useState(false);
   const [testsOpen, setTestsOpen] = useState(false);
+  const [lecturesOpen, setLecturesOpen] = useState(false);
   const [user, setUser] = useState<User | null>(null);
 
   useEffect(() => {
@@ -74,7 +75,7 @@ export default function Header() {
             </button>
 
             {testsOpen && (
-              <div className="absolute right-0 top-full pt-3">
+              <div className="absolute right-[-40px] top-full pt-3">
                 <div className="w-[560px] bg-white text-[#0b1e39] rounded-2xl shadow-2xl border border-gray-200 p-6">
                   <div className="grid grid-cols-2 gap-6">
                     {/* SUBJECTS */}
@@ -228,12 +229,70 @@ export default function Header() {
           </div>
 
           {/* OTHER DESKTOP NAV ITEMS */}
+          {/* LECTURES DROPDOWN */}
+<div
+  className="relative"
+  onMouseEnter={() => setLecturesOpen(true)}
+  onMouseLeave={() => setLecturesOpen(false)}
+>
+  <button
+    onClick={() => setLecturesOpen(!lecturesOpen)}
+    className="flex items-center gap-1 font-semibold text-[#cdd6e6] hover:text-[#ff9800] transition"
+  >
+    Lectures
+    <span className="text-xs">▼</span>
+  </button>
+
+  {lecturesOpen && (
+    <div className="absolute right-[-30px] top-full pt-3">
+      <div className="w-[320px] bg-white text-[#0b1e39] rounded-2xl shadow-2xl border border-gray-200 p-5">
+
+        <h3 className="text-[#ff9800] font-black text-sm uppercase tracking-wide mb-3">
+          🎓 Choose Your Subject
+        </h3>
+
+        <div className="space-y-1">
+
           <a
-            href="/lectures"
-            className="font-semibold text-[#cdd6e6] hover:text-[#ff9800] transition"
+            href="/lectures/Biology"
+            className="block px-3 py-3 rounded-lg hover:bg-[#fff3e0] font-semibold transition"
           >
-            Lectures
+            🧬 Biology
           </a>
+
+          <a
+            href="/lectures/Physics"
+            className="block px-3 py-3 rounded-lg hover:bg-[#fff3e0] font-semibold transition"
+          >
+            ⚡ Physics
+          </a>
+
+          <a
+            href="/lectures/Chemistry"
+            className="block px-3 py-3 rounded-lg hover:bg-[#fff3e0] font-semibold transition"
+          >
+            ⚗️ Chemistry
+          </a>
+
+          <a
+            href="/lectures/English"
+            className="block px-3 py-3 rounded-lg hover:bg-[#fff3e0] font-semibold transition"
+          >
+            📖 English
+          </a>
+
+          <a
+            href="/lectures/Logical-Reasoning"
+            className="block px-3 py-3 rounded-lg hover:bg-[#fff3e0] font-semibold transition"
+          >
+            🧠 Logical Reasoning
+          </a>
+
+        </div>
+      </div>
+    </div>
+  )}
+</div>
 
           <a
             href="/score-predictor"
