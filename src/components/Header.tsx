@@ -293,7 +293,6 @@ export default function Header() {
   )}
 </div>
 
-        {/* OTHER DESKTOP NAV ITEMS */}
           <a
             href="/score-predictor"
             className="font-semibold text-[#cdd6e6] hover:text-[#ff9800] transition"
@@ -307,6 +306,16 @@ export default function Header() {
           >
             MDCAT Updates
           </a>
+
+          <a
+  href="https://chat.whatsapp.com/Dpv8KqPnCps0Q9mRiflBzr"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-5 py-2 rounded-full shadow transition flex items-center gap-2"
+>
+  <span>☎️</span>
+  WhatsApp Group
+</a>
 
           {user ? (
             <div className="flex items-center gap-3">
@@ -611,6 +620,16 @@ export default function Header() {
             >
               📰 MDCAT Updates
             </a>
+
+            <a
+  href="https://chat.whatsapp.com/Dpv8KqPnCps0Q9mRiflBzr"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-5 py-2 rounded-full shadow transition flex items-center gap-2"
+>
+  <span>💬</span>
+  WhatsApp Group
+</a>
 
             {user ? (
               <div className="space-y-2 pt-2">
