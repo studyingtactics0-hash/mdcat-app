@@ -18,7 +18,25 @@ export type Question = {
       ],
       answer: 0,
     },
-  
+
+    {
+      id: "nums-2026-bio-046",
+      question: "Smallest contractile unit of muscle fibers present between two lines is known as:",
+      options: ["Sarcoplasm", "Sarcolemma", "Sarcomere", "Sarcodina"],
+      answer: 2,
+    },
+    {
+      id: "nums-2026-bio-047",
+      question: "Which ion is responsible for the attachment of tropomyosin with the head of myosin during cross bridge?",
+      options: ["K⁺ ions", "Ca⁺⁺ ions", "Na⁺ ions", "Mg⁺"],
+      answer: 1,
+    },
+    {
+      id: "nums-2026-bio-048",
+      question: "During muscle contraction which type of events occurs respectively?",
+      options: ["I band shorten → H-zone appears", "I band strengthen → H-zone disappears", "I band shorten → H-zone disappears", "I band strengthen → H-zone appears"],
+      answer: 2,
+    },
     {
       id: "support-and-movement-002",
       question:

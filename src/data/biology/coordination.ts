@@ -695,6 +695,35 @@ export type Question = {
       ],
       answer: 2,
     },
+    {
+      id: "nums-2026-bio-029",
+      question: "What is the role of growth hormone after adolescence?",
+      options: ["Promotes protein synthesis", "Inhibits protein synthesis", "Decreases amino acid uptake", "Inhibits cell division"],
+      answer: 0,
+    },
+    {
+      id: "nums-2026-bio-030",
+      question: "Which of the following is correct function of calcitonin?",
+      options: ["Resorption of calcium in bone matrix", "Inhibits Ca²⁺ absorption by intestine", "Increase reabsorption by kidneys", "Increase blood calcium level"],
+      answer: 1,
+    },
+    {
+      id: "nums-2026-bio-031",
+      question: "What is secreted when the levels of blood glucose get too low?",
+      options: ["Calcitonin", "Glucagon", "Insulin", "Corticoid hormones"],
+      answer: 1,
+    },
+    {
+      id: "nums-2026-bio-032",
+      question: "Pathway followed by nerve impulse during reflex action is:",
+      options: [
+        "Interneuron → synapse → dendrites → cell body of motor neuron",
+        "Interneuron → dendrite → synapse → cell body of motor neuron",
+        "Interneuron → synapse → cell body of neuron",
+        "Interneuron → dendrites → cell body of neuron"
+      ],
+      answer: 0,
+    },
   
     {
       id: "coord-054",

@@ -96,6 +96,18 @@ export type Question = {
       answer: 0
     },
     {
+      id: "nums-2026-bio-044",
+      question: "Epidermis is outer most layer of the skin, which is composed of:",
+      options: ["Loosely packed cells", "Tightly packed cells", "Scattered cells", "Ciliated cells"],
+      answer: 1,
+    },
+    {
+      id: "nums-2026-bio-045",
+      question: "Which type of muscle controls the movement of substance through hollow organs?",
+      options: ["Cardiac muscle", "Smooth muscles", "Sphincter muscles", "Skeleton muscle"],
+      answer: 1,
+    },
+    {
       id: "testmoz-bio-9",
       question: "What is the length of Duodenum in centimetres",
       options: [

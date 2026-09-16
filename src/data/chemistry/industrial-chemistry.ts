@@ -21,6 +21,12 @@ export type Question = {
       explanation: "Nylon 6,6 is synthesized by condensation polymerization of two 6-carbon monomers: adipic acid (hexanedioic acid) and hexamethylene diamine (1,6-diaminohexane)."
     },
     {
+      id: "nums-2026-bio-038",
+      question: "Some industries are continuously polluting aquatic bodies. This can affect the metabolic pathway of plants by changing their pH.",
+      options: ["More alkaline", "More acidic", "Less acidic", "Less alkaline"],
+      answer: 1,
+    },
+    {
       id: "bumhs-2025-chem-106",
       question: "Which of the following is classified as a natural adhesive?",
       options: [

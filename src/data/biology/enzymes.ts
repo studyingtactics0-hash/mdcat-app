@@ -259,6 +259,37 @@ export type Question = {
       ],
       answer: 3,
     },
+
+    {
+      id: "nums-2026-bio-034",
+      question: "An enzyme which requires a cofactor to become active is called:",
+      options: ["Apoenzyme", "Holoenzyme", "Prosthetic group", "Co-enzyme"],
+      answer: 0,
+    },
+    {
+      id: "nums-2026-bio-035",
+      question: "Which statement best describes competitive inhibitors?",
+      options: ["Denature enzyme permanently", "Used as drugs", "Prevent enzyme product complex", "Alter the shape of enzymes"],
+      answer: 1,
+    },
+    {
+      id: "nums-2026-bio-054",
+      question: "Which set of digestive enzymes play a vital role in breakdown of protein?",
+      options: ["Pepsin, maltase, erepsin", "Pepsin, trypsin, amylase", "Pepsin, trypsin, erepsin", "Pepsin, amylase, lipase"],
+      answer: 2,
+    },
+    {
+      id: "nums-2026-bio-036",
+      question: "Due to snake bite a person’s heart stops working. Which type of venom will be found in his body?",
+      options: ["Hemotoxic", "Hepatotoxic", "Neurotoxic", "Cytotoxic"],
+      answer: 2,
+    },
+    {
+      id: "nums-2026-bio-037",
+      question: "Identify the enzyme which shows absolute specificity:",
+      options: ["Carbonic anhydrase", "Hexokinase", "Urease", "Isomerase"],
+      answer: 2,
+    },
   
     {
       id: "enzymes-022",

@@ -1284,6 +1284,35 @@ export type Question = {
       answer: 0,
     },
     {
+      id: "nums-2026-bio-029",
+      question: "What is the role of growth hormone after adolescence?",
+      options: ["Promotes protein synthesis", "Inhibits protein synthesis", "Decreases amino acid uptake", "Inhibits cell division"],
+      answer: 0,
+    },
+    {
+      id: "nums-2026-bio-030",
+      question: "Which of the following is correct function of calcitonin?",
+      options: ["Resorption of calcium in bone matrix", "Inhibits Ca²⁺ absorption by intestine", "Increase reabsorption by kidneys", "Increase blood calcium level"],
+      answer: 1,
+    },
+    {
+      id: "nums-2026-bio-031",
+      question: "What is secreted when the levels of blood glucose get too low?",
+      options: ["Calcitonin", "Glucagon", "Insulin", "Corticoid hormones"],
+      answer: 1,
+    },
+    {
+      id: "nums-2026-bio-032",
+      question: "Pathway followed by nerve impulse during reflex action is:",
+      options: [
+        "Interneuron → synapse → dendrites → cell body of motor neuron",
+        "Interneuron → dendrite → synapse → cell body of motor neuron",
+        "Interneuron → synapse → cell body of neuron",
+        "Interneuron → dendrites → cell body of neuron"
+      ],
+      answer: 0,
+    },
+    {
       id: "reprod-021",
       question: "Beside fertilization, the function of fallopian tube is:",
       options: [
@@ -1956,6 +1985,80 @@ export type Question = {
         "Tropomyosin blocks the troponin binding site",
       ],
       answer: 1,
+    },
+    {
+      id: "nums-2026-bio-043",
+      question: "Which of these correctly order the structure of arteries?",
+      options: [
+        "Connective tissues → Smooth muscle → Elastic tissue → Endothelium",
+        "Connective tissues → Smooth muscle → Endothelium → Elastic tissue",
+        "Elastic tissue → Smooth muscle → Connective tissue → Endothelium",
+        "Smooth muscle → Connective tissues → Elastic tissue → Endothelium"
+      ],
+      answer: 0,
+    },
+    {
+      id: "nums-2026-bio-046",
+      question: "Smallest contractile unit of muscle fibers present between two lines is known as:",
+      options: ["Sarcoplasm", "Sarcolemma", "Sarcomere", "Sarcodina"],
+      answer: 2,
+    },
+    {
+      id: "nums-2026-bio-051",
+      question: "Why male gonads are present outside the body?",
+      options: [
+        "They need temperature equal to human body",
+        "They need 2°C temperature higher than human body",
+        "They need 2°C temperature less than human body",
+        "They need environmental condition for sperm production"
+      ],
+      answer: 2,
+    },
+    {
+      id: "nums-2026-bio-055",
+      question: "Gene of one allele which inhibits the effect of other allele at different locus is:",
+      options: ["Hypostatic gene", "Hylostatic gene", "Polystatic gene", "Epistatic gene"],
+      answer: 3,
+    },
+    {
+      id: "nums-2026-bio-053",
+      question: "Which of the following is correct order of the transport of bicarbonate from blood to lungs?",
+      options: [
+        "Capillaries → Alveoli → Red blood cells",
+        "Red blood cells → Alveoli → Capillaries",
+        "Alveoli → Capillaries → Red blood cells",
+        "Red blood cells → Capillaries → Alveoli"
+      ],
+      answer: 3,
+    },
+    {
+      id: "nums-2026-bio-052",
+      question: "Which set of events will occur if fusion of gametes does NOT take place?",
+      options: [
+        "Corpus luteum degenerate, LH increase, progesterone increase",
+        "Corpus luteum degenerate, LH decline, progesterone increase",
+        "Corpus luteum degenerate, LH increase, progesterone decline",
+        "Corpus luteum degenerate, LH decline, progesterone decline"
+      ],
+      answer: 3,
+    },
+    {
+      id: "nums-2026-bio-047",
+      question: "Which ion is responsible for the attachment of tropomyosin with the head of myosin during cross bridge?",
+      options: ["K⁺ ions", "Ca⁺⁺ ions", "Na⁺ ions", "Mg⁺"],
+      answer: 1,
+    },
+    {
+      id: "nums-2026-bio-048",
+      question: "During muscle contraction which type of events occurs respectively?",
+      options: ["I band shorten → H-zone appears", "I band strengthen → H-zone disappears", "I band shorten → H-zone disappears", "I band strengthen → H-zone appears"],
+      answer: 2,
+    },
+    {
+      id: "nums-2026-bio-042",
+      question: "As a result of natural disaster, few species continue to survive due to their characteristics. This results in:",
+      options: ["Increase in favorable alleles", "Decrease in favorable alleles", "Increase in unfavorable alleles", "Decrease in unfavorable alleles"],
+      answer: 0,
     },
     {
       id: "support-and-movement-012",
@@ -6555,6 +6658,35 @@ export type Question = {
           answer: 4,
           explanation:
             "A standard C₆₀ fullerene (buckyball) truncated icosahedron structure contains exactly 12 pentagonal rings and 20 hexagonal rings.",
+        },
+        {
+          id: "nums-2026-bio-041",
+          question: "Why are some genes called pseudoautosomal, even though they are present on sex chromosome?",
+          options: [
+            "They are present on X chromosomes only",
+            "They are present on Y chromosomes only",
+            "They are present on both X and Y chromosomes",
+            "They are absent from both X and Y chromosomes"
+          ],
+          answer: 2,
+        },
+        {
+          id: "nums-2026-bio-039",
+          question: "All flowering plants are thought to be evolved from a common ancestor on the basis of which homologous structures?",
+          options: ["Stamen, carpel, sepals, petals", "Stamen, carpel, thalamus, sepals", "Stamen, carpel, thalamus, sepals, petals, stalk", "Stamen, carpel, sepals, thalamus"],
+          answer: 0,
+        },
+        {
+          id: "nums-2026-bio-040",
+          question: "Barriers which effect geographical distribution of life are:",
+          options: ["Physical and chemical", "Environmental & Physical", "Ecological & chemical", "Physical, Ecological or Environmental"],
+          answer: 3,
+        },
+        {
+          id: "nums-2026-bio-038",
+          question: "Some industries are continuously polluting aquatic bodies. This can affect the metabolic pathway of plants by changing their pH.",
+          options: ["More alkaline", "More acidic", "Less acidic", "Less alkaline"],
+          answer: 1,
         },
         {
           id: "chem-sindh-24-121",

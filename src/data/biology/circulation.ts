@@ -794,6 +794,17 @@ export type Question = {
         answer: 3
       },
       {
+        id: "nums-2026-bio-043",
+        question: "Which of these correctly order the structure of arteries?",
+        options: [
+          "Connective tissues → Smooth muscle → Elastic tissue → Endothelium",
+          "Connective tissues → Smooth muscle → Endothelium → Elastic tissue",
+          "Elastic tissue → Smooth muscle → Connective tissue → Endothelium",
+          "Smooth muscle → Connective tissues → Elastic tissue → Endothelium"
+        ],
+        answer: 0,
+      },
+      {
         id: "testmoz-bio-49",
         question: "Which of the following blood vessel have the highest pressure of blood",
         options: [

@@ -17,11 +17,10 @@ export type Question = {
       chapter: "gaseousExchangeQuestions"
     },
     {
-      id: "testmoz-bio-17",
-      question: "Sundew is an example of",
-      options: ["Autotrophic plant", "Parasitic plant", "Saprophytic plant", "Carnivorous plant"],
-      answer: 3,
-      chapter: "nutritionQuestions"
+      id: "nums-2026-bio-001",
+      question: "Identify the type of glycoprotein, responsible for cell fusion process in HIV cycle:",
+      options: ["gp 40", "gp 41", "gp 120", "gp 121"],
+      answer: 1,
     },
     {
       id: "biomolecules-019",

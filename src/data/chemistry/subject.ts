@@ -12625,6 +12625,12 @@ export type Question = {
         explanation: "Note: Ionization energy depends on all these factors; option C is mapped per the answer key."
       },
       {
+        id: "nums-2026-bio-038",
+        question: "Some industries are continuously polluting aquatic bodies. This can affect the metabolic pathway of plants by changing their pH.",
+        options: ["More alkaline", "More acidic", "Less acidic", "Less alkaline"],
+        answer: 1,
+      },
+      {
         id: "sp-block-33",
         question: "Along the period atomic radius decreases this gradual decrease in radius is due to",
         options: [

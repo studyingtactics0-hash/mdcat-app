@@ -7,6 +7,28 @@ export const reproductionQuestions = [
     answer: 2,
   },
   {
+    id: "nums-2026-bio-051",
+    question: "Why male gonads are present outside the body?",
+    options: [
+      "They need temperature equal to human body",
+      "They need 2°C temperature higher than human body",
+      "They need 2°C temperature less than human body",
+      "They need environmental condition for sperm production"
+    ],
+    answer: 2,
+  },
+  {
+    id: "nums-2026-bio-052",
+    question: "Which set of events will occur if fusion of gametes does NOT take place?",
+    options: [
+      "Corpus luteum degenerate, LH increase, progesterone increase",
+      "Corpus luteum degenerate, LH decline, progesterone increase",
+      "Corpus luteum degenerate, LH increase, progesterone decline",
+      "Corpus luteum degenerate, LH decline, progesterone decline"
+    ],
+    answer: 3,
+  },
+  {
     id: 2,
     question:
       "In human female normally ovulation occurs at day _____ of menstrual cycle.",

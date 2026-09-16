@@ -486,6 +486,12 @@ export type MockQuestion = {
       answer: 1,
     },
     {
+      id: "nums-2026-bio-001",
+      question: "Identify the type of glycoprotein, responsible for cell fusion process in HIV cycle:",
+      options: ["gp 40", "gp 41", "gp 120", "gp 121"],
+      answer: 1,
+    },
+    {
       id: "mock1-bio-071",
       question: "The process of formation of solid waste in plants is called:",
       options: ["Excretion", "Secretion", "Transpiration", "Guttation"],

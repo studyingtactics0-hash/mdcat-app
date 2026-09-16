@@ -35,6 +35,24 @@ export type Question = {
       explanation: "Charles Darwin proposed that natural selection is the primary mechanism driving evolutionary change."
     },
     {
+      id: "nums-2026-bio-039",
+      question: "All flowering plants are thought to be evolved from a common ancestor on the basis of which homologous structures?",
+      options: ["Stamen, carpel, sepals, petals", "Stamen, carpel, thalamus, sepals", "Stamen, carpel, thalamus, sepals, petals, stalk", "Stamen, carpel, sepals, thalamus"],
+      answer: 0,
+    },
+    {
+      id: "nums-2026-bio-042",
+      question: "As a result of natural disaster, few species continue to survive due to their characteristics. This results in:",
+      options: ["Increase in favorable alleles", "Decrease in favorable alleles", "Increase in unfavorable alleles", "Decrease in unfavorable alleles"],
+      answer: 0,
+    },
+    {
+      id: "nums-2026-bio-040",
+      question: "Barriers which effect geographical distribution of life are:",
+      options: ["Physical and chemical", "Environmental & Physical", "Ecological & chemical", "Physical, Ecological or Environmental"],
+      answer: 3,
+    },
+    {
       id: "sindh-2025-35",
       question: "Why Lamarck being remembered till today?",
       options: [

@@ -1142,6 +1142,7 @@ export type Question = {
         ],
         answer: 3
       },
+      
       {
         id: "testmoz-bio-42",
         question: "Each cell of frog contains autosomes",
@@ -1152,6 +1153,48 @@ export type Question = {
           "48"
         ],
         answer: 2
+      },
+      {
+        id: "nums-2026-bio-019",
+        question: "During cell wall formation absence of magnesium results in:",
+        options: ["Lack of primary cell wall", "Lack of secondary cell wall", "Lack of middle lamella", "No effect on cell wall formation"],
+        answer: 2,
+      },
+      {
+        id: "nums-2026-bio-020",
+        question: "Identify the mismatch in the following:",
+        options: ["Mitochondria – cellular respiration", "Endoplasmic reticulum – detoxification", "Mitochondria – deamination", "Lysosome – autophagy"],
+        answer: 2,
+      },
+      {
+        id: "nums-2026-bio-021",
+        question: "Which organelle will increase in number, in muscles of athlete?",
+        options: ["Mitochondria", "Ribosome", "Golgi apparatus", "Lysosome"],
+        answer: 0,
+      },
+      {
+        id: "nums-2026-bio-022",
+        question: "In secretary cells which pathway is followed for the transport of material?",
+        options: ["Golgi complex → RER → SER", "RER → golgi complex → SER", "RER → SER → golgi complex", "SER → golgi complex → RER"],
+        answer: 2,
+      },
+      {
+        id: "nums-2026-bio-023",
+        question: "How many number of chromosomes are present in onion?",
+        options: ["16", "8", "14", "26"],
+        answer: 0,
+      },
+      {
+        id: "nums-2026-bio-024",
+        question: "A cell is treated with a toxin that disrupts Golgi apparatus. Which function is affected?",
+        options: ["Lipid metabolism", "Protein modification", "Chromosome separation during cell division", "ATP production"],
+        answer: 1,
+      },
+      {
+        id: "nums-2026-bio-025",
+        question: "Where modification and packaging occur in secretary cells?",
+        options: ["Golgi apparatus", "Mitochondria", "Endoplasmic reticulum", "Nucleus"],
+        answer: 0,
       },
       {
         id: "testmoz-bio-43",

@@ -207,6 +207,66 @@ export type Question = {
     },
   
     {
+      id: "nums-2026-bio-012",
+      question: "Which one of the following is a monosaccharide?",
+      options: ["Sucrose", "Maltose", "Lactose", "Fructose"],
+      answer: 3,
+    },
+    {
+      id: "nums-2026-bio-013",
+      question: "What is percentage of water in brain cells?",
+      options: ["20%", "70%", "85%", "30%"],
+      answer: 2,
+    },
+    {
+      id: "nums-2026-bio-014",
+      question: "Proportion of carbohydrate in bacterial and mammalian cell is:",
+      options: ["2%, 4%", "3%, 4%", "4%, 2%", "3%, 2%"],
+      answer: 2,
+    },
+    {
+      id: "nums-2026-bio-015",
+      question: "Water has very high heat capacity due to its:",
+      options: ["High polarity", "Hydrogen bonding", "High heat of vaporization", "Ionization"],
+      answer: 1,
+    },
+    {
+      id: "nums-2026-bio-016",
+      question: "Which one of the following biomolecule is involved in the transport of oxygen?",
+      options: ["Protein", "Fats", "Carbohydrate", "Nucleic acid"],
+      answer: 0,
+    },
+    {
+      id: "nums-2026-bio-017",
+      question: "Which is the second most abundant organic molecule on earth?",
+      options: ["Starch", "Glycogen", "Cellulose", "Chitin"],
+      answer: 3,
+    },
+    {
+      id: "nums-2026-bio-026",
+      question: "A person continuously faces water imbalance in body due to damage of which part of the brain?",
+      options: ["Amygdala", "Thalamus", "Medulla", "Hypothalamus"],
+      answer: 3,
+    },
+    {
+      id: "nums-2026-bio-027",
+      question: "Which part of brain is activated to release excess CO₂ from body produced during strenuous exercise?",
+      options: ["Pons", "Medulla", "Cerebellum", "Cerebrum"],
+      answer: 1,
+    },
+    {
+      id: "nums-2026-bio-028",
+      question: "The cerebrospinal fluid (CSF) is present between:",
+      options: ["Dura matter & arachnoid matter", "Arachnoid matter & Pia matter", "Dura matter & Pia matter", "Arachnoid matter & Dura matter"],
+      answer: 1,
+    },
+    {
+      id: "nums-2026-bio-018",
+      question: "Glycerol reacts with fatty acids to produce:",
+      options: ["Phospholipids", "Terpenes", "Acyl glycerol", "Steroids"],
+      answer: 2,
+    },
+    {
       id: "biomolecules-019",
       question: "How are the phospholipid molecules arranged in the plasma membrane?",
       options: [

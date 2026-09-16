@@ -7786,6 +7786,358 @@ export const biologyquestions = [
           ],
           answer: 2,
         },
+        
+        {
+          id: "nums-2026-bio-004",
+          question: "Adenovirus are classified as:",
+          options: ["Helical capsid", "Polyhedral capsid", "Enveloped virus", "Coupler capsid"],
+          answer: 1,
+        },
+        {
+          id: "nums-2026-bio-005",
+          question: "If a person is doing strenuous exercise, how many ATPs are produced by cellular respiration?",
+          options: ["2 ATPs", "3 ATPs", "4 ATPs", "6 ATPs"],
+          answer: 0,
+        },
+        {
+          id: "nums-2026-bio-006",
+          question: "The end product of non-cyclic electron pathway is:",
+          options: ["ATP and NADPH", "ATP", "FADH₂", "NAOPH₂"],
+          answer: 0,
+        },
+        {
+          id: "nums-2026-bio-007",
+          question: "Pyruvic acid is converted into acetaldehyde through which step?",
+          options: ["Decarboxylation", "Oxidation", "Addition of coenzyme A", "Reduction"],
+          answer: 0,
+        },
+        {
+          id: "nums-2026-bio-008",
+          question: "Choose the correct sequence of electron carrier in respiratory ETC:",
+          options: [
+            "Coenzyme Q → cytochrome a → cytochrome a₃ → cytochrome b → cytochrome c",
+            "Coenzyme Q → cytochrome b → cytochrome c → cytochrome a → cytochrome a₃",
+            "cytochrome a → cytochrome a₃ → cytochrome b → cytochrome c → coenzyme Q",
+            "Cytochrome b → cytochrome c → coenzyme Q → cytochrome a → cytochrome a₃"
+          ],
+          answer: 1,
+        },
+        {
+          id: "nums-2026-bio-009",
+          question: "Pumping movement of protons occur from:",
+          options: [
+            "Outer membrane and inner membrane",
+            "Matrix of mitochondria and mitochondrial intermembrane space",
+            "Inner membrane and cisternae",
+            "Inner membrane and intermembrane space"
+          ],
+          answer: 1,
+        },
+        {
+          id: "nums-2026-bio-010",
+          question: "Net product of Krebs cycle is:",
+          options: [
+            "2CO₂, 3ATP, 6NADH, 2FADH",
+            "4CO₂, 2ATP, 6NADH, 2FADH",
+            "4CO₂, 2ATP, 6NADH, 2FADH",
+            "CO₂, NADH, FADH"
+          ],
+          answer: 1,
+        },
+        {
+          id: "nums-2026-bio-012",
+          question: "Which one of the following is a monosaccharide?",
+          options: ["Sucrose", "Maltose", "Lactose", "Fructose"],
+          answer: 3,
+        },
+        {
+          id: "nums-2026-bio-013",
+          question: "What is percentage of water in brain cells?",
+          options: ["20%", "70%", "85%", "30%"],
+          answer: 2,
+        },
+        {
+          id: "nums-2026-bio-014",
+          question: "Proportion of carbohydrate in bacterial and mammalian cell is:",
+          options: ["2%, 4%", "3%, 4%", "4%, 2%", "3%, 2%"],
+          answer: 2,
+        },
+        {
+          id: "nums-2026-bio-015",
+          question: "Water has very high heat capacity due to its:",
+          options: ["High polarity", "Hydrogen bonding", "High heat of vaporization", "Ionization"],
+          answer: 1,
+        },
+        {
+          id: "nums-2026-bio-016",
+          question: "Which one of the following biomolecule is involved in the transport of oxygen?",
+          options: ["Protein", "Fats", "Carbohydrate", "Nucleic acid"],
+          answer: 0,
+        },
+        {
+          id: "nums-2026-bio-017",
+          question: "Which is the second most abundant organic molecule on earth?",
+          options: ["Starch", "Glycogen", "Cellulose", "Chitin"],
+          answer: 3,
+        },
+        {
+          id: "nums-2026-bio-019",
+          question: "During cell wall formation absence of magnesium results in:",
+          options: ["Lack of primary cell wall", "Lack of secondary cell wall", "Lack of middle lamella", "No effect on cell wall formation"],
+          answer: 2,
+        },
+        {
+          id: "nums-2026-bio-020",
+          question: "Identify the mismatch in the following:",
+          options: ["Mitochondria – cellular respiration", "Endoplasmic reticulum – detoxification", "Mitochondria – deamination", "Lysosome – autophagy"],
+          answer: 2,
+        },
+        {
+          id: "nums-2026-bio-021",
+          question: "Which organelle will increase in number, in muscles of athlete?",
+          options: ["Mitochondria", "Ribosome", "Golgi apparatus", "Lysosome"],
+          answer: 0,
+        },
+        {
+          id: "nums-2026-bio-022",
+          question: "In secretary cells which pathway is followed for the transport of material?",
+          options: ["Golgi complex → RER → SER", "RER → golgi complex → SER", "RER → SER → golgi complex", "SER → golgi complex → RER"],
+          answer: 2,
+        },
+        {
+          id: "nums-2026-bio-023",
+          question: "How many number of chromosomes are present in onion?",
+          options: ["16", "8", "14", "26"],
+          answer: 0,
+        },
+        {
+          id: "nums-2026-bio-024",
+          question: "A cell is treated with a toxin that disrupts Golgi apparatus. Which function is affected?",
+          options: ["Lipid metabolism", "Protein modification", "Chromosome separation during cell division", "ATP production"],
+          answer: 1,
+        },
+        {
+          id: "nums-2026-bio-026",
+          question: "A person continuously faces water imbalance in body due to damage of which part of the brain?",
+          options: ["Amygdala", "Thalamus", "Medulla", "Hypothalamus"],
+          answer: 3,
+        },
+        {
+          id: "nums-2026-bio-027",
+          question: "Which part of brain is activated to release excess CO₂ from body produced during strenuous exercise?",
+          options: ["Pons", "Medulla", "Cerebellum", "Cerebrum"],
+          answer: 1,
+        },
+        {
+          id: "nums-2026-bio-029",
+          question: "What is the role of growth hormone after adolescence?",
+          options: ["Promotes protein synthesis", "Inhibits protein synthesis", "Decreases amino acid uptake", "Inhibits cell division"],
+          answer: 0,
+        },
+        {
+          id: "nums-2026-bio-030",
+          question: "Which of the following is correct function of calcitonin?",
+          options: ["Resorption of calcium in bone matrix", "Inhibits Ca²⁺ absorption by intestine", "Increase reabsorption by kidneys", "Increase blood calcium level"],
+          answer: 1,
+        },
+        {
+          id: "nums-2026-bio-031",
+          question: "What is secreted when the levels of blood glucose get too low?",
+          options: ["Calcitonin", "Glucagon", "Insulin", "Corticoid hormones"],
+          answer: 1,
+        },
+        {
+          id: "nums-2026-bio-034",
+          question: "An enzyme which requires a cofactor to become active is called:",
+          options: ["Apoenzyme", "Holoenzyme", "Prosthetic group", "Co-enzyme"],
+          answer: 0,
+        },
+        {
+          id: "nums-2026-bio-035",
+          question: "Which statement best describes competitive inhibitors?",
+          options: ["Denature enzyme permanently", "Used as drugs", "Prevent enzyme product complex", "Alter the shape of enzymes"],
+          answer: 1,
+        },
+        {
+          id: "nums-2026-bio-036",
+          question: "Due to snake bite a person’s heart stops working. Which type of venom will be found in his body?",
+          options: ["Hemotoxic", "Hepatotoxic", "Neurotoxic", "Cytotoxic"],
+          answer: 2,
+        },
+        {
+          id: "nums-2026-bio-039",
+          question: "All flowering plants are thought to be evolved from a common ancestor on the basis of which homologous structures?",
+          options: ["Stamen, carpel, sepals, petals", "Stamen, carpel, thalamus, sepals", "Stamen, carpel, thalamus, sepals, petals, stalk", "Stamen, carpel, sepals, thalamus"],
+          answer: 0,
+        },
+        {
+          id: "nums-2026-bio-044",
+          question: "Epidermis is outer most layer of the skin, which is composed of:",
+          options: ["Loosely packed cells", "Tightly packed cells", "Scattered cells", "Ciliated cells"],
+          answer: 1,
+        },
+        {
+          id: "nums-2026-bio-046",
+          question: "Smallest contractile unit of muscle fibers present between two lines is known as:",
+          options: ["Sarcoplasm", "Sarcolemma", "Sarcomere", "Sarcodina"],
+          answer: 2,
+        },
+        {
+          id: "nums-2026-bio-047",
+          question: "Which ion is responsible for the attachment of tropomyosin with the head of myosin during cross bridge?",
+          options: ["K⁺ ions", "Ca⁺⁺ ions", "Na⁺ ions", "Mg⁺"],
+          answer: 1,
+        },
+        {
+          id: "nums-2026-bio-051",
+          question: "Why male gonads are present outside the body?",
+          options: [
+            "They need temperature equal to human body",
+            "They need 2°C temperature higher than human body",
+            "They need 2°C temperature less than human body",
+            "They need environmental condition for sperm production"
+          ],
+          answer: 2,
+        },
+        {
+          id: "nums-2026-bio-055",
+          question: "Gene of one allele which inhibits the effect of other allele at different locus is:",
+          options: ["Hypostatic gene", "Hylostatic gene", "Polystatic gene", "Epistatic gene"],
+          answer: 3,
+        },
+        {
+          id: "nums-2026-bio-054",
+          question: "Which set of digestive enzymes play a vital role in breakdown of protein?",
+          options: ["Pepsin, maltase, erepsin", "Pepsin, trypsin, amylase", "Pepsin, trypsin, erepsin", "Pepsin, amylase, lipase"],
+          answer: 2,
+        },
+        {
+          id: "nums-2026-bio-053",
+          question: "Which of the following is correct order of the transport of bicarbonate from blood to lungs?",
+          options: [
+            "Capillaries → Alveoli → Red blood cells",
+            "Red blood cells → Alveoli → Capillaries",
+            "Alveoli → Capillaries → Red blood cells",
+            "Red blood cells → Capillaries → Alveoli"
+          ],
+          answer: 3,
+        },
+        {
+          id: "nums-2026-bio-052",
+          question: "Which set of events will occur if fusion of gametes does NOT take place?",
+          options: [
+            "Corpus luteum degenerate, LH increase, progesterone increase",
+            "Corpus luteum degenerate, LH decline, progesterone increase",
+            "Corpus luteum degenerate, LH increase, progesterone decline",
+            "Corpus luteum degenerate, LH decline, progesterone decline"
+          ],
+          answer: 3,
+        },
+        {
+          id: "nums-2026-bio-048",
+          question: "During muscle contraction which type of events occurs respectively?",
+          options: ["I band shorten → H-zone appears", "I band strengthen → H-zone disappears", "I band shorten → H-zone disappears", "I band strengthen → H-zone appears"],
+          answer: 2,
+        },
+        {
+          id: "nums-2026-bio-045",
+          question: "Which type of muscle controls the movement of substance through hollow organs?",
+          options: ["Cardiac muscle", "Smooth muscles", "Sphincter muscles", "Skeleton muscle"],
+          answer: 1,
+        },
+        {
+          id: "nums-2026-bio-043",
+          question: "Which of these correctly order the structure of arteries?",
+          options: [
+            "Connective tissues → Smooth muscle → Elastic tissue → Endothelium",
+            "Connective tissues → Smooth muscle → Endothelium → Elastic tissue",
+            "Elastic tissue → Smooth muscle → Connective tissue → Endothelium",
+            "Smooth muscle → Connective tissues → Elastic tissue → Endothelium"
+          ],
+          answer: 0,
+        },
+        {
+          id: "nums-2026-bio-042",
+          question: "As a result of natural disaster, few species continue to survive due to their characteristics. This results in:",
+          options: ["Increase in favorable alleles", "Decrease in favorable alleles", "Increase in unfavorable alleles", "Decrease in unfavorable alleles"],
+          answer: 0,
+        },
+        {
+          id: "nums-2026-bio-041",
+          question: "Why are some genes called pseudoautosomal, even though they are present on sex chromosome?",
+          options: [
+            "They are present on X chromosomes only",
+            "They are present on Y chromosomes only",
+            "They are present on both X and Y chromosomes",
+            "They are absent from both X and Y chromosomes"
+          ],
+          answer: 2,
+        },
+        {
+          id: "nums-2026-bio-040",
+          question: "Barriers which effect geographical distribution of life are:",
+          options: ["Physical and chemical", "Environmental & Physical", "Ecological & chemical", "Physical, Ecological or Environmental"],
+          answer: 3,
+        },
+        {
+          id: "nums-2026-bio-037",
+          question: "Identify the enzyme which shows absolute specificity:",
+          options: ["Carbonic anhydrase", "Hexokinase", "Urease", "Isomerase"],
+          answer: 2,
+        },
+        {
+          id: "nums-2026-bio-032",
+          question: "Pathway followed by nerve impulse during reflex action is:",
+          options: [
+            "Interneuron → synapse → dendrites → cell body of motor neuron",
+            "Interneuron → dendrite → synapse → cell body of motor neuron",
+            "Interneuron → synapse → cell body of neuron",
+            "Interneuron → dendrites → cell body of neuron"
+          ],
+          answer: 0,
+        },
+        {
+          id: "nums-2026-bio-028",
+          question: "The cerebrospinal fluid (CSF) is present between:",
+          options: ["Dura matter & arachnoid matter", "Arachnoid matter & Pia matter", "Dura matter & Pia matter", "Arachnoid matter & Dura matter"],
+          answer: 1,
+        },
+        {
+          id: "nums-2026-bio-025",
+          question: "Where modification and packaging occur in secretary cells?",
+          options: ["Golgi apparatus", "Mitochondria", "Endoplasmic reticulum", "Nucleus"],
+          answer: 0,
+        },
+        {
+          id: "nums-2026-bio-018",
+          question: "Glycerol reacts with fatty acids to produce:",
+          options: ["Phospholipids", "Terpenes", "Acyl glycerol", "Steroids"],
+          answer: 2,
+        },
+        {
+          id: "nums-2026-bio-011",
+          question: "The electron carrier of mitochondria are found in:",
+          options: ["Outer mitochondrial membrane", "Stroma", "Intermembrane space", "Inner mitochondrial membrane"],
+          answer: 3,
+        },
+        {
+          id: "nums-2026-bio-003",
+          question: "Edward Jenner used material removed from the lesion on the hand of milkmaid and vaccinated a boy suffering from which of the following disease?",
+          options: ["Small pox", "Chicken pox", "Cow pox", "Measles"],
+          answer: 0,
+        },
+        {
+          id: "nums-2026-bio-002",
+          question: "Which of the following enzymes converts mRNA to complementary DNA (cDNA)?",
+          options: ["Integrase", "Reverse transcriptase", "Protease", "DNAase"],
+          answer: 1,
+        },
+        {
+          id: "nums-2026-bio-001",
+          question: "Identify the type of glycoprotein, responsible for cell fusion process in HIV cycle:",
+          options: ["gp 40", "gp 41", "gp 120", "gp 121"],
+          answer: 1,
+        },
       
         {
           id: "inheritance-039",

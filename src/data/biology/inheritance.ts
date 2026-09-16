@@ -507,6 +507,23 @@ export type Question = {
       ],
       answer: 3,
     },
+    {
+      id: "nums-2026-bio-055",
+      question: "Gene of one allele which inhibits the effect of other allele at different locus is:",
+      options: ["Hypostatic gene", "Hylostatic gene", "Polystatic gene", "Epistatic gene"],
+      answer: 3,
+    },
+    {
+      id: "nums-2026-bio-041",
+      question: "Why are some genes called pseudoautosomal, even though they are present on sex chromosome?",
+      options: [
+        "They are present on X chromosomes only",
+        "They are present on Y chromosomes only",
+        "They are present on both X and Y chromosomes",
+        "They are absent from both X and Y chromosomes"
+      ],
+      answer: 2,
+    },
   
     {
       id: "inheritance-040",

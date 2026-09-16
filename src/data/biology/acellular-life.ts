@@ -633,6 +633,24 @@ export const acellularLifeQuestions = [
       answer: 1
     },
     {
+      id: "nums-2026-bio-001",
+      question: "Identify the type of glycoprotein, responsible for cell fusion process in HIV cycle:",
+      options: ["gp 40", "gp 41", "gp 120", "gp 121"],
+      answer: 1,
+    },
+    {
+      id: "nums-2026-bio-004",
+      question: "Adenovirus are classified as:",
+      options: ["Helical capsid", "Polyhedral capsid", "Enveloped virus", "Coupler capsid"],
+      answer: 1,
+    },
+    {
+      id: "nums-2026-bio-002",
+      question: "Which of the following enzymes converts mRNA to complementary DNA (cDNA)?",
+      options: ["Integrase", "Reverse transcriptase", "Protease", "DNAase"],
+      answer: 1,
+    },
+    {
       id: "testmoz-bio-27",
       question: "All of the following diseases are caused by virus Except",
       options: [

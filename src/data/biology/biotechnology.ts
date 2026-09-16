@@ -19,6 +19,12 @@ export type Question = {
       answer: 0,
     },
     {
+      id: "nums-2026-bio-003",
+      question: "Edward Jenner used material removed from the lesion on the hand of milkmaid and vaccinated a boy suffering from which of the following disease?",
+      options: ["Small pox", "Chicken pox", "Cow pox", "Measles"],
+      answer: 0,
+    },
+    {
       id: "24",
       question: "Role of mRNA in COVID-19 vaccines like Pfizer and Moderna is to:",
       options: [

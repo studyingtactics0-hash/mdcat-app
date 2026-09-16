@@ -19,6 +19,63 @@ export type Question = {
       ],
       answer: 1,
     },
+    {
+      id: "nums-2026-bio-005",
+      question: "If a person is doing strenuous exercise, how many ATPs are produced by cellular respiration?",
+      options: ["2 ATPs", "3 ATPs", "4 ATPs", "6 ATPs"],
+      answer: 0,
+    },
+    {
+      id: "nums-2026-bio-006",
+      question: "The end product of non-cyclic electron pathway is:",
+      options: ["ATP and NADPH", "ATP", "FADH₂", "NAOPH₂"],
+      answer: 0,
+    },
+    {
+      id: "nums-2026-bio-007",
+      question: "Pyruvic acid is converted into acetaldehyde through which step?",
+      options: ["Decarboxylation", "Oxidation", "Addition of coenzyme A", "Reduction"],
+      answer: 0,
+    },
+    {
+      id: "nums-2026-bio-008",
+      question: "Choose the correct sequence of electron carrier in respiratory ETC:",
+      options: [
+        "Coenzyme Q → cytochrome a → cytochrome a₃ → cytochrome b → cytochrome c",
+        "Coenzyme Q → cytochrome b → cytochrome c → cytochrome a → cytochrome a₃",
+        "cytochrome a → cytochrome a₃ → cytochrome b → cytochrome c → coenzyme Q",
+        "Cytochrome b → cytochrome c → coenzyme Q → cytochrome a → cytochrome a₃"
+      ],
+      answer: 1,
+    },
+    {
+      id: "nums-2026-bio-009",
+      question: "Pumping movement of protons occur from:",
+      options: [
+        "Outer membrane and inner membrane",
+        "Matrix of mitochondria and mitochondrial intermembrane space",
+        "Inner membrane and cisternae",
+        "Inner membrane and intermembrane space"
+      ],
+      answer: 1,
+    },
+    {
+      id: "nums-2026-bio-010",
+      question: "Net product of Krebs cycle is:",
+      options: [
+        "2CO₂, 3ATP, 6NADH, 2FADH",
+        "4CO₂, 2ATP, 6NADH, 2FADH",
+        "4CO₂, 2ATP, 6NADH, 2FADH",
+        "CO₂, NADH, FADH"
+      ],
+      answer: 1,
+    },
+    {
+      id: "nums-2026-bio-011",
+      question: "The electron carrier of mitochondria are found in:",
+      options: ["Outer mitochondrial membrane", "Stroma", "Intermembrane space", "Inner mitochondrial membrane"],
+      answer: 3,
+    },
   
     {
       id: "bioenergetics-002",
