@@ -463,17 +463,6 @@ export type Question = {
         answer: 2
       },
       {
-        id: "testmoz-phys-31",
-        question: "The velocity of an electron in the first Bohr orbit is v₁. The velocity in the second orbit would be:",
-        options: [
-          "2v₁",
-          "v₁/2",
-          "4v₁",
-          "v₁/4"
-        ],
-        answer: 1
-      },
-      {
         id: "testmoz-phys-32",
         question: "The shortest wavelength in the Balmer series corresponds to a transition from:",
         options: [

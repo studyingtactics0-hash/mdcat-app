@@ -422,12 +422,6 @@ export type Question = {
       answer: 0,
     },
     {
-      id: "coord-055",
-      question: "Reflex action is considered as the simplest form of response in:",
-      options: ["Simple animals", "Higher animals", "Lowest animals", "Smaller animals"],
-      answer: 2,
-    },
-    {
       id: "testmoz-bio-coord-1",
       question: "Which is a part of spinal cord",
       options: ["Ventricle", "Vertebral canal", "Ventral canal", "Central canal"],
@@ -2985,7 +2979,7 @@ export type Question = {
       id: "inheritance-038",
       question: "In which one of the following types of dominance, genotypic and phenotypic ratios are same in F₁ generation?",
       options: ["Co-Dominance", "Complete dominance", "Incomplete dominance", "Over dominance"],
-      answer: 0,
+      answer: 2,
     },
     {
       id: "inheritance-039",
@@ -4833,7 +4827,7 @@ export type Question = {
           question:
             "2-methyl butanal, upon reduction with hydrazine and potassium Hydroxide produces",
           options: ["Butane", "Pentane", "Isobutnaol", "Isopentanol"],
-          answer: 3,
+          answer: 1,
           explanation:
             "Note: Wolff-Kishner reduction (NH2NH2 / KOH) converts 2-methylbutanal into 2-methylbutane (isopentane); Option D (Isopentanol) is mapped per the answer key.",
         },
@@ -5001,7 +4995,7 @@ export type Question = {
             "Electronegative character of carbonyl carbon",
             "None of these",
           ],
-          answer: 2,
+          answer: 0,
           explanation:
             "Note: The electron deficiency/electrophilicity of the carbonyl carbon drives nucleophilic attack; option C is mapped per the answer key.",
         },
@@ -5014,7 +5008,7 @@ export type Question = {
             "Hydrazine",
             "Sodium nitroprusside",
           ],
-          answer: 3,
+          answer: 2,
           explanation:
             "Note: Hydrazine and sodium nitroprusside react with both; sodium nitroprusside is selected according to the provided answer key.",
         },
@@ -8484,7 +8478,7 @@ export type Question = {
             "4-Hexen-1-yne",
             "5-Hexen-1-yne",
           ],
-          answer: 3,
+          answer: 2,
           explanation:
             "Numbering starts from the end giving lower locant to unsaturation priority (alkyne at C-1 over alkene at C-4): C¹≡C²–C³H₂–C⁴H=C⁵H–C⁶H₃ gives 5-Hexen-1-yne (or Hex-5-en-1-yne).",
         },
@@ -9748,7 +9742,7 @@ export type Question = {
             id: "macro-48",
             question: "Succinic thiokinase is an enzyme of the type",
             options: ["Mutase", "Ligase", "Peroxidase", "Lyase"],
-            answer: 2,
+            answer: 1,
             explanation: "Note: Succinic thiokinase is technically a synthetase/ligase (EC 6.2.1.4), but option C (Peroxidase) is mapped according to the provided key."
           },
           {
@@ -10402,7 +10396,7 @@ export type Question = {
               "Atomic size",
               "All of these and nature of orbital"
             ],
-            answer: 2,
+            answer: 3,
             explanation: "Note: Ionization energy depends on all these factors; option C is mapped per the answer key."
           },
           {
@@ -10414,7 +10408,7 @@ export type Question = {
               "Decrease in number of shell",
               "Increase in number of shell"
             ],
-            answer: 2,
+            answer: 1,
             explanation: "Note: Chemically, atomic radius decreases across a period due to increasing effective nuclear charge; option C is mapped per the answer key."
           },
           {
@@ -11525,12 +11519,6 @@ export type Question = {
       answer: 2
     },
     {
-      id: "testmoz-phys-atomic-31",
-      question: "The velocity of an electron in the first Bohr orbit is v₁. The velocity in the second orbit would be:",
-      options: ["2v₁", "v₁/2", "4v₁", "v₁/4"],
-      answer: 1
-    },
-    {
       id: "testmoz-phys-atomic-32",
       question: "The shortest wavelength in the Balmer series corresponds to a transition from:",
       options: ["n = 3 to n = 2", "n = 2 to n = 1", "n = ∞ to n = 2", "n = ∞ to n = 1"],
@@ -11669,6 +11657,17 @@ export type Question = {
       options: ["Curved", "Horizontal", "Linear", "Perpendicular"],
       answer: 0,
       explanation: "Non-Ohmic components (like diodes or filament bulbs) do not maintain constant resistance, producing a non-linear (curved) I-V characteristic curve."
+    },
+    {
+      id: "nums-2025-phy-008",
+      question: "Rectifier converts:",
+      options: [
+        "Alternating voltage into Direct voltage",
+        "Direct voltage into Alternating voltage",
+        "Alternating current into Direct current",
+        "Direct current into Alternating current",
+      ],
+      answer: 2,
     },
     {
       id: "kmu-phys-24-155",
@@ -14431,12 +14430,6 @@ export type Question = {
       answer: 1
     },
     {
-      id: "testmoz-phys-elec-31",
-      question: "A NOT gate is also known as an:",
-      options: ["Inverter", "Buffer", "Follower", "Converter"],
-      answer: 0
-    },
-    {
       id: "testmoz-phys-elec-32",
       question: "The ripple factor of a full-wave rectifier is:",
       options: ["1.21", "0.48", "0.81", "1.0"],
@@ -15533,12 +15526,6 @@ export type Question = {
       answer: 2
     },
     {
-      id: "testmoz-phys-nuc-2",
-      question: "A newly prepared radioactive nucleoid has a decay constant of second inverse. What is the approximate half life of the nuclide?",
-      options: ["1 hour", "1 day", "1 week", "1 month"],
-      answer: 2
-    },
-    {
       id: "testmoz-phys-nuc-3",
       question: "At the end of 14 minutes 1/16 of a sample of radioactive polonium remains. The corresponding half life is",
       options: ["7/8 min", "7/4 min", "8/7 min", "7/2 min"],
@@ -16464,7 +16451,7 @@ export type Question = {
         {
             id: "96",
           question: "The manager accepted the cashier’s _______ for coming late.",
-          options: ["explanation", "explanation", "explanation", "explanation"],
+          options: ["explanation", "explaination", "expolanation", "explannation"],
           answer: 0
         },
       
@@ -16711,9 +16698,9 @@ export type Question = {
           question: "Identify the sentence with no spelling error:",
           options: [
             "Imtiaz invited me on a dinner party at restaurant.",
-            "Imtiaz invited me on a dinner party at restaurant.",
-            "Imtiaz invited me on a dinner party at restaurant.",
-            "Imtiaz invited me on a dinner party at restaurant."
+        "Imtiaz invited me at restaurant on a dinner party.",
+        "Imtiaz invited me on a dinner party at restaurant",
+        "Imtiaz invited me at a dinner party to the restaurant."
           ],
           answer: 0
         }

@@ -556,7 +556,7 @@ export type Question = {
           "Copper and iron both dissolve",
           "No reaction take place"
         ],
-        answer: 2
+        answer: 3
       },
       {
         id: "testmoz-chem-23",

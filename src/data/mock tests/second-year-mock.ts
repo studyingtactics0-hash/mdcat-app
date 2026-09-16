@@ -21,6 +21,17 @@ export type MockQuestion = {
       answer: 0,
     },
     {
+      id: "nums-2025-phy-008",
+      question: "Rectifier converts:",
+      options: [
+        "Alternating voltage into Direct voltage",
+        "Direct voltage into Alternating voltage",
+        "Alternating current into Direct current",
+        "Direct current into Alternating current",
+      ],
+      answer: 2,
+    },
+    {
       id: "2",
       question: "Darwin theory of natural selection describe",
       options: [

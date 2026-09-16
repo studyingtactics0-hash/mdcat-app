@@ -235,12 +235,12 @@ export type Question = {
       question:
         "The constant diameter of DNA is maintained by pairing of:",
       options: [
-        "Thymine towards pyrimidines",
+        "Thymine towards purine",
         "Pyrimidine towards pyrimidines",
-        "Purine towards purine",
+        "Purine towards pyrimidines",
         "Sugar towards phosphate",
       ],
-      answer: 0,
+      answer: 2,
     },
   
     {
@@ -429,7 +429,7 @@ export type Question = {
         "Three to ten saccharide units",
         "More than ten saccharide units",
       ],
-      answer: 2,
+      answer: 0,
     },
   
     {
@@ -608,7 +608,7 @@ export type Question = {
         "Chemical nature of their monosaccharide units",
         "To act as reducing sugar",
       ],
-      answer: 1,
+      answer: 0,
     },
   
     {

@@ -159,12 +159,6 @@ export type PastPaperQuestion = {
       answer: 1,
     },
     {
-      id: "uhs2024-q18",
-      question: "Chloroplast are membrane bound bodies containing:",
-      options: ["Enzymes", "Cisternae", "Pigment", "Cristae"],
-      answer: 0,
-    },
-    {
       id: "uhs2024-q19",
       question: "Which of the following is the function of Golgi Complex?",
       options: [

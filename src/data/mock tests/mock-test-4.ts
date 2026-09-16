@@ -141,7 +141,7 @@ export type Question = {
       id: "inheritance-038",
       question: "In which one of the following types of dominance, genotypic and phenotypic ratios are same in F₁ generation?",
       options: ["Co-Dominance", "Complete dominance", "Incomplete dominance", "Over dominance"],
-      answer: 0,
+      answer: 2,
       chapter: "inheritanceQuestions"
     },
     {

@@ -492,7 +492,7 @@ export type Question = {
         "Incomplete dominance",
         "Over dominance",
       ],
-      answer: 0,
+      answer: 2,
     },
   
     {

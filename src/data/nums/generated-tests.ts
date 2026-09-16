@@ -416,10 +416,10 @@ export const numsTest1: NUMSQuestion[] = [
     "options": [
       "Thymine towards pyrimidines",
       "Pyrimidine towards pyrimidines",
-      "Purine towards purine",
+      "Purine towards pyrimidines",
       "Sugar towards phosphate"
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "id": "testmoz-bio-21",
@@ -810,7 +810,7 @@ export const numsTest1: NUMSQuestion[] = [
       "4-Hexen-1-yne",
       "5-Hexen-1-yne"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Numbering starts from the end giving lower locant to unsaturation priority (alkyne at C-1 over alkene at C-4): C¹≡C²–C³H₂–C⁴H=C⁵H–C⁶H₃ gives 5-Hexen-1-yne (or Hex-5-en-1-yne)."
   },
   {
@@ -1537,7 +1537,7 @@ export const numsTest1: NUMSQuestion[] = [
   },
   {
     "id": "testmoz-phys-29",
-    "question": "Two bodies of mass 10 kg and 5 kg moving in concentric orbits of radii R and r such that their periods are the same. Then the ratio between their centripetal acceleration is",
+    "question": "Two bodies of mass 10 kg and 5 kg moving in concentric orbits of radii R and r such that their periods and velocity are the same. Then the ratio between their centripetal acceleration is",
     "options": [
       "R/r",
       "r/R",
@@ -2297,7 +2297,7 @@ export const numsTest2: NUMSQuestion[] = [
       "Louis Pasteur",
       "Stanley"
     ],
-    "answer": 1
+    "answer": 3
   },
   {
     "id": "biomolecules-037",
@@ -4972,12 +4972,7 @@ export const numsTest3: NUMSQuestion[] = [
   {
     "id": "nums-test-3-138",
     "question": "The manager accepted the cashier’s _______ for coming late.",
-    "options": [
-      "explanation",
-      "explanation",
-      "explanation",
-      "explanation"
-    ],
+    "options": ["explanation", "explaination", "expolanation", "explannation"],
     "answer": 0
   },
   {

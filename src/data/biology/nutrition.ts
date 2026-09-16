@@ -104,7 +104,7 @@ export type Question = {
         "21 to 25",
         "25 to 30"
       ],
-      answer: 3
+      answer: 2
     },
     {
       id: "testmoz-bio-10",
@@ -492,7 +492,7 @@ export type Question = {
         "It activate gastric glands to produce gastric juice",
         "It converts protein into short chain polypeptides"
       ],
-      answer: 4
+      answer: 2
     },
     {
       id: "testmoz-bio-45",

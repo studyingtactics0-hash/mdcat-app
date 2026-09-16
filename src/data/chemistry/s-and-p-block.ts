@@ -639,7 +639,7 @@ export type Question = {
           "Atomic size",
           "All of these and nature of orbital"
         ],
-        answer: 2,
+        answer: 3,
         explanation: "Note: Ionization energy depends on all these factors; option C is mapped per the answer key."
       },
       {
@@ -651,7 +651,7 @@ export type Question = {
           "Decrease in number of shell",
           "Increase in number of shell"
         ],
-        answer: 2,
+        answer: 1,
         explanation: "Note: Chemically, atomic radius decreases across a period due to increasing effective nuclear charge; option C is mapped per the answer key."
       },
       {

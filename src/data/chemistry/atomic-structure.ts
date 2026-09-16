@@ -547,7 +547,7 @@ export type Question = {
       {
         id: "atom-struct-11",
         question: "Which of the following has the lowest e/m ratio",
-        options: ["Li⁺²", "H⁺¹", "H", "F"],
+        options: ["Li⁺²", "H⁺¹", "H", "F⁻"],
         answer: 2,
         explanation: "Note: Neutral atoms carry zero net charge e = 0, giving a theoretical charge-to-mass ratio of zero; option C (H) is selected per the provided answer key."
       },

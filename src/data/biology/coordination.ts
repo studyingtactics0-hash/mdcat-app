@@ -708,19 +708,6 @@ export type Question = {
       ],
       answer: 0,
     },
-  
-    {
-      id: "coord-055",
-      question:
-        "Reflex action is considered as the simplest form of response in:",
-      options: [
-        "Simple animals",
-        "Higher animals",
-        "Lowest animals",
-        "Smaller animals",
-      ],
-      answer: 2,
-    },
     // --- TESTMOZ ---
       {
         id: "testmoz-bio-1",

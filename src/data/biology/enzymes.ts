@@ -271,7 +271,7 @@ export type Question = {
         "Dehydrogenase",
         "None of these",
       ],
-      answer: 4,
+      answer: 0,
     },
   
     {

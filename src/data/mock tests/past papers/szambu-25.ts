@@ -750,7 +750,7 @@ export type MockQuestion = {
         "chemical nature of their monosaccharide units",
         "to act as reducing sugar",
       ],
-      answer: 1,
+      answer: 0,
     },
     {
       id: "szambu25-q78",

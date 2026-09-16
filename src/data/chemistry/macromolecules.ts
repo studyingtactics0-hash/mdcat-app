@@ -581,7 +581,7 @@ export type Question = {
         id: "macro-48",
         question: "Succinic thiokinase is an enzyme of the type",
         options: ["Mutase", "Ligase", "Peroxidase", "Lyase"],
-        answer: 2,
+        answer: 1,
         explanation: "Note: Succinic thiokinase is technically a synthetase/ligase (EC 6.2.1.4), but option C (Peroxidase) is mapped according to the provided key."
       },
       {

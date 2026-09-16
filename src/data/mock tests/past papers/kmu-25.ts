@@ -414,10 +414,10 @@ export type MockQuestion = {
       options: [
         "Thymine towards pyrimidines",
         "Pyrimidine towards pyrimidines",
-        "Purine towards purine",
+        "Purine towards pyrimidines",
         "Sugar towards phosphate",
       ],
-      answer: 0,
+      answer: 2,
     },
     {
       id: "kmu25-q50",
@@ -782,10 +782,10 @@ export type MockQuestion = {
       options: [
         "R₀ will be greater than Rₐ because air resistance reduces horizontal speed",
         "R₀ will be equal to Rₐ because gravity is unchanged",
-        "Rₐ will be lesser than R₀ because air resistance reduces horizontal speed",
+        "Rₐ will be lesser than R₀ because air resistance increases horizontal speed",
         "Rₐ will be lesser than R₀ because air resistance is random",
       ],
-      answer: 2,
+      answer: 0,
     },
     {
       id: "kmu25-q93",

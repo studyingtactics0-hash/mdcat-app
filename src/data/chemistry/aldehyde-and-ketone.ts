@@ -660,7 +660,7 @@ export type Question = {
           "Isobutnaol",
           "Isopentanol"
         ],
-        answer: 3,
+        answer: 1,
         explanation: "Note: Wolff-Kishner reduction (NH2NH2 / KOH) converts 2-methylbutanal into 2-methylbutane (isopentane); Option D (Isopentanol) is mapped per the answer key."
       },
       {
@@ -847,7 +847,7 @@ export type Question = {
           "Electronegative character of carbonyl carbon",
           "None of these"
         ],
-        answer: 2,
+        answer: 0,
         explanation: "Note: The electron deficiency/electrophilicity of the carbonyl carbon drives nucleophilic attack; option C is mapped per the answer key."
       },
       {
@@ -859,7 +859,7 @@ export type Question = {
           "Hydrazine",
           "Sodium nitroprusside"
         ],
-        answer: 3,
+        answer: 2,
         explanation: "Note: Hydrazine and sodium nitroprusside react with both; sodium nitroprusside is selected according to the provided answer key."
       },
       {

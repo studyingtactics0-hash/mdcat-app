@@ -146,7 +146,7 @@ export type Question = {
         "4-Hexen-1-yne",
         "5-Hexen-1-yne"
       ],
-      answer: 3,
+      answer: 2,
       explanation: "Numbering starts from the end giving lower locant to unsaturation priority (alkyne at C-1 over alkene at C-4): C¹≡C²–C³H₂–C⁴H=C⁵H–C⁶H₃ gives 5-Hexen-1-yne (or Hex-5-en-1-yne)."
     },
     {

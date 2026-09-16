@@ -1452,7 +1452,7 @@ export type Question = {
               "Isobutnaol",
               "Isopentanol"
             ],
-            answer: 3,
+            answer: 1,
             explanation: "Note: Wolff-Kishner reduction (NH2NH2 / KOH) converts 2-methylbutanal into 2-methylbutane (isopentane); Option D (Isopentanol) is mapped per the answer key."
           },
           {
@@ -1639,7 +1639,7 @@ export type Question = {
               "Electronegative character of carbonyl carbon",
               "None of these"
             ],
-            answer: 2,
+            answer: 0,
             explanation: "Note: The electron deficiency/electrophilicity of the carbonyl carbon drives nucleophilic attack; option C is mapped per the answer key."
           },
           {
@@ -1651,7 +1651,7 @@ export type Question = {
               "Hydrazine",
               "Sodium nitroprusside"
             ],
-            answer: 3,
+            answer: 2,
             explanation: "Note: Hydrazine and sodium nitroprusside react with both; sodium nitroprusside is selected according to the provided answer key."
           },
           {
@@ -2958,7 +2958,7 @@ export type Question = {
       {
         id: "atom-struct-11",
         question: "Which of the following has the lowest e/m ratio",
-        options: ["Li⁺²", "H⁺¹", "H", "F"],
+        options: ["Li⁺²", "H⁺¹", "H", "F⁻"],
         answer: 2,
         explanation: "Note: Neutral atoms carry zero net charge e = 0, giving a theoretical charge-to-mass ratio of zero; option C (H) is selected per the provided answer key."
       },
@@ -7490,7 +7490,7 @@ export type Question = {
           "Copper and iron both dissolve",
           "No reaction take place"
         ],
-        answer: 2
+        answer: 3
       },
       {
         id: "testmoz-chem-23",
@@ -8848,7 +8848,7 @@ export type Question = {
         "4-Hexen-1-yne",
         "5-Hexen-1-yne"
       ],
-      answer: 3,
+      answer: 2,
       explanation: "Numbering starts from the end giving lower locant to unsaturation priority (alkyne at C-1 over alkene at C-4): C¹≡C²–C³H₂–C⁴H=C⁵H–C⁶H₃ gives 5-Hexen-1-yne (or Hex-5-en-1-yne)."
     },
     {
@@ -11073,7 +11073,7 @@ export type Question = {
         id: "macro-48",
         question: "Succinic thiokinase is an enzyme of the type",
         options: ["Mutase", "Ligase", "Peroxidase", "Lyase"],
-        answer: 2,
+        answer: 1,
         explanation: "Note: Succinic thiokinase is technically a synthetase/ligase (EC 6.2.1.4), but option C (Peroxidase) is mapped according to the provided key."
       },
       {
@@ -12621,7 +12621,7 @@ export type Question = {
           "Atomic size",
           "All of these and nature of orbital"
         ],
-        answer: 2,
+        answer: 3,
         explanation: "Note: Ionization energy depends on all these factors; option C is mapped per the answer key."
       },
       {
@@ -12633,7 +12633,7 @@ export type Question = {
           "Decrease in number of shell",
           "Increase in number of shell"
         ],
-        answer: 2,
+        answer: 1,
         explanation: "Note: Chemically, atomic radius decreases across a period due to increasing effective nuclear charge; option C is mapped per the answer key."
       },
       {

@@ -162,7 +162,7 @@ export type Question = {
       options: [
         "R₀ will be greater than Rₐ because air resistance reduces horizontal speed",
         "R₀ will be equal to Rₐ because gravity is unchanged",
-        "Rₐ will be lesser than R₀ because air resistance reduces horizontal speed",
+        "Rₐ will be lesser than R₀ because air resistance increases horizontal speed",
         "Rₐ will be lesser than R₀ because air resistance is random"
       ],
       answer: 0,
@@ -971,10 +971,10 @@ export type Question = {
         options: [
           "6m/s",
           "4m/s",
-          "3m/s",
+          "3.5m/s",
           "2m/s"
         ],
-        answer: 3
+        answer: 2
       },
       {
         id: "testmoz-phys-28",
@@ -1064,17 +1064,6 @@ export type Question = {
           "10000N"
         ],
         answer: 1
-      },
-      {
-        id: "testmoz-phys-36",
-        question: "The escape velocity of a body depends upon",
-        options: [
-          "The mass of the body",
-          "The mass of the planet",
-          "Density of the planet",
-          "Volume of the planet"
-        ],
-        answer: 3
       },
       {
         id: "testmoz-phys-37",

@@ -1689,10 +1689,10 @@ export type Question = {
             options: [
               "Thymine towards pyrimidines",
               "Pyrimidine towards pyrimidines",
-              "Purine towards purine",
+              "Purine towards pyrimidines",
               "Sugar towards phosphate",
             ],
-            answer: 0,
+            answer: 2,
           },
         
           {
@@ -1881,7 +1881,7 @@ export type Question = {
               "Three to ten saccharide units",
               "More than ten saccharide units",
             ],
-            answer: 2,
+            answer: 0,
           },
         
           {
@@ -2060,7 +2060,7 @@ export type Question = {
               "Chemical nature of their monosaccharide units",
               "To act as reducing sugar",
             ],
-            answer: 1,
+            answer: 0,
           },
         
           {
@@ -3270,20 +3270,6 @@ export type Question = {
             ],
             answer: 2,
           },
-      
-          {
-            id: "bio-cell-041",
-            question:
-              "Chloroplast are membrane bound bodies containing:",
-            options: [
-              "Enzymes",
-              "Cisternae",
-              "Pigment",
-              "Cristae",
-            ],
-            answer: 2,
-          },
-      
           {
             id: "bio-cell-042",
             question:
@@ -3346,7 +3332,7 @@ export type Question = {
               "Louis Pasteur",
               "Stanley",
             ],
-            answer: 1,
+            answer: 3,
           },
       
           {
@@ -4258,7 +4244,7 @@ export type Question = {
               "Dehydrogenase",
               "None of these",
             ],
-            answer: 4,
+            answer: 0,
           },
         
           {
@@ -5102,17 +5088,6 @@ export type Question = {
               answer: 1
             },
             {
-              id: "testmoz-bio-9",
-              question: "The upward movement of sap by the xylem is",
-              options: [
-                "Ascent of SAP",
-                "Deplasmolysis",
-                "Plasmolysis",
-                "Gutation"
-              ],
-              answer: 0
-            },
-            {
               id: "testmoz-bio-10",
               question: "Which one of the following act is pacemaker in the heart",
               options: [
@@ -5532,17 +5507,6 @@ export type Question = {
               answer: 3
             },
             {
-              id: "testmoz-bio-48",
-              question: "In roots the apoplast pathway of water is destructed when water reaches",
-              options: [
-                "Plasmodesmata",
-                "Cortex",
-                "Endodermis",
-                "Pitb"
-              ],
-              answer: 2
-            },
-            {
               id: "testmoz-bio-49",
               question: "Which of the following blood vessel have the highest pressure of blood",
               options: [
@@ -5815,7 +5779,7 @@ export type Question = {
               "Decreases the activity of phagocytes",
               "Decreases the inflammation"
             ],
-            answer: 0
+            answer: 1
           },
           {
             id: "testmoz-bio-24",
@@ -6065,7 +6029,7 @@ export type Question = {
               "21 to 25",
               "25 to 30"
             ],
-            answer: 3
+            answer: 2
           },
           {
             id: "testmoz-bio-10",
@@ -6276,7 +6240,7 @@ export type Question = {
               "Mucus",
               "Enterkinase"
             ],
-            answer: 1
+            answer: 3
           },
           {
             id: "testmoz-bio-29",
@@ -6453,7 +6417,7 @@ export type Question = {
               "It activate gastric glands to produce gastric juice",
               "It converts protein into short chain polypeptides"
             ],
-            answer: 4
+            answer: 2
           },
           {
             id: "testmoz-bio-45",
@@ -6792,7 +6756,7 @@ export type Question = {
           options: [
             "R₀ will be greater than Rₐ because air resistance reduces horizontal speed",
             "R₀ will be equal to Rₐ because gravity is unchanged",
-            "Rₐ will be lesser than R₀ because air resistance reduces horizontal speed",
+            "Rₐ will be lesser than R₀ because air resistance increases horizontal speed",
             "Rₐ will be lesser than R₀ because air resistance is random"
           ],
           answer: 0,
@@ -7601,10 +7565,10 @@ export type Question = {
             options: [
               "6m/s",
               "4m/s",
-              "3m/s",
+              "3.5m/s",
               "2m/s"
             ],
-            answer: 3
+            answer: 2
           },
           {
             id: "testmoz-phys-28",
@@ -7694,17 +7658,6 @@ export type Question = {
               "10000N"
             ],
             answer: 1
-          },
-          {
-            id: "testmoz-phys-36",
-            question: "The escape velocity of a body depends upon",
-            options: [
-              "The mass of the body",
-              "The mass of the planet",
-              "Density of the planet",
-              "Volume of the planet"
-            ],
-            answer: 3
           },
           {
             id: "testmoz-phys-37",
@@ -9529,7 +9482,7 @@ export type Question = {
           },
           {
             id: "testmoz-phys-29",
-            question: "Two bodies of mass 10 kg and 5 kg moving in concentric orbits of radii R and r such that their periods are the same. Then the ratio between their centripetal acceleration is",
+            question: "Two bodies of mass 10 kg and 5 kg moving in concentric orbits of radii R and r such that their periods and velocity are the same. Then the ratio between their centripetal acceleration is",
             options: [
               "R/r",
               "r/R",
@@ -10842,7 +10795,7 @@ export type Question = {
                 "F4=V/2L",
                 "F4=V/2L",
                 "F4=3V/2L",
-                "F4=V/L"
+                "F4=2v/L"
               ],
               answer: 3
             },
@@ -13099,7 +13052,7 @@ export type Question = {
       {
         id: "atom-struct-11",
         question: "Which of the following has the lowest e/m ratio",
-        options: ["Li⁺²", "H⁺¹", "H", "F"],
+        options: ["Li⁺²", "H⁺¹", "H", "F⁻"],
         answer: 2,
         explanation: "Note: Neutral atoms carry zero net charge e = 0, giving a theoretical charge-to-mass ratio of zero; option C (H) is selected per the provided answer key."
       },
@@ -16036,7 +15989,7 @@ export type Question = {
           "Copper and iron both dissolve",
           "No reaction take place"
         ],
-        answer: 2
+        answer: 3
       },
       {
         id: "testmoz-chem-23",
@@ -19681,7 +19634,7 @@ export type Question = {
         {
             id: "96",
           question: "The manager accepted the cashier’s _______ for coming late.",
-          options: ["explanation", "explanation", "explanation", "explanation"],
+          options: ["explanation", "explaination", "expolanation", "explannation"],
           answer: 0
         },
       
@@ -19928,9 +19881,9 @@ export type Question = {
           question: "Identify the sentence with no spelling error:",
           options: [
             "Imtiaz invited me on a dinner party at restaurant.",
-            "Imtiaz invited me on a dinner party at restaurant.",
-            "Imtiaz invited me on a dinner party at restaurant.",
-            "Imtiaz invited me on a dinner party at restaurant."
+        "Imtiaz invited me at restaurant on a dinner party.",
+        "Imtiaz invited me on a dinner party at restaurant",
+        "Imtiaz invited me at a dinner party to the restaurant."
           ],
           answer: 0
         }

@@ -59,7 +59,7 @@ export type Question = {
         "Alternating current into Direct current",
         "Direct current into Alternating current",
       ],
-      answer: 0,
+      answer: 2,
     },
     {
       id: "nums-2025-phy-009",
@@ -344,7 +344,7 @@ export type Question = {
       id: "nums-2025-chem-051",
       question: "Which of the following alcohols will give oily layer upon heating?",
       options: ["3-Methyl-2-butanol", "2-Methyl-2-butanol", "2-Butanol", "Ethyl alcohol"],
-      answer: 1,
+      answer: 3,
     },
     {
       id: "nums-2025-chem-052",
@@ -619,7 +619,7 @@ export type Question = {
         "I met two, British, young, beautiful girls at the airport.",
         "I met two young, beautiful British girls at the airport.",
       ],
-      answer: 3,
+      answer: 1,
     },
     {
       id: "nums-2025-eng-090",
@@ -982,7 +982,7 @@ export type Question = {
         "Na⁺ 10 times / K⁺ 30 times",
         "Na⁺ 30 times / K⁺ 10 times",
       ],
-      answer: 1,
+      answer: 0,
     },
     {
       id: "nums-2025-bio-136",

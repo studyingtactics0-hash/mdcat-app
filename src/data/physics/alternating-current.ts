@@ -20,6 +20,17 @@ export type Question = {
       answer: 0,
       explanation: "Capacitive reactance is X_c = 1 / (2π f C). Doubling capacitance C halves the reactance X_c. Consequently, the current I = V / X_c doubles."
     },
+    {
+      id: "nums-2025-phy-008",
+      question: "Rectifier converts:",
+      options: [
+        "Alternating voltage into Direct voltage",
+        "Direct voltage into Alternating voltage",
+        "Alternating current into Direct current",
+        "Direct current into Alternating current",
+      ],
+      answer: 2,
+    },
   
     // --- KMU MDCAT 2025 PHYS ---
     {

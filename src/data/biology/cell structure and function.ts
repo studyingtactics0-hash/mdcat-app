@@ -531,20 +531,6 @@ export type Question = {
       ],
       answer: 2,
     },
-
-    {
-      id: "bio-cell-041",
-      question:
-        "Chloroplast are membrane bound bodies containing:",
-      options: [
-        "Enzymes",
-        "Cisternae",
-        "Pigment",
-        "Cristae",
-      ],
-      answer: 2,
-    },
-
     {
       id: "bio-cell-042",
       question:
@@ -607,7 +593,7 @@ export type Question = {
         "Louis Pasteur",
         "Stanley",
       ],
-      answer: 1,
+      answer: 3,
     },
 
     {

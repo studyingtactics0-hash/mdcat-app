@@ -115,13 +115,6 @@ export type Question = {
       chapter: "nutritionQuestions"
     },
     {
-      id: "testmoz-bio-9-circ",
-      question: "The upward movement of sap by the xylem is",
-      options: ["Ascent of SAP", "Deplasmolysis", "Plasmolysis", "Gutation"],
-      answer: 0,
-      chapter: "circulationQuestions"
-    },
-    {
       id: "szabmu-2025-1",
       question: "According to the Lamarck theory of evolution, the organ that has not been used in several generations will:",
       options: ["Become strong", "Get amputated", "Disappear", "Become developed"],
@@ -372,13 +365,6 @@ export type Question = {
       chapter: "supportAndMovementQuestions"
     },
     {
-      id: "bio-cell-041",
-      question: "Chloroplast are membrane bound bodies containing:",
-      options: ["Enzymes", "Cisternae", "Pigment", "Cristae"],
-      answer: 2,
-      chapter: "biologyQuestions"
-    },
-    {
       id: "testmoz-bio-29",
       question: "To combat the active infections of tetanus rabies and snakes which method of immunization is used",
       options: ["Active", "Active artificial", "Humoral", "Passive"],
@@ -498,13 +484,6 @@ export type Question = {
       answer: 2,
       explanation: "The evolutionary sequence of vertebrate classes in fossil records proceeds from Fishes to Amphibians, then Reptiles, and subsequently Birds and Mammals.",
       chapter: "evolutionQuestions"
-    },
-    {
-      id: "testmoz-bio-48-circ",
-      question: "In roots the apoplast pathway of water is destructed when water reaches",
-      options: ["Plasmodesmata", "Cortex", "Endodermis", "Pitb"],
-      answer: 2,
-      chapter: "circulationQuestions"
     },
     {
       id: "coord-019",
@@ -1164,18 +1143,6 @@ export const physicsQuestions: Question[] = [
       chapter: "Thermo"
     },
     {
-      id: "testmoz-phys-31",
-      question: "A NOT gate is also known as an:",
-      options: [
-        "Inverter",
-        "Buffer",
-        "Follower",
-        "Converter"
-      ],
-      answer: 0,
-      chapter: "Electronics"
-    },
-    {
       id: "testmoz-phys-46",
       question: "For a good Transformer the material of the core should have the has the hysterics loop of",
       options: [
@@ -1438,18 +1405,6 @@ export const physicsQuestions: Question[] = [
       ],
       answer: 3,
       chapter: "Electromagnetism"
-    },
-    {
-      id: "testmoz-phys-2",
-      question: "A newly prepared radioactive nucleoid has a decay constant of second inverse. What is the approximate half life of the nuclide?",
-      options: [
-        "1 hour",
-        "1 day",
-        "1 week",
-        "1 month"
-      ],
-      answer: 2,
-      chapter: "Nuclear"
     },
     {
       id: "testmoz-phys-48",

@@ -32,7 +32,7 @@ export type SibaQuestion = {
       id: "siba24-q4",
       question: "The situation when two alternative forms is said to have:",
       options: ["Codominance", "Sex-influenced traits", "Multiple alleles", "Incomplete dominance", "Sex-limited traits"],
-      answer: 0,
+      answer: 2,
     },
     {
       id: "siba24-q5",

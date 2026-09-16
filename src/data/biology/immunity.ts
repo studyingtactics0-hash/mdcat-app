@@ -258,7 +258,7 @@ export type Question = {
         "Decreases the activity of phagocytes",
         "Decreases the inflammation"
       ],
-      answer: 0
+      answer: 1
     },
     {
       id: "testmoz-bio-24",

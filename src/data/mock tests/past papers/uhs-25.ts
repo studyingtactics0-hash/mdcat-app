@@ -1594,10 +1594,10 @@ export type MockQuestion = {
       id: "uhs25-q171",
       question: "Identify the sentence with no spelling error:",
       options: [
-        "Imtiaz invited me on a dinner party at restaurant.",
-        "Imtiaz invited me on a dinner party at restaurant.",
-        "Imtiaz invited me on a dinner party at restaurant.",
-        "Imtiaz invited me on a dinner party at restaurant.",
+       "Imtiaz invited me on a dinner party at restaurant.",
+        "Imtiaz invited me at restaurant on a dinner party.",
+        "Imtiaz invited me on a dinner party at restaurant",
+        "Imtiaz invited me at a dinner party to the restaurant."
       ],
       answer: 0,
     },

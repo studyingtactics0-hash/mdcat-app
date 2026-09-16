@@ -492,12 +492,6 @@ export type MockQuestion = {
       answer: 0,
     },
     {
-      id: "mock1-bio-072",
-      question: "Which of the following is a monocot plant?",
-      options: ["Mango", "Wheat", "Pea", "Rose"],
-      answer: 1,
-    },
-    {
       id: "mock1-bio-073",
       question: "The part of brain that controls balance is:",
       options: ["Cerebrum", "Cerebellum", "Medulla", "Hypothalamus"],

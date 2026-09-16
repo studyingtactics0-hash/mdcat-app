@@ -290,7 +290,7 @@ export type Question = {
       id: "biomolecules-057",
       question: "Which of the following characteristics is common among sucrose, lactose and maltose?",
       options: ["Molecular formula", "Occurrence in living beings", "Chemical nature of their monosaccharide units", "To act as reducing sugar"],
-      answer: 1,
+      answer: 0,
       chapter: "biologicalMoleculesQuestions"
     },
     {
@@ -1072,7 +1072,7 @@ export const chemistryQuestions: Question[] = [
         "Atomic size",
         "All of these and nature of orbital"
       ],
-      answer: 2,
+      answer: 3,
       explanation: "Note: Ionization energy depends on all these factors; option C is mapped per the answer key."
     },
     {
@@ -1560,20 +1560,8 @@ export const chemistryQuestions: Question[] = [
       ],
       answer: 2,
       chapter: "CurrentElectricity"
-    },
-    {
-      id: "testmoz-phys-36",
-      question: "The escape velocity of a body depends upon",
-      options: [
-        "The mass of the body",
-        "The mass of the planet",
-        "Density of the planet",
-        "Volume of the planet"
-      ],
-      answer: 3,
-      chapter: "ForceMotion"
-    },
-];
+    }
+  ];
     export const englishQuestions: Question[] = [
         // English MCQs
       {

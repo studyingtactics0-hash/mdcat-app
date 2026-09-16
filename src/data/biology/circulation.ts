@@ -375,17 +375,6 @@ export type Question = {
         answer: 1
       },
       {
-        id: "testmoz-bio-9",
-        question: "The upward movement of sap by the xylem is",
-        options: [
-          "Ascent of SAP",
-          "Deplasmolysis",
-          "Plasmolysis",
-          "Gutation"
-        ],
-        answer: 0
-      },
-      {
         id: "testmoz-bio-10",
         question: "Which one of the following act is pacemaker in the heart",
         options: [
@@ -803,17 +792,6 @@ export type Question = {
           "The opening of semilunar valves"
         ],
         answer: 3
-      },
-      {
-        id: "testmoz-bio-48",
-        question: "In roots the apoplast pathway of water is destructed when water reaches",
-        options: [
-          "Plasmodesmata",
-          "Cortex",
-          "Endodermis",
-          "Pitb"
-        ],
-        answer: 2
       },
       {
         id: "testmoz-bio-49",

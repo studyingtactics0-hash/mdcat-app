@@ -868,7 +868,7 @@ export type Question = {
             "F4=V/2L",
             "F4=V/2L",
             "F4=3V/2L",
-            "F4=V/L"
+            "F4=2V/L"
           ],
           answer: 3
         },

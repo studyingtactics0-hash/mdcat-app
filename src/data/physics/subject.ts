@@ -570,17 +570,6 @@ export type Question = {
             answer: 2
           },
           {
-            id: "testmoz-phys-31",
-            question: "The velocity of an electron in the first Bohr orbit is v₁. The velocity in the second orbit would be:",
-            options: [
-              "2v₁",
-              "v₁/2",
-              "4v₁",
-              "v₁/4"
-            ],
-            answer: 1
-          },
-          {
             id: "testmoz-phys-32",
             question: "The shortest wavelength in the Balmer series corresponds to a transition from:",
             options: [
@@ -4748,17 +4737,6 @@ export type Question = {
         answer: 1
       },
       {
-        id: "testmoz-phys-31",
-        question: "A NOT gate is also known as an:",
-        options: [
-          "Inverter",
-          "Buffer",
-          "Follower",
-          "Converter"
-        ],
-        answer: 0
-      },
-      {
         id: "testmoz-phys-32",
         question: "The ripple factor of a full-wave rectifier is:",
         options: [
@@ -6398,7 +6376,7 @@ export type Question = {
       options: [
         "R₀ will be greater than Rₐ because air resistance reduces horizontal speed",
         "R₀ will be equal to Rₐ because gravity is unchanged",
-        "Rₐ will be lesser than R₀ because air resistance reduces horizontal speed",
+        "Rₐ will be lesser than R₀ because air resistance increases horizontal speed",
         "Rₐ will be lesser than R₀ because air resistance is random"
       ],
       answer: 0,
@@ -7207,10 +7185,10 @@ export type Question = {
         options: [
           "6m/s",
           "4m/s",
-          "3m/s",
+          "3.5m/s",
           "2m/s"
         ],
-        answer: 3
+        answer: 2
       },
       {
         id: "testmoz-phys-28",
@@ -7300,17 +7278,6 @@ export type Question = {
           "10000N"
         ],
         answer: 1
-      },
-      {
-        id: "testmoz-phys-36",
-        question: "The escape velocity of a body depends upon",
-        options: [
-          "The mass of the body",
-          "The mass of the planet",
-          "Density of the planet",
-          "Volume of the planet"
-        ],
-        answer: 3
       },
       {
         id: "testmoz-phys-37",
@@ -7850,17 +7817,6 @@ export type Question = {
         answer: 2
       },
       {
-        id: "testmoz-phys-2",
-        question: "A newly prepared radioactive nucleoid has a decay constant of second inverse. What is the approximate half life of the nuclide?",
-        options: [
-          "1 hour",
-          "1 day",
-          "1 week",
-          "1 month"
-        ],
-        answer: 2
-      },
-      {
         id: "testmoz-phys-3",
         question: "At the end of 14 minutes 1/16 of a sample of radioactive polonium remains. The corresponding half life is",
         options: [
@@ -8210,7 +8166,7 @@ export type Question = {
           "36 hours",
           "Impossible fact"
         ],
-        answer: 0
+        answer: 2
       },
       {
         id: "testmoz-phys-35",
@@ -8354,17 +8310,6 @@ export type Question = {
           "Elliptical"
         ],
         answer: 0
-      },
-      {
-        id: "testmoz-phys-48",
-        question: "The amount of energy equivalent to 1 u is",
-        options: [
-          "9.315 MeV",
-          "93.45 MeV",
-          "931 MeV",
-          "1.025 MeV"
-        ],
-        answer: 1
       },
       {
         id: "testmoz-phys-49",
@@ -9070,7 +9015,7 @@ export type Question = {
       },
       {
         id: "testmoz-phys-29",
-        question: "Two bodies of mass 10 kg and 5 kg moving in concentric orbits of radii R and r such that their periods are the same. Then the ratio between their centripetal acceleration is",
+        question: "Two bodies of mass 10 kg and 5 kg moving in concentric orbits of radii R and r such that their periods and velocity are the same. Then the ratio between their centripetal acceleration is",
         options: [
           "R/r",
           "r/R",
@@ -11668,7 +11613,7 @@ export type Question = {
             "F4=V/2L",
             "F4=V/2L",
             "F4=3V/2L",
-            "F4=V/L"
+            "F4=2V/L"
           ],
           answer: 3
         },

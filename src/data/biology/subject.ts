@@ -1661,10 +1661,10 @@ export const biologyquestions = [
               options: [
                 "Thymine towards pyrimidines",
                 "Pyrimidine towards pyrimidines",
-                "Purine towards purine",
+                "Purine towards pyrimidines",
                 "Sugar towards phosphate",
               ],
-              answer: 0,
+              answer: 2,
             },
           
             {
@@ -1853,7 +1853,7 @@ export const biologyquestions = [
                 "Three to ten saccharide units",
                 "More than ten saccharide units",
               ],
-              answer: 2,
+              answer: 0,
             },
           
             {
@@ -2032,7 +2032,7 @@ export const biologyquestions = [
                 "Chemical nature of their monosaccharide units",
                 "To act as reducing sugar",
               ],
-              answer: 1,
+              answer: 0,
             },
           
             {
@@ -3242,20 +3242,6 @@ export const biologyquestions = [
                   ],
                   answer: 2,
                 },
-            
-                {
-                  id: "bio-cell-041",
-                  question:
-                    "Chloroplast are membrane bound bodies containing:",
-                  options: [
-                    "Enzymes",
-                    "Cisternae",
-                    "Pigment",
-                    "Cristae",
-                  ],
-                  answer: 2,
-                },
-            
                 {
                   id: "bio-cell-042",
                   question:
@@ -3318,7 +3304,7 @@ export const biologyquestions = [
                     "Louis Pasteur",
                     "Stanley",
                   ],
-                  answer: 1,
+                  answer: 3,
                 },
             
                 {
@@ -4334,17 +4320,6 @@ export const biologyquestions = [
         answer: 1
       },
       {
-        id: "testmoz-bio-9",
-        question: "The upward movement of sap by the xylem is",
-        options: [
-          "Ascent of SAP",
-          "Deplasmolysis",
-          "Plasmolysis",
-          "Gutation"
-        ],
-        answer: 0
-      },
-      {
         id: "testmoz-bio-10",
         question: "Which one of the following act is pacemaker in the heart",
         options: [
@@ -4762,17 +4737,6 @@ export const biologyquestions = [
           "The opening of semilunar valves"
         ],
         answer: 3
-      },
-      {
-        id: "testmoz-bio-48",
-        question: "In roots the apoplast pathway of water is destructed when water reaches",
-        options: [
-          "Plasmodesmata",
-          "Cortex",
-          "Endodermis",
-          "Pitb"
-        ],
-        answer: 2
       },
       {
         id: "testmoz-bio-49",
@@ -5496,19 +5460,6 @@ export const biologyquestions = [
             "Afferent neurons",
           ],
           answer: 0,
-        },
-      
-        {
-          id: "coord-055",
-          question:
-            "Reflex action is considered as the simplest form of response in:",
-          options: [
-            "Simple animals",
-            "Higher animals",
-            "Lowest animals",
-            "Smaller animals",
-          ],
-          answer: 2,
         },
         // --- TESTMOZ ---
           {
@@ -6325,7 +6276,7 @@ export const biologyquestions = [
                 "Dehydrogenase",
                 "None of these",
               ],
-              answer: 4,
+              answer: 0,
             },
           
             {
@@ -7195,7 +7146,7 @@ export const biologyquestions = [
         "Decreases the activity of phagocytes",
         "Decreases the inflammation"
       ],
-      answer: 0
+      answer: 1
     },
     {
       id: "testmoz-bio-24",
@@ -7833,7 +7784,7 @@ export const biologyquestions = [
             "Incomplete dominance",
             "Over dominance",
           ],
-          answer: 0,
+          answer: 2,
         },
       
         {
@@ -8549,7 +8500,7 @@ export const biologyquestions = [
                 "21 to 25",
                 "25 to 30"
               ],
-              answer: 3
+              answer: 2
             },
             {
               id: "testmoz-bio-10",
@@ -8760,7 +8711,7 @@ export const biologyquestions = [
                 "Mucus",
                 "Enterkinase"
               ],
-              answer: 1
+              answer: 3
             },
             {
               id: "testmoz-bio-29",
@@ -8937,7 +8888,7 @@ export const biologyquestions = [
                 "It activate gastric glands to produce gastric juice",
                 "It converts protein into short chain polypeptides"
               ],
-              answer: 4
+              answer: 2
             },
             {
               id: "testmoz-bio-45",

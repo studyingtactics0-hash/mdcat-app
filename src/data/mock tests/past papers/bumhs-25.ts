@@ -838,15 +838,6 @@ export type MockQuestion = {
       options: ["Kidney", "Skin", "Appendix", "Lungs"],
       answer: 2,
     },
-  
-    {
-      id: "bumhs25-q79",
-      question:
-        "Reflex action is considered as the simplest form of response in:",
-      options: ["Simple animals", "Higher animals", "Lowest animals", "Smaller animals"],
-      answer: 1,
-    },
-  
     {
       id: "bumhs25-q80",
       question:

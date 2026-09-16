@@ -689,7 +689,7 @@ export type Question = {
       },
       {
         id: "testmoz-phys-29",
-        question: "Two bodies of mass 10 kg and 5 kg moving in concentric orbits of radii R and r such that their periods are the same. Then the ratio between their centripetal acceleration is",
+        question: "Two bodies of mass 10 kg and 5 kg moving in concentric orbits of radii R and r such that their periods and velocity are the same. Then the ratio between their centripetal acceleration is",
         options: [
           "R/r",
           "r/R",

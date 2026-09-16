@@ -524,17 +524,6 @@ export type Question = {
         answer: 1
       },
       {
-        id: "testmoz-phys-31",
-        question: "A NOT gate is also known as an:",
-        options: [
-          "Inverter",
-          "Buffer",
-          "Follower",
-          "Converter"
-        ],
-        answer: 0
-      },
-      {
         id: "testmoz-phys-32",
         question: "The ripple factor of a full-wave rectifier is:",
         options: [

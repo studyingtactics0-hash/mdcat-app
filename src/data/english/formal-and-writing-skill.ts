@@ -637,7 +637,7 @@ export const formalAndWritingSkillQuestions = [
     },
     {
       question: "The manager accepted the cashier’s _______ for coming late.",
-      options: ["explanation", "explanation", "explanation", "explanation"],
+      options: ["explanation", "explaination", "expolanation", "explannation"],
       answer: 0
     },
   
@@ -858,9 +858,9 @@ export const formalAndWritingSkillQuestions = [
       question: "Identify the sentence with no spelling error:",
       options: [
         "Imtiaz invited me on a dinner party at restaurant.",
-        "Imtiaz invited me on a dinner party at restaurant.",
-        "Imtiaz invited me on a dinner party at restaurant.",
-        "Imtiaz invited me on a dinner party at restaurant."
+        "Imtiaz invited me at restaurant on a dinner party.",
+        "Imtiaz invited me on a dinner party at restaurant",
+        "Imtiaz invited me at a dinner party to the restaurant."
       ],
       answer: 0
     }

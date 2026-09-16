@@ -391,17 +391,6 @@ export type Question = {
         answer: 2
       },
       {
-        id: "testmoz-phys-2",
-        question: "A newly prepared radioactive nucleoid has a decay constant of second inverse. What is the approximate half life of the nuclide?",
-        options: [
-          "1 hour",
-          "1 day",
-          "1 week",
-          "1 month"
-        ],
-        answer: 2
-      },
-      {
         id: "testmoz-phys-3",
         question: "At the end of 14 minutes 1/16 of a sample of radioactive polonium remains. The corresponding half life is",
         options: [
@@ -751,7 +740,7 @@ export type Question = {
           "36 hours",
           "Impossible fact"
         ],
-        answer: 0
+        answer: 2
       },
       {
         id: "testmoz-phys-35",
@@ -895,17 +884,6 @@ export type Question = {
           "Elliptical"
         ],
         answer: 0
-      },
-      {
-        id: "testmoz-phys-48",
-        question: "The amount of energy equivalent to 1 u is",
-        options: [
-          "9.315 MeV",
-          "93.45 MeV",
-          "931 MeV",
-          "1.025 MeV"
-        ],
-        answer: 1
       },
       {
         id: "testmoz-phys-49",

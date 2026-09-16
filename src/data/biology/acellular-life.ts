@@ -137,7 +137,7 @@ export const acellularLifeQuestions = [
       "Louis Pasteur",
       "Stanley",
     ],
-    answer: 1,
+    answer: 3,
   },
   {
     question:
