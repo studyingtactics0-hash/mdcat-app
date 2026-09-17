@@ -1297,7 +1297,7 @@ export type MockQuestion = {
       question:
         "If vector A = 2î + ĵ + 3k̂ is perpendicular to B = î + ĵ + xk̂ then x =",
       options: ["3", "-3", "1", "-1"],
-      answer: 3,
+      answer: 1,
     },
   
     {

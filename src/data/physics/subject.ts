@@ -10676,7 +10676,7 @@ export type Question = {
         "1",
         "-1"
       ],
-      answer: 3,
+      answer: 1,
       explanation: "Perpendicular vectors have a dot product of zero: A · B = (2)(1) + (1)(1) + (3)(x) = 2 + 1 + 3x = 0 → 3x = -3 → x = -1."
     },
     {
