@@ -134,7 +134,7 @@ export type Question = {
         "8g O₂",
         "16g O₂"
       ],
-      answer: 0,
+      answer: 1,
       explanation: "2Mg + O₂ → 2MgO. Molar masses: Mg = 24 g/mol, O₂ = 32 g/mol. 32 g O₂ (1 mol) requires 2 mol Mg = 48 g Mg. Since 50 g Mg is provided, excess Mg left = 50 g - 48 g = 2 g (or ~6 g based on atomic mass rounding conventions in regional past papers)."
     },
     {

@@ -502,7 +502,7 @@ export const biologyquestions = [
           "RNA polymerase",
           "Viral nuclease"
         ],
-        answer: 1
+        answer: 2
       },
       {
         id: "testmoz-bio-14",
@@ -1245,7 +1245,7 @@ export const biologyquestions = [
               "3",
               "18"
             ],
-            answer: 1
+            answer: 0
           },
           {
             id: "testmoz-bio-22",
@@ -6114,7 +6114,7 @@ export const biologyquestions = [
             {
               id: "enzymes-009",
               question:
-                "A covalently bonded inorganic ion with protein part of an enzyme is termed as __.",
+                "A covalently bonded organic ion with protein part of an enzyme is termed as __.",
               options: [
                 "Apoenzyme",
                 "Coenzyme",
@@ -6706,7 +6706,7 @@ export const biologyquestions = [
                 "Cell membrane",
                 "Cell DNA"
               ],
-              answer: 2
+              answer: 0
             },
             {
               id: "testmoz-bio-18",
@@ -8852,7 +8852,7 @@ export const biologyquestions = [
                 "21 to 25",
                 "25 to 30"
               ],
-              answer: 2
+              answer: 1
             },
             {
               id: "testmoz-bio-10",

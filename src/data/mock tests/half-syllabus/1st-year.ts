@@ -530,7 +530,7 @@ export type Question = {
               "RNA polymerase",
               "Viral nuclease"
             ],
-            answer: 1
+            answer: 2
           },
           {
             id: "testmoz-bio-14",
@@ -1273,7 +1273,7 @@ export type Question = {
                 "3",
                 "18"
               ],
-              answer: 1
+              answer: 0
             },
             {
               id: "testmoz-bio-22",
@@ -4306,7 +4306,7 @@ export type Question = {
           {
             id: "enzymes-009",
             question:
-              "A covalently bonded inorganic ion with protein part of an enzyme is termed as __.",
+              "A covalently bonded organic ion with protein part of an enzyme is termed as __.",
             options: [
               "Apoenzyme",
               "Coenzyme",
@@ -4898,7 +4898,7 @@ export type Question = {
               "Cell membrane",
               "Cell DNA"
             ],
-            answer: 2
+            answer: 0
           },
           {
             id: "testmoz-bio-18",
@@ -6253,7 +6253,7 @@ export type Question = {
               "21 to 25",
               "25 to 30"
             ],
-            answer: 2
+            answer: 1
           },
           {
             id: "testmoz-bio-10",
@@ -11437,9 +11437,9 @@ export type Question = {
             "R",
             "3/2 R",
             "5/2 R",
-            "7/2 R"
+            "1/2 R"
           ],
-          answer: 2,
+          answer: 3,
           explanation: "In standard thermodynamics problems for ideal gas relations C_p = C_v + R; if C_p = 5/2 R then C_v = 3/2 R. For this specific question format where option C (5/2 R) corresponds to standard key values."
         },
       
@@ -12551,7 +12551,7 @@ export type Question = {
                 "Enthalpy",
                 "Volume"
               ],
-              answer: 3
+              answer: 1
             },
             {
               id: "testmoz-phys-35",
@@ -15200,7 +15200,7 @@ export type Question = {
           "Chemically",
           "In laboratory"
         ],
-        answer: 2
+        answer: 1
       },
       {
         id: "testmoz-chem-9",
@@ -15541,7 +15541,7 @@ export type Question = {
           "Maximizing the backward reaction",
           "Decreasing the acidity of product"
         ],
-        answer: 2
+        answer: 0
       },
       {
         id: "testmoz-chem-40",
@@ -18697,7 +18697,7 @@ export type Question = {
           "They are anisotropic",
           "They cleavage along particular direction"
         ],
-        answer: 3,
+        answer: 1,
         explanation: "Note: According to standard chemistry, amorphous solids are isotropic and break irregularly. However, per the provided answer key, option D is mapped."
       },
       {

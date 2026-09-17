@@ -2231,7 +2231,7 @@ export const numsTest2: NUMSQuestion[] = [
       "RNA polymerase",
       "Viral nuclease"
     ],
-    "answer": 1
+    "answer": 2
   },
   {
     "id": "support-and-movement-059",
@@ -3547,7 +3547,7 @@ export const numsTest3: NUMSQuestion[] = [
       "3",
       "18"
     ],
-    "answer": 1
+    "answer": 0
   },
   {
     "id": "testmoz-bio-16",

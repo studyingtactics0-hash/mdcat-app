@@ -2014,6 +2014,7 @@ export type Question = {
       ],
       answer: 2,
     },
+    
     {
       id: "nums-2026-bio-055",
       question: "Gene of one allele which inhibits the effect of other allele at different locus is:",
@@ -7014,6 +7015,17 @@ export type Question = {
             "Homolytic cleavage of halogen molecules (X₂ → 2X•) requires energy provided by ultraviolet (UV) light or high temperatures.",
         },
         {
+          id: "kmu25-q147",
+          question: "Identify the CORRECT electronic configuration for an element with atomic number 24:",
+          options: [
+            "1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d⁴",
+            "1s² 2s² 2p⁶ 3s² 3p⁶ 4s¹ 3d⁵",
+            "1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d⁶",
+            "1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d⁴",
+          ],
+          answer: 1,
+        },
+        {
           id: "uhs-chem-25-109",
           question:
             "Which one of the following is NOT a characteristic property of benzene?",
@@ -7698,7 +7710,7 @@ export type Question = {
           question:
             "50g Mg is burnt with 32g of oxygen to form MgO, amount of excess reagent left is?",
           options: ["6g Mg", "2g Mg", "8g O₂", "16g O₂"],
-          answer: 0,
+          answer: 1,
           explanation:
             "2Mg + O₂ → 2MgO. Molar masses: Mg = 24 g/mol, O₂ = 32 g/mol. 32 g O₂ (1 mol) requires 2 mol Mg = 48 g Mg. Since 50 g Mg is provided, excess Mg left = 50 g - 48 g = 2 g (or ~6 g based on atomic mass rounding conventions in regional past papers).",
         },

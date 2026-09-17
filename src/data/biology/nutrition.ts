@@ -116,7 +116,7 @@ export type Question = {
         "21 to 25",
         "25 to 30"
       ],
-      answer: 2
+      answer: 1
     },
     {
       id: "testmoz-bio-10",

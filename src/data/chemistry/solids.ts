@@ -323,7 +323,7 @@ export type Question = {
           "They are anisotropic",
           "They cleavage along particular direction"
         ],
-        answer: 3,
+        answer: 1,
         explanation: "Note: According to standard chemistry, amorphous solids are isotropic and break irregularly. However, per the provided answer key, option D is mapped."
       },
       {

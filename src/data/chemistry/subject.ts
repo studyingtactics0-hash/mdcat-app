@@ -5509,7 +5509,7 @@ export type Question = {
           "Chemically",
           "In laboratory"
         ],
-        answer: 2
+        answer: 1
       },
       {
         id: "testmoz-chem-9",
@@ -5842,6 +5842,17 @@ export type Question = {
         answer: 1
       },
       {
+        id: "kmu25-q147",
+        question: "Identify the CORRECT electronic configuration for an element with atomic number 24:",
+        options: [
+          "1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d⁴",
+          "1s² 2s² 2p⁶ 3s² 3p⁶ 4s¹ 3d⁵",
+          "1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d⁶",
+          "1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d⁴",
+        ],
+        answer: 1,
+      },
+      {
         id: "testmoz-chem-39",
         question: "A chemist who is concerned with large scale manufacture of useful compounds is primarily interested in",
         options: [
@@ -5850,7 +5861,7 @@ export type Question = {
           "Maximizing the backward reaction",
           "Decreasing the acidity of product"
         ],
-        answer: 2
+        answer: 0
       },
       {
         id: "testmoz-chem-40",
@@ -7927,7 +7938,7 @@ export type Question = {
             "8g O₂",
             "16g O₂"
           ],
-          answer: 0,
+          answer: 1,
           explanation: "2Mg + O₂ → 2MgO. Molar masses: Mg = 24 g/mol, O₂ = 32 g/mol. 32 g O₂ (1 mol) requires 2 mol Mg = 48 g Mg. Since 50 g Mg is provided, excess Mg left = 50 g - 48 g = 2 g (or ~6 g based on atomic mass rounding conventions in regional past papers)."
         },
         {
@@ -13132,7 +13143,7 @@ export type Question = {
           "They are anisotropic",
           "They cleavage along particular direction"
         ],
-        answer: 3,
+        answer: 1,
         explanation: "Note: According to standard chemistry, amorphous solids are isotropic and break irregularly. However, per the provided answer key, option D is mapped."
       },
       {

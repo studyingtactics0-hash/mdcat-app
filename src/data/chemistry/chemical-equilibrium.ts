@@ -487,7 +487,7 @@ export type Question = {
           "Chemically",
           "In laboratory"
         ],
-        answer: 2
+        answer: 1
       },
       {
         id: "testmoz-chem-9",
@@ -828,7 +828,7 @@ export type Question = {
           "Maximizing the backward reaction",
           "Decreasing the acidity of product"
         ],
-        answer: 2
+        answer: 0
       },
       {
         id: "testmoz-chem-40",

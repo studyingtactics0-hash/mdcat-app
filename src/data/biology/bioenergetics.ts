@@ -398,7 +398,7 @@ export type Question = {
           "3",
           "18"
         ],
-        answer: 1
+        answer: 0
       },
       {
         id: "testmoz-bio-22",

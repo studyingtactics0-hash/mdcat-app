@@ -487,7 +487,7 @@ export const acellularLifeQuestions = [
         "RNA polymerase",
         "Viral nuclease"
       ],
-      answer: 1
+      answer: 2
     },
     {
       id: "testmoz-bio-14",

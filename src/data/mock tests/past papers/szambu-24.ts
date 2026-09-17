@@ -657,7 +657,7 @@ export type MockQuestion = {
     },
     {
       id: "szambu24-q60",
-      question: "A covalently bonded inorganic ion with protein part of an enzyme is termed as ________.",
+      question: "A covalently bonded organic ion with protein part of an enzyme is termed as ________.",
       options: [
         "Apoenzyme",
         "Coenzyme",

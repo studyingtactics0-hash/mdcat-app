@@ -21,6 +21,17 @@ export type Question = {
       explanation: "Paramagnetic substances possess unpaired electrons whose magnetic moments align with an applied magnetic field, causing them to be attracted into the field."
     },
     {
+      id: "kmu25-q147",
+      question: "Identify the CORRECT electronic configuration for an element with atomic number 24:",
+      options: [
+        "1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d⁴",
+        "1s² 2s² 2p⁶ 3s² 3p⁶ 4s¹ 3d⁵",
+        "1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d⁶",
+        "1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d⁴",
+      ],
+      answer: 1,
+    },
+    {
       id: "bumhs-mdcat-2024-122",
       question: "Transition metal compounds containing unpaired electrons are:",
       options: [

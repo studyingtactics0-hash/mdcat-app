@@ -954,8 +954,8 @@ export type MockQuestion = {
     {
       id: "kmu25-q112",
       question: "At a constant Pressure (Cp) and Volume (Cv), an ideal gas has Cp = 3/2 R. Then Cv will be?",
-      options: ["R", "3/2 R", "5/2 R", "7/2 R"],
-      answer: 2,
+      options: ["R", "3/2 R", "5/2 R", "1/2 R"],
+      answer: 3,
     },
     {
       id: "kmu25-q113",
@@ -1220,7 +1220,7 @@ export type MockQuestion = {
         "1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d⁶",
         "1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d⁴",
       ],
-      answer: 2,
+      answer: 1,
     },
     {
       id: "kmu25-q148",
@@ -1285,7 +1285,7 @@ export type MockQuestion = {
       id: "kmu25-q157",
       question: "Which term is correctly used to describe the following molecule: CH₃–C≡C–CH₂–CH₃",
       options: ["pent-1-yne", "pent-2-yne", "pent-3-yne", "pent-1-yne"],
-      answer: 3,
+      answer: 1,
     },
     {
       id: "kmu25-q158",

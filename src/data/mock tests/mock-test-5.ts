@@ -632,7 +632,7 @@ export const chemistryQuestions: Question[] = [
         "Maximizing the backward reaction",
         "Decreasing the acidity of product"
       ],
-      answer: 2
+      answer: 0
     },
     {
       id: "gases-45",

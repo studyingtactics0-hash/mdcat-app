@@ -109,7 +109,7 @@ export type Question = {
     {
       id: "enzymes-009",
       question:
-        "A covalently bonded inorganic ion with protein part of an enzyme is termed as __.",
+        "A covalently bonded organic ion with protein part of an enzyme is termed as __.",
       options: [
         "Apoenzyme",
         "Coenzyme",
@@ -732,7 +732,7 @@ export type Question = {
         "Cell membrane",
         "Cell DNA"
       ],
-      answer: 2
+      answer: 0
     },
     {
       id: "testmoz-bio-18",

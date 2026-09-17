@@ -103,9 +103,9 @@ export type Question = {
         "R",
         "3/2 R",
         "5/2 R",
-        "7/2 R"
+        "1/2 R"
       ],
-      answer: 2,
+      answer: 3,
       explanation: "In standard thermodynamics problems for ideal gas relations C_p = C_v + R; if C_p = 5/2 R then C_v = 3/2 R. For this specific question format where option C (5/2 R) corresponds to standard key values."
     },
   
@@ -1217,7 +1217,7 @@ export type Question = {
             "Enthalpy",
             "Volume"
           ],
-          answer: 3
+          answer: 1
         },
         {
           id: "testmoz-phys-35",
