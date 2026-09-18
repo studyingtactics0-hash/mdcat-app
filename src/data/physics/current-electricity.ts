@@ -822,17 +822,6 @@ export type Question = {
         answer: 0
       },
       {
-        id: "testmoz-phys-27",
-        question: "Why should a resistance be introduced in a circuit in series deliberately",
-        options: [
-          "To increase current",
-          "To control current",
-          "Decrease current",
-          "Just to give a good look to circuit"
-        ],
-        answer: 2
-      },
-      {
         id: "testmoz-phys-28",
         question: "Free electrons in an electric field move from",
         options: [

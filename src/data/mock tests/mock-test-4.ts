@@ -215,13 +215,6 @@ export type Question = {
       chapter: "nutritionQuestions"
     },
     {
-      id: "acellularLifeQuestions-26",
-      question: "In Gram-negative bacteria, the peptidoglycan layer is:",
-      options: ["Condensed", "Thick", "BASIC KNOWLEDGE TEST", "Thin", "Entangled"],
-      answer: 3,
-      chapter: "acellularLifeQuestions"
-    },
-    {
       id: "testmoz-bio-21-enz",
       question: "The specificity of enzyme is due to their:",
       options: ["Surface configuration", "pH", "Hydrogen bonding", "High molecular weight"],
@@ -343,7 +336,7 @@ export type Question = {
     {
       id: "testmoz-bio-6",
       question: "The tidal volume of lungs it raised or during normal breath is",
-      options: ["4 liters", "5 liters", "6 liters", "2 liters"],
+      options: ["4 liters", "5 liters", "6 liters", "0.5 liters"],
       answer: 3,
       chapter: "gaseousExchangeQuestions"
     },
@@ -1458,7 +1451,7 @@ export type Question = {
         "1",
         "-1"
       ],
-      answer: 1,
+      answer: 3,
       explanation: "Perpendicular vectors have a dot product of zero: A · B = (2)(1) + (1)(1) + (3)(x) = 2 + 1 + 3x = 0 → 3x = -3 → x = -1.",
       chapter: "Vectors"
     },

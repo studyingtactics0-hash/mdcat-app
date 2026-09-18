@@ -88,8 +88,8 @@ export type Question = {
     {
       id: "testmoz-bio-36",
       question: "Amount of lipid in plasma membrane is about",
-      options: ["20-40%", "20-60%", "40-69%", "40-80%"],
-      answer: 1,
+      options: ["20-40%", "40-60%", "40-69%", "40-80%"],
+      answer: 0,
       chapter: "biologyQuestions"
     },
     {
@@ -1304,18 +1304,6 @@ export const physicsQuestions: Question[] = [
       answer: 0,
       explanation: "A vector lying purely along the x-axis has θ = 0°, making its perpendicular y-component (F sin 0°) equal to zero.",
       chapter: "Vectors"
-    },
-    {
-      id: "testmoz-phys-27",
-      question: "Why should a resistance be introduced in a circuit in series deliberately",
-      options: [
-        "To increase current",
-        "To control current",
-        "Decrease current",
-        "Just to give a good look to circuit"
-      ],
-      answer: 2,
-      chapter: "CurrentElectricity"
     },
     {
       id: "bumhs-2025-phys-130",

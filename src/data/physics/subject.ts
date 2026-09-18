@@ -1417,17 +1417,6 @@ export type Question = {
         answer: 0
       },
       {
-        id: "testmoz-phys-27",
-        question: "Why should a resistance be introduced in a circuit in series deliberately",
-        options: [
-          "To increase current",
-          "To control current",
-          "Decrease current",
-          "Just to give a good look to circuit"
-        ],
-        answer: 2
-      },
-      {
         id: "testmoz-phys-28",
         question: "Free electrons in an electric field move from",
         options: [
@@ -10676,7 +10665,7 @@ export type Question = {
         "1",
         "-1"
       ],
-      answer: 1,
+      answer: 3,
       explanation: "Perpendicular vectors have a dot product of zero: A · B = (2)(1) + (1)(1) + (3)(x) = 2 + 1 + 3x = 0 → 3x = -3 → x = -1."
     },
     {

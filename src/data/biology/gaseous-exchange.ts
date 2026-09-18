@@ -69,7 +69,7 @@ export type Question = {
         "4 liters",
         "5 liters",
         "6 liters",
-        "2 liters"
+        "0.5 liters"
       ],
       answer: 3
     },

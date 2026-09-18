@@ -1081,11 +1081,11 @@ export type Question = {
         question: "Amount of lipid in plasma membrane is about",
         options: [
           "20-40%",
-          "20-60%",
+          "40-60%",
           "40-69%",
           "40-80%"
         ],
-        answer: 1
+        answer: 0
       },
       {
         id: "testmoz-bio-37",

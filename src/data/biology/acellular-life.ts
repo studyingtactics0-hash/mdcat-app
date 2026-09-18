@@ -240,17 +240,6 @@ export const acellularLifeQuestions = [
     answer: 4,
   },
   {
-    question: "In Gram-negative bacteria, the peptidoglycan layer is:",
-    options: [
-      "Condensed",
-      "Thick",
-      "BASIC KNOWLEDGE TEST",
-      "Thin",
-      "Entangled",
-    ],
-    answer: 3,
-  },
-  {
     question:
       "Which of the following is an example of a sub-viral particle that infects plants?",
     options: ["Prion", "Viroid", "Bacteriophage", "Infectious protein"],

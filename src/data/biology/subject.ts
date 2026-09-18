@@ -244,17 +244,6 @@ export const biologyquestions = [
       answer: 4,
     },
     {
-      question: "In Gram-negative bacteria, the peptidoglycan layer is:",
-      options: [
-        "Condensed",
-        "Thick",
-        "BASIC KNOWLEDGE TEST",
-        "Thin",
-        "Entangled",
-      ],
-      answer: 3,
-    },
-    {
       question:
         "Which of the following is an example of a sub-viral particle that infects plants?",
       options: ["Prion", "Viroid", "Bacteriophage", "Infectious protein"],
@@ -3792,11 +3781,11 @@ export const biologyquestions = [
                     question: "Amount of lipid in plasma membrane is about",
                     options: [
                       "20-40%",
-                      "20-60%",
+                      "40-60%",
                       "40-69%",
                       "40-80%"
                     ],
-                    answer: 1
+                    answer: 0
                   },
                   {
                     id: "testmoz-bio-37",
@@ -6814,7 +6803,7 @@ export const biologyquestions = [
                     "4 liters",
                     "5 liters",
                     "6 liters",
-                    "2 liters"
+                    "0.5 liters"
                   ],
                   answer: 3
                 },

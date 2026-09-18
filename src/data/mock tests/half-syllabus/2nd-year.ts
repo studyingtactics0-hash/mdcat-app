@@ -985,7 +985,7 @@ export type Question = {
     {
       id: "testmoz-bio-gaseous-6",
       question: "The tidal volume of lungs it raised or during normal breath is",
-      options: ["4 liters", "5 liters", "6 liters", "2 liters"],
+      options: ["4 liters", "5 liters", "6 liters", "0.5 liters"],
       answer: 3,
     },
     {
@@ -12245,12 +12245,6 @@ export type Question = {
       question: "Potential difference is directly proportional to the current",
       options: ["Ohm’s law", "Gauss’s law", "Kirchhoff law", "None of the above mentioned"],
       answer: 0
-    },
-    {
-      id: "testmoz-phys-curr-27",
-      question: "Why should a resistance be introduced in a circuit in series deliberately",
-      options: ["To increase current", "To control current", "Decrease current", "Just to give a good look to circuit"],
-      answer: 2
     },
     {
       id: "testmoz-phys-curr-28",

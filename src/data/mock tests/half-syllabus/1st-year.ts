@@ -271,18 +271,6 @@ export type Question = {
           answer: 4,
         },
         {
-            id: "11",
-          question: "In Gram-negative bacteria, the peptidoglycan layer is:",
-          options: [
-            "Condensed",
-            "Thick",
-            "BASIC KNOWLEDGE TEST",
-            "Thin",
-            "Entangled",
-          ],
-          answer: 3,
-        },
-        {
             id: "10",
           question:
             "Which of the following is an example of a sub-viral particle that infects plants?",
@@ -4044,11 +4032,11 @@ export type Question = {
               question: "Amount of lipid in plasma membrane is about",
               options: [
                 "20-40%",
-                "20-60%",
+                "40-60%",
                 "40-69%",
                 "40-80%"
               ],
-              answer: 1
+              answer: 0
             },
             {
               id: "testmoz-bio-37",
@@ -6749,7 +6737,7 @@ export type Question = {
             "1",
             "-1"
           ],
-          answer: 1,
+          answer: 3,
           explanation: "Perpendicular vectors have a dot product of zero: A · B = (2)(1) + (1)(1) + (3)(x) = 2 + 1 + 3x = 0 → 3x = -3 → x = -1."
         },
         {

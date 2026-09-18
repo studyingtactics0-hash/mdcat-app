@@ -582,4 +582,16 @@ export type Question = {
       ],
       answer: 2,
     },
+    {
+      id: "testmoz-bio-53",
+      question: "In Gram-negative bacteria, the peptidoglycan layer is:",
+      options: [
+        "Condensed",
+        "Thick",
+        "BASIC KNOWLEDGE TEST",
+        "Thin",
+        "Entangled",
+      ],
+      answer: 3,
+    },
   ]
