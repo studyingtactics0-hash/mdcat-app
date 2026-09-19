@@ -1580,7 +1580,7 @@ export type MockQuestion = {
       id: "uhs25-q169",
       question:
         "The manager accepted the cashier’s __________ for coming late.",
-      options: ["explanation", "explanation", "explanation", "explanation"],
+      options: ["explannation", "explantation", "explaination", "explanation"],
       answer: 3,
     },
     {

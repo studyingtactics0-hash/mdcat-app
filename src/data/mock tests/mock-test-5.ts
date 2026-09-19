@@ -1677,17 +1677,6 @@ export const chemistryQuestions: Question[] = [
       answer: 1
     },
     {
-      id: "szabmu-2025-175",
-      question: "Every alphabet in the word “SURGEON” represent a fixed numerical value and the numbers when added, sum up to 99. Based on this, what will the sum of the word “FORGIVEN” be?",
-      options: [
-        "102",
-        "78",
-        "99",
-        "56"
-      ],
-      answer: 2
-    },
-    {
       id: "uhs-2025-174",
       question: "One apple pie has 10 slices, and each apple pie feeds five people. Henry is having a party with 200 people. How many slices of pie does he need?",
       options: [

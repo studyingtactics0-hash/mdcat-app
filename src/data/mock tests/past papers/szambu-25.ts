@@ -1598,13 +1598,6 @@ export type MockQuestion = {
       answer: 1,
     },
     {
-      id: "szambu25-q175",
-      question:
-        "Every alphabet in the word “SURGEON” represent a fixed numerical value and the numbers when added, sum up to 99. Based on this, what will the sum of the word “FORGIVEN” be?",
-      options: ["102", "78", "99", "56"],
-      answer: 2,
-    },
-    {
       id: "szambu25-q176",
       question:
         "What is the primary difference between hypothesis and a theory?",
