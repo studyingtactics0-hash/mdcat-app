@@ -75,7 +75,7 @@ export default function Header() {
             </button>
 
             {testsOpen && (
-              <div className="absolute right-[-40px] top-full pt-3">
+              <div className="absolute left-0 top-full pt-3">
                 <div className="w-[560px] bg-white text-[#0b1e39] rounded-2xl shadow-2xl border border-gray-200 p-6">
                   <div className="grid grid-cols-2 gap-6">
                     {/* SUBJECTS */}
@@ -229,69 +229,69 @@ export default function Header() {
           </div>
 
           {/* LECTURES DROPDOWN */}
-<div
-  className="relative"
-  onMouseEnter={() => setLecturesOpen(true)}
-  onMouseLeave={() => setLecturesOpen(false)}
->
-<button
-  type="button"
-  onClick={() => setLecturesOpen((prev) => !prev)}
-    className="flex items-center gap-1 font-semibold text-[#cdd6e6] hover:text-[#ff9800] transition"
-  >
-    Lectures
-    <span className="text-xs">▼</span>
-  </button>
-
-  {lecturesOpen && (
-    <div className="absolute right-[-30px] top-full pt-3 z-50">
-  <div className="w-[320px] max-w-[calc(100vw-24px)] bg-white text-[#0b1e39] rounded-2xl shadow-2xl border border-gray-200 p-5">
-        <h3 className="text-[#ff9800] font-black text-sm uppercase tracking-wide mb-3">
-          🎓 Choose Your Subject
-        </h3>
-
-        <div className="space-y-1">
-
-          <a
-            href="/lectures/Biology"
-            className="block px-3 py-3 rounded-lg hover:bg-[#fff3e0] font-semibold transition"
+          <div
+            className="relative"
+            onMouseEnter={() => setLecturesOpen(true)}
+            onMouseLeave={() => setLecturesOpen(false)}
           >
-            🧬 Biology
-          </a>
+            <button
+              type="button"
+              onClick={() => setLecturesOpen((prev) => !prev)}
+              className="flex items-center gap-1 font-semibold text-[#cdd6e6] hover:text-[#ff9800] transition"
+            >
+              Lectures
+              <span className="text-xs">▼</span>
+            </button>
 
-          <a
-            href="/lectures/Physics"
-            className="block px-3 py-3 rounded-lg hover:bg-[#fff3e0] font-semibold transition"
-          >
-            ⚡ Physics
-          </a>
+            {lecturesOpen && (
+              <div className="absolute right-[-30px] top-full pt-3 z-50">
+                <div className="w-[320px] max-w-[calc(100vw-24px)] bg-white text-[#0b1e39] rounded-2xl shadow-2xl border border-gray-200 p-5">
+                  <h3 className="text-[#ff9800] font-black text-sm uppercase tracking-wide mb-3">
+                    🎓 Choose Your Subject
+                  </h3>
 
-          <a
-            href="/lectures/Chemistry"
-            className="block px-3 py-3 rounded-lg hover:bg-[#fff3e0] font-semibold transition"
-          >
-            ⚗️ Chemistry
-          </a>
+                  <div className="space-y-1">
 
-          <a
-            href="/lectures/English"
-            className="block px-3 py-3 rounded-lg hover:bg-[#fff3e0] font-semibold transition"
-          >
-            📖 English
-          </a>
+                    <a
+                      href="/lectures/Biology"
+                      className="block px-3 py-3 rounded-lg hover:bg-[#fff3e0] font-semibold transition"
+                    >
+                      🧬 Biology
+                    </a>
 
-          <a
-            href="/lectures/Logical-Reasoning"
-            className="block px-3 py-3 rounded-lg hover:bg-[#fff3e0] font-semibold transition"
-          >
-            🧠 Logical Reasoning
-          </a>
+                    <a
+                      href="/lectures/Physics"
+                      className="block px-3 py-3 rounded-lg hover:bg-[#fff3e0] font-semibold transition"
+                    >
+                      ⚡ Physics
+                    </a>
 
-        </div>
-      </div>
-    </div>
-  )}
-</div>
+                    <a
+                      href="/lectures/Chemistry"
+                      className="block px-3 py-3 rounded-lg hover:bg-[#fff3e0] font-semibold transition"
+                    >
+                      ⚗️ Chemistry
+                    </a>
+
+                    <a
+                      href="/lectures/English"
+                      className="block px-3 py-3 rounded-lg hover:bg-[#fff3e0] font-semibold transition"
+                    >
+                      📖 English
+                    </a>
+
+                    <a
+                      href="/lectures/Logical-Reasoning"
+                      className="block px-3 py-3 rounded-lg hover:bg-[#fff3e0] font-semibold transition"
+                    >
+                      🧠 Logical Reasoning
+                    </a>
+
+                  </div>
+                </div>
+              </div>
+            )}
+          </div>
 
           <a
             href="/score-predictor"
@@ -308,14 +308,14 @@ export default function Header() {
           </a>
 
           <a
-  href="https://chat.whatsapp.com/Dpv8KqPnCps0Q9mRiflBzr"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-5 py-2 rounded-full shadow transition flex items-center gap-2"
->
-  <span>☎️</span>
-  WhatsApp Group
-</a>
+            href="https://chat.whatsapp.com/Dpv8KqPnCps0Q9mRiflBzr"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-5 py-2 rounded-full shadow transition flex items-center gap-2"
+          >
+            <span>☎️</span>
+            WhatsApp Group
+          </a>
 
           {user ? (
             <div className="flex items-center gap-3">
@@ -374,9 +374,8 @@ export default function Header() {
               >
                 <span>📝 Tests</span>
                 <span
-                  className={`transition-transform ${
-                    testsOpen ? "rotate-180" : ""
-                  }`}
+                  className={`transition-transform ${testsOpen ? "rotate-180" : ""
+                    }`}
                 >
                   ▼
                 </span>
@@ -545,64 +544,64 @@ export default function Header() {
             </div>
 
             {/* MOBILE LECTURES DROPDOWN */}
-<div className="rounded-xl overflow-hidden">
-  <button
-    type="button"
-    onClick={() => setLecturesOpen((prev) => !prev)}
-    className="w-full flex items-center justify-between bg-[#173355] px-4 py-3 rounded-xl font-semibold hover:bg-[#214466] transition"
-  >
-    <span>🎥 Lectures</span>
-    <span className="text-xs">
-      {lecturesOpen ? "▲" : "▼"}
-    </span>
-  </button>
+            <div className="rounded-xl overflow-hidden">
+              <button
+                type="button"
+                onClick={() => setLecturesOpen((prev) => !prev)}
+                className="w-full flex items-center justify-between bg-[#173355] px-4 py-3 rounded-xl font-semibold hover:bg-[#214466] transition"
+              >
+                <span>🎥 Lectures</span>
+                <span className="text-xs">
+                  {lecturesOpen ? "▲" : "▼"}
+                </span>
+              </button>
 
-  {lecturesOpen && (
-    <div className="mt-2 ml-2 space-y-1">
+              {lecturesOpen && (
+                <div className="mt-2 ml-2 space-y-1">
 
-      <a
-        href="/lectures/Biology"
-        onClick={() => setMenuOpen(false)}
-        className="block bg-[#214466] px-4 py-3 rounded-lg font-semibold hover:bg-[#2b5278] transition"
-      >
-        🧬 Biology
-      </a>
+                  <a
+                    href="/lectures/Biology"
+                    onClick={() => setMenuOpen(false)}
+                    className="block bg-[#214466] px-4 py-3 rounded-lg font-semibold hover:bg-[#2b5278] transition"
+                  >
+                    🧬 Biology
+                  </a>
 
-      <a
-        href="/lectures/Physics"
-        onClick={() => setMenuOpen(false)}
-        className="block bg-[#214466] px-4 py-3 rounded-lg font-semibold hover:bg-[#2b5278] transition"
-      >
-        ⚡ Physics
-      </a>
+                  <a
+                    href="/lectures/Physics"
+                    onClick={() => setMenuOpen(false)}
+                    className="block bg-[#214466] px-4 py-3 rounded-lg font-semibold hover:bg-[#2b5278] transition"
+                  >
+                    ⚡ Physics
+                  </a>
 
-      <a
-        href="/lectures/Chemistry"
-        onClick={() => setMenuOpen(false)}
-        className="block bg-[#214466] px-4 py-3 rounded-lg font-semibold hover:bg-[#2b5278] transition"
-      >
-        ⚗️ Chemistry
-      </a>
+                  <a
+                    href="/lectures/Chemistry"
+                    onClick={() => setMenuOpen(false)}
+                    className="block bg-[#214466] px-4 py-3 rounded-lg font-semibold hover:bg-[#2b5278] transition"
+                  >
+                    ⚗️ Chemistry
+                  </a>
 
-      <a
-        href="/lectures/English"
-        onClick={() => setMenuOpen(false)}
-        className="block bg-[#214466] px-4 py-3 rounded-lg font-semibold hover:bg-[#2b5278] transition"
-      >
-        📖 English
-      </a>
+                  <a
+                    href="/lectures/English"
+                    onClick={() => setMenuOpen(false)}
+                    className="block bg-[#214466] px-4 py-3 rounded-lg font-semibold hover:bg-[#2b5278] transition"
+                  >
+                    📖 English
+                  </a>
 
-      <a
-        href="/lectures/Logical-Reasoning"
-        onClick={() => setMenuOpen(false)}
-        className="block bg-[#214466] px-4 py-3 rounded-lg font-semibold hover:bg-[#2b5278] transition"
-      >
-        🧠 Logical Reasoning
-      </a>
+                  <a
+                    href="/lectures/Logical-Reasoning"
+                    onClick={() => setMenuOpen(false)}
+                    className="block bg-[#214466] px-4 py-3 rounded-lg font-semibold hover:bg-[#2b5278] transition"
+                  >
+                    🧠 Logical Reasoning
+                  </a>
 
-    </div>
-  )}
-</div>
+                </div>
+              )}
+            </div>
 
             {/* OTHER MOBILE NAV ITEMS */}
             <a
@@ -622,14 +621,14 @@ export default function Header() {
             </a>
 
             <a
-  href="https://chat.whatsapp.com/Dpv8KqPnCps0Q9mRiflBzr"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-5 py-2 rounded-full shadow transition flex items-center gap-2"
->
-  <span>💬</span>
-  WhatsApp Group
-</a>
+              href="https://chat.whatsapp.com/Dpv8KqPnCps0Q9mRiflBzr"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-5 py-2 rounded-full shadow transition flex items-center gap-2"
+            >
+              <span>💬</span>
+              WhatsApp Group
+            </a>
 
             {user ? (
               <div className="space-y-2 pt-2">
