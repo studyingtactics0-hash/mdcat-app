@@ -548,11 +548,10 @@ export default function Home() {
 
             <button
               onClick={() => {
-                document
-                  .getElementById("subject-analytics")
-                  ?.scrollIntoView({
-                    behavior: "smooth",
-                  });
+                const element = document.getElementById("subject-analytics");
+                if (element) {
+                  element.scrollIntoView({ behavior: "auto", block: "start" });
+                }
               }}
               className="bg-white rounded-2xl shadow-lg p-7 border-t-4 border-[#0b1e39] hover:border-[#ff9800] hover:shadow-xl transition-all flex flex-col items-center text-center w-full cursor-pointer"
             >
@@ -1108,12 +1107,18 @@ export default function Home() {
             </li>
 
             <li>
-              <a
-                href="#score-predictor"
-                className="hover:text-[#ff9800] transition"
-              >
-                Score Predictor
-              </a>
+            <a
+  href="#score-predictor"
+  onClick={(e) => {
+    e.preventDefault();
+    document.getElementById("score-predictor")?.scrollIntoView({
+      behavior: "auto",
+      block: "start",
+    });
+  }}
+>
+  Score Predictor
+</a>
             </li>
 
             <li>

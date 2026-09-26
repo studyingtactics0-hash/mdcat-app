@@ -294,7 +294,7 @@ export default function Header() {
           </div>
 
           <a
-            href="/score-predictor"
+            href="/#score-predictor"
             className="font-semibold text-[#cdd6e6] hover:text-[#ff9800] transition"
           >
             Score Predictor
@@ -605,7 +605,7 @@ export default function Header() {
 
             {/* OTHER MOBILE NAV ITEMS */}
             <a
-              href="/score-predictor"
+              href="/#score-predictor"
               onClick={() => setMenuOpen(false)}
               className="block bg-[#173355] px-4 py-3 rounded-xl font-semibold hover:bg-[#214466] transition"
             >
