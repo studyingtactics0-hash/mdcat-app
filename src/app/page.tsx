@@ -282,6 +282,8 @@ export default function Home() {
       if (user) {
         getStatistics(user.id);
       } else {
+        router.push("/login");
+      
         setStats({
           testsAttempted: 0,
           averageScore: 0,
