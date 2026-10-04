@@ -89,12 +89,6 @@ return (
   
         {/* HEADER */}
         <div className="mb-10">
-          <button
-            onClick={() => router.push("/")}
-            className="mb-5 font-semibold text-[#ff9800] hover:text-[#e38000]"
-          >
-            ← Back to Home
-          </button>
   
           <h1 className="text-3xl font-black text-white md:text-4xl">
             NUMS Past Papers

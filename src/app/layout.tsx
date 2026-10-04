@@ -56,8 +56,10 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col">
   <Header />
-  <BackButton />
-  {children}
+  <div className="pt-[72px]">
+    <BackButton />
+    {children}
+  </div>
 </body>
     </html>
   );

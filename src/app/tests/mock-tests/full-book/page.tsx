@@ -49,13 +49,6 @@ export default function MockTestsPage() {
 
         {/* HEADER */}
         <div className="mb-10">
-          <button
-            onClick={() => router.push("/")}
-            className="text-[#ff9800] hover:text-[#e38000] font-semibold mb-5"
-          >
-            ← Back to Home
-          </button>
-
           <h1 className="text-3xl md:text-4xl font-black text-white">
             Mock Tests
           </h1>

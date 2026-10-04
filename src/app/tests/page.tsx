@@ -3,24 +3,6 @@
 export default function TestsPage() {
   return (
     <main className="min-h-screen bg-[#0b1e39] text-white">
-      {/* HEADER */}
-      <header className="border-b border-[#172d4f]">
-        <div className="container mx-auto px-4 py-5 flex items-center justify-between">
-          <a
-            href="/"
-            className="text-2xl font-black tracking-tight"
-          >
-            STUDYING <span className="text-[#ff9800]">TACTICS</span>
-          </a>
-
-          <a
-            href="/"
-            className="text-sm font-semibold text-[#cdd6e6] hover:text-[#ff9800]"
-          >
-            ← Back to Home
-          </a>
-        </div>
-      </header>
 
       {/* PAGE TITLE */}
       <section className="container mx-auto px-4 py-12">

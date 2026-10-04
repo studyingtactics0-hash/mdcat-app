@@ -1,16 +1,25 @@
 "use client";
 
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 
 export default function BackButton() {
   const router = useRouter();
+  const pathname = usePathname();
+
+  // Don't show on Home or Login
+  if (pathname === "/" || pathname === "/login") {
+    return null;
+  }
 
   return (
-    <button
-      onClick={() => router.back()}
-      className="flex items-center gap-2 text-sm font-medium text-gray-600 hover:text-black transition"
-    >
-      ← Back
-    </button>
+    <div className="bg-[#0b1e39] px-4 py-3">
+      <button
+        onClick={() => router.back()}
+        className="flex items-center gap-2 rounded-lg bg-white/15 px-4 py-2.5 text-base font-semibold text-white transition hover:bg-white/25 active:scale-95"
+      >
+        <span className="text-xl leading-none">←</span>
+        <span>Back</span>
+      </button>
+    </div>
   );
 }

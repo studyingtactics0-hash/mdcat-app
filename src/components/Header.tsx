@@ -51,7 +51,7 @@ export default function Header() {
   }
 
   return (
-    <header className="bg-[#0b1e39] border-b border-[#172d4f] text-white relative z-50">
+    <header className="bg-[#0b1e39] border-b border-[#172d4f] text-white fixed top-0 left-0 right-0 z-50">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         {/* LOGO */}
         <a href="/" className="text-2xl font-black tracking-tight">
