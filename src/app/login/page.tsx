@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-
 import { createClient } from "@/lib/supabase/client";
 
 export default function LoginPage() {
@@ -9,12 +8,13 @@ export default function LoginPage() {
 
   const [fullName, setFullName] = useState("");
   const [whatsapp, setWhatsapp] = useState("");
+  const [referralSource, setReferralSource] = useState("");
+  const [referredBy, setReferredBy] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [isSignup, setIsSignup] = useState(false);
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState("");
-
   const [redirectTo, setRedirectTo] = useState("/");
 
   useEffect(() => {
@@ -40,11 +40,11 @@ export default function LoginPage() {
       )
     );
 
-    // Get the page the student originally tried to visit
+    // Get the page the student originally tried to visit.
     const params = new URLSearchParams(window.location.search);
     const next = params.get("next");
 
-    // Only allow internal redirects
+    // Only allow internal redirects.
     if (next && next.startsWith("/") && !next.startsWith("//")) {
       setRedirectTo(next);
     }
@@ -56,60 +56,66 @@ export default function LoginPage() {
     setLoading(true);
     setMessage("");
 
-    if (isSignup) {
-      const { data, error } = await supabase.auth.signUp({
-        email,
-        password,
-        options: {
-          data: {
-            full_name: fullName,
-            whatsapp: whatsapp,
+    try {
+      if (isSignup) {
+        const { data, error } = await supabase.auth.signUp({
+          email,
+          password,
+          options: {
+            data: {
+              full_name: fullName,
+              whatsapp: whatsapp,
+              referral_source: referralSource,
+              referred_by:
+                referralSource === "friend_student"
+                  ? referredBy.trim() || null
+                  : null,
+            },
           },
-        },
-      });
+        });
 
-      console.log("SIGNUP DATA:", data);
-      console.log("SIGNUP ERROR:", error);
+        console.log("SIGNUP DATA:", data);
+        console.log("SIGNUP ERROR:", error);
 
-      if (error) {
-        setMessage(`Signup error: ${error.message}`);
+        if (error) {
+          setMessage(`Signup error: ${error.message}`);
+        } else {
+          setMessage(
+            "Account created successfully. Please check your email if confirmation is required."
+          );
+        }
       } else {
-        setMessage(
-          "Account created successfully. Please check your email if confirmation is required."
-        );
-      }
-    } else {
-      const { error } = await supabase.auth.signInWithPassword({
-        email,
-        password,
-      });
+        const { error } = await supabase.auth.signInWithPassword({
+          email,
+          password,
+        });
 
-      if (error) {
-        setMessage(error.message);
-      } else {
-        // Return the student to the page they originally wanted
-        window.location.href = redirectTo;
+        if (error) {
+          setMessage(error.message);
+        } else {
+          // Return the student to the page they originally wanted.
+          window.location.href = redirectTo;
+        }
       }
+    } catch (error) {
+      console.error("Authentication error:", error);
+      setMessage("Something went wrong. Please try again.");
+    } finally {
+      setLoading(false);
     }
-
-    setLoading(false);
   }
 
   return (
     <main className="min-h-screen bg-[#f5f7fb] flex items-center justify-center px-4 py-8">
       <div className="w-full max-w-5xl overflow-hidden rounded-3xl bg-white shadow-2xl border border-gray-100">
         <div className="grid md:grid-cols-2">
-
           {/* LEFT BRANDING SECTION */}
           <div className="hidden md:flex relative overflow-hidden bg-[#0b1e39] p-10 text-white flex-col justify-between">
-
             {/* Decorative circles */}
             <div className="absolute -top-20 -right-20 h-56 w-56 rounded-full bg-[#f58220] opacity-20" />
-
             <div className="absolute -bottom-24 -left-24 h-64 w-64 rounded-full bg-[#f58220] opacity-10" />
 
             <div className="relative z-10">
-
               {/* ST Logo */}
               <div className="mb-10">
                 <img
@@ -122,7 +128,6 @@ export default function LoginPage() {
               <h2 className="text-4xl font-extrabold leading-tight">
                 Prepare smarter.
                 <br />
-
                 <span className="text-[#f58220]">
                   Perform better.
                 </span>
@@ -136,7 +141,6 @@ export default function LoginPage() {
 
             <div className="relative z-10 mt-10">
               <div className="rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur-sm">
-
                 <p className="text-sm font-semibold text-[#f58220]">
                   STUDYING TACTICS
                 </p>
@@ -145,14 +149,12 @@ export default function LoginPage() {
                   Stay consistent. Practice regularly. Track your
                   progress.
                 </p>
-
               </div>
             </div>
           </div>
 
           {/* RIGHT LOGIN / SIGNUP SECTION */}
           <div className="p-7 sm:p-10 md:p-12">
-
             {/* Mobile Logo */}
             <div className="mb-8 flex justify-center md:hidden">
               <img
@@ -164,15 +166,12 @@ export default function LoginPage() {
 
             {/* Heading */}
             <div className="mb-8">
-
               <p className="mb-2 text-sm font-bold uppercase tracking-wider text-[#f58220]">
                 Student Portal
               </p>
 
               <h1 className="text-3xl font-extrabold text-[#0b1e39] sm:text-4xl">
-                {isSignup
-                  ? "Create your account"
-                  : "Welcome back"}
+                {isSignup ? "Create your account" : "Welcome back"}
               </h1>
 
               <p className="mt-3 text-sm leading-6 text-gray-500">
@@ -180,112 +179,180 @@ export default function LoginPage() {
                   ? "Create your MDCAT student account and start preparing."
                   : "Login to continue your MDCAT preparation."}
               </p>
-
             </div>
 
             {/* FORM */}
-            <form
-              onSubmit={handleSubmit}
-              className="space-y-5"
-            >
-
+            <form onSubmit={handleSubmit} className="space-y-5">
               {/* FULL NAME */}
               {isSignup && (
                 <div>
-
-                  <label className="mb-2 block text-sm font-semibold text-[#0b1e39]">
+                  <label
+                    htmlFor="fullName"
+                    className="mb-2 block text-sm font-semibold text-[#0b1e39]"
+                  >
                     Full Name
                   </label>
 
                   <input
+                    id="fullName"
                     type="text"
                     required
                     value={fullName}
-                    onChange={(e) =>
-                      setFullName(e.target.value)
-                    }
+                    onChange={(e) => setFullName(e.target.value)}
                     placeholder="Enter your full name"
+                    autoComplete="name"
                     className="w-full rounded-xl border border-gray-200 bg-gray-50 px-4 py-3.5 text-[#0b1e39] placeholder:text-gray-400 focus:border-[#f58220] focus:bg-white focus:ring-2 focus:ring-[#f58220]/20"
                   />
-
                 </div>
               )}
 
               {/* WHATSAPP NUMBER */}
               {isSignup && (
                 <div>
-
-                  <label className="mb-2 block text-sm font-semibold text-[#0b1e39]">
+                  <label
+                    htmlFor="whatsapp"
+                    className="mb-2 block text-sm font-semibold text-[#0b1e39]"
+                  >
                     WhatsApp Number
                   </label>
 
                   <input
+                    id="whatsapp"
                     type="tel"
                     required
                     value={whatsapp}
-                    onChange={(e) =>
-                      setWhatsapp(e.target.value)
-                    }
+                    onChange={(e) => setWhatsapp(e.target.value)}
                     placeholder="e.g. 03001234567"
+                    autoComplete="tel"
                     className="w-full rounded-xl border border-gray-200 bg-gray-50 px-4 py-3.5 text-[#0b1e39] placeholder:text-gray-400 focus:border-[#f58220] focus:bg-white focus:ring-2 focus:ring-[#f58220]/20"
                   />
 
                   <p className="mt-2 text-xs text-gray-400">
                     Enter the WhatsApp number you regularly use.
                   </p>
+                </div>
+              )}
 
+              {/* REFERRAL SOURCE */}
+              {isSignup && (
+                <div>
+                  <label
+                    htmlFor="referralSource"
+                    className="mb-2 block text-sm font-semibold text-[#0b1e39]"
+                  >
+                    How did you hear about Studying Tactics?
+                  </label>
+
+                  <select
+                    id="referralSource"
+                    required
+                    value={referralSource}
+                    onChange={(e) => {
+                      setReferralSource(e.target.value);
+
+                      if (e.target.value !== "friend_student") {
+                        setReferredBy("");
+                      }
+                    }}
+                    className="w-full rounded-xl border border-gray-200 bg-gray-50 px-4 py-3.5 text-[#0b1e39] focus:border-[#f58220] focus:bg-white focus:ring-2 focus:ring-[#f58220]/20"
+                  >
+                    <option value="">Select an option</option>
+                    <option value="friend_student">
+                      Referred by a friend/student
+                    </option>
+                    <option value="facebook">Facebook</option>
+                    <option value="youtube">YouTube</option>
+                    <option value="instagram">Instagram</option>
+                    <option value="whatsapp_group">WhatsApp group</option>
+                    <option value="google">Google / Search</option>
+                    <option value="teacher_academy">
+                      Teacher / Academy
+                    </option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+              )}
+
+              {/* REFERRER NAME OR CODE */}
+              {isSignup && referralSource === "friend_student" && (
+                <div>
+                  <label
+                    htmlFor="referredBy"
+                    className="mb-2 block text-sm font-semibold text-[#0b1e39]"
+                  >
+                    Who referred you? (Optional)
+                  </label>
+
+                  <input
+                    id="referredBy"
+                    type="text"
+                    value={referredBy}
+                    onChange={(e) => setReferredBy(e.target.value)}
+                    placeholder="Enter their name or referral code"
+                    className="w-full rounded-xl border border-gray-200 bg-gray-50 px-4 py-3.5 text-[#0b1e39] placeholder:text-gray-400 focus:border-[#f58220] focus:bg-white focus:ring-2 focus:ring-[#f58220]/20"
+                  />
+
+                  <p className="mt-2 text-xs text-gray-400">
+                    If someone recommended Studying Tactics, enter
+                    their name or code.
+                  </p>
                 </div>
               )}
 
               {/* EMAIL */}
               <div>
-
-                <label className="mb-2 block text-sm font-semibold text-[#0b1e39]">
+                <label
+                  htmlFor="email"
+                  className="mb-2 block text-sm font-semibold text-[#0b1e39]"
+                >
                   Email Address
                 </label>
 
                 <input
+                  id="email"
                   type="email"
                   required
                   value={email}
-                  onChange={(e) =>
-                    setEmail(e.target.value)
-                  }
+                  onChange={(e) => setEmail(e.target.value)}
                   placeholder="Enter your email"
+                  autoComplete="email"
                   className="w-full rounded-xl border border-gray-200 bg-gray-50 px-4 py-3.5 text-[#0b1e39] placeholder:text-gray-400 focus:border-[#f58220] focus:bg-white focus:ring-2 focus:ring-[#f58220]/20"
                 />
-
               </div>
 
               {/* PASSWORD */}
               <div>
-
-                <label className="mb-2 block text-sm font-semibold text-[#0b1e39]">
+                <label
+                  htmlFor="password"
+                  className="mb-2 block text-sm font-semibold text-[#0b1e39]"
+                >
                   Password
                 </label>
 
                 <input
+                  id="password"
                   type="password"
                   required
                   minLength={6}
                   value={password}
-                  onChange={(e) =>
-                    setPassword(e.target.value)
-                  }
+                  onChange={(e) => setPassword(e.target.value)}
                   placeholder="Enter your password"
+                  autoComplete={
+                    isSignup ? "new-password" : "current-password"
+                  }
                   className="w-full rounded-xl border border-gray-200 bg-gray-50 px-4 py-3.5 text-[#0b1e39] placeholder:text-gray-400 focus:border-[#f58220] focus:bg-white focus:ring-2 focus:ring-[#f58220]/20"
                 />
-
               </div>
 
               {/* MESSAGE */}
               {message && (
-                <div className="rounded-xl border border-gray-200 bg-gray-50 px-4 py-3">
-
+                <div
+                  role="status"
+                  className="rounded-xl border border-gray-200 bg-gray-50 px-4 py-3"
+                >
                   <p className="text-sm leading-5 text-gray-600">
                     {message}
                   </p>
-
                 </div>
               )}
 
@@ -301,12 +368,10 @@ export default function LoginPage() {
                     ? "Create Account"
                     : "Login"}
               </button>
-
             </form>
 
             {/* DIVIDER */}
             <div className="my-7 flex items-center gap-3">
-
               <div className="h-px flex-1 bg-gray-200" />
 
               <span className="text-xs font-medium text-gray-400">
@@ -314,12 +379,10 @@ export default function LoginPage() {
               </span>
 
               <div className="h-px flex-1 bg-gray-200" />
-
             </div>
 
             {/* TOGGLE */}
             <div className="text-center">
-
               <p className="text-sm text-gray-500">
                 {isSignup
                   ? "Already have an account?"
@@ -331,6 +394,8 @@ export default function LoginPage() {
                 onClick={() => {
                   setIsSignup(!isSignup);
                   setMessage("");
+                  setReferralSource("");
+                  setReferredBy("");
                 }}
                 className="mt-2 text-sm font-bold text-[#f58220] transition hover:text-[#d9680d] hover:underline"
               >
@@ -338,14 +403,12 @@ export default function LoginPage() {
                   ? "Login to your account"
                   : "Create a student account"}
               </button>
-
             </div>
 
             {/* FOOTER */}
             <p className="mt-10 text-center text-xs text-gray-400">
               © {new Date().getFullYear()} STUDYING TACTICS
             </p>
-
           </div>
         </div>
       </div>

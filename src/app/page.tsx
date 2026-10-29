@@ -408,121 +408,26 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Hero Right */}
+          
+{/* Hero Right */}
+<div className="flex-1 flex items-center justify-center mb-6 md:mb-0 w-full">
+  <div className="relative w-full max-w-[680px]">
+    <div
+      className="pointer-events-none absolute -inset-4 rounded-3xl bg-[#ff9800]/10 blur-3xl"
+      aria-hidden="true"
+    />
 
-          <div className="flex-1 flex items-center justify-center mb-6 md:mb-0">
+    <img
+      src="/images/hero-student.jpg"
+      alt="Student preparing for MDCAT with Studying Tactics"
+      className="relative z-10 block h-auto w-full object-contain"
+    />
+  </div>
+</div>
+</section>
 
-            <div className="w-[260px] md:w-[320px]">
+{/* FEATURES */}
 
-              <svg
-                viewBox="0 0 320 250"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
-              >
-
-                <rect
-                  x="15"
-                  y="35"
-                  width="290"
-                  height="180"
-                  rx="30"
-                  fill="#fff"
-                  stroke="#10213c"
-                  strokeWidth="4"
-                  className="drop-shadow-lg"
-                />
-
-                <rect
-                  x="40"
-                  y="60"
-                  width="240"
-                  height="40"
-                  rx="12"
-                  fill="#e9ecef"
-                />
-
-                <rect
-                  x="40"
-                  y="120"
-                  width="62"
-                  height="16"
-                  rx="8"
-                  fill="#ff9800"
-                  opacity="0.7"
-                />
-
-                <rect
-                  x="112"
-                  y="120"
-                  width="168"
-                  height="16"
-                  rx="8"
-                  fill="#e9ecef"
-                  opacity="0.8"
-                />
-
-                <rect
-                  x="40"
-                  y="154"
-                  width="80"
-                  height="16"
-                  rx="8"
-                  fill="#e9ecef"
-                  opacity="0.8"
-                />
-
-                <rect
-                  x="132"
-                  y="154"
-                  width="148"
-                  height="16"
-                  rx="8"
-                  fill="#e9ecef"
-                  opacity="0.7"
-                />
-
-                <circle
-                  cx="260"
-                  cy="110"
-                  r="16"
-                  stroke="#ff9800"
-                  strokeWidth="3"
-                  fill="white"
-                />
-
-                <path
-                  d="M260 126c0 30-50 42-62 0"
-                  stroke="#ff9800"
-                  strokeWidth="4"
-                  fill="none"
-                  strokeLinecap="round"
-                />
-
-                <rect
-                  x="245"
-                  y="105"
-                  width="6"
-                  height="6"
-                  rx="2"
-                  fill="#ff9800"
-                />
-
-                <rect
-                  x="269"
-                  y="105"
-                  width="6"
-                  height="6"
-                  rx="2"
-                  fill="#ff9800"
-                />
-
-              </svg>
-            </div>
-          </div>
-        </section>
-
-        {/* FEATURES */}
 
         <section
           id="features"
