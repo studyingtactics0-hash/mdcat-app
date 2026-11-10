@@ -4,25 +4,29 @@
 import { useEffect, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
+import { createClient } from "@/lib/supabase/client";
 
 export default function DailyQuestionPopup() {
   const pathname = usePathname();
   const checked = useRef(false);
+
   const [popupOpen, setPopupOpen] = useState(false);
   const [subject, setSubject] = useState("");
 
   useEffect(() => {
-    if (checked.current || pathname === "/question-of-the-day") {
-      return;
-    }
+    const supabase = createClient();
+    let active = true;
 
     async function checkDailyQuestion() {
+      if (checked.current || pathname === "/question-of-the-day") {
+        return;
+      }
+
       try {
         const response = await fetch("/api/daily-question", {
           cache: "no-store",
         });
 
-        // Student may not be logged in yet.
         if (response.status === 401) return;
 
         if (!response.ok) {
@@ -30,6 +34,8 @@ export default function DailyQuestionPopup() {
         }
 
         const data = await response.json();
+
+        if (!active) return;
 
         checked.current = true;
 
@@ -42,7 +48,29 @@ export default function DailyQuestionPopup() {
       }
     }
 
-    checkDailyQuestion();
+    const {
+      data: { subscription },
+    } = supabase.auth.onAuthStateChange((event, session) => {
+      if (event === "SIGNED_OUT") {
+        checked.current = false;
+        setPopupOpen(false);
+        return;
+      }
+
+      if (session?.user) {
+        // Defer the API request until the auth callback finishes.
+        window.setTimeout(() => {
+          if (active) {
+            checkDailyQuestion();
+          }
+        }, 0);
+      }
+    });
+
+    return () => {
+      active = false;
+      subscription.unsubscribe();
+    };
   }, [pathname]);
 
   if (!popupOpen) return null;
