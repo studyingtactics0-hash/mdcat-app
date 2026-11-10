@@ -4,6 +4,7 @@ import "./globals.css";
 import BackButton from "@/components/BackButton";
 import AndroidBackButton from "@/components/AndroidBackButton";
 import Header from "@/components/Header";
+import DailyQuestionPopup from "@/components/DailyQuestionPopup";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -55,12 +56,15 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <AndroidBackButton />
-        <Header />
-        <div className="pt-[72px]">
-          <BackButton />
-          {children}
-        </div>
+      <AndroidBackButton />
+<Header />
+
+<DailyQuestionPopup />
+
+<div className="pt-[72px]">
+  <BackButton />
+  {children}
+</div>
       </body>
     </html>
   );
