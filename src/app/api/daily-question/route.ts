@@ -126,11 +126,17 @@ export async function POST(request: Request) {
     const isCorrect =
       selectedAnswer === dailyQuestion.correct_answer;
 
+      const studentName =
+      user.user_metadata?.full_name ||
+      user.user_metadata?.name ||
+      null;
+    
     const { error: insertError } = await admin
       .from("daily_question_attempts")
       .insert({
         daily_question_id: dailyQuestion.id,
         user_id: user.id,
+        student_name: studentName,
         selected_answer: selectedAnswer,
         is_correct: isCorrect,
       });
