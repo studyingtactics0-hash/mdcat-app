@@ -15,6 +15,7 @@ export default function LoginPage() {
   const [isSignup, setIsSignup] = useState(false);
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState("");
+  const [showSignupPopup, setShowSignupPopup] = useState(false);
   const [redirectTo, setRedirectTo] = useState("/");
 
   useEffect(() => {
@@ -80,9 +81,7 @@ export default function LoginPage() {
         if (error) {
           setMessage(`Signup error: ${error.message}`);
         } else {
-          setMessage(
-            "Account created successfully. Please check your email if confirmation is required."
-          );
+          setShowSignupPopup(true);
         }
       } else {
         const { error } = await supabase.auth.signInWithPassword({
@@ -343,6 +342,16 @@ export default function LoginPage() {
                   className="w-full rounded-xl border border-gray-200 bg-gray-50 px-4 py-3.5 text-[#0b1e39] placeholder:text-gray-400 focus:border-[#f58220] focus:bg-white focus:ring-2 focus:ring-[#f58220]/20"
                 />
               </div>
+              {!isSignup && (
+  <div className="text-right -mt-3">
+    <a
+      href="/forgot-password"
+      className="text-sm font-semibold text-[#f58220] hover:underline"
+    >
+      Forgot Password?
+    </a>
+  </div>
+)}
 
               {/* MESSAGE */}
               {message && (
@@ -369,6 +378,33 @@ export default function LoginPage() {
                     : "Login"}
               </button>
             </form>
+            {showSignupPopup && (
+  <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 px-4">
+    <div className="w-full max-w-sm rounded-2xl bg-white p-7 text-center shadow-2xl">
+
+      <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-green-100">
+        <span className="text-3xl text-green-600">✓</span>
+      </div>
+
+      <h2 className="text-2xl font-extrabold text-[#0b1e39]">
+        Account Created!
+      </h2>
+
+      <p className="mt-3 text-sm leading-6 text-gray-600">
+        Account created successfully. Please check your email if confirmation is required.
+      </p>
+
+      <button
+        type="button"
+        onClick={() => setShowSignupPopup(false)}
+        className="mt-6 w-full rounded-xl bg-[#0b1e39] px-4 py-3 font-bold text-white hover:bg-[#10294d]"
+      >
+        OK
+      </button>
+
+    </div>
+  </div>
+)}
 
             {/* DIVIDER */}
             <div className="my-7 flex items-center gap-3">
