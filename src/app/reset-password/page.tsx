@@ -12,19 +12,14 @@ export default function ResetPasswordPage() {
   useEffect(() => {
     async function verifyRecoverySession() {
       const params = new URLSearchParams(window.location.search);
-      const code = params.get("code");
+      const recoveryError = params.get("error");
   
-      if (code) {
-        const { error } = await supabase.auth.exchangeCodeForSession(code);
-  
-        if (error) {
-          console.error("Recovery session error:", error);
-          setMessage(
-            "Your reset link is invalid or expired. Please request a new one."
-          );
-          setSessionReady(false);
-          return;
-        }
+      if (recoveryError) {
+        setMessage(
+          "Your reset link is invalid or expired. Please request a new one."
+        );
+        setSessionReady(false);
+        return;
       }
   
       const { data, error } = await supabase.auth.getSession();
@@ -41,7 +36,7 @@ export default function ResetPasswordPage() {
     }
   
     verifyRecoverySession();
-  }, []);
+  }, [supabase]);
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const [loading, setLoading] = useState(false);
