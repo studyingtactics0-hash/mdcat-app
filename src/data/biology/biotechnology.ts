@@ -174,4 +174,15 @@ export type Question = {
       options: ["rapid growth", "rapid aging", "identical offspring", "absence of mitosis"],
       answer: 1,
     },
+    {
+      id: "uhs-26-bio-033",
+      question: "This enzyme is used to synthesize cDNA from RNA:",
+      options: [
+        "Restriction Endonuclease",
+        "Reverse Transcriptase",
+        "Ligase",
+        "Helicase",
+      ],
+      answer: 1,
+    },
   ];

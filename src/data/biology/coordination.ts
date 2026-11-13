@@ -1287,5 +1287,137 @@ export type Question = {
           "Pressure receptors"
         ],
         answer: 1
-      }
+      },
+      {
+        id: "uhs-26-bio-003",
+        question: "Pacinian corpuscles are present in the:",
+        options: [
+          "Retina",
+          "Lungs",
+          "Liver",
+          "Skin",
+        ],
+        answer: 3,
+      },
+      {
+        id: "uhs-26-bio-004",
+        question: "The receptors for hearing and equilibrium are the example of:",
+        options: [
+          "Mechanoreceptors",
+          "Thermoreceptors",
+          "Nociceptors",
+          "Photoreceptors",
+        ],
+        answer: 0,
+      },
+      {
+        id: "uhs-26-bio-005",
+        question: "Receptors that detect smell of food are:",
+        options: [
+          "Chemoreceptors",
+          "Mechanoreceptors",
+          "Nociceptors",
+          "Photoreceptors",
+        ],
+        answer: 0,
+      },
+      {
+        id: "uhs-26-bio-015",
+        question: "What unique characteristic is typically found in sensory neurons of spinal nerves?",
+        options: [
+          "A single axon",
+          "A single dendron",
+          "Multiple dendrites",
+          "Multiple nodes of Ranvier",
+        ],
+        answer: 1,
+      },
+      {
+        id: "uhs-26-bio-016",
+        question: "In which part of the neuron, Nissl’s granules are present?",
+        options: [
+          "Axoplasm",
+          "Myelin sheath",
+          "Dendrite",
+          "Soma (Cell body)",
+        ],
+        answer: 3,
+      },
+      {
+        id: "uhs-26-bio-017",
+        question: "Functions of cerebellum include:",
+        options: [
+          "To act as relay station",
+          "Conversion of short-term memories into long term memories",
+          "To guide smooth and accurate motions and maintain body position",
+          "To act as link between nervous and chemical coordination",
+        ],
+        answer: 2,
+      },
+      {
+        id: "uhs-26-bio-025",
+        question: "Which of the following neurotransmitters works outside the brain?",
+        options: [
+          "Dopamine",
+          "Serotonin",
+          "Acetylcholine",
+          "Melatonin",
+        ],
+        answer: 2,
+      },
+      {
+        id: "uhs-26-bio-035",
+        question: "In unstimulated stage, a neuron has a membrane potential of:",
+        options: [
+          "-50mV",
+          "+50mV",
+          "-70mV",
+          "+70mV",
+        ],
+        answer: 2,
+      },
+      {
+        id: "uhs-26-bio-037",
+        question: "Points on the axon where myelin sheath is not present is called:",
+        options: [
+          "Nodes of Ranvier",
+          "Schwann cells",
+          "Neuroglia",
+          "Dendron",
+        ],
+        answer: 0,
+      },
+      {
+        id: "uhs-26-bio-047",
+        question: "Nerve impulses are transmitted in reflex action in the following direction:",
+        options: [
+          "From CNS to Effectors and from CNS to the Receptors.",
+          "From Effectors to CNS and from CNS to the Receptors.",
+          "From Receptors to the CNS and from CNS to the Effectors.",
+          "From CNS to Receptors and from Effectors to CNS.",
+        ],
+        answer: 2,
+      },
+      {
+        id: "uhs-26-bio-049",
+        question: "Structurally ganglia are clusters of:",
+        options: [
+          "Complete neurons",
+          "Cell bodies of neurons",
+          "Axonal fibers",
+          "Both axon & dendrites",
+        ],
+        answer: 1,
+      },
+      {
+        id: "uhs-26-bio-073",
+        question: "Which part of the brain controls heart rate and breathing?",
+        options: [
+          "Cerebellum",
+          "Hypothalamus",
+          "Medulla oblongata",
+          "Cerebrum",
+        ],
+        answer: 2,
+      },
   ];

@@ -902,5 +902,35 @@ export const acellularLifeQuestions = [
         "none"
       ],
       answer: 1
-    }
+    },
+    {
+        question: "HIV stands for:",
+        options: [
+          "Human Immunodeficiency Virus",
+          "Human Internal Virus",
+          "High Impact Virus",
+          "Human Immunogenic Vaccine",
+        ],
+        answer: 0,
+      },
+      {
+        question: "__________ is a repeated protein unit that makes the viral protein coat.",
+        options: [
+          "Nucleic acid",
+          "Capsomere",
+          "Core",
+          "Envelope",
+        ],
+        answer: 1,
+      },
+      {
+        question: "Viruses are classified on the basis of:",
+        options: [
+          "Color and size only",
+          "Structure and nucleic acid",
+          "Habitat only",
+          "Temperature tolerance",
+        ],
+        answer: 1,
+      },
 ];

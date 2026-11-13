@@ -315,5 +315,38 @@ export type Question = {
       ],
       answer: 1,
       explanation: "The bottleneck effect occurs when a sudden environmental event drastically reduces population size, randomly altering allele frequencies in survivors."
-    }
+    },
+    {
+      id: "uhs-26-bio-009",
+      question: "According to Lamarck, the characteristics which are developed during the lifetime of an individual due to use and disuse of organs are called as:",
+      options: [
+        "prominent characters",
+        "biological characters",
+        "acquired characters",
+        "physical characters",
+      ],
+      answer: 2,
+    },
+    {
+      id: "uhs-26-bio-022",
+      question: "The offsprings of better-adapted individuals are expected to make up a larger proportion of the next generation. The most likely explanation is:",
+      options: [
+        "Mutation",
+        "Inheritance of Acquired characters",
+        "Natural selection",
+        "Genetic drift",
+      ],
+      answer: 2,
+    },
+    {
+      id: "uhs-26-bio-070",
+      question: "All of the following ideas were proposed by Lamarck, EXCEPT:",
+      options: [
+        "Use and disuse of organs",
+        "Acquired characters are inherited by the offspring",
+        "Organs not used will become vestigial",
+        "Over production leads to evolution",
+      ],
+      answer: 3,
+    },
   ];

@@ -1127,5 +1127,93 @@ export type Question = {
           "Half of the sons will be color blind"
         ],
         answer: 3
-      }
+      },
+      {
+        id: "uhs-26-bio-020",
+        question: "What would be the number of chromosomes in an animal cell whose sperm has 8 chromosomes?",
+        options: [
+          "4 chromosomes",
+          "16 chromosomes",
+          "24 chromosomes",
+          "32 chromosomes",
+        ],
+        answer: 1,
+      },
+      {
+        id: "uhs-26-bio-032",
+        question: "A hemophilic father can pass the genes of hemophilia to his:",
+        options: [
+          "Sons only",
+          "Daughters only",
+          "Both sons and daughters equally",
+          "Both sons and daughters in 2:1 ratio respectively",
+        ],
+        answer: 1,
+      },
+      {
+        id: "uhs-26-bio-043",
+        question: "If two genes are said to be linked, what is meant by the term ‘linked’?",
+        options: [
+          "Two genes are both at the same loci on a chromosome",
+          "Two genes both occupy the same chromosome",
+          "They are both alleles of the same gene",
+          "The phenotypes of the genes are both influenced by the gender of their owner",
+        ],
+        answer: 1,
+      },
+      {
+        id: "uhs-26-bio-046",
+        question: "Which of the following is responsible for reducing variations in progeny?",
+        options: [
+          "Meiosis",
+          "Epistasis",
+          "Crossing over",
+          "Gene Linkage",
+        ],
+        answer: 3,
+      },
+      {
+        id: "uhs-26-bio-066",
+        question: "The cross between two heterozygous round-seeded plants having Rr × Rr would result in _____ during segregation of the alleles in next generation.",
+        options: [
+          "100 % round seeds",
+          "50% round seeds and 50% wrinkled seeds",
+          "75% round seeds and 25% wrinkled seeds",
+          "100% wrinkled seeds",
+        ],
+        answer: 2,
+      },
+      {
+        id: "uhs-26-bio-075",
+        question: "If green is a dominant and yellow is a recessive trait then what would be the ratio of homozygotes in F2 generation?",
+        options: [
+          "0%",
+          "25%",
+          "50%",
+          "75%",
+        ],
+        answer: 2,
+      },
+      {
+        id: "uhs-26-bio-080",
+        question: "The segregation of alleles occurs during the process of ______ in eukaryotic organisms.",
+        options: [
+          "Mitosis",
+          "Binary fission",
+          "Meiosis",
+          "DNA replication before cell division",
+        ],
+        answer: 2,
+      },
+      {
+        id: "uhs-26-bio-081",
+        question: "Over time, many dihybrid cross experiments of autosomally-linked genes in sweet pea plants (Lathyrus odoratus) have been carried out by reputed scientists. Which of the following best explains the presence of some non-parental phenotypes in the offspring of such crosses?",
+        options: [
+          "Crossing over has occurred, leading to the production of recombinant plants",
+          "The scientists made errors such as not cleaning the small paint brush that they used to transfer pollen grains between plants",
+          "Independent assortment had occurred, so unusual phenotypes are to be expected",
+          "Only plants of one gender exhibit parental phenotypes due to linkage",
+        ],
+        answer: 0,
+      },
   ];

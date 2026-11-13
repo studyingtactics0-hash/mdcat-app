@@ -583,5 +583,16 @@ export type Question = {
           "Oxidative decarboxylation"
         ],
         answer: 3
-      }
+      },
+      {
+        id: "uhs-26-bio-001",
+        question: "Main products of Krebs cycle reactions are:",
+        options: [
+          "Glucose and Oxygen",
+          "NADH and FADH₂",
+          "ATP and glyceraldehyde 3-phosphate (G3P)",
+          "Pyruvate and Acetyl Co-A",
+        ],
+        answer: 1,
+      },
   ];

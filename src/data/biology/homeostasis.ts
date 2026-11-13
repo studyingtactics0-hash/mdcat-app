@@ -174,5 +174,82 @@ export type Question = {
         "The secretion of hormones that control blood plasma"
       ],
       answer: 1
-    }
+    },
+    {
+      id: "uhs-26-bio-023",
+      question: "Which body system is directly responsible for initiating shivering?",
+      options: [
+        "Respiratory system",
+        "Circulatory system",
+        "Nervous system",
+        "Digestive system",
+      ],
+      answer: 2,
+    },
+    {
+      id: "uhs-26-bio-026",
+      question: "Fate of ammonia released from amino acid during deamination in liver is:",
+      options: [
+        "Carbon cycle",
+        "Glycolysis",
+        "Urea cycle",
+        "Kreb’s cycle",
+      ],
+      answer: 2,
+    },
+    {
+      id: "uhs-26-bio-029",
+      question: "Which nitrogenous waste requires the least amount of water per gram of its excretion?",
+      options: [
+        "Ammonia",
+        "Urea",
+        "Uric acid",
+        "Creatinine",
+      ],
+      answer: 2,
+    },
+    {
+      id: "uhs-26-bio-030",
+      question: "Kidney stones are mainly formed due to:",
+      options: [
+        "Lower filtration of blood at Bowman’s Capsule",
+        "Protein breakdown in stomach",
+        "Excessive glucose levels in blood",
+        "High level of circulating calcium in blood",
+      ],
+      answer: 3,
+    },
+    {
+      id: "uhs-26-bio-045",
+      question: "Which of the following best describes the correct function of peritubular capillaries?",
+      options: [
+        "Oxygen uptake from the kidney cells",
+        "Supply of carbon dioxide to the kidney cells",
+        "Reabsorption of urea",
+        "Reabsorption of useful constituents",
+      ],
+      answer: 3,
+    },
+    {
+      id: "uhs-26-bio-048",
+      question: "Which blood vessel carries filtered blood away from glomerulus?",
+      options: [
+        "Renal artery",
+        "Renal vein",
+        "Afferent arteriole",
+        "Efferent arteriole",
+      ],
+      answer: 3,
+    },
+    {
+      id: "uhs-26-bio-052",
+      question: "In a kidney tubule, which substances are filtered out of the blood in the glomerulus?",
+      options: [
+        "Glucose, protein, salts and water",
+        "Glucose, protein, urea and water",
+        "Glucose, salts, urea and water",
+        "Protein, salts, urea and water",
+      ],
+      answer: 2,
+    },
   ];

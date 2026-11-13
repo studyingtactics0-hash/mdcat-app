@@ -777,5 +777,38 @@ export type Question = {
         "High molecular weight"
       ],
       answer: 0
-    }
+    },
+    {
+      id: "uhs-26-bio-019",
+      question: "Which type of enzyme inhibition can be overcome by increasing substrate concentration?",
+      options: [
+        "Non-competitive inhibition",
+        "Competitive inhibition",
+        "Irreversible inhibition",
+        "Allosteric inhibition",
+      ],
+      answer: 1,
+    },
+    {
+      id: "uhs-26-bio-038",
+      question: "__________ can denature enzymes resulting in slow catalysis.",
+      options: [
+        "Low temperature",
+        "High temperature",
+        "High water content",
+        "Low water content",
+      ],
+      answer: 1,
+    },
+    {
+      id: "uhs-26-bio-071",
+      question: "In an experiment, increasing substrate concentration increases the rate of reaction until it reaches a steady state. At this stage, which of the following changes would most effectively increase the rate of reaction?",
+      options: [
+        "Increasing substrate concentration",
+        "Decreasing temperature",
+        "Increasing enzyme concentration",
+        "Adding a non-competitive inhibitor",
+      ],
+      answer: 2,
+    },
   ];

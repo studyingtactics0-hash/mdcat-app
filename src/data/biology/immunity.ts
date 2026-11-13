@@ -410,5 +410,38 @@ export type Question = {
         "Bile duct"
       ],
       answer: 2
-    }
+    },
+    {
+      id: "uhs-26-bio-018",
+      question: "What type of blood cells are primarily and specifically responsible for specific immunity?",
+      options: [
+        "Erythrocytes",
+        "Thrombocytes",
+        "Neutrophils",
+        "Lymphocytes",
+      ],
+      answer: 3,
+    },
+    {
+      id: "uhs-26-bio-053",
+      question: "During an immune response, what type of cells are PRIMARILY involved in the production of antibodies?",
+      options: [
+        "T lymphocytes",
+        "B lymphocytes",
+        "Macrophages",
+        "Platelets",
+      ],
+      answer: 1,
+    },
+    {
+      id: "uhs-26-bio-068",
+      question: "The ability of the immune system to mount a larger and more rapid response to an antigen that has already been encountered before is termed as:",
+      options: [
+        "Primary Immune response",
+        "Immunological Memory",
+        "Short-term Memory",
+        "Long-term Memory",
+      ],
+      answer: 1,
+    },
   ]

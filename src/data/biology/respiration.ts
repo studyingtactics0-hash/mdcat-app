@@ -9,5 +9,16 @@ export const respirationQuestions = [
       "Red blood cells → Capillaries → Alveoli"
     ],
     answer: 3,
-  }
+  },
+  {
+    id: "uhs-26-bio-076",
+    question: "In human respiratory system, bronchioles have:",
+    options: [
+      "Cartilage rings",
+      "Cartilage plates",
+      "Circular smooth muscles",
+      "Longitudinal smooth muscles",
+    ],
+    answer: 2,
+  },
 ]

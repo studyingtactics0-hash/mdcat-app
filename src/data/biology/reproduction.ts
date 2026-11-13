@@ -1106,5 +1106,60 @@ export const reproductionQuestions = [
         "Progesterone secretion is increased"
       ],
       answer: 1
-    }
+    },
+    {
+      id: "uhs-26-bio-014",
+      question: "Which of the following hormones stimulates the development of primary follicles in the ovary?",
+      options: [
+        "Estrogen",
+        "Progesterone",
+        "Luteinizing hormone",
+        "Follicle stimulating hormone",
+      ],
+      answer: 3,
+    },
+    {
+      id: "uhs-26-bio-051",
+      question: "Which of the following hormones is produced by Corpus Luteum?",
+      options: [
+        "Leutinizing",
+        "Progesterone",
+        "Testosterone",
+        "Secretin",
+      ],
+      answer: 1,
+    },
+    {
+      id: "uhs-26-bio-057",
+      question: "Testosterone in males is produced by:",
+      options: [
+        "Interstitial cells of Leydig",
+        "Sertoli Cells",
+        "Spermatogonia",
+        "Primary spermatocytes",
+      ],
+      answer: 0,
+    },
+    {
+      id: "uhs-26-bio-059",
+      question: "In human reproduction, a sudden rise in LH causes:",
+      options: [
+        "Menstrual flow",
+        "Ovulation",
+        "Fertilization to form zygote",
+        "Implantation of embryo",
+      ],
+      answer: 1,
+    },
+    {
+      id: "uhs-26-bio-078",
+      question: "If the corpus luteum degenerates prematurely, the most likely outcome is:",
+      options: [
+        "Enhanced ovulation and fertilization",
+        "Increased LH secretin and extra egg release",
+        "Increased estrogen secretion",
+        "Implantation failure and end of pregnancy",
+      ],
+      answer: 3,
+    },
 ];

@@ -825,5 +825,71 @@ export type Question = {
           "It was drawn from the superior Vena cava and will enter the heart at the left ventricle"
         ],
         answer: 3
-      }
+      },
+      {
+        id: "uhs-26-bio-027",
+        question: "Villi contains a lymph capillary called:",
+        options: [
+          "Microvilli",
+          "Brush border",
+          "Lacteal",
+          "Lymph node",
+        ],
+        answer: 2,
+      },
+      {
+        id: "uhs-26-bio-054",
+        question: "A patient develops a swollen area where lymph is actively being screened for pathogens and immune cells are rapidly multiplying. The lymphatic structure that is involved in this process is:",
+        options: [
+          "spleen.",
+          "lymph nodes.",
+          "lymphatic ducts.",
+          "lymphatic capillaries.",
+        ],
+        answer: 1,
+      },
+      {
+        id: "uhs-26-bio-055",
+        question: "Which chamber of the heart has the thickest muscular tissues?",
+        options: [
+          "Right atrium",
+          "Right ventricle",
+          "Left atrium",
+          "Left ventricle",
+        ],
+        answer: 3,
+      },
+      {
+        id: "uhs-26-bio-058",
+        question: "Which of the following is a function of lymphatic system?",
+        options: [
+          "Absorption of glucose from intestine",
+          "Blood clotting after an injury",
+          "Filtering out and destroying germs and toxins",
+          "Temperature regulation",
+        ],
+        answer: 2,
+      },
+      {
+        id: "uhs-26-bio-061",
+        question: "During heart surgery, a surgeon fixes a valve that stops blood from flowing backward into the right ventricle. Based on the given situation, the valve that was repaired is:",
+        options: [
+          "Mitral valve",
+          "Aortic semilunar valve",
+          "Tricuspid valve",
+          "Pulmonary semilunar valve",
+        ],
+        answer: 3,
+      },
+      {
+        id: "uhs-26-bio-065",
+        question: "Chordae tendineae are:",
+        options: [
+          "Blood vessels",
+          "Fibrous cords",
+          "Cardiac muscles",
+          "Epithelial tissue",
+        ],
+        answer: 1,
+      },
   ];

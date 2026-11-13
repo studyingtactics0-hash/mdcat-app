@@ -571,5 +571,126 @@ export type Question = {
         "Chyme"
       ],
       answer: 3
-    }
+    },
+    {
+      id: "uhs-26-bio-002",
+      question: "The part of digestive system which is NOT directly involved in digestion is:",
+      options: [
+        "Mouth",
+        "Oesophagus",
+        "Stomach",
+        "Small intestine",
+      ],
+      answer: 1,
+    },
+    {
+      id: "uhs-26-bio-008",
+      question: "The inner layer of stomach whose glands secrete digestive enzymes, HCl and mucus is known as:",
+      options: [
+        "submucosa",
+        "mucosa",
+        "muscularis",
+        "serosa",
+      ],
+      answer: 1,
+    },
+    {
+      id: "uhs-26-bio-013",
+      question: "The major purpose of mastication is to:",
+      options: [
+        "Make morsel soft",
+        "Make food moist",
+        "Increase surface area",
+        "Improve the taste",
+      ],
+      answer: 2,
+    },
+    {
+      id: "uhs-26-bio-024",
+      question: "If enterokinase is absent in small intestine, which digestive enzyme remains inactive?",
+      options: [
+        "Pepsinogen",
+        "Trypsinogen",
+        "Amylase",
+        "Lipase",
+      ],
+      answer: 1,
+    },
+    {
+      id: "uhs-26-bio-039",
+      question: "Parietal cells of gastric glands are responsible for the secretion of:",
+      options: [
+        "HCl",
+        "Pepsinogen",
+        "Mucus",
+        "Gastrin",
+      ],
+      answer: 0,
+    },
+    {
+      id: "uhs-26-bio-040",
+      question: "Pepsinogen is converted into pepsin due to:",
+      options: [
+        "Low pH",
+        "High pH",
+        "Optimum temperature",
+        "Freezing temperature",
+      ],
+      answer: 0,
+    },
+    {
+      id: "uhs-26-bio-056",
+      question: "A person is diagnosed with colon disease. Absorption of which of the following may be affected?",
+      options: [
+        "Glucose",
+        "Water",
+        "Fats",
+        "Amino acids",
+      ],
+      answer: 1,
+    },
+    {
+      id: "uhs-26-bio-062",
+      question: "Bile salts are helpful in the digestion of:",
+      options: [
+        "Amino acids",
+        "Fatty acids",
+        "Nucleic acids",
+        "Carbohydrates",
+      ],
+      answer: 1,
+    },
+    {
+      id: "uhs-26-bio-063",
+      question: "Exocrine tissue of the pancreas produces an enzyme for carbohydrate digestion known as:",
+      options: [
+        "Lipase",
+        "Trypsin",
+        "Enterokinase",
+        "Amylase",
+      ],
+      answer: 3,
+    },
+    {
+      id: "uhs-26-bio-064",
+      question: "Endocrine cells of duodenum are stimulated by ______ to release hormone secretin.",
+      options: [
+        "Acetylcholine",
+        "Acidic chyme",
+        "Bile salts",
+        "Sodium bicarbonate in bile juice",
+      ],
+      answer: 1,
+    },
+    {
+      id: "uhs-26-bio-079",
+      question: "Which one of the following veins connects the small intestines to the liver?",
+      options: [
+        "Renal vein",
+        "Hepatic portal vein",
+        "Iliac vein",
+        "Hepatic vein",
+      ],
+      answer: 1,
+    },
   ]

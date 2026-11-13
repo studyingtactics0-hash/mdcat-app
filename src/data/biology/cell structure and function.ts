@@ -1283,5 +1283,60 @@ export type Question = {
           "27"
         ],
         answer: 3
-      }
+      },
+      {
+        id: "uhs-26-bio-007",
+        question: "mRNA forms ___________ % of the total RNA in the cell",
+        options: [
+          "3-4%",
+          "4-5%",
+          "5-6%",
+          "6-7%",
+        ],
+        answer: 2,
+      },
+      {
+        id: "uhs-26-bio-008",
+        question: "According to Watson and Crick’s model, each complete turn of the DNA double helix, consists of:",
+        options: [
+          "6 base pairs",
+          "8 base pairs",
+          "10 base pairs",
+          "12 base pairs",
+        ],
+        answer: 2,
+      },
+      {
+        id: "uhs-26-bio-009",
+        question: "Translation is:",
+        options: [
+          "nucleus → mRNA → ribosome",
+          "nucleus → tRNA → ribosome",
+          "nucleus → mRNA → ER",
+          "nucleus → tRNA → ER",
+        ],
+        answer: 0,
+      },
+      {
+        id: "uhs-26-bio-010",
+        question: "Let X, Y and Z be three amino acids which are encoded by UCA=X, ACU=Y and GUC=Z. What will be the sequence of nucleotide in DNA coding/sense strand that comprises information for following polypeptide: Polypeptide = Y-X-Y-Y-X-Z-Z-X-Z-Y",
+        options: [
+          "5′-ACUUCAACUACUUCAGUCGUCUCAGUCACU-3′",
+          "5′-ACTTCAACTACTTCAGTCGTCTCAGTCACT-3′",
+          "3′-TGAAGTTGATGAAGTCAGCAGAGTCAGTGA-5′",
+          "3′-UGAAGUUGAUGAAGUCAGCAGAGUCAGUGA-5′",
+        ],
+        answer: 1,
+      },
+      {
+        id: "uhs-26-bio-011",
+        question: "Which of the following bonding or interaction is responsible for quaternary protein folding?",
+        options: [
+          "1,4 Glycosidic Bond",
+          "Hydrophobic interaction",
+          "Ester Bond",
+          "1, 6 Glycosidic Bond",
+        ],
+        answer: 1,
+      },
   ];

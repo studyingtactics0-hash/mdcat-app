@@ -1339,5 +1339,82 @@ export type Question = {
           "Sarcoleema and sarcoplasmic reticulum"
         ],
         answer: 1
-      }
+      },
+      {
+        id: "uhs-26-bio-006",
+        question: "The most abundant voluntary muscles in human body are:",
+        options: [
+          "Cardiac",
+          "Skeletal",
+          "Smooth",
+          "Smooth & Cardiac",
+        ],
+        answer: 1,
+      },
+      {
+        id: "uhs-26-bio-010",
+        question: "The collagen fibers of bone are hardened by deposition of:",
+        options: [
+          "Calcium and oxalates",
+          "Calcium and phosphates",
+          "Magnesium and nitrates",
+          "Iron and glycogen",
+        ],
+        answer: 1,
+      },
+      {
+        id: "uhs-26-bio-011",
+        question: "The type of muscles responsible for the movement of food through lumen of intestine are:",
+        options: [
+          "Smooth muscles",
+          "Cardiac muscles",
+          "Skeletal muscles",
+          "Skeletal & cardiac muscles",
+        ],
+        answer: 0,
+      },
+      {
+        id: "uhs-26-bio-036",
+        question: "Which of the following diseases is associated with reduced synovial fluid in a joint?",
+        options: [
+          "Gout",
+          "Arthritis",
+          "Rickets",
+          "Sciatica",
+        ],
+        answer: 1,
+      },
+      {
+        id: "uhs-26-bio-050",
+        question: "Upon arrival of nerve impulse, which of the following allows calcium ions to enter the cytosol?",
+        options: [
+          "Sarcolemma",
+          "Sarcomere",
+          "Sarcoplasmic reticulum",
+          "Myofilaments",
+        ],
+        answer: 2,
+      },
+      {
+        id: "uhs-26-bio-074",
+        question: "When the muscle is at rest, ______ is disposed in such a way that it covers the sites on the ______ chain where the head of ______ becomes attached.",
+        options: [
+          "tropomyosin : actin : myosin",
+          "myosin : actin : tropomyosin",
+          "actin : tropomyosin : myosin",
+          "actin : myosin : tropomyosin",
+        ],
+        answer: 0,
+      },
+      {
+        id: "uhs-26-bio-077",
+        question: "Which of the following cartilage is most commonly found in the ribs, nose, and trachea?",
+        options: [
+          "Hyaline Cartilage",
+          "Elastic Cartilage",
+          "Fibrocartilage",
+          "Osteoblast",
+        ],
+        answer: 0,
+      },
   ];
