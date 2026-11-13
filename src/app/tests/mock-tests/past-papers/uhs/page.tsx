@@ -3,6 +3,16 @@
 const uhsPapers = [
   {
     icon: "📝",
+    title: "UHS 2026",
+    description:
+      "Practice the complete UHS 2026 past paper with authentic questions from Biology, Chemistry, Physics, English and Logical Reasoning.",
+    href: "/tests/mock-tests/past-papers/uhs/uhs-26",
+    button: "Start UHS 2026",
+    available: true,
+    featured: true,
+  },
+  {
+    icon: "📝",
     title: "UHS 2025",
     description:
       "Practice the complete UHS 2025 past paper with authentic questions from Biology, Chemistry, Physics, English and Logical Reasoning.",
