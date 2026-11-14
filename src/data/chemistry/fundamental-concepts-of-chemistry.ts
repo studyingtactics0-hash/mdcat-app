@@ -915,5 +915,31 @@ export type Question = {
         options: ["0.25", "1.0", "0.50", "1.50"],
         answer: 0,
         explanation: "8g of O = 8 / 16 = 0.5 moles of O atoms. Since 1 mole CO2 contains 2 moles O atoms, moles of CO2 = 0.5 / 2 = 0.25 moles."
+      },
+      {
+        id: "uhs-2026-chem-091",
+        question:
+          "The actual amount of CaO obtained on thermal decomposition of 25g of CaCO₃ is 12g. What is the approximate percentage yield? (Molar mass of CaCO₃ = 100, Molar mass of CaO = 56)\nCaCO₃ → CaO + CO₂",
+        options: ["50 %", "60 %", "86 %", "90 %"],
+        answer: 2,
+        explanation:
+          "100 g of CaCO₃ theoretically produces 56 g of CaO. Therefore, 25 g of CaCO₃ theoretically yields (56 / 100) × 25 = 14 g of CaO. Percentage yield = (Actual yield / Theoretical yield) × 100 = (12 / 14) × 100 ≈ 85.7%, which approximates to 86%."
+      },
+      {
+        id: "uhs-2026-chem-092",
+        question:
+          "If actual yield and theoretical yield are 20g and 25g respectively, what will be the % yield?",
+        options: ["60%", "70%", "80%", "85%"],
+        answer: 2,
+        explanation:
+          "Percentage yield is calculated using the formula: % Yield = (Actual Yield / Theoretical Yield) × 100. Substituting the given values: (20 g / 25 g) × 100 = 80%."
+      },
+      {
+        id: "uhs-2026-chem-110",
+        question: "What will be the mass of 0.5 moles of CaCO₃?",
+        options: ["50 g", "55 g", "45 g", "60 g"],
+        answer: 0,
+        explanation:
+          "The molar mass of CaCO₃ is 40 (Ca) + 12 (C) + 3 × 16 (O) = 100 g/mol. Mass = Number of moles × Molar mass = 0.5 mol × 100 g/mol = 50 g."
       } 
   ];

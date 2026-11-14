@@ -634,5 +634,33 @@ export type Question = {
         ],
         answer: 2,
         explanation: "Benzoic acid (C6H5COOH) contains a carboxyl group directly bonded to an aromatic benzene ring, making it an aromatic carboxylic acid."
+      },
+      {
+        id: "uhs-2026-chem-087",
+        question:
+          "Carboxylic acid can be formed by reaction of Grignard reagent with:",
+        options: [
+          "Carbonate",
+          "Carbon dioxide",
+          "Aldehyde",
+          "Carbon mono oxide"
+        ],
+        answer: 1,
+        explanation:
+          "Grignard reagents (R–MgX) react with solid carbon dioxide (dry ice, CO₂) via nucleophilic addition to form a magnesium carboxylate intermediate, which upon acidic hydrolysis yields a carboxylic acid (R–COOH) containing one additional carbon atom."
+      },
+      {
+        id: "uhs-2026-chem-119",
+        question:
+          "Acetic acid is converted into acetyl chloride using which reagent?",
+        options: [
+          "thionyl chloride",
+          "chlorine",
+          "sodium chloride",
+          "phosphorous trioxide"
+        ],
+        answer: 0,
+        explanation:
+          "Acetic acid (CH₃COOH) reacts with thionyl chloride (SOCl₂) to produce acetyl chloride (CH₃COCl) along with gaseous byproducts SO₂ and HCl, making thionyl chloride the preferred reagent for preparing acyl chlorides."
       }
   ];

@@ -421,5 +421,51 @@ export type Question = {
         ],
         answer: 0,
         explanation: "Allotropes are different structural modifications of the same chemical element; hence, they share identical chemical composition despite differing physical crystal forms."
+      },
+      {
+        id: "uhs-2026-chem-090",
+        question:
+          "Which of the following statements describes a crystalline solid?",
+        options: [
+          "Particles are randomly arranged with no repeating pattern.",
+          "Particles are arranged in a long-range, repeating 3D pattern.",
+          "It softens gradually over a range of temperatures.",
+          "It has no definite shape or melting point."
+        ],
+        answer: 1,
+        explanation:
+          "Crystalline solids are characterized by an orderly, long-range, repeating three-dimensional arrangement of atoms, ions, or molecules, giving them a definite geometric shape and a sharp melting point."
+      },
+      {
+        id: "uhs-2026-chem-100",
+        question:
+          "The value of lattice energy across the period in the periodic table:",
+        options: ["Increases", "Decreases", "Remains same", "Changes randomly"],
+        answer: 0,
+        explanation:
+          "Moving left to right across a period, ionic charge increases while ionic radius decreases. Since lattice energy is directly proportional to the product of ionic charges and inversely proportional to interionic distance, lattice energy increases across a period."
+      },
+      {
+        id: "uhs-2026-chem-114",
+        question:
+          "A student observes that solid substance “X” does not conduct electricity but conducts when melted, while substance “Y” does not conduct electricity in any state. What is the most appropriate classification of “X” and “Y”?",
+        options: [
+          "X is a molecular crystal, Y is an ionic crystal",
+          "X is an ionic crystal; Y is a molecular crystal",
+          "Both X and Y are ionic crystals",
+          "Both X and Y are molecular crystals"
+        ],
+        answer: 1,
+        explanation:
+          "Ionic crystals have ions locked in fixed lattice positions in the solid state (non-conducting) that become mobile and conduct electricity when melted. Molecular crystals consist of neutral molecules with no free charge carriers in either solid or molten states."
+      },
+      {
+        id: "uhs-2026-chem-117",
+        question:
+          "Which one of the following is the best example of an amorphous solid?",
+        options: ["Diamond", "Glass", "Sodium chloride", "Potassium Bromide"],
+        answer: 1,
+        explanation:
+          "Glass is a classic amorphous solid lacking long-range periodic order in its atomic structure, whereas diamond (covalent network), sodium chloride (ionic), and potassium bromide (ionic) are crystalline solids."
       }
   ];

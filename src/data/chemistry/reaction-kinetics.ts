@@ -900,5 +900,42 @@ export type Question = {
           "Increasing activation energy"
         ],
         answer: 2
+      },
+      {
+        id: "uhs-2026-chem-095",
+        question:
+          "For 3rd order reaction rate=k[A][B]² when concentration of both reactant is doubled the new rate becomes:",
+        options: ["halved", "doubled", "quadrupled", "octupled"],
+        answer: 3,
+        explanation:
+          "Given Rate = k[A][B]², doubling both [A] and [B] gives Rate_new = k(2[A])(2[B])² = k × 2[A] × 4[B]² = 8k[A][B]². Thus, the reaction rate increases by a factor of 8 (octupled)."
+      },
+      {
+        id: "uhs-2026-chem-105",
+        question:
+          "Rate = k[A]⁰[B]\nIf we double the concentration of A and B, the rate of reaction becomes:",
+        options: [
+          "remains the same",
+          "gets doubled",
+          "gets tripled",
+          "gets halved"
+        ],
+        answer: 1,
+        explanation:
+          "Since the reaction is zero-order with respect to A ([A]⁰ = 1) and first-order with respect to B, Rate_new = k(2[A])⁰(2[B]) = k(1)(2[B]) = 2k[B]. Therefore, the rate gets doubled."
+      },
+      {
+        id: "uhs-2026-chem-111",
+        question:
+          "Sara dissolved 5 g each of crushed and large sized crystal of copper sulphate in two separate test tubes containing 10 mL water. After 5 minutes of stirring, she observed that the test tube containing crushed copper sulphate had dissolved in water while the test tube containing the large sized crystal still showed undissolved form. The reason for FASTER dissolution is that the crushed copper sulphate:",
+        options: [
+          "are more in density.",
+          "have greater surface area.",
+          "are low in density",
+          "have smaller surface area."
+        ],
+        answer: 1,
+        explanation:
+          "Crushing a solid into smaller particles increases the total exposed surface area in contact with the solvent (water), allowing more frequent collisions between solute and solvent molecules and resulting in a faster rate of dissolution."
       }
   ];

@@ -782,5 +782,18 @@ export type Question = {
         ],
         answer: 3,
         explanation: "Ethylene glycol (C2H6O2, diol) and Glycerol (C3H8O3, triol) differ in carbon count, number of -OH groups, and their structural positions."
+      },
+      {
+        id: "uhs-2026-chem-112",
+        question: "Which type of isomerism is exhibited by 2-Butene?",
+        options: [
+          "Tautomerism",
+          "Geometric isomerism",
+          "Functional group isomerism",
+          "Metamerism"
+        ],
+        answer: 1,
+        explanation:
+          "2-Butene (CH₃–CH=CH–CH₃) exhibits geometric (cis-trans) isomerism because restricted rotation around the carbon–carbon double bond and two different groups (–H and –CH₃) attached to each sp²-hybridized double-bonded carbon allow distinct spatial arrangements (cis-2-butene and trans-2-butene)."
       }
   ];

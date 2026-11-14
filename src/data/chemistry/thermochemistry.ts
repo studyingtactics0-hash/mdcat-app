@@ -339,5 +339,19 @@ export type Question = {
       ],
       answer: 3,
       explanation: "According to the First Law of Thermodynamics ΔU = q + w. Heat absorbed q = +100 kJ, work done on system w = +40 kJ. Thus ΔU = +100 + 40 = +140 kJ."
+    },
+    {
+      id: "uhs-2026-chem-125",
+      question:
+        "A thermodynamic system goes through a cyclic process which absorbs 1200 J heat and ejects 700 J heat. Which statement correctly describes this?",
+      options: [
+        "The ∆E of a system increases by 500 J",
+        "The ∆E of a system decreases by 500 J",
+        "The system performs network of 500 J",
+        "The surroundings perform network of 500 J"
+      ],
+      answer: 2,
+      explanation:
+        "In a cyclic process, the system returns to its initial state, so the net change in internal energy is zero (ΔE = 0). By the first law of thermodynamics (ΔE = q - w), net heat absorbed is q = 1200 J - 700 J = +500 J, meaning the system performs net work w = +500 J on the surroundings."
     }
   ];

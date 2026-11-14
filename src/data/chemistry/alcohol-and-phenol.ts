@@ -798,5 +798,29 @@ export type Question = {
         options: ["Dense", "Hard", "Deliquescent", "Intermediate"],
         answer: 2,
         explanation: "Phenol is a colorless, crystalline deliquescent solid that absorbs moisture from the air and turns pinkish on exposure."
-      } 
+      },
+      {
+        id: "uhs-2026-chem-084",
+        question: "Phenol gives which colored precipitate with aqueous Br₂?",
+        options: ["red ppt", "white ppt", "blue ppt", "orange ppt"],
+        answer: 1,
+        explanation:
+          "When phenol reacts with bromine water (aqueous Br₂), the strongly activating –OH group causes bromination at all ortho and para positions, forming a white precipitate of 2,4,6-tribromophenol and decolorizing the bromine water."
+      },
+      {
+        id: "uhs-2026-chem-096",
+        question: "Grignard's reagent is treated with methanal to produce:",
+        options: ["Phenol", "Primary alcohol", "Propanoic acid", "Ketone"],
+        answer: 1,
+        explanation:
+          "Nucleophilic addition of a Grignard reagent (R–MgX) to methanal (formaldehyde, HCHO) followed by acid hydrolysis yields a primary alcohol (R–CH₂OH)."
+      },
+      {
+        id: "uhs-2026-chem-101",
+        question: "Primary alcohol can be converted into carboxylic acid by:",
+        options: ["CH₃COOH/P₂O₅", "NH₃", "CH₃OH", "H₂SO₄/K₂Cr₂O₇"],
+        answer: 3,
+        explanation:
+          "Strong oxidizing agents such as acidified potassium dichromate (K₂Cr₂O₇ in H₂SO₄) oxidize primary alcohols first to aldehydes and then directly further to carboxylic acids."
+      }
   ];

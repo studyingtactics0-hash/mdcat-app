@@ -590,5 +590,35 @@ export type Question = {
         options: ["25", "22", "26", "19"],
         answer: 2,
         explanation: "Note: In +3 state configuration given is [Ar] 4s1 3d4 (5 electrons total beyond Ar). Adding 3 electrons gives 18 + 5 + 3 = 26 (Iron)."
+      },
+      {
+        id: "uhs-2026-chem-102",
+        question: "Select the true statement for a transition element.",
+        options: [
+          "All are hard and weak metals with low melting point",
+          "All are hard and strong metals with high melting point",
+          "All are soft and strong metals with high melting point",
+          "All are soft and weak metals with low melting point"
+        ],
+        answer: 1,
+        explanation:
+          "Transition metals possess strong metallic bonding due to the participation of both ns and unpaired (n-1)d electrons, making them typically hard, strong metals with high melting and boiling points."
+      },
+      {
+        id: "uhs-2026-chem-123",
+        question: "How many unpaired electrons are there in Fe⁺⁺(Z=26)?",
+        options: ["6", "4", "3", "2"],
+        answer: 1,
+        explanation:
+          "Neutral iron (Fe, Z = 26) has the electronic configuration [Ar] 3d⁶ 4s². Upon losing two electrons to form Fe²⁺, the 4s electrons are removed first, leaving [Ar] 3d⁶. According to Hund's rule, the six 3d electrons occupy the five d-orbitals as one paired set and four unpaired electrons."
+      },
+      {
+        id: "uhs-2026-chem-124",
+        question:
+          "An element X having atomic number “Z=27” belongs to which block of periodic table?",
+        options: ["s-block", "p-block", "d-block", "f-block"],
+        answer: 2,
+        explanation:
+          "The element with atomic number Z = 27 is Cobalt (Co), which has the electronic configuration [Ar] 3d⁷ 4s². Since its differentiating (last) electron enters the 3d subshell, it belongs to the d-block of the periodic table."
       }
   ];

@@ -974,5 +974,26 @@ export type Question = {
         options: ["White", "Red", "Orange", "Yellow"],
         answer: 0,
         explanation: "Acetylene reacts with ammoniacal silver nitrate solution (Tollens' reagent) to yield a white precipitate of silver acetylide (AgC≡CAg)."
+      },
+      {
+        id: "uhs-2026-chem-098",
+        question: "All alkynes give ketones on hydration EXCEPT:",
+        options: ["Acetylene", "Propyne", "Butyne", "Pentyne"],
+        answer: 0,
+        explanation:
+          "Hydration of alkynes in the presence of HgSO₄ and dilute H₂SO₄ proceeds via an unstable enol intermediate that tautomerizes into a carbonyl compound. Acetylene (ethyne, HC≡CH) forms vinyl alcohol, which tautomerizes to acetaldehyde (an aldehyde), whereas all higher alkynes yield ketones."
+      },
+      {
+        id: "uhs-2026-chem-099",
+        question: "Benzene is stable because of:",
+        options: [
+          "containing single bond",
+          "presence of delocalization of π electron",
+          "containing sp³ hybridized carbon",
+          "isolated double bonds"
+        ],
+        answer: 1,
+        explanation:
+          "Benzene consists of six sp²-hybridized carbon atoms forming a planar hexagonal ring with six unhybridized p-orbitals overlapping continuously. The extensive delocalization (resonance) of these six π-electrons across the entire ring lowers its internal energy significantly, giving benzene extraordinary thermodynamic stability."
       }
   ];

@@ -944,5 +944,48 @@ export type Question = {
         ],
         answer: 2,
         explanation: "A subshell comprises all degenerate orbitals sharing the same principal quantum number n and azimuthal quantum number l."
+      },
+      {
+        id: "uhs-2026-chem-085",
+        question:
+          "Pfund Series of spectral lines are produced forming the spectrum of hydrogen atom when electron jumps down to_________ orbit.",
+        options: ["2nd", "3rd", "4th", "5th"],
+        answer: 3,
+        explanation:
+          "In the hydrogen emission spectrum, the Pfund series (in the far-infrared region) is produced when an excited electron transitions from higher energy levels (n ≥ 6) down to the 5th orbit (n = 5)."
+      },
+      {
+        id: "uhs-2026-chem-086",
+        question: "The electronic configuration of H⁻ is:",
+        options: ["1s⁰", "1s¹", "1s²", "1s²,2s¹"],
+        answer: 2,
+        explanation:
+          "A neutral hydrogen atom (H) has 1 electron (1s¹). The hydride ion (H⁻) gains one additional electron, giving it a total of 2 electrons, which fill the lowest energy orbital as 1s²."
+      },
+      {
+        id: "uhs-2026-chem-088",
+        question:
+          "An electron having following set of values lies in:\nn = 4, l = 0, m = 0 & s = -1/2",
+        options: ["4s", "4p", "5s", "5p"],
+        answer: 0,
+        explanation:
+          "The principal quantum number n = 4 indicates the 4th shell, and the azimuthal quantum number l = 0 corresponds to the s-subshell. Therefore, the electron resides in the 4s orbital."
+      },
+      {
+        id: "uhs-2026-chem-097",
+        question: "Probability of finding an electron is maximum in:",
+        options: ["Orbit", "Orbital", "Degenerate orbit", "Nodes"],
+        answer: 1,
+        explanation:
+          "An orbital is the three-dimensional region around the nucleus where the probability of finding an electron is maximum (typically 90–95%), whereas nodes are regions of zero electron probability."
+      },
+      {
+        id: "uhs-2026-chem-107",
+        question:
+          "The maximum number of electrons a subshell with azimuthal quantum number (ℓ) can accommodate is calculated by:",
+        options: ["ℓ +1", "2ℓ +1", "2(2ℓ +1)", "2ℓ +2"],
+        answer: 2,
+        explanation:
+          "The number of orbitals in a subshell is given by (2ℓ + 1). Since each orbital can hold a maximum of 2 electrons with opposite spins, the total capacity of a subshell is 2(2ℓ + 1)."
       }
   ];

@@ -612,5 +612,54 @@ export type Question = {
         options: ["3.5 atm", "1 atm", "3 atm", "1.25 atm"],
         answer: 3,
         explanation: "950 torr / 760 torr/atm = 1.25 atm."
-      } 
+      },
+      {
+        id: "uhs-2026-chem-089",
+        question: "At which condition real gases show ideal behavior?",
+        options: [
+          "100°C and 10 atm",
+          "1000°C and 20 atm",
+          "1000°C and 1 atm",
+          "10°C and 100 atm"
+        ],
+        answer: 2,
+        explanation:
+          "Real gases approach ideal behavior at high temperatures and low pressures, where intermolecular forces become negligible and the volume of gas molecules is insignificant compared to the container volume. Among the choices, 1000°C and 1 atm represents the highest temperature and lowest pressure."
+      },
+      {
+        id: "uhs-2026-chem-093",
+        question:
+          "The new volume when pressure is halved while temperature and number of moles are doubled will be:",
+        options: ["Doubled", "Quadrupled", "Sextupled", "Octupled"],
+        answer: 3,
+        explanation:
+          "From the ideal gas law, V = nRT / P. If n becomes 2n, T becomes 2T, and P becomes P/2, then V_new = (2n × R × 2T) / (P / 2) = 8 × (nRT / P) = 8V. Thus, the volume is octupled (increased 8 times)."
+      },
+      {
+        id: "uhs-2026-chem-104",
+        question:
+          "9.03 x 10²³ molecules of an ideal gas at STP will have volume of:",
+        options: ["11.2 dm³", "22.4 dm³", "33.6 dm³", "44.8dm³"],
+        answer: 2,
+        explanation:
+          "Number of moles (n) = (9.03 × 10²³) / (6.02 × 10²³) = 1.5 moles. At STP, 1 mole of an ideal gas occupies 22.4 dm³, so 1.5 moles occupy 1.5 × 22.4 = 33.6 dm³."
+      },
+      {
+        id: "uhs-2026-chem-121",
+        question:
+          "At a constant temperature and pressure, a 2.0 L container holds 0.5 moles of Nitrogen gas (N₂). If an additional 1.0 mole of Nitrogen is pumped into the container without changing the temperature or pressure, what will be the new volume of the container?",
+        options: ["3.0 L", "4.0 L", "6.0 L", "8.0 L"],
+        answer: 2,
+        explanation:
+          "According to Avogadro's law (V₁ / n₁ = V₂ / n₂ at constant T and P), the total moles become n₂ = 0.5 + 1.0 = 1.5 moles. Therefore, V₂ = (2.0 L / 0.5 mol) × 1.5 mol = 6.0 L."
+      },
+      {
+        id: "uhs-2026-chem-122",
+        question:
+          "The value of ideal gas constant in dm³.torr. K⁻¹.mol⁻¹ is:",
+        options: ["0.0821", "1.98722", "8.3143", "62.364"],
+        answer: 3,
+        explanation:
+          "Since 1 atm = 760 torr and R = 0.0821 dm³·atm·K⁻¹·mol⁻¹, multiplying 0.0821 by 760 gives 62.396 (commonly cited as 62.364 or 62.4 dm³·torr·K⁻¹·mol⁻¹)."
+      }
   ];

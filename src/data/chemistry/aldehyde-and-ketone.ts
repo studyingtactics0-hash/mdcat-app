@@ -921,5 +921,33 @@ export type Question = {
         ],
         answer: 2,
         explanation: "Ketones lack a carbonyl hydrogen and resist oxidation under mild conditions, requiring strong oxidants and high heat to cleave C-C bonds."
+      },
+      {
+        id: "uhs-2026-chem-103",
+        question:
+          "Which of the following tests is used for distinguishing methyl ketones from other ketones?",
+        options: [
+          "Silver mirror test",
+          "Silver nitrate test",
+          "Iodoform test",
+          "Lucas test"
+        ],
+        answer: 2,
+        explanation:
+          "The iodoform test (reaction with I₂ and NaOH) specifically detects compounds containing a CH₃–C=O (methyl ketone) group or CH₃–CH(OH)– group, producing a characteristic yellow precipitate of triiodomethane (CHI₃)."
+      },
+      {
+        id: "uhs-2026-chem-120",
+        question:
+          "Which of the following product will be formed when 2-oxo-pentanal is treated with NaBH₄?",
+        options: [
+          "CH₃CH(OH)CH₂CH₂OH",
+          "CH₂CH₂CH₂CH₂CH₂OH",
+          "CH₃CH(OH)CHCH(OH)CH₃",
+          "CH₃CH₂CH₂CH(OH)CH₂(OH)"
+        ],
+        answer: 3,
+        explanation:
+          "2-Oxopentanal (CH₃CH₂CH₂COCHO) contains both a ketone carbonyl at C-2 and an aldehyde carbonyl at C-1. Sodium borohydride (NaBH₄) reduces both aldehydes and ketones to alcohols, converting C-2 to a secondary alcohol (–CH(OH)–) and C-1 to a primary alcohol (–CH₂OH), yielding pentane-1,2-diol: CH₃CH₂CH₂CH(OH)CH₂(OH)."
       }
   ];

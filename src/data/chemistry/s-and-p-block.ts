@@ -827,5 +827,14 @@ export type Question = {
         ],
         answer: 2,
         explanation: "Electronegativity correlates strongly with high ionization potential, as both stem from a strong nuclear attraction for electrons."
+      },
+      {
+        id: "uhs-2026-chem-126",
+        question:
+          "Which of the following elements from Period 3 of Periodic table, has the largest ionic radius when forms a stable ion?",
+        options: ["Sodium", "Silicon", "Phosphorous", "Chlorine"],
+        answer: 2,
+        explanation:
+          "Among Period 3 elements forming stable ions, phosphorus gains three electrons to form the phosphide ion (P³⁻), while chlorine forms Cl⁻, silicon typically forms Si⁴⁺ (or covalent networks), and sodium forms Na⁺. For the isoelectronic anions P³⁻ and Cl⁻ (both having 18 electrons), P³⁻ has fewer protons (15 vs. 17), resulting in weaker nuclear attraction on the valence shell and therefore the largest ionic radius."
       }
   ];

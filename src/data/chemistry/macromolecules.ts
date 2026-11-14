@@ -602,5 +602,19 @@ export type Question = {
         options: ["Heart", "Connective tissue", "Nucleus", "Arteries"],
         answer: 1,
         explanation: "Collagen is the primary structural fibrous protein distributed throughout animal connective tissues (cartilage, tendons, ligaments, skin)."
+      },
+      {
+        id: "uhs-2026-chem-113",
+        question:
+          "Nylon-6,6 is made from two monomers each of which contains:",
+        options: [
+          "6 carbon atoms.",
+          "6 amino groups.",
+          "6 nitrogen atoms.",
+          "6 carboxylic acid groups."
+        ],
+        answer: 0,
+        explanation:
+          "Nylon-6,6 is a polyamide formed by the condensation polymerization of two monomers: hexamethylenediamine (6 carbon atoms) and adipic acid (6 carbon atoms). The '6,6' designation indicates that each monomer unit contributes 6 carbon atoms to the polymer chain."
       }
   ];

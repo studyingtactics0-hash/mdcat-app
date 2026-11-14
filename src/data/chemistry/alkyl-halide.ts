@@ -710,5 +710,32 @@ export type Question = {
         options: ["HSO4-", "OH-", "Cl-", "Br-"],
         answer: 1,
         explanation: "The hydroxide ion (OH-) is a strong base, making it a very poor leaving group in nucleophilic substitution reactions unless protonated first."
+      },
+      {
+        id: "uhs-2026-chem-083",
+        question:
+          "The reaction between ethyl chloride and dry silver oxide on heating yields:",
+        options: [
+          "dimethyl ether.",
+          "diethyl ether",
+          "ethanoic acid.",
+          "ethanal."
+        ],
+        answer: 1,
+        explanation:
+          "When ethyl chloride (2C₂H₅Cl) is heated with dry silver oxide (Ag₂O), two molecules of ethyl chloride react to eliminate silver chloride (2AgCl) and form diethyl ether (C₂H₅–O–C₂H₅). (Moist Ag₂O, by contrast, yields ethanol.)"
+      },
+      {
+        id: "uhs-2026-chem-094",
+        question: "Rate of reaction in E₁ depends on the:",
+        options: [
+          "R-X only",
+          "Base only",
+          "Nucleophile only",
+          "Both base and R-X"
+        ],
+        answer: 0,
+        explanation:
+          "E1 (unimolecular elimination) is a two-step reaction whose slow, rate-determining step is the ionization of the alkyl halide (R–X) to form a carbocation intermediate. Consequently, the rate law is Rate = k[R–X], depending solely on the concentration of the alkyl halide."
       }
   ];

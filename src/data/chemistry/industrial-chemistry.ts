@@ -63,5 +63,13 @@ export type Question = {
       ],
       answer: 2,
       explanation: "PVC is a linear addition polymer that softens upon heating and hardens upon cooling, making it a classic thermoplastic polymer (it is also an addition homopolymer)."
+    },
+    {
+      id: "uhs-2026-chem-118",
+      question: "The starting material for the preparation of PVC is:",
+      options: ["Ethylene", "Acetylene", "Vinyl alcohol", "Methylene"],
+      answer: 1,
+      explanation:
+        "Polyvinyl chloride (PVC) is produced by the addition polymerization of vinyl chloride (chloroethene), which is industrially synthesized by reacting acetylene (ethyne) with hydrogen chloride (HCl) in the presence of a mercuric chloride (HgCl₂) catalyst."
     }
   ];

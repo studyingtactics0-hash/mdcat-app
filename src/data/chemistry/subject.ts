@@ -14147,5 +14147,483 @@ export type Question = {
             options: ["25", "22", "26", "19"],
             answer: 2,
             explanation: "Note: In +3 state configuration given is [Ar] 4s1 3d4 (5 electrons total beyond Ar). Adding 3 electrons gives 18 + 5 + 3 = 26 (Iron)."
+          },
+          {
+            id: "uhs-2026-chem-084",
+            question: "Phenol gives which colored precipitate with aqueous Br₂?",
+            options: ["red ppt", "white ppt", "blue ppt", "orange ppt"],
+            answer: 1,
+            explanation:
+              "When phenol reacts with bromine water (aqueous Br₂), the strongly activating –OH group causes bromination at all ortho and para positions, forming a white precipitate of 2,4,6-tribromophenol and decolorizing the bromine water."
+          },
+          {
+            id: "uhs-2026-chem-096",
+            question: "Grignard's reagent is treated with methanal to produce:",
+            options: ["Phenol", "Primary alcohol", "Propanoic acid", "Ketone"],
+            answer: 1,
+            explanation:
+              "Nucleophilic addition of a Grignard reagent (R–MgX) to methanal (formaldehyde, HCHO) followed by acid hydrolysis yields a primary alcohol (R–CH₂OH)."
+          },
+          {
+            id: "uhs-2026-chem-101",
+            question: "Primary alcohol can be converted into carboxylic acid by:",
+            options: ["CH₃COOH/P₂O₅", "NH₃", "CH₃OH", "H₂SO₄/K₂Cr₂O₇"],
+            answer: 3,
+            explanation:
+              "Strong oxidizing agents such as acidified potassium dichromate (K₂Cr₂O₇ in H₂SO₄) oxidize primary alcohols first to aldehydes and then directly further to carboxylic acids."
+          },
+          {
+            id: "uhs-2026-chem-103",
+            question:
+              "Which of the following tests is used for distinguishing methyl ketones from other ketones?",
+            options: [
+              "Silver mirror test",
+              "Silver nitrate test",
+              "Iodoform test",
+              "Lucas test"
+            ],
+            answer: 2,
+            explanation:
+              "The iodoform test (reaction with I₂ and NaOH) specifically detects compounds containing a CH₃–C=O (methyl ketone) group or CH₃–CH(OH)– group, producing a characteristic yellow precipitate of triiodomethane (CHI₃)."
+          },
+          {
+            id: "uhs-2026-chem-120",
+            question:
+              "Which of the following product will be formed when 2-oxo-pentanal is treated with NaBH₄?",
+            options: [
+              "CH₃CH(OH)CH₂CH₂OH",
+              "CH₂CH₂CH₂CH₂CH₂OH",
+              "CH₃CH(OH)CHCH(OH)CH₃",
+              "CH₃CH₂CH₂CH(OH)CH₂(OH)"
+            ],
+            answer: 3,
+            explanation:
+              "2-Oxopentanal (CH₃CH₂CH₂COCHO) contains both a ketone carbonyl at C-2 and an aldehyde carbonyl at C-1. Sodium borohydride (NaBH₄) reduces both aldehydes and ketones to alcohols, converting C-2 to a secondary alcohol (–CH(OH)–) and C-1 to a primary alcohol (–CH₂OH), yielding pentane-1,2-diol: CH₃CH₂CH₂CH(OH)CH₂(OH)."
+          },
+          {
+            id: "uhs-2026-chem-083",
+            question:
+              "The reaction between ethyl chloride and dry silver oxide on heating yields:",
+            options: [
+              "dimethyl ether.",
+              "diethyl ether",
+              "ethanoic acid.",
+              "ethanal."
+            ],
+            answer: 1,
+            explanation:
+              "When ethyl chloride (2C₂H₅Cl) is heated with dry silver oxide (Ag₂O), two molecules of ethyl chloride react to eliminate silver chloride (2AgCl) and form diethyl ether (C₂H₅–O–C₂H₅). (Moist Ag₂O, by contrast, yields ethanol.)"
+          },
+          {
+            id: "uhs-2026-chem-094",
+            question: "Rate of reaction in E₁ depends on the:",
+            options: [
+              "R-X only",
+              "Base only",
+              "Nucleophile only",
+              "Both base and R-X"
+            ],
+            answer: 0,
+            explanation:
+              "E1 (unimolecular elimination) is a two-step reaction whose slow, rate-determining step is the ionization of the alkyl halide (R–X) to form a carbocation intermediate. Consequently, the rate law is Rate = k[R–X], depending solely on the concentration of the alkyl halide."
+          },
+          {
+            id: "uhs-2026-chem-085",
+            question:
+              "Pfund Series of spectral lines are produced forming the spectrum of hydrogen atom when electron jumps down to_________ orbit.",
+            options: ["2nd", "3rd", "4th", "5th"],
+            answer: 3,
+            explanation:
+              "In the hydrogen emission spectrum, the Pfund series (in the far-infrared region) is produced when an excited electron transitions from higher energy levels (n ≥ 6) down to the 5th orbit (n = 5)."
+          },
+          {
+            id: "uhs-2026-chem-086",
+            question: "The electronic configuration of H⁻ is:",
+            options: ["1s⁰", "1s¹", "1s²", "1s²,2s¹"],
+            answer: 2,
+            explanation:
+              "A neutral hydrogen atom (H) has 1 electron (1s¹). The hydride ion (H⁻) gains one additional electron, giving it a total of 2 electrons, which fill the lowest energy orbital as 1s²."
+          },
+          {
+            id: "uhs-2026-chem-088",
+            question:
+              "An electron having following set of values lies in:\nn = 4, l = 0, m = 0 & s = -1/2",
+            options: ["4s", "4p", "5s", "5p"],
+            answer: 0,
+            explanation:
+              "The principal quantum number n = 4 indicates the 4th shell, and the azimuthal quantum number l = 0 corresponds to the s-subshell. Therefore, the electron resides in the 4s orbital."
+          },
+          {
+            id: "uhs-2026-chem-097",
+            question: "Probability of finding an electron is maximum in:",
+            options: ["Orbit", "Orbital", "Degenerate orbit", "Nodes"],
+            answer: 1,
+            explanation:
+              "An orbital is the three-dimensional region around the nucleus where the probability of finding an electron is maximum (typically 90–95%), whereas nodes are regions of zero electron probability."
+          },
+          {
+            id: "uhs-2026-chem-107",
+            question:
+              "The maximum number of electrons a subshell with azimuthal quantum number (ℓ) can accommodate is calculated by:",
+            options: ["ℓ +1", "2ℓ +1", "2(2ℓ +1)", "2ℓ +2"],
+            answer: 2,
+            explanation:
+              "The number of orbitals in a subshell is given by (2ℓ + 1). Since each orbital can hold a maximum of 2 electrons with opposite spins, the total capacity of a subshell is 2(2ℓ + 1)."
+          },
+          {
+            id: "uhs-2026-chem-087",
+            question:
+              "Carboxylic acid can be formed by reaction of Grignard reagent with:",
+            options: [
+              "Carbonate",
+              "Carbon dioxide",
+              "Aldehyde",
+              "Carbon mono oxide"
+            ],
+            answer: 1,
+            explanation:
+              "Grignard reagents (R–MgX) react with solid carbon dioxide (dry ice, CO₂) via nucleophilic addition to form a magnesium carboxylate intermediate, which upon acidic hydrolysis yields a carboxylic acid (R–COOH) containing one additional carbon atom."
+          },
+          {
+            id: "uhs-2026-chem-119",
+            question:
+              "Acetic acid is converted into acetyl chloride using which reagent?",
+            options: [
+              "thionyl chloride",
+              "chlorine",
+              "sodium chloride",
+              "phosphorous trioxide"
+            ],
+            answer: 0,
+            explanation:
+              "Acetic acid (CH₃COOH) reacts with thionyl chloride (SOCl₂) to produce acetyl chloride (CH₃COCl) along with gaseous byproducts SO₂ and HCl, making thionyl chloride the preferred reagent for preparing acyl chlorides."
+          },
+          {
+            id: "uhs-2026-chem-115",
+            question:
+              "The solubility of AgBr is 7.1 X 10⁻⁷ M. This dissolved AgBr produces equal moles of Ag⁺ and Br⁻, then the solubility product of this equilibrium reaction would be:",
+            options: [
+              "5.041 X 10⁻¹³",
+              "4.941 X 10⁺¹³",
+              "7.1 X 10⁻⁷",
+              "14.082 X 10⁻¹⁴"
+            ],
+            answer: 0,
+            explanation:
+              "For the dissociation equilibrium AgBr(s) ⇌ Ag⁺(aq) + Br⁻(aq), [Ag⁺] = [Br⁻] = 7.1 × 10⁻⁷ M. The solubility product is Ksp = [Ag⁺][Br⁻] = (7.1 × 10⁻⁷)² = 50.41 × 10⁻¹⁴ = 5.041 × 10⁻¹³."
+          },
+          {
+            id: "uhs-2026-chem-098",
+            question: "All alkynes give ketones on hydration EXCEPT:",
+            options: ["Acetylene", "Propyne", "Butyne", "Pentyne"],
+            answer: 0,
+            explanation:
+              "Hydration of alkynes in the presence of HgSO₄ and dilute H₂SO₄ proceeds via an unstable enol intermediate that tautomerizes into a carbonyl compound. Acetylene (ethyne, HC≡CH) forms vinyl alcohol, which tautomerizes to acetaldehyde (an aldehyde), whereas all higher alkynes yield ketones."
+          },
+          {
+            id: "uhs-2026-chem-099",
+            question: "Benzene is stable because of:",
+            options: [
+              "containing single bond",
+              "presence of delocalization of π electron",
+              "containing sp³ hybridized carbon",
+              "isolated double bonds"
+            ],
+            answer: 1,
+            explanation:
+              "Benzene consists of six sp²-hybridized carbon atoms forming a planar hexagonal ring with six unhybridized p-orbitals overlapping continuously. The extensive delocalization (resonance) of these six π-electrons across the entire ring lowers its internal energy significantly, giving benzene extraordinary thermodynamic stability."
+          },
+          {
+            id: "uhs-2026-chem-106",
+            question:
+              "The oxidation number of both nitrogen atoms in NH₄NO₃ is/are:",
+            options: ["+4 and -4", "-3 and +5", "-4 and +6", "-4 and +5"],
+            answer: 1,
+            explanation:
+              "Ammonium nitrate (NH₄NO₃) consists of two ions: NH₄⁺ and NO₃⁻. In NH₄⁺, x + 4(+1) = +1, giving x = -3. In NO₃⁻, y + 3(-2) = -1, giving y = +5. Thus, the oxidation numbers of the two nitrogen atoms are -3 and +5."
+          },
+          {
+            id: "uhs-2026-chem-108",
+            question: "In galvanic cell oxidation occurs on:",
+            options: ["Cathode", "Anode", "Salt bridge", "Electrolyte"],
+            answer: 1,
+            explanation:
+              "In all electrochemical cells (both galvanic and electrolytic), oxidation (loss of electrons) always takes place at the anode, while reduction takes place at the cathode."
+          },
+          {
+            id: "uhs-2026-chem-109",
+            question: "The oxidation number of Cl in HClO₃ is:",
+            options: ["1-", "5-", "1+", "5+"],
+            answer: 3,
+            explanation:
+              "In chloric acid (HClO₃), the sum of oxidation numbers equals zero: (+1) + x + 3(-2) = 0 → 1 + x - 6 = 0 → x = +5 (or 5+)."
+          },
+          {
+            id: "uhs-2026-chem-091",
+            question:
+              "The actual amount of CaO obtained on thermal decomposition of 25g of CaCO₃ is 12g. What is the approximate percentage yield? (Molar mass of CaCO₃ = 100, Molar mass of CaO = 56)\nCaCO₃ → CaO + CO₂",
+            options: ["50 %", "60 %", "86 %", "90 %"],
+            answer: 2,
+            explanation:
+              "100 g of CaCO₃ theoretically produces 56 g of CaO. Therefore, 25 g of CaCO₃ theoretically yields (56 / 100) × 25 = 14 g of CaO. Percentage yield = (Actual yield / Theoretical yield) × 100 = (12 / 14) × 100 ≈ 85.7%, which approximates to 86%."
+          },
+          {
+            id: "uhs-2026-chem-092",
+            question:
+              "If actual yield and theoretical yield are 20g and 25g respectively, what will be the % yield?",
+            options: ["60%", "70%", "80%", "85%"],
+            answer: 2,
+            explanation:
+              "Percentage yield is calculated using the formula: % Yield = (Actual Yield / Theoretical Yield) × 100. Substituting the given values: (20 g / 25 g) × 100 = 80%."
+          },
+          {
+            id: "uhs-2026-chem-110",
+            question: "What will be the mass of 0.5 moles of CaCO₃?",
+            options: ["50 g", "55 g", "45 g", "60 g"],
+            answer: 0,
+            explanation:
+              "The molar mass of CaCO₃ is 40 (Ca) + 12 (C) + 3 × 16 (O) = 100 g/mol. Mass = Number of moles × Molar mass = 0.5 mol × 100 g/mol = 50 g."
+          },
+          {
+            id: "uhs-2026-chem-112",
+            question: "Which type of isomerism is exhibited by 2-Butene?",
+            options: [
+              "Tautomerism",
+              "Geometric isomerism",
+              "Functional group isomerism",
+              "Metamerism"
+            ],
+            answer: 1,
+            explanation:
+              "2-Butene (CH₃–CH=CH–CH₃) exhibits geometric (cis-trans) isomerism because restricted rotation around the carbon–carbon double bond and two different groups (–H and –CH₃) attached to each sp²-hybridized double-bonded carbon allow distinct spatial arrangements (cis-2-butene and trans-2-butene)."
+          },
+          {
+            id: "uhs-2026-chem-089",
+            question: "At which condition real gases show ideal behavior?",
+            options: [
+              "100°C and 10 atm",
+              "1000°C and 20 atm",
+              "1000°C and 1 atm",
+              "10°C and 100 atm"
+            ],
+            answer: 2,
+            explanation:
+              "Real gases approach ideal behavior at high temperatures and low pressures, where intermolecular forces become negligible and the volume of gas molecules is insignificant compared to the container volume. Among the choices, 1000°C and 1 atm represents the highest temperature and lowest pressure."
+          },
+          {
+            id: "uhs-2026-chem-093",
+            question:
+              "The new volume when pressure is halved while temperature and number of moles are doubled will be:",
+            options: ["Doubled", "Quadrupled", "Sextupled", "Octupled"],
+            answer: 3,
+            explanation:
+              "From the ideal gas law, V = nRT / P. If n becomes 2n, T becomes 2T, and P becomes P/2, then V_new = (2n × R × 2T) / (P / 2) = 8 × (nRT / P) = 8V. Thus, the volume is octupled (increased 8 times)."
+          },
+          {
+            id: "uhs-2026-chem-104",
+            question:
+              "9.03 x 10²³ molecules of an ideal gas at STP will have volume of:",
+            options: ["11.2 dm³", "22.4 dm³", "33.6 dm³", "44.8dm³"],
+            answer: 2,
+            explanation:
+              "Number of moles (n) = (9.03 × 10²³) / (6.02 × 10²³) = 1.5 moles. At STP, 1 mole of an ideal gas occupies 22.4 dm³, so 1.5 moles occupy 1.5 × 22.4 = 33.6 dm³."
+          },
+          {
+            id: "uhs-2026-chem-121",
+            question:
+              "At a constant temperature and pressure, a 2.0 L container holds 0.5 moles of Nitrogen gas (N₂). If an additional 1.0 mole of Nitrogen is pumped into the container without changing the temperature or pressure, what will be the new volume of the container?",
+            options: ["3.0 L", "4.0 L", "6.0 L", "8.0 L"],
+            answer: 2,
+            explanation:
+              "According to Avogadro's law (V₁ / n₁ = V₂ / n₂ at constant T and P), the total moles become n₂ = 0.5 + 1.0 = 1.5 moles. Therefore, V₂ = (2.0 L / 0.5 mol) × 1.5 mol = 6.0 L."
+          },
+          {
+            id: "uhs-2026-chem-122",
+            question:
+              "The value of ideal gas constant in dm³.torr. K⁻¹.mol⁻¹ is:",
+            options: ["0.0821", "1.98722", "8.3143", "62.364"],
+            answer: 3,
+            explanation:
+              "Since 1 atm = 760 torr and R = 0.0821 dm³·atm·K⁻¹·mol⁻¹, multiplying 0.0821 by 760 gives 62.396 (commonly cited as 62.364 or 62.4 dm³·torr·K⁻¹·mol⁻¹)."
+          },
+          {
+            id: "uhs-2026-chem-118",
+            question: "The starting material for the preparation of PVC is:",
+            options: ["Ethylene", "Acetylene", "Vinyl alcohol", "Methylene"],
+            answer: 1,
+            explanation:
+              "Polyvinyl chloride (PVC) is produced by the addition polymerization of vinyl chloride (chloroethene), which is industrially synthesized by reacting acetylene (ethyne) with hydrogen chloride (HCl) in the presence of a mercuric chloride (HgCl₂) catalyst."
+          },
+          {
+            id: "uhs-2026-chem-082",
+            question:
+              "Which type of interaction is primarily responsible for holding molecules together in noble gases?",
+            options: [
+              "Covalent bond",
+              "Electrostatic forces of attraction",
+              "Hydrogen bonding",
+              "London dispersion forces"
+            ],
+            answer: 3,
+            explanation:
+              "Noble gases exist as monoatomic, non-polar atoms with completely filled valence shells. The only intermolecular forces acting between them are weak, temporary induced-dipole attractions known as London dispersion forces."
+          },
+          {
+            id: "uhs-2026-chem-116",
+            question: "What is the solvent in an aqueous solution of methanol?",
+            options: ["HCl", "Water", "Methanol", "NaOH"],
+            answer: 1,
+            explanation:
+              "By definition, an aqueous solution is any solution in which water is the solvent. Therefore, in an aqueous solution of methanol, water acts as the solvent and methanol is the solute."
+          },
+          {
+            id: "uhs-2026-chem-113",
+            question:
+              "Nylon-6,6 is made from two monomers each of which contains:",
+            options: [
+              "6 carbon atoms.",
+              "6 amino groups.",
+              "6 nitrogen atoms.",
+              "6 carboxylic acid groups."
+            ],
+            answer: 0,
+            explanation:
+              "Nylon-6,6 is a polyamide formed by the condensation polymerization of two monomers: hexamethylenediamine (6 carbon atoms) and adipic acid (6 carbon atoms). The '6,6' designation indicates that each monomer unit contributes 6 carbon atoms to the polymer chain."
+          },
+          {
+            id: "uhs-2026-chem-095",
+            question:
+              "For 3rd order reaction rate=k[A][B]² when concentration of both reactant is doubled the new rate becomes:",
+            options: ["halved", "doubled", "quadrupled", "octupled"],
+            answer: 3,
+            explanation:
+              "Given Rate = k[A][B]², doubling both [A] and [B] gives Rate_new = k(2[A])(2[B])² = k × 2[A] × 4[B]² = 8k[A][B]². Thus, the reaction rate increases by a factor of 8 (octupled)."
+          },
+          {
+            id: "uhs-2026-chem-105",
+            question:
+              "Rate = k[A]⁰[B]\nIf we double the concentration of A and B, the rate of reaction becomes:",
+            options: [
+              "remains the same",
+              "gets doubled",
+              "gets tripled",
+              "gets halved"
+            ],
+            answer: 1,
+            explanation:
+              "Since the reaction is zero-order with respect to A ([A]⁰ = 1) and first-order with respect to B, Rate_new = k(2[A])⁰(2[B]) = k(1)(2[B]) = 2k[B]. Therefore, the rate gets doubled."
+          },
+          {
+            id: "uhs-2026-chem-111",
+            question:
+              "Sara dissolved 5 g each of crushed and large sized crystal of copper sulphate in two separate test tubes containing 10 mL water. After 5 minutes of stirring, she observed that the test tube containing crushed copper sulphate had dissolved in water while the test tube containing the large sized crystal still showed undissolved form. The reason for FASTER dissolution is that the crushed copper sulphate:",
+            options: [
+              "are more in density.",
+              "have greater surface area.",
+              "are low in density",
+              "have smaller surface area."
+            ],
+            answer: 1,
+            explanation:
+              "Crushing a solid into smaller particles increases the total exposed surface area in contact with the solvent (water), allowing more frequent collisions between solute and solvent molecules and resulting in a faster rate of dissolution."
+          },
+          {
+            id: "uhs-2026-chem-126",
+            question:
+              "Which of the following elements from Period 3 of Periodic table, has the largest ionic radius when forms a stable ion?",
+            options: ["Sodium", "Silicon", "Phosphorous", "Chlorine"],
+            answer: 2,
+            explanation:
+              "Among Period 3 elements forming stable ions, phosphorus gains three electrons to form the phosphide ion (P³⁻), while chlorine forms Cl⁻, silicon typically forms Si⁴⁺ (or covalent networks), and sodium forms Na⁺. For the isoelectronic anions P³⁻ and Cl⁻ (both having 18 electrons), P³⁻ has fewer protons (15 vs. 17), resulting in weaker nuclear attraction on the valence shell and therefore the largest ionic radius."
+          },
+          {
+            id: "uhs-2026-chem-090",
+            question:
+              "Which of the following statements describes a crystalline solid?",
+            options: [
+              "Particles are randomly arranged with no repeating pattern.",
+              "Particles are arranged in a long-range, repeating 3D pattern.",
+              "It softens gradually over a range of temperatures.",
+              "It has no definite shape or melting point."
+            ],
+            answer: 1,
+            explanation:
+              "Crystalline solids are characterized by an orderly, long-range, repeating three-dimensional arrangement of atoms, ions, or molecules, giving them a definite geometric shape and a sharp melting point."
+          },
+          {
+            id: "uhs-2026-chem-100",
+            question:
+              "The value of lattice energy across the period in the periodic table:",
+            options: ["Increases", "Decreases", "Remains same", "Changes randomly"],
+            answer: 0,
+            explanation:
+              "Moving left to right across a period, ionic charge increases while ionic radius decreases. Since lattice energy is directly proportional to the product of ionic charges and inversely proportional to interionic distance, lattice energy increases across a period."
+          },
+          {
+            id: "uhs-2026-chem-114",
+            question:
+              "A student observes that solid substance “X” does not conduct electricity but conducts when melted, while substance “Y” does not conduct electricity in any state. What is the most appropriate classification of “X” and “Y”?",
+            options: [
+              "X is a molecular crystal, Y is an ionic crystal",
+              "X is an ionic crystal; Y is a molecular crystal",
+              "Both X and Y are ionic crystals",
+              "Both X and Y are molecular crystals"
+            ],
+            answer: 1,
+            explanation:
+              "Ionic crystals have ions locked in fixed lattice positions in the solid state (non-conducting) that become mobile and conduct electricity when melted. Molecular crystals consist of neutral molecules with no free charge carriers in either solid or molten states."
+          },
+          {
+            id: "uhs-2026-chem-117",
+            question:
+              "Which one of the following is the best example of an amorphous solid?",
+            options: ["Diamond", "Glass", "Sodium chloride", "Potassium Bromide"],
+            answer: 1,
+            explanation:
+              "Glass is a classic amorphous solid lacking long-range periodic order in its atomic structure, whereas diamond (covalent network), sodium chloride (ionic), and potassium bromide (ionic) are crystalline solids."
+          },
+          {
+            id: "uhs-2026-chem-125",
+            question:
+              "A thermodynamic system goes through a cyclic process which absorbs 1200 J heat and ejects 700 J heat. Which statement correctly describes this?",
+            options: [
+              "The ∆E of a system increases by 500 J",
+              "The ∆E of a system decreases by 500 J",
+              "The system performs network of 500 J",
+              "The surroundings perform network of 500 J"
+            ],
+            answer: 2,
+            explanation:
+              "In a cyclic process, the system returns to its initial state, so the net change in internal energy is zero (ΔE = 0). By the first law of thermodynamics (ΔE = q - w), net heat absorbed is q = 1200 J - 700 J = +500 J, meaning the system performs net work w = +500 J on the surroundings."
+          },
+          {
+            id: "uhs-2026-chem-102",
+            question: "Select the true statement for a transition element.",
+            options: [
+              "All are hard and weak metals with low melting point",
+              "All are hard and strong metals with high melting point",
+              "All are soft and strong metals with high melting point",
+              "All are soft and weak metals with low melting point"
+            ],
+            answer: 1,
+            explanation:
+              "Transition metals possess strong metallic bonding due to the participation of both ns and unpaired (n-1)d electrons, making them typically hard, strong metals with high melting and boiling points."
+          },
+          {
+            id: "uhs-2026-chem-123",
+            question: "How many unpaired electrons are there in Fe⁺⁺(Z=26)?",
+            options: ["6", "4", "3", "2"],
+            answer: 1,
+            explanation:
+              "Neutral iron (Fe, Z = 26) has the electronic configuration [Ar] 3d⁶ 4s². Upon losing two electrons to form Fe²⁺, the 4s electrons are removed first, leaving [Ar] 3d⁶. According to Hund's rule, the six 3d electrons occupy the five d-orbitals as one paired set and four unpaired electrons."
+          },
+          {
+            id: "uhs-2026-chem-124",
+            question:
+              "An element X having atomic number “Z=27” belongs to which block of periodic table?",
+            options: ["s-block", "p-block", "d-block", "f-block"],
+            answer: 2,
+            explanation:
+              "The element with atomic number Z = 27 is Cobalt (Co), which has the electronic configuration [Ar] 3d⁷ 4s². Since its differentiating (last) electron enters the 3d subshell, it belongs to the d-block of the periodic table."
           }
 ];

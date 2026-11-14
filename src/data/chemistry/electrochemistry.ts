@@ -865,5 +865,30 @@ export type Question = {
           "None"
         ],
         answer: 1
+      },
+      {
+        id: "uhs-2026-chem-106",
+        question:
+          "The oxidation number of both nitrogen atoms in NH₄NO₃ is/are:",
+        options: ["+4 and -4", "-3 and +5", "-4 and +6", "-4 and +5"],
+        answer: 1,
+        explanation:
+          "Ammonium nitrate (NH₄NO₃) consists of two ions: NH₄⁺ and NO₃⁻. In NH₄⁺, x + 4(+1) = +1, giving x = -3. In NO₃⁻, y + 3(-2) = -1, giving y = +5. Thus, the oxidation numbers of the two nitrogen atoms are -3 and +5."
+      },
+      {
+        id: "uhs-2026-chem-108",
+        question: "In galvanic cell oxidation occurs on:",
+        options: ["Cathode", "Anode", "Salt bridge", "Electrolyte"],
+        answer: 1,
+        explanation:
+          "In all electrochemical cells (both galvanic and electrolytic), oxidation (loss of electrons) always takes place at the anode, while reduction takes place at the cathode."
+      },
+      {
+        id: "uhs-2026-chem-109",
+        question: "The oxidation number of Cl in HClO₃ is:",
+        options: ["1-", "5-", "1+", "5+"],
+        answer: 3,
+        explanation:
+          "In chloric acid (HClO₃), the sum of oxidation numbers equals zero: (+1) + x + 3(-2) = 0 → 1 + x - 6 = 0 → x = +5 (or 5+)."
       }
   ];

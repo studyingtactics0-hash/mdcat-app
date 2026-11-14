@@ -364,5 +364,27 @@ export type Question = {
         ],
         answer: 1,
         explanation: "Vapor pressure is inversely related to intermolecular force strength. Diethyl ether (weakest IMF) has the highest vapor pressure, followed by acetone, ethanol, and water (strongest IMF)."
-      } 
+      },
+      {
+        id: "uhs-2026-chem-082",
+        question:
+          "Which type of interaction is primarily responsible for holding molecules together in noble gases?",
+        options: [
+          "Covalent bond",
+          "Electrostatic forces of attraction",
+          "Hydrogen bonding",
+          "London dispersion forces"
+        ],
+        answer: 3,
+        explanation:
+          "Noble gases exist as monoatomic, non-polar atoms with completely filled valence shells. The only intermolecular forces acting between them are weak, temporary induced-dipole attractions known as London dispersion forces."
+      },
+      {
+        id: "uhs-2026-chem-116",
+        question: "What is the solvent in an aqueous solution of methanol?",
+        options: ["HCl", "Water", "Methanol", "NaOH"],
+        answer: 1,
+        explanation:
+          "By definition, an aqueous solution is any solution in which water is the solvent. Therefore, in an aqueous solution of methanol, water acts as the solvent and methanol is the solute."
+      }
   ];

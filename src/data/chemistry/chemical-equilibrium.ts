@@ -950,5 +950,19 @@ export type Question = {
           "A and B"
         ],
         answer: 3
+      },
+      {
+        id: "uhs-2026-chem-115",
+        question:
+          "The solubility of AgBr is 7.1 X 10⁻⁷ M. This dissolved AgBr produces equal moles of Ag⁺ and Br⁻, then the solubility product of this equilibrium reaction would be:",
+        options: [
+          "5.041 X 10⁻¹³",
+          "4.941 X 10⁺¹³",
+          "7.1 X 10⁻⁷",
+          "14.082 X 10⁻¹⁴"
+        ],
+        answer: 0,
+        explanation:
+          "For the dissociation equilibrium AgBr(s) ⇌ Ag⁺(aq) + Br⁻(aq), [Ag⁺] = [Br⁻] = 7.1 × 10⁻⁷ M. The solubility product is Ksp = [Ag⁺][Br⁻] = (7.1 × 10⁻⁷)² = 50.41 × 10⁻¹⁴ = 5.041 × 10⁻¹³."
       }
   ];
