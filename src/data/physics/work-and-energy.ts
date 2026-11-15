@@ -993,5 +993,29 @@ export type Question = {
           "Zero"
         ],
         answer: 1
+      },
+      {
+        id: "uhs-2026-phys-142",
+        question: "Two identical masses are placed at heights h and 2h, the ratio of gravitational potential energies will be:",
+        options: [
+          "1:2",
+          "2:1",
+          "equal",
+          "dependent on mass"
+        ],
+        answer: 0,
+        explanation: "Gravitational potential energy is given by PE = mgh. Since both masses (m) and gravitational acceleration (g) are identical, potential energy is directly proportional to height (PE ∝ h). Therefore, PE₁ : PE₂ = mgh : mg(2h) = 1:2."
+      },
+      {
+        id: "uhs-2026-phys-151",
+        question: "A bullet fired from gun pierces a target due to:",
+        options: [
+          "Mechanical energy",
+          "Heat energy",
+          "Kinetic energy",
+          "Potential energy"
+        ],
+        answer: 2,
+        explanation: "A moving bullet possesses high kinetic energy (KE = ½mv²) due to its high velocity, which allows it to do work against the resistive forces of the target and pierce through it."
       }
   ];

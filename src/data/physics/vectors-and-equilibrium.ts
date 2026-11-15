@@ -115,5 +115,17 @@ export type Question = {
       ],
       answer: 0,
       explanation: "A vector lying purely along the x-axis has θ = 0°, making its perpendicular y-component (F sin 0°) equal to zero."
+    },
+    {
+      id: "uhs-2026-phys-143",
+      question: "The scalar product of two parallel vectors is equal to:",
+      options: [
+        "Zero",
+        "Square of the magnitude",
+        "Product of their magnitude",
+        "Sum of their magnitude"
+      ],
+      answer: 2,
+      explanation: "The scalar (dot) product of two vectors A and B is given by A · B = AB cos(θ). For two parallel vectors, the angle θ = 0°, and since cos(0°) = 1, the scalar product equals AB, which is the product of their magnitudes."
     }
   ];

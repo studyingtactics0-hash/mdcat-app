@@ -1190,5 +1190,101 @@ export type Question = {
             "Water waves"
           ],
           answer: 1
+        },
+        {
+          id: "uhs-2026-phys-127",
+          question: "The distance traveled by a wave in unit time is termed as:",
+          options: [
+            "Wavelength",
+            "Amplitude",
+            "Displacement",
+            "Wave speed"
+          ],
+          answer: 3,
+          explanation: "Wave speed (v) is defined as the total distance traveled by a wave crest or trough per unit time (v = d / t = fλ)."
+        },
+        {
+          id: "uhs-2026-phys-128",
+          question: "The frequency of a wave having wavelength 0.5m while passing a point with speed of 4 m/s is:",
+          options: [
+            "2 Hz",
+            "4 Hz",
+            "6 Hz",
+            "8 Hz"
+          ],
+          answer: 3,
+          explanation: "Using the wave speed equation v = fλ, we solve for frequency: f = v / λ = 4 m/s / 0.5 m = 8 Hz."
+        },
+        {
+          id: "uhs-2026-phys-129",
+          question: "If particles of a slinky spring are moving perpendicularly to the propagation of the waves, then waves in the slinky spring will be:",
+          options: [
+            "matter waves",
+            "electromagnetic waves",
+            "transverse waves",
+            "longitudinal waves"
+          ],
+          answer: 2,
+          explanation: "By definition, transverse waves are mechanical waves in which the particles of the medium oscillate perpendicular (at right angles) to the direction of wave propagation."
+        },
+        {
+          id: "uhs-2026-phys-135",
+          question: "When a particle executes simple harmonic motion, the quantity 4π²f² is equal to:",
+          options: [
+            "gl",
+            "g/l",
+            "l/g",
+            "√g/l"
+          ],
+          answer: 1,
+          explanation: "For a simple pendulum executing SHM, the frequency is f = (1 / 2π) √(g / l). Squaring both sides gives f² = (1 / 4π²)(g / l), which rearranges to 4π²f² = g / l (where ω² = 4π²f² = g / l)."
+        },
+        {
+          id: "uhs-2026-phys-152",
+          question: "If 10 waves pass through a denser medium in 1 second with a speed of 10 m/sec, then the wavelength of the wave will be:",
+          options: [
+            "0.1 m",
+            "1 m",
+            "10 m",
+            "100 m"
+          ],
+          answer: 1,
+          explanation: "The frequency is the number of waves passing a point per second, so f = 10 Hz. Using v = fλ, the wavelength is λ = v / f = 10 m/s / 10 Hz = 1 m."
+        },
+        {
+          id: "uhs-2026-phys-153",
+          question: "The place where compressions of a sound wave combine with the rarefactions of another sound wave and cancel each other is called a:",
+          options: [
+            "dead beat.",
+            "null point.",
+            "zero point.",
+            "node point."
+          ],
+          answer: 3,
+          explanation: "When two identical sound waves interfere destructively (compression meets rarefaction), the net displacement/pressure variation is zero, forming a stationary point of minimum or zero amplitude known as a node (or node point)."
+        },
+        {
+          id: "uhs-2026-phys-158",
+          question: "The speed of sound is faster on a rainy day because:",
+          options: [
+            "mass of moist air is more than the dry air.",
+            "density of moist air is less than the dry air.",
+            "temperature of the medium remains the same.",
+            "medium of propagation of sound remains the same."
+          ],
+          answer: 1,
+          explanation: "Water vapor (H₂O, molar mass 18 g/mol) is lighter than dry air (primarily N₂ at 28 g/mol and O₂ at 32 g/mol), making humid/moist air less dense than dry air. Since the speed of sound is inversely proportional to the square root of density (v = √(γP / ρ)), sound travels faster in moist air."
+        },
+        {
+          id: "uhs-2026-phys-162",
+          question: "If the speed of a standing wave in a string is 2 m/s and its wavelength is 0.25 m, then the frequency of the standing wave will be:",
+          options: [
+            "0.125 Hz.",
+            "2.0 Hz.",
+            "4.0 Hz.",
+            "8.0 Hz."
+          ],
+          answer: 3,
+          explanation: "Using the wave equation v = fλ, the frequency is f = v / λ = 2 m/s / 0.25 m = 8.0 Hz."
         }
   ];

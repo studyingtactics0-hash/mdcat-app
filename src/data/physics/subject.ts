@@ -12911,5 +12911,437 @@ export type Question = {
           "Zero"
         ],
         answer: 1
+      },
+      {
+        id: "uhs-2026-phys-139",
+        question: "In the atomic spectrum of neon each line represents:",
+        options: [
+          "A different atom",
+          "A different element",
+          "A photon with specific energy",
+          "An atom splitting"
+        ],
+        answer: 2,
+        explanation: "Each discrete spectral line in an emission spectrum corresponds to a specific electronic transition between quantized energy levels, emitting a photon with a characteristic wavelength and specific energy (E = hf = E₂ - E₁)."
+      },
+      {
+        id: "uhs-2026-phys-154",
+        question: "What is the reason for the steady current flow in a circuit?",
+        options: [
+          "Presence of very large resistance",
+          "Presence of a constant voltage source in circuit",
+          "presence of switch in circuit",
+          "Presence of ammeter in circuit"
+        ],
+        answer: 1,
+        explanation: "A steady current requires a continuous potential difference across the ends of a conductor, which is maintained by a constant voltage (EMF) source such as a battery or DC power supply."
+      },
+      {
+        id: "uhs-2026-phys-134",
+        question: "Which of the following statements explains by Lenz's law of electromagnetic induction?",
+        options: [
+          "The production of induced e.m.f.",
+          "The magnitude of induced e.m.f.",
+          "The direction of induced e.m.f.",
+          "The strength of induced e.m.f."
+        ],
+        answer: 2,
+        explanation: "While Faraday's law gives the magnitude of the induced EMF, Lenz's law determines the direction of the induced EMF (or current), stating that it always opposes the change in magnetic flux that produces it."
+      },
+      {
+        id: "uhs-2026-phys-137",
+        question: "A conducting coil with its plane perpendicular to a uniform magnetic field is moved at constant speed in the field region, the induced emf in the coil is:",
+        options: [
+          "zero",
+          "constant",
+          "increasing",
+          "decreasing"
+        ],
+        answer: 0,
+        explanation: "According to Faraday's law (ε = -N ΔΦ / Δt), an EMF is induced only when there is a change in magnetic flux through the coil. Moving a coil entirely within a uniform magnetic field without changing its orientation or area keeps the magnetic flux constant (ΔΦ = 0), so the induced EMF is zero."
+      },
+      {
+        id: "uhs-2026-phys-149",
+        question: "The quantity that remains constant in an ideal transformer is:",
+        options: [
+          "Voltage",
+          "Current",
+          "Power",
+          "Heat"
+        ],
+        answer: 2,
+        explanation: "An ideal transformer has 100% efficiency with no energy losses (no copper loss, eddy current loss, or hysteresis loss), meaning the input electrical power equals the output electrical power (P_in = P_out, or V_p I_p = V_s I_s)."
+      },
+      {
+        id: "uhs-2026-phys-161",
+        question: "The process of conversion of alternating current into direct current is known as:",
+        options: [
+          "modulation.",
+          "polarisation.",
+          "rectification.",
+          "quantisation."
+        ],
+        answer: 2,
+        explanation: "Rectification is the process of converting alternating current (AC), which periodically reverses direction, into direct current (DC), which flows in only one direction, typically using semiconductor diodes."
+      },
+      {
+        id: "uhs-2026-phys-138",
+        question: "The work done between two points per unit positive charge against the electric field due to a source charge is called as:",
+        options: [
+          "Electric Power",
+          "Electric Potential difference",
+          "Electric flux",
+          "Electric field Intensity"
+        ],
+        answer: 1,
+        explanation: "Electric potential difference (ΔV) between two points in an electric field is defined as the work done per unit positive test charge in moving it from one point to the other against the electrostatic force while keeping it in equilibrium (ΔV = W_AB / q₀)."
+      },
+      {
+        id: "uhs-2026-phys-159",
+        question: "Two opposite point charges, each of magnitude Q are separated by a distance s. The electric potential at a point mid-way between them is:",
+        options: [
+          "q",
+          "-kq/s",
+          "infinity",
+          "zero"
+        ],
+        answer: 3,
+        explanation: "Electric potential is a scalar quantity given by V = kq / r. At the midpoint (distance r = s / 2 from each charge), the potential due to +Q is V₁ = +kQ / (s / 2) and the potential due to -Q is V₂ = -kQ / (s / 2). Their algebraic sum is V = V₁ + V₂ = 0."
+      },
+      {
+        id: "uhs-2026-phys-140",
+        question: "In a spray bottle, pressing the nozzle causes fast air flow, which:",
+        options: [
+          "creates high pressure to lift the liquid",
+          "creates low pressure to lift the liquid",
+          "increases pressure at the tube opening",
+          "reduces liquids surface tension"
+        ],
+        answer: 1,
+        explanation: "According to Bernoulli's principle, where the speed of a fluid is high, the internal pressure is low. Fast-moving air over the top of the vertical tube reduces the pressure there compared to the atmospheric pressure acting on the liquid surface inside the bottle, pushing the liquid up the tube."
+      },
+      {
+        id: "uhs-2026-phys-144",
+        question: "The volume flow rate is equal to:",
+        options: [
+          "mv",
+          "Av",
+          "Aρ",
+          "vρ"
+        ],
+        answer: 1,
+        explanation: "Volume flow rate (Q) is defined as the volume of fluid passing through a cross-sectional area per unit time: Q = ΔV / Δt = (A × Δx) / Δt = Av, where A is the cross-sectional area and v is the fluid velocity."
+      },
+      {
+        id: "uhs-2026-phys-148",
+        question: "The equation of continuity Av = constant. The constant shows:",
+        options: [
+          "volume of fluid",
+          "mass the of fluid",
+          "density the of fluid",
+          "volume flow rate"
+        ],
+        answer: 3,
+        explanation: "For an incompressible fluid in steady flow, the equation of continuity states that A₁v₁ = A₂v₂ = constant. The product of cross-sectional area (A) and fluid speed (v) represents the volume flow rate (ΔV / Δt) in m³/s."
+      },
+      {
+        id: "uhs-2026-phys-131",
+        question: "When a car is moving with constant acceleration, the shape of velocity time graph is:",
+        options: [
+          "Parabola",
+          "Incline curve",
+          "Straight line",
+          "Decline curve"
+        ],
+        answer: 2,
+        explanation: "The slope of a velocity-time graph represents acceleration (a = Δv / Δt). Since acceleration is constant, the slope remains uniform, resulting in a straight line."
+      },
+      {
+        id: "uhs-2026-phys-132",
+        question: "Time rate of change of momentum of a body equals the:",
+        options: [
+          "Impulse",
+          "Force",
+          "Torque",
+          "Velocity"
+        ],
+        answer: 1,
+        explanation: "According to Newton's second law of motion in terms of momentum, the net external force acting on a body is equal to the time rate of change of its linear momentum (F = Δp / Δt)."
+      },
+      {
+        id: "uhs-2026-phys-133",
+        question: "In a displacement-time graph, the slope of the tangent drawn at a specific point on the curve indicates the object's:",
+        options: [
+          "Average velocity over entire graph",
+          "Instantaneous velocity at that point",
+          "Instantaneous velocity at the starting point",
+          "Instantaneous velocity at the final point"
+        ],
+        answer: 1,
+        explanation: "The slope of a displacement-time graph represents velocity. For a curved graph (non-uniform velocity), the slope of the tangent at any specific point gives the instantaneous velocity (v = ds / dt) at that exact instant."
+      },
+      {
+        id: "uhs-2026-phys-141",
+        question: "A force of 10 N acts on a body of mass 2 kg. The acceleration produced is:",
+        options: [
+          "5 m/s²",
+          "10 m/s²",
+          "20 m/s²",
+          "0.2 m/s²"
+        ],
+        answer: 0,
+        explanation: "Using Newton's second law, F = ma, we rearrange for acceleration: a = F / m = 10 N / 2 kg = 5 m/s²."
+      },
+      {
+        id: "uhs-2026-phys-157",
+        question: "For a projectile, the angle of projection for maximum horizontal range is:",
+        options: [
+          "22.5°",
+          "30°",
+          "45°",
+          "60°"
+        ],
+        answer: 2,
+        explanation: "The horizontal range of a projectile is given by R = (v_i² sin(2θ)) / g. For maximum range, sin(2θ) must be at its maximum value of 1, which occurs when 2θ = 90°, giving θ = 45°."
+      },
+      {
+        id: "uhs-2026-phys-136",
+        question: "At a certain time, 50% of a radioactive sample remains undecayed. After 10 seconds, only 12.5% of the sample remains. The half-life of the substance is:",
+        options: [
+          "2.5 s",
+          "3.3 s",
+          "5 s",
+          "10 s"
+        ],
+        answer: 2,
+        explanation: "The sample decays from 50% to 25% in one half-life, and from 25% to 12.5% in a second half-life. Since 2 half-lives take 10 seconds, one half-life is T₁/₂ = 10 s / 2 = 5 s."
+      },
+      {
+        id: "uhs-2026-phys-155",
+        question: "Cobalt-60, a radioisotope, is used in hospitals:",
+        options: [
+          "for X-rays image",
+          "to damage the cancer cells",
+          "to damage the healthy cells",
+          "for surgical equipment sterilization"
+        ],
+        answer: 1,
+        explanation: "Cobalt-60 emits high-energy gamma rays and is widely used in radiation therapy (teletherapy) to target and destroy malignant cancer cells."
+      },
+      {
+        id: "uhs-2026-phys-156",
+        question: "What is meant by random nature of radioactive decay of a substance?",
+        options: [
+          "We cannot control the decay rate.",
+          "Probability of decay of every unstable nucleus is constant.",
+          "We can locate every next decaying nuclei.",
+          "We can speed up the decay process."
+        ],
+        answer: 1,
+        explanation: "Radioactive decay is a random quantum process, meaning it is impossible to predict which specific nucleus will decay next, and every unstable nucleus has a constant probability of decaying per unit time (represented by the decay constant λ)."
+      },
+      {
+        id: "uhs-2026-phys-160",
+        question: "A fan rotates uniformly at the rate of 2 rev/s. Its angular velocity in SI units will be:",
+        options: [
+          "2π rev/s",
+          "4π rev/min",
+          "π/2 rad/s",
+          "4π rad/s"
+        ],
+        answer: 3,
+        explanation: "The SI unit of angular velocity (ω) is rad/s. Since 1 revolution equals 2π radians, an angular frequency of f = 2 rev/s converts to ω = 2πf = 2π × 2 = 4π rad/s."
+      },
+      {
+        id: "uhs-2026-phys-130",
+        question: "The quantity measured in J/mol.K is",
+        options: [
+          "Specific heat",
+          "Thermal conductivity",
+          "Molar specific heat",
+          "Latent heat"
+        ],
+        answer: 2,
+        explanation: "Molar specific heat capacity (C_m) is defined as the heat energy required to raise the temperature of 1 mole of a substance by 1 Kelvin (C_m = Q / (nΔT)), so its SI unit is J/(mol·K)."
+      },
+      {
+        id: "uhs-2026-phys-145",
+        question: "In which process the work is done on the cost of internal energy?",
+        options: [
+          "Isochoric process",
+          "Isobaric process",
+          "Isothermal process",
+          "Adiabatic process"
+        ],
+        answer: 3,
+        explanation: "In an adiabatic process, no heat enters or leaves the system (ΔQ = 0). By the first law of thermodynamics (ΔQ = ΔU + ΔW), we get ΔW = -ΔU, meaning work done during adiabatic expansion comes entirely at the expense of the system's internal energy."
+      },
+      {
+        id: "uhs-2026-phys-146",
+        question: "In an isothermal process internal energy of the system:",
+        options: [
+          "Decreases",
+          "Increases",
+          "Remain the same",
+          "Becomes zero"
+        ],
+        answer: 2,
+        explanation: "An isothermal process occurs at constant temperature (ΔT = 0). Since the internal energy (U) of an ideal gas depends solely on its absolute temperature, internal energy remains constant (ΔU = 0)."
+      },
+      {
+        id: "uhs-2026-phys-147",
+        question: "A gas expands adiabatically and does 10 J of work then the change in internal energy is:",
+        options: [
+          "10J",
+          "-10J",
+          "20J",
+          "0J"
+        ],
+        answer: 1,
+        explanation: "For an adiabatic process, ΔQ = 0. Using the first law of thermodynamics, ΔQ = ΔU + ΔW, substituting ΔQ = 0 and ΔW = +10 J (work done by the expanding gas) gives 0 = ΔU + 10 J, so ΔU = -10 J."
+      },
+      {
+        id: "uhs-2026-phys-150",
+        question: "First law of thermodynamics states that:",
+        options: [
+          "ΔQ = ΔU + ΔW",
+          "ΔQ = ΔU - ΔW",
+          "ΔU = ΔQ + ΔW",
+          "ΔW = ΔU + ΔQ"
+        ],
+        answer: 0,
+        explanation: "The first law of thermodynamics is a statement of conservation of energy: the heat supplied to a system (ΔQ) equals the increase in its internal energy (ΔU) plus the work done by the system on its surroundings (ΔW), expressed as ΔQ = ΔU + ΔW."
+      },
+      {
+        id: "uhs-2026-phys-143",
+        question: "The scalar product of two parallel vectors is equal to:",
+        options: [
+          "Zero",
+          "Square of the magnitude",
+          "Product of their magnitude",
+          "Sum of their magnitude"
+        ],
+        answer: 2,
+        explanation: "The scalar (dot) product of two vectors A and B is given by A · B = AB cos(θ). For two parallel vectors, the angle θ = 0°, and since cos(0°) = 1, the scalar product equals AB, which is the product of their magnitudes."
+      },
+      {
+        id: "uhs-2026-phys-127",
+        question: "The distance traveled by a wave in unit time is termed as:",
+        options: [
+          "Wavelength",
+          "Amplitude",
+          "Displacement",
+          "Wave speed"
+        ],
+        answer: 3,
+        explanation: "Wave speed (v) is defined as the total distance traveled by a wave crest or trough per unit time (v = d / t = fλ)."
+      },
+      {
+        id: "uhs-2026-phys-128",
+        question: "The frequency of a wave having wavelength 0.5m while passing a point with speed of 4 m/s is:",
+        options: [
+          "2 Hz",
+          "4 Hz",
+          "6 Hz",
+          "8 Hz"
+        ],
+        answer: 3,
+        explanation: "Using the wave speed equation v = fλ, we solve for frequency: f = v / λ = 4 m/s / 0.5 m = 8 Hz."
+      },
+      {
+        id: "uhs-2026-phys-129",
+        question: "If particles of a slinky spring are moving perpendicularly to the propagation of the waves, then waves in the slinky spring will be:",
+        options: [
+          "matter waves",
+          "electromagnetic waves",
+          "transverse waves",
+          "longitudinal waves"
+        ],
+        answer: 2,
+        explanation: "By definition, transverse waves are mechanical waves in which the particles of the medium oscillate perpendicular (at right angles) to the direction of wave propagation."
+      },
+      {
+        id: "uhs-2026-phys-135",
+        question: "When a particle executes simple harmonic motion, the quantity 4π²f² is equal to:",
+        options: [
+          "gl",
+          "g/l",
+          "l/g",
+          "√g/l"
+        ],
+        answer: 1,
+        explanation: "For a simple pendulum executing SHM, the frequency is f = (1 / 2π) √(g / l). Squaring both sides gives f² = (1 / 4π²)(g / l), which rearranges to 4π²f² = g / l (where ω² = 4π²f² = g / l)."
+      },
+      {
+        id: "uhs-2026-phys-152",
+        question: "If 10 waves pass through a denser medium in 1 second with a speed of 10 m/sec, then the wavelength of the wave will be:",
+        options: [
+          "0.1 m",
+          "1 m",
+          "10 m",
+          "100 m"
+        ],
+        answer: 1,
+        explanation: "The frequency is the number of waves passing a point per second, so f = 10 Hz. Using v = fλ, the wavelength is λ = v / f = 10 m/s / 10 Hz = 1 m."
+      },
+      {
+        id: "uhs-2026-phys-153",
+        question: "The place where compressions of a sound wave combine with the rarefactions of another sound wave and cancel each other is called a:",
+        options: [
+          "dead beat.",
+          "null point.",
+          "zero point.",
+          "node point."
+        ],
+        answer: 3,
+        explanation: "When two identical sound waves interfere destructively (compression meets rarefaction), the net displacement/pressure variation is zero, forming a stationary point of minimum or zero amplitude known as a node (or node point)."
+      },
+      {
+        id: "uhs-2026-phys-158",
+        question: "The speed of sound is faster on a rainy day because:",
+        options: [
+          "mass of moist air is more than the dry air.",
+          "density of moist air is less than the dry air.",
+          "temperature of the medium remains the same.",
+          "medium of propagation of sound remains the same."
+        ],
+        answer: 1,
+        explanation: "Water vapor (H₂O, molar mass 18 g/mol) is lighter than dry air (primarily N₂ at 28 g/mol and O₂ at 32 g/mol), making humid/moist air less dense than dry air. Since the speed of sound is inversely proportional to the square root of density (v = √(γP / ρ)), sound travels faster in moist air."
+      },
+      {
+        id: "uhs-2026-phys-162",
+        question: "If the speed of a standing wave in a string is 2 m/s and its wavelength is 0.25 m, then the frequency of the standing wave will be:",
+        options: [
+          "0.125 Hz.",
+          "2.0 Hz.",
+          "4.0 Hz.",
+          "8.0 Hz."
+        ],
+        answer: 3,
+        explanation: "Using the wave equation v = fλ, the frequency is f = v / λ = 2 m/s / 0.25 m = 8.0 Hz."
+      },
+      {
+        id: "uhs-2026-phys-142",
+        question: "Two identical masses are placed at heights h and 2h, the ratio of gravitational potential energies will be:",
+        options: [
+          "1:2",
+          "2:1",
+          "equal",
+          "dependent on mass"
+        ],
+        answer: 0,
+        explanation: "Gravitational potential energy is given by PE = mgh. Since both masses (m) and gravitational acceleration (g) are identical, potential energy is directly proportional to height (PE ∝ h). Therefore, PE₁ : PE₂ = mgh : mg(2h) = 1:2."
+      },
+      {
+        id: "uhs-2026-phys-151",
+        question: "A bullet fired from gun pierces a target due to:",
+        options: [
+          "Mechanical energy",
+          "Heat energy",
+          "Kinetic energy",
+          "Potential energy"
+        ],
+        answer: 2,
+        explanation: "A moving bullet possesses high kinetic energy (KE = ½mv²) due to its high velocity, which allows it to do work against the resistive forces of the target and pierce through it."
       }
 ];

@@ -903,5 +903,41 @@ export type Question = {
           "Isolated with each other"
         ],
         answer: 0
+      },
+      {
+        id: "uhs-2026-phys-134",
+        question: "Which of the following statements explains by Lenz's law of electromagnetic induction?",
+        options: [
+          "The production of induced e.m.f.",
+          "The magnitude of induced e.m.f.",
+          "The direction of induced e.m.f.",
+          "The strength of induced e.m.f."
+        ],
+        answer: 2,
+        explanation: "While Faraday's law gives the magnitude of the induced EMF, Lenz's law determines the direction of the induced EMF (or current), stating that it always opposes the change in magnetic flux that produces it."
+      },
+      {
+        id: "uhs-2026-phys-137",
+        question: "A conducting coil with its plane perpendicular to a uniform magnetic field is moved at constant speed in the field region, the induced emf in the coil is:",
+        options: [
+          "zero",
+          "constant",
+          "increasing",
+          "decreasing"
+        ],
+        answer: 0,
+        explanation: "According to Faraday's law (ε = -N ΔΦ / Δt), an EMF is induced only when there is a change in magnetic flux through the coil. Moving a coil entirely within a uniform magnetic field without changing its orientation or area keeps the magnetic flux constant (ΔΦ = 0), so the induced EMF is zero."
+      },
+      {
+        id: "uhs-2026-phys-149",
+        question: "The quantity that remains constant in an ideal transformer is:",
+        options: [
+          "Voltage",
+          "Current",
+          "Power",
+          "Heat"
+        ],
+        answer: 2,
+        explanation: "An ideal transformer has 100% efficiency with no energy losses (no copper loss, eddy current loss, or hysteresis loss), meaning the input electrical power equals the output electrical power (P_in = P_out, or V_p I_p = V_s I_s)."
       }
   ];

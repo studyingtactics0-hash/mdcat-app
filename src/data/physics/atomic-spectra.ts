@@ -494,5 +494,17 @@ export type Question = {
           "Is removed from the atom."
         ],
         answer: 1
+      },
+      {
+        id: "uhs-2026-phys-139",
+        question: "In the atomic spectrum of neon each line represents:",
+        options: [
+          "A different atom",
+          "A different element",
+          "A photon with specific energy",
+          "An atom splitting"
+        ],
+        answer: 2,
+        explanation: "Each discrete spectral line in an emission spectrum corresponds to a specific electronic transition between quantized energy levels, emitting a photon with a characteristic wavelength and specific energy (E = hf = E₂ - E₁)."
       }
   ];

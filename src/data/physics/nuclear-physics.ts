@@ -906,5 +906,41 @@ export type Question = {
           "Must be radioactive"
         ],
         answer: 1
+      },
+      {
+        id: "uhs-2026-phys-136",
+        question: "At a certain time, 50% of a radioactive sample remains undecayed. After 10 seconds, only 12.5% of the sample remains. The half-life of the substance is:",
+        options: [
+          "2.5 s",
+          "3.3 s",
+          "5 s",
+          "10 s"
+        ],
+        answer: 2,
+        explanation: "The sample decays from 50% to 25% in one half-life, and from 25% to 12.5% in a second half-life. Since 2 half-lives take 10 seconds, one half-life is T₁/₂ = 10 s / 2 = 5 s."
+      },
+      {
+        id: "uhs-2026-phys-155",
+        question: "Cobalt-60, a radioisotope, is used in hospitals:",
+        options: [
+          "for X-rays image",
+          "to damage the cancer cells",
+          "to damage the healthy cells",
+          "for surgical equipment sterilization"
+        ],
+        answer: 1,
+        explanation: "Cobalt-60 emits high-energy gamma rays and is widely used in radiation therapy (teletherapy) to target and destroy malignant cancer cells."
+      },
+      {
+        id: "uhs-2026-phys-156",
+        question: "What is meant by random nature of radioactive decay of a substance?",
+        options: [
+          "We cannot control the decay rate.",
+          "Probability of decay of every unstable nucleus is constant.",
+          "We can locate every next decaying nuclei.",
+          "We can speed up the decay process."
+        ],
+        answer: 1,
+        explanation: "Radioactive decay is a random quantum process, meaning it is impossible to predict which specific nucleus will decay next, and every unstable nucleus has a constant probability of decaying per unit time (represented by the decay constant λ)."
       }
   ];

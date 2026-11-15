@@ -928,5 +928,17 @@ export type Question = {
           "Perpendicular to the plane"
         ],
         answer: 1
+      },
+      {
+        id: "uhs-2026-phys-160",
+        question: "A fan rotates uniformly at the rate of 2 rev/s. Its angular velocity in SI units will be:",
+        options: [
+          "2π rev/s",
+          "4π rev/min",
+          "π/2 rad/s",
+          "4π rad/s"
+        ],
+        answer: 3,
+        explanation: "The SI unit of angular velocity (ω) is rad/s. Since 1 revolution equals 2π radians, an angular frequency of f = 2 rev/s converts to ω = 2πf = 2π × 2 = 4π rad/s."
       }
   ];

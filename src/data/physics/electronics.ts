@@ -632,5 +632,17 @@ export type Question = {
           "Neither a switch nor an amplifier"
         ],
         answer: 2
+      },
+      {
+        id: "uhs-2026-phys-161",
+        question: "The process of conversion of alternating current into direct current is known as:",
+        options: [
+          "modulation.",
+          "polarisation.",
+          "rectification.",
+          "quantisation."
+        ],
+        answer: 2,
+        explanation: "Rectification is the process of converting alternating current (AC), which periodically reverses direction, into direct current (DC), which flows in only one direction, typically using semiconductor diodes."
       }
   ];

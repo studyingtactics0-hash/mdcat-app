@@ -219,5 +219,41 @@ export type Question = {
       ],
       answer: 2,
       explanation: "Transition from smooth laminar flow to irregular turbulent flow occurs when fluid velocity exceeds the critical velocity."
+    },
+    {
+      id: "uhs-2026-phys-140",
+      question: "In a spray bottle, pressing the nozzle causes fast air flow, which:",
+      options: [
+        "creates high pressure to lift the liquid",
+        "creates low pressure to lift the liquid",
+        "increases pressure at the tube opening",
+        "reduces liquids surface tension"
+      ],
+      answer: 1,
+      explanation: "According to Bernoulli's principle, where the speed of a fluid is high, the internal pressure is low. Fast-moving air over the top of the vertical tube reduces the pressure there compared to the atmospheric pressure acting on the liquid surface inside the bottle, pushing the liquid up the tube."
+    },
+    {
+      id: "uhs-2026-phys-144",
+      question: "The volume flow rate is equal to:",
+      options: [
+        "mv",
+        "Av",
+        "Aρ",
+        "vρ"
+      ],
+      answer: 1,
+      explanation: "Volume flow rate (Q) is defined as the volume of fluid passing through a cross-sectional area per unit time: Q = ΔV / Δt = (A × Δx) / Δt = Av, where A is the cross-sectional area and v is the fluid velocity."
+    },
+    {
+      id: "uhs-2026-phys-148",
+      question: "The equation of continuity Av = constant. The constant shows:",
+      options: [
+        "volume of fluid",
+        "mass the of fluid",
+        "density the of fluid",
+        "volume flow rate"
+      ],
+      answer: 3,
+      explanation: "For an incompressible fluid in steady flow, the equation of continuity states that A₁v₁ = A₂v₂ = constant. The product of cross-sectional area (A) and fluid speed (v) represents the volume flow rate (ΔV / Δt) in m³/s."
     }
   ];

@@ -1168,5 +1168,29 @@ export type Question = {
           "90 degree"
         ],
         answer: 0
+      },
+      {
+        id: "uhs-2026-phys-138",
+        question: "The work done between two points per unit positive charge against the electric field due to a source charge is called as:",
+        options: [
+          "Electric Power",
+          "Electric Potential difference",
+          "Electric flux",
+          "Electric field Intensity"
+        ],
+        answer: 1,
+        explanation: "Electric potential difference (ΔV) between two points in an electric field is defined as the work done per unit positive test charge in moving it from one point to the other against the electrostatic force while keeping it in equilibrium (ΔV = W_AB / q₀)."
+      },
+      {
+        id: "uhs-2026-phys-159",
+        question: "Two opposite point charges, each of magnitude Q are separated by a distance s. The electric potential at a point mid-way between them is:",
+        options: [
+          "q",
+          "-kq/s",
+          "infinity",
+          "zero"
+        ],
+        answer: 3,
+        explanation: "Electric potential is a scalar quantity given by V = kq / r. At the midpoint (distance r = s / 2 from each charge), the potential due to +Q is V₁ = +kQ / (s / 2) and the potential due to -Q is V₂ = -kQ / (s / 2). Their algebraic sum is V = V₁ + V₂ = 0."
       }
   ];

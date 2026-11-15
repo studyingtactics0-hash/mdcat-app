@@ -1218,5 +1218,65 @@ export type Question = {
           "Net velocity"
         ],
         answer: 2
+      },
+      {
+        id: "uhs-2026-phys-131",
+        question: "When a car is moving with constant acceleration, the shape of velocity time graph is:",
+        options: [
+          "Parabola",
+          "Incline curve",
+          "Straight line",
+          "Decline curve"
+        ],
+        answer: 2,
+        explanation: "The slope of a velocity-time graph represents acceleration (a = Δv / Δt). Since acceleration is constant, the slope remains uniform, resulting in a straight line."
+      },
+      {
+        id: "uhs-2026-phys-132",
+        question: "Time rate of change of momentum of a body equals the:",
+        options: [
+          "Impulse",
+          "Force",
+          "Torque",
+          "Velocity"
+        ],
+        answer: 1,
+        explanation: "According to Newton's second law of motion in terms of momentum, the net external force acting on a body is equal to the time rate of change of its linear momentum (F = Δp / Δt)."
+      },
+      {
+        id: "uhs-2026-phys-133",
+        question: "In a displacement-time graph, the slope of the tangent drawn at a specific point on the curve indicates the object's:",
+        options: [
+          "Average velocity over entire graph",
+          "Instantaneous velocity at that point",
+          "Instantaneous velocity at the starting point",
+          "Instantaneous velocity at the final point"
+        ],
+        answer: 1,
+        explanation: "The slope of a displacement-time graph represents velocity. For a curved graph (non-uniform velocity), the slope of the tangent at any specific point gives the instantaneous velocity (v = ds / dt) at that exact instant."
+      },
+      {
+        id: "uhs-2026-phys-141",
+        question: "A force of 10 N acts on a body of mass 2 kg. The acceleration produced is:",
+        options: [
+          "5 m/s²",
+          "10 m/s²",
+          "20 m/s²",
+          "0.2 m/s²"
+        ],
+        answer: 0,
+        explanation: "Using Newton's second law, F = ma, we rearrange for acceleration: a = F / m = 10 N / 2 kg = 5 m/s²."
+      },
+      {
+        id: "uhs-2026-phys-157",
+        question: "For a projectile, the angle of projection for maximum horizontal range is:",
+        options: [
+          "22.5°",
+          "30°",
+          "45°",
+          "60°"
+        ],
+        answer: 2,
+        explanation: "The horizontal range of a projectile is given by R = (v_i² sin(2θ)) / g. For maximum range, sin(2θ) must be at its maximum value of 1, which occurs when 2θ = 90°, giving θ = 45°."
       }
   ];

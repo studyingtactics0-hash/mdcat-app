@@ -1073,5 +1073,17 @@ export type Question = {
           "Electrolyte"
         ],
         answer: 3
+      },
+      {
+        id: "uhs-2026-phys-154",
+        question: "What is the reason for the steady current flow in a circuit?",
+        options: [
+          "Presence of very large resistance",
+          "Presence of a constant voltage source in circuit",
+          "presence of switch in circuit",
+          "Presence of ammeter in circuit"
+        ],
+        answer: 1,
+        explanation: "A steady current requires a continuous potential difference across the ends of a conductor, which is maintained by a constant voltage (EMF) source such as a battery or DC power supply."
       }
   ];

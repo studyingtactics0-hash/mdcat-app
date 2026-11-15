@@ -1394,5 +1394,65 @@ export type Question = {
             "None of the above"
           ],
           answer: 2
+        },
+        {
+          id: "uhs-2026-phys-130",
+          question: "The quantity measured in J/mol.K is",
+          options: [
+            "Specific heat",
+            "Thermal conductivity",
+            "Molar specific heat",
+            "Latent heat"
+          ],
+          answer: 2,
+          explanation: "Molar specific heat capacity (C_m) is defined as the heat energy required to raise the temperature of 1 mole of a substance by 1 Kelvin (C_m = Q / (nΔT)), so its SI unit is J/(mol·K)."
+        },
+        {
+          id: "uhs-2026-phys-145",
+          question: "In which process the work is done on the cost of internal energy?",
+          options: [
+            "Isochoric process",
+            "Isobaric process",
+            "Isothermal process",
+            "Adiabatic process"
+          ],
+          answer: 3,
+          explanation: "In an adiabatic process, no heat enters or leaves the system (ΔQ = 0). By the first law of thermodynamics (ΔQ = ΔU + ΔW), we get ΔW = -ΔU, meaning work done during adiabatic expansion comes entirely at the expense of the system's internal energy."
+        },
+        {
+          id: "uhs-2026-phys-146",
+          question: "In an isothermal process internal energy of the system:",
+          options: [
+            "Decreases",
+            "Increases",
+            "Remain the same",
+            "Becomes zero"
+          ],
+          answer: 2,
+          explanation: "An isothermal process occurs at constant temperature (ΔT = 0). Since the internal energy (U) of an ideal gas depends solely on its absolute temperature, internal energy remains constant (ΔU = 0)."
+        },
+        {
+          id: "uhs-2026-phys-147",
+          question: "A gas expands adiabatically and does 10 J of work then the change in internal energy is:",
+          options: [
+            "10J",
+            "-10J",
+            "20J",
+            "0J"
+          ],
+          answer: 1,
+          explanation: "For an adiabatic process, ΔQ = 0. Using the first law of thermodynamics, ΔQ = ΔU + ΔW, substituting ΔQ = 0 and ΔW = +10 J (work done by the expanding gas) gives 0 = ΔU + 10 J, so ΔU = -10 J."
+        },
+        {
+          id: "uhs-2026-phys-150",
+          question: "First law of thermodynamics states that:",
+          options: [
+            "ΔQ = ΔU + ΔW",
+            "ΔQ = ΔU - ΔW",
+            "ΔU = ΔQ + ΔW",
+            "ΔW = ΔU + ΔQ"
+          ],
+          answer: 0,
+          explanation: "The first law of thermodynamics is a statement of conservation of energy: the heat supplied to a system (ΔQ) equals the increase in its internal energy (ΔU) plus the work done by the system on its surroundings (ΔW), expressed as ΔQ = ΔU + ΔW."
         }
   ];
