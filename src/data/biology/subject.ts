@@ -12914,4 +12914,964 @@ export const biologyquestions = [
                 ],
                 answer: 0,
               },
+              {
+                id: "szambu-2026-bio-022",
+                question: "The shape of a bacteriophage is:",
+                options: [
+                  "Spherical",
+                  "Helical",
+                  "Tadpole like",
+                  "Comma like"
+                ],
+                answer: 2,
+                explanation: "Bacteriophages (such as T-even phages) have a characteristic tadpole-like morphology consisting of an icosahedral head containing nucleic acid and a cylindrical tail."
+              },
+              {
+                id: "szambu-2026-bio-023",
+                question: "In the host Helper-T lymphocytes, the viral RNA is converted into cDNA by ____.",
+                options: [
+                  "Transcriptase",
+                  "RNA polymerase",
+                  "DNA polymerase",
+                  "Reverse transcriptase"
+                ],
+                answer: 3,
+                explanation: "HIV carries the enzyme reverse transcriptase, which synthesizes complementary DNA (cDNA) using the single-stranded viral RNA genome as a template."
+              },
+              {
+                id: "szambu-2026-bio-024",
+                question: "The virus responsible for AIDS is classified as:",
+                options: [
+                  "DNA virus",
+                  "Retrovirus",
+                  "Viroid",
+                  "Bacteriophage"
+                ],
+                answer: 1,
+                explanation: "Human Immunodeficiency Virus (HIV), the causative agent of AIDS, is a retrovirus because it possesses an RNA genome and uses reverse transcriptase to transcribe RNA into DNA."
+              },
+              {
+                id: "szambu-2026-bio-025",
+                question: "Which of the following best defines the removal of electrons from a substance by the addition of oxygen or removal of hydrogen?",
+                options: [
+                  "Oxidation",
+                  "Reduction",
+                  "Phosphorylation",
+                  "Dephosphorylation"
+                ],
+                answer: 0,
+                explanation: "Oxidation is defined as the loss of electrons from an atom or molecule, which in biological systems commonly occurs via the removal of hydrogen atoms (dehydrogenation) or the addition of oxygen."
+              },
+              {
+                id: "szambu-2026-bio-026",
+                question: "Which of the following is a major benefit of anaerobic respiration during exercise in humans?",
+                options: [
+                  "Glucose molecules are fully oxidised during anaerobic respiration",
+                  "Anaerobic respiration can supply ATP very rapidly for a short period of time",
+                  "It produces useful byproducts",
+                  "Anaerobic respiration can supply ATP indefinitely"
+                ],
+                answer: 1,
+                explanation: "During intense exercise when oxygen demand exceeds supply, anaerobic glycolysis rapidly generates ATP for short bursts of muscle activity, even though it yields less ATP per glucose molecule than aerobic respiration."
+              },
+              {
+                id: "szambu-2026-bio-027",
+                question: "Oxidation, decarboxylation and addition of coenzyme-A to pyruvate results into the production of",
+                options: [
+                  "Acetyl Co-A",
+                  "Phosphoenolpyruvate",
+                  "Glucose 6-phosphate",
+                  "Citrate"
+                ],
+                answer: 0,
+                explanation: "In the link reaction catalyzed by the pyruvate dehydrogenase complex, pyruvate undergoes oxidative decarboxylation (losing CO2 and reducing NAD+ to NADH) and binds to coenzyme A to form Acetyl Co-A."
+              },
+              {
+                id: "szambu-2026-bio-028",
+                question: "Proteins are held in their tertiary structure by interactions between R group molecules mainly through:",
+                options: [
+                  "Covalent bonding",
+                  "Hydrogen bonding and hydrophobic interactions",
+                  "Ionic interactions",
+                  "Disulfide bridges"
+                ],
+                answer: 1,
+                explanation: "The 3D tertiary conformation of a polypeptide is stabilized primarily by weak non-covalent interactions between amino acid R groups, predominantly hydrogen bonds and hydrophobic interactions, alongside ionic bonds and occasional covalent disulfide bridges."
+              },
+              {
+                id: "szambu-2026-bio-030",
+                question: "Which of the following is a biopolymer?",
+                options: [
+                  "Water",
+                  "Phospholipids",
+                  "Histone",
+                  "Waxes"
+                ],
+                answer: 2,
+                explanation: "Histones are basic proteins made of repeating amino acid monomers, making them true biopolymers. Water is inorganic, while phospholipids and waxes are lipids that do not form repeating macromolecular polymers."
+              },
+              {
+                id: "szambu-2026-bio-031",
+                question: "Information regarding a living organism’s body processes from construction of body structure to flow of information from nucleus are provided by:",
+                options: [
+                  "Biogenic elements",
+                  "Biological molecules",
+                  "Inorganic molecules",
+                  "Organic molecules"
+                ],
+                answer: 1,
+                explanation: "Biological molecules (proteins, nucleic acids, carbohydrates, and lipids) form the structural framework of cells and carry out genetic information storage, expression, and metabolic regulation."
+              },
+              {
+                id: "szambu-2026-bio-032",
+                question: "Peptide bond is formed between",
+                options: [
+                  "C-terminal and C-terminal",
+                  "N-terminal and C-terminal",
+                  "N-terminal and N-terminal",
+                  "C-terminal and OH-terminal"
+                ],
+                answer: 1,
+                explanation: "A peptide bond is a covalent amide linkage formed via condensation between the carboxyl group (C-terminal) of one amino acid and the amino group (N-terminal) of an adjacent amino acid."
+              },
+              {
+                id: "szambu-2026-bio-037",
+                question: "Sucrose is formed by the joining of glucose and fructose. Similarly, glucose + glucose joins to form which of the following?",
+                options: [
+                  "Cellobiose",
+                  "Lactose",
+                  "Maltose",
+                  "Sucrose"
+                ],
+                answer: 2,
+                explanation: "Maltose (malt sugar) is a disaccharide composed of two alpha-D-glucose units linked by an alpha-1,4-glycosidic bond."
+              },
+              {
+                id: "szambu-2026-bio-038",
+                question: "Which of the following is correct about a nucleotide?",
+                options: [
+                  "It may consist of one to five nitrogenous bases",
+                  "It may consist of one or two pentose sugar units",
+                  "It may consist of one to three phosphate groups",
+                  "It may consist of a pentose or hexose sugar"
+                ],
+                answer: 2,
+                explanation: "A nucleotide consists of a single nitrogenous base, one pentose sugar (ribose or deoxyribose), and one, two, or three phosphate groups (e.g., AMP, ADP, ATP)."
+              },
+              {
+                id: "szambu-2026-bio-039",
+                question: "Which of the two nucleotides have 2 ringed structures?",
+                options: [
+                  "Adenine and Guanine",
+                  "Cytosine and Thymine",
+                  "Adenine and Thymine",
+                  "Cytosine and Guanine"
+                ],
+                answer: 0,
+                explanation: "Adenine and Guanine are purine nitrogenous bases characterized by a double-ring (nine-membered fused pyrimidine-imidazole) structure, whereas cytosine, thymine, and uracil are single-ring pyrimidines."
+              },
+              {
+                id: "szambu-2026-bio-019",
+                question: "When monoclonal antibodies are combined with fluorescent labels, this technique is known as:",
+                options: [
+                  "Fluorescence microscopy",
+                  "Fluorescence crystallography",
+                  "Fluorescence therapy",
+                  "Fluorescence biography"
+                ],
+                answer: 0,
+                explanation: "Conjugating monoclonal antibodies with fluorescent dyes (immunofluorescence) allows specific cellular antigens or pathogens to be visualized using fluorescence microscopy."
+              },
+              {
+                id: "szambu-2026-bio-020",
+                question: "The enzyme which joins two pieces of DNA is:",
+                options: [
+                  "DNA Polymerase I",
+                  "DNA Polymerase III",
+                  "DNA Ligase",
+                  "Restriction Endonuclease"
+                ],
+                answer: 2,
+                explanation: "DNA ligase catalyzes the formation of phosphodiester bonds between the 3'-hydroxyl and 5'-phosphate ends of adjacent DNA fragments, sealing nicks and joining recombinant DNA pieces."
+              },
+              {
+                id: "szambu-2026-bio-021",
+                question: "DNA probes are best described as:",
+                options: [
+                  "Enzymes that cut DNA",
+                  "Short, single-stranded DNA sequences complementary to target DNA",
+                  "Double-stranded RNA molecules",
+                  "Antibodies that bind proteins"
+                ],
+                answer: 1,
+                explanation: "A DNA probe is a short, single-stranded oligonucleotide labeled with a radioactive isotope or fluorescent tag that hybridizes specifically to a complementary target nucleotide sequence."
+              },
+              {
+                id: "szambu-2026-bio-029",
+                question: "The common feature(s) of prokaryotic and eukaryotic cells is/are ____.",
+                options: [
+                  "Presence of plasma membrane only",
+                  "Presence of ribosomes only",
+                  "Presence of genetic material only",
+                  "Presence of plasma membrane, ribosomes & genetic material"
+                ],
+                answer: 3,
+                explanation: "All living cells—both prokaryotic and eukaryotic—share fundamental components including a selectively permeable plasma membrane, cytoplasm, ribosomes for protein synthesis, and DNA as genetic material."
+              },
+              {
+                id: "szambu-2026-bio-033",
+                question: "In which of the following organelles does the process of Transcription take place?",
+                options: [
+                  "Ribosomes",
+                  "Golgi complex",
+                  "Lysosomes",
+                  "Nucleus"
+                ],
+                answer: 3,
+                explanation: "In eukaryotic cells, DNA is housed inside the nucleus, where RNA polymerase synthesizes pre-mRNA from a DNA template during transcription before mRNA exits to the cytoplasm for translation."
+              },
+              {
+                id: "szambu-2026-bio-034",
+                question: "The approximate diameter of chromatin at the level of supercoiling is",
+                options: [
+                  "250nm",
+                  "300nm",
+                  "350nm",
+                  "400nm"
+                ],
+                answer: 1,
+                explanation: "During chromatin packaging, the 30 nm solenoid fiber folds into looped domains and supercoiled chromatin fibers with an approximate diameter of 300 nm prior to further condensation into metaphase chromosomes."
+              },
+              {
+                id: "szambu-2026-bio-035",
+                question: "Which of the following organelles predominantly produces Adenosine Triphosphate (ATP) in the cell?",
+                options: [
+                  "Nucleus",
+                  "Ribosome",
+                  "Mitochondria",
+                  "Endosome"
+                ],
+                answer: 2,
+                explanation: "Mitochondria are the primary sites of aerobic respiration (Krebs cycle and oxidative phosphorylation), generating the vast majority of cellular ATP."
+              },
+              {
+                id: "szambu-2026-bio-036",
+                question: "In mitochondria, small knob like structures called F-1 particles are found in ____.",
+                options: [
+                  "Outer membrane",
+                  "Inner membrane",
+                  "Outer component",
+                  "Inner component"
+                ],
+                answer: 1,
+                explanation: "F1 particles (elementary particles or oxysomes) of the ATP synthase complex are embedded in and project from the inner mitochondrial membrane (cristae) into the mitochondrial matrix."
+              },
+              {
+                id: "szambu-2026-bio-040",
+                question: "Which organelle is in abundance in secretory cells?",
+                options: [
+                  "Mitochondria",
+                  "Golgi complex",
+                  "Nuclei",
+                  "Nucleoli"
+                ],
+                answer: 1,
+                explanation: "Secretory cells contain an extensive Golgi complex (Golgi apparatus) to modify, sort, and package proteins and lipids into secretory vesicles for exocytosis."
+              },
+              {
+                id: "szambu-2026-bio-073",
+                question: "Which chamber of the heart pumps blood to the lungs?",
+                options: [
+                  "Right Atrium",
+                  "Right Ventricle",
+                  "Left Atrium",
+                  "Left Ventricle"
+                ],
+                answer: 1,
+                explanation: "The right ventricle receives deoxygenated blood from the right atrium and pumps it through the pulmonary trunk and pulmonary arteries to the lungs for oxygenation."
+              },
+              {
+                id: "szambu-2026-bio-077",
+                question: "Which one of the following statements is incorrect about circulatory system?",
+                options: [
+                  "All arteries carry blood away from the heart",
+                  "All veins carry blood towards the heart",
+                  "All arteries carry oxygenated blood",
+                  "All veins carry blood at low pressure"
+                ],
+                answer: 2,
+                explanation: "Not all arteries carry oxygenated blood; the pulmonary arteries and umbilical arteries carry deoxygenated blood away from the heart."
+              },
+              {
+                id: "szambu-2026-bio-078",
+                question: "Which of the following valves control the entry of blood into the ventricles of a heart?",
+                options: [
+                  "Atrioventricular valves",
+                  "Semilunar valves",
+                  "Pulmonary valves",
+                  "Aortic valves"
+                ],
+                answer: 0,
+                explanation: "Atrioventricular (AV) valves—comprising the right tricuspid valve and left bicuspid (mitral) valve—regulate blood flow from the atria into the ventricles and prevent backflow during ventricular systole."
+              },
+              {
+                id: "szambu-2026-bio-079",
+                question: "The valve of heart through which only oxygenated blood moves is ______.",
+                options: [
+                  "Tricuspid",
+                  "Bicuspid",
+                  "Pulmonary semilunar",
+                  "Bicuspid and Tricuspid"
+                ],
+                answer: 1,
+                explanation: "The bicuspid (mitral) valve is located on the left side of the heart between the left atrium and left ventricle, handling exclusively oxygenated blood returning from the lungs."
+              },
+              {
+                id: "szambu-2026-bio-080",
+                question: "Bicuspid valve guards the opening between ______ in a heart.",
+                options: [
+                  "Stomach and Intestine",
+                  "Pulmonary Vein and Left Atrium",
+                  "Right Atrium and Right Ventricle",
+                  "Left Atrium and Left Ventricle"
+                ],
+                answer: 3,
+                explanation: "The bicuspid (mitral) valve guards the left atrioventricular orifice between the left atrium and the left ventricle."
+              },
+              {
+                id: "szambu-2026-bio-041",
+                question: "Olfactory bulb is present in:",
+                options: [
+                  "Nose",
+                  "Nasal Cavity",
+                  "Throat",
+                  "Brain"
+                ],
+                answer: 3,
+                explanation: "The olfactory bulbs are paired neural structures located on the inferior surface of the frontal lobes of the forebrain, receiving sensory input from olfactory receptor neurons in the nasal epithelium."
+              },
+              {
+                id: "szambu-2026-bio-042",
+                question: "The axon of a motor neuron forms synapses with ____?",
+                options: [
+                  "Axon of sensory neuron",
+                  "Dendron of sensory neuron",
+                  "Receptors",
+                  "Muscle cells/effector"
+                ],
+                answer: 3,
+                explanation: "Motor (efferent) neurons transmit nerve impulses from the central nervous system to effectors such as skeletal muscle fibers (forming neuromuscular junctions) or glands."
+              },
+              {
+                id: "szambu-2026-bio-043",
+                question: "Which part of the brain stores human memory?",
+                options: [
+                  "Cerebrum",
+                  "Medulla oblongata",
+                  "Hypothalamus",
+                  "Corpus callosum"
+                ],
+                answer: 0,
+                explanation: "The cerebrum (specifically the cerebral cortex along with limbic structures like the hippocampus) is responsible for higher cognitive functions including learning, reasoning, intelligence, and memory storage."
+              },
+              {
+                id: "szambu-2026-bio-044",
+                question: "If there is an injury in the hypothalamus region of the brain, it is most likely to affect:",
+                options: [
+                  "Coordination during locomotion",
+                  "Short-term memory",
+                  "Regulation of body temperature",
+                  "Decision making"
+                ],
+                answer: 2,
+                explanation: "The hypothalamus serves as the body's primary homeostatic control center, containing the thermoregulatory center that maintains constant body temperature."
+              },
+              {
+                id: "szambu-2026-bio-045",
+                question: "Which one of the following is involved in blinking of an eye?",
+                options: [
+                  "Spinal reflex",
+                  "Cranial reflex",
+                  "Membrane reflex",
+                  "Nuclear reflex"
+                ],
+                answer: 1,
+                explanation: "The corneal (blinking) reflex is mediated via cranial nerves (trigeminal nerve CN V as afferent and facial nerve CN VII as efferent) through the brainstem, making it a cranial reflex."
+              },
+              {
+                id: "szambu-2026-bio-046",
+                question: "Brain stem includes all of the following, except.",
+                options: [
+                  "Cerebrum",
+                  "Pons",
+                  "Midbrain",
+                  "Medulla Oblongata"
+                ],
+                answer: 0,
+                explanation: "The brainstem consists of the midbrain, pons, and medulla oblongata. The cerebrum is the largest part of the forebrain and is not part of the brainstem."
+              },
+              {
+                id: "szambu-2026-bio-047",
+                question: "Which of the following models describe how enzymes interact with their substrate?",
+                options: [
+                  "Induced fit model",
+                  "Lock and Key model",
+                  "Fluid mosaic model",
+                  "Sliding filament model"
+                ],
+                answer: 0,
+                explanation: "The induced fit model (proposed by Daniel Koshland) accurately describes enzyme-substrate interaction, showing that the active site undergoes a slight conformational change upon substrate binding to achieve optimal catalysis."
+              },
+              {
+                id: "szambu-2026-bio-048",
+                question: "Which of the following truly describes the Activation Energy of an Enzyme?",
+                options: [
+                  "Total energy of the reaction system",
+                  "Minimum energy required to start a chemical reaction",
+                  "Energy lost during the chemical reaction",
+                  "Energy difference between the chemical potential energy of the reactants and the products"
+                ],
+                answer: 1,
+                explanation: "Activation energy is the minimum amount of energy required to bring reactants to the transition state so that chemical bonds can break and reform to initiate a reaction."
+              },
+              {
+                id: "szambu-2026-bio-049",
+                question: "How does an enzyme increase the rate of a reaction?",
+                options: [
+                  "By bringing the reaction molecules into precise orientation",
+                  "By increasing the rate of random collisions of molecules",
+                  "By shifting the point of equilibrium of the reaction",
+                  "By supplying the energy required to start the reaction"
+                ],
+                answer: 0,
+                explanation: "Enzymes bind substrates at their active sites in a precise spatial orientation and stabilize the transition state, thereby lowering the activation energy barrier without altering equilibrium."
+              },
+              {
+                id: "szambu-2026-bio-050",
+                question: "Naturally, enzymes increase reaction rate without:",
+                options: [
+                  "Converting substrate into products",
+                  "Being consumed in reaction",
+                  "Lowering its activation energy",
+                  "Forming enzyme-substrate complex"
+                ],
+                answer: 1,
+                explanation: "As biological catalysts, enzymes speed up biochemical reactions by forming a temporary enzyme-substrate complex and lowering activation energy, emerging chemically unchanged and unconsumed at the end."
+              },
+              {
+                id: "szambu-2026-bio-057",
+                question: "All enzymes are ____ proteins?",
+                options: [
+                  "Globular & insoluble in water",
+                  "Globular & soluble in water",
+                  "Fibrous & insoluble in water",
+                  "Fibrous & soluble in water"
+                ],
+                answer: 1,
+                explanation: "Proteinaceous enzymes possess a compact, spherical tertiary conformation (globular proteins) with hydrophilic R groups oriented outward, making them soluble in water and cellular fluids."
+              },
+              {
+                id: "szambu-2026-bio-058",
+                question: "A marked increase in temperature reduces the rate of the enzyme catalyzed reaction by ____.",
+                options: [
+                  "Decreasing the kinetic energy of substrate",
+                  "Changing the pH of reaction media",
+                  "Destroying the tertiary structure of enzyme",
+                  "Decreasing the activation energy"
+                ],
+                answer: 2,
+                explanation: "Excessive heat disrupts the weak hydrogen bonds, ionic interactions, and hydrophobic forces maintaining the enzyme's 3D tertiary structure, causing denaturation and loss of active site shape."
+              },
+              {
+                id: "szambu-2026-bio-051",
+                question: "Darwin believed in perceived unity of life with ____ related through descent from ____.",
+                options: [
+                  "all organisms: common ancestors",
+                  "few organisms: different ancestors",
+                  "few organisms: common ancestors",
+                  "all organisms: different ancestors"
+                ],
+                answer: 0,
+                explanation: "Charles Darwin proposed that the unity of life stems from all organisms sharing descent from a common ancestor that lived in the remote past, accumulating diverse modifications over time."
+              },
+              {
+                id: "szambu-2026-bio-052",
+                question: "In Darwin’s theory of natural selection, “struggle for existence” is:",
+                options: [
+                  "Fight for territory",
+                  "Competition for survival",
+                  "Fight for evolution",
+                  "To admit the rights of others"
+                ],
+                answer: 1,
+                explanation: "Because populations produce more offspring than limited environmental resources can support, individuals must engage in a struggle for existence—competition for food, shelter, mates, and survival."
+              },
+              {
+                id: "szambu-2026-bio-053",
+                question: "History of life is like a tree. This concept of Darwinism is called:",
+                options: [
+                  "Natural selection",
+                  "Descent with modification",
+                  "Struggle for existence",
+                  "Over production"
+                ],
+                answer: 1,
+                explanation: "Darwin used the branching tree metaphor to illustrate 'descent with modification,' where ancestral species split into diverse lineages that gradually diverge from one another over generations."
+              },
+              {
+                id: "szambu-2026-bio-054",
+                question: "A researcher claims that environment directly induces useful traits in organisms, that are inherited in next generations. This idea aligns with:",
+                options: [
+                  "Lamarckism",
+                  "Darwinism",
+                  "Special creationism",
+                  "Neo-Darwinism"
+                ],
+                answer: 0,
+                explanation: "Lamarckism (Jean-Baptiste Lamarck's theory) proposed that environmental changes induce adaptive traits through use and disuse of organs, and these acquired characteristics are inherited by offspring."
+              },
+              {
+                id: "szambu-2026-bio-014",
+                question: "Which process directly depends on hydrostatic pressure in the kidney functioning?",
+                options: [
+                  "Pressure Filtration",
+                  "Selective Reabsorption",
+                  "Tubular Secretion",
+                  "Osmoregulation"
+                ],
+                answer: 0,
+                explanation: "Ultrafiltration (pressure filtration) in the renal corpuscle is driven directly by high glomerular capillary blood hydrostatic pressure, forcing water and small solutes from blood into Bowman's capsule."
+              },
+              {
+                id: "szambu-2026-bio-015",
+                question: "Hypercalcemia & Hypercalciuria are responsible for kidney stones and are due to condition:",
+                options: [
+                  "Hypothyroidism",
+                  "Hyperthyroidism",
+                  "Hypoparathyroidism",
+                  "Hyperparathyroidism"
+                ],
+                answer: 3,
+                explanation: "Hyperparathyroidism causes excessive secretion of parathyroid hormone (PTH), raising blood calcium levels (hypercalcemia) and urinary calcium excretion (hypercalciuria), which promotes calcium-based kidney stone formation."
+              },
+              {
+                id: "szambu-2026-bio-016",
+                question: "In situation of dehydration, human kidneys respond by:",
+                options: [
+                  "Decreasing blood pressure",
+                  "Decreasing ADH secretion",
+                  "Increasing water reabsorption",
+                  "Increasing urine output"
+                ],
+                answer: 2,
+                explanation: "During dehydration, elevated blood osmolarity stimulates ADH release from the posterior pituitary, increasing aquaporin insertion in the collecting ducts to enhance water reabsorption and produce concentrated urine."
+              },
+              {
+                id: "szambu-2026-bio-017",
+                question: "Which of the following is not the function of kidney?",
+                options: [
+                  "Ion regulation",
+                  "Water regulation",
+                  "Temperature regulation",
+                  "Waste removal"
+                ],
+                answer: 2,
+                explanation: "Kidneys regulate electrolyte/ion balance, water balance (osmoregulation), blood pH, and nitrogenous waste excretion, whereas thermoregulation is controlled by the hypothalamus and skin."
+              },
+              {
+                id: "szambu-2026-bio-018",
+                question: "An increased aldosterone secretion results in",
+                options: [
+                  "Loss of Na ions",
+                  "Retention of Na ions",
+                  "Increased glucose",
+                  "Reduced urine"
+                ],
+                answer: 1,
+                explanation: "Aldosterone acts on the distal convoluted tubules and collecting ducts of the nephron to promote active reabsorption (retention) of Na+ ions and secretion of K+ ions."
+              },
+              {
+                id: "szambu-2026-bio-001",
+                question: "Constant region of a specific type of antibody is made up of ____ type of amino acids.",
+                options: [
+                  "Same",
+                  "Different",
+                  "Variable",
+                  "Hydrophobic"
+                ],
+                answer: 0,
+                explanation: "The constant (C) region of immunoglobulins within a specific antibody class has an identical amino acid sequence that determines its effector function."
+              },
+              {
+                id: "szambu-2026-bio-002",
+                question: "Primary immune response is characterized by:",
+                options: [
+                  "Rapid antibody production",
+                  "Slow and low antibody production",
+                  "No antibody formation",
+                  "Immediate and strong immunity"
+                ],
+                answer: 1,
+                explanation: "Upon first exposure to an antigen, the primary immune response exhibits a longer lag phase and produces a slower, lower-titer antibody response (predominantly IgM) compared to the secondary memory response."
+              },
+              {
+                id: "szambu-2026-bio-074",
+                question: "Antigens bind with:",
+                options: [
+                  "C-Region of antibody",
+                  "V-Region of antigens",
+                  "C-Region of antigens",
+                  "V-Region of antibody"
+                ],
+                answer: 3,
+                explanation: "The antigen-binding site (paratope) is formed by the variable (V) regions of both the heavy and light chains at the tips of the Y-shaped antibody molecule."
+              },
+              {
+                id: "szambu-2026-bio-081",
+                question: "What are antigens, in the context of immune recognition?",
+                options: [
+                  "Hormone released during infection",
+                  "Self-identifying lipids in plasma",
+                  "Cell surface proteins and Oligosaccharides",
+                  "Enzymes released by B-cells"
+                ],
+                answer: 2,
+                explanation: "Antigens are foreign or self-marking molecules—typically cell-surface proteins, glycoproteins, or oligosaccharides—that are recognized by antibodies and lymphocyte receptors to elicit an immune response."
+              },
+              {
+                id: "szambu-2026-bio-066",
+                question: "When male parent (RR) has a cross with female parent (rr), then according to Law of Segregation all F1 offspring appears with a genotype:",
+                options: [
+                  "RR",
+                  "Rr",
+                  "rr",
+                  "Rrr"
+                ],
+                answer: 1,
+                explanation: "During gamete formation, homozygous dominant (RR) produces only R gametes and homozygous recessive (rr) produces only r gametes, resulting in 100% heterozygous (Rr) F1 offspring."
+              },
+              {
+                id: "szambu-2026-bio-067",
+                question: "Which of the following genetic disorders cause bleeding disease?",
+                options: [
+                  "Sickle Cell anemia",
+                  "Hemophilia",
+                  "Thalassemia",
+                  "Cystic fibrosis"
+                ],
+                answer: 1,
+                explanation: "Hemophilia is an X-linked recessive bleeding disorder caused by a deficiency of blood clotting factors (such as Factor VIII in Hemophilia A or Factor IX in Hemophilia B), leading to prolonged bleeding."
+              },
+              {
+                id: "szambu-2026-bio-068",
+                question: "Y-linked traits are always passed from father to the:",
+                options: [
+                  "Sons only",
+                  "Daughters only",
+                  "50% sons and 50% daughters",
+                  "75% sons and 25% daughter"
+                ],
+                answer: 0,
+                explanation: "Holandric (Y-linked) genes reside exclusively on the Y chromosome, which is transmitted directly from father to all male offspring (sons) and never to daughters."
+              },
+              {
+                id: "szambu-2026-bio-069",
+                question: "How many different genotypes are required for producing a pea plant with round and yellow seeds phenotype?",
+                options: [
+                  "1",
+                  "2",
+                  "4",
+                  "8"
+                ],
+                answer: 2,
+                explanation: "Since Round (R) is dominant over wrinkled (r) and Yellow (Y) is dominant over green (y), four distinct genotypes produce the round and yellow phenotype: RRYY, RRYy, RrYY, and RrYy."
+              },
+              {
+                id: "szambu-2026-bio-070",
+                question: "In which of the following phases of cell cycle, gene crossing over occurs?",
+                options: [
+                  "Telophase",
+                  "Prophase I",
+                  "Metaphase I",
+                  "Prophase II"
+                ],
+                answer: 1,
+                explanation: "Crossing over (exchange of genetic segments between non-sister chromatids of homologous chromosomes) occurs at chiasmata during the pachytene substage of Prophase I of meiosis."
+              },
+              {
+                id: "szambu-2026-bio-071",
+                question: "Which of the following best describes the production of different combinations of alleles in daughter cells, as a result of the random alignment of bivalents on the equator of the spindle during metaphase I of meiosis?",
+                options: [
+                  "Segregation",
+                  "Sex Linkage",
+                  "Crossing Over",
+                  "Independent Assortment"
+                ],
+                answer: 3,
+                explanation: "Mendel's Law of Independent Assortment arises physically from the random orientation of homologous chromosome pairs (bivalents) along the metaphase plate during Metaphase I."
+              },
+              {
+                id: "szambu-2026-bio-072",
+                question: "A genetic disease is transferred from a phenotypically normal but carrier female to only some of the male progeny. The disease is:",
+                options: [
+                  "Autosomal dominant",
+                  "Autosomal recessive",
+                  "Sex-linked dominant",
+                  "Sex-linked recessive"
+                ],
+                answer: 3,
+                explanation: "In an X-linked (sex-linked) recessive disorder, a heterozygous carrier mother (X^A X^a) is phenotypically normal and passes the recessive allele (X^a) to 50% of her sons, who express the trait hemizygously."
+              },
+              {
+                id: "szambu-2026-bio-008",
+                question: "The pepsin is converted into active form by the action of:",
+                options: [
+                  "Trypsin",
+                  "Chymotrypsin",
+                  "Acidic medium",
+                  "Alkaline medium"
+                ],
+                answer: 2,
+                explanation: "Inactive pepsinogen secreted by gastric chief cells is converted into active pepsin in the acidic medium (pH 1.5–2.5) created by hydrochloric acid (HCl) from parietal cells."
+              },
+              {
+                id: "szambu-2026-bio-009",
+                question: "The back flush of acidic chyme from stomach to esophagus lead to burning sensation in the chest known as",
+                options: [
+                  "Pyrosis",
+                  "Cirrhosis",
+                  "Segmentation",
+                  "Peristalsis"
+                ],
+                answer: 0,
+                explanation: "Pyrosis (commonly called heartburn) is the burning sensation behind the sternum caused by gastroesophageal reflux of acidic stomach contents into the lower esophagus."
+              },
+              {
+                id: "szambu-2026-bio-010",
+                question: "Which component of bile produced by liver may cause gall stones?",
+                options: [
+                  "Iron",
+                  "Bilirubin",
+                  "Cholesterol",
+                  "Lipase"
+                ],
+                answer: 2,
+                explanation: "When bile becomes supersaturated with cholesterol relative to bile salts and lecithin, cholesterol can precipitate and crystallize in the gallbladder to form gallstones (cholelithiasis)."
+              },
+              {
+                id: "szambu-2026-bio-011",
+                question: "Chymotrypsin present in pancreatic juice is responsible for",
+                options: [
+                  "Digestion of lipids to glycerol and fatty acids",
+                  "Digestion of DNA and RNA into nucleotides",
+                  "Digestion of proteins into smaller peptides",
+                  "Digestion of polysaccharides into maltose or glucose"
+                ],
+                answer: 2,
+                explanation: "Chymotrypsin is a pancreatic endopeptidase (activated from chymotrypsinogen by trypsin) that hydrolyzes peptide bonds in proteins and polypeptides to produce smaller peptides."
+              },
+              {
+                id: "szambu-2026-bio-012",
+                question: "How does pancreatic amylase digest carbohydrates?",
+                options: [
+                  "Digests polysaccharides into maltose",
+                  "Digests polysaccharides into sucrose",
+                  "Digests polysaccharides into lactose",
+                  "Digests polysaccharides into galactose"
+                ],
+                answer: 0,
+                explanation: "Pancreatic amylase (amylopsin) hydrolyzes alpha-1,4-glycosidic bonds in starch and glycogen (polysaccharides) within the duodenum, breaking them down primarily into the disaccharide maltose."
+              },
+              {
+                id: "szambu-2026-bio-013",
+                question: "Which of the following events would likely produce hunger pangs in your stomach, when you are fasting?",
+                options: [
+                  "Low sodium level in blood",
+                  "Antiperistalsis of alimentary canal",
+                  "Low blood glucose",
+                  "Dehydration in body"
+                ],
+                answer: 2,
+                explanation: "During fasting, a drop in blood glucose concentration stimulates the feeding center in the hypothalamus and triggers strong peristaltic hunger contractions (hunger pangs) in the empty stomach."
+              },
+              {
+                id: "szambu-2026-bio-055",
+                question: "The first menstrual flow is:",
+                options: [
+                  "Menopause",
+                  "Menstruation",
+                  "Menarche",
+                  "Ovulation"
+                ],
+                answer: 2,
+                explanation: "Menarche is the first occurrence of menstruation in a female, marking the onset of reproductive capability during puberty."
+              },
+              {
+                id: "szambu-2026-bio-059",
+                question: "The cessation (end) of menstruation in female is called",
+                options: [
+                  "Menarche",
+                  "Menstrual cycle",
+                  "Menopause",
+                  "Maturation"
+                ],
+                answer: 2,
+                explanation: "Menopause is the natural biological stage (typically occurring around ages 45–55) when ovarian follicle depletion leads to the permanent cessation of menstrual cycles."
+              },
+              {
+                id: "szambu-2026-bio-060",
+                question: "A sudden rise in estrogen levels in females, may lead to which event?",
+                options: [
+                  "Menstruation",
+                  "LH surge",
+                  "Implantation",
+                  "Progesterone drop"
+                ],
+                answer: 1,
+                explanation: "High circulating levels of estrogen produced by the mature Graafian follicle exert positive feedback on the anterior pituitary and hypothalamus, triggering a sharp LH surge that induces ovulation around day 14."
+              },
+              {
+                id: "szambu-2026-bio-061",
+                question: "Which hormone is involved in the menstrual cycle and its secretion is increased right after day 14 and starts decreasing again at the end of the cycle, and if fertilization takes place then its concentration is further increased by the placenta?",
+                options: [
+                  "FSH",
+                  "LH",
+                  "Progesterone",
+                  "Both LH and FSH"
+                ],
+                answer: 2,
+                explanation: "After ovulation on day 14, the corpus luteum secretes high levels of progesterone to maintain the endometrium. If fertilization does not occur, the corpus luteum degenerates and progesterone drops; if pregnancy occurs, the placenta takes over and secretes large amounts of progesterone."
+              },
+              {
+                id: "szambu-2026-bio-003",
+                question: "Breathing is also named as?",
+                options: [
+                  "Internal respiration",
+                  "Cellular respiration",
+                  "Inspiration",
+                  "Ventilation"
+                ],
+                answer: 3,
+                explanation: "Breathing—the mechanical process of moving air into and out of the lungs—is scientifically termed pulmonary ventilation."
+              },
+              {
+                id: "szambu-2026-bio-004",
+                question: "Warming up of the air in nasal cavity occurs with the help of blood capillaries, located ____:",
+                options: [
+                  "Underneath mucous membrane",
+                  "Surrounding the cilia",
+                  "Surrounding cartilages",
+                  "In the nasopharynx"
+                ],
+                answer: 0,
+                explanation: "A dense network of warm blood capillaries lies directly underneath the respiratory mucous membrane lining the nasal cavity, warming incoming air to body temperature."
+              },
+              {
+                id: "szambu-2026-bio-006",
+                question: "Expansion and contraction of the lungs is accomplished by",
+                options: [
+                  "Smooth muscles in bronchioles",
+                  "Smooth muscles in alveoli",
+                  "Intercostal muscles",
+                  "Diaphragm & intercostal muscles"
+                ],
+                answer: 3,
+                explanation: "Lungs lack skeletal muscle tissue of their own; their passive expansion and recoil are driven by changes in thoracic cavity volume produced by the diaphragm and intercostal muscles."
+              },
+              {
+                id: "szambu-2026-bio-007",
+                question: "During gaseous exchange in human, how many times cell membranes of different cells are crossed by oxygen molecule from alveolar air to reach the RBC in alveolar capillaries?",
+                options: [
+                  "2",
+                  "3",
+                  "4",
+                  "5"
+                ],
+                answer: 3,
+                explanation: "An oxygen molecule crosses 5 plasma membranes: (1) luminal and (2) basolateral membranes of the alveolar squamous epithelial cell, (3) basolateral and (4) luminal membranes of the capillary endothelial cell, and (5) the plasma membrane of the red blood cell."
+              },
+              {
+                id: "szambu-2026-bio-005",
+                question: "Intercostal muscles are ____?",
+                options: [
+                  "Skeletal muscles",
+                  "Involuntary smooth muscles",
+                  "Voluntary smooth muscles",
+                  "Cardiac muscles"
+                ],
+                answer: 0,
+                explanation: "Intercostal muscles are striated skeletal muscles located between the ribs that expand and contract the rib cage during breathing."
+              },
+              {
+                id: "szambu-2026-bio-056",
+                question: "Which of the following is NOT a feature of cartilaginous joints?",
+                options: [
+                  "Slight mobility",
+                  "Absence of synovial fluid",
+                  "Presence of cartilage",
+                  "Limited movement"
+                ],
+                answer: 0,
+                explanation: "Note: In standard MDCAT past paper keys, slight mobility, limited movement, absence of synovial fluid, and presence of cartilage all describe cartilaginous joints (amphiarthroses), though 'Slight mobility' is marked as the official answer key option in this paper."
+              },
+              {
+                id: "szambu-2026-bio-062",
+                question: "Nerve impulse is carried directly to sarcoplasmic reticulum through:",
+                options: [
+                  "Sarcolemma",
+                  "Sarcoplasm",
+                  "Nerve fibre",
+                  "T-tubule"
+                ],
+                answer: 3,
+                explanation: "Transverse tubules (T-tubules) are invaginations of the sarcolemma that conduct action potentials deep into the muscle fiber directly to the sarcoplasmic reticulum, triggering Ca2+ release."
+              },
+              {
+                id: "szambu-2026-bio-063",
+                question: "During muscle contraction, after calcium binds to troponin, the binding sites on which protein become exposed?",
+                options: [
+                  "Actin",
+                  "Myosin",
+                  "Myoglobin",
+                  "Tropomyosin"
+                ],
+                answer: 0,
+                explanation: "Binding of Ca2+ to troponin causes a conformational shift that pulls tropomyosin away from the myosin-binding sites on the actin filaments, allowing myosin heads to form cross-bridges."
+              },
+              {
+                id: "szambu-2026-bio-064",
+                question: "Osteoarthritis indicates inflammation in the joints of ______.",
+                options: [
+                  "Toes",
+                  "Neck",
+                  "Knee",
+                  "Wrist"
+                ],
+                answer: 2,
+                explanation: "Osteoarthritis is a degenerative joint disease caused by wear and tear of articular cartilage, most commonly affecting major weight-bearing joints such as the knee and hip."
+              },
+              {
+                id: "szambu-2026-bio-065",
+                question: "Which of the following changes occur when skeletal muscles contract?",
+                options: [
+                  "The A-bands shorten",
+                  "The I-Bands shorten",
+                  "The Z-lines move further apart",
+                  "The H-zone becomes more visible"
+                ],
+                answer: 1,
+                explanation: "According to the sliding filament model, during contraction actin filaments slide over myosin filaments: Z-lines move closer together, the I-band and H-zone shorten, while the A-band remains unchanged in length."
+              },
+              {
+                id: "szambu-2026-bio-076",
+                question: "______ are the bone dissolving cells.",
+                options: [
+                  "Osteoclasts",
+                  "Osteocytes",
+                  "Osteoblasts",
+                  "All of these are correct"
+                ],
+                answer: 0,
+                explanation: "Osteoclasts are large, multinucleated bone-resorbing cells that secrete acids and proteolytic enzymes to dissolve bone matrix during bone remodeling."
+              }
   ];

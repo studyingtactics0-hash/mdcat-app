@@ -693,4 +693,76 @@ export type Question = {
       ],
       answer: 1,
     },
+    {
+      id: "szambu-2026-bio-008",
+      question: "The pepsin is converted into active form by the action of:",
+      options: [
+        "Trypsin",
+        "Chymotrypsin",
+        "Acidic medium",
+        "Alkaline medium"
+      ],
+      answer: 2,
+      explanation: "Inactive pepsinogen secreted by gastric chief cells is converted into active pepsin in the acidic medium (pH 1.5–2.5) created by hydrochloric acid (HCl) from parietal cells."
+    },
+    {
+      id: "szambu-2026-bio-009",
+      question: "The back flush of acidic chyme from stomach to esophagus lead to burning sensation in the chest known as",
+      options: [
+        "Pyrosis",
+        "Cirrhosis",
+        "Segmentation",
+        "Peristalsis"
+      ],
+      answer: 0,
+      explanation: "Pyrosis (commonly called heartburn) is the burning sensation behind the sternum caused by gastroesophageal reflux of acidic stomach contents into the lower esophagus."
+    },
+    {
+      id: "szambu-2026-bio-010",
+      question: "Which component of bile produced by liver may cause gall stones?",
+      options: [
+        "Iron",
+        "Bilirubin",
+        "Cholesterol",
+        "Lipase"
+      ],
+      answer: 2,
+      explanation: "When bile becomes supersaturated with cholesterol relative to bile salts and lecithin, cholesterol can precipitate and crystallize in the gallbladder to form gallstones (cholelithiasis)."
+    },
+    {
+      id: "szambu-2026-bio-011",
+      question: "Chymotrypsin present in pancreatic juice is responsible for",
+      options: [
+        "Digestion of lipids to glycerol and fatty acids",
+        "Digestion of DNA and RNA into nucleotides",
+        "Digestion of proteins into smaller peptides",
+        "Digestion of polysaccharides into maltose or glucose"
+      ],
+      answer: 2,
+      explanation: "Chymotrypsin is a pancreatic endopeptidase (activated from chymotrypsinogen by trypsin) that hydrolyzes peptide bonds in proteins and polypeptides to produce smaller peptides."
+    },
+    {
+      id: "szambu-2026-bio-012",
+      question: "How does pancreatic amylase digest carbohydrates?",
+      options: [
+        "Digests polysaccharides into maltose",
+        "Digests polysaccharides into sucrose",
+        "Digests polysaccharides into lactose",
+        "Digests polysaccharides into galactose"
+      ],
+      answer: 0,
+      explanation: "Pancreatic amylase (amylopsin) hydrolyzes alpha-1,4-glycosidic bonds in starch and glycogen (polysaccharides) within the duodenum, breaking them down primarily into the disaccharide maltose."
+    },
+    {
+      id: "szambu-2026-bio-013",
+      question: "Which of the following events would likely produce hunger pangs in your stomach, when you are fasting?",
+      options: [
+        "Low sodium level in blood",
+        "Antiperistalsis of alimentary canal",
+        "Low blood glucose",
+        "Dehydration in body"
+      ],
+      answer: 2,
+      explanation: "During fasting, a drop in blood glucose concentration stimulates the feeding center in the hypothalamus and triggers strong peristaltic hunger contractions (hunger pangs) in the empty stomach."
+    }
   ]

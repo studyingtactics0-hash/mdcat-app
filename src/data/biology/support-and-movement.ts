@@ -1417,4 +1417,88 @@ export type Question = {
         ],
         answer: 0,
       },
+      {
+        id: "szambu-2026-bio-005",
+        question: "Intercostal muscles are ____?",
+        options: [
+          "Skeletal muscles",
+          "Involuntary smooth muscles",
+          "Voluntary smooth muscles",
+          "Cardiac muscles"
+        ],
+        answer: 0,
+        explanation: "Intercostal muscles are striated skeletal muscles located between the ribs that expand and contract the rib cage during breathing."
+      },
+      {
+        id: "szambu-2026-bio-056",
+        question: "Which of the following is NOT a feature of cartilaginous joints?",
+        options: [
+          "Slight mobility",
+          "Absence of synovial fluid",
+          "Presence of cartilage",
+          "Limited movement"
+        ],
+        answer: 0,
+        explanation: "Note: In standard MDCAT past paper keys, slight mobility, limited movement, absence of synovial fluid, and presence of cartilage all describe cartilaginous joints (amphiarthroses), though 'Slight mobility' is marked as the official answer key option in this paper."
+      },
+      {
+        id: "szambu-2026-bio-062",
+        question: "Nerve impulse is carried directly to sarcoplasmic reticulum through:",
+        options: [
+          "Sarcolemma",
+          "Sarcoplasm",
+          "Nerve fibre",
+          "T-tubule"
+        ],
+        answer: 3,
+        explanation: "Transverse tubules (T-tubules) are invaginations of the sarcolemma that conduct action potentials deep into the muscle fiber directly to the sarcoplasmic reticulum, triggering Ca2+ release."
+      },
+      {
+        id: "szambu-2026-bio-063",
+        question: "During muscle contraction, after calcium binds to troponin, the binding sites on which protein become exposed?",
+        options: [
+          "Actin",
+          "Myosin",
+          "Myoglobin",
+          "Tropomyosin"
+        ],
+        answer: 0,
+        explanation: "Binding of Ca2+ to troponin causes a conformational shift that pulls tropomyosin away from the myosin-binding sites on the actin filaments, allowing myosin heads to form cross-bridges."
+      },
+      {
+        id: "szambu-2026-bio-064",
+        question: "Osteoarthritis indicates inflammation in the joints of ______.",
+        options: [
+          "Toes",
+          "Neck",
+          "Knee",
+          "Wrist"
+        ],
+        answer: 2,
+        explanation: "Osteoarthritis is a degenerative joint disease caused by wear and tear of articular cartilage, most commonly affecting major weight-bearing joints such as the knee and hip."
+      },
+      {
+        id: "szambu-2026-bio-065",
+        question: "Which of the following changes occur when skeletal muscles contract?",
+        options: [
+          "The A-bands shorten",
+          "The I-Bands shorten",
+          "The Z-lines move further apart",
+          "The H-zone becomes more visible"
+        ],
+        answer: 1,
+        explanation: "According to the sliding filament model, during contraction actin filaments slide over myosin filaments: Z-lines move closer together, the I-band and H-zone shorten, while the A-band remains unchanged in length."
+      },
+      {
+        id: "szambu-2026-bio-076",
+        question: "______ are the bone dissolving cells.",
+        options: [
+          "Osteoclasts",
+          "Osteocytes",
+          "Osteoblasts",
+          "All of these are correct"
+        ],
+        answer: 0,
+        explanation: "Osteoclasts are large, multinucleated bone-resorbing cells that secrete acids and proteolytic enzymes to dissolve bone matrix during bone remodeling."
+      }
   ];

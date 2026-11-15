@@ -1339,4 +1339,76 @@ export type Question = {
         ],
         answer: 1,
       },
+      {
+        id: "szambu-2026-bio-029",
+        question: "The common feature(s) of prokaryotic and eukaryotic cells is/are ____.",
+        options: [
+          "Presence of plasma membrane only",
+          "Presence of ribosomes only",
+          "Presence of genetic material only",
+          "Presence of plasma membrane, ribosomes & genetic material"
+        ],
+        answer: 3,
+        explanation: "All living cells—both prokaryotic and eukaryotic—share fundamental components including a selectively permeable plasma membrane, cytoplasm, ribosomes for protein synthesis, and DNA as genetic material."
+      },
+      {
+        id: "szambu-2026-bio-033",
+        question: "In which of the following organelles does the process of Transcription take place?",
+        options: [
+          "Ribosomes",
+          "Golgi complex",
+          "Lysosomes",
+          "Nucleus"
+        ],
+        answer: 3,
+        explanation: "In eukaryotic cells, DNA is housed inside the nucleus, where RNA polymerase synthesizes pre-mRNA from a DNA template during transcription before mRNA exits to the cytoplasm for translation."
+      },
+      {
+        id: "szambu-2026-bio-034",
+        question: "The approximate diameter of chromatin at the level of supercoiling is",
+        options: [
+          "250nm",
+          "300nm",
+          "350nm",
+          "400nm"
+        ],
+        answer: 1,
+        explanation: "During chromatin packaging, the 30 nm solenoid fiber folds into looped domains and supercoiled chromatin fibers with an approximate diameter of 300 nm prior to further condensation into metaphase chromosomes."
+      },
+      {
+        id: "szambu-2026-bio-035",
+        question: "Which of the following organelles predominantly produces Adenosine Triphosphate (ATP) in the cell?",
+        options: [
+          "Nucleus",
+          "Ribosome",
+          "Mitochondria",
+          "Endosome"
+        ],
+        answer: 2,
+        explanation: "Mitochondria are the primary sites of aerobic respiration (Krebs cycle and oxidative phosphorylation), generating the vast majority of cellular ATP."
+      },
+      {
+        id: "szambu-2026-bio-036",
+        question: "In mitochondria, small knob like structures called F-1 particles are found in ____.",
+        options: [
+          "Outer membrane",
+          "Inner membrane",
+          "Outer component",
+          "Inner component"
+        ],
+        answer: 1,
+        explanation: "F1 particles (elementary particles or oxysomes) of the ATP synthase complex are embedded in and project from the inner mitochondrial membrane (cristae) into the mitochondrial matrix."
+      },
+      {
+        id: "szambu-2026-bio-040",
+        question: "Which organelle is in abundance in secretory cells?",
+        options: [
+          "Mitochondria",
+          "Golgi complex",
+          "Nuclei",
+          "Nucleoli"
+        ],
+        answer: 1,
+        explanation: "Secretory cells contain an extensive Golgi complex (Golgi apparatus) to modify, sort, and package proteins and lipids into secretory vesicles for exocytosis."
+      },
   ];

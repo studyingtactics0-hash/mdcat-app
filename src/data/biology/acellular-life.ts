@@ -933,4 +933,40 @@ export const acellularLifeQuestions = [
         ],
         answer: 1,
       },
+      {
+        id: "szambu-2026-bio-022",
+        question: "The shape of a bacteriophage is:",
+        options: [
+          "Spherical",
+          "Helical",
+          "Tadpole like",
+          "Comma like"
+        ],
+        answer: 2,
+        explanation: "Bacteriophages (such as T-even phages) have a characteristic tadpole-like morphology consisting of an icosahedral head containing nucleic acid and a cylindrical tail."
+      },
+      {
+        id: "szambu-2026-bio-023",
+        question: "In the host Helper-T lymphocytes, the viral RNA is converted into cDNA by ____.",
+        options: [
+          "Transcriptase",
+          "RNA polymerase",
+          "DNA polymerase",
+          "Reverse transcriptase"
+        ],
+        answer: 3,
+        explanation: "HIV carries the enzyme reverse transcriptase, which synthesizes complementary DNA (cDNA) using the single-stranded viral RNA genome as a template."
+      },
+      {
+        id: "szambu-2026-bio-024",
+        question: "The virus responsible for AIDS is classified as:",
+        options: [
+          "DNA virus",
+          "Retrovirus",
+          "Viroid",
+          "Bacteriophage"
+        ],
+        answer: 1,
+        explanation: "Human Immunodeficiency Virus (HIV), the causative agent of AIDS, is a retrovirus because it possesses an RNA genome and uses reverse transcriptase to transcribe RNA into DNA."
+      }
 ];

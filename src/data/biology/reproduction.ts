@@ -1162,4 +1162,52 @@ export const reproductionQuestions = [
       ],
       answer: 3,
     },
+    {
+      id: "szambu-2026-bio-055",
+      question: "The first menstrual flow is:",
+      options: [
+        "Menopause",
+        "Menstruation",
+        "Menarche",
+        "Ovulation"
+      ],
+      answer: 2,
+      explanation: "Menarche is the first occurrence of menstruation in a female, marking the onset of reproductive capability during puberty."
+    },
+    {
+      id: "szambu-2026-bio-059",
+      question: "The cessation (end) of menstruation in female is called",
+      options: [
+        "Menarche",
+        "Menstrual cycle",
+        "Menopause",
+        "Maturation"
+      ],
+      answer: 2,
+      explanation: "Menopause is the natural biological stage (typically occurring around ages 45–55) when ovarian follicle depletion leads to the permanent cessation of menstrual cycles."
+    },
+    {
+      id: "szambu-2026-bio-060",
+      question: "A sudden rise in estrogen levels in females, may lead to which event?",
+      options: [
+        "Menstruation",
+        "LH surge",
+        "Implantation",
+        "Progesterone drop"
+      ],
+      answer: 1,
+      explanation: "High circulating levels of estrogen produced by the mature Graafian follicle exert positive feedback on the anterior pituitary and hypothalamus, triggering a sharp LH surge that induces ovulation around day 14."
+    },
+    {
+      id: "szambu-2026-bio-061",
+      question: "Which hormone is involved in the menstrual cycle and its secretion is increased right after day 14 and starts decreasing again at the end of the cycle, and if fertilization takes place then its concentration is further increased by the placenta?",
+      options: [
+        "FSH",
+        "LH",
+        "Progesterone",
+        "Both LH and FSH"
+      ],
+      answer: 2,
+      explanation: "After ovulation on day 14, the corpus luteum secretes high levels of progesterone to maintain the endometrium. If fertilization does not occur, the corpus luteum degenerates and progesterone drops; if pregnancy occurs, the placenta takes over and secretes large amounts of progesterone."
+    }
 ];

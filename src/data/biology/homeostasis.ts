@@ -252,4 +252,64 @@ export type Question = {
       ],
       answer: 2,
     },
+    {
+      id: "szambu-2026-bio-014",
+      question: "Which process directly depends on hydrostatic pressure in the kidney functioning?",
+      options: [
+        "Pressure Filtration",
+        "Selective Reabsorption",
+        "Tubular Secretion",
+        "Osmoregulation"
+      ],
+      answer: 0,
+      explanation: "Ultrafiltration (pressure filtration) in the renal corpuscle is driven directly by high glomerular capillary blood hydrostatic pressure, forcing water and small solutes from blood into Bowman's capsule."
+    },
+    {
+      id: "szambu-2026-bio-015",
+      question: "Hypercalcemia & Hypercalciuria are responsible for kidney stones and are due to condition:",
+      options: [
+        "Hypothyroidism",
+        "Hyperthyroidism",
+        "Hypoparathyroidism",
+        "Hyperparathyroidism"
+      ],
+      answer: 3,
+      explanation: "Hyperparathyroidism causes excessive secretion of parathyroid hormone (PTH), raising blood calcium levels (hypercalcemia) and urinary calcium excretion (hypercalciuria), which promotes calcium-based kidney stone formation."
+    },
+    {
+      id: "szambu-2026-bio-016",
+      question: "In situation of dehydration, human kidneys respond by:",
+      options: [
+        "Decreasing blood pressure",
+        "Decreasing ADH secretion",
+        "Increasing water reabsorption",
+        "Increasing urine output"
+      ],
+      answer: 2,
+      explanation: "During dehydration, elevated blood osmolarity stimulates ADH release from the posterior pituitary, increasing aquaporin insertion in the collecting ducts to enhance water reabsorption and produce concentrated urine."
+    },
+    {
+      id: "szambu-2026-bio-017",
+      question: "Which of the following is not the function of kidney?",
+      options: [
+        "Ion regulation",
+        "Water regulation",
+        "Temperature regulation",
+        "Waste removal"
+      ],
+      answer: 2,
+      explanation: "Kidneys regulate electrolyte/ion balance, water balance (osmoregulation), blood pH, and nitrogenous waste excretion, whereas thermoregulation is controlled by the hypothalamus and skin."
+    },
+    {
+      id: "szambu-2026-bio-018",
+      question: "An increased aldosterone secretion results in",
+      options: [
+        "Loss of Na ions",
+        "Retention of Na ions",
+        "Increased glucose",
+        "Reduced urine"
+      ],
+      answer: 1,
+      explanation: "Aldosterone acts on the distal convoluted tubules and collecting ducts of the nephron to promote active reabsorption (retention) of Na+ ions and secretion of K+ ions."
+    }
   ];

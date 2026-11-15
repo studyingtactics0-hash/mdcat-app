@@ -1420,4 +1420,76 @@ export type Question = {
         ],
         answer: 2,
       },
+      {
+        id: "szambu-2026-bio-041",
+        question: "Olfactory bulb is present in:",
+        options: [
+          "Nose",
+          "Nasal Cavity",
+          "Throat",
+          "Brain"
+        ],
+        answer: 3,
+        explanation: "The olfactory bulbs are paired neural structures located on the inferior surface of the frontal lobes of the forebrain, receiving sensory input from olfactory receptor neurons in the nasal epithelium."
+      },
+      {
+        id: "szambu-2026-bio-042",
+        question: "The axon of a motor neuron forms synapses with ____?",
+        options: [
+          "Axon of sensory neuron",
+          "Dendron of sensory neuron",
+          "Receptors",
+          "Muscle cells/effector"
+        ],
+        answer: 3,
+        explanation: "Motor (efferent) neurons transmit nerve impulses from the central nervous system to effectors such as skeletal muscle fibers (forming neuromuscular junctions) or glands."
+      },
+      {
+        id: "szambu-2026-bio-043",
+        question: "Which part of the brain stores human memory?",
+        options: [
+          "Cerebrum",
+          "Medulla oblongata",
+          "Hypothalamus",
+          "Corpus callosum"
+        ],
+        answer: 0,
+        explanation: "The cerebrum (specifically the cerebral cortex along with limbic structures like the hippocampus) is responsible for higher cognitive functions including learning, reasoning, intelligence, and memory storage."
+      },
+      {
+        id: "szambu-2026-bio-044",
+        question: "If there is an injury in the hypothalamus region of the brain, it is most likely to affect:",
+        options: [
+          "Coordination during locomotion",
+          "Short-term memory",
+          "Regulation of body temperature",
+          "Decision making"
+        ],
+        answer: 2,
+        explanation: "The hypothalamus serves as the body's primary homeostatic control center, containing the thermoregulatory center that maintains constant body temperature."
+      },
+      {
+        id: "szambu-2026-bio-045",
+        question: "Which one of the following is involved in blinking of an eye?",
+        options: [
+          "Spinal reflex",
+          "Cranial reflex",
+          "Membrane reflex",
+          "Nuclear reflex"
+        ],
+        answer: 1,
+        explanation: "The corneal (blinking) reflex is mediated via cranial nerves (trigeminal nerve CN V as afferent and facial nerve CN VII as efferent) through the brainstem, making it a cranial reflex."
+      },
+      {
+        id: "szambu-2026-bio-046",
+        question: "Brain stem includes all of the following, except.",
+        options: [
+          "Cerebrum",
+          "Pons",
+          "Midbrain",
+          "Medulla Oblongata"
+        ],
+        answer: 0,
+        explanation: "The brainstem consists of the midbrain, pons, and medulla oblongata. The cerebrum is the largest part of the forebrain and is not part of the brainstem."
+      },
   ];

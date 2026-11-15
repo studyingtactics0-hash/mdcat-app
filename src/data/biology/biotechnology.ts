@@ -185,4 +185,40 @@ export type Question = {
       ],
       answer: 1,
     },
+    {
+      id: "szambu-2026-bio-019",
+      question: "When monoclonal antibodies are combined with fluorescent labels, this technique is known as:",
+      options: [
+        "Fluorescence microscopy",
+        "Fluorescence crystallography",
+        "Fluorescence therapy",
+        "Fluorescence biography"
+      ],
+      answer: 0,
+      explanation: "Conjugating monoclonal antibodies with fluorescent dyes (immunofluorescence) allows specific cellular antigens or pathogens to be visualized using fluorescence microscopy."
+    },
+    {
+      id: "szambu-2026-bio-020",
+      question: "The enzyme which joins two pieces of DNA is:",
+      options: [
+        "DNA Polymerase I",
+        "DNA Polymerase III",
+        "DNA Ligase",
+        "Restriction Endonuclease"
+      ],
+      answer: 2,
+      explanation: "DNA ligase catalyzes the formation of phosphodiester bonds between the 3'-hydroxyl and 5'-phosphate ends of adjacent DNA fragments, sealing nicks and joining recombinant DNA pieces."
+    },
+    {
+      id: "szambu-2026-bio-021",
+      question: "DNA probes are best described as:",
+      options: [
+        "Enzymes that cut DNA",
+        "Short, single-stranded DNA sequences complementary to target DNA",
+        "Double-stranded RNA molecules",
+        "Antibodies that bind proteins"
+      ],
+      answer: 1,
+      explanation: "A DNA probe is a short, single-stranded oligonucleotide labeled with a radioactive isotope or fluorescent tag that hybridizes specifically to a complementary target nucleotide sequence."
+    }
   ];

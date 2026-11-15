@@ -1409,4 +1409,88 @@ export type Question = {
         ],
         answer: 1,
       },
+      {
+        id: "szambu-2026-bio-028",
+        question: "Proteins are held in their tertiary structure by interactions between R group molecules mainly through:",
+        options: [
+          "Covalent bonding",
+          "Hydrogen bonding and hydrophobic interactions",
+          "Ionic interactions",
+          "Disulfide bridges"
+        ],
+        answer: 1,
+        explanation: "The 3D tertiary conformation of a polypeptide is stabilized primarily by weak non-covalent interactions between amino acid R groups, predominantly hydrogen bonds and hydrophobic interactions, alongside ionic bonds and occasional covalent disulfide bridges."
+      },
+      {
+        id: "szambu-2026-bio-030",
+        question: "Which of the following is a biopolymer?",
+        options: [
+          "Water",
+          "Phospholipids",
+          "Histone",
+          "Waxes"
+        ],
+        answer: 2,
+        explanation: "Histones are basic proteins made of repeating amino acid monomers, making them true biopolymers. Water is inorganic, while phospholipids and waxes are lipids that do not form repeating macromolecular polymers."
+      },
+      {
+        id: "szambu-2026-bio-031",
+        question: "Information regarding a living organism’s body processes from construction of body structure to flow of information from nucleus are provided by:",
+        options: [
+          "Biogenic elements",
+          "Biological molecules",
+          "Inorganic molecules",
+          "Organic molecules"
+        ],
+        answer: 1,
+        explanation: "Biological molecules (proteins, nucleic acids, carbohydrates, and lipids) form the structural framework of cells and carry out genetic information storage, expression, and metabolic regulation."
+      },
+      {
+        id: "szambu-2026-bio-032",
+        question: "Peptide bond is formed between",
+        options: [
+          "C-terminal and C-terminal",
+          "N-terminal and C-terminal",
+          "N-terminal and N-terminal",
+          "C-terminal and OH-terminal"
+        ],
+        answer: 1,
+        explanation: "A peptide bond is a covalent amide linkage formed via condensation between the carboxyl group (C-terminal) of one amino acid and the amino group (N-terminal) of an adjacent amino acid."
+      },
+      {
+        id: "szambu-2026-bio-037",
+        question: "Sucrose is formed by the joining of glucose and fructose. Similarly, glucose + glucose joins to form which of the following?",
+        options: [
+          "Cellobiose",
+          "Lactose",
+          "Maltose",
+          "Sucrose"
+        ],
+        answer: 2,
+        explanation: "Maltose (malt sugar) is a disaccharide composed of two alpha-D-glucose units linked by an alpha-1,4-glycosidic bond."
+      },
+      {
+        id: "szambu-2026-bio-038",
+        question: "Which of the following is correct about a nucleotide?",
+        options: [
+          "It may consist of one to five nitrogenous bases",
+          "It may consist of one or two pentose sugar units",
+          "It may consist of one to three phosphate groups",
+          "It may consist of a pentose or hexose sugar"
+        ],
+        answer: 2,
+        explanation: "A nucleotide consists of a single nitrogenous base, one pentose sugar (ribose or deoxyribose), and one, two, or three phosphate groups (e.g., AMP, ADP, ATP)."
+      },
+      {
+        id: "szambu-2026-bio-039",
+        question: "Which of the two nucleotides have 2 ringed structures?",
+        options: [
+          "Adenine and Guanine",
+          "Cytosine and Thymine",
+          "Adenine and Thymine",
+          "Cytosine and Guanine"
+        ],
+        answer: 0,
+        explanation: "Adenine and Guanine are purine nitrogenous bases characterized by a double-ring (nine-membered fused pyrimidine-imidazole) structure, whereas cytosine, thymine, and uracil are single-ring pyrimidines."
+      },
   ];

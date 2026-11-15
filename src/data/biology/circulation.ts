@@ -892,4 +892,64 @@ export type Question = {
         ],
         answer: 1,
       },
+      {
+        id: "szambu-2026-bio-073",
+        question: "Which chamber of the heart pumps blood to the lungs?",
+        options: [
+          "Right Atrium",
+          "Right Ventricle",
+          "Left Atrium",
+          "Left Ventricle"
+        ],
+        answer: 1,
+        explanation: "The right ventricle receives deoxygenated blood from the right atrium and pumps it through the pulmonary trunk and pulmonary arteries to the lungs for oxygenation."
+      },
+      {
+        id: "szambu-2026-bio-077",
+        question: "Which one of the following statements is incorrect about circulatory system?",
+        options: [
+          "All arteries carry blood away from the heart",
+          "All veins carry blood towards the heart",
+          "All arteries carry oxygenated blood",
+          "All veins carry blood at low pressure"
+        ],
+        answer: 2,
+        explanation: "Not all arteries carry oxygenated blood; the pulmonary arteries and umbilical arteries carry deoxygenated blood away from the heart."
+      },
+      {
+        id: "szambu-2026-bio-078",
+        question: "Which of the following valves control the entry of blood into the ventricles of a heart?",
+        options: [
+          "Atrioventricular valves",
+          "Semilunar valves",
+          "Pulmonary valves",
+          "Aortic valves"
+        ],
+        answer: 0,
+        explanation: "Atrioventricular (AV) valves—comprising the right tricuspid valve and left bicuspid (mitral) valve—regulate blood flow from the atria into the ventricles and prevent backflow during ventricular systole."
+      },
+      {
+        id: "szambu-2026-bio-079",
+        question: "The valve of heart through which only oxygenated blood moves is ______.",
+        options: [
+          "Tricuspid",
+          "Bicuspid",
+          "Pulmonary semilunar",
+          "Bicuspid and Tricuspid"
+        ],
+        answer: 1,
+        explanation: "The bicuspid (mitral) valve is located on the left side of the heart between the left atrium and left ventricle, handling exclusively oxygenated blood returning from the lungs."
+      },
+      {
+        id: "szambu-2026-bio-080",
+        question: "Bicuspid valve guards the opening between ______ in a heart.",
+        options: [
+          "Stomach and Intestine",
+          "Pulmonary Vein and Left Atrium",
+          "Right Atrium and Right Ventricle",
+          "Left Atrium and Left Ventricle"
+        ],
+        answer: 3,
+        explanation: "The bicuspid (mitral) valve guards the left atrioventricular orifice between the left atrium and the left ventricle."
+      }
   ];

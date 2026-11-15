@@ -349,4 +349,52 @@ export type Question = {
       ],
       answer: 3,
     },
+    {
+      id: "szambu-2026-bio-051",
+      question: "Darwin believed in perceived unity of life with ____ related through descent from ____.",
+      options: [
+        "all organisms: common ancestors",
+        "few organisms: different ancestors",
+        "few organisms: common ancestors",
+        "all organisms: different ancestors"
+      ],
+      answer: 0,
+      explanation: "Charles Darwin proposed that the unity of life stems from all organisms sharing descent from a common ancestor that lived in the remote past, accumulating diverse modifications over time."
+    },
+    {
+      id: "szambu-2026-bio-052",
+      question: "In Darwin’s theory of natural selection, “struggle for existence” is:",
+      options: [
+        "Fight for territory",
+        "Competition for survival",
+        "Fight for evolution",
+        "To admit the rights of others"
+      ],
+      answer: 1,
+      explanation: "Because populations produce more offspring than limited environmental resources can support, individuals must engage in a struggle for existence—competition for food, shelter, mates, and survival."
+    },
+    {
+      id: "szambu-2026-bio-053",
+      question: "History of life is like a tree. This concept of Darwinism is called:",
+      options: [
+        "Natural selection",
+        "Descent with modification",
+        "Struggle for existence",
+        "Over production"
+      ],
+      answer: 1,
+      explanation: "Darwin used the branching tree metaphor to illustrate 'descent with modification,' where ancestral species split into diverse lineages that gradually diverge from one another over generations."
+    },
+    {
+      id: "szambu-2026-bio-054",
+      question: "A researcher claims that environment directly induces useful traits in organisms, that are inherited in next generations. This idea aligns with:",
+      options: [
+        "Lamarckism",
+        "Darwinism",
+        "Special creationism",
+        "Neo-Darwinism"
+      ],
+      answer: 0,
+      explanation: "Lamarckism (Jean-Baptiste Lamarck's theory) proposed that environmental changes induce adaptive traits through use and disuse of organs, and these acquired characteristics are inherited by offspring."
+    },
   ];

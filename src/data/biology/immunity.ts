@@ -444,4 +444,52 @@ export type Question = {
       ],
       answer: 1,
     },
+    {
+      id: "szambu-2026-bio-001",
+      question: "Constant region of a specific type of antibody is made up of ____ type of amino acids.",
+      options: [
+        "Same",
+        "Different",
+        "Variable",
+        "Hydrophobic"
+      ],
+      answer: 0,
+      explanation: "The constant (C) region of immunoglobulins within a specific antibody class has an identical amino acid sequence that determines its effector function."
+    },
+    {
+      id: "szambu-2026-bio-002",
+      question: "Primary immune response is characterized by:",
+      options: [
+        "Rapid antibody production",
+        "Slow and low antibody production",
+        "No antibody formation",
+        "Immediate and strong immunity"
+      ],
+      answer: 1,
+      explanation: "Upon first exposure to an antigen, the primary immune response exhibits a longer lag phase and produces a slower, lower-titer antibody response (predominantly IgM) compared to the secondary memory response."
+    },
+    {
+      id: "szambu-2026-bio-074",
+      question: "Antigens bind with:",
+      options: [
+        "C-Region of antibody",
+        "V-Region of antigens",
+        "C-Region of antigens",
+        "V-Region of antibody"
+      ],
+      answer: 3,
+      explanation: "The antigen-binding site (paratope) is formed by the variable (V) regions of both the heavy and light chains at the tips of the Y-shaped antibody molecule."
+    },
+    {
+      id: "szambu-2026-bio-081",
+      question: "What are antigens, in the context of immune recognition?",
+      options: [
+        "Hormone released during infection",
+        "Self-identifying lipids in plasma",
+        "Cell surface proteins and Oligosaccharides",
+        "Enzymes released by B-cells"
+      ],
+      answer: 2,
+      explanation: "Antigens are foreign or self-marking molecules—typically cell-surface proteins, glycoproteins, or oligosaccharides—that are recognized by antibodies and lymphocyte receptors to elicit an immune response."
+    }
   ]

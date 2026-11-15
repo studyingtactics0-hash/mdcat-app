@@ -811,4 +811,76 @@ export type Question = {
       ],
       answer: 2,
     },
+    {
+      id: "szambu-2026-bio-047",
+      question: "Which of the following models describe how enzymes interact with their substrate?",
+      options: [
+        "Induced fit model",
+        "Lock and Key model",
+        "Fluid mosaic model",
+        "Sliding filament model"
+      ],
+      answer: 0,
+      explanation: "The induced fit model (proposed by Daniel Koshland) accurately describes enzyme-substrate interaction, showing that the active site undergoes a slight conformational change upon substrate binding to achieve optimal catalysis."
+    },
+    {
+      id: "szambu-2026-bio-048",
+      question: "Which of the following truly describes the Activation Energy of an Enzyme?",
+      options: [
+        "Total energy of the reaction system",
+        "Minimum energy required to start a chemical reaction",
+        "Energy lost during the chemical reaction",
+        "Energy difference between the chemical potential energy of the reactants and the products"
+      ],
+      answer: 1,
+      explanation: "Activation energy is the minimum amount of energy required to bring reactants to the transition state so that chemical bonds can break and reform to initiate a reaction."
+    },
+    {
+      id: "szambu-2026-bio-049",
+      question: "How does an enzyme increase the rate of a reaction?",
+      options: [
+        "By bringing the reaction molecules into precise orientation",
+        "By increasing the rate of random collisions of molecules",
+        "By shifting the point of equilibrium of the reaction",
+        "By supplying the energy required to start the reaction"
+      ],
+      answer: 0,
+      explanation: "Enzymes bind substrates at their active sites in a precise spatial orientation and stabilize the transition state, thereby lowering the activation energy barrier without altering equilibrium."
+    },
+    {
+      id: "szambu-2026-bio-050",
+      question: "Naturally, enzymes increase reaction rate without:",
+      options: [
+        "Converting substrate into products",
+        "Being consumed in reaction",
+        "Lowering its activation energy",
+        "Forming enzyme-substrate complex"
+      ],
+      answer: 1,
+      explanation: "As biological catalysts, enzymes speed up biochemical reactions by forming a temporary enzyme-substrate complex and lowering activation energy, emerging chemically unchanged and unconsumed at the end."
+    },
+    {
+      id: "szambu-2026-bio-057",
+      question: "All enzymes are ____ proteins?",
+      options: [
+        "Globular & insoluble in water",
+        "Globular & soluble in water",
+        "Fibrous & insoluble in water",
+        "Fibrous & soluble in water"
+      ],
+      answer: 1,
+      explanation: "Proteinaceous enzymes possess a compact, spherical tertiary conformation (globular proteins) with hydrophilic R groups oriented outward, making them soluble in water and cellular fluids."
+    },
+    {
+      id: "szambu-2026-bio-058",
+      question: "A marked increase in temperature reduces the rate of the enzyme catalyzed reaction by ____.",
+      options: [
+        "Decreasing the kinetic energy of substrate",
+        "Changing the pH of reaction media",
+        "Destroying the tertiary structure of enzyme",
+        "Decreasing the activation energy"
+      ],
+      answer: 2,
+      explanation: "Excessive heat disrupts the weak hydrogen bonds, ionic interactions, and hydrophobic forces maintaining the enzyme's 3D tertiary structure, causing denaturation and loss of active site shape."
+    },
   ];

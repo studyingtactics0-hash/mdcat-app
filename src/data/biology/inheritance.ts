@@ -1216,4 +1216,88 @@ export type Question = {
         ],
         answer: 0,
       },
+      {
+        id: "szambu-2026-bio-066",
+        question: "When male parent (RR) has a cross with female parent (rr), then according to Law of Segregation all F1 offspring appears with a genotype:",
+        options: [
+          "RR",
+          "Rr",
+          "rr",
+          "Rrr"
+        ],
+        answer: 1,
+        explanation: "During gamete formation, homozygous dominant (RR) produces only R gametes and homozygous recessive (rr) produces only r gametes, resulting in 100% heterozygous (Rr) F1 offspring."
+      },
+      {
+        id: "szambu-2026-bio-067",
+        question: "Which of the following genetic disorders cause bleeding disease?",
+        options: [
+          "Sickle Cell anemia",
+          "Hemophilia",
+          "Thalassemia",
+          "Cystic fibrosis"
+        ],
+        answer: 1,
+        explanation: "Hemophilia is an X-linked recessive bleeding disorder caused by a deficiency of blood clotting factors (such as Factor VIII in Hemophilia A or Factor IX in Hemophilia B), leading to prolonged bleeding."
+      },
+      {
+        id: "szambu-2026-bio-068",
+        question: "Y-linked traits are always passed from father to the:",
+        options: [
+          "Sons only",
+          "Daughters only",
+          "50% sons and 50% daughters",
+          "75% sons and 25% daughter"
+        ],
+        answer: 0,
+        explanation: "Holandric (Y-linked) genes reside exclusively on the Y chromosome, which is transmitted directly from father to all male offspring (sons) and never to daughters."
+      },
+      {
+        id: "szambu-2026-bio-069",
+        question: "How many different genotypes are required for producing a pea plant with round and yellow seeds phenotype?",
+        options: [
+          "1",
+          "2",
+          "4",
+          "8"
+        ],
+        answer: 2,
+        explanation: "Since Round (R) is dominant over wrinkled (r) and Yellow (Y) is dominant over green (y), four distinct genotypes produce the round and yellow phenotype: RRYY, RRYy, RrYY, and RrYy."
+      },
+      {
+        id: "szambu-2026-bio-070",
+        question: "In which of the following phases of cell cycle, gene crossing over occurs?",
+        options: [
+          "Telophase",
+          "Prophase I",
+          "Metaphase I",
+          "Prophase II"
+        ],
+        answer: 1,
+        explanation: "Crossing over (exchange of genetic segments between non-sister chromatids of homologous chromosomes) occurs at chiasmata during the pachytene substage of Prophase I of meiosis."
+      },
+      {
+        id: "szambu-2026-bio-071",
+        question: "Which of the following best describes the production of different combinations of alleles in daughter cells, as a result of the random alignment of bivalents on the equator of the spindle during metaphase I of meiosis?",
+        options: [
+          "Segregation",
+          "Sex Linkage",
+          "Crossing Over",
+          "Independent Assortment"
+        ],
+        answer: 3,
+        explanation: "Mendel's Law of Independent Assortment arises physically from the random orientation of homologous chromosome pairs (bivalents) along the metaphase plate during Metaphase I."
+      },
+      {
+        id: "szambu-2026-bio-072",
+        question: "A genetic disease is transferred from a phenotypically normal but carrier female to only some of the male progeny. The disease is:",
+        options: [
+          "Autosomal dominant",
+          "Autosomal recessive",
+          "Sex-linked dominant",
+          "Sex-linked recessive"
+        ],
+        answer: 3,
+        explanation: "In an X-linked (sex-linked) recessive disorder, a heterozygous carrier mother (X^A X^a) is phenotypically normal and passes the recessive allele (X^a) to 50% of her sons, who express the trait hemizygously."
+      }
   ];

@@ -595,4 +595,40 @@ export type Question = {
         ],
         answer: 1,
       },
+      {
+        id: "szambu-2026-bio-025",
+        question: "Which of the following best defines the removal of electrons from a substance by the addition of oxygen or removal of hydrogen?",
+        options: [
+          "Oxidation",
+          "Reduction",
+          "Phosphorylation",
+          "Dephosphorylation"
+        ],
+        answer: 0,
+        explanation: "Oxidation is defined as the loss of electrons from an atom or molecule, which in biological systems commonly occurs via the removal of hydrogen atoms (dehydrogenation) or the addition of oxygen."
+      },
+      {
+        id: "szambu-2026-bio-026",
+        question: "Which of the following is a major benefit of anaerobic respiration during exercise in humans?",
+        options: [
+          "Glucose molecules are fully oxidised during anaerobic respiration",
+          "Anaerobic respiration can supply ATP very rapidly for a short period of time",
+          "It produces useful byproducts",
+          "Anaerobic respiration can supply ATP indefinitely"
+        ],
+        answer: 1,
+        explanation: "During intense exercise when oxygen demand exceeds supply, anaerobic glycolysis rapidly generates ATP for short bursts of muscle activity, even though it yields less ATP per glucose molecule than aerobic respiration."
+      },
+      {
+        id: "szambu-2026-bio-027",
+        question: "Oxidation, decarboxylation and addition of coenzyme-A to pyruvate results into the production of",
+        options: [
+          "Acetyl Co-A",
+          "Phosphoenolpyruvate",
+          "Glucose 6-phosphate",
+          "Citrate"
+        ],
+        answer: 0,
+        explanation: "In the link reaction catalyzed by the pyruvate dehydrogenase complex, pyruvate undergoes oxidative decarboxylation (losing CO2 and reducing NAD+ to NADH) and binds to coenzyme A to form Acetyl Co-A."
+      }
   ];
