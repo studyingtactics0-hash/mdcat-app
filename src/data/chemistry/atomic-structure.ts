@@ -987,5 +987,53 @@ export type Question = {
         answer: 2,
         explanation:
           "The number of orbitals in a subshell is given by (2ℓ + 1). Since each orbital can hold a maximum of 2 electrons with opposite spins, the total capacity of a subshell is 2(2ℓ + 1)."
+      },
+      {
+        id: "szambu-2026-chem-101",
+        question: "The probability of spin of an electron is supposed to be",
+        options: [
+          "30% clockwise & 70% counterclockwise",
+          "70% clockwise & 30% counterclockwise",
+          "50% clockwise & 50% counterclockwise",
+          "90% clockwise & 10% counterclockwise"
+        ],
+        answer: 2,
+        explanation: "An electron spinning around its own axis has two equally probable orientations—clockwise (+1/2) and counterclockwise (-1/2)—giving a 50% probability for each spin state."
+      },
+      {
+        id: "szambu-2026-chem-115",
+        question: "For an element “X”, if the value of Principle quantum number (n) = 4, the largest value of magnetic quantum number “m” can be:",
+        options: [
+          "+1",
+          "+2",
+          "+3",
+          "+4"
+        ],
+        answer: 2,
+        explanation: "For n = 4, the azimuthal quantum number (l) can take values from 0 to n - 1 (0, 1, 2, 3). Since the magnetic quantum number (m) ranges from -l to +l, the maximum value of m occurs when l = 3, which is +3."
+      },
+      {
+        id: "szambu-2026-chem-116",
+        question: "A photon is moving with wave number 1.5×10⁶ m⁻¹, its frequency is",
+        options: [
+          "4.5×10¹⁴",
+          "3.0×10¹⁴",
+          "4.5×10¹⁹",
+          "3.0×10¹⁹"
+        ],
+        answer: 0,
+        explanation: "Frequency (ν) is related to wave number (ν̄) by the formula ν = c × ν̄. Substituting c = 3.0 × 10⁸ m/s and ν̄ = 1.5 × 10⁶ m⁻¹ gives ν = (3.0 × 10⁸) × (1.5 × 10⁶) = 4.5 × 10¹⁴ Hz."
+      },
+      {
+        id: "szambu-2026-chem-112",
+        question: "An ion with a trinegative charge (–3) has valence shell electronic configuration of 1s² 2s² 2p⁶ 3s² 3p⁶. To which period and group of the periodic table does the given element belong?",
+        options: [
+          "Period III and Group IIIA",
+          "Period III and Group VA",
+          "Period V and Group IIIA",
+          "Period V and Group VA"
+        ],
+        answer: 1,
+        explanation: "The trinegative ion (X³⁻) has 18 electrons, meaning the neutral atom (X) has 18 - 3 = 15 electrons (1s² 2s² 2p⁶ 3s² 3p³). The highest principal quantum number is 3 (Period III), and there are 5 valence electrons in the 3s and 3p subshells (Group VA, Phosphorus)."
       }
   ];

@@ -14625,5 +14625,557 @@ export type Question = {
             answer: 2,
             explanation:
               "The element with atomic number Z = 27 is Cobalt (Co), which has the electronic configuration [Ar] 3d⁷ 4s². Since its differentiating (last) electron enters the 3d subshell, it belongs to the d-block of the periodic table."
+          },
+          {
+            id: "szambu-2026-chem-089",
+            question: "Which reagent gives white precipitates when added to phenol?",
+            options: [
+              "aq bromine",
+              "aq Na₂CO₃",
+              "aq NaOH",
+              "aq NaOH and benzoyl chloride"
+            ],
+            answer: 0,
+            explanation: "Phenol reacts rapidly with aqueous bromine (bromine water) at room temperature to undergo tribromination at the activated 2, 4, and 6 positions, forming a white precipitate of 2,4,6-tribromophenol."
+          },
+          {
+            id: "szambu-2026-chem-090",
+            question: "Which of the following is more acidic?",
+            options: [
+              "Phenol",
+              "o-methyl phenol",
+              "o-nitro phenol",
+              "o-Aminophenol"
+            ],
+            answer: 2,
+            explanation: "Electron-withdrawing groups increase the acidity of phenol by stabilizing the phenoxide conjugate base. The nitro group (–NO₂) in o-nitrophenol exerts strong electron-withdrawing inductive (–I) and resonance (–M) effects, making it significantly more acidic than phenol or phenols substituted with electron-donating groups (–CH₃, –NH₂)."
+          },
+          {
+            id: "szambu-2026-chem-091",
+            question: "Which of these compounds reacts immediately with Lucas reagent and forms an oily layer by turning the solution turbid?",
+            options: [
+              "2-butanol",
+              "2-methyl-2-butanol",
+              "1-propanol",
+              "4-methylphenol (p-cresol)"
+            ],
+            answer: 1,
+            explanation: "Lucas reagent (concentrated HCl and anhydrous ZnCl₂) distinguishes alcohols by carbocation stability. 2-methyl-2-butanol is a tertiary alcohol that rapidly forms a stable tertiary carbocation, reacting immediately at room temperature to produce an insoluble alkyl chloride oily layer (turbidity)."
+          },
+          {
+            id: "szambu-2026-chem-092",
+            question: "Which of the following gives positive silver mirror test:",
+            options: [
+              "CH₃CH₂OH",
+              "CH₃CHO",
+              "CH₃COOH",
+              "CH₃COCH₃"
+            ],
+            answer: 1,
+            explanation: "Aldehydes such as acetaldehyde (CH₃CHO) are easily oxidized by Tollens' reagent (ammoniacal silver nitrate) to carboxylate ions, reducing Ag⁺ ions to metallic silver, which deposits as a shiny silver mirror on the inner wall of the test tube."
+          },
+          {
+            id: "szambu-2026-chem-093",
+            question: "Select the acid catalyzed addition reactions of carboxyl compounds from the following",
+            options: [
+              "Addition of Grignard reaction",
+              "Addition of sodium bisulphite",
+              "Addition of alcohols",
+              "Addition of hydrogen cyanide"
+            ],
+            answer: 2,
+            explanation: "Alcohols are weak nucleophiles, so their nucleophilic addition to carbonyl compounds (aldehydes and ketones) to form hemiacetals and acetals requires an acid catalyst (such as dry HCl gas or H₂SO₄) to protonate the carbonyl oxygen and increase the electrophilicity of the carbonyl carbon."
+          },
+          {
+            id: "szambu-2026-chem-094",
+            question: "When an aldehyde or ketone is reduced using LiAlH₄, followed by hydrolysis, the resultant would be",
+            options: [
+              "1° alcohol from both aldehyde and ketone",
+              "1° alcohol from aldehyde and 2° alcohol from ketone",
+              "2° alcohol from both aldehyde and ketone",
+              "2° alcohol from aldehyde and 3° alcohol from ketone"
+            ],
+            answer: 1,
+            explanation: "Lithium aluminum hydride (LiAlH₄) transfers a hydride ion (H⁻) to the carbonyl carbon, followed by acidic hydrolysis. Aldehydes (RCHO) are reduced to primary (1°) alcohols (RCH₂OH), whereas ketones (R₂CO) are reduced to secondary (2°) alcohols (R₂CHOH)."
+          },
+          {
+            id: "szambu-2026-chem-088",
+            question: "______ can be added, to an alkyl halide to increase the no. of carbon atoms in the parent chain.",
+            options: [
+              "HCN in ethanol",
+              "KCN in ethanol",
+              "Iodoform",
+              "Amines"
+            ],
+            answer: 1,
+            explanation: "Heating an alkyl halide with potassium cyanide (KCN) in aqueous ethanol leads to nucleophilic substitution of the halide ion by the cyanide ion (CN⁻), forming an alkyl nitrile (R–C≡N) and ascending the homologous series by one carbon atom."
+          },
+          {
+            id: "szambu-2026-chem-101",
+            question: "The probability of spin of an electron is supposed to be",
+            options: [
+              "30% clockwise & 70% counterclockwise",
+              "70% clockwise & 30% counterclockwise",
+              "50% clockwise & 50% counterclockwise",
+              "90% clockwise & 10% counterclockwise"
+            ],
+            answer: 2,
+            explanation: "An electron spinning around its own axis has two equally probable orientations—clockwise (+1/2) and counterclockwise (-1/2)—giving a 50% probability for each spin state."
+          },
+          {
+            id: "szambu-2026-chem-115",
+            question: "For an element “X”, if the value of Principle quantum number (n) = 4, the largest value of magnetic quantum number “m” can be:",
+            options: [
+              "+1",
+              "+2",
+              "+3",
+              "+4"
+            ],
+            answer: 2,
+            explanation: "For n = 4, the azimuthal quantum number (l) can take values from 0 to n - 1 (0, 1, 2, 3). Since the magnetic quantum number (m) ranges from -l to +l, the maximum value of m occurs when l = 3, which is +3."
+          },
+          {
+            id: "szambu-2026-chem-116",
+            question: "A photon is moving with wave number 1.5×10⁶ m⁻¹, its frequency is",
+            options: [
+              "4.5×10¹⁴",
+              "3.0×10¹⁴",
+              "4.5×10¹⁹",
+              "3.0×10¹⁹"
+            ],
+            answer: 0,
+            explanation: "Frequency (ν) is related to wave number (ν̄) by the formula ν = c × ν̄. Substituting c = 3.0 × 10⁸ m/s and ν̄ = 1.5 × 10⁶ m⁻¹ gives ν = (3.0 × 10⁸) × (1.5 × 10⁶) = 4.5 × 10¹⁴ Hz."
+          },
+          {
+            id: "szambu-2026-chem-112",
+            question: "An ion with a trinegative charge (–3) has valence shell electronic configuration of 1s² 2s² 2p⁶ 3s² 3p⁶. To which period and group of the periodic table does the given element belong?",
+            options: [
+              "Period III and Group IIIA",
+              "Period III and Group VA",
+              "Period V and Group IIIA",
+              "Period V and Group VA"
+            ],
+            answer: 1,
+            explanation: "The trinegative ion (X³⁻) has 18 electrons, meaning the neutral atom (X) has 18 - 3 = 15 electrons (1s² 2s² 2p⁶ 3s² 3p³). The highest principal quantum number is 3 (Period III), and there are 5 valence electrons in the 3s and 3p subshells (Group VA, Phosphorus)."
+          },
+          {
+            id: "szambu-2026-chem-096",
+            question: "Acetic acid and ethanol react to produce",
+            options: [
+              "aldehyde",
+              "ethyl acetate",
+              "nitrile",
+              "ketone"
+            ],
+            answer: 1,
+            explanation: "Acetic acid (CH₃COOH) reacts with ethanol (C₂H₅OH) in the presence of an acid catalyst (such as concentrated H₂SO₄) via Fischer esterification to produce an ester, ethyl acetate (CH₃COOC₂H₅), along with water."
+          },
+          {
+            id: "szambu-2026-chem-110",
+            question: "Number of sigma bonds and pi bonds in acetylene are?",
+            options: [
+              "3 & 1",
+              "1 & 3",
+              "5 & 2",
+              "3 & 2"
+            ],
+            answer: 3,
+            explanation: "Acetylene (H–C≡C–H) contains two C–H single bonds (2 sigma bonds) and one C≡C triple bond (1 sigma bond and 2 pi bonds), giving a total of 3 sigma bonds and 2 pi bonds."
+          },
+          {
+            id: "szambu-2026-chem-111",
+            question: "Which compound will have a maximum dipole moment?",
+            options: [
+              "CH₄",
+              "CCl₄",
+              "CH₃Cl",
+              "C₂H₄"
+            ],
+            answer: 2,
+            explanation: "CH₄, CCl₄, and C₂H₄ are symmetrical molecules whose individual bond dipoles cancel out completely, resulting in zero net dipole moment. Chloromethane (CH₃Cl) has an asymmetrical tetrahedral geometry with a strongly polar C–Cl bond, giving it the maximum dipole moment among the choices (1.87 D)."
+          },
+          {
+            id: "szambu-2026-chem-102",
+            question: "Methanol is manufactured by reacting carbon dioxide and hydrogen.\n\nCO₂(g) + 3H₂(g) ⇌ CH₃OH(g) + H₂O(g), ΔH = –49 kJ/mol\n\nWhat would increase the equilibrium yield of methanol in this process?",
+            options: [
+              "Adding methanol",
+              "Adding an excess of steam",
+              "Decreasing the pressure",
+              "Decreasing the temperature"
+            ],
+            answer: 3,
+            explanation: "Because ΔH is negative (–49 kJ/mol), the forward reaction is exothermic. According to Le Chatelier's principle, decreasing the temperature shifts the equilibrium in the exothermic (forward) direction to release heat, thereby increasing the yield of methanol."
+          },
+          {
+            id: "szambu-2026-chem-105",
+            question: "If enthalpy change of a reaction is negative, then on increasing temperature the reaction will move in which direction?",
+            options: [
+              "Forward",
+              "Reverse",
+              "No change",
+              "First reverse then forward"
+            ],
+            answer: 1,
+            explanation: "A negative enthalpy change (ΔH < 0) indicates that the forward reaction is exothermic and the reverse reaction is endothermic. By Le Chatelier's principle, increasing temperature favors the endothermic direction to absorb the added heat, shifting the equilibrium in the reverse direction."
+          },
+          {
+            id: "szambu-2026-chem-121",
+            question: "For an endothermic reversible reaction, the yield will increase if",
+            options: [
+              "Temperature increased",
+              "Temperature decreased",
+              "Catalyst added",
+              "Reactants removed"
+            ],
+            answer: 0,
+            explanation: "In an endothermic reversible reaction (ΔH > 0), heat is absorbed in the forward direction. According to Le Chatelier's principle, increasing the temperature shifts the equilibrium toward the products to consume the added thermal energy, increasing the yield."
+          },
+          {
+            id: "szambu-2026-chem-082",
+            question: "Alkenes are less acidic than alkynes due to",
+            options: [
+              "higher s character",
+              "lesser s character",
+              "stronger bonds",
+              "higher electronegativity"
+            ],
+            answer: 1,
+            explanation: "In alkenes, the carbon atoms are sp² hybridized (33.3% s-character), whereas in terminal alkynes, the carbon atoms are sp hybridized (50% s-character). Because alkenes have lesser s-character, the bonding electrons are held less tightly by the carbon nucleus, making the C–H bond less polar and alkenes less acidic than alkynes."
+          },
+          {
+            id: "szambu-2026-chem-083",
+            question: "1,3 Butadiene is more stable than 1-Butene, because it is a:",
+            options: [
+              "Conjugated Alkene",
+              "Cumulenes",
+              "Isolated diene",
+              "Separated dienes"
+            ],
+            answer: 0,
+            explanation: "1,3-Butadiene has alternating double and single carbon-carbon bonds (CH₂=CH–CH=CH₂), making it a conjugated alkene (diene). This conjugation allows π-electron delocalization across all four carbon atoms, lowering its internal energy and increasing its stability compared to non-conjugated alkenes like 1-butene."
+          },
+          {
+            id: "szambu-2026-chem-086",
+            question: "During Hydrohalogenation of asymmetric alkenes, which rule favors formation of secondary carbocation over primary carbocation?",
+            options: [
+              "Hydration rule",
+              "Anti-Markovnikov’s rule",
+              "Markovnikov’s rule",
+              "Polymeros’s rule"
+            ],
+            answer: 2,
+            explanation: "Markovnikov’s rule states that during the electrophilic addition of HX to an asymmetric alkene, the proton (H⁺) attaches to the carbon with more hydrogen atoms so that the more stable carbocation intermediate (secondary over primary) is formed."
+          },
+          {
+            id: "szambu-2026-chem-087",
+            question: "Which reagent is used to distinguish 1-butyne and 2-butyne?",
+            options: [
+              "water in the presence of mercuric sulphate and sulfuric acid",
+              "ammoniacal silver nitrate",
+              "Acidified potassium manganate(VII)",
+              "aqueous bromine"
+            ],
+            answer: 1,
+            explanation: "1-Butyne is a terminal alkyne possessing an acidic acetylenic hydrogen, which reacts with ammoniacal silver nitrate (Tollens' reagent) to form a white precipitate of silver butynide. 2-Butyne is an internal alkyne lacking an acidic hydrogen and does not react with this reagent."
+          },
+          {
+            id: "szambu-2026-chem-126",
+            question: "Select free radical involved in initiation of halogenation of methane",
+            options: [
+              "Cl•",
+              "CH₃•",
+              "CH₄",
+              "CH₃Cl"
+            ],
+            answer: 0,
+            explanation: "In the initiation step of free-radical chlorination of methane, ultraviolet light causes homolytic fission of the weak Cl–Cl bond to generate chlorine free radicals (Cl•)."
+          },
+          {
+            id: "szambu-2026-chem-106",
+            question: "Which element will undergo oxidation preferably:",
+            options: [
+              "With low reduction potential",
+              "With high reduction potential",
+              "With low oxidation potential",
+              "Cannot be predicted"
+            ],
+            answer: 0,
+            explanation: "Standard reduction potential measures the tendency of a species to gain electrons (be reduced). An element with a lower (more negative) reduction potential has a higher oxidation potential, meaning it loses electrons and undergoes oxidation more readily."
+          },
+          {
+            id: "szambu-2026-chem-107",
+            question: "In a redox reaction, the reducing agent is the species that:",
+            options: [
+              "Gains electrons",
+              "Loses electrons",
+              "Remains unchanged",
+              "Decreases in its oxidation state"
+            ],
+            answer: 1,
+            explanation: "A reducing agent donates electrons to another species to reduce it; in doing so, the reducing agent itself loses electrons and undergoes oxidation (increasing its oxidation state)."
+          },
+          {
+            id: "szambu-2026-chem-100",
+            question: "Calculate the number of molecules in 244g of Benzoic acid (C₇H₆O₂)",
+            options: [
+              "12 × 10²²",
+              "1.2 × 10²⁴",
+              "0.12 × 10²¹",
+              "12 × 10²⁴"
+            ],
+            answer: 1,
+            explanation: "The molar mass of benzoic acid (C₇H₆O₂) is (7 × 12) + (6 × 1) + (2 × 16) = 84 + 6 + 32 = 122 g/mol. Number of moles = given mass / molar mass = 244 g / 122 g/mol = 2 moles. Number of molecules = 2 × Avogadro's number (6.02 × 10²³) = 12.04 × 10²³ = 1.2 × 10²⁴."
+          },
+          {
+            id: "szambu-2026-chem-084",
+            question: "Name of (C₂H₅)₄C",
+            options: [
+              "triethyl methane",
+              "tetramethyl methane",
+              "tetraethyl methane",
+              "trimethyl ethane"
+            ],
+            answer: 2,
+            explanation: "In the derived (common) naming system, (C₂H₅)₄C is viewed as a central methane carbon atom whose four hydrogen atoms are replaced by four ethyl (–C₂H₅) groups, giving the name tetraethyl methane (IUPAC name: 3,3-diethylpentane)."
+          },
+          {
+            id: "szambu-2026-chem-095",
+            question: "Free radicals are produced by",
+            options: [
+              "Homolytic cleavage",
+              "Heterolytic cleavage",
+              "Reducing agents",
+              "Oxidizing agents"
+            ],
+            answer: 0,
+            explanation: "Homolytic cleavage (homolysis) occurs when a covalent bond breaks symmetrically so that each bonded atom retains one of the two shared electrons, generating electrically neutral species with unpaired electrons known as free radicals."
+          },
+          {
+            id: "szambu-2026-chem-125",
+            question: "Those molecules which have chiral center but not mirror image of one another is called",
+            options: [
+              "Epimers",
+              "Enantiomers",
+              "Diastereomers",
+              "Anomers"
+            ],
+            answer: 2,
+            explanation: "Diastereomers are stereoisomers that contain chiral centers and have different spatial arrangements, but are not non-superimposable mirror images of each other (unlike enantiomers)."
+          },
+          {
+            id: "szambu-2026-chem-075",
+            question: "Compared to benzene, nitration of toluene takes place at?",
+            options: [
+              "Same rate",
+              "Slow rate",
+              "Faster rate",
+              "Very slow rate"
+            ],
+            answer: 2,
+            explanation: "The methyl group (–CH₃) attached to the benzene ring in toluene is an electron-donating group via hyperconjugation and the inductive effect (+I). This increases the electron density of the aromatic ring, activating it toward electrophilic aromatic substitution so nitration occurs at a much faster rate than in benzene."
+          },
+          {
+            id: "szambu-2026-chem-113",
+            question: "If the temperature of a gas is doubled at constant pressure, what will be its volume:",
+            options: [
+              "Halved",
+              "Doubled",
+              "Remains constant",
+              "Quadrupled"
+            ],
+            answer: 1,
+            explanation: "According to Charles's Law (V ∝ T at constant pressure), the volume of a given mass of gas is directly proportional to its absolute temperature. Therefore, doubling the temperature doubles the volume."
+          },
+          {
+            id: "szambu-2026-chem-117",
+            question: "Ideal gas equation for one mole of H₂ is",
+            options: [
+              "PV = nRT",
+              "P₁V₁/T₁ = P₂V₂/T₂",
+              "PV/RT = 1",
+              "P₁V₂/T₂ = P₂V₁T₁"
+            ],
+            answer: 2,
+            explanation: "The general ideal gas equation is PV = nRT. For one mole of a gas (n = 1), the equation becomes PV = RT, which rearranges to PV/RT = 1."
+          },
+          {
+            id: "szambu-2026-chem-118",
+            question: "Value of concentration for 1 mol of an ideal gas at STP will be:",
+            options: [
+              "0.04",
+              "0.40",
+              "4.40",
+              "4.00"
+            ],
+            answer: 0,
+            explanation: "At STP, 1 mole of an ideal gas occupies a molar volume of 22.414 dm³ (or 22.4 L). Molar concentration (C = n/V) = 1 mol / 22.414 dm³ ≈ 0.0446 mol/dm³, which corresponds to 0.04."
+          },
+          {
+            id: "szambu-2026-chem-119",
+            question: "The ideal gas equation is a combination of laws.",
+            options: [
+              "Charles’s, Boyle’s",
+              "Charles’s, Avogadro’s",
+              "Boyle’s, Avogadro’s",
+              "Charles’s, Boyle’s, Avogadro’s"
+            ],
+            answer: 3,
+            explanation: "The ideal gas equation (PV = nRT) is derived by combining Boyle's Law (V ∝ 1/P), Charles's Law (V ∝ T), and Avogadro's Law (V ∝ n)."
+          },
+          {
+            id: "szambu-2026-chem-098",
+            question: "Acrylate base polymers are:",
+            options: [
+              "drying adhesives",
+              "pressure sensitive adhesives",
+              "contact adhesives",
+              "hot adhesives"
+            ],
+            answer: 1,
+            explanation: "Acrylate-based polymers (acrylic adhesives) remain permanently tacky at room temperature and form a bond immediately when light pressure is applied without requiring heat, water, or solvent activation, classifying them as pressure sensitive adhesives (PSAs)."
+          },
+          {
+            id: "szambu-2026-chem-108",
+            question: "The surface of Triton, a moon of Neptune, contains condensed methane that flows rapidly. Which statement explains why condensed methane flows rapidly?",
+            options: [
+              "Condensed methane has a metallic structure",
+              "Methane molecules contain strong covalent bonds",
+              "The intermolecular forces between methane molecules are weak",
+              "Methane molecules have a tetrahedral shape"
+            ],
+            answer: 2,
+            explanation: "Methane (CH₄) is a non-polar molecule held together in the liquid state solely by weak London dispersion forces. Because these intermolecular forces are very weak, methane molecules slide past one another easily, resulting in low viscosity and rapid flow."
+          },
+          {
+            id: "szambu-2026-chem-109",
+            question: "Which of the following statements is true for water (temperature between 4°C to 0°C)",
+            options: [
+              "The volume of water decreases on cooling",
+              "The density of water increases on cooling",
+              "The density of water decreases on cooling",
+              "The mass of water decreases on cooling"
+            ],
+            answer: 2,
+            explanation: "Water reaches its maximum density at 4°C. When cooled further from 4°C to 0°C, water exhibits anomalous expansion due to the formation of an open, cage-like hydrogen-bonded structure; consequently, its volume increases and its density decreases."
+          },
+          {
+            id: "szambu-2026-chem-114",
+            question: "Which pair of compounds form hydrogen bond?",
+            options: [
+              "water and acetaldehyde",
+              "formic acid and acetic acid",
+              "ethyl acetate and acetic acid",
+              "acetone and water"
+            ],
+            answer: 1,
+            explanation: "Both formic acid (HCOOH) and acetic acid (CH₃COOH) possess strongly polarized O–H groups (hydrogen bond donors) as well as carbonyl oxygen atoms (hydrogen bond acceptors), allowing them to form strong intermolecular hydrogen bonds directly with each other (including cyclic dimers)."
+          },
+          {
+            id: "szambu-2026-chem-085",
+            question: "Which one of the following statements is correct for troponin?",
+            options: [
+              "It is an ATPase",
+              "It binds to actin only",
+              "It consists of three polypeptide chains",
+              "It has greater affinity with Calcium ions than myosin"
+            ],
+            answer: 2,
+            explanation: "Troponin is a regulatory protein complex found on thin filaments in skeletal and cardiac muscle that consists of three distinct polypeptide subunits: Troponin-T (binds tropomyosin), Troponin-I (inhibits actin-myosin interaction), and Troponin-C (binds calcium ions)."
+          },
+          {
+            id: "szambu-2026-chem-097",
+            question: "Prosthetic groups are part of the following protein.",
+            options: [
+              "Derived",
+              "Conjugated",
+              "Simple",
+              "Non-derived"
+            ],
+            answer: 1,
+            explanation: "Conjugated proteins (compound proteins) are composed of simple amino acid chains tightly bound to a non-protein chemical component known as a prosthetic group (such as heme in hemoglobin or carbohydrates in glycoproteins)."
+          },
+          {
+            id: "szambu-2026-chem-103",
+            question: "The order of reaction of an elementary reaction is:",
+            options: [
+              "equal to molecularity",
+              "depend on temperature",
+              "can’t be predicted",
+              "depends on concentration"
+            ],
+            answer: 0,
+            explanation: "An elementary reaction occurs in a single step, so its rate law directly reflects the stoichiometry of the reacting species. Therefore, the order of an elementary reaction is always equal to its molecularity."
+          },
+          {
+            id: "szambu-2026-chem-104",
+            question: "The rate of reaction when concentration becomes unity is called",
+            options: [
+              "Average rate",
+              "Instantaneous rate",
+              "Rate constant",
+              "Rate of reaction"
+            ],
+            answer: 2,
+            explanation: "According to the rate law (Rate = k[A]ⁿ), when the molar concentration of each reactant is unity (1 mol/dm³), the rate of reaction becomes equal to the specific rate constant (k)."
+          },
+          {
+            id: "szambu-2026-chem-122",
+            question: "Which of the following elements has the lowest electronegativity value?",
+            options: [
+              "Flourine",
+              "Iodine",
+              "Lithium",
+              "Cesium"
+            ],
+            answer: 3,
+            explanation: "Electronegativity decreases down a group and increases across a period from left to right. Cesium (Cs) is located at the bottom left of the periodic table (Group IA, Period 6), giving it the largest atomic radius and the lowest electronegativity value (0.79 on the Pauling scale) among the listed elements."
+          },
+          {
+            id: "szambu-2026-chem-123",
+            question: "Sodium metal reacts with ice cold water to produce:",
+            options: [
+              "NaOH",
+              "Na₂O₄",
+              "Na₂O₂",
+              "NaCl"
+            ],
+            answer: 0,
+            explanation: "Alkali metals like sodium react vigorously even with cold water to form the corresponding metal hydroxide and hydrogen gas: 2Na(s) + 2H₂O(l) → 2NaOH(aq) + H₂(g)."
+          },
+          {
+            id: "szambu-2026-chem-120",
+            question: "In body centered crystal system the central ion is attached with",
+            options: [
+              "1 unit cell",
+              "4 unit cell",
+              "6 unit cell",
+              "10 unit cell"
+            ],
+            answer: 0,
+            explanation: "In a body-centered cubic (BCC) unit cell, the central atom or ion is located entirely at the geometric center of the cube and is not shared with any neighboring unit cells, so it belongs exclusively to 1 unit cell."
+          },
+          {
+            id: "szambu-2026-chem-099",
+            question: "What does the symbol (Δ) in a chemical equation represent?",
+            options: [
+              "Density",
+              "Direction",
+              "Heat",
+              "Pressure"
+            ],
+            answer: 2,
+            explanation: "In a chemical equation, the Greek letter delta (Δ) written above or below the reaction arrow indicates that heat is supplied to the reactants for the reaction to proceed."
+          },
+          {
+            id: "szambu-2026-chem-124",
+            question: "Outer-Transition elements are also called:",
+            options: [
+              "s-block elements",
+              "p-block elements",
+              "d-block elements",
+              "f-block elements"
+            ],
+            answer: 2,
+            explanation: "Outer transition elements have their last differentiating electron entering the (n-1)d subshell, which places them in the d-block of the periodic table (whereas f-block elements are called inner transition elements)."
           }
 ];

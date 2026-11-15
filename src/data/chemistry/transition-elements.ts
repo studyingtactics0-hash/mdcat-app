@@ -620,5 +620,17 @@ export type Question = {
         answer: 2,
         explanation:
           "The element with atomic number Z = 27 is Cobalt (Co), which has the electronic configuration [Ar] 3d⁷ 4s². Since its differentiating (last) electron enters the 3d subshell, it belongs to the d-block of the periodic table."
+      },
+      {
+        id: "szambu-2026-chem-124",
+        question: "Outer-Transition elements are also called:",
+        options: [
+          "s-block elements",
+          "p-block elements",
+          "d-block elements",
+          "f-block elements"
+        ],
+        answer: 2,
+        explanation: "Outer transition elements have their last differentiating electron entering the (n-1)d subshell, which places them in the d-block of the periodic table (whereas f-block elements are called inner transition elements)."
       }
   ];

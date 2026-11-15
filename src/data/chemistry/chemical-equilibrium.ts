@@ -964,5 +964,41 @@ export type Question = {
         answer: 0,
         explanation:
           "For the dissociation equilibrium AgBr(s) ⇌ Ag⁺(aq) + Br⁻(aq), [Ag⁺] = [Br⁻] = 7.1 × 10⁻⁷ M. The solubility product is Ksp = [Ag⁺][Br⁻] = (7.1 × 10⁻⁷)² = 50.41 × 10⁻¹⁴ = 5.041 × 10⁻¹³."
+      },
+      {
+        id: "szambu-2026-chem-102",
+        question: "Methanol is manufactured by reacting carbon dioxide and hydrogen.\n\nCO₂(g) + 3H₂(g) ⇌ CH₃OH(g) + H₂O(g), ΔH = –49 kJ/mol\n\nWhat would increase the equilibrium yield of methanol in this process?",
+        options: [
+          "Adding methanol",
+          "Adding an excess of steam",
+          "Decreasing the pressure",
+          "Decreasing the temperature"
+        ],
+        answer: 3,
+        explanation: "Because ΔH is negative (–49 kJ/mol), the forward reaction is exothermic. According to Le Chatelier's principle, decreasing the temperature shifts the equilibrium in the exothermic (forward) direction to release heat, thereby increasing the yield of methanol."
+      },
+      {
+        id: "szambu-2026-chem-105",
+        question: "If enthalpy change of a reaction is negative, then on increasing temperature the reaction will move in which direction?",
+        options: [
+          "Forward",
+          "Reverse",
+          "No change",
+          "First reverse then forward"
+        ],
+        answer: 1,
+        explanation: "A negative enthalpy change (ΔH < 0) indicates that the forward reaction is exothermic and the reverse reaction is endothermic. By Le Chatelier's principle, increasing temperature favors the endothermic direction to absorb the added heat, shifting the equilibrium in the reverse direction."
+      },
+      {
+        id: "szambu-2026-chem-121",
+        question: "For an endothermic reversible reaction, the yield will increase if",
+        options: [
+          "Temperature increased",
+          "Temperature decreased",
+          "Catalyst added",
+          "Reactants removed"
+        ],
+        answer: 0,
+        explanation: "In an endothermic reversible reaction (ΔH > 0), heat is absorbed in the forward direction. According to Le Chatelier's principle, increasing the temperature shifts the equilibrium toward the products to consume the added thermal energy, increasing the yield."
       }
   ];

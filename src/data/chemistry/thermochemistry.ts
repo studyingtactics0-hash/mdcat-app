@@ -353,5 +353,17 @@ export type Question = {
       answer: 2,
       explanation:
         "In a cyclic process, the system returns to its initial state, so the net change in internal energy is zero (ΔE = 0). By the first law of thermodynamics (ΔE = q - w), net heat absorbed is q = 1200 J - 700 J = +500 J, meaning the system performs net work w = +500 J on the surroundings."
+    },
+    {
+      id: "szambu-2026-chem-099",
+      question: "What does the symbol (Δ) in a chemical equation represent?",
+      options: [
+        "Density",
+        "Direction",
+        "Heat",
+        "Pressure"
+      ],
+      answer: 2,
+      explanation: "In a chemical equation, the Greek letter delta (Δ) written above or below the reaction arrow indicates that heat is supplied to the reactants for the reaction to proceed."
     }
   ];

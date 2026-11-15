@@ -995,5 +995,65 @@ export type Question = {
         answer: 1,
         explanation:
           "Benzene consists of six sp²-hybridized carbon atoms forming a planar hexagonal ring with six unhybridized p-orbitals overlapping continuously. The extensive delocalization (resonance) of these six π-electrons across the entire ring lowers its internal energy significantly, giving benzene extraordinary thermodynamic stability."
+      },
+      {
+        id: "szambu-2026-chem-082",
+        question: "Alkenes are less acidic than alkynes due to",
+        options: [
+          "higher s character",
+          "lesser s character",
+          "stronger bonds",
+          "higher electronegativity"
+        ],
+        answer: 1,
+        explanation: "In alkenes, the carbon atoms are sp² hybridized (33.3% s-character), whereas in terminal alkynes, the carbon atoms are sp hybridized (50% s-character). Because alkenes have lesser s-character, the bonding electrons are held less tightly by the carbon nucleus, making the C–H bond less polar and alkenes less acidic than alkynes."
+      },
+      {
+        id: "szambu-2026-chem-083",
+        question: "1,3 Butadiene is more stable than 1-Butene, because it is a:",
+        options: [
+          "Conjugated Alkene",
+          "Cumulenes",
+          "Isolated diene",
+          "Separated dienes"
+        ],
+        answer: 0,
+        explanation: "1,3-Butadiene has alternating double and single carbon-carbon bonds (CH₂=CH–CH=CH₂), making it a conjugated alkene (diene). This conjugation allows π-electron delocalization across all four carbon atoms, lowering its internal energy and increasing its stability compared to non-conjugated alkenes like 1-butene."
+      },
+      {
+        id: "szambu-2026-chem-086",
+        question: "During Hydrohalogenation of asymmetric alkenes, which rule favors formation of secondary carbocation over primary carbocation?",
+        options: [
+          "Hydration rule",
+          "Anti-Markovnikov’s rule",
+          "Markovnikov’s rule",
+          "Polymeros’s rule"
+        ],
+        answer: 2,
+        explanation: "Markovnikov’s rule states that during the electrophilic addition of HX to an asymmetric alkene, the proton (H⁺) attaches to the carbon with more hydrogen atoms so that the more stable carbocation intermediate (secondary over primary) is formed."
+      },
+      {
+        id: "szambu-2026-chem-087",
+        question: "Which reagent is used to distinguish 1-butyne and 2-butyne?",
+        options: [
+          "water in the presence of mercuric sulphate and sulfuric acid",
+          "ammoniacal silver nitrate",
+          "Acidified potassium manganate(VII)",
+          "aqueous bromine"
+        ],
+        answer: 1,
+        explanation: "1-Butyne is a terminal alkyne possessing an acidic acetylenic hydrogen, which reacts with ammoniacal silver nitrate (Tollens' reagent) to form a white precipitate of silver butynide. 2-Butyne is an internal alkyne lacking an acidic hydrogen and does not react with this reagent."
+      },
+      {
+        id: "szambu-2026-chem-126",
+        question: "Select free radical involved in initiation of halogenation of methane",
+        options: [
+          "Cl•",
+          "CH₃•",
+          "CH₄",
+          "CH₃Cl"
+        ],
+        answer: 0,
+        explanation: "In the initiation step of free-radical chlorination of methane, ultraviolet light causes homolytic fission of the weak Cl–Cl bond to generate chlorine free radicals (Cl•)."
       }
   ];

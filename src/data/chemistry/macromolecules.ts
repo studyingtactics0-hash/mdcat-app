@@ -616,5 +616,29 @@ export type Question = {
         answer: 0,
         explanation:
           "Nylon-6,6 is a polyamide formed by the condensation polymerization of two monomers: hexamethylenediamine (6 carbon atoms) and adipic acid (6 carbon atoms). The '6,6' designation indicates that each monomer unit contributes 6 carbon atoms to the polymer chain."
+      },
+      {
+        id: "szambu-2026-chem-085",
+        question: "Which one of the following statements is correct for troponin?",
+        options: [
+          "It is an ATPase",
+          "It binds to actin only",
+          "It consists of three polypeptide chains",
+          "It has greater affinity with Calcium ions than myosin"
+        ],
+        answer: 2,
+        explanation: "Troponin is a regulatory protein complex found on thin filaments in skeletal and cardiac muscle that consists of three distinct polypeptide subunits: Troponin-T (binds tropomyosin), Troponin-I (inhibits actin-myosin interaction), and Troponin-C (binds calcium ions)."
+      },
+      {
+        id: "szambu-2026-chem-097",
+        question: "Prosthetic groups are part of the following protein.",
+        options: [
+          "Derived",
+          "Conjugated",
+          "Simple",
+          "Non-derived"
+        ],
+        answer: 1,
+        explanation: "Conjugated proteins (compound proteins) are composed of simple amino acid chains tightly bound to a non-protein chemical component known as a prosthetic group (such as heme in hemoglobin or carbohydrates in glycoproteins)."
       }
   ];

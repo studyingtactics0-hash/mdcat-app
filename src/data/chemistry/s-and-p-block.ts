@@ -836,5 +836,29 @@ export type Question = {
         answer: 2,
         explanation:
           "Among Period 3 elements forming stable ions, phosphorus gains three electrons to form the phosphide ion (P³⁻), while chlorine forms Cl⁻, silicon typically forms Si⁴⁺ (or covalent networks), and sodium forms Na⁺. For the isoelectronic anions P³⁻ and Cl⁻ (both having 18 electrons), P³⁻ has fewer protons (15 vs. 17), resulting in weaker nuclear attraction on the valence shell and therefore the largest ionic radius."
+      },
+      {
+        id: "szambu-2026-chem-122",
+        question: "Which of the following elements has the lowest electronegativity value?",
+        options: [
+          "Flourine",
+          "Iodine",
+          "Lithium",
+          "Cesium"
+        ],
+        answer: 3,
+        explanation: "Electronegativity decreases down a group and increases across a period from left to right. Cesium (Cs) is located at the bottom left of the periodic table (Group IA, Period 6), giving it the largest atomic radius and the lowest electronegativity value (0.79 on the Pauling scale) among the listed elements."
+      },
+      {
+        id: "szambu-2026-chem-123",
+        question: "Sodium metal reacts with ice cold water to produce:",
+        options: [
+          "NaOH",
+          "Na₂O₄",
+          "Na₂O₂",
+          "NaCl"
+        ],
+        answer: 0,
+        explanation: "Alkali metals like sodium react vigorously even with cold water to form the corresponding metal hydroxide and hydrogen gas: 2Na(s) + 2H₂O(l) → 2NaOH(aq) + H₂(g)."
       }
   ];

@@ -890,5 +890,29 @@ export type Question = {
         answer: 3,
         explanation:
           "In chloric acid (HClO₃), the sum of oxidation numbers equals zero: (+1) + x + 3(-2) = 0 → 1 + x - 6 = 0 → x = +5 (or 5+)."
+      },
+      {
+        id: "szambu-2026-chem-106",
+        question: "Which element will undergo oxidation preferably:",
+        options: [
+          "With low reduction potential",
+          "With high reduction potential",
+          "With low oxidation potential",
+          "Cannot be predicted"
+        ],
+        answer: 0,
+        explanation: "Standard reduction potential measures the tendency of a species to gain electrons (be reduced). An element with a lower (more negative) reduction potential has a higher oxidation potential, meaning it loses electrons and undergoes oxidation more readily."
+      },
+      {
+        id: "szambu-2026-chem-107",
+        question: "In a redox reaction, the reducing agent is the species that:",
+        options: [
+          "Gains electrons",
+          "Loses electrons",
+          "Remains unchanged",
+          "Decreases in its oxidation state"
+        ],
+        answer: 1,
+        explanation: "A reducing agent donates electrons to another species to reduce it; in doing so, the reducing agent itself loses electrons and undergoes oxidation (increasing its oxidation state)."
       }
   ];

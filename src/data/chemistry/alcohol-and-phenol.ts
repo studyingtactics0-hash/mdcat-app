@@ -822,5 +822,41 @@ export type Question = {
         answer: 3,
         explanation:
           "Strong oxidizing agents such as acidified potassium dichromate (K₂Cr₂O₇ in H₂SO₄) oxidize primary alcohols first to aldehydes and then directly further to carboxylic acids."
+      },
+      {
+        id: "szambu-2026-chem-089",
+        question: "Which reagent gives white precipitates when added to phenol?",
+        options: [
+          "aq bromine",
+          "aq Na₂CO₃",
+          "aq NaOH",
+          "aq NaOH and benzoyl chloride"
+        ],
+        answer: 0,
+        explanation: "Phenol reacts rapidly with aqueous bromine (bromine water) at room temperature to undergo tribromination at the activated 2, 4, and 6 positions, forming a white precipitate of 2,4,6-tribromophenol."
+      },
+      {
+        id: "szambu-2026-chem-090",
+        question: "Which of the following is more acidic?",
+        options: [
+          "Phenol",
+          "o-methyl phenol",
+          "o-nitro phenol",
+          "o-Aminophenol"
+        ],
+        answer: 2,
+        explanation: "Electron-withdrawing groups increase the acidity of phenol by stabilizing the phenoxide conjugate base. The nitro group (–NO₂) in o-nitrophenol exerts strong electron-withdrawing inductive (–I) and resonance (–M) effects, making it significantly more acidic than phenol or phenols substituted with electron-donating groups (–CH₃, –NH₂)."
+      },
+      {
+        id: "szambu-2026-chem-091",
+        question: "Which of these compounds reacts immediately with Lucas reagent and forms an oily layer by turning the solution turbid?",
+        options: [
+          "2-butanol",
+          "2-methyl-2-butanol",
+          "1-propanol",
+          "4-methylphenol (p-cresol)"
+        ],
+        answer: 1,
+        explanation: "Lucas reagent (concentrated HCl and anhydrous ZnCl₂) distinguishes alcohols by carbocation stability. 2-methyl-2-butanol is a tertiary alcohol that rapidly forms a stable tertiary carbocation, reacting immediately at room temperature to produce an insoluble alkyl chloride oily layer (turbidity)."
       }
   ];

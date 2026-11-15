@@ -71,5 +71,17 @@ export type Question = {
       answer: 1,
       explanation:
         "Polyvinyl chloride (PVC) is produced by the addition polymerization of vinyl chloride (chloroethene), which is industrially synthesized by reacting acetylene (ethyne) with hydrogen chloride (HCl) in the presence of a mercuric chloride (HgCl₂) catalyst."
+    },
+    {
+      id: "szambu-2026-chem-098",
+      question: "Acrylate base polymers are:",
+      options: [
+        "drying adhesives",
+        "pressure sensitive adhesives",
+        "contact adhesives",
+        "hot adhesives"
+      ],
+      answer: 1,
+      explanation: "Acrylate-based polymers (acrylic adhesives) remain permanently tacky at room temperature and form a bond immediately when light pressure is applied without requiring heat, water, or solvent activation, classifying them as pressure sensitive adhesives (PSAs)."
     }
   ];

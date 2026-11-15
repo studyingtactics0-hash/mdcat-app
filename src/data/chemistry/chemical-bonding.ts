@@ -1052,5 +1052,29 @@ export type Question = {
           "Increase of temperature generally increase solubility"
         ],
         answer: 0
+      },
+      {
+        id: "szambu-2026-chem-110",
+        question: "Number of sigma bonds and pi bonds in acetylene are?",
+        options: [
+          "3 & 1",
+          "1 & 3",
+          "5 & 2",
+          "3 & 2"
+        ],
+        answer: 3,
+        explanation: "Acetylene (H–C≡C–H) contains two C–H single bonds (2 sigma bonds) and one C≡C triple bond (1 sigma bond and 2 pi bonds), giving a total of 3 sigma bonds and 2 pi bonds."
+      },
+      {
+        id: "szambu-2026-chem-111",
+        question: "Which compound will have a maximum dipole moment?",
+        options: [
+          "CH₄",
+          "CCl₄",
+          "CH₃Cl",
+          "C₂H₄"
+        ],
+        answer: 2,
+        explanation: "CH₄, CCl₄, and C₂H₄ are symmetrical molecules whose individual bond dipoles cancel out completely, resulting in zero net dipole moment. Chloromethane (CH₃Cl) has an asymmetrical tetrahedral geometry with a strongly polar C–Cl bond, giving it the maximum dipole moment among the choices (1.87 D)."
       }
   ];

@@ -386,5 +386,41 @@ export type Question = {
         answer: 1,
         explanation:
           "By definition, an aqueous solution is any solution in which water is the solvent. Therefore, in an aqueous solution of methanol, water acts as the solvent and methanol is the solute."
+      },
+      {
+        id: "szambu-2026-chem-108",
+        question: "The surface of Triton, a moon of Neptune, contains condensed methane that flows rapidly. Which statement explains why condensed methane flows rapidly?",
+        options: [
+          "Condensed methane has a metallic structure",
+          "Methane molecules contain strong covalent bonds",
+          "The intermolecular forces between methane molecules are weak",
+          "Methane molecules have a tetrahedral shape"
+        ],
+        answer: 2,
+        explanation: "Methane (CH₄) is a non-polar molecule held together in the liquid state solely by weak London dispersion forces. Because these intermolecular forces are very weak, methane molecules slide past one another easily, resulting in low viscosity and rapid flow."
+      },
+      {
+        id: "szambu-2026-chem-109",
+        question: "Which of the following statements is true for water (temperature between 4°C to 0°C)",
+        options: [
+          "The volume of water decreases on cooling",
+          "The density of water increases on cooling",
+          "The density of water decreases on cooling",
+          "The mass of water decreases on cooling"
+        ],
+        answer: 2,
+        explanation: "Water reaches its maximum density at 4°C. When cooled further from 4°C to 0°C, water exhibits anomalous expansion due to the formation of an open, cage-like hydrogen-bonded structure; consequently, its volume increases and its density decreases."
+      },
+      {
+        id: "szambu-2026-chem-114",
+        question: "Which pair of compounds form hydrogen bond?",
+        options: [
+          "water and acetaldehyde",
+          "formic acid and acetic acid",
+          "ethyl acetate and acetic acid",
+          "acetone and water"
+        ],
+        answer: 1,
+        explanation: "Both formic acid (HCOOH) and acetic acid (CH₃COOH) possess strongly polarized O–H groups (hydrogen bond donors) as well as carbonyl oxygen atoms (hydrogen bond acceptors), allowing them to form strong intermolecular hydrogen bonds directly with each other (including cyclic dimers)."
       }
   ];

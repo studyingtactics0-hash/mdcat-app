@@ -795,5 +795,53 @@ export type Question = {
         answer: 1,
         explanation:
           "2-Butene (CH₃–CH=CH–CH₃) exhibits geometric (cis-trans) isomerism because restricted rotation around the carbon–carbon double bond and two different groups (–H and –CH₃) attached to each sp²-hybridized double-bonded carbon allow distinct spatial arrangements (cis-2-butene and trans-2-butene)."
+      },
+      {
+        id: "szambu-2026-chem-084",
+        question: "Name of (C₂H₅)₄C",
+        options: [
+          "triethyl methane",
+          "tetramethyl methane",
+          "tetraethyl methane",
+          "trimethyl ethane"
+        ],
+        answer: 2,
+        explanation: "In the derived (common) naming system, (C₂H₅)₄C is viewed as a central methane carbon atom whose four hydrogen atoms are replaced by four ethyl (–C₂H₅) groups, giving the name tetraethyl methane (IUPAC name: 3,3-diethylpentane)."
+      },
+      {
+        id: "szambu-2026-chem-095",
+        question: "Free radicals are produced by",
+        options: [
+          "Homolytic cleavage",
+          "Heterolytic cleavage",
+          "Reducing agents",
+          "Oxidizing agents"
+        ],
+        answer: 0,
+        explanation: "Homolytic cleavage (homolysis) occurs when a covalent bond breaks symmetrically so that each bonded atom retains one of the two shared electrons, generating electrically neutral species with unpaired electrons known as free radicals."
+      },
+      {
+        id: "szambu-2026-chem-125",
+        question: "Those molecules which have chiral center but not mirror image of one another is called",
+        options: [
+          "Epimers",
+          "Enantiomers",
+          "Diastereomers",
+          "Anomers"
+        ],
+        answer: 2,
+        explanation: "Diastereomers are stereoisomers that contain chiral centers and have different spatial arrangements, but are not non-superimposable mirror images of each other (unlike enantiomers)."
+      },
+      {
+        id: "szambu-2026-chem-075",
+        question: "Compared to benzene, nitration of toluene takes place at?",
+        options: [
+          "Same rate",
+          "Slow rate",
+          "Faster rate",
+          "Very slow rate"
+        ],
+        answer: 2,
+        explanation: "The methyl group (–CH₃) attached to the benzene ring in toluene is an electron-donating group via hyperconjugation and the inductive effect (+I). This increases the electron density of the aromatic ring, activating it toward electrophilic aromatic substitution so nitration occurs at a much faster rate than in benzene."
       }
   ];

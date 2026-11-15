@@ -467,5 +467,17 @@ export type Question = {
         answer: 1,
         explanation:
           "Glass is a classic amorphous solid lacking long-range periodic order in its atomic structure, whereas diamond (covalent network), sodium chloride (ionic), and potassium bromide (ionic) are crystalline solids."
+      },
+      {
+        id: "szambu-2026-chem-120",
+        question: "In body centered crystal system the central ion is attached with",
+        options: [
+          "1 unit cell",
+          "4 unit cell",
+          "6 unit cell",
+          "10 unit cell"
+        ],
+        answer: 0,
+        explanation: "In a body-centered cubic (BCC) unit cell, the central atom or ion is located entirely at the geometric center of the cube and is not shared with any neighboring unit cells, so it belongs exclusively to 1 unit cell."
       }
   ];

@@ -937,5 +937,29 @@ export type Question = {
         answer: 1,
         explanation:
           "Crushing a solid into smaller particles increases the total exposed surface area in contact with the solvent (water), allowing more frequent collisions between solute and solvent molecules and resulting in a faster rate of dissolution."
+      },
+      {
+        id: "szambu-2026-chem-103",
+        question: "The order of reaction of an elementary reaction is:",
+        options: [
+          "equal to molecularity",
+          "depend on temperature",
+          "can’t be predicted",
+          "depends on concentration"
+        ],
+        answer: 0,
+        explanation: "An elementary reaction occurs in a single step, so its rate law directly reflects the stoichiometry of the reacting species. Therefore, the order of an elementary reaction is always equal to its molecularity."
+      },
+      {
+        id: "szambu-2026-chem-104",
+        question: "The rate of reaction when concentration becomes unity is called",
+        options: [
+          "Average rate",
+          "Instantaneous rate",
+          "Rate constant",
+          "Rate of reaction"
+        ],
+        answer: 2,
+        explanation: "According to the rate law (Rate = k[A]ⁿ), when the molar concentration of each reactant is unity (1 mol/dm³), the rate of reaction becomes equal to the specific rate constant (k)."
       }
   ];

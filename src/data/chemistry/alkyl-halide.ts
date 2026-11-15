@@ -737,5 +737,17 @@ export type Question = {
         answer: 0,
         explanation:
           "E1 (unimolecular elimination) is a two-step reaction whose slow, rate-determining step is the ionization of the alkyl halide (R–X) to form a carbocation intermediate. Consequently, the rate law is Rate = k[R–X], depending solely on the concentration of the alkyl halide."
+      },
+      {
+        id: "szambu-2026-chem-088",
+        question: "______ can be added, to an alkyl halide to increase the no. of carbon atoms in the parent chain.",
+        options: [
+          "HCN in ethanol",
+          "KCN in ethanol",
+          "Iodoform",
+          "Amines"
+        ],
+        answer: 1,
+        explanation: "Heating an alkyl halide with potassium cyanide (KCN) in aqueous ethanol leads to nucleophilic substitution of the halide ion by the cyanide ion (CN⁻), forming an alkyl nitrile (R–C≡N) and ascending the homologous series by one carbon atom."
       }
   ];

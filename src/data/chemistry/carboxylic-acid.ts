@@ -662,5 +662,17 @@ export type Question = {
         answer: 0,
         explanation:
           "Acetic acid (CH₃COOH) reacts with thionyl chloride (SOCl₂) to produce acetyl chloride (CH₃COCl) along with gaseous byproducts SO₂ and HCl, making thionyl chloride the preferred reagent for preparing acyl chlorides."
+      },
+      {
+        id: "szambu-2026-chem-096",
+        question: "Acetic acid and ethanol react to produce",
+        options: [
+          "aldehyde",
+          "ethyl acetate",
+          "nitrile",
+          "ketone"
+        ],
+        answer: 1,
+        explanation: "Acetic acid (CH₃COOH) reacts with ethanol (C₂H₅OH) in the presence of an acid catalyst (such as concentrated H₂SO₄) via Fischer esterification to produce an ester, ethyl acetate (CH₃COOC₂H₅), along with water."
       }
   ];

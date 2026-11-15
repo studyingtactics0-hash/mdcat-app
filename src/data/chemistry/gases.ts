@@ -661,5 +661,53 @@ export type Question = {
         answer: 3,
         explanation:
           "Since 1 atm = 760 torr and R = 0.0821 dm³·atm·K⁻¹·mol⁻¹, multiplying 0.0821 by 760 gives 62.396 (commonly cited as 62.364 or 62.4 dm³·torr·K⁻¹·mol⁻¹)."
+      },
+      {
+        id: "szambu-2026-chem-113",
+        question: "If the temperature of a gas is doubled at constant pressure, what will be its volume:",
+        options: [
+          "Halved",
+          "Doubled",
+          "Remains constant",
+          "Quadrupled"
+        ],
+        answer: 1,
+        explanation: "According to Charles's Law (V ∝ T at constant pressure), the volume of a given mass of gas is directly proportional to its absolute temperature. Therefore, doubling the temperature doubles the volume."
+      },
+      {
+        id: "szambu-2026-chem-117",
+        question: "Ideal gas equation for one mole of H₂ is",
+        options: [
+          "PV = nRT",
+          "P₁V₁/T₁ = P₂V₂/T₂",
+          "PV/RT = 1",
+          "P₁V₂/T₂ = P₂V₁T₁"
+        ],
+        answer: 2,
+        explanation: "The general ideal gas equation is PV = nRT. For one mole of a gas (n = 1), the equation becomes PV = RT, which rearranges to PV/RT = 1."
+      },
+      {
+        id: "szambu-2026-chem-118",
+        question: "Value of concentration for 1 mol of an ideal gas at STP will be:",
+        options: [
+          "0.04",
+          "0.40",
+          "4.40",
+          "4.00"
+        ],
+        answer: 0,
+        explanation: "At STP, 1 mole of an ideal gas occupies a molar volume of 22.414 dm³ (or 22.4 L). Molar concentration (C = n/V) = 1 mol / 22.414 dm³ ≈ 0.0446 mol/dm³, which corresponds to 0.04."
+      },
+      {
+        id: "szambu-2026-chem-119",
+        question: "The ideal gas equation is a combination of laws.",
+        options: [
+          "Charles’s, Boyle’s",
+          "Charles’s, Avogadro’s",
+          "Boyle’s, Avogadro’s",
+          "Charles’s, Boyle’s, Avogadro’s"
+        ],
+        answer: 3,
+        explanation: "The ideal gas equation (PV = nRT) is derived by combining Boyle's Law (V ∝ 1/P), Charles's Law (V ∝ T), and Avogadro's Law (V ∝ n)."
       }
   ];

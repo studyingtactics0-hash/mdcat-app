@@ -949,5 +949,41 @@ export type Question = {
         answer: 3,
         explanation:
           "2-Oxopentanal (CH₃CH₂CH₂COCHO) contains both a ketone carbonyl at C-2 and an aldehyde carbonyl at C-1. Sodium borohydride (NaBH₄) reduces both aldehydes and ketones to alcohols, converting C-2 to a secondary alcohol (–CH(OH)–) and C-1 to a primary alcohol (–CH₂OH), yielding pentane-1,2-diol: CH₃CH₂CH₂CH(OH)CH₂(OH)."
+      },
+      {
+        id: "szambu-2026-chem-092",
+        question: "Which of the following gives positive silver mirror test:",
+        options: [
+          "CH₃CH₂OH",
+          "CH₃CHO",
+          "CH₃COOH",
+          "CH₃COCH₃"
+        ],
+        answer: 1,
+        explanation: "Aldehydes such as acetaldehyde (CH₃CHO) are easily oxidized by Tollens' reagent (ammoniacal silver nitrate) to carboxylate ions, reducing Ag⁺ ions to metallic silver, which deposits as a shiny silver mirror on the inner wall of the test tube."
+      },
+      {
+        id: "szambu-2026-chem-093",
+        question: "Select the acid catalyzed addition reactions of carboxyl compounds from the following",
+        options: [
+          "Addition of Grignard reaction",
+          "Addition of sodium bisulphite",
+          "Addition of alcohols",
+          "Addition of hydrogen cyanide"
+        ],
+        answer: 2,
+        explanation: "Alcohols are weak nucleophiles, so their nucleophilic addition to carbonyl compounds (aldehydes and ketones) to form hemiacetals and acetals requires an acid catalyst (such as dry HCl gas or H₂SO₄) to protonate the carbonyl oxygen and increase the electrophilicity of the carbonyl carbon."
+      },
+      {
+        id: "szambu-2026-chem-094",
+        question: "When an aldehyde or ketone is reduced using LiAlH₄, followed by hydrolysis, the resultant would be",
+        options: [
+          "1° alcohol from both aldehyde and ketone",
+          "1° alcohol from aldehyde and 2° alcohol from ketone",
+          "2° alcohol from both aldehyde and ketone",
+          "2° alcohol from aldehyde and 3° alcohol from ketone"
+        ],
+        answer: 1,
+        explanation: "Lithium aluminum hydride (LiAlH₄) transfers a hydride ion (H⁻) to the carbonyl carbon, followed by acidic hydrolysis. Aldehydes (RCHO) are reduced to primary (1°) alcohols (RCH₂OH), whereas ketones (R₂CO) are reduced to secondary (2°) alcohols (R₂CHOH)."
       }
   ];

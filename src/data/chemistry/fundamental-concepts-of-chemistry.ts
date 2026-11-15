@@ -941,5 +941,17 @@ export type Question = {
         answer: 0,
         explanation:
           "The molar mass of CaCO₃ is 40 (Ca) + 12 (C) + 3 × 16 (O) = 100 g/mol. Mass = Number of moles × Molar mass = 0.5 mol × 100 g/mol = 50 g."
-      } 
+      },
+      {
+        id: "szambu-2026-chem-100",
+        question: "Calculate the number of molecules in 244g of Benzoic acid (C₇H₆O₂)",
+        options: [
+          "12 × 10²²",
+          "1.2 × 10²⁴",
+          "0.12 × 10²¹",
+          "12 × 10²⁴"
+        ],
+        answer: 1,
+        explanation: "The molar mass of benzoic acid (C₇H₆O₂) is (7 × 12) + (6 × 1) + (2 × 16) = 84 + 6 + 32 = 122 g/mol. Number of moles = given mass / molar mass = 244 g / 122 g/mol = 2 moles. Number of molecules = 2 × Avogadro's number (6.02 × 10²³) = 12.04 × 10²³ = 1.2 × 10²⁴."
+      }
   ];
