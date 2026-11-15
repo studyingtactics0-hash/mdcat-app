@@ -942,5 +942,29 @@ export type Question = {
         ],
         answer: 1,
         explanation: "Radioactive decay is a random quantum process, meaning it is impossible to predict which specific nucleus will decay next, and every unstable nucleus has a constant probability of decaying per unit time (represented by the decay constant λ)."
+      },
+      {
+        id: "szambu-2026-phys-161",
+        question: "A sealed sample of Cobalt-60 is subjected to extremely high pressure in a laboratory. Its decay rate will:",
+        options: [
+          "Increase",
+          "Decrease",
+          "Remain unchanged",
+          "Become infinite"
+        ],
+        answer: 2,
+        explanation: "Radioactive decay is a purely nuclear process governed by the strong and weak nuclear forces inside the nucleus. External physical or chemical conditions—such as temperature, pressure, or magnetic fields—do not affect the nuclear decay constant or decay rate."
+      },
+      {
+        id: "szambu-2026-phys-162",
+        question: "Half-life of a radioactive element is 2 minutes. In how much time, one-eighth (1/8th) of this sample will decay?",
+        options: [
+          "2 minutes",
+          "4 minutes",
+          "6 minutes",
+          "8 minutes"
+        ],
+        answer: 2,
+        explanation: "In standard MDCAT past paper phrasing, 'one-eighth (1/8th)' refers to the fraction remaining undecayed (N/N₀ = 1/8 = (1/2)³), which takes n = 3 half-lives. Since T₁/₂ = 2 minutes, total time t = n × T₁/₂ = 3 × 2 = 6 minutes."
       }
   ];

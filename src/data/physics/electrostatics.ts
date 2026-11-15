@@ -1192,5 +1192,29 @@ export type Question = {
         ],
         answer: 3,
         explanation: "Electric potential is a scalar quantity given by V = kq / r. At the midpoint (distance r = s / 2 from each charge), the potential due to +Q is V₁ = +kQ / (s / 2) and the potential due to -Q is V₂ = -kQ / (s / 2). Their algebraic sum is V = V₁ + V₂ = 0."
+      },
+      {
+        id: "szambu-2026-phys-127",
+        question: "1 mega ohm × 1 pico farad =",
+        options: [
+          "Second",
+          "Milli second",
+          "Micro second",
+          "Mega second"
+        ],
+        answer: 2,
+        explanation: "The product of resistance and capacitance gives the RC time constant (τ = R × C). Substituting 1 MΩ = 10⁶ Ω and 1 pF = 10⁻¹² F gives 10⁶ × 10⁻¹² = 10⁻⁶ seconds, which equals 1 microsecond."
+      },
+      {
+        id: "szambu-2026-phys-128",
+        question: "If “F” is the force between two point charges submerged in a medium of dielectric constant “M”, then on withdrawing the medium, the force between them becomes:",
+        options: [
+          "F/M",
+          "FM",
+          "F/M",
+          "M/F"
+        ],
+        answer: 1,
+        explanation: "The electrostatic force in a dielectric medium of relative permittivity (dielectric constant) M is F = F_vac / M. Therefore, when the medium is removed (leaving vacuum/air), the force increases by a factor of M to become F_vac = FM."
       }
   ];

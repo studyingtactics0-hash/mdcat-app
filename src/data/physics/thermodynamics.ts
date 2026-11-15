@@ -1454,5 +1454,29 @@ export type Question = {
           ],
           answer: 0,
           explanation: "The first law of thermodynamics is a statement of conservation of energy: the heat supplied to a system (ΔQ) equals the increase in its internal energy (ΔU) plus the work done by the system on its surroundings (ΔW), expressed as ΔQ = ΔU + ΔW."
+        },
+        {
+          id: "szambu-2026-phys-151",
+          question: "An ideal gas is heated at constant volume. It absorbs 200 J of heat. The work done by the gas is:",
+          options: [
+            "200 J",
+            "0 J",
+            "–200 J",
+            "Varies with pressure"
+          ],
+          answer: 1,
+          explanation: "In an isochoric process (constant volume), the change in volume ΔV = 0. Since thermodynamic work is given by W = PΔV, the work done by the gas is zero (W = 0 J), and all absorbed heat increases the internal energy of the gas."
+        },
+        {
+          id: "szambu-2026-phys-152",
+          question: "If “Q” is heat and “W” is work done then “W=Q” represents.",
+          options: [
+            "Isothermal process",
+            "Adiabatic process",
+            "Isochoric process",
+            "Isobaric process"
+          ],
+          answer: 0,
+          explanation: "By the first law of thermodynamics, Q = ΔU + W. In an isothermal process, temperature remains constant, so the change in internal energy of an ideal gas is zero (ΔU = 0), yielding Q = W."
         }
   ];

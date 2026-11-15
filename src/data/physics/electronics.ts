@@ -644,5 +644,17 @@ export type Question = {
         ],
         answer: 2,
         explanation: "Rectification is the process of converting alternating current (AC), which periodically reverses direction, into direct current (DC), which flows in only one direction, typically using semiconductor diodes."
+      },
+      {
+        id: "szambu-2026-phys-158",
+        question: "Which type of biasing results in a very high resistance of PN junction diode?",
+        options: [
+          "Forward biasing",
+          "Reverse biasing",
+          "Unbiased",
+          "Doping"
+        ],
+        answer: 1,
+        explanation: "In reverse biasing, the positive terminal of the external voltage source is connected to the n-type region and the negative terminal to the p-type region. This widens the depletion region and increases the potential barrier, preventing majority carrier flow and resulting in a very high junction resistance (on the order of megaohms)."
       }
   ];

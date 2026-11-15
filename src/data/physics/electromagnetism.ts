@@ -788,5 +788,17 @@ export type Question = {
           "Zero"
         ],
         answer: 1
+      },
+      {
+        id: "szambu-2026-phys-131",
+        question: "Two particles with same charge and different masses enter perpendicularly in a uniform magnetic field with same speed, the lighter one will move in:",
+        options: [
+          "Straight path",
+          "Spiral path",
+          "Large circular path",
+          "Small circular path"
+        ],
+        answer: 3,
+        explanation: "When a charged particle enters a uniform magnetic field perpendicularly, the magnetic force provides the centripetal force (qvB = mv²/r), giving a circular path of radius r = mv / (qB). Since charge (q), speed (v), and magnetic field (B) are identical for both particles, the radius is directly proportional to mass (r ∝ m). Therefore, the lighter particle will move in a circular path of smaller radius (small circular path)."
       }
   ];

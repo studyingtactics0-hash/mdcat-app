@@ -127,5 +127,41 @@ export type Question = {
       ],
       answer: 2,
       explanation: "The scalar (dot) product of two vectors A and B is given by A · B = AB cos(θ). For two parallel vectors, the angle θ = 0°, and since cos(0°) = 1, the scalar product equals AB, which is the product of their magnitudes."
+    },
+    {
+      id: "szambu-2026-phys-132",
+      question: "Which quantity is a vector?",
+      options: [
+        "Pressure",
+        "Temperature",
+        "Weight",
+        "Work"
+      ],
+      answer: 2,
+      explanation: "Weight is the gravitational force acting on a mass (W = mg), which has both magnitude and direction (towards the center of the Earth), making it a vector quantity. Pressure, temperature, and work are scalars."
+    },
+    {
+      id: "szambu-2026-phys-133",
+      question: "During uniform circular motion, if “v” is tangential velocity, “ω” is angular velocity and “r” is radius. Then which of the following represents cross product correctly",
+      options: [
+        "ω = v × r",
+        "r = ω × v",
+        "v = r × ω",
+        "v = ω × r"
+      ],
+      answer: 3,
+      explanation: "In circular motion, the tangential velocity vector is given by the cross product of the angular velocity vector and the position (radius) vector: v = ω × r (following the right-hand rule)."
+    },
+    {
+      id: "szambu-2026-phys-134",
+      question: "Cross product of two parallel vectors has a magnitude of:",
+      options: [
+        "A",
+        "Acosθ",
+        "zero",
+        "null vector"
+      ],
+      answer: 2,
+      explanation: "The magnitude of the cross product of two vectors A and B is |A × B| = AB sinθ. For parallel vectors, the angle θ = 0° (or 180° for anti-parallel), and since sin(0°) = 0, the magnitude is zero."
     }
   ];

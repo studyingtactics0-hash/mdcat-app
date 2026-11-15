@@ -124,5 +124,29 @@ export type Question = {
       ],
       answer: 0,
       explanation: "An ideal transformer operates with 100% efficiency, so power input equals power output (P_in = P_out)."
+    },
+    {
+      id: "szambu-2026-phys-156",
+      question: "When a capacitor is connected to an alternating power source,",
+      options: [
+        "The voltage leads the current by 90°",
+        "The voltage lags the current by 90°",
+        "The voltage leads the current by 180°",
+        "The voltage lags the current by 180°"
+      ],
+      answer: 1,
+      explanation: "In a purely capacitive AC circuit, the alternating current leads the alternating voltage by a phase angle of 90° (π/2 radians), meaning the voltage lags behind the current by 90°."
+    },
+    {
+      id: "szambu-2026-phys-157",
+      question: "In a pure inductive AC circuit at low frequency the inductive reactance will be",
+      options: [
+        "Remain same",
+        "Increase",
+        "Decrease",
+        "Zero"
+      ],
+      answer: 2,
+      explanation: "Inductive reactance is directly proportional to the frequency of the AC supply (X_L = 2πfL). Therefore, at low frequency, the inductive reactance decreases."
     }
   ];

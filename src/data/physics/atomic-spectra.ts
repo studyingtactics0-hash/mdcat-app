@@ -506,5 +506,17 @@ export type Question = {
         ],
         answer: 2,
         explanation: "Each discrete spectral line in an emission spectrum corresponds to a specific electronic transition between quantized energy levels, emitting a photon with a characteristic wavelength and specific energy (E = hf = E₂ - E₁)."
+      },
+      {
+        id: "szambu-2026-phys-160",
+        question: "What is the primary reason for color line spectrum of hydrogen gas?",
+        options: [
+          "The heat energy inside gas",
+          "Transition of electrons from lower to higher energy levels in gas atoms",
+          "Transition of electrons from higher to lower energy levels in gas atoms",
+          "Instability of gas atoms"
+        ],
+        answer: 2,
+        explanation: "An emission line spectrum is produced when excited electrons in hydrogen atoms transition from higher energy levels (E₂) back down to lower energy levels (E₁), emitting photons of specific discrete wavelengths (colors) corresponding to ΔE = E₂ - E₁ = hf."
       }
   ];

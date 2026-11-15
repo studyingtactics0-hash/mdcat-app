@@ -940,5 +940,29 @@ export type Question = {
         ],
         answer: 3,
         explanation: "The SI unit of angular velocity (ω) is rad/s. Since 1 revolution equals 2π radians, an angular frequency of f = 2 rev/s converts to ω = 2πf = 2π × 2 = 4π rad/s."
+      },
+      {
+        id: "szambu-2026-phys-142",
+        question: "The wheel of a vehicle is spinning in the anticlockwise direction, with a constant rate. The direction of its angular velocity will be:",
+        options: [
+          "Clockwise",
+          "Anticlockwise",
+          "Perpendicular to the plane of rotation",
+          "Along the plane of rotation"
+        ],
+        answer: 2,
+        explanation: "Angular velocity is an axial vector whose direction is determined by the right-hand grip rule: curling the fingers of the right hand in the direction of anticlockwise rotation points the thumb along the axis of rotation, which is perpendicular to the plane of rotation."
+      },
+      {
+        id: "szambu-2026-phys-143",
+        question: "A point P is on a disk rotating with constant angular velocity. If the distance from the center is tripled, what happens to the ratio of linear velocity and angular velocity (v/ω)?",
+        options: [
+          "It remains the same",
+          "It triples",
+          "It is reduced to one-third",
+          "It increases by factor 9"
+        ],
+        answer: 1,
+        explanation: "Since linear velocity is given by v = rω, the ratio v/ω equals the radius r (distance from the center). Therefore, if the distance r from the center is tripled, the ratio v/ω also triples."
       }
   ];

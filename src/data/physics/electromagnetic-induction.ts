@@ -939,5 +939,41 @@ export type Question = {
         ],
         answer: 2,
         explanation: "An ideal transformer has 100% efficiency with no energy losses (no copper loss, eddy current loss, or hysteresis loss), meaning the input electrical power equals the output electrical power (P_in = P_out, or V_p I_p = V_s I_s)."
+      },
+      {
+        id: "szambu-2026-phys-153",
+        question: "Magnetic flux has unit but no direction because",
+        options: [
+          "Of scalar product",
+          "Of cross product",
+          "Of sum of two vectors",
+          "Of product of two scalars"
+        ],
+        answer: 0,
+        explanation: "Magnetic flux is defined as the scalar (dot) product of the magnetic field vector (B) and the vector area (A): Φ_B = B · A = BA cosθ. Because the dot product of two vectors yields a scalar quantity, magnetic flux has magnitude and units (weber, Wb) but no direction."
+      },
+      {
+        id: "szambu-2026-phys-154",
+        question: "According to Faraday’s law of electromagnetic induction, the magnitude of induced emf depends upon",
+        options: [
+          "Magnetic flux",
+          "Magnetic induction",
+          "Change in magnetic flux",
+          "Rate of change in magnetic flux"
+        ],
+        answer: 3,
+        explanation: "Faraday's law of electromagnetic induction states that the magnitude of the induced electromotive force (emf) in a circuit is directly proportional to the time rate of change of magnetic flux linkage through the circuit (|ε| = N ΔΦ/Δt)."
+      },
+      {
+        id: "szambu-2026-phys-155",
+        question: "Lenz’s law primarily refers to the direction of:",
+        options: [
+          "Voltage",
+          "Induced current",
+          "Power",
+          "Energy"
+        ],
+        answer: 1,
+        explanation: "Lenz's law determines the direction of the induced current (and polarity of induced emf), stating that the induced current always flows in a direction such that the magnetic field it creates opposes the change in magnetic flux that produced it."
       }
   ];

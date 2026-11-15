@@ -255,5 +255,41 @@ export type Question = {
       ],
       answer: 3,
       explanation: "For an incompressible fluid in steady flow, the equation of continuity states that A₁v₁ = A₂v₂ = constant. The product of cross-sectional area (A) and fluid speed (v) represents the volume flow rate (ΔV / Δt) in m³/s."
+    },
+    {
+      id: "szambu-2026-phys-144",
+      question: "In deriving Bernoulli’s equation, the quantity ‘pressure/volume’ represents:",
+      options: [
+        "Density",
+        "Kinetic energy",
+        "Potential energy",
+        "Work done"
+      ],
+      answer: 3,
+      explanation: "In Bernoulli's equation (P + ½ρv² + ρgh = constant), each term has the dimensions of energy per unit volume (or pressure). In the standard derivation, work done per unit volume equals pressure (W/V = F·d / A·d = P), representing the flow work done by the fluid pressure."
+    },
+    {
+      id: "szambu-2026-phys-145",
+      question: "Drag force on a spherical object moving through a fluid depends on",
+      options: [
+        "Velocity of the object",
+        "Viscosity of the medium",
+        "Shape and size of the object",
+        "All of the above"
+      ],
+      answer: 3,
+      explanation: "According to Stokes' law, the viscous drag force on a spherical body is given by F_d = 6πηrv, which directly depends on the viscosity of the medium (η), the size/radius and shape of the object (r), and the velocity of the object (v)."
+    },
+    {
+      id: "szambu-2026-phys-146",
+      question: "Which of the following assumptions is INCORRECT about the fluid that follows equation of continuity?",
+      options: [
+        "It is a non-viscous fluid",
+        "It moves in a steady flow",
+        "It moves in a turbulent flow",
+        "It is an incompressible fluid"
+      ],
+      answer: 2,
+      explanation: "The equation of continuity (A₁v₁ = A₂v₂) applies to an ideal fluid, which is defined as non-viscous, incompressible, and moving in a steady (streamline/laminar) flow—not a turbulent flow."
     }
   ];

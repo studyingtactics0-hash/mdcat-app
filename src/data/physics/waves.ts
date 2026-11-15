@@ -1286,5 +1286,53 @@ export type Question = {
           ],
           answer: 3,
           explanation: "Using the wave equation v = fλ, the frequency is f = v / λ = 2 m/s / 0.25 m = 8.0 Hz."
+        },
+        {
+          id: "szambu-2026-phys-147",
+          question: "In a ripple tank 50 waves having wavelength 5cm pass through a certain point with a speed of 2m/s. The frequency of waves is:",
+          options: [
+            "5 Hz",
+            "10 Hz",
+            "40 Hz",
+            "50 Hz"
+          ],
+          answer: 2,
+          explanation: "Using the wave speed relation v = fλ, where v = 2 m/s and λ = 5 cm = 0.05 m: f = v / λ = 2 / 0.05 = 40 Hz."
+        },
+        {
+          id: "szambu-2026-phys-148",
+          question: "In SHM the maximum displacement covered by the particle from mean position is A. What is the total distance covered in one complete cycle?",
+          options: [
+            "2A",
+            "4A",
+            "6A",
+            "8A"
+          ],
+          answer: 1,
+          explanation: "In one complete oscillation (cycle), a particle moves from the mean position to one extreme (+A), back to the mean position (A), to the opposite extreme (-A), and back to the mean position (A), covering a total distance of A + A + A + A = 4A."
+        },
+        {
+          id: "szambu-2026-phys-149",
+          question: "Unlike electromagnetic waves, mechanical waves require:",
+          options: [
+            "Source of energy",
+            "Medium for propagation",
+            "Source of disturbance",
+            "Periodic motion"
+          ],
+          answer: 1,
+          explanation: "Mechanical waves (such as sound and water waves) transfer energy through the oscillation of particles and therefore require a material medium for propagation, whereas electromagnetic waves can travel through a vacuum."
+        },
+        {
+          id: "szambu-2026-phys-150",
+          question: "A sound wave is set up in a long tube, closed at one end. The length of the tube is adjusted until the sound from the tube is loudest. What is the nature of the sound wave in the tube?",
+          options: [
+            "Longitudinal and progressive",
+            "Longitudinal and stationary",
+            "Transverse and progressive",
+            "Transverse and stationary"
+          ],
+          answer: 1,
+          explanation: "Sound waves in air are longitudinal waves. When reflected from the closed end of a resonance tube at a resonant length, incident and reflected waves superimpose to form longitudinal stationary (standing) waves."
         }
   ];

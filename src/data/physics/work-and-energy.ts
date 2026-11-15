@@ -1017,5 +1017,41 @@ export type Question = {
         ],
         answer: 2,
         explanation: "A moving bullet possesses high kinetic energy (KE = ½mv²) due to its high velocity, which allows it to do work against the resistive forces of the target and pierce through it."
+      },
+      {
+        id: "szambu-2026-phys-139",
+        question: "If the force applied on an object and its velocity are in the same direction, the power delivered to the object is:",
+        options: [
+          "Zero",
+          "Positive",
+          "Negative",
+          "Infinite"
+        ],
+        answer: 1,
+        explanation: "Instantaneous power is given by the dot product P = F · v = Fv cosθ. When force and velocity are in the same direction, θ = 0° and cos(0°) = +1, resulting in positive power (P = +Fv)."
+      },
+      {
+        id: "szambu-2026-phys-140",
+        question: "If the velocity is doubled then the K.E of the body will be:",
+        options: [
+          "Double",
+          "Three times",
+          "Four times",
+          "Remains constant"
+        ],
+        answer: 2,
+        explanation: "Kinetic energy is directly proportional to the square of velocity (K.E = ½mv²). If velocity is doubled (v' = 2v), the new kinetic energy becomes K.E' = ½m(2v)² = 4(½mv²), which is four times the original value."
+      },
+      {
+        id: "szambu-2026-phys-141",
+        question: "When a force is parallel to the direction of motion of the body, work done on the body is:",
+        options: [
+          "Zero",
+          "Minimum",
+          "Maximum",
+          "Infinite"
+        ],
+        answer: 2,
+        explanation: "Work done is given by W = Fd cosθ. When the force is parallel to the direction of displacement, the angle θ = 0° and cos(0°) = 1 (its maximum possible value), yielding maximum positive work (W = Fd)."
       }
   ];

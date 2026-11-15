@@ -867,5 +867,17 @@ export type Question = {
           "Zero"
         ],
         answer: 3
+      },
+      {
+        id: "szambu-2026-phys-159",
+        question: "The energy difference per unit frequency between two consecutive quantum states is",
+        options: [
+          "Speed of light",
+          "Frequency",
+          "Planck’s Constant",
+          "Mass"
+        ],
+        answer: 2,
+        explanation: "According to Planck's quantum theory, the energy difference between two consecutive quantum states is ΔE = hf. Dividing by frequency gives ΔE / f = h, which is Planck's constant (6.63 × 10⁻³⁴ J·s)."
       }
   ];

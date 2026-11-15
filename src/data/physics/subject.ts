@@ -13343,5 +13343,437 @@ export type Question = {
         ],
         answer: 2,
         explanation: "A moving bullet possesses high kinetic energy (KE = ½mv²) due to its high velocity, which allows it to do work against the resistive forces of the target and pierce through it."
+      },
+      {
+        id: "szambu-2026-phys-132",
+        question: "Which quantity is a vector?",
+        options: [
+          "Pressure",
+          "Temperature",
+          "Weight",
+          "Work"
+        ],
+        answer: 2,
+        explanation: "Weight is the gravitational force acting on a mass (W = mg), which has both magnitude and direction (towards the center of the Earth), making it a vector quantity. Pressure, temperature, and work are scalars."
+      },
+      {
+        id: "szambu-2026-phys-133",
+        question: "During uniform circular motion, if “v” is tangential velocity, “ω” is angular velocity and “r” is radius. Then which of the following represents cross product correctly",
+        options: [
+          "ω = v × r",
+          "r = ω × v",
+          "v = r × ω",
+          "v = ω × r"
+        ],
+        answer: 3,
+        explanation: "In circular motion, the tangential velocity vector is given by the cross product of the angular velocity vector and the position (radius) vector: v = ω × r (following the right-hand rule)."
+      },
+      {
+        id: "szambu-2026-phys-134",
+        question: "Cross product of two parallel vectors has a magnitude of:",
+        options: [
+          "A",
+          "Acosθ",
+          "zero",
+          "null vector"
+        ],
+        answer: 2,
+        explanation: "The magnitude of the cross product of two vectors A and B is |A × B| = AB sinθ. For parallel vectors, the angle θ = 0° (or 180° for anti-parallel), and since sin(0°) = 0, the magnitude is zero."
+      },
+      {
+        id: "szambu-2026-phys-135",
+        question: "Projectile motion is best described as:",
+        options: [
+          "One-dimensional motion",
+          "Variable accelerated motion",
+          "Constant acceleration due to gravity",
+          "Velocity becomes zero at maximum height"
+        ],
+        answer: 2,
+        explanation: "Projectile motion is a two-dimensional motion under the sole influence of gravity (neglecting air resistance), resulting in a constant downward acceleration equal to g (9.8 m/s²). At maximum height, only the vertical component of velocity is zero while the horizontal component remains constant."
+      },
+      {
+        id: "szambu-2026-phys-136",
+        question: "A body of mass 5kg is moving with speed 10 m/s. A constant force acts on it for 5 seconds and brings its speed to 5 m/s. The magnitude of force is:",
+        options: [
+          "3 N",
+          "5 N",
+          "15 N",
+          "30 N"
+        ],
+        answer: 1,
+        explanation: "Using Newton's second law, F = m × a = m(v_f - v_i)/t. Substituting m = 5 kg, v_i = 10 m/s, v_f = 5 m/s, and t = 5 s gives F = 5 × (5 - 10) / 5 = -5 N. Thus, the magnitude of the retarding force is 5 N."
+      },
+      {
+        id: "szambu-2026-phys-137",
+        question: "A passenger standing in a bus falls forward when the bus suddenly stops. This is due to:",
+        options: [
+          "Newton’s first law",
+          "Newton’s second law",
+          "Newton’s third law",
+          "Law of gravitation"
+        ],
+        answer: 0,
+        explanation: "According to Newton's first law of motion (law of inertia), an object in motion tends to stay in motion with the same speed and direction unless acted upon by an unbalanced force. When the bus stops suddenly, the passenger's lower body comes to rest with the bus while the upper body continues moving forward due to inertia of motion."
+      },
+      {
+        id: "szambu-2026-phys-138",
+        question: "A stone is thrown horizontally with a velocity of 12 ms⁻¹ from the top of a vertical cliff. How long does the stone take to reach the ground 45 m below? Take g = 10 m/s²",
+        options: [
+          "2 s",
+          "3 s",
+          "4 s",
+          "5 s"
+        ],
+        answer: 1,
+        explanation: "For horizontal projection, the initial vertical velocity v_iy = 0. Using the vertical equation of motion h = v_iy(t) + ½gt², we get 45 = 0 + ½(10)t² => 45 = 5t² => t² = 9 => t = 3 s."
+      },
+      {
+        id: "szambu-2026-phys-139",
+        question: "If the force applied on an object and its velocity are in the same direction, the power delivered to the object is:",
+        options: [
+          "Zero",
+          "Positive",
+          "Negative",
+          "Infinite"
+        ],
+        answer: 1,
+        explanation: "Instantaneous power is given by the dot product P = F · v = Fv cosθ. When force and velocity are in the same direction, θ = 0° and cos(0°) = +1, resulting in positive power (P = +Fv)."
+      },
+      {
+        id: "szambu-2026-phys-140",
+        question: "If the velocity is doubled then the K.E of the body will be:",
+        options: [
+          "Double",
+          "Three times",
+          "Four times",
+          "Remains constant"
+        ],
+        answer: 2,
+        explanation: "Kinetic energy is directly proportional to the square of velocity (K.E = ½mv²). If velocity is doubled (v' = 2v), the new kinetic energy becomes K.E' = ½m(2v)² = 4(½mv²), which is four times the original value."
+      },
+      {
+        id: "szambu-2026-phys-141",
+        question: "When a force is parallel to the direction of motion of the body, work done on the body is:",
+        options: [
+          "Zero",
+          "Minimum",
+          "Maximum",
+          "Infinite"
+        ],
+        answer: 2,
+        explanation: "Work done is given by W = Fd cosθ. When the force is parallel to the direction of displacement, the angle θ = 0° and cos(0°) = 1 (its maximum possible value), yielding maximum positive work (W = Fd)."
+      },
+      {
+        id: "szambu-2026-phys-142",
+        question: "The wheel of a vehicle is spinning in the anticlockwise direction, with a constant rate. The direction of its angular velocity will be:",
+        options: [
+          "Clockwise",
+          "Anticlockwise",
+          "Perpendicular to the plane of rotation",
+          "Along the plane of rotation"
+        ],
+        answer: 2,
+        explanation: "Angular velocity is an axial vector whose direction is determined by the right-hand grip rule: curling the fingers of the right hand in the direction of anticlockwise rotation points the thumb along the axis of rotation, which is perpendicular to the plane of rotation."
+      },
+      {
+        id: "szambu-2026-phys-143",
+        question: "A point P is on a disk rotating with constant angular velocity. If the distance from the center is tripled, what happens to the ratio of linear velocity and angular velocity (v/ω)?",
+        options: [
+          "It remains the same",
+          "It triples",
+          "It is reduced to one-third",
+          "It increases by factor 9"
+        ],
+        answer: 1,
+        explanation: "Since linear velocity is given by v = rω, the ratio v/ω equals the radius r (distance from the center). Therefore, if the distance r from the center is tripled, the ratio v/ω also triples."
+      },
+      {
+        id: "szambu-2026-phys-144",
+        question: "In deriving Bernoulli’s equation, the quantity ‘pressure/volume’ represents:",
+        options: [
+          "Density",
+          "Kinetic energy",
+          "Potential energy",
+          "Work done"
+        ],
+        answer: 3,
+        explanation: "In Bernoulli's equation (P + ½ρv² + ρgh = constant), each term has the dimensions of energy per unit volume (or pressure). In the standard derivation, work done per unit volume equals pressure (W/V = F·d / A·d = P), representing the flow work done by the fluid pressure."
+      },
+      {
+        id: "szambu-2026-phys-145",
+        question: "Drag force on a spherical object moving through a fluid depends on",
+        options: [
+          "Velocity of the object",
+          "Viscosity of the medium",
+          "Shape and size of the object",
+          "All of the above"
+        ],
+        answer: 3,
+        explanation: "According to Stokes' law, the viscous drag force on a spherical body is given by F_d = 6πηrv, which directly depends on the viscosity of the medium (η), the size/radius and shape of the object (r), and the velocity of the object (v)."
+      },
+      {
+        id: "szambu-2026-phys-146",
+        question: "Which of the following assumptions is INCORRECT about the fluid that follows equation of continuity?",
+        options: [
+          "It is a non-viscous fluid",
+          "It moves in a steady flow",
+          "It moves in a turbulent flow",
+          "It is an incompressible fluid"
+        ],
+        answer: 2,
+        explanation: "The equation of continuity (A₁v₁ = A₂v₂) applies to an ideal fluid, which is defined as non-viscous, incompressible, and moving in a steady (streamline/laminar) flow—not a turbulent flow."
+      },
+      {
+        id: "szambu-2026-phys-147",
+        question: "In a ripple tank 50 waves having wavelength 5cm pass through a certain point with a speed of 2m/s. The frequency of waves is:",
+        options: [
+          "5 Hz",
+          "10 Hz",
+          "40 Hz",
+          "50 Hz"
+        ],
+        answer: 2,
+        explanation: "Using the wave speed relation v = fλ, where v = 2 m/s and λ = 5 cm = 0.05 m: f = v / λ = 2 / 0.05 = 40 Hz."
+      },
+      {
+        id: "szambu-2026-phys-148",
+        question: "In SHM the maximum displacement covered by the particle from mean position is A. What is the total distance covered in one complete cycle?",
+        options: [
+          "2A",
+          "4A",
+          "6A",
+          "8A"
+        ],
+        answer: 1,
+        explanation: "In one complete oscillation (cycle), a particle moves from the mean position to one extreme (+A), back to the mean position (A), to the opposite extreme (-A), and back to the mean position (A), covering a total distance of A + A + A + A = 4A."
+      },
+      {
+        id: "szambu-2026-phys-149",
+        question: "Unlike electromagnetic waves, mechanical waves require:",
+        options: [
+          "Source of energy",
+          "Medium for propagation",
+          "Source of disturbance",
+          "Periodic motion"
+        ],
+        answer: 1,
+        explanation: "Mechanical waves (such as sound and water waves) transfer energy through the oscillation of particles and therefore require a material medium for propagation, whereas electromagnetic waves can travel through a vacuum."
+      },
+      {
+        id: "szambu-2026-phys-150",
+        question: "A sound wave is set up in a long tube, closed at one end. The length of the tube is adjusted until the sound from the tube is loudest. What is the nature of the sound wave in the tube?",
+        options: [
+          "Longitudinal and progressive",
+          "Longitudinal and stationary",
+          "Transverse and progressive",
+          "Transverse and stationary"
+        ],
+        answer: 1,
+        explanation: "Sound waves in air are longitudinal waves. When reflected from the closed end of a resonance tube at a resonant length, incident and reflected waves superimpose to form longitudinal stationary (standing) waves."
+      },
+      {
+        id: "szambu-2026-phys-151",
+        question: "An ideal gas is heated at constant volume. It absorbs 200 J of heat. The work done by the gas is:",
+        options: [
+          "200 J",
+          "0 J",
+          "–200 J",
+          "Varies with pressure"
+        ],
+        answer: 1,
+        explanation: "In an isochoric process (constant volume), the change in volume ΔV = 0. Since thermodynamic work is given by W = PΔV, the work done by the gas is zero (W = 0 J), and all absorbed heat increases the internal energy of the gas."
+      },
+      {
+        id: "szambu-2026-phys-152",
+        question: "If “Q” is heat and “W” is work done then “W=Q” represents.",
+        options: [
+          "Isothermal process",
+          "Adiabatic process",
+          "Isochoric process",
+          "Isobaric process"
+        ],
+        answer: 0,
+        explanation: "By the first law of thermodynamics, Q = ΔU + W. In an isothermal process, temperature remains constant, so the change in internal energy of an ideal gas is zero (ΔU = 0), yielding Q = W."
+      },
+      {
+        id: "szambu-2026-phys-127",
+        question: "1 mega ohm × 1 pico farad =",
+        options: [
+          "Second",
+          "Milli second",
+          "Micro second",
+          "Mega second"
+        ],
+        answer: 2,
+        explanation: "The product of resistance and capacitance gives the RC time constant (τ = R × C). Substituting 1 MΩ = 10⁶ Ω and 1 pF = 10⁻¹² F gives 10⁶ × 10⁻¹² = 10⁻⁶ seconds, which equals 1 microsecond."
+      },
+      {
+        id: "szambu-2026-phys-128",
+        question: "If “F” is the force between two point charges submerged in a medium of dielectric constant “M”, then on withdrawing the medium, the force between them becomes:",
+        options: [
+          "F/M",
+          "FM",
+          "F/M",
+          "M/F"
+        ],
+        answer: 1,
+        explanation: "The electrostatic force in a dielectric medium of relative permittivity (dielectric constant) M is F = F_vac / M. Therefore, when the medium is removed (leaving vacuum/air), the force increases by a factor of M to become F_vac = FM."
+      },
+      {
+        id: "szambu-2026-phys-129",
+        question: "Unit of resistivity i.e. specific resistance is:",
+        options: [
+          "Ω·m",
+          "Ω",
+          "Ω⁻¹m⁻¹",
+          "Ω/m²"
+        ],
+        answer: 0,
+        explanation: "Resistivity is defined by ρ = RA / L. Substituting the SI units of resistance (Ω), cross-sectional area (m²), and length (m) yields (Ω · m²) / m = Ω·m."
+      },
+      {
+        id: "szambu-2026-phys-130",
+        question: "If diameter of a wire is doubled, its resistivity will:",
+        options: [
+          "Become half",
+          "Decrease by four times",
+          "Increase by four times",
+          "Remain constant"
+        ],
+        answer: 3,
+        explanation: "Resistivity (specific resistance) is an intrinsic material property that depends only on the nature of the material and temperature, not on its physical dimensions such as length or diameter. Therefore, doubling the diameter leaves the resistivity unchanged."
+      },
+      {
+        id: "szambu-2026-phys-131",
+        question: "Two particles with same charge and different masses enter perpendicularly in a uniform magnetic field with same speed, the lighter one will move in:",
+        options: [
+          "Straight path",
+          "Spiral path",
+          "Large circular path",
+          "Small circular path"
+        ],
+        answer: 3,
+        explanation: "When a charged particle enters a uniform magnetic field perpendicularly, the magnetic force provides the centripetal force (qvB = mv²/r), giving a circular path of radius r = mv / (qB). Since charge (q), speed (v), and magnetic field (B) are identical for both particles, the radius is directly proportional to mass (r ∝ m). Therefore, the lighter particle will move in a circular path of smaller radius (small circular path)."
+      },
+      {
+        id: "szambu-2026-phys-153",
+        question: "Magnetic flux has unit but no direction because",
+        options: [
+          "Of scalar product",
+          "Of cross product",
+          "Of sum of two vectors",
+          "Of product of two scalars"
+        ],
+        answer: 0,
+        explanation: "Magnetic flux is defined as the scalar (dot) product of the magnetic field vector (B) and the vector area (A): Φ_B = B · A = BA cosθ. Because the dot product of two vectors yields a scalar quantity, magnetic flux has magnitude and units (weber, Wb) but no direction."
+      },
+      {
+        id: "szambu-2026-phys-154",
+        question: "According to Faraday’s law of electromagnetic induction, the magnitude of induced emf depends upon",
+        options: [
+          "Magnetic flux",
+          "Magnetic induction",
+          "Change in magnetic flux",
+          "Rate of change in magnetic flux"
+        ],
+        answer: 3,
+        explanation: "Faraday's law of electromagnetic induction states that the magnitude of the induced electromotive force (emf) in a circuit is directly proportional to the time rate of change of magnetic flux linkage through the circuit (|ε| = N ΔΦ/Δt)."
+      },
+      {
+        id: "szambu-2026-phys-155",
+        question: "Lenz’s law primarily refers to the direction of:",
+        options: [
+          "Voltage",
+          "Induced current",
+          "Power",
+          "Energy"
+        ],
+        answer: 1,
+        explanation: "Lenz's law determines the direction of the induced current (and polarity of induced emf), stating that the induced current always flows in a direction such that the magnetic field it creates opposes the change in magnetic flux that produced it."
+      },
+      {
+        id: "szambu-2026-phys-156",
+        question: "When a capacitor is connected to an alternating power source,",
+        options: [
+          "The voltage leads the current by 90°",
+          "The voltage lags the current by 90°",
+          "The voltage leads the current by 180°",
+          "The voltage lags the current by 180°"
+        ],
+        answer: 1,
+        explanation: "In a purely capacitive AC circuit, the alternating current leads the alternating voltage by a phase angle of 90° (π/2 radians), meaning the voltage lags behind the current by 90°."
+      },
+      {
+        id: "szambu-2026-phys-157",
+        question: "In a pure inductive AC circuit at low frequency the inductive reactance will be",
+        options: [
+          "Remain same",
+          "Increase",
+          "Decrease",
+          "Zero"
+        ],
+        answer: 2,
+        explanation: "Inductive reactance is directly proportional to the frequency of the AC supply (X_L = 2πfL). Therefore, at low frequency, the inductive reactance decreases."
+      },
+      {
+        id: "szambu-2026-phys-158",
+        question: "Which type of biasing results in a very high resistance of PN junction diode?",
+        options: [
+          "Forward biasing",
+          "Reverse biasing",
+          "Unbiased",
+          "Doping"
+        ],
+        answer: 1,
+        explanation: "In reverse biasing, the positive terminal of the external voltage source is connected to the n-type region and the negative terminal to the p-type region. This widens the depletion region and increases the potential barrier, preventing majority carrier flow and resulting in a very high junction resistance (on the order of megaohms)."
+      },
+      {
+        id: "szambu-2026-phys-159",
+        question: "The energy difference per unit frequency between two consecutive quantum states is",
+        options: [
+          "Speed of light",
+          "Frequency",
+          "Planck’s Constant",
+          "Mass"
+        ],
+        answer: 2,
+        explanation: "According to Planck's quantum theory, the energy difference between two consecutive quantum states is ΔE = hf. Dividing by frequency gives ΔE / f = h, which is Planck's constant (6.63 × 10⁻³⁴ J·s)."
+      },
+      {
+        id: "szambu-2026-phys-160",
+        question: "What is the primary reason for color line spectrum of hydrogen gas?",
+        options: [
+          "The heat energy inside gas",
+          "Transition of electrons from lower to higher energy levels in gas atoms",
+          "Transition of electrons from higher to lower energy levels in gas atoms",
+          "Instability of gas atoms"
+        ],
+        answer: 2,
+        explanation: "An emission line spectrum is produced when excited electrons in hydrogen atoms transition from higher energy levels (E₂) back down to lower energy levels (E₁), emitting photons of specific discrete wavelengths (colors) corresponding to ΔE = E₂ - E₁ = hf."
+      },
+      {
+        id: "szambu-2026-phys-161",
+        question: "A sealed sample of Cobalt-60 is subjected to extremely high pressure in a laboratory. Its decay rate will:",
+        options: [
+          "Increase",
+          "Decrease",
+          "Remain unchanged",
+          "Become infinite"
+        ],
+        answer: 2,
+        explanation: "Radioactive decay is a purely nuclear process governed by the strong and weak nuclear forces inside the nucleus. External physical or chemical conditions—such as temperature, pressure, or magnetic fields—do not affect the nuclear decay constant or decay rate."
+      },
+      {
+        id: "szambu-2026-phys-162",
+        question: "Half-life of a radioactive element is 2 minutes. In how much time, one-eighth (1/8th) of this sample will decay?",
+        options: [
+          "2 minutes",
+          "4 minutes",
+          "6 minutes",
+          "8 minutes"
+        ],
+        answer: 2,
+        explanation: "In standard MDCAT past paper phrasing, 'one-eighth (1/8th)' refers to the fraction remaining undecayed (N/N₀ = 1/8 = (1/2)³), which takes n = 3 half-lives. Since T₁/₂ = 2 minutes, total time t = n × T₁/₂ = 3 × 2 = 6 minutes."
       }
 ];

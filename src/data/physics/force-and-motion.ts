@@ -1278,5 +1278,53 @@ export type Question = {
         ],
         answer: 2,
         explanation: "The horizontal range of a projectile is given by R = (v_i² sin(2θ)) / g. For maximum range, sin(2θ) must be at its maximum value of 1, which occurs when 2θ = 90°, giving θ = 45°."
+      },
+      {
+        id: "szambu-2026-phys-135",
+        question: "Projectile motion is best described as:",
+        options: [
+          "One-dimensional motion",
+          "Variable accelerated motion",
+          "Constant acceleration due to gravity",
+          "Velocity becomes zero at maximum height"
+        ],
+        answer: 2,
+        explanation: "Projectile motion is a two-dimensional motion under the sole influence of gravity (neglecting air resistance), resulting in a constant downward acceleration equal to g (9.8 m/s²). At maximum height, only the vertical component of velocity is zero while the horizontal component remains constant."
+      },
+      {
+        id: "szambu-2026-phys-136",
+        question: "A body of mass 5kg is moving with speed 10 m/s. A constant force acts on it for 5 seconds and brings its speed to 5 m/s. The magnitude of force is:",
+        options: [
+          "3 N",
+          "5 N",
+          "15 N",
+          "30 N"
+        ],
+        answer: 1,
+        explanation: "Using Newton's second law, F = m × a = m(v_f - v_i)/t. Substituting m = 5 kg, v_i = 10 m/s, v_f = 5 m/s, and t = 5 s gives F = 5 × (5 - 10) / 5 = -5 N. Thus, the magnitude of the retarding force is 5 N."
+      },
+      {
+        id: "szambu-2026-phys-137",
+        question: "A passenger standing in a bus falls forward when the bus suddenly stops. This is due to:",
+        options: [
+          "Newton’s first law",
+          "Newton’s second law",
+          "Newton’s third law",
+          "Law of gravitation"
+        ],
+        answer: 0,
+        explanation: "According to Newton's first law of motion (law of inertia), an object in motion tends to stay in motion with the same speed and direction unless acted upon by an unbalanced force. When the bus stops suddenly, the passenger's lower body comes to rest with the bus while the upper body continues moving forward due to inertia of motion."
+      },
+      {
+        id: "szambu-2026-phys-138",
+        question: "A stone is thrown horizontally with a velocity of 12 ms⁻¹ from the top of a vertical cliff. How long does the stone take to reach the ground 45 m below? Take g = 10 m/s²",
+        options: [
+          "2 s",
+          "3 s",
+          "4 s",
+          "5 s"
+        ],
+        answer: 1,
+        explanation: "For horizontal projection, the initial vertical velocity v_iy = 0. Using the vertical equation of motion h = v_iy(t) + ½gt², we get 45 = 0 + ½(10)t² => 45 = 5t² => t² = 9 => t = 3 s."
       }
   ];

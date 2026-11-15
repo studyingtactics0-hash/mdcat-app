@@ -1085,5 +1085,29 @@ export type Question = {
         ],
         answer: 1,
         explanation: "A steady current requires a continuous potential difference across the ends of a conductor, which is maintained by a constant voltage (EMF) source such as a battery or DC power supply."
+      },
+      {
+        id: "szambu-2026-phys-129",
+        question: "Unit of resistivity i.e. specific resistance is:",
+        options: [
+          "Ω·m",
+          "Ω",
+          "Ω⁻¹m⁻¹",
+          "Ω/m²"
+        ],
+        answer: 0,
+        explanation: "Resistivity is defined by ρ = RA / L. Substituting the SI units of resistance (Ω), cross-sectional area (m²), and length (m) yields (Ω · m²) / m = Ω·m."
+      },
+      {
+        id: "szambu-2026-phys-130",
+        question: "If diameter of a wire is doubled, its resistivity will:",
+        options: [
+          "Become half",
+          "Decrease by four times",
+          "Increase by four times",
+          "Remain constant"
+        ],
+        answer: 3,
+        explanation: "Resistivity (specific resistance) is an intrinsic material property that depends only on the nature of the material and temperature, not on its physical dimensions such as length or diameter. Therefore, doubling the diameter leaves the resistivity unchanged."
       }
   ];
