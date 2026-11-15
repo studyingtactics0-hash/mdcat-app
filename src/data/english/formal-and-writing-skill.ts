@@ -863,5 +863,233 @@ export const formalAndWritingSkillQuestions = [
         "Imtiaz invited me at a dinner party to the restaurant."
       ],
       answer: 0
+    },
+    {
+      id: "uhs-2026-eng-163",
+      question: "The director ______ movie was a blockbuster earned heaps of money.",
+      options: [
+        "who's",
+        "whom",
+        "whose",
+        "which"
+      ],
+      answer: 2,
+      explanation: "'Whose' is the possessive relative pronoun used to indicate that the movie belongs to the director. 'Who's' is a contraction of 'who is' or 'who has'."
+    },
+    {
+      id: "uhs-2026-eng-164",
+      question: "Which of the following sentences is correctly punctuated?",
+      options: [
+        "I love Pakistan!",
+        "Wow. That's amazing",
+        "Lets eat. Grandma.",
+        "He's not coming, is he"
+      ],
+      answer: 0,
+      explanation: "'I love Pakistan!' properly uses a capital letter at the start and an exclamation mark at the end to express strong emotion. The other options lack end punctuation, misuse periods, or omit an apostrophe in 'Let's'."
+    },
+    {
+      id: "uhs-2026-eng-165",
+      question: "The captain stood at the head of the table during the meeting. What does 'head' most likely mean?",
+      options: [
+        "A body part",
+        "A leader or position of authority",
+        "The front part of something",
+        "A senior person"
+      ],
+      answer: 1,
+      explanation: "In the context of a meeting, standing at the 'head of the table' signifies occupying the seat of leadership, command, or authority."
+    },
+    {
+      id: "uhs-2026-eng-166",
+      question: "What is the correct direct speech form of the sentence: He claimed that he could speak French fluently.",
+      options: [
+        "He claimed, 'I can speak French fluently.'",
+        "He claimed, 'I am speaking French fluently.'",
+        "He claimed, 'I speak French fluently.'",
+        "He claimed, 'I was speaking French fluently.'"
+      ],
+      answer: 0,
+      explanation: "When converting from indirect to direct speech with a past reporting verb ('claimed'), the modal 'could' reverts to its present form 'can', and the third-person pronoun 'he' reverts to 'I'."
+    },
+    {
+      id: "uhs-2026-eng-167",
+      question: "The student said, 'I am taking extra classes so that I can improve my grades before the finals.' The most appropriate indirect form of the given sentence is:",
+      options: [
+        "The student said that he was taking extra classes so that he can improve his grades before the finals.",
+        "The student said that he had taken extra classes so that he can improve his grades before the finals.",
+        "The student said that he had been taking extra classes so that he could improve his grades before the finals.",
+        "The student said that he was taking extra classes so that he could improve his grades before the finals."
+      ],
+      answer: 3,
+      explanation: "In indirect speech with a past reporting verb ('said'), present continuous ('am taking') shifts to past continuous ('was taking'), and the modal 'can' shifts to 'could'."
+    },
+    {
+      id: "uhs-2026-eng-168",
+      question: "What does the sentence 'She broke down in front of the audience' imply?",
+      options: [
+        "She sang a song.",
+        "She collapsed emotionally.",
+        "She left the stage.",
+        "She performed well."
+      ],
+      answer: 1,
+      explanation: "The phrasal verb 'break down' in an emotional context means to lose control of one's feelings and begin crying or collapsing emotionally."
+    },
+    {
+      id: "uhs-2026-eng-169",
+      question: "“Mistakes could have been avoided if the instructions had been followed carefully by the workers”. The most appropriate active voice of the given sentence is:",
+      options: [
+        "The workers could avoid mistakes if they followed the instructions carefully.",
+        "The workers could have avoided mistakes if they followed the instructions carefully.",
+        "The workers could have avoided mistakes if they had followed the instructions carefully.",
+        "The workers avoid mistakes if they follow the instructions carefully."
+      ],
+      answer: 2,
+      explanation: "In this third-conditional passive sentence, both clauses convert to active voice while maintaining their respective tenses: 'could have been avoided' becomes 'could have avoided', and 'had been followed' becomes 'had followed'."
+    },
+    {
+      id: "uhs-2026-eng-170",
+      question: "Identify which type of an adverb is used in the following sentence? “The cat chased the rat everywhere”.",
+      options: [
+        "adverb of time",
+        "adverb of manner",
+        "adverb of frequency",
+        "adverb of place"
+      ],
+      answer: 3,
+      explanation: "'Everywhere' answers the question 'where?' regarding the action of chasing, making it an adverb of place."
+    },
+    {
+      id: "uhs-2026-eng-171",
+      question: "He was known for resolving contentious matters. The underlined word in the context means:",
+      options: [
+        "Disputed",
+        "Secretive",
+        "Unethical",
+        "Private"
+      ],
+      answer: 0,
+      explanation: "'Contentious' means causing or likely to cause an argument or controversy, which aligns directly with 'disputed'."
+    },
+    {
+      id: "uhs-2026-eng-172",
+      question: "A belief is regarded as “true and reasonable”, when it is:",
+      options: [
+        "Commonly accepted.",
+        "Matches your feelings.",
+        "Based on evidence and logic.",
+        "Found in old texts."
+      ],
+      answer: 2,
+      explanation: "In critical thinking and epistemology, a justified, true, and reasonable belief relies on empirical evidence and sound logical reasoning rather than popularity, emotion, or tradition."
+    },
+    {
+      id: "szambu-2026-eng-163",
+      question: "Choose the option with correct spelling.",
+      options: [
+        "Nusance",
+        "Neusance",
+        "Nuisance",
+        "Nuissance"
+      ],
+      answer: 2,
+      explanation: "The correct spelling is 'Nuisance' (n-u-i-s-a-n-c-e), meaning a person, thing, or circumstance causing inconvenience or annoyance."
+    },
+    {
+      id: "szambu-2026-eng-164",
+      question: "Choose the correctly structured sentence.",
+      options: [
+        "If he went on time, he will have caught the bus.",
+        "If he had gone on time, he would have caught the bus.",
+        "If he had gone on time, he would catch the bus.",
+        "If he has gone on time, he would have caught the bus."
+      ],
+      answer: 1,
+      explanation: "This is a third conditional sentence expressing an unreal past condition and its probable past result, which follows the structure: If + past perfect ('had gone'), would have + past participle ('would have caught')."
+    },
+    {
+      id: "szambu-2026-eng-165",
+      question: "“The students, along with their teacher, ______ leaving now.” Choose the correct verb:",
+      options: [
+        "is",
+        "are",
+        "has",
+        "was"
+      ],
+      answer: 1,
+      explanation: "When the subject is followed by parenthetical phrases like 'along with', the verb agrees with the main subject ('The students', which is plural), requiring the plural verb 'are'."
+    },
+    {
+      id: "szambu-2026-eng-166",
+      question: "“Your reluctance to speak to the boss will create problems for you.” What does “reluctance” mean in this context?",
+      options: [
+        "Confidence",
+        "Hesitation",
+        "Eagerness",
+        "Competence"
+      ],
+      answer: 1,
+      explanation: "'Reluctance' refers to unwillingness or disinclination to do something, which is closest in meaning to 'hesitation'."
+    },
+    {
+      id: "szambu-2026-eng-167",
+      question: "“The silence tasted like stale bread left too long in the cupboard.” Which literary technique is most evident here?",
+      options: [
+        "Metaphor",
+        "Personification",
+        "Simile",
+        "Alliteration"
+      ],
+      answer: 2,
+      explanation: "A simile explicitly compares two different things using the words 'like' or 'as'—here comparing 'the silence' to 'stale bread' using 'like'."
+    },
+    {
+      id: "szambu-2026-eng-168",
+      question: "Choose the sentence with correct punctuation:",
+      options: [
+        "“It was a nice movie,” said Kaleem.",
+        "“It was a nice movie, said Kaleem.",
+        "“It was a nice movie;” said Kaleem.",
+        "“It was a nice movie, “said Kaleem”."
+      ],
+      answer: 0,
+      explanation: "In direct speech followed by a dialogue tag ('said Kaleem'), a comma is placed inside the closing quotation marks, and a period ends the sentence."
+    },
+    {
+      id: "szambu-2026-eng-169",
+      question: "“He walked ______ the park to reach school.” Use correct preposition:",
+      options: [
+        "across",
+        "at",
+        "over",
+        "on"
+      ],
+      answer: 0,
+      explanation: "'Across' is the correct preposition to indicate movement from one side of an open area (the park) to the other."
+    },
+    {
+      id: "szambu-2026-eng-170",
+      question: "Choose the correct indirect form for the following sentence: “Where do you live?” he asked the old man.",
+      options: [
+        "He asked the old man where he has lived.",
+        "He asked the old man where do I live.",
+        "He asked the old man where he lived.",
+        "He asked the old man where did he live."
+      ],
+      answer: 2,
+      explanation: "In reported questions, the interrogative word order changes to assertive (subject + verb), the pronoun 'you' changes to 'he', and the simple present ('do live') shifts to simple past ('lived')."
+    },
+    {
+      id: "szambu-2026-eng-171",
+      question: "Complete the sentence with correct infinitive. He bade them ______ the house.",
+      options: [
+        "for leaving",
+        "Leave",
+        "leaving",
+        "To leave"
+      ],
+      answer: 1,
+      explanation: "In active voice, the verb 'bid' (past tense 'bade') is followed by an object and a bare infinitive (without 'to'), making 'leave' the correct form."
     }
   ];

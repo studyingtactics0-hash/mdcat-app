@@ -843,5 +843,209 @@ export const logicalReasoningQuestions = [
       "Uncertain"
     ],
     answer: 1
+  },
+  {
+    id: "uhs-2026-lr-173",
+    question: "During a chemistry practical class, teacher was briefly out of the class, and the lab safety instructions were ignored. During that time, a student mixed unknown chemicals left from a previous experiment. A strong smell fills the room, and one student starts coughing. To avoid future accidents, from the given options, the most sustainable course of action is to:",
+    options: [
+      "cancel all chemistry practicals.",
+      "rusticate the student involved.",
+      "strengthen lab safety instructions.",
+      "penalise the teacher for being absent."
+    ],
+    answer: 2,
+    explanation: "Strengthening and enforcing lab safety instructions and supervision protocols addresses the root cause of the incident sustainably without depriving students of essential practical education."
+  },
+  {
+    id: "uhs-2026-lr-174",
+    question: "Find the odd one out.",
+    options: [
+      "6 : 35",
+      "2 : 15",
+      "4 : 25",
+      "7 : 45"
+    ],
+    answer: 3,
+    explanation: "In the first three pairs, the second number follows the pattern (5 × first number) + 5: (5 × 6) + 5 = 35, (5 × 2) + 5 = 15, and (5 × 4) + 5 = 25. For 7, (5 × 7) + 5 = 40, not 45."
+  },
+  {
+    id: "uhs-2026-lr-175",
+    question: "Find the odd one out.",
+    options: [
+      "D : G",
+      "U : W",
+      "H : J",
+      "Q : S"
+    ],
+    answer: 0,
+    explanation: "In U : W, H : J, and Q : S, there is a gap of 1 letter between the two letters (V, I, and R respectively). In D : G, there is a gap of 2 letters (E and F)."
+  },
+  {
+    id: "uhs-2026-lr-176",
+    question: "X's son is cousin of Y's son. If Y has no brother what is X to Y?",
+    options: [
+      "Cousin",
+      "Nephew",
+      "Uncle",
+      "Sister"
+    ],
+    answer: 3,
+    explanation: "Since X's son and Y's son are cousins, X and Y must be siblings. Because Y has no brother, X must be female, making X the sister of Y."
+  },
+  {
+    id: "uhs-2026-lr-177",
+    question: "What number comes next in the following series: 48, 45, 40, 33, 24",
+    options: [
+      "11",
+      "8",
+      "13",
+      "1"
+    ],
+    answer: 2,
+    explanation: "The differences between consecutive terms decrease by consecutive odd numbers: 48 - 3 = 45, 45 - 5 = 40, 40 - 7 = 33, 33 - 9 = 24. Subtracting the next odd number (11) gives 24 - 11 = 13."
+  },
+  {
+    id: "uhs-2026-lr-178",
+    question: "Quantity A: The price of a television when it is on sale at 25% off. Quantity B: The price of that television when it is on sale at $25 off.",
+    options: [
+      "Quantity A is greater.",
+      "Quantity B is greater.",
+      "Quantities A and B are equal.",
+      "It is impossible to determine which quantity is greater."
+    ],
+    answer: 3,
+    explanation: "Without knowing the original price (P) of the television, 0.75P (Quantity A) cannot be compared to P - 25 (Quantity B). If P > $100, Quantity B is greater; if P < $100, Quantity A is greater; if P = $100, they are equal."
+  },
+  {
+    id: "uhs-2026-lr-179",
+    question: "Five boxes - Red, Green, Blue, Yellow, and Black - are stacked one over another with 1 at the bottom and 5 at the top. These boxes are arranged using the following rules: 1. Red is above Green 2. Yellow is immediately above Black 3. Black is not at the bottom. If Blue Box is at position 4, which box is at position 2?",
+    options: [
+      "Red",
+      "Green",
+      "Yellow",
+      "Black"
+    ],
+    answer: 3,
+    explanation: "With Blue at 4 and Black not at 1, Yellow (immediately above Black) and Black must occupy positions 3 and 2 respectively (since 5 and 4 are separated by Blue). Consequently, Red is at 5 and Green is at 1, placing Black at position 2."
+  },
+  {
+    id: "uhs-2026-lr-180",
+    question: "What percentage of 90 minutes is 54 seconds?",
+    options: [
+      "One percent",
+      "Six Percent",
+      "Three percent",
+      "Ten percent"
+    ],
+    answer: 0,
+    explanation: "Convert 90 minutes to seconds: 90 × 60 = 5,400 seconds. Then calculate the percentage: (54 / 5,400) × 100 = 1% (One percent)."
+  },
+  {
+    id: "szambu-2026-lr-172",
+    question: "If 5 is subtracted from 30, what will be the square root of remaining?",
+    options: [
+      "25",
+      "30",
+      "5",
+      "10"
+    ],
+    answer: 2,
+    explanation: "Subtracting 5 from 30 gives 30 - 5 = 25. The square root of 25 is √25 = 5."
+  },
+  {
+    id: "szambu-2026-lr-173",
+    question: "Statement: A hospital staff shortage is causing long patient waiting times.\n\nCourse of Action:\nI. Hire temporary staff and reschedule duties to manage the patient’s workflow.\nII. Close the hospital until full staffing is restored.",
+    options: [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither follows"
+    ],
+    answer: 0,
+    explanation: "Course of Action I directly and practically alleviates the staffing shortage and reduces patient waiting times. Closing the hospital (II) is extreme, counterproductive, and harms public healthcare."
+  },
+  {
+    id: "szambu-2026-lr-174",
+    question: "What makes a course of action realistic and executable?",
+    options: [
+      "Minimal risk",
+      "Attainable goals, detailed steps, and availability of appropriate resources",
+      "High expenses",
+      "Unclear execution plans"
+    ],
+    answer: 1,
+    explanation: "A feasible and executable course of action requires achievable objectives, a clear step-by-step plan, and sufficient resources to carry it out."
+  },
+  {
+    id: "szambu-2026-lr-175",
+    question: "How does positive thinking influence social behavior?",
+    options: [
+      "It encourages social conflicts among the people.",
+      "It encourages mutual respect among the people.",
+      "It develops self-centeredness among the people.",
+      "It encourages isolation among the people."
+    ],
+    answer: 1,
+    explanation: "Positive thinking fosters empathy, constructive communication, and cooperation, thereby encouraging mutual respect in social interactions."
+  },
+  {
+    id: "szambu-2026-lr-176",
+    question: "In how many way(s), four persons A, B, C and D can stand in a line, if B must be at first and D is at third position?",
+    options: [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    answer: 1,
+    explanation: "With B fixed at position 1 and D fixed at position 3 (B _ D _), only positions 2 and 4 remain for A and C. They can be arranged in 2! = 2 ways: (B, A, D, C) and (B, C, D, A)."
+  },
+  {
+    id: "szambu-2026-lr-177",
+    question: "Eman has 4 times as many books as Ayesha and 5 times as many as Khadijah. If Khadijah has more than 40 books, what is the least number of books that Eman could have?",
+    options: [
+      "200",
+      "205",
+      "210",
+      "220"
+    ],
+    answer: 3,
+    explanation: "Since Eman's books (E) are both 4 times Ayesha's and 5 times Khadijah's (K), E must be a multiple of LCM(4, 5) = 20. Given K > 40, E = 5K > 200. The smallest multiple of 20 greater than 200 is 220 (where K = 44 and Ayesha = 55)."
+  },
+  {
+    id: "szambu-2026-lr-178",
+    question: "Initially, a quantity of the liquid is 160 ml and it reduces by half every hour. How much liquid remains after two hours?",
+    options: [
+      "20 ml",
+      "40 ml",
+      "60 ml",
+      "80 ml"
+    ],
+    answer: 1,
+    explanation: "After 1 hour, the liquid reduces to 160 / 2 = 80 ml. After 2 hours, it halves again to 80 / 2 = 40 ml."
+  },
+  {
+    id: "szambu-2026-lr-179",
+    question: "An item originally costs Rs. 2500. After a 10% price increase, what is the new price?",
+    options: [
+      "Rs. 2250",
+      "Rs. 2700",
+      "Rs. 2750",
+      "Rs. 2800"
+    ],
+    answer: 2,
+    explanation: "A 10% increase on Rs. 2500 is 0.10 × 2500 = Rs. 250. Adding this to the original price gives 2500 + 250 = Rs. 2750."
+  },
+  {
+    id: "szambu-2026-lr-180",
+    question: "If you work hard, you will pass the exam. Which of the following statements can be deduced from the above statement?\n\nI: If you don’t work hard, you will not pass the exam.\nII: If you don’t pass the exam, you have not worked hard.",
+    options: [
+      "only I",
+      "only II",
+      "both I and II",
+      "neither I nor II"
+    ],
+    answer: 1,
+    explanation: "For a conditional statement 'If P, then Q', the logically equivalent deduction is its contrapositive 'If not Q, then not P' (Statement II). Statement I ('If not P, then not Q') is the inverse, which is not logically valid."
   }
   ];
