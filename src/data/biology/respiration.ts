@@ -211,5 +211,53 @@ export const respirationQuestions = [
       "None of these"
     ],
     answer: 2
+  },
+  {
+    id: "kmu-2026-bio-061",
+    question: "Which has NO cartilage in its structure?",
+    options: [
+      "Larynx",
+      "Trachea",
+      "Bronchioles",
+      "Bronchi"
+    ],
+    answer: 2,
+    explanation: "As the conducting airways branch and narrow, cartilage plates disappear completely at the level of the bronchioles, whose walls are composed primarily of smooth muscle and elastic fibers."
+  },
+  {
+    id: "kmu-2026-bio-062",
+    question: "The mucus and cilia of the nasal cavity work together to:",
+    options: [
+      "Increase the rate of diffusion of oxygen",
+      "Produce mucus for vocal cord lubrication",
+      "Filter air and prevent the entry of microorganisms",
+      "Exchange oxygen and carbon dioxide with blood"
+    ],
+    answer: 2,
+    explanation: "Mucus secreted by goblet cells traps inhaled dust particles, pollen, and microorganisms, while the coordinated beating of cilia sweeps the trapped debris toward the pharynx to be swallowed or expelled, protecting the lower respiratory tract."
+  },
+  {
+    id: "kmu-2026-bio-063",
+    question: "During gaseous exchange in human body, maximum percentage of CO₂ is transported from body tissues to lungs as:",
+    options: [
+      "Bicarbonate ion",
+      "Carbaminohemoglobin",
+      "Dissolved CO₂ in plasma",
+      "Gaseous form as bubbles"
+    ],
+    answer: 0,
+    explanation: "Approximately 70% of carbon dioxide is transported in the blood plasma as bicarbonate ions (HCO₃⁻) formed via the action of carbonic anhydrase inside red blood cells, while about 23% binds to hemoglobin as carbaminohemoglobin and 7% dissolves directly in plasma."
+  },
+  {
+    id: "kmu-2026-bio-064",
+    question: "Smoking causes alveolar destruction in:",
+    options: [
+      "Pneumonia",
+      "Chronic bronchitis",
+      "Emphysema",
+      "Asthma"
+    ],
+    answer: 2,
+    explanation: "Emphysema is a chronic obstructive pulmonary disease (COPD) most commonly caused by cigarette smoking, characterized by the irreversible breakdown and destruction of alveolar walls, reducing the surface area available for gas exchange."
   }
 ]

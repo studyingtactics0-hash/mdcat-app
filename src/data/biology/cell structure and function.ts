@@ -1411,4 +1411,64 @@ export type Question = {
         answer: 1,
         explanation: "Secretory cells contain an extensive Golgi complex (Golgi apparatus) to modify, sort, and package proteins and lipids into secretory vesicles for exocytosis."
       },
+      {
+        id: "kmu-2026-bio-014",
+        question: "A student observes a discoid organelle with a double membrane, stroma and thylakoids in a plant cell. Which organelle is this?",
+        options: [
+          "Golgi apparatus",
+          "Endoplasmic reticulum",
+          "Chloroplast",
+          "Mitochondria"
+        ],
+        answer: 2,
+        explanation: "Chloroplasts are double-membrane-bound discoid plastids found in photosynthetic plant cells, containing an internal fluid-filled stroma and flattened membranous sacs called thylakoids (which stack to form grana)."
+      },
+      {
+        id: "kmu-2026-bio-015",
+        question: "Which of the following is a COMMON FEATURE of Prokaryotic and Eukaryotic cells?",
+        options: [
+          "Mitochondria",
+          "Ribosomes",
+          "Endoplasmic reticulum",
+          "Golgi complex"
+        ],
+        answer: 1,
+        explanation: "Ribosomes are non-membrane-bound ribonucleoprotein complexes essential for protein synthesis and are present in both prokaryotic (70S) and eukaryotic (80S in cytoplasm, 70S in mitochondria/chloroplasts) cells, whereas mitochondria, ER, and Golgi complex are membrane-bound organelles exclusive to eukaryotes."
+      },
+      {
+        id: "kmu-2026-bio-016",
+        question: "Which one of the following is a self-replicating organelle?",
+        options: [
+          "Golgi apparatus",
+          "Lysosome",
+          "Peroxisome",
+          "Mitochondria"
+        ],
+        answer: 3,
+        explanation: "Mitochondria are semi-autonomous, self-replicating organelles because they possess their own circular DNA, 70S ribosomes, and enzymes required to synthesize some of their own proteins and divide by binary fission independently of nuclear division."
+      },
+      {
+        id: "kmu-2026-bio-017",
+        question: "If a cell's smooth endoplasmic reticulum is destroyed, which processes will be most affected?",
+        options: [
+          "Protein synthesis and protein folding",
+          "Lipid synthesis and detoxification",
+          "ATP production and aerobic respiration",
+          "DNA replication and cell division"
+        ],
+        answer: 1,
+        explanation: "The smooth endoplasmic reticulum (SER) lacks ribosomes and is primarily responsible for the synthesis of lipids (such as phospholipids and steroid hormones), carbohydrate metabolism, calcium ion storage, and detoxification of drugs and poisons."
+      },
+      {
+        id: "kmu-2026-bio-018",
+        question: "The centromere is important because it:",
+        options: [
+          "Synthesizes proteins",
+          "Holds identical chromatids together",
+          "Replicates DNA",
+          "Produces ATP"
+        ],
+        answer: 1,
+        explanation: "The centromere is the specialized constricted region of a replicated chromosome that holds the two identical sister chromatids together and serves as the attachment site for kinetochore proteins and spindle fibers during mitosis and meiosis."
+      }
   ];

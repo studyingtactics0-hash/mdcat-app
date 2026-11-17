@@ -491,5 +491,29 @@ export type Question = {
       ],
       answer: 2,
       explanation: "Antigens are foreign or self-marking molecules—typically cell-surface proteins, glycoproteins, or oligosaccharides—that are recognized by antibodies and lymphocyte receptors to elicit an immune response."
+    },
+    {
+      id: "kmu-2026-bio-059",
+      question: "B-Lymphocytes produce a small, soluble and specific protein called ______.",
+      options: [
+        "Antigen",
+        "Antibody",
+        "Prostaglandin",
+        "Perforin"
+      ],
+      answer: 1,
+      explanation: "Upon activation and differentiation into plasma cells, B-lymphocytes synthesize and secrete specific, soluble immunoglobulins (antibodies) that bind specifically to foreign antigens to neutralize or mark them for destruction."
+    },
+    {
+      id: "kmu-2026-bio-060",
+      question: "A vaccine containing weakened microbes is administered to a person. Which aspect of adaptive immunity is responsible for providing long-lasting protection against future infections?",
+      options: [
+        "Inflammatory response",
+        "Rise in body temperature",
+        "Engulfment by phagocytes",
+        "Formation of memory cells"
+      ],
+      answer: 3,
+      explanation: "Vaccines stimulate a primary adaptive immune response that generates long-lived memory B and memory T lymphocytes, enabling a rapid, robust secondary immune response upon future exposure to the pathogen."
     }
   ]

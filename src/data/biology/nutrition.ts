@@ -764,5 +764,77 @@ export type Question = {
       ],
       answer: 2,
       explanation: "During fasting, a drop in blood glucose concentration stimulates the feeding center in the hypothalamus and triggers strong peristaltic hunger contractions (hunger pangs) in the empty stomach."
+    },
+    {
+      id: "kmu-2026-bio-065",
+      question: "Which of the following is NOT a function of liver?",
+      options: [
+        "Detoxification",
+        "Insulin synthesis",
+        "Producing bile",
+        "Storage of Vitamin A"
+      ],
+      answer: 1,
+      explanation: "Insulin is synthesized and secreted by the beta cells of the islets of Langerhans in the pancreas, not the liver. The liver performs detoxification, produces bile, and stores fat-soluble vitamins such as Vitamin A."
+    },
+    {
+      id: "kmu-2026-bio-066",
+      question: "Find the correct sequence of phases in the swallowing mechanism. 1. Pharyngeal 2. Oral 3. Esophageal",
+      options: [
+        "2-1-3",
+        "1-2-3",
+        "2-3-1",
+        "3-1-2"
+      ],
+      answer: 0,
+      explanation: "Deglutition (swallowing) occurs in three sequential stages: first the voluntary oral (buccal) phase (2) pushes the bolus into the oropharynx, followed by the involuntary pharyngeal phase (1) moving it past the pharynx, and finally the involuntary esophageal phase (3) propelling it into the stomach via peristalsis."
+    },
+    {
+      id: "kmu-2026-bio-067",
+      question: "The release of bicarbonate rich fluid from the pancreas is stimulated by the action of:",
+      options: [
+        "Pepsin",
+        "Gastrin",
+        "Secretin",
+        "Trypsin"
+      ],
+      answer: 2,
+      explanation: "When acidic chyme enters the duodenum, S cells in the duodenal mucosa secrete the hormone secretin, which stimulates pancreatic ductal cells to release a watery, bicarbonate-rich fluid that neutralizes gastric acid."
+    },
+    {
+      id: "kmu-2026-bio-068",
+      question: "Which structures in the intestinal villus are directly involved in nutrient absorption?",
+      options: [
+        "Blood capillaries and lacteals",
+        "Arteries and goblet cells",
+        "Circular and longitudinal muscles",
+        "Crypts of Lieberkühn and microvilli"
+      ],
+      answer: 0,
+      explanation: "Each intestinal villus contains a dense network of blood capillaries (which absorb monosaccharides, amino acids, water-soluble vitamins, and minerals into the hepatic portal system) and a central lymphatic capillary called a lacteal (which absorbs chylomicrons/fats and fat-soluble vitamins)."
+    },
+    {
+      id: "kmu-2026-bio-069",
+      question: "The primary function of peristalsis in the large intestine is to:",
+      options: [
+        "Digest carbohydrates",
+        "Move undigested food toward the rectum",
+        "Absorb fats",
+        "Secrete digestive enzymes"
+      ],
+      answer: 1,
+      explanation: "In the large intestine (colon), sluggish peristaltic waves and mass movements propel undigested food residues (feces) along the colon toward the rectum for storage and eventual egestion."
+    },
+    {
+      id: "kmu-2026-bio-070",
+      question: "A patient experiences chronic gastric discomfort and endoscopy confirms gastric ulcers. Which finding best explains the underlying cause?",
+      options: [
+        "Deficiency of pepsinogen secretion",
+        "Excess absorption of hydrochloric acid",
+        "Spread of Helicobacter pylori into stomach wall",
+        "Lack of intrinsic factor and Vitamin B12"
+      ],
+      answer: 2,
+      explanation: "Infection and colonization of the gastric mucosa by the bacterium Helicobacter pylori breaks down the protective mucus-bicarbonate barrier of the stomach wall, exposing epithelial cells to acid and pepsin and leading to peptic/gastric ulcers."
     }
   ]

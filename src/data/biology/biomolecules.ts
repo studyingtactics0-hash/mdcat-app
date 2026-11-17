@@ -1493,4 +1493,112 @@ export type Question = {
         answer: 0,
         explanation: "Adenine and Guanine are purine nitrogenous bases characterized by a double-ring (nine-membered fused pyrimidine-imidazole) structure, whereas cytosine, thymine, and uracil are single-ring pyrimidines."
       },
+      {
+        id: "kmu-2026-bio-005",
+        question: "Which of the following are classified as organic molecules in humans?",
+        options: [
+          "Water, mineral, oxygen, carbon dioxide",
+          "Carbohydrates, proteins, lipids, nucleic acids",
+          "Vitamins, minerals, water, oxygen",
+          "Glucose, sodium chloride, water, calcium"
+        ],
+        answer: 1,
+        explanation: "Carbohydrates, proteins, lipids, and nucleic acids are the four major classes of carbon-based biological macromolecules (organic compounds) found in human cells, whereas water, minerals, and oxygen are inorganic."
+      },
+      {
+        id: "kmu-2026-bio-006",
+        question: "The structural similarity between DNA and RNA nucleotides is due to the presence of:",
+        options: [
+          "Thymine",
+          "Ribose",
+          "Deoxyribose",
+          "Phosphoric acid"
+        ],
+        answer: 3,
+        explanation: "Both DNA and RNA nucleotides contain phosphoric acid (a phosphate group) attached to the 5' carbon of the pentose sugar. They differ in their sugars (deoxyribose vs. ribose) and one pyrimidine base (thymine vs. uracil)."
+      },
+      {
+        id: "kmu-2026-bio-007",
+        question: "Which property of water is primarily helpful in providing a cooling effect to plants and animals?",
+        options: [
+          "Heat Capacity",
+          "Heat of Vaporization",
+          "Solvent Properties",
+          "Force of Cohesion"
+        ],
+        answer: 1,
+        explanation: "Water has a high heat of vaporization (574 kcal/kg), meaning a large amount of heat energy is absorbed to break hydrogen bonds and convert liquid water into vapor during transpiration in plants and sweating in animals, producing a cooling effect."
+      },
+      {
+        id: "kmu-2026-bio-008",
+        question: "The reduction of water content in protoplasm to about 10% results in:",
+        options: [
+          "Increased metabolic activity",
+          "Faster cell division",
+          "Loss of survival of protoplasm",
+          "Increased protein synthesis"
+        ],
+        answer: 2,
+        explanation: "Living protoplasm typically contains 70% to 90% water, which is essential as a medium for enzymatic and metabolic reactions; if water content drops to around 10%, protoplasm cannot survive."
+      },
+      {
+        id: "kmu-2026-bio-009",
+        question: "Maltose is classified as:",
+        options: [
+          "Monosaccharide",
+          "Disaccharide",
+          "Trisaccharide",
+          "Polysaccharide"
+        ],
+        answer: 1,
+        explanation: "Maltose (malt sugar) is a disaccharide composed of two alpha-D-glucose units joined together by an alpha-1,4-glycosidic bond."
+      },
+      {
+        id: "kmu-2026-bio-010",
+        question: "Haemoglobin is an example of which level of protein structure?",
+        options: [
+          "Primary",
+          "Secondary",
+          "Tertiary",
+          "Quaternary"
+        ],
+        answer: 3,
+        explanation: "Haemoglobin exhibits quaternary protein structure because it is composed of four separate polypeptide chains (two alpha-globin and two beta-globin subunits) held together by hydrophobic interactions, hydrogen bonds, and ionic bonds."
+      },
+      {
+        id: "kmu-2026-bio-011",
+        question: "In a cell, glycoproteins are found in the:",
+        options: [
+          "Mitochondria",
+          "DNA",
+          "RNA",
+          "Plasma membrane"
+        ],
+        answer: 3,
+        explanation: "Glycoproteins (proteins covalently attached to carbohydrate chains) are major components of the outer surface of the plasma membrane, where they function in cell-to-cell recognition, signaling, and adhesion."
+      },
+      {
+        id: "kmu-2026-bio-012",
+        question: "A DNA molecule has a length of 340 nm. How many base pairs does it contain?",
+        options: [
+          "100",
+          "340",
+          "500",
+          "1000"
+        ],
+        answer: 3,
+        explanation: "In B-DNA, the distance between two consecutive base pairs is 0.34 nm (3.4 Angstroms). Therefore, a 340 nm long DNA segment contains 340 nm / 0.34 nm = 1000 base pairs."
+      },
+      {
+        id: "kmu-2026-bio-013",
+        question: "Fatty acids and glycerol are related to ______, whereas ______ are related to protein.",
+        options: [
+          "Nucleic acids; amino acids",
+          "Lipids; amino acids",
+          "Polymers; polypeptides",
+          "Amino acids; polypeptides"
+        ],
+        answer: 1,
+        explanation: "Fatty acids and glycerol are the fundamental building blocks (components) of simple lipids (acylglycerols), whereas amino acids are the monomeric building blocks of proteins."
+      }
   ];

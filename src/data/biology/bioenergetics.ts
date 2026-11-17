@@ -630,5 +630,29 @@ export type Question = {
         ],
         answer: 0,
         explanation: "In the link reaction catalyzed by the pyruvate dehydrogenase complex, pyruvate undergoes oxidative decarboxylation (losing CO2 and reducing NAD+ to NADH) and binds to coenzyme A to form Acetyl Co-A."
+      },
+      {
+        id: "kmu-2026-bio-003",
+        question: "Which of the following is converted into a two-carbon molecule with the release of carbon dioxide?",
+        options: [
+          "Acetyl-CoA",
+          "Lactate",
+          "Pyruvate",
+          "Glycerol"
+        ],
+        answer: 2,
+        explanation: "During pyruvate oxidation (the link reaction), three-carbon pyruvate is decarboxylated by the pyruvate dehydrogenase complex, releasing one molecule of CO2 and forming the two-carbon acetyl group of Acetyl-CoA."
+      },
+      {
+        id: "kmu-2026-bio-004",
+        question: "Metabolism of an 18 carbon fatty acid results in ______ number of Acetyl-CoA?",
+        options: [
+          "3",
+          "6",
+          "9",
+          "18"
+        ],
+        answer: 2,
+        explanation: "Beta-oxidation cleaves a fatty acid into two-carbon Acetyl-CoA units. Dividing an 18-carbon fatty acid (such as stearic acid) by 2 carbons per Acetyl-CoA yields 9 molecules of Acetyl-CoA (after 8 cycles of beta-oxidation)."
       }
   ];

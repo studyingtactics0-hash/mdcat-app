@@ -220,5 +220,53 @@ export type Question = {
       ],
       answer: 1,
       explanation: "A DNA probe is a short, single-stranded oligonucleotide labeled with a radioactive isotope or fluorescent tag that hybridizes specifically to a complementary target nucleotide sequence."
+    },
+    {
+      id: "kmu-2026-bio-078",
+      question: "DNA probes enable faster identification of disease causing bacteria than conventional methods because of advances in:",
+      options: [
+        "Non-biological methods",
+        "Biotechnology",
+        "Antibiotics",
+        "Surgery"
+      ],
+      answer: 1,
+      explanation: "DNA probes are short, single-stranded, labeled nucleic acid sequences developed through molecular biotechnology that hybridize specifically with complementary DNA sequences of pathogenic bacteria, enabling rapid and accurate diagnosis without waiting for slow bacterial cultures."
+    },
+    {
+      id: "kmu-2026-bio-079",
+      question: "The most common vector used to deliver a therapeutic gene into target cells is:",
+      options: [
+        "Plasmid",
+        "Liposome",
+        "Genetically altered virus",
+        "Restriction enzyme"
+      ],
+      answer: 2,
+      explanation: "In human gene therapy, genetically altered (modified, non-pathogenic) viruses such as retroviruses, adenoviruses, and adeno-associated viruses are the most commonly used vectors because they naturally infect host cells efficiently to deliver the therapeutic gene."
+    },
+    {
+      id: "kmu-2026-bio-080",
+      question: "Monoclonal antibodies are:",
+      options: [
+        "A mixture of different antibodies",
+        "A group of identical antibodies produced by identical immune cells",
+        "Antibodies produced only by T-lymphocytes",
+        "Radioactively labelled antibodies"
+      ],
+      answer: 1,
+      explanation: "Monoclonal antibodies are homogeneous, identical immunoglobulin molecules produced by a single clone of identical hybridoma cells (formed by fusing a specific B-lymphocyte with a myeloma cell), all targeting the exact same epitope on an antigen."
+    },
+    {
+      id: "kmu-2026-bio-081",
+      question: "Which of the following correctly matches the biotechnology product with its application?",
+      options: [
+        "Biochips: Supply biologically fixed nitrogen to crops",
+        "Mycorrhiza: Deliver drugs to target cells using nanoparticles",
+        "Nanoparticles: Efficient drug delivery at target cells and diagnosis of disease",
+        "Biofertilizers: Detect bioterrorism agents using miniaturized laboratories"
+      ],
+      answer: 2,
+      explanation: "Nanoparticles are engineered nanoscale carriers used in nanomedicine for targeted drug delivery directly to diseased cells (such as tumors) and sensitive diagnostic imaging/detection. In contrast, biofertilizers/mycorrhiza aid plant nutrient uptake and nitrogen fixation, while biochips are used for genetic screening and pathogen detection."
     }
   ];

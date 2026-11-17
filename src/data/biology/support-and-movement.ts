@@ -1500,5 +1500,101 @@ export type Question = {
         ],
         answer: 0,
         explanation: "Osteoclasts are large, multinucleated bone-resorbing cells that secrete acids and proteolytic enzymes to dissolve bone matrix during bone remodeling."
+      },
+      {
+        id: "kmu-2026-bio-039",
+        question: "The ribs not attached to the sternum are called:",
+        options: [
+          "True ribs",
+          "False ribs",
+          "Floating ribs",
+          "Vertebro-sternal ribs"
+        ],
+        answer: 2,
+        explanation: "The last two pairs of ribs (11th and 12th pairs) do not attach to the sternum either directly or indirectly via costal cartilage, terminating freely in the posterior abdominal musculature, and are therefore called floating (vertebral) ribs."
+      },
+      {
+        id: "kmu-2026-bio-040",
+        question: "A tissue is found to have cells embedded in a firm matrix, lacks blood vessels and receives nutrients by diffusion. It also resists compression forces in joints. This tissue is most likely:",
+        options: [
+          "Compact bone",
+          "Spongy bone",
+          "Adipose",
+          "Cartilage"
+        ],
+        answer: 3,
+        explanation: "Cartilage is an avascular connective tissue composed of chondrocytes embedded in lacunae within a firm, flexible extracellular matrix of chondroitin sulfate and collagen fibers; it receives nutrients via diffusion from the perichondrium and cushions joints against compression."
+      },
+      {
+        id: "kmu-2026-bio-041",
+        question: "A tissue sample shows striated, multinucleated cells and has voluntary control. Which fundamental role is most associated with this tissue?",
+        options: [
+          "Pumping blood",
+          "Movement of internal organs",
+          "Maintenance of posture and locomotion",
+          "Production of digestive enzymes"
+        ],
+        answer: 2,
+        explanation: "Skeletal muscle consists of long, cylindrical, striated, multinucleated fibers under voluntary somatic nervous control, primarily responsible for locomotion, body movement, and maintaining posture."
+      },
+      {
+        id: "kmu-2026-bio-042",
+        question: "The T-tubule and the terminal portion of the adjacent sarcoplasmic reticulum collectively form:",
+        options: [
+          "Sarcomere",
+          "Triad",
+          "Sarcoplasm",
+          "Sarcolemma"
+        ],
+        answer: 1,
+        explanation: "In skeletal muscle fibers, a central transverse tubule (T-tubule) flanked on either side by two terminal cisternae of the sarcoplasmic reticulum forms a structural complex called a triad, which couples membrane depolarization to Ca²⁺ release."
+      },
+      {
+        id: "kmu-2026-bio-043",
+        question: "During skeletal muscle contraction, the A-band of a fiber:",
+        options: [
+          "Shortens",
+          "Elongates",
+          "Disappears",
+          "Remains constant"
+        ],
+        answer: 3,
+        explanation: "According to the sliding filament model, thin actin filaments slide past thick myosin filaments without either filament changing length; because the A-band corresponds to the full length of the thick myosin filaments, its width remains constant during contraction while the I-band and H-zone shorten."
+      },
+      {
+        id: "kmu-2026-bio-044",
+        question: "The joint formed between adjacent vertebrae, which allows slight movement and has no synovial cavity, is classified as:",
+        options: [
+          "Synovial joint",
+          "Fibrous joint",
+          "Hinge joint",
+          "Cartilaginous joint"
+        ],
+        answer: 3,
+        explanation: "Intervertebral joints (symphyses) connect adjacent vertebral bodies via fibrocartilaginous intervertebral discs, lacking a synovial cavity and permitting slight movement (amphiarthrosis), which classifies them as cartilaginous joints."
+      },
+      {
+        id: "kmu-2026-bio-045",
+        question: "A cricketer rotates his shoulder joint to throw the ball in any direction. What type of joint is this?",
+        options: [
+          "Pivot joint",
+          "Ball and socket joint",
+          "Hinge joint",
+          "Condyloid joint"
+        ],
+        answer: 1,
+        explanation: "The shoulder (glenohumeral) joint is a multiaxial ball-and-socket synovial joint in which the spherical head of the humerus articulates with the glenoid cavity of the scapula, permitting movement in all planes including circumduction and rotation."
+      },
+      {
+        id: "kmu-2026-bio-046",
+        question: "In arthritis, friction and inflammation of joints primarily affects which body function?",
+        options: [
+          "Exchange of gases",
+          "Production of RBCs",
+          "Deposition of calcium in bones",
+          "Smooth movement of joints"
+        ],
+        answer: 3,
+        explanation: "Arthritis involves inflammation of the synovial membrane and degeneration of articular cartilage, increasing friction between articulating bone surfaces and causing pain, stiffness, and impaired smooth movement of joints."
       }
   ];

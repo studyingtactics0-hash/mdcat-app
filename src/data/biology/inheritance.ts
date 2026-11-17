@@ -1299,5 +1299,89 @@ export type Question = {
         ],
         answer: 3,
         explanation: "In an X-linked (sex-linked) recessive disorder, a heterozygous carrier mother (X^A X^a) is phenotypically normal and passes the recessive allele (X^a) to 50% of her sons, who express the trait hemizygously."
+      },
+      {
+        id: "kmu-2026-bio-047",
+        question: "If green is a dominant and yellow is a recessive trait, then what percentage of the F₂ generation will be homozygous recessive?",
+        options: [
+          "0%",
+          "25%",
+          "50%",
+          "75%"
+        ],
+        answer: 1,
+        explanation: "In a standard Mendelian monohybrid cross between two heterozygous F₁ individuals (Gg × Gg), the F₂ genotypic ratio is 1 GG : 2 Gg : 1 gg. Thus, 1 out of 4 (25%) of the offspring will be homozygous recessive (gg, yellow)."
+      },
+      {
+        id: "kmu-2026-bio-048",
+        question: "In a monohybrid cross of round seeded (RR) and wrinkled seeded (rr) pea plants, all F₁ offspring are round seeded (Rr). If an F₁ plant is crossed with a homozygous recessive (rr) plant, what will be the phenotypic ratio of round to wrinkled offspring?",
+        options: [
+          "1:3",
+          "1:4",
+          "0:4",
+          "1:1"
+        ],
+        answer: 3,
+        explanation: "Crossing a heterozygous F₁ round plant (Rr) with a homozygous recessive wrinkled plant (rr) is a monohybrid test cross, which yields 50% Rr (round) and 50% rr (wrinkled) progeny, giving a 1:1 phenotypic ratio."
+      },
+      {
+        id: "kmu-2026-bio-049",
+        question: "Which condition results in a 1:1:1:1 phenotypic ratio in the offspring of a dihybrid test cross?",
+        options: [
+          "Complete linkage",
+          "No linkage",
+          "Sex linkage",
+          "Mutation"
+        ],
+        answer: 1,
+        explanation: "When two genes are unlinked (located on different chromosomes or far apart so they assort independently), a dihybrid heterozygote (AaBb) produces four equal gamete types (AB, Ab, aB, ab), resulting in a 1:1:1:1 phenotypic ratio when crossed with a double recessive tester (aabb)."
+      },
+      {
+        id: "kmu-2026-bio-050",
+        question: "An X-linked recessive allele inherited from a carrier mother (father is unaffected) is most likely to be expressed in which child?",
+        options: [
+          "Son",
+          "Daughter",
+          "Both equally",
+          "None of them"
+        ],
+        answer: 0,
+        explanation: "Males are hemizygous (XY) for X-linked genes, possessing only a single X chromosome inherited from their mother. Therefore, a son who inherits the X-linked recessive allele from a carrier mother will express the trait, whereas daughters receive a normal dominant allele on their paternal X chromosome and remain unaffected carriers."
+      },
+      {
+        id: "kmu-2026-bio-051",
+        question: "Which of the following is a disorder caused by a recessive X-linked trait?",
+        options: [
+          "Vitamin D resistant rickets",
+          "Anemia",
+          "Colour blindness",
+          "Cystic fibrosis"
+        ],
+        answer: 2,
+        explanation: "Red-green colour blindness is a classic X-linked recessive disorder caused by mutations in opsin genes on the X chromosome. In contrast, vitamin D resistant rickets is X-linked dominant, and cystic fibrosis is autosomal recessive."
+      },
+      {
+        id: "kmu-2026-bio-052",
+        question: "Identify the X-linked dominant disorder from the following:",
+        options: [
+          "Haemophilia",
+          "Colour blindness",
+          "Baldness",
+          "Hypophosphatemic rickets"
+        ],
+        answer: 3,
+        explanation: "Hypophosphatemic rickets (vitamin D-resistant rickets) is inherited in an X-linked dominant manner, whereas haemophilia and colour blindness are X-linked recessive, and pattern baldness is sex-influenced."
+      },
+      {
+        id: "kmu-2026-bio-053",
+        question: "The genetic basis of haemophilia is:",
+        options: [
+          "A dominant allele on chromosome 21",
+          "A recessive allele on the X chromosome",
+          "A recessive allele on the Y chromosome",
+          "A mitochondrial mutation"
+        ],
+        answer: 1,
+        explanation: "Haemophilia A and B are X-linked recessive bleeding disorders caused by recessive mutations in the clotting factor VIII (F8) or factor IX (F9) genes located on the X chromosome."
       }
   ];

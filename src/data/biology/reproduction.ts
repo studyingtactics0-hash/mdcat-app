@@ -1209,5 +1209,53 @@ export const reproductionQuestions = [
       ],
       answer: 2,
       explanation: "After ovulation on day 14, the corpus luteum secretes high levels of progesterone to maintain the endometrium. If fertilization does not occur, the corpus luteum degenerates and progesterone drops; if pregnancy occurs, the placenta takes over and secretes large amounts of progesterone."
+    },
+    {
+      id: "kmu-2026-bio-035",
+      question: "Post ovulation, the ruptured follicle is transformed into a glandular structure called ______.",
+      options: [
+        "Cervix",
+        "Fimbriae",
+        "Endometrium",
+        "Corpus luteum"
+      ],
+      answer: 3,
+      explanation: "Following ovulation, the remaining granulosa and theca cells of the ruptured Graafian follicle undergo luteinization under the influence of LH to form the corpus luteum, an endocrine structure that secretes progesterone and estrogen."
+    },
+    {
+      id: "kmu-2026-bio-036",
+      question: "Both vas deferens of a male are surgically cut (vasectomy done). Which process remains unaffected after the procedure?",
+      options: [
+        "Testosterone secretion",
+        "Sperm transport",
+        "Ejaculation of sperms",
+        "Fertilization ability"
+      ],
+      answer: 0,
+      explanation: "Testosterone is synthesized by Leydig (interstitial) cells in the testes and secreted directly into the bloodstream (endocrine secretion), so cutting the vas deferens does not affect testosterone levels or secondary sexual characteristics."
+    },
+    {
+      id: "kmu-2026-bio-037",
+      question: "A woman has irregular menstruation due to failure of proliferative endometrial thickening. Which hormone is deficient in her body?",
+      options: [
+        "Estrogen",
+        "Oxytocin",
+        "Luteinizing",
+        "Follicle stimulating"
+      ],
+      answer: 0,
+      explanation: "During the proliferative (follicular) phase of the menstrual cycle, estrogen secreted by growing ovarian follicles stimulates the regeneration, vascularization, and thickening of the functional layer of the endometrium."
+    },
+    {
+      id: "kmu-2026-bio-038",
+      question: "A patient having a painless, non-itching ulcerated sore with hard edges on genitals is most likely suffering from:",
+      options: [
+        "Gonorrhea",
+        "Syphilis",
+        "Genital Herpes",
+        "AIDS"
+      ],
+      answer: 1,
+      explanation: "Primary syphilis, caused by the spirochete bacterium Treponema pallidum, characteristically presents with a solitary, painless, indurated (hard-edged) genital ulcer known as a chancre."
     }
 ];

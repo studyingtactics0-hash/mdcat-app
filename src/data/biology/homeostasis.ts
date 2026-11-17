@@ -311,5 +311,89 @@ export type Question = {
       ],
       answer: 1,
       explanation: "Aldosterone acts on the distal convoluted tubules and collecting ducts of the nephron to promote active reabsorption (retention) of Na+ ions and secretion of K+ ions."
+    },
+    {
+      id: "kmu-2026-bio-071",
+      question: "Which region of kidney contains glomeruli and Bowman's capsules?",
+      options: [
+        "Renal medulla",
+        "Renal cortex",
+        "Renal pelvis",
+        "Hilum"
+      ],
+      answer: 1,
+      explanation: "The renal corpuscles (each consisting of a glomerulus enclosed within Bowman's capsule), along with the proximal and distal convoluted tubules, are located exclusively in the outer renal cortex."
+    },
+    {
+      id: "kmu-2026-bio-072",
+      question: "If glucose appears in urine of a patient, it indicates failure of which process?",
+      options: [
+        "Pressure filtration",
+        "Selective reabsorption",
+        "Tubular secretion",
+        "Osmoregulation"
+      ],
+      answer: 1,
+      explanation: "Under normal physiological conditions, 100% of filtered glucose is actively reclaimed from the glomerular filtrate back into the blood in the proximal convoluted tubule via selective reabsorption; its presence in urine (glycosuria) indicates that selective reabsorption capacity has been exceeded or impaired."
+    },
+    {
+      id: "kmu-2026-bio-073",
+      question: "Which part of nephron is impermeable to water?",
+      options: [
+        "Glomerulus",
+        "Descending limb",
+        "Ascending limb",
+        "Proximal tubule"
+      ],
+      answer: 2,
+      explanation: "The ascending limb of the loop of Henle lacks aquaporin channels and is completely impermeable to water, while actively and passively transporting Na⁺ and Cl⁻ ions out into the renal medulla to establish the corticomedullary osmotic gradient."
+    },
+    {
+      id: "kmu-2026-bio-074",
+      question: "When water intake is high:",
+      options: [
+        "ADH secretion increases, producing concentrated urine",
+        "Aldosterone secretion increases, producing concentrated urine",
+        "ADH release is inhibited, resulting in a large volume of dilute urine",
+        "Ultrafiltration stops until water balance is restored"
+      ],
+      answer: 2,
+      explanation: "High water intake lowers blood osmolarity, which inhibits osmoreceptors in the hypothalamus and suppresses antidiuretic hormone (ADH) release from the posterior pituitary, making the distal convoluted tubules and collecting ducts impermeable to water and producing a large volume of dilute (hypotonic) urine."
+    },
+    {
+      id: "kmu-2026-bio-075",
+      question: "Peritubular capillaries are formed from:",
+      options: [
+        "Glomerulus",
+        "Afferent arteriole",
+        "Efferent arteriole",
+        "Interlobular artery"
+      ],
+      answer: 2,
+      explanation: "Blood leaves the glomerular capillary tuft via the efferent arteriole, which subsequently branches into a second low-pressure capillary network surrounding the renal tubules called the peritubular capillaries (and vasa recta in juxtamedullary nephrons)."
+    },
+    {
+      id: "kmu-2026-bio-076",
+      question: "Dialysis or kidney transplantation is usually required when kidney function falls below ______ of normal.",
+      options: [
+        "70%",
+        "50%",
+        "25%",
+        "10%"
+      ],
+      answer: 3,
+      explanation: "In end-stage renal disease (ESRD) or severe renal failure, renal replacement therapy such as hemodialysis, peritoneal dialysis, or kidney transplantation becomes necessary when functional kidney capacity drops below 10% (typically 10–15%) of normal."
+    },
+    {
+      id: "kmu-2026-bio-077",
+      question: "Which nitrogenous waste is the MAIN excretory product in humans, and has relatively low toxicity compared to ammonia?",
+      options: [
+        "Urea",
+        "Uric acid",
+        "Creatinine",
+        "Ammonia"
+      ],
+      answer: 0,
+      explanation: "Humans are ureotelic organisms; the liver converts highly toxic ammonia produced from amino acid deamination into urea via the ornithine (urea) cycle, which is far less toxic and serves as the primary nitrogenous waste excreted in human urine."
     }
   ];

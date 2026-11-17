@@ -951,5 +951,65 @@ export type Question = {
         ],
         answer: 3,
         explanation: "The bicuspid (mitral) valve guards the left atrioventricular orifice between the left atrium and the left ventricle."
+      },
+      {
+        id: "kmu-2026-bio-054",
+        question: "The fluid present in the pericardial cavity functions to:",
+        options: [
+          "Nourish the heart muscles",
+          "Prevent blood clotting",
+          "Reduce friction during heart movement",
+          "Generate electrical impulse"
+        ],
+        answer: 2,
+        explanation: "Pericardial fluid fills the pericardial cavity between the parietal and visceral layers of the serous pericardium, acting as a lubricant to reduce friction as the heart contracts and relaxes within the thoracic cavity."
+      },
+      {
+        id: "kmu-2026-bio-055",
+        question: "The phase of the cardiac cycle during which blood is pumped to lungs and the entire body is called:",
+        options: [
+          "Atrial systole",
+          "Atrial diastole",
+          "Ventricular systole",
+          "Ventricular diastole"
+        ],
+        answer: 2,
+        explanation: "During ventricular systole, the ventricles contract forcefully, opening the semilunar valves so the right ventricle pumps deoxygenated blood into the pulmonary trunk toward the lungs and the left ventricle pumps oxygenated blood into the aorta toward the systemic circulation."
+      },
+      {
+        id: "kmu-2026-bio-056",
+        question: "Hepatic portal subsystem carries nutrients from the small intestine to the:",
+        options: [
+          "Vena cava",
+          "Liver",
+          "Pancreas",
+          "Kidney"
+        ],
+        answer: 1,
+        explanation: "The hepatic portal vein collects nutrient-rich venous blood from the capillaries of the gastrointestinal tract (small intestine, stomach, colon) and spleen, delivering it directly to the liver for metabolic processing and detoxification before blood enters the systemic circulation."
+      },
+      {
+        id: "kmu-2026-bio-057",
+        question: "Why are arteries thicker than veins?",
+        options: [
+          "To store more blood",
+          "To prevent back flow",
+          "To increase diffusion rate",
+          "To withstand high pressure"
+        ],
+        answer: 3,
+        explanation: "Arteries receive blood directly pumped from the ventricles under high hydrostatic pressure; consequently, they possess thick walls rich in smooth muscle and elastic fibers (tunica media) to withstand high blood pressure and maintain continuous blood flow via elastic recoil."
+      },
+      {
+        id: "kmu-2026-bio-058",
+        question: "Lymph is most closely related to:",
+        options: [
+          "Blood plasma",
+          "Interstitial fluid",
+          "Sweat",
+          "Saliva"
+        ],
+        answer: 1,
+        explanation: "Lymph is formed when excess interstitial fluid (tissue fluid) bathing the body's cells enters blind-ended lymphatic capillaries; therefore, its chemical composition is virtually identical to interstitial fluid."
       }
   ];

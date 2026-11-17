@@ -883,4 +883,64 @@ export type Question = {
       answer: 2,
       explanation: "Excessive heat disrupts the weak hydrogen bonds, ionic interactions, and hydrophobic forces maintaining the enzyme's 3D tertiary structure, causing denaturation and loss of active site shape."
     },
+    {
+      id: "kmu-2026-bio-026",
+      question: "Which characteristic distinguishes enzymes during a chemical reaction?",
+      options: [
+        "They change the final product",
+        "They slow down metabolic steps",
+        "They remain chemically unchanged",
+        "They become part of reaction product"
+      ],
+      answer: 2,
+      explanation: "As biological catalysts, enzymes accelerate the rate of biochemical reactions by lowering activation energy without being consumed or chemically altered at the end of the reaction."
+    },
+    {
+      id: "kmu-2026-bio-027",
+      question: "According to the lock and key hypothesis, the active site in enzyme action is regarded as ______ structure.",
+      options: [
+        "Rigid",
+        "Flexible",
+        "Dynamic",
+        "Elastic"
+      ],
+      answer: 0,
+      explanation: "Proposed by Emil Fischer in 1894, the lock and key hypothesis states that the active site of an enzyme is a rigid, preformed structure into which only a specific complementary substrate can fit."
+    },
+    {
+      id: "kmu-2026-bio-028",
+      question: "The enzyme pepsin shows maximum activity at pH:",
+      options: [
+        "1.5 – 1.6",
+        "4.5 – 4.7",
+        "7.8 – 8.7",
+        "8.7 – 9.1"
+      ],
+      answer: 0,
+      explanation: "Pepsin is a proteolytic enzyme secreted in the acidic environment of the stomach (gastric juice), where it exhibits optimum catalytic activity at a highly acidic pH of about 1.5 to 1.6 (or ~2.0)."
+    },
+    {
+      id: "kmu-2026-bio-029",
+      question: "pH affects the activity of an enzyme by causing the:",
+      options: [
+        "Ionization of an active site",
+        "Increase in the activation energy",
+        "Removal of prosthetic group from enzyme",
+        "Decreasing the temperature of reaction mixture"
+      ],
+      answer: 0,
+      explanation: "Changes in pH alter the concentration of H⁺ ions, which affects the ionization state of acidic and basic amino acid side chains (R-groups) at the active site as well as the substrate, disrupting substrate binding and catalysis."
+    },
+    {
+      id: "kmu-2026-bio-030",
+      question: "Which molecule has a structure similar to the normal substrate?",
+      options: [
+        "Competitive inhibitor",
+        "Non-competitive inhibitor",
+        "Heavy metal ion",
+        "Cyanide"
+      ],
+      answer: 0,
+      explanation: "A competitive inhibitor closely resembles the three-dimensional structure of the normal substrate, allowing it to compete directly with the substrate for binding to the enzyme's active site."
+    }
   ];

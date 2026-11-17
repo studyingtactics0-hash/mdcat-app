@@ -13873,5 +13873,977 @@ export const biologyquestions = [
                 ],
                 answer: 0,
                 explanation: "Osteoclasts are large, multinucleated bone-resorbing cells that secrete acids and proteolytic enzymes to dissolve bone matrix during bone remodeling."
+              },
+              {
+                id: "kmu-2026-bio-001",
+                question: "Which of the following is correctly matched with its morphological type?",
+                options: [
+                  "Tobacco mosaic virus - Polyhedral virus",
+                  "Poliovirus - Rod shaped virus",
+                  "Bacteriophage - Tadpole virus",
+                  "Tobacco mosaic virus - Spherical virus"
+                ],
+                answer: 2,
+                explanation: "Bacteriophages have a distinct tadpole-like morphology consisting of an icosahedral head and a helical tail. In contrast, Tobacco mosaic virus (TMV) is rod-shaped, and Poliovirus is spherical/polyhedral."
+              },
+              {
+                id: "kmu-2026-bio-002",
+                question: "A patient diagnosed with AIDS has an increased susceptibility to infections due to:",
+                options: [
+                  "Destruction of red blood cells",
+                  "Excess production of antibodies",
+                  "Weakening of the immune system",
+                  "Overproduction of digestive enzymes"
+                ],
+                answer: 2,
+                explanation: "HIV primarily targets and destroys helper T-lymphocytes (CD4+ T-cells), leading to a progressive weakening of the immune system and increased vulnerability to opportunistic infections."
+              },
+              {
+                id: "kmu-2026-bio-003",
+                question: "Which of the following is converted into a two-carbon molecule with the release of carbon dioxide?",
+                options: [
+                  "Acetyl-CoA",
+                  "Lactate",
+                  "Pyruvate",
+                  "Glycerol"
+                ],
+                answer: 2,
+                explanation: "During pyruvate oxidation (the link reaction), three-carbon pyruvate is decarboxylated by the pyruvate dehydrogenase complex, releasing one molecule of CO2 and forming the two-carbon acetyl group of Acetyl-CoA."
+              },
+              {
+                id: "kmu-2026-bio-004",
+                question: "Metabolism of an 18 carbon fatty acid results in ______ number of Acetyl-CoA?",
+                options: [
+                  "3",
+                  "6",
+                  "9",
+                  "18"
+                ],
+                answer: 2,
+                explanation: "Beta-oxidation cleaves a fatty acid into two-carbon Acetyl-CoA units. Dividing an 18-carbon fatty acid (such as stearic acid) by 2 carbons per Acetyl-CoA yields 9 molecules of Acetyl-CoA (after 8 cycles of beta-oxidation)."
+              },
+              {
+                id: "kmu-2026-bio-005",
+                question: "Which of the following are classified as organic molecules in humans?",
+                options: [
+                  "Water, mineral, oxygen, carbon dioxide",
+                  "Carbohydrates, proteins, lipids, nucleic acids",
+                  "Vitamins, minerals, water, oxygen",
+                  "Glucose, sodium chloride, water, calcium"
+                ],
+                answer: 1,
+                explanation: "Carbohydrates, proteins, lipids, and nucleic acids are the four major classes of carbon-based biological macromolecules (organic compounds) found in human cells, whereas water, minerals, and oxygen are inorganic."
+              },
+              {
+                id: "kmu-2026-bio-006",
+                question: "The structural similarity between DNA and RNA nucleotides is due to the presence of:",
+                options: [
+                  "Thymine",
+                  "Ribose",
+                  "Deoxyribose",
+                  "Phosphoric acid"
+                ],
+                answer: 3,
+                explanation: "Both DNA and RNA nucleotides contain phosphoric acid (a phosphate group) attached to the 5' carbon of the pentose sugar. They differ in their sugars (deoxyribose vs. ribose) and one pyrimidine base (thymine vs. uracil)."
+              },
+              {
+                id: "kmu-2026-bio-007",
+                question: "Which property of water is primarily helpful in providing a cooling effect to plants and animals?",
+                options: [
+                  "Heat Capacity",
+                  "Heat of Vaporization",
+                  "Solvent Properties",
+                  "Force of Cohesion"
+                ],
+                answer: 1,
+                explanation: "Water has a high heat of vaporization (574 kcal/kg), meaning a large amount of heat energy is absorbed to break hydrogen bonds and convert liquid water into vapor during transpiration in plants and sweating in animals, producing a cooling effect."
+              },
+              {
+                id: "kmu-2026-bio-008",
+                question: "The reduction of water content in protoplasm to about 10% results in:",
+                options: [
+                  "Increased metabolic activity",
+                  "Faster cell division",
+                  "Loss of survival of protoplasm",
+                  "Increased protein synthesis"
+                ],
+                answer: 2,
+                explanation: "Living protoplasm typically contains 70% to 90% water, which is essential as a medium for enzymatic and metabolic reactions; if water content drops to around 10%, protoplasm cannot survive."
+              },
+              {
+                id: "kmu-2026-bio-009",
+                question: "Maltose is classified as:",
+                options: [
+                  "Monosaccharide",
+                  "Disaccharide",
+                  "Trisaccharide",
+                  "Polysaccharide"
+                ],
+                answer: 1,
+                explanation: "Maltose (malt sugar) is a disaccharide composed of two alpha-D-glucose units joined together by an alpha-1,4-glycosidic bond."
+              },
+              {
+                id: "kmu-2026-bio-010",
+                question: "Haemoglobin is an example of which level of protein structure?",
+                options: [
+                  "Primary",
+                  "Secondary",
+                  "Tertiary",
+                  "Quaternary"
+                ],
+                answer: 3,
+                explanation: "Haemoglobin exhibits quaternary protein structure because it is composed of four separate polypeptide chains (two alpha-globin and two beta-globin subunits) held together by hydrophobic interactions, hydrogen bonds, and ionic bonds."
+              },
+              {
+                id: "kmu-2026-bio-011",
+                question: "In a cell, glycoproteins are found in the:",
+                options: [
+                  "Mitochondria",
+                  "DNA",
+                  "RNA",
+                  "Plasma membrane"
+                ],
+                answer: 3,
+                explanation: "Glycoproteins (proteins covalently attached to carbohydrate chains) are major components of the outer surface of the plasma membrane, where they function in cell-to-cell recognition, signaling, and adhesion."
+              },
+              {
+                id: "kmu-2026-bio-012",
+                question: "A DNA molecule has a length of 340 nm. How many base pairs does it contain?",
+                options: [
+                  "100",
+                  "340",
+                  "500",
+                  "1000"
+                ],
+                answer: 3,
+                explanation: "In B-DNA, the distance between two consecutive base pairs is 0.34 nm (3.4 Angstroms). Therefore, a 340 nm long DNA segment contains 340 nm / 0.34 nm = 1000 base pairs."
+              },
+              {
+                id: "kmu-2026-bio-013",
+                question: "Fatty acids and glycerol are related to ______, whereas ______ are related to protein.",
+                options: [
+                  "Nucleic acids; amino acids",
+                  "Lipids; amino acids",
+                  "Polymers; polypeptides",
+                  "Amino acids; polypeptides"
+                ],
+                answer: 1,
+                explanation: "Fatty acids and glycerol are the fundamental building blocks (components) of simple lipids (acylglycerols), whereas amino acids are the monomeric building blocks of proteins."
+              },
+              {
+                id: "kmu-2026-bio-014",
+                question: "A student observes a discoid organelle with a double membrane, stroma and thylakoids in a plant cell. Which organelle is this?",
+                options: [
+                  "Golgi apparatus",
+                  "Endoplasmic reticulum",
+                  "Chloroplast",
+                  "Mitochondria"
+                ],
+                answer: 2,
+                explanation: "Chloroplasts are double-membrane-bound discoid plastids found in photosynthetic plant cells, containing an internal fluid-filled stroma and flattened membranous sacs called thylakoids (which stack to form grana)."
+              },
+              {
+                id: "kmu-2026-bio-015",
+                question: "Which of the following is a COMMON FEATURE of Prokaryotic and Eukaryotic cells?",
+                options: [
+                  "Mitochondria",
+                  "Ribosomes",
+                  "Endoplasmic reticulum",
+                  "Golgi complex"
+                ],
+                answer: 1,
+                explanation: "Ribosomes are non-membrane-bound ribonucleoprotein complexes essential for protein synthesis and are present in both prokaryotic (70S) and eukaryotic (80S in cytoplasm, 70S in mitochondria/chloroplasts) cells, whereas mitochondria, ER, and Golgi complex are membrane-bound organelles exclusive to eukaryotes."
+              },
+              {
+                id: "kmu-2026-bio-016",
+                question: "Which one of the following is a self-replicating organelle?",
+                options: [
+                  "Golgi apparatus",
+                  "Lysosome",
+                  "Peroxisome",
+                  "Mitochondria"
+                ],
+                answer: 3,
+                explanation: "Mitochondria are semi-autonomous, self-replicating organelles because they possess their own circular DNA, 70S ribosomes, and enzymes required to synthesize some of their own proteins and divide by binary fission independently of nuclear division."
+              },
+              {
+                id: "kmu-2026-bio-017",
+                question: "If a cell's smooth endoplasmic reticulum is destroyed, which processes will be most affected?",
+                options: [
+                  "Protein synthesis and protein folding",
+                  "Lipid synthesis and detoxification",
+                  "ATP production and aerobic respiration",
+                  "DNA replication and cell division"
+                ],
+                answer: 1,
+                explanation: "The smooth endoplasmic reticulum (SER) lacks ribosomes and is primarily responsible for the synthesis of lipids (such as phospholipids and steroid hormones), carbohydrate metabolism, calcium ion storage, and detoxification of drugs and poisons."
+              },
+              {
+                id: "kmu-2026-bio-018",
+                question: "The centromere is important because it:",
+                options: [
+                  "Synthesizes proteins",
+                  "Holds identical chromatids together",
+                  "Replicates DNA",
+                  "Produces ATP"
+                ],
+                answer: 1,
+                explanation: "The centromere is the specialized constricted region of a replicated chromosome that holds the two identical sister chromatids together and serves as the attachment site for kinetochore proteins and spindle fibers during mitosis and meiosis."
+              },
+              {
+                id: "kmu-2026-bio-019",
+                question: "Which of the following correctly describes the action of the sodium-potassium pump in a resting neuron?",
+                options: [
+                  "Two Na⁺ ions are pumped in and three K⁺ ions are pumped out",
+                  "Three Na⁺ ions are pumped in and two K⁺ ions are pumped out",
+                  "Three Na⁺ ions are pumped out and two K⁺ ions are pumped in",
+                  "Equal numbers of Na⁺ and K⁺ ions are exchanged"
+                ],
+                answer: 2,
+                explanation: "The Na⁺/K⁺-ATPase pump actively transports three sodium ions (Na⁺) out of the neuron and two potassium ions (K⁺) into the neuron for every ATP molecule hydrolyzed, maintaining the resting membrane potential."
+              },
+              {
+                id: "kmu-2026-bio-020",
+                question: "Which of the following structures can be found in a typical neuron?",
+                options: [
+                  "Dendrites, cell body, cilia",
+                  "Dendrites, cell body, axon",
+                  "Dendrites, cell body, ganglion",
+                  "Cauda equina, cell body, myelin sheath"
+                ],
+                answer: 1,
+                explanation: "A typical multipolar neuron consists of three main structural regions: dendrites (which receive incoming signals), a cell body or soma (containing the nucleus and organelles), and an axon (which conducts nerve impulses away from the cell body)."
+              },
+              {
+                id: "kmu-2026-bio-021",
+                question: "The reversal of polarity across two sides of a membrane from −70 mV to +50 mV is called ______.",
+                options: [
+                  "Polarization",
+                  "Hyperpolarization",
+                  "Repolarization",
+                  "Depolarization"
+                ],
+                answer: 3,
+                explanation: "Depolarization occurs when voltage-gated Na⁺ channels open, allowing a rapid influx of positively charged Na⁺ ions that reverses the resting membrane potential from −70 mV to approximately +50 mV."
+              },
+              {
+                id: "kmu-2026-bio-022",
+                question: "A student quickly pulls his hand away from a hot iron after accidentally touching it. This response is best classified as:",
+                options: [
+                  "Conditioned reflex",
+                  "Cranial reflex",
+                  "Spinal reflex",
+                  "Voluntary action"
+                ],
+                answer: 2,
+                explanation: "The withdrawal reflex from a painful stimulus like a hot object is an involuntary, rapid spinal reflex mediated directly through a reflex arc in the spinal cord without requiring initial processing by the brain."
+              },
+              {
+                id: "kmu-2026-bio-023",
+                question: "A patient suffers a brain injury following a head trauma. During recovery, the patient experiences disturbed sleep patterns and is unable to dream normally. Which part of the brain is most likely affected?",
+                options: [
+                  "Cerebellum",
+                  "Medulla oblongata",
+                  "Pons",
+                  "Thalamus"
+                ],
+                answer: 2,
+                explanation: "The pons, located in the brainstem, plays a critical role in regulating sleep-wake cycles, transitions between sleep stages, and initiating REM (rapid eye movement) sleep, during which vivid dreaming occurs."
+              },
+              {
+                id: "kmu-2026-bio-024",
+                question: "Damage to the area containing dopamine-releasing neurons would most likely affect the:",
+                options: [
+                  "Midbrain",
+                  "Cerebellum",
+                  "Pons",
+                  "Medulla"
+                ],
+                answer: 0,
+                explanation: "Dopamine-producing neurons are concentrated in the substantia nigra and ventral tegmental area (VTA) of the midbrain, which regulate motor control and reward pathways."
+              },
+              {
+                id: "kmu-2026-bio-025",
+                question: "The amygdala is a part of the:",
+                options: [
+                  "Cerebellum",
+                  "Limbic system",
+                  "Reticular formation",
+                  "Medulla oblongata"
+                ],
+                answer: 1,
+                explanation: "The amygdala is an almond-shaped cluster of nuclei located within the temporal lobe that forms a key component of the limbic system, regulating emotions such as fear, aggression, and emotional memory."
+              },
+              {
+                id: "kmu-2026-bio-026",
+                question: "Which characteristic distinguishes enzymes during a chemical reaction?",
+                options: [
+                  "They change the final product",
+                  "They slow down metabolic steps",
+                  "They remain chemically unchanged",
+                  "They become part of reaction product"
+                ],
+                answer: 2,
+                explanation: "As biological catalysts, enzymes accelerate the rate of biochemical reactions by lowering activation energy without being consumed or chemically altered at the end of the reaction."
+              },
+              {
+                id: "kmu-2026-bio-027",
+                question: "According to the lock and key hypothesis, the active site in enzyme action is regarded as ______ structure.",
+                options: [
+                  "Rigid",
+                  "Flexible",
+                  "Dynamic",
+                  "Elastic"
+                ],
+                answer: 0,
+                explanation: "Proposed by Emil Fischer in 1894, the lock and key hypothesis states that the active site of an enzyme is a rigid, preformed structure into which only a specific complementary substrate can fit."
+              },
+              {
+                id: "kmu-2026-bio-028",
+                question: "The enzyme pepsin shows maximum activity at pH:",
+                options: [
+                  "1.5 – 1.6",
+                  "4.5 – 4.7",
+                  "7.8 – 8.7",
+                  "8.7 – 9.1"
+                ],
+                answer: 0,
+                explanation: "Pepsin is a proteolytic enzyme secreted in the acidic environment of the stomach (gastric juice), where it exhibits optimum catalytic activity at a highly acidic pH of about 1.5 to 1.6 (or ~2.0)."
+              },
+              {
+                id: "kmu-2026-bio-029",
+                question: "pH affects the activity of an enzyme by causing the:",
+                options: [
+                  "Ionization of an active site",
+                  "Increase in the activation energy",
+                  "Removal of prosthetic group from enzyme",
+                  "Decreasing the temperature of reaction mixture"
+                ],
+                answer: 0,
+                explanation: "Changes in pH alter the concentration of H⁺ ions, which affects the ionization state of acidic and basic amino acid side chains (R-groups) at the active site as well as the substrate, disrupting substrate binding and catalysis."
+              },
+              {
+                id: "kmu-2026-bio-030",
+                question: "Which molecule has a structure similar to the normal substrate?",
+                options: [
+                  "Competitive inhibitor",
+                  "Non-competitive inhibitor",
+                  "Heavy metal ion",
+                  "Cyanide"
+                ],
+                answer: 0,
+                explanation: "A competitive inhibitor closely resembles the three-dimensional structure of the normal substrate, allowing it to compete directly with the substrate for binding to the enzyme's active site."
+              },
+              {
+                id: "kmu-2026-bio-031",
+                question: "Human beings are involved in an intense struggle for existence because resources such as food, water and space:",
+                options: [
+                  "Double every year",
+                  "Cannot increase at the same rate",
+                  "Increase at the same rate",
+                  "Remain constant"
+                ],
+                answer: 1,
+                explanation: "According to Malthusian and Darwinian principles, populations tend to grow geometrically (exponentially), whereas vital resources such as food, water, and space increase only arithmetically and cannot keep pace with population growth, leading to a struggle for existence."
+              },
+              {
+                id: "kmu-2026-bio-032",
+                question: "Lamarck explained the long neck of the giraffe on the basis of:",
+                options: [
+                  "Mutation",
+                  "Natural selection",
+                  "Inheritance of acquired characteristics",
+                  "Genetic drift"
+                ],
+                answer: 2,
+                explanation: "Jean-Baptiste Lamarck proposed that ancestral giraffes stretched their necks to reach higher foliage (use of organs) and passed this acquired elongation directly to their offspring (inheritance of acquired characteristics)."
+              },
+              {
+                id: "kmu-2026-bio-033",
+                question: "A population of rabbits shows variation in fur colour. During snowy winters, white rabbits are less visible to predators and survive in greater numbers than brown rabbits. According to Darwin, this is an example of:",
+                options: [
+                  "Overproduction",
+                  "Natural selection",
+                  "Artificial selection",
+                  "Genetic drift"
+                ],
+                answer: 1,
+                explanation: "In Darwin's theory of natural selection, individuals with heritable traits better suited to their environment (camouflage of white fur in snow) have higher differential survival and reproductive success than less adapted individuals."
+              },
+              {
+                id: "kmu-2026-bio-034",
+                question: "According to Lamarck, what would be expected if an organism loses or modifies a body part during its lifetime?",
+                options: [
+                  "It is passed to offspring",
+                  "It has no effect on offspring",
+                  "It causes genetic mutation",
+                  "It occurs through natural selection"
+                ],
+                answer: 0,
+                explanation: "Lamarck's theory of inheritance of acquired characters states that structural changes or modifications developed by an organism during its lifetime through use or disuse are transmitted directly to the next generation."
+              },
+              {
+                id: "kmu-2026-bio-035",
+                question: "Post ovulation, the ruptured follicle is transformed into a glandular structure called ______.",
+                options: [
+                  "Cervix",
+                  "Fimbriae",
+                  "Endometrium",
+                  "Corpus luteum"
+                ],
+                answer: 3,
+                explanation: "Following ovulation, the remaining granulosa and theca cells of the ruptured Graafian follicle undergo luteinization under the influence of LH to form the corpus luteum, an endocrine structure that secretes progesterone and estrogen."
+              },
+              {
+                id: "kmu-2026-bio-036",
+                question: "Both vas deferens of a male are surgically cut (vasectomy done). Which process remains unaffected after the procedure?",
+                options: [
+                  "Testosterone secretion",
+                  "Sperm transport",
+                  "Ejaculation of sperms",
+                  "Fertilization ability"
+                ],
+                answer: 0,
+                explanation: "Testosterone is synthesized by Leydig (interstitial) cells in the testes and secreted directly into the bloodstream (endocrine secretion), so cutting the vas deferens does not affect testosterone levels or secondary sexual characteristics."
+              },
+              {
+                id: "kmu-2026-bio-037",
+                question: "A woman has irregular menstruation due to failure of proliferative endometrial thickening. Which hormone is deficient in her body?",
+                options: [
+                  "Estrogen",
+                  "Oxytocin",
+                  "Luteinizing",
+                  "Follicle stimulating"
+                ],
+                answer: 0,
+                explanation: "During the proliferative (follicular) phase of the menstrual cycle, estrogen secreted by growing ovarian follicles stimulates the regeneration, vascularization, and thickening of the functional layer of the endometrium."
+              },
+              {
+                id: "kmu-2026-bio-038",
+                question: "A patient having a painless, non-itching ulcerated sore with hard edges on genitals is most likely suffering from:",
+                options: [
+                  "Gonorrhea",
+                  "Syphilis",
+                  "Genital Herpes",
+                  "AIDS"
+                ],
+                answer: 1,
+                explanation: "Primary syphilis, caused by the spirochete bacterium Treponema pallidum, characteristically presents with a solitary, painless, indurated (hard-edged) genital ulcer known as a chancre."
+              },
+              {
+                id: "kmu-2026-bio-039",
+                question: "The ribs not attached to the sternum are called:",
+                options: [
+                  "True ribs",
+                  "False ribs",
+                  "Floating ribs",
+                  "Vertebro-sternal ribs"
+                ],
+                answer: 2,
+                explanation: "The last two pairs of ribs (11th and 12th pairs) do not attach to the sternum either directly or indirectly via costal cartilage, terminating freely in the posterior abdominal musculature, and are therefore called floating (vertebral) ribs."
+              },
+              {
+                id: "kmu-2026-bio-040",
+                question: "A tissue is found to have cells embedded in a firm matrix, lacks blood vessels and receives nutrients by diffusion. It also resists compression forces in joints. This tissue is most likely:",
+                options: [
+                  "Compact bone",
+                  "Spongy bone",
+                  "Adipose",
+                  "Cartilage"
+                ],
+                answer: 3,
+                explanation: "Cartilage is an avascular connective tissue composed of chondrocytes embedded in lacunae within a firm, flexible extracellular matrix of chondroitin sulfate and collagen fibers; it receives nutrients via diffusion from the perichondrium and cushions joints against compression."
+              },
+              {
+                id: "kmu-2026-bio-041",
+                question: "A tissue sample shows striated, multinucleated cells and has voluntary control. Which fundamental role is most associated with this tissue?",
+                options: [
+                  "Pumping blood",
+                  "Movement of internal organs",
+                  "Maintenance of posture and locomotion",
+                  "Production of digestive enzymes"
+                ],
+                answer: 2,
+                explanation: "Skeletal muscle consists of long, cylindrical, striated, multinucleated fibers under voluntary somatic nervous control, primarily responsible for locomotion, body movement, and maintaining posture."
+              },
+              {
+                id: "kmu-2026-bio-042",
+                question: "The T-tubule and the terminal portion of the adjacent sarcoplasmic reticulum collectively form:",
+                options: [
+                  "Sarcomere",
+                  "Triad",
+                  "Sarcoplasm",
+                  "Sarcolemma"
+                ],
+                answer: 1,
+                explanation: "In skeletal muscle fibers, a central transverse tubule (T-tubule) flanked on either side by two terminal cisternae of the sarcoplasmic reticulum forms a structural complex called a triad, which couples membrane depolarization to Ca²⁺ release."
+              },
+              {
+                id: "kmu-2026-bio-043",
+                question: "During skeletal muscle contraction, the A-band of a fiber:",
+                options: [
+                  "Shortens",
+                  "Elongates",
+                  "Disappears",
+                  "Remains constant"
+                ],
+                answer: 3,
+                explanation: "According to the sliding filament model, thin actin filaments slide past thick myosin filaments without either filament changing length; because the A-band corresponds to the full length of the thick myosin filaments, its width remains constant during contraction while the I-band and H-zone shorten."
+              },
+              {
+                id: "kmu-2026-bio-044",
+                question: "The joint formed between adjacent vertebrae, which allows slight movement and has no synovial cavity, is classified as:",
+                options: [
+                  "Synovial joint",
+                  "Fibrous joint",
+                  "Hinge joint",
+                  "Cartilaginous joint"
+                ],
+                answer: 3,
+                explanation: "Intervertebral joints (symphyses) connect adjacent vertebral bodies via fibrocartilaginous intervertebral discs, lacking a synovial cavity and permitting slight movement (amphiarthrosis), which classifies them as cartilaginous joints."
+              },
+              {
+                id: "kmu-2026-bio-045",
+                question: "A cricketer rotates his shoulder joint to throw the ball in any direction. What type of joint is this?",
+                options: [
+                  "Pivot joint",
+                  "Ball and socket joint",
+                  "Hinge joint",
+                  "Condyloid joint"
+                ],
+                answer: 1,
+                explanation: "The shoulder (glenohumeral) joint is a multiaxial ball-and-socket synovial joint in which the spherical head of the humerus articulates with the glenoid cavity of the scapula, permitting movement in all planes including circumduction and rotation."
+              },
+              {
+                id: "kmu-2026-bio-046",
+                question: "In arthritis, friction and inflammation of joints primarily affects which body function?",
+                options: [
+                  "Exchange of gases",
+                  "Production of RBCs",
+                  "Deposition of calcium in bones",
+                  "Smooth movement of joints"
+                ],
+                answer: 3,
+                explanation: "Arthritis involves inflammation of the synovial membrane and degeneration of articular cartilage, increasing friction between articulating bone surfaces and causing pain, stiffness, and impaired smooth movement of joints."
+              },
+              {
+                id: "kmu-2026-bio-047",
+                question: "If green is a dominant and yellow is a recessive trait, then what percentage of the F₂ generation will be homozygous recessive?",
+                options: [
+                  "0%",
+                  "25%",
+                  "50%",
+                  "75%"
+                ],
+                answer: 1,
+                explanation: "In a standard Mendelian monohybrid cross between two heterozygous F₁ individuals (Gg × Gg), the F₂ genotypic ratio is 1 GG : 2 Gg : 1 gg. Thus, 1 out of 4 (25%) of the offspring will be homozygous recessive (gg, yellow)."
+              },
+              {
+                id: "kmu-2026-bio-048",
+                question: "In a monohybrid cross of round seeded (RR) and wrinkled seeded (rr) pea plants, all F₁ offspring are round seeded (Rr). If an F₁ plant is crossed with a homozygous recessive (rr) plant, what will be the phenotypic ratio of round to wrinkled offspring?",
+                options: [
+                  "1:3",
+                  "1:4",
+                  "0:4",
+                  "1:1"
+                ],
+                answer: 3,
+                explanation: "Crossing a heterozygous F₁ round plant (Rr) with a homozygous recessive wrinkled plant (rr) is a monohybrid test cross, which yields 50% Rr (round) and 50% rr (wrinkled) progeny, giving a 1:1 phenotypic ratio."
+              },
+              {
+                id: "kmu-2026-bio-049",
+                question: "Which condition results in a 1:1:1:1 phenotypic ratio in the offspring of a dihybrid test cross?",
+                options: [
+                  "Complete linkage",
+                  "No linkage",
+                  "Sex linkage",
+                  "Mutation"
+                ],
+                answer: 1,
+                explanation: "When two genes are unlinked (located on different chromosomes or far apart so they assort independently), a dihybrid heterozygote (AaBb) produces four equal gamete types (AB, Ab, aB, ab), resulting in a 1:1:1:1 phenotypic ratio when crossed with a double recessive tester (aabb)."
+              },
+              {
+                id: "kmu-2026-bio-050",
+                question: "An X-linked recessive allele inherited from a carrier mother (father is unaffected) is most likely to be expressed in which child?",
+                options: [
+                  "Son",
+                  "Daughter",
+                  "Both equally",
+                  "None of them"
+                ],
+                answer: 0,
+                explanation: "Males are hemizygous (XY) for X-linked genes, possessing only a single X chromosome inherited from their mother. Therefore, a son who inherits the X-linked recessive allele from a carrier mother will express the trait, whereas daughters receive a normal dominant allele on their paternal X chromosome and remain unaffected carriers."
+              },
+              {
+                id: "kmu-2026-bio-051",
+                question: "Which of the following is a disorder caused by a recessive X-linked trait?",
+                options: [
+                  "Vitamin D resistant rickets",
+                  "Anemia",
+                  "Colour blindness",
+                  "Cystic fibrosis"
+                ],
+                answer: 2,
+                explanation: "Red-green colour blindness is a classic X-linked recessive disorder caused by mutations in opsin genes on the X chromosome. In contrast, vitamin D resistant rickets is X-linked dominant, and cystic fibrosis is autosomal recessive."
+              },
+              {
+                id: "kmu-2026-bio-052",
+                question: "Identify the X-linked dominant disorder from the following:",
+                options: [
+                  "Haemophilia",
+                  "Colour blindness",
+                  "Baldness",
+                  "Hypophosphatemic rickets"
+                ],
+                answer: 3,
+                explanation: "Hypophosphatemic rickets (vitamin D-resistant rickets) is inherited in an X-linked dominant manner, whereas haemophilia and colour blindness are X-linked recessive, and pattern baldness is sex-influenced."
+              },
+              {
+                id: "kmu-2026-bio-053",
+                question: "The genetic basis of haemophilia is:",
+                options: [
+                  "A dominant allele on chromosome 21",
+                  "A recessive allele on the X chromosome",
+                  "A recessive allele on the Y chromosome",
+                  "A mitochondrial mutation"
+                ],
+                answer: 1,
+                explanation: "Haemophilia A and B are X-linked recessive bleeding disorders caused by recessive mutations in the clotting factor VIII (F8) or factor IX (F9) genes located on the X chromosome."
+              },
+              {
+                id: "kmu-2026-bio-054",
+                question: "The fluid present in the pericardial cavity functions to:",
+                options: [
+                  "Nourish the heart muscles",
+                  "Prevent blood clotting",
+                  "Reduce friction during heart movement",
+                  "Generate electrical impulse"
+                ],
+                answer: 2,
+                explanation: "Pericardial fluid fills the pericardial cavity between the parietal and visceral layers of the serous pericardium, acting as a lubricant to reduce friction as the heart contracts and relaxes within the thoracic cavity."
+              },
+              {
+                id: "kmu-2026-bio-055",
+                question: "The phase of the cardiac cycle during which blood is pumped to lungs and the entire body is called:",
+                options: [
+                  "Atrial systole",
+                  "Atrial diastole",
+                  "Ventricular systole",
+                  "Ventricular diastole"
+                ],
+                answer: 2,
+                explanation: "During ventricular systole, the ventricles contract forcefully, opening the semilunar valves so the right ventricle pumps deoxygenated blood into the pulmonary trunk toward the lungs and the left ventricle pumps oxygenated blood into the aorta toward the systemic circulation."
+              },
+              {
+                id: "kmu-2026-bio-056",
+                question: "Hepatic portal subsystem carries nutrients from the small intestine to the:",
+                options: [
+                  "Vena cava",
+                  "Liver",
+                  "Pancreas",
+                  "Kidney"
+                ],
+                answer: 1,
+                explanation: "The hepatic portal vein collects nutrient-rich venous blood from the capillaries of the gastrointestinal tract (small intestine, stomach, colon) and spleen, delivering it directly to the liver for metabolic processing and detoxification before blood enters the systemic circulation."
+              },
+              {
+                id: "kmu-2026-bio-057",
+                question: "Why are arteries thicker than veins?",
+                options: [
+                  "To store more blood",
+                  "To prevent back flow",
+                  "To increase diffusion rate",
+                  "To withstand high pressure"
+                ],
+                answer: 3,
+                explanation: "Arteries receive blood directly pumped from the ventricles under high hydrostatic pressure; consequently, they possess thick walls rich in smooth muscle and elastic fibers (tunica media) to withstand high blood pressure and maintain continuous blood flow via elastic recoil."
+              },
+              {
+                id: "kmu-2026-bio-058",
+                question: "Lymph is most closely related to:",
+                options: [
+                  "Blood plasma",
+                  "Interstitial fluid",
+                  "Sweat",
+                  "Saliva"
+                ],
+                answer: 1,
+                explanation: "Lymph is formed when excess interstitial fluid (tissue fluid) bathing the body's cells enters blind-ended lymphatic capillaries; therefore, its chemical composition is virtually identical to interstitial fluid."
+              },
+              {
+                id: "kmu-2026-bio-059",
+                question: "B-Lymphocytes produce a small, soluble and specific protein called ______.",
+                options: [
+                  "Antigen",
+                  "Antibody",
+                  "Prostaglandin",
+                  "Perforin"
+                ],
+                answer: 1,
+                explanation: "Upon activation and differentiation into plasma cells, B-lymphocytes synthesize and secrete specific, soluble immunoglobulins (antibodies) that bind specifically to foreign antigens to neutralize or mark them for destruction."
+              },
+              {
+                id: "kmu-2026-bio-060",
+                question: "A vaccine containing weakened microbes is administered to a person. Which aspect of adaptive immunity is responsible for providing long-lasting protection against future infections?",
+                options: [
+                  "Inflammatory response",
+                  "Rise in body temperature",
+                  "Engulfment by phagocytes",
+                  "Formation of memory cells"
+                ],
+                answer: 3,
+                explanation: "Vaccines stimulate a primary adaptive immune response that generates long-lived memory B and memory T lymphocytes, enabling a rapid, robust secondary immune response upon future exposure to the pathogen."
+              },
+              {
+                id: "kmu-2026-bio-061",
+                question: "Which has NO cartilage in its structure?",
+                options: [
+                  "Larynx",
+                  "Trachea",
+                  "Bronchioles",
+                  "Bronchi"
+                ],
+                answer: 2,
+                explanation: "As the conducting airways branch and narrow, cartilage plates disappear completely at the level of the bronchioles, whose walls are composed primarily of smooth muscle and elastic fibers."
+              },
+              {
+                id: "kmu-2026-bio-062",
+                question: "The mucus and cilia of the nasal cavity work together to:",
+                options: [
+                  "Increase the rate of diffusion of oxygen",
+                  "Produce mucus for vocal cord lubrication",
+                  "Filter air and prevent the entry of microorganisms",
+                  "Exchange oxygen and carbon dioxide with blood"
+                ],
+                answer: 2,
+                explanation: "Mucus secreted by goblet cells traps inhaled dust particles, pollen, and microorganisms, while the coordinated beating of cilia sweeps the trapped debris toward the pharynx to be swallowed or expelled, protecting the lower respiratory tract."
+              },
+              {
+                id: "kmu-2026-bio-063",
+                question: "During gaseous exchange in human body, maximum percentage of CO₂ is transported from body tissues to lungs as:",
+                options: [
+                  "Bicarbonate ion",
+                  "Carbaminohemoglobin",
+                  "Dissolved CO₂ in plasma",
+                  "Gaseous form as bubbles"
+                ],
+                answer: 0,
+                explanation: "Approximately 70% of carbon dioxide is transported in the blood plasma as bicarbonate ions (HCO₃⁻) formed via the action of carbonic anhydrase inside red blood cells, while about 23% binds to hemoglobin as carbaminohemoglobin and 7% dissolves directly in plasma."
+              },
+              {
+                id: "kmu-2026-bio-064",
+                question: "Smoking causes alveolar destruction in:",
+                options: [
+                  "Pneumonia",
+                  "Chronic bronchitis",
+                  "Emphysema",
+                  "Asthma"
+                ],
+                answer: 2,
+                explanation: "Emphysema is a chronic obstructive pulmonary disease (COPD) most commonly caused by cigarette smoking, characterized by the irreversible breakdown and destruction of alveolar walls, reducing the surface area available for gas exchange."
+              },
+              {
+                id: "kmu-2026-bio-065",
+                question: "Which of the following is NOT a function of liver?",
+                options: [
+                  "Detoxification",
+                  "Insulin synthesis",
+                  "Producing bile",
+                  "Storage of Vitamin A"
+                ],
+                answer: 1,
+                explanation: "Insulin is synthesized and secreted by the beta cells of the islets of Langerhans in the pancreas, not the liver. The liver performs detoxification, produces bile, and stores fat-soluble vitamins such as Vitamin A."
+              },
+              {
+                id: "kmu-2026-bio-066",
+                question: "Find the correct sequence of phases in the swallowing mechanism. 1. Pharyngeal 2. Oral 3. Esophageal",
+                options: [
+                  "2-1-3",
+                  "1-2-3",
+                  "2-3-1",
+                  "3-1-2"
+                ],
+                answer: 0,
+                explanation: "Deglutition (swallowing) occurs in three sequential stages: first the voluntary oral (buccal) phase (2) pushes the bolus into the oropharynx, followed by the involuntary pharyngeal phase (1) moving it past the pharynx, and finally the involuntary esophageal phase (3) propelling it into the stomach via peristalsis."
+              },
+              {
+                id: "kmu-2026-bio-067",
+                question: "The release of bicarbonate rich fluid from the pancreas is stimulated by the action of:",
+                options: [
+                  "Pepsin",
+                  "Gastrin",
+                  "Secretin",
+                  "Trypsin"
+                ],
+                answer: 2,
+                explanation: "When acidic chyme enters the duodenum, S cells in the duodenal mucosa secrete the hormone secretin, which stimulates pancreatic ductal cells to release a watery, bicarbonate-rich fluid that neutralizes gastric acid."
+              },
+              {
+                id: "kmu-2026-bio-068",
+                question: "Which structures in the intestinal villus are directly involved in nutrient absorption?",
+                options: [
+                  "Blood capillaries and lacteals",
+                  "Arteries and goblet cells",
+                  "Circular and longitudinal muscles",
+                  "Crypts of Lieberkühn and microvilli"
+                ],
+                answer: 0,
+                explanation: "Each intestinal villus contains a dense network of blood capillaries (which absorb monosaccharides, amino acids, water-soluble vitamins, and minerals into the hepatic portal system) and a central lymphatic capillary called a lacteal (which absorbs chylomicrons/fats and fat-soluble vitamins)."
+              },
+              {
+                id: "kmu-2026-bio-069",
+                question: "The primary function of peristalsis in the large intestine is to:",
+                options: [
+                  "Digest carbohydrates",
+                  "Move undigested food toward the rectum",
+                  "Absorb fats",
+                  "Secrete digestive enzymes"
+                ],
+                answer: 1,
+                explanation: "In the large intestine (colon), sluggish peristaltic waves and mass movements propel undigested food residues (feces) along the colon toward the rectum for storage and eventual egestion."
+              },
+              {
+                id: "kmu-2026-bio-070",
+                question: "A patient experiences chronic gastric discomfort and endoscopy confirms gastric ulcers. Which finding best explains the underlying cause?",
+                options: [
+                  "Deficiency of pepsinogen secretion",
+                  "Excess absorption of hydrochloric acid",
+                  "Spread of Helicobacter pylori into stomach wall",
+                  "Lack of intrinsic factor and Vitamin B12"
+                ],
+                answer: 2,
+                explanation: "Infection and colonization of the gastric mucosa by the bacterium Helicobacter pylori breaks down the protective mucus-bicarbonate barrier of the stomach wall, exposing epithelial cells to acid and pepsin and leading to peptic/gastric ulcers."
+              },
+              {
+                id: "kmu-2026-bio-071",
+                question: "Which region of kidney contains glomeruli and Bowman's capsules?",
+                options: [
+                  "Renal medulla",
+                  "Renal cortex",
+                  "Renal pelvis",
+                  "Hilum"
+                ],
+                answer: 1,
+                explanation: "The renal corpuscles (each consisting of a glomerulus enclosed within Bowman's capsule), along with the proximal and distal convoluted tubules, are located exclusively in the outer renal cortex."
+              },
+              {
+                id: "kmu-2026-bio-072",
+                question: "If glucose appears in urine of a patient, it indicates failure of which process?",
+                options: [
+                  "Pressure filtration",
+                  "Selective reabsorption",
+                  "Tubular secretion",
+                  "Osmoregulation"
+                ],
+                answer: 1,
+                explanation: "Under normal physiological conditions, 100% of filtered glucose is actively reclaimed from the glomerular filtrate back into the blood in the proximal convoluted tubule via selective reabsorption; its presence in urine (glycosuria) indicates that selective reabsorption capacity has been exceeded or impaired."
+              },
+              {
+                id: "kmu-2026-bio-073",
+                question: "Which part of nephron is impermeable to water?",
+                options: [
+                  "Glomerulus",
+                  "Descending limb",
+                  "Ascending limb",
+                  "Proximal tubule"
+                ],
+                answer: 2,
+                explanation: "The ascending limb of the loop of Henle lacks aquaporin channels and is completely impermeable to water, while actively and passively transporting Na⁺ and Cl⁻ ions out into the renal medulla to establish the corticomedullary osmotic gradient."
+              },
+              {
+                id: "kmu-2026-bio-074",
+                question: "When water intake is high:",
+                options: [
+                  "ADH secretion increases, producing concentrated urine",
+                  "Aldosterone secretion increases, producing concentrated urine",
+                  "ADH release is inhibited, resulting in a large volume of dilute urine",
+                  "Ultrafiltration stops until water balance is restored"
+                ],
+                answer: 2,
+                explanation: "High water intake lowers blood osmolarity, which inhibits osmoreceptors in the hypothalamus and suppresses antidiuretic hormone (ADH) release from the posterior pituitary, making the distal convoluted tubules and collecting ducts impermeable to water and producing a large volume of dilute (hypotonic) urine."
+              },
+              {
+                id: "kmu-2026-bio-075",
+                question: "Peritubular capillaries are formed from:",
+                options: [
+                  "Glomerulus",
+                  "Afferent arteriole",
+                  "Efferent arteriole",
+                  "Interlobular artery"
+                ],
+                answer: 2,
+                explanation: "Blood leaves the glomerular capillary tuft via the efferent arteriole, which subsequently branches into a second low-pressure capillary network surrounding the renal tubules called the peritubular capillaries (and vasa recta in juxtamedullary nephrons)."
+              },
+              {
+                id: "kmu-2026-bio-076",
+                question: "Dialysis or kidney transplantation is usually required when kidney function falls below ______ of normal.",
+                options: [
+                  "70%",
+                  "50%",
+                  "25%",
+                  "10%"
+                ],
+                answer: 3,
+                explanation: "In end-stage renal disease (ESRD) or severe renal failure, renal replacement therapy such as hemodialysis, peritoneal dialysis, or kidney transplantation becomes necessary when functional kidney capacity drops below 10% (typically 10–15%) of normal."
+              },
+              {
+                id: "kmu-2026-bio-077",
+                question: "Which nitrogenous waste is the MAIN excretory product in humans, and has relatively low toxicity compared to ammonia?",
+                options: [
+                  "Urea",
+                  "Uric acid",
+                  "Creatinine",
+                  "Ammonia"
+                ],
+                answer: 0,
+                explanation: "Humans are ureotelic organisms; the liver converts highly toxic ammonia produced from amino acid deamination into urea via the ornithine (urea) cycle, which is far less toxic and serves as the primary nitrogenous waste excreted in human urine."
+              },
+              {
+                id: "kmu-2026-bio-078",
+                question: "DNA probes enable faster identification of disease causing bacteria than conventional methods because of advances in:",
+                options: [
+                  "Non-biological methods",
+                  "Biotechnology",
+                  "Antibiotics",
+                  "Surgery"
+                ],
+                answer: 1,
+                explanation: "DNA probes are short, single-stranded, labeled nucleic acid sequences developed through molecular biotechnology that hybridize specifically with complementary DNA sequences of pathogenic bacteria, enabling rapid and accurate diagnosis without waiting for slow bacterial cultures."
+              },
+              {
+                id: "kmu-2026-bio-079",
+                question: "The most common vector used to deliver a therapeutic gene into target cells is:",
+                options: [
+                  "Plasmid",
+                  "Liposome",
+                  "Genetically altered virus",
+                  "Restriction enzyme"
+                ],
+                answer: 2,
+                explanation: "In human gene therapy, genetically altered (modified, non-pathogenic) viruses such as retroviruses, adenoviruses, and adeno-associated viruses are the most commonly used vectors because they naturally infect host cells efficiently to deliver the therapeutic gene."
+              },
+              {
+                id: "kmu-2026-bio-080",
+                question: "Monoclonal antibodies are:",
+                options: [
+                  "A mixture of different antibodies",
+                  "A group of identical antibodies produced by identical immune cells",
+                  "Antibodies produced only by T-lymphocytes",
+                  "Radioactively labelled antibodies"
+                ],
+                answer: 1,
+                explanation: "Monoclonal antibodies are homogeneous, identical immunoglobulin molecules produced by a single clone of identical hybridoma cells (formed by fusing a specific B-lymphocyte with a myeloma cell), all targeting the exact same epitope on an antigen."
+              },
+              {
+                id: "kmu-2026-bio-081",
+                question: "Which of the following correctly matches the biotechnology product with its application?",
+                options: [
+                  "Biochips: Supply biologically fixed nitrogen to crops",
+                  "Mycorrhiza: Deliver drugs to target cells using nanoparticles",
+                  "Nanoparticles: Efficient drug delivery at target cells and diagnosis of disease",
+                  "Biofertilizers: Detect bioterrorism agents using miniaturized laboratories"
+                ],
+                answer: 2,
+                explanation: "Nanoparticles are engineered nanoscale carriers used in nanomedicine for targeted drug delivery directly to diseased cells (such as tumors) and sensitive diagnostic imaging/detection. In contrast, biofertilizers/mycorrhiza aid plant nutrient uptake and nitrogen fixation, while biochips are used for genetic screening and pathogen detection."
               }
   ];

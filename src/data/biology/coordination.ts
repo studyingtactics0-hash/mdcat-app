@@ -1492,4 +1492,88 @@ export type Question = {
         answer: 0,
         explanation: "The brainstem consists of the midbrain, pons, and medulla oblongata. The cerebrum is the largest part of the forebrain and is not part of the brainstem."
       },
+      {
+        id: "kmu-2026-bio-019",
+        question: "Which of the following correctly describes the action of the sodium-potassium pump in a resting neuron?",
+        options: [
+          "Two Na⁺ ions are pumped in and three K⁺ ions are pumped out",
+          "Three Na⁺ ions are pumped in and two K⁺ ions are pumped out",
+          "Three Na⁺ ions are pumped out and two K⁺ ions are pumped in",
+          "Equal numbers of Na⁺ and K⁺ ions are exchanged"
+        ],
+        answer: 2,
+        explanation: "The Na⁺/K⁺-ATPase pump actively transports three sodium ions (Na⁺) out of the neuron and two potassium ions (K⁺) into the neuron for every ATP molecule hydrolyzed, maintaining the resting membrane potential."
+      },
+      {
+        id: "kmu-2026-bio-020",
+        question: "Which of the following structures can be found in a typical neuron?",
+        options: [
+          "Dendrites, cell body, cilia",
+          "Dendrites, cell body, axon",
+          "Dendrites, cell body, ganglion",
+          "Cauda equina, cell body, myelin sheath"
+        ],
+        answer: 1,
+        explanation: "A typical multipolar neuron consists of three main structural regions: dendrites (which receive incoming signals), a cell body or soma (containing the nucleus and organelles), and an axon (which conducts nerve impulses away from the cell body)."
+      },
+      {
+        id: "kmu-2026-bio-021",
+        question: "The reversal of polarity across two sides of a membrane from −70 mV to +50 mV is called ______.",
+        options: [
+          "Polarization",
+          "Hyperpolarization",
+          "Repolarization",
+          "Depolarization"
+        ],
+        answer: 3,
+        explanation: "Depolarization occurs when voltage-gated Na⁺ channels open, allowing a rapid influx of positively charged Na⁺ ions that reverses the resting membrane potential from −70 mV to approximately +50 mV."
+      },
+      {
+        id: "kmu-2026-bio-022",
+        question: "A student quickly pulls his hand away from a hot iron after accidentally touching it. This response is best classified as:",
+        options: [
+          "Conditioned reflex",
+          "Cranial reflex",
+          "Spinal reflex",
+          "Voluntary action"
+        ],
+        answer: 2,
+        explanation: "The withdrawal reflex from a painful stimulus like a hot object is an involuntary, rapid spinal reflex mediated directly through a reflex arc in the spinal cord without requiring initial processing by the brain."
+      },
+      {
+        id: "kmu-2026-bio-023",
+        question: "A patient suffers a brain injury following a head trauma. During recovery, the patient experiences disturbed sleep patterns and is unable to dream normally. Which part of the brain is most likely affected?",
+        options: [
+          "Cerebellum",
+          "Medulla oblongata",
+          "Pons",
+          "Thalamus"
+        ],
+        answer: 2,
+        explanation: "The pons, located in the brainstem, plays a critical role in regulating sleep-wake cycles, transitions between sleep stages, and initiating REM (rapid eye movement) sleep, during which vivid dreaming occurs."
+      },
+      {
+        id: "kmu-2026-bio-024",
+        question: "Damage to the area containing dopamine-releasing neurons would most likely affect the:",
+        options: [
+          "Midbrain",
+          "Cerebellum",
+          "Pons",
+          "Medulla"
+        ],
+        answer: 0,
+        explanation: "Dopamine-producing neurons are concentrated in the substantia nigra and ventral tegmental area (VTA) of the midbrain, which regulate motor control and reward pathways."
+      },
+      {
+        id: "kmu-2026-bio-025",
+        question: "The amygdala is a part of the:",
+        options: [
+          "Cerebellum",
+          "Limbic system",
+          "Reticular formation",
+          "Medulla oblongata"
+        ],
+        answer: 1,
+        explanation: "The amygdala is an almond-shaped cluster of nuclei located within the temporal lobe that forms a key component of the limbic system, regulating emotions such as fear, aggression, and emotional memory."
+      }
   ];

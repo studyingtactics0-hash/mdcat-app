@@ -968,5 +968,29 @@ export const acellularLifeQuestions = [
         ],
         answer: 1,
         explanation: "Human Immunodeficiency Virus (HIV), the causative agent of AIDS, is a retrovirus because it possesses an RNA genome and uses reverse transcriptase to transcribe RNA into DNA."
+      },
+      {
+        id: "kmu-2026-bio-001",
+        question: "Which of the following is correctly matched with its morphological type?",
+        options: [
+          "Tobacco mosaic virus - Polyhedral virus",
+          "Poliovirus - Rod shaped virus",
+          "Bacteriophage - Tadpole virus",
+          "Tobacco mosaic virus - Spherical virus"
+        ],
+        answer: 2,
+        explanation: "Bacteriophages have a distinct tadpole-like morphology consisting of an icosahedral head and a helical tail. In contrast, Tobacco mosaic virus (TMV) is rod-shaped, and Poliovirus is spherical/polyhedral."
+      },
+      {
+        id: "kmu-2026-bio-002",
+        question: "A patient diagnosed with AIDS has an increased susceptibility to infections due to:",
+        options: [
+          "Destruction of red blood cells",
+          "Excess production of antibodies",
+          "Weakening of the immune system",
+          "Overproduction of digestive enzymes"
+        ],
+        answer: 2,
+        explanation: "HIV primarily targets and destroys helper T-lymphocytes (CD4+ T-cells), leading to a progressive weakening of the immune system and increased vulnerability to opportunistic infections."
       }
 ];

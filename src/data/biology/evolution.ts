@@ -397,4 +397,52 @@ export type Question = {
       answer: 0,
       explanation: "Lamarckism (Jean-Baptiste Lamarck's theory) proposed that environmental changes induce adaptive traits through use and disuse of organs, and these acquired characteristics are inherited by offspring."
     },
+    {
+      id: "kmu-2026-bio-031",
+      question: "Human beings are involved in an intense struggle for existence because resources such as food, water and space:",
+      options: [
+        "Double every year",
+        "Cannot increase at the same rate",
+        "Increase at the same rate",
+        "Remain constant"
+      ],
+      answer: 1,
+      explanation: "According to Malthusian and Darwinian principles, populations tend to grow geometrically (exponentially), whereas vital resources such as food, water, and space increase only arithmetically and cannot keep pace with population growth, leading to a struggle for existence."
+    },
+    {
+      id: "kmu-2026-bio-032",
+      question: "Lamarck explained the long neck of the giraffe on the basis of:",
+      options: [
+        "Mutation",
+        "Natural selection",
+        "Inheritance of acquired characteristics",
+        "Genetic drift"
+      ],
+      answer: 2,
+      explanation: "Jean-Baptiste Lamarck proposed that ancestral giraffes stretched their necks to reach higher foliage (use of organs) and passed this acquired elongation directly to their offspring (inheritance of acquired characteristics)."
+    },
+    {
+      id: "kmu-2026-bio-033",
+      question: "A population of rabbits shows variation in fur colour. During snowy winters, white rabbits are less visible to predators and survive in greater numbers than brown rabbits. According to Darwin, this is an example of:",
+      options: [
+        "Overproduction",
+        "Natural selection",
+        "Artificial selection",
+        "Genetic drift"
+      ],
+      answer: 1,
+      explanation: "In Darwin's theory of natural selection, individuals with heritable traits better suited to their environment (camouflage of white fur in snow) have higher differential survival and reproductive success than less adapted individuals."
+    },
+    {
+      id: "kmu-2026-bio-034",
+      question: "According to Lamarck, what would be expected if an organism loses or modifies a body part during its lifetime?",
+      options: [
+        "It is passed to offspring",
+        "It has no effect on offspring",
+        "It causes genetic mutation",
+        "It occurs through natural selection"
+      ],
+      answer: 0,
+      explanation: "Lamarck's theory of inheritance of acquired characters states that structural changes or modifications developed by an organism during its lifetime through use or disuse are transmitted directly to the next generation."
+    }
   ];
