@@ -2,6 +2,17 @@
 
 const szambuPapers = [
   {
+    icon: "🎯",
+    title: "SZABMU 2026",
+    description:
+      "Practice the latest SZABMU 2026 past paper with authentic questions from Biology, Chemistry, Physics, English and Logical Reasoning.",
+    href: "/tests/mock-tests/past-papers/szambu/szambu-26",
+    button: "Start SZABMU 2026",
+    available: true,
+    featured: true,
+  },
+
+  {
     icon: "📝",
     title: "SZABMU 2025",
     description:
