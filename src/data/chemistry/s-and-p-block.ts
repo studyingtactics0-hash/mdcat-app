@@ -860,5 +860,17 @@ export type Question = {
         ],
         answer: 0,
         explanation: "Alkali metals like sodium react vigorously even with cold water to form the corresponding metal hydroxide and hydrogen gas: 2Na(s) + 2H₂O(l) → 2NaOH(aq) + H₂(g)."
+      },
+      {
+        id: "kmu-2026-chem-146",
+        question: "Which Group IV-A tetrachloride DOES NOT react with water at room temperature?",
+        options: [
+          "CCl₄",
+          "GeCl₄",
+          "PbCl₄",
+          "SiCl₄"
+        ],
+        answer: 0,
+        explanation: "Carbon tetrachloride (CCl₄) does not undergo hydrolysis with water at room temperature because carbon lacks vacant d-orbitals in its valence shell to accept lone pairs of electrons from water molecules, and the bulky chlorine atoms sterically hinder nucleophilic attack. In contrast, SiCl₄, GeCl₄, and PbCl₄ possess vacant d-orbitals and hydrolyze readily in water."
       }
   ];

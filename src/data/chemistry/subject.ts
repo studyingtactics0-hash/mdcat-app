@@ -15177,5 +15177,545 @@ export type Question = {
             ],
             answer: 2,
             explanation: "Outer transition elements have their last differentiating electron entering the (n-1)d subshell, which places them in the d-block of the periodic table (whereas f-block elements are called inner transition elements)."
+          },
+          {
+            id: "kmu-2026-chem-118",
+            question: "What is the mass of 1 mole of calcium carbonate (CaCO₃)? (Molar mass of calcium: 40 g/mol, carbon: 12 g/mol, oxygen: 16 g/mol)",
+            options: [
+              "25 g",
+              "50 g",
+              "75 g",
+              "100 g"
+            ],
+            answer: 3,
+            explanation: "The molar mass of CaCO₃ is calculated by summing the atomic masses of its constituent atoms: 40 (Ca) + 12 (C) + 3 × 16 (O) = 40 + 12 + 48 = 100 g/mol. Therefore, 1 mole of CaCO₃ has a mass of 100 g."
+          },
+          {
+            id: "kmu-2026-chem-119",
+            question: "A limiting reagent:",
+            options: [
+              "Is present in maximum amount",
+              "Produces minimum number of moles of product",
+              "Produces maximum number of moles of product",
+              "Does not affect the amount of product"
+            ],
+            answer: 1,
+            explanation: "A limiting reagent is the reactant that is completely consumed first in a chemical reaction, thereby limiting the extent of the reaction and producing the minimum (least) number of moles of product."
+          },
+          {
+            id: "kmu-2026-chem-120",
+            question: "Which of the following is a CORRECT statement about yield?",
+            options: [
+              "Theoretical yield is the amount of product that is actually produced experimentally during a chemical reaction",
+              "The percent yield tells us the total mass of the reactants used in the reaction",
+              "Chemists use percentage yield to express the efficiency of a chemical reaction",
+              "Actual yield is the amount of the product calculated based on a balanced chemical equation"
+            ],
+            answer: 2,
+            explanation: "Percentage yield ((Actual yield / Theoretical yield) × 100) is used by chemists to measure and express the efficiency of a chemical reaction. Theoretical yield is the calculated amount from a balanced equation, whereas actual yield is obtained experimentally."
+          },
+          {
+            id: "kmu-2026-chem-121",
+            question: "The shape of an orbital depends on the ______ quantum number.",
+            options: [
+              "Azimuthal",
+              "Magnetic",
+              "Principal",
+              "Spin"
+            ],
+            answer: 0,
+            explanation: "The azimuthal (or orbital angular momentum) quantum number (l) determines the three-dimensional shape of an atomic orbital (e.g., l = 0 is spherical s-orbital, l = 1 is dumbbell-shaped p-orbital, l = 2 is cloverleaf d-orbital)."
+          },
+          {
+            id: "kmu-2026-chem-122",
+            question: "According to Pauli’s Exclusion Principle, no two electrons in an atom can have the same set of ______ quantum numbers.",
+            options: [
+              "Two",
+              "Three",
+              "Four",
+              "Five"
+            ],
+            answer: 2,
+            explanation: "Pauli's Exclusion Principle states that no two electrons in the same atom can have identical values for all four quantum numbers (n, l, m_l, and m_s). Even if two electrons occupy the same orbital (sharing n, l, and m_l), they must have opposite spins."
+          },
+          {
+            id: "kmu-2026-chem-123",
+            question: "What is the electronic configuration of Calcium?",
+            options: [
+              "[Ar] 4s¹",
+              "[Ar] 4s²",
+              "[Ne] 3s²",
+              "[He] 2s²"
+            ],
+            answer: 1,
+            explanation: "Calcium (Ca) has an atomic number of 20. Using the noble gas core of Argon ([Ar], which accounts for 18 electrons), the remaining 2 electrons fill the 4s subshell, giving [Ar] 4s²."
+          },
+          {
+            id: "kmu-2026-chem-124",
+            question: "The average kinetic energy of gas molecules is directly proportional to ______ of the gas.",
+            options: [
+              "Density",
+              "Pressure",
+              "Absolute temperature",
+              "Volume"
+            ],
+            answer: 2,
+            explanation: "According to the Kinetic Molecular Theory of gases, the average translational kinetic energy of gas molecules is directly proportional to the absolute temperature (in Kelvin) of the gas ($KE_{avg} = \\frac{3}{2}k_BT$)."
+          },
+          {
+            id: "kmu-2026-chem-125",
+            question: "If the pressure of a gas is doubled at constant temperature, its volume will:",
+            options: [
+              "Double",
+              "Halve",
+              "Remain unchanged",
+              "Triple"
+            ],
+            answer: 1,
+            explanation: "According to Boyle's Law ($P_1V_1 = P_2V_2$), at constant temperature and number of moles, the volume of a given mass of gas is inversely proportional to its pressure. Therefore, doubling the pressure reduces the volume to half."
+          },
+          {
+            id: "kmu-2026-chem-126",
+            question: "If the absolute temperature of a gas doubles at constant pressure, its volume will:",
+            options: [
+              "Remain unchanged",
+              "Double",
+              "Halve",
+              "Triple"
+            ],
+            answer: 1,
+            explanation: "According to Charles's Law ($\\frac{V_1}{T_1} = \\frac{V_2}{T_2}$), at constant pressure and number of moles, the volume of a gas is directly proportional to its absolute temperature. Doubling the absolute temperature therefore doubles the volume."
+          },
+          {
+            id: "kmu-2026-chem-127",
+            question: "Absolute zero is equal to ______ °C.",
+            options: [
+              "−100",
+              "−173",
+              "−273",
+              "−373"
+            ],
+            answer: 2,
+            explanation: "Absolute zero ($0\\text{ K}$) is the theoretical lowest possible temperature at which gas volume and molecular translational kinetic energy approach zero. On the Celsius scale, $0\\text{ K}$ corresponds to $-273.15\\text{ }^\\circ\\text{C}$ (commonly rounded to $-273\\text{ }^\\circ\\text{C}$)."
+          },
+          {
+            id: "kmu-2026-chem-128",
+            question: "The kinetic energy of liquid molecules is ______ compared to that of solids.",
+            options: [
+              "Constant",
+              "Equal",
+              "Greater",
+              "Lower"
+            ],
+            answer: 2,
+            explanation: "In liquids, molecules possess greater thermal energy and freedom of movement (translational, rotational, and vibrational motion) than in solids, where particles only vibrate about fixed lattice positions."
+          },
+          {
+            id: "kmu-2026-chem-129",
+            question: "At the boiling point, added heat is used to break ______ forces.",
+            options: [
+              "Intermolecular",
+              "Ionic",
+              "Magnetic",
+              "Nuclear"
+            ],
+            answer: 0,
+            explanation: "At the boiling point, the temperature remains constant because the absorbed heat energy (latent heat of vaporization) is entirely utilized to overcome the intermolecular forces of attraction holding the liquid molecules together, allowing them to escape into the gas phase."
+          },
+          {
+            id: "kmu-2026-chem-130",
+            question: "Hydrogen bonding occurs between hydrogen and a highly ______ atom.",
+            options: [
+              "Electronegative",
+              "Electropositive",
+              "Nonpolar",
+              "Radioactive"
+            ],
+            answer: 0,
+            explanation: "A hydrogen bond is an electrostatic attraction between a partially positive hydrogen atom covalently bonded to a small, highly electronegative atom (specifically fluorine, oxygen, or nitrogen) and a lone pair of electrons on another highly electronegative atom."
+          },
+          {
+            id: "kmu-2026-chem-131",
+            question: "In a sodium chloride lattice, each ion is surrounded by ions of ______ charge.",
+            options: [
+              "Equal",
+              "Negative",
+              "Opposite",
+              "Positive"
+            ],
+            answer: 2,
+            explanation: "In the face-centered cubic crystal lattice of sodium chloride (NaCl), electrostatic attraction holds the crystal together: each Na⁺ ion is octahedrally surrounded by six Cl⁻ ions, and each Cl⁻ ion is surrounded by six Na⁺ ions (ions of opposite charge)."
+          },
+          {
+            id: "kmu-2026-chem-132",
+            question: "Ionic solids conduct electricity in ______ state.",
+            options: [
+              "Frozen",
+              "Molten",
+              "Solid",
+              "Vapour"
+            ],
+            answer: 1,
+            explanation: "In the solid state, ions are held rigidly in fixed lattice positions and cannot move freely. When melted into the molten state (or dissolved in water), the crystal lattice breaks down, allowing the ions to move freely and conduct an electric current."
+          },
+          {
+            id: "kmu-2026-chem-133",
+            question: "A unit cell of crystal lattice is characterized by ______ parameters.",
+            options: [
+              "4",
+              "5",
+              "6",
+              "7"
+            ],
+            answer: 2,
+            explanation: "A unit cell is defined by six crystallographic parameters: the three edge lengths (a, b, and c) along the three axes and the three interfacial angles (α, β, and γ) between them."
+          },
+          {
+            id: "kmu-2026-chem-134",
+            question: "When gaseous ions of opposite charge combine to form an ionic crystal, lattice energy is ______.",
+            options: [
+              "Absorbed",
+              "Released",
+              "Stored",
+              "Vaporized"
+            ],
+            answer: 1,
+            explanation: "Lattice energy is the enthalpy change when one mole of an ionic crystal is formed from its isolated gaseous ions. Because strong electrostatic attractions are formed between oppositely charged ions, the process is exothermic and energy is released."
+          },
+          {
+            id: "kmu-2026-chem-135",
+            question: "An increase in temperature shifts the equilibrium in favor of the ______ reaction.",
+            options: [
+              "Endothermic",
+              "Exothermic",
+              "Irreversible",
+              "Static"
+            ],
+            answer: 0,
+            explanation: "According to Le Chatelier's Principle, if the temperature of a system at equilibrium is increased, the system shifts in the direction that absorbs the added heat, which is the endothermic direction."
+          },
+          {
+            id: "kmu-2026-chem-136",
+            question: "Addition of sodium acetate to aqueous solution of acetic acid suppresses its:",
+            options: [
+              "Condensation",
+              "Ionization",
+              "Evaporation",
+              "Reduction"
+            ],
+            answer: 1,
+            explanation: "Sodium acetate ($\\text{CH}_3\\text{COONa}$) is a strong electrolyte that dissociates completely to provide a high concentration of acetate ions ($\\text{CH}_3\\text{COO}^-$). Due to the common ion effect, this shifts the dissociation equilibrium of the weak acid acetic acid ($\\text{CH}_3\\text{COOH} \\rightleftharpoons \\text{CH}_3\\text{COO}^- + \\text{H}^+$) to the left, suppressing its ionization."
+          },
+          {
+            id: "kmu-2026-chem-137",
+            question: "The Haber process is exothermic; therefore, decreasing the temperature favors:",
+            options: [
+              "Decomposition of ammonia",
+              "Formation of ammonia",
+              "Formation of nitrogen gas",
+              "No change in equilibrium"
+            ],
+            answer: 1,
+            explanation: "In the Haber process ($\\text{N}_2(g) + 3\\text{H}_2(g) \\rightleftharpoons 2\\text{NH}_3(g), \\Delta H = -92.4\\text{ kJ/mol}$), the forward reaction is exothermic. By Le Chatelier's Principle, lowering the temperature shifts the equilibrium in the exothermic direction to release heat, favoring the formation of ammonia."
+          },
+          {
+            id: "kmu-2026-chem-138",
+            question: "Activation energy is the minimum energy to:",
+            options: [
+              "Increase the reaction yield",
+              "Break all chemical bonds in the reactants",
+              "Initiate a chemical reaction",
+              "Separate mixture"
+            ],
+            answer: 2,
+            explanation: "Activation energy ($E_a$) is the minimum amount of extra energy required by colliding reactant molecules to reach the transition state (activated complex) and initiate a chemical reaction."
+          },
+          {
+            id: "kmu-2026-chem-139",
+            question: "A reaction with a lower activation energy proceeds at a ______ rate.",
+            options: [
+              "Faster",
+              "Later",
+              "Slower",
+              "Unchanged"
+            ],
+            answer: 0,
+            explanation: "According to the Arrhenius equation ($k = Ae^{-E_a/RT}$), a lower activation energy means a larger fraction of reactant molecules possess sufficient kinetic energy to overcome the energy barrier at a given temperature, resulting in a faster reaction rate."
+          },
+          {
+            id: "kmu-2026-chem-140",
+            question: "When heat is absorbed by the system from the surroundings, the sign of heat (q) is:",
+            options: [
+              "Negative",
+              "Positive",
+              "Variable",
+              "Zero"
+            ],
+            answer: 1,
+            explanation: "By thermodynamic sign convention, energy entering a system increases its internal energy. Therefore, when heat is absorbed by the system from the surroundings (an endothermic process), $q$ is positive ($q > 0$)."
+          },
+          {
+            id: "kmu-2026-chem-141",
+            question: "According to Hess’s Law, the overall enthalpy change depends only on the:",
+            options: [
+              "Activation energy",
+              "Reaction pathway",
+              "Initial and final states",
+              "Reaction mechanism"
+            ],
+            answer: 2,
+            explanation: "Enthalpy ($H$) is a state function. Hess's Law states that the total enthalpy change ($\\Delta H$) of a chemical reaction is independent of the route or number of steps taken and depends solely on the initial state (reactants) and final state (products)."
+          },
+          {
+            id: "kmu-2026-chem-142",
+            question: "Which change in oxidation number represents reduction?",
+            options: [
+              "+1 → +3",
+              "+2 → 0",
+              "0 → +2",
+              "−1 → +1"
+            ],
+            answer: 1,
+            explanation: "Reduction is the gain of electrons, which results in a decrease in oxidation number. Changing from +2 to 0 represents a decrease in oxidation state (gain of 2 electrons), whereas the other options show increases in oxidation number (oxidation)."
+          },
+          {
+            id: "kmu-2026-chem-143",
+            question: "According to VSEPR theory, what determines the shape of a molecule?",
+            options: [
+              "Electron charge",
+              "Electron mass",
+              "Electron pairs",
+              "Electron volume"
+            ],
+            answer: 2,
+            explanation: "According to Valence Shell Electron Pair Repulsion (VSEPR) theory, the geometry/shape of a molecule is determined by the repulsion between all valence shell electron pairs (both bonding pairs and lone pairs) surrounding the central atom, which arrange themselves as far apart as possible to minimize repulsion."
+          },
+          {
+            id: "kmu-2026-chem-144",
+            question: "In the excited state, carbon has ______ half-filled orbitals.",
+            options: [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            answer: 3,
+            explanation: "In its ground state ($1s^2 2s^2 2p_x^1 2p_y^1 2p_z^0$), carbon has 2 half-filled orbitals. Upon excitation, one $2s$ electron is promoted to the empty $2p_z$ orbital ($1s^2 2s^1 2p_x^1 2p_y^1 2p_z^1$), resulting in 4 half-filled orbitals ($2s, 2p_x, 2p_y, 2p_z$) that allow carbon to be tetravalent."
+          },
+          {
+            id: "kmu-2026-chem-145",
+            question: "The dipole moment is used to estimate the ______ character of a bond.",
+            options: [
+              "Acidic",
+              "Basic",
+              "Ionic",
+              "Organic"
+            ],
+            answer: 2,
+            explanation: "Dipole moment ($\\mu$) measures the polarity of a covalent bond resulting from unequal sharing of electrons. Comparing the observed dipole moment of a bond to the theoretical dipole moment for complete electron transfer allows chemists to calculate the percentage ionic character of a covalent bond ($\\text{\\% Ionic character} = \\frac{\\mu_{\\text{observed}}}{\\mu_{\\text{ionic}}} \\times 100$)."
+          },
+          {
+            id: "kmu-2026-chem-146",
+            question: "Which Group IV-A tetrachloride DOES NOT react with water at room temperature?",
+            options: [
+              "CCl₄",
+              "GeCl₄",
+              "PbCl₄",
+              "SiCl₄"
+            ],
+            answer: 0,
+            explanation: "Carbon tetrachloride (CCl₄) does not undergo hydrolysis with water at room temperature because carbon lacks vacant d-orbitals in its valence shell to accept lone pairs of electrons from water molecules, and the bulky chlorine atoms sterically hinder nucleophilic attack. In contrast, SiCl₄, GeCl₄, and PbCl₄ possess vacant d-orbitals and hydrolyze readily in water."
+          },
+          {
+            id: "kmu-2026-chem-147",
+            question: "Copper shows an exceptional electronic configuration because it has a more stable ______ subshell.",
+            options: [
+              "Half-filled",
+              "Filled",
+              "Paired",
+              "Vacant"
+            ],
+            answer: 1,
+            explanation: "Copper (Cu, Z = 29) has an anomalous ground-state electronic configuration of [Ar] 3d¹⁰ 4s¹ rather than [Ar] 3d⁹ 4s². Promoting one 4s electron into the 3d subshell results in a completely filled 3d¹⁰ subshell, which provides extra stability due to symmetrical electron distribution and maximized exchange energy."
+          },
+          {
+            id: "kmu-2026-chem-148",
+            question: "When chlorine is present in excess during chlorination of methane, the major product is:",
+            options: [
+              "Carbon tetrachloride",
+              "Chloroform",
+              "Methyl chloride",
+              "Methylene chloride"
+            ],
+            answer: 0,
+            explanation: "In the free-radical chlorination of methane in the presence of diffused sunlight/UV light, excess chlorine sequentially replaces all four hydrogen atoms (CH₄ → CH₃Cl → CH₂Cl₂ → CHCl₃ → CCl₄), yielding carbon tetrachloride (CCl₄) as the major final product."
+          },
+          {
+            id: "kmu-2026-chem-149",
+            question: "Which carbon chain is selected first when assigning the IUPAC name of an alkene?",
+            options: [
+              "Cyclic carbon chain",
+              "Most highly branched carbon chains",
+              "Longest with maximum number of double bonds",
+              "Longest with maximum number of triple bonds"
+            ],
+            answer: 2,
+            explanation: "According to IUPAC nomenclature rules for alkenes, the parent chain selected is the longest continuous carbon chain that contains the maximum number of carbon-carbon double bonds, even if a longer chain exists without the double bond(s)."
+          },
+          {
+            id: "kmu-2026-chem-150",
+            question: "Which method prepares an alkene by removing water from an alcohol?",
+            options: [
+              "Dehydration",
+              "Dehydrohalogenation",
+              "Halogenation",
+              "Hydrogenation"
+            ],
+            answer: 0,
+            explanation: "Dehydration is an elimination reaction in which a molecule of water (H₂O) is removed from an alcohol (typically using an acid catalyst like concentrated H₂SO₄ or Al₂O₃ at high temperature) to form an alkene."
+          },
+          {
+            id: "kmu-2026-chem-151",
+            question: "Which statement best describes the structure of benzene? It is a:",
+            options: [
+              "Planar molecule with six sp² hybridized carbon atoms",
+              "Tetrahedral molecule with six sp³ hybridized carbon atoms",
+              "Linear molecule with sp hybridized carbon atoms",
+              "Non-planar molecule with alternating single and double bonds"
+            ],
+            answer: 0,
+            explanation: "Benzene (C₆H₆) has a regular hexagonal, planar ring structure in which all six carbon atoms are sp² hybridized with 120° bond angles, and the unhybridized p-orbitals overlap continuously to form a delocalized π-electron cloud above and below the plane."
+          },
+          {
+            id: "kmu-2026-chem-152",
+            question: "Compared with alkenes, benzene undergoes ______ reaction to retain its aromatic character.",
+            options: [
+              "Addition",
+              "Elimination",
+              "Polymerization",
+              "Substitution"
+            ],
+            answer: 3,
+            explanation: "Because of the high resonance stabilization energy of its delocalized π-electron system, benzene resists addition reactions (which would destroy aromaticity) and preferentially undergoes electrophilic aromatic substitution reactions to preserve its stable aromatic ring."
+          },
+          {
+            id: "kmu-2026-chem-153",
+            question: "Hydration of ethyne in the presence of H₂SO₄ and HgSO₄ (100°C) ultimately gives:",
+            options: [
+              "Acetaldehyde",
+              "Acetic acid",
+              "Ethanol",
+              "Ethene"
+            ],
+            answer: 0,
+            explanation: "Ethyne (HC≡CH) reacts with water in the presence of dilute H₂SO₄ and HgSO₄ catalyst to initially form an unstable enol intermediate, vinyl alcohol (CH₂=CH–OH), which rapidly tautomerizes into the stable carbonyl compound acetaldehyde (ethanal, CH₃CHO)."
+          },
+          {
+            id: "kmu-2026-chem-154",
+            question: "According to IUPAC, when two different halogens are present in a haloalkane at the same position, which rule is used to decide which substituent is written first?",
+            options: [
+              "Alphabetical",
+              "Branching",
+              "Chain length",
+              "Molecular mass"
+            ],
+            answer: 0,
+            explanation: "According to IUPAC nomenclature rules, substituents are always cited in alphabetical order in the name of the compound (e.g., bromo before chloro, chloro before fluoro), and when different halogens are at equivalent positions, numbering also gives the lowest locant to the substituent that comes first alphabetically."
+          },
+          {
+            id: "kmu-2026-chem-155",
+            question: "Which alkyl halide has the highest carbon-halogen bond energy?",
+            options: [
+              "C-Br",
+              "C-Cl",
+              "C-F",
+              "C-I"
+            ],
+            answer: 2,
+            explanation: "Fluorine has the smallest atomic radius among the halogens, allowing maximum orbital overlap with carbon and resulting in the shortest and strongest carbon-halogen bond (C–F, ~485 kJ/mol). Bond energy decreases down the group in the order: C–F > C–Cl > C–Br > C–I."
+          },
+          {
+            id: "kmu-2026-chem-156",
+            question: "An alcohol that produces cloudiness immediately with Lucas reagent is:",
+            options: [
+              "Primary",
+              "Secondary",
+              "Tertiary",
+              "Trihydric"
+            ],
+            answer: 2,
+            explanation: "In the Lucas test (concentrated HCl and anhydrous ZnCl₂), tertiary alcohols react almost instantaneously via an S_N1 mechanism to form an insoluble alkyl chloride, causing immediate turbidity/cloudiness. Secondary alcohols take 5–10 minutes, while primary alcohols do not react appreciably at room temperature."
+          },
+          {
+            id: "kmu-2026-chem-157",
+            question: "Reduction of an ester with lithium aluminium hydride mainly produces:",
+            options: [
+              "Alkene",
+              "Alcohol",
+              "Aldehyde",
+              "Ketone"
+            ],
+            answer: 1,
+            explanation: "Lithium aluminium hydride (LiAlH₄) is a strong reducing agent that cleaves and reduces esters (RCOOR') completely into two alcohol molecules: a primary alcohol from the acyl portion (RCH₂OH) and another alcohol from the alkoxy leaving group (R'OH)."
+          },
+          {
+            id: "kmu-2026-chem-158",
+            question: "Which carbonyl compound is generally more reactive toward nucleophilic addition?",
+            options: [
+              "Aldehyde",
+              "Alcohol",
+              "Ether",
+              "Ketone"
+            ],
+            answer: 0,
+            explanation: "Aldehydes are generally more reactive than ketones toward nucleophilic addition due to two main factors: (1) less steric hindrance around the carbonyl carbon because aldehydes have at least one small hydrogen atom attached instead of two bulky alkyl groups, and (2) greater electrophilicity (partial positive charge) on the carbonyl carbon since aldehydes have only one electron-donating alkyl group (+I effect) compared to two in ketones."
+          },
+          {
+            id: "kmu-2026-chem-159",
+            question: "Which reagent distinguishes aldehydes from ketones by producing a silver mirror?",
+            options: [
+              "Benedict’s",
+              "Clemmensen",
+              "Fehling’s",
+              "Tollen’s"
+            ],
+            answer: 3,
+            explanation: "Tollen's reagent (ammoniacal silver nitrate, [Ag(NH₃)₂]⁺) is a mild oxidizing agent that oxidizes aldehydes to carboxylate ions while reducing Ag⁺ ions to metallic silver, which deposits on the inner wall of the test tube as a characteristic silver mirror. Ketones do not react with Tollen's reagent."
+          },
+          {
+            id: "kmu-2026-chem-160",
+            question: "Which of the following protein-prosthetic group combinations is correctly matched?",
+            options: [
+              "Chromoproteins - Carbohydrates",
+              "Glycoproteins - Lipids",
+              "Lipoproteins - Lipids",
+              "Nucleoproteins - Carbohydrates"
+            ],
+            answer: 2,
+            explanation: "Conjugated proteins consist of a simple protein combined with a non-protein prosthetic group: lipoproteins contain lipids as their prosthetic group, glycoproteins contain carbohydrates, chromoproteins contain colored pigments/metal ions (such as heme in hemoglobin), and nucleoproteins contain nucleic acids."
+          },
+          {
+            id: "kmu-2026-chem-161",
+            question: "A manufacturer needs an adhesive that solidifies on cooling and is widely used in bookbinding and packaging. Which type of adhesive is most suitable?",
+            options: [
+              "Contact",
+              "Hot-melt",
+              "Pressure-sensitive",
+              "Solvent-based"
+            ],
+            answer: 1,
+            explanation: "Hot-melt adhesives (such as ethylene-vinyl acetate copolymers) are thermoplastic materials that are applied in a molten state and solidify rapidly upon cooling to form a strong bond, making them ideal for high-speed bookbinding and packaging applications."
+          },
+          {
+            id: "kmu-2026-chem-162",
+            question: "Which polymer is produced through condensation polymerization?",
+            options: [
+              "Nylon-6,6",
+              "Polyethene",
+              "Polyvinyl chloride",
+              "Polystyrene"
+            ],
+            answer: 0,
+            explanation: "Nylon-6,6 is a polyamide produced by the condensation (step-growth) polymerization of hexamethylenediamine and adipic acid, with the elimination of water molecules. Polyethene, polyvinyl chloride (PVC), and polystyrene are all addition polymers formed from unsaturated monomers without byproduct elimination."
           }
 ];

@@ -749,5 +749,29 @@ export type Question = {
         ],
         answer: 1,
         explanation: "Heating an alkyl halide with potassium cyanide (KCN) in aqueous ethanol leads to nucleophilic substitution of the halide ion by the cyanide ion (CN⁻), forming an alkyl nitrile (R–C≡N) and ascending the homologous series by one carbon atom."
+      },
+      {
+        id: "kmu-2026-chem-154",
+        question: "According to IUPAC, when two different halogens are present in a haloalkane at the same position, which rule is used to decide which substituent is written first?",
+        options: [
+          "Alphabetical",
+          "Branching",
+          "Chain length",
+          "Molecular mass"
+        ],
+        answer: 0,
+        explanation: "According to IUPAC nomenclature rules, substituents are always cited in alphabetical order in the name of the compound (e.g., bromo before chloro, chloro before fluoro), and when different halogens are at equivalent positions, numbering also gives the lowest locant to the substituent that comes first alphabetically."
+      },
+      {
+        id: "kmu-2026-chem-155",
+        question: "Which alkyl halide has the highest carbon-halogen bond energy?",
+        options: [
+          "C-Br",
+          "C-Cl",
+          "C-F",
+          "C-I"
+        ],
+        answer: 2,
+        explanation: "Fluorine has the smallest atomic radius among the halogens, allowing maximum orbital overlap with carbon and resulting in the shortest and strongest carbon-halogen bond (C–F, ~485 kJ/mol). Bond energy decreases down the group in the order: C–F > C–Cl > C–Br > C–I."
       }
   ];

@@ -1035,5 +1035,41 @@ export type Question = {
         ],
         answer: 1,
         explanation: "The trinegative ion (X³⁻) has 18 electrons, meaning the neutral atom (X) has 18 - 3 = 15 electrons (1s² 2s² 2p⁶ 3s² 3p³). The highest principal quantum number is 3 (Period III), and there are 5 valence electrons in the 3s and 3p subshells (Group VA, Phosphorus)."
+      },
+      {
+        id: "kmu-2026-chem-121",
+        question: "The shape of an orbital depends on the ______ quantum number.",
+        options: [
+          "Azimuthal",
+          "Magnetic",
+          "Principal",
+          "Spin"
+        ],
+        answer: 0,
+        explanation: "The azimuthal (or orbital angular momentum) quantum number (l) determines the three-dimensional shape of an atomic orbital (e.g., l = 0 is spherical s-orbital, l = 1 is dumbbell-shaped p-orbital, l = 2 is cloverleaf d-orbital)."
+      },
+      {
+        id: "kmu-2026-chem-122",
+        question: "According to Pauli’s Exclusion Principle, no two electrons in an atom can have the same set of ______ quantum numbers.",
+        options: [
+          "Two",
+          "Three",
+          "Four",
+          "Five"
+        ],
+        answer: 2,
+        explanation: "Pauli's Exclusion Principle states that no two electrons in the same atom can have identical values for all four quantum numbers (n, l, m_l, and m_s). Even if two electrons occupy the same orbital (sharing n, l, and m_l), they must have opposite spins."
+      },
+      {
+        id: "kmu-2026-chem-123",
+        question: "What is the electronic configuration of Calcium?",
+        options: [
+          "[Ar] 4s¹",
+          "[Ar] 4s²",
+          "[Ne] 3s²",
+          "[He] 2s²"
+        ],
+        answer: 1,
+        explanation: "Calcium (Ca) has an atomic number of 20. Using the noble gas core of Argon ([Ar], which accounts for 18 electrons), the remaining 2 electrons fill the 4s subshell, giving [Ar] 4s²."
       }
   ];

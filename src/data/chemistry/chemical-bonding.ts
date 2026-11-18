@@ -1076,5 +1076,41 @@ export type Question = {
         ],
         answer: 2,
         explanation: "CH₄, CCl₄, and C₂H₄ are symmetrical molecules whose individual bond dipoles cancel out completely, resulting in zero net dipole moment. Chloromethane (CH₃Cl) has an asymmetrical tetrahedral geometry with a strongly polar C–Cl bond, giving it the maximum dipole moment among the choices (1.87 D)."
+      },
+      {
+        id: "kmu-2026-chem-143",
+        question: "According to VSEPR theory, what determines the shape of a molecule?",
+        options: [
+          "Electron charge",
+          "Electron mass",
+          "Electron pairs",
+          "Electron volume"
+        ],
+        answer: 2,
+        explanation: "According to Valence Shell Electron Pair Repulsion (VSEPR) theory, the geometry/shape of a molecule is determined by the repulsion between all valence shell electron pairs (both bonding pairs and lone pairs) surrounding the central atom, which arrange themselves as far apart as possible to minimize repulsion."
+      },
+      {
+        id: "kmu-2026-chem-144",
+        question: "In the excited state, carbon has ______ half-filled orbitals.",
+        options: [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        answer: 3,
+        explanation: "In its ground state ($1s^2 2s^2 2p_x^1 2p_y^1 2p_z^0$), carbon has 2 half-filled orbitals. Upon excitation, one $2s$ electron is promoted to the empty $2p_z$ orbital ($1s^2 2s^1 2p_x^1 2p_y^1 2p_z^1$), resulting in 4 half-filled orbitals ($2s, 2p_x, 2p_y, 2p_z$) that allow carbon to be tetravalent."
+      },
+      {
+        id: "kmu-2026-chem-145",
+        question: "The dipole moment is used to estimate the ______ character of a bond.",
+        options: [
+          "Acidic",
+          "Basic",
+          "Ionic",
+          "Organic"
+        ],
+        answer: 2,
+        explanation: "Dipole moment ($\\mu$) measures the polarity of a covalent bond resulting from unequal sharing of electrons. Comparing the observed dipole moment of a bond to the theoretical dipole moment for complete electron transfer allows chemists to calculate the percentage ionic character of a covalent bond ($\\text{\\% Ionic character} = \\frac{\\mu_{\\text{observed}}}{\\mu_{\\text{ionic}}} \\times 100$)."
       }
   ];

@@ -1055,5 +1055,77 @@ export type Question = {
         ],
         answer: 0,
         explanation: "In the initiation step of free-radical chlorination of methane, ultraviolet light causes homolytic fission of the weak Cl–Cl bond to generate chlorine free radicals (Cl•)."
+      },
+      {
+        id: "kmu-2026-chem-148",
+        question: "When chlorine is present in excess during chlorination of methane, the major product is:",
+        options: [
+          "Carbon tetrachloride",
+          "Chloroform",
+          "Methyl chloride",
+          "Methylene chloride"
+        ],
+        answer: 0,
+        explanation: "In the free-radical chlorination of methane in the presence of diffused sunlight/UV light, excess chlorine sequentially replaces all four hydrogen atoms (CH₄ → CH₃Cl → CH₂Cl₂ → CHCl₃ → CCl₄), yielding carbon tetrachloride (CCl₄) as the major final product."
+      },
+      {
+        id: "kmu-2026-chem-149",
+        question: "Which carbon chain is selected first when assigning the IUPAC name of an alkene?",
+        options: [
+          "Cyclic carbon chain",
+          "Most highly branched carbon chains",
+          "Longest with maximum number of double bonds",
+          "Longest with maximum number of triple bonds"
+        ],
+        answer: 2,
+        explanation: "According to IUPAC nomenclature rules for alkenes, the parent chain selected is the longest continuous carbon chain that contains the maximum number of carbon-carbon double bonds, even if a longer chain exists without the double bond(s)."
+      },
+      {
+        id: "kmu-2026-chem-150",
+        question: "Which method prepares an alkene by removing water from an alcohol?",
+        options: [
+          "Dehydration",
+          "Dehydrohalogenation",
+          "Halogenation",
+          "Hydrogenation"
+        ],
+        answer: 0,
+        explanation: "Dehydration is an elimination reaction in which a molecule of water (H₂O) is removed from an alcohol (typically using an acid catalyst like concentrated H₂SO₄ or Al₂O₃ at high temperature) to form an alkene."
+      },
+      {
+        id: "kmu-2026-chem-151",
+        question: "Which statement best describes the structure of benzene? It is a:",
+        options: [
+          "Planar molecule with six sp² hybridized carbon atoms",
+          "Tetrahedral molecule with six sp³ hybridized carbon atoms",
+          "Linear molecule with sp hybridized carbon atoms",
+          "Non-planar molecule with alternating single and double bonds"
+        ],
+        answer: 0,
+        explanation: "Benzene (C₆H₆) has a regular hexagonal, planar ring structure in which all six carbon atoms are sp² hybridized with 120° bond angles, and the unhybridized p-orbitals overlap continuously to form a delocalized π-electron cloud above and below the plane."
+      },
+      {
+        id: "kmu-2026-chem-152",
+        question: "Compared with alkenes, benzene undergoes ______ reaction to retain its aromatic character.",
+        options: [
+          "Addition",
+          "Elimination",
+          "Polymerization",
+          "Substitution"
+        ],
+        answer: 3,
+        explanation: "Because of the high resonance stabilization energy of its delocalized π-electron system, benzene resists addition reactions (which would destroy aromaticity) and preferentially undergoes electrophilic aromatic substitution reactions to preserve its stable aromatic ring."
+      },
+      {
+        id: "kmu-2026-chem-153",
+        question: "Hydration of ethyne in the presence of H₂SO₄ and HgSO₄ (100°C) ultimately gives:",
+        options: [
+          "Acetaldehyde",
+          "Acetic acid",
+          "Ethanol",
+          "Ethene"
+        ],
+        answer: 0,
+        explanation: "Ethyne (HC≡CH) reacts with water in the presence of dilute H₂SO₄ and HgSO₄ catalyst to initially form an unstable enol intermediate, vinyl alcohol (CH₂=CH–OH), which rapidly tautomerizes into the stable carbonyl compound acetaldehyde (ethanal, CH₃CHO)."
       }
   ];

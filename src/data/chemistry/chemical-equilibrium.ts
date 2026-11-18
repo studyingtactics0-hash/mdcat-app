@@ -1000,5 +1000,41 @@ export type Question = {
         ],
         answer: 0,
         explanation: "In an endothermic reversible reaction (ΔH > 0), heat is absorbed in the forward direction. According to Le Chatelier's principle, increasing the temperature shifts the equilibrium toward the products to consume the added thermal energy, increasing the yield."
+      },
+      {
+        id: "kmu-2026-chem-135",
+        question: "An increase in temperature shifts the equilibrium in favor of the ______ reaction.",
+        options: [
+          "Endothermic",
+          "Exothermic",
+          "Irreversible",
+          "Static"
+        ],
+        answer: 0,
+        explanation: "According to Le Chatelier's Principle, if the temperature of a system at equilibrium is increased, the system shifts in the direction that absorbs the added heat, which is the endothermic direction."
+      },
+      {
+        id: "kmu-2026-chem-136",
+        question: "Addition of sodium acetate to aqueous solution of acetic acid suppresses its:",
+        options: [
+          "Condensation",
+          "Ionization",
+          "Evaporation",
+          "Reduction"
+        ],
+        answer: 1,
+        explanation: "Sodium acetate ($\\text{CH}_3\\text{COONa}$) is a strong electrolyte that dissociates completely to provide a high concentration of acetate ions ($\\text{CH}_3\\text{COO}^-$). Due to the common ion effect, this shifts the dissociation equilibrium of the weak acid acetic acid ($\\text{CH}_3\\text{COOH} \\rightleftharpoons \\text{CH}_3\\text{COO}^- + \\text{H}^+$) to the left, suppressing its ionization."
+      },
+      {
+        id: "kmu-2026-chem-137",
+        question: "The Haber process is exothermic; therefore, decreasing the temperature favors:",
+        options: [
+          "Decomposition of ammonia",
+          "Formation of ammonia",
+          "Formation of nitrogen gas",
+          "No change in equilibrium"
+        ],
+        answer: 1,
+        explanation: "In the Haber process ($\\text{N}_2(g) + 3\\text{H}_2(g) \\rightleftharpoons 2\\text{NH}_3(g), \\Delta H = -92.4\\text{ kJ/mol}$), the forward reaction is exothermic. By Le Chatelier's Principle, lowering the temperature shifts the equilibrium in the exothermic direction to release heat, favoring the formation of ammonia."
       }
   ];

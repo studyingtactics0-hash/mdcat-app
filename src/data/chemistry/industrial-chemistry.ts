@@ -83,5 +83,29 @@ export type Question = {
       ],
       answer: 1,
       explanation: "Acrylate-based polymers (acrylic adhesives) remain permanently tacky at room temperature and form a bond immediately when light pressure is applied without requiring heat, water, or solvent activation, classifying them as pressure sensitive adhesives (PSAs)."
+    },
+    {
+      id: "kmu-2026-chem-161",
+      question: "A manufacturer needs an adhesive that solidifies on cooling and is widely used in bookbinding and packaging. Which type of adhesive is most suitable?",
+      options: [
+        "Contact",
+        "Hot-melt",
+        "Pressure-sensitive",
+        "Solvent-based"
+      ],
+      answer: 1,
+      explanation: "Hot-melt adhesives (such as ethylene-vinyl acetate copolymers) are thermoplastic materials that are applied in a molten state and solidify rapidly upon cooling to form a strong bond, making them ideal for high-speed bookbinding and packaging applications."
+    },
+    {
+      id: "kmu-2026-chem-162",
+      question: "Which polymer is produced through condensation polymerization?",
+      options: [
+        "Nylon-6,6",
+        "Polyethene",
+        "Polyvinyl chloride",
+        "Polystyrene"
+      ],
+      answer: 0,
+      explanation: "Nylon-6,6 is a polyamide produced by the condensation (step-growth) polymerization of hexamethylenediamine and adipic acid, with the elimination of water molecules. Polyethene, polyvinyl chloride (PVC), and polystyrene are all addition polymers formed from unsaturated monomers without byproduct elimination."
     }
   ];

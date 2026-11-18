@@ -858,5 +858,29 @@ export type Question = {
         ],
         answer: 1,
         explanation: "Lucas reagent (concentrated HCl and anhydrous ZnCl₂) distinguishes alcohols by carbocation stability. 2-methyl-2-butanol is a tertiary alcohol that rapidly forms a stable tertiary carbocation, reacting immediately at room temperature to produce an insoluble alkyl chloride oily layer (turbidity)."
+      },
+      {
+        id: "kmu-2026-chem-156",
+        question: "An alcohol that produces cloudiness immediately with Lucas reagent is:",
+        options: [
+          "Primary",
+          "Secondary",
+          "Tertiary",
+          "Trihydric"
+        ],
+        answer: 2,
+        explanation: "In the Lucas test (concentrated HCl and anhydrous ZnCl₂), tertiary alcohols react almost instantaneously via an S_N1 mechanism to form an insoluble alkyl chloride, causing immediate turbidity/cloudiness. Secondary alcohols take 5–10 minutes, while primary alcohols do not react appreciably at room temperature."
+      },
+      {
+        id: "kmu-2026-chem-157",
+        question: "Reduction of an ester with lithium aluminium hydride mainly produces:",
+        options: [
+          "Alkene",
+          "Alcohol",
+          "Aldehyde",
+          "Ketone"
+        ],
+        answer: 1,
+        explanation: "Lithium aluminium hydride (LiAlH₄) is a strong reducing agent that cleaves and reduces esters (RCOOR') completely into two alcohol molecules: a primary alcohol from the acyl portion (RCH₂OH) and another alcohol from the alkoxy leaving group (R'OH)."
       }
   ];

@@ -914,5 +914,17 @@ export type Question = {
         ],
         answer: 1,
         explanation: "A reducing agent donates electrons to another species to reduce it; in doing so, the reducing agent itself loses electrons and undergoes oxidation (increasing its oxidation state)."
+      },
+      {
+        id: "kmu-2026-chem-142",
+        question: "Which change in oxidation number represents reduction?",
+        options: [
+          "+1 → +3",
+          "+2 → 0",
+          "0 → +2",
+          "−1 → +1"
+        ],
+        answer: 1,
+        explanation: "Reduction is the gain of electrons, which results in a decrease in oxidation number. Changing from +2 to 0 represents a decrease in oxidation state (gain of 2 electrons), whereas the other options show increases in oxidation number (oxidation)."
       }
   ];

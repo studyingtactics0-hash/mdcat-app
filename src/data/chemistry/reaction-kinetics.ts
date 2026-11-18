@@ -961,5 +961,29 @@ export type Question = {
         ],
         answer: 2,
         explanation: "According to the rate law (Rate = k[A]ⁿ), when the molar concentration of each reactant is unity (1 mol/dm³), the rate of reaction becomes equal to the specific rate constant (k)."
+      },
+      {
+        id: "kmu-2026-chem-138",
+        question: "Activation energy is the minimum energy to:",
+        options: [
+          "Increase the reaction yield",
+          "Break all chemical bonds in the reactants",
+          "Initiate a chemical reaction",
+          "Separate mixture"
+        ],
+        answer: 2,
+        explanation: "Activation energy ($E_a$) is the minimum amount of extra energy required by colliding reactant molecules to reach the transition state (activated complex) and initiate a chemical reaction."
+      },
+      {
+        id: "kmu-2026-chem-139",
+        question: "A reaction with a lower activation energy proceeds at a ______ rate.",
+        options: [
+          "Faster",
+          "Later",
+          "Slower",
+          "Unchanged"
+        ],
+        answer: 0,
+        explanation: "According to the Arrhenius equation ($k = Ae^{-E_a/RT}$), a lower activation energy means a larger fraction of reactant molecules possess sufficient kinetic energy to overcome the energy barrier at a given temperature, resulting in a faster reaction rate."
       }
   ];

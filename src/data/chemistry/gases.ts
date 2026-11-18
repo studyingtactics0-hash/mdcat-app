@@ -709,5 +709,53 @@ export type Question = {
         ],
         answer: 3,
         explanation: "The ideal gas equation (PV = nRT) is derived by combining Boyle's Law (V ∝ 1/P), Charles's Law (V ∝ T), and Avogadro's Law (V ∝ n)."
+      },
+      {
+        id: "kmu-2026-chem-124",
+        question: "The average kinetic energy of gas molecules is directly proportional to ______ of the gas.",
+        options: [
+          "Density",
+          "Pressure",
+          "Absolute temperature",
+          "Volume"
+        ],
+        answer: 2,
+        explanation: "According to the Kinetic Molecular Theory of gases, the average translational kinetic energy of gas molecules is directly proportional to the absolute temperature (in Kelvin) of the gas ($KE_{avg} = \\frac{3}{2}k_BT$)."
+      },
+      {
+        id: "kmu-2026-chem-125",
+        question: "If the pressure of a gas is doubled at constant temperature, its volume will:",
+        options: [
+          "Double",
+          "Halve",
+          "Remain unchanged",
+          "Triple"
+        ],
+        answer: 1,
+        explanation: "According to Boyle's Law ($P_1V_1 = P_2V_2$), at constant temperature and number of moles, the volume of a given mass of gas is inversely proportional to its pressure. Therefore, doubling the pressure reduces the volume to half."
+      },
+      {
+        id: "kmu-2026-chem-126",
+        question: "If the absolute temperature of a gas doubles at constant pressure, its volume will:",
+        options: [
+          "Remain unchanged",
+          "Double",
+          "Halve",
+          "Triple"
+        ],
+        answer: 1,
+        explanation: "According to Charles's Law ($\\frac{V_1}{T_1} = \\frac{V_2}{T_2}$), at constant pressure and number of moles, the volume of a gas is directly proportional to its absolute temperature. Doubling the absolute temperature therefore doubles the volume."
+      },
+      {
+        id: "kmu-2026-chem-127",
+        question: "Absolute zero is equal to ______ °C.",
+        options: [
+          "−100",
+          "−173",
+          "−273",
+          "−373"
+        ],
+        answer: 2,
+        explanation: "Absolute zero ($0\\text{ K}$) is the theoretical lowest possible temperature at which gas volume and molecular translational kinetic energy approach zero. On the Celsius scale, $0\\text{ K}$ corresponds to $-273.15\\text{ }^\\circ\\text{C}$ (commonly rounded to $-273\\text{ }^\\circ\\text{C}$)."
       }
   ];

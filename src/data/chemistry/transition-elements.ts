@@ -632,5 +632,17 @@ export type Question = {
         ],
         answer: 2,
         explanation: "Outer transition elements have their last differentiating electron entering the (n-1)d subshell, which places them in the d-block of the periodic table (whereas f-block elements are called inner transition elements)."
+      },
+      {
+        id: "kmu-2026-chem-147",
+        question: "Copper shows an exceptional electronic configuration because it has a more stable ______ subshell.",
+        options: [
+          "Half-filled",
+          "Filled",
+          "Paired",
+          "Vacant"
+        ],
+        answer: 1,
+        explanation: "Copper (Cu, Z = 29) has an anomalous ground-state electronic configuration of [Ar] 3d¹⁰ 4s¹ rather than [Ar] 3d⁹ 4s². Promoting one 4s electron into the 3d subshell results in a completely filled 3d¹⁰ subshell, which provides extra stability due to symmetrical electron distribution and maximized exchange energy."
       }
   ];

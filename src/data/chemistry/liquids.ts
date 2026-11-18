@@ -422,5 +422,41 @@ export type Question = {
         ],
         answer: 1,
         explanation: "Both formic acid (HCOOH) and acetic acid (CH₃COOH) possess strongly polarized O–H groups (hydrogen bond donors) as well as carbonyl oxygen atoms (hydrogen bond acceptors), allowing them to form strong intermolecular hydrogen bonds directly with each other (including cyclic dimers)."
+      },
+      {
+        id: "kmu-2026-chem-128",
+        question: "The kinetic energy of liquid molecules is ______ compared to that of solids.",
+        options: [
+          "Constant",
+          "Equal",
+          "Greater",
+          "Lower"
+        ],
+        answer: 2,
+        explanation: "In liquids, molecules possess greater thermal energy and freedom of movement (translational, rotational, and vibrational motion) than in solids, where particles only vibrate about fixed lattice positions."
+      },
+      {
+        id: "kmu-2026-chem-129",
+        question: "At the boiling point, added heat is used to break ______ forces.",
+        options: [
+          "Intermolecular",
+          "Ionic",
+          "Magnetic",
+          "Nuclear"
+        ],
+        answer: 0,
+        explanation: "At the boiling point, the temperature remains constant because the absorbed heat energy (latent heat of vaporization) is entirely utilized to overcome the intermolecular forces of attraction holding the liquid molecules together, allowing them to escape into the gas phase."
+      },
+      {
+        id: "kmu-2026-chem-130",
+        question: "Hydrogen bonding occurs between hydrogen and a highly ______ atom.",
+        options: [
+          "Electronegative",
+          "Electropositive",
+          "Nonpolar",
+          "Radioactive"
+        ],
+        answer: 0,
+        explanation: "A hydrogen bond is an electrostatic attraction between a partially positive hydrogen atom covalently bonded to a small, highly electronegative atom (specifically fluorine, oxygen, or nitrogen) and a lone pair of electrons on another highly electronegative atom."
       }
   ];

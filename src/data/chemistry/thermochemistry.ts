@@ -365,5 +365,29 @@ export type Question = {
       ],
       answer: 2,
       explanation: "In a chemical equation, the Greek letter delta (Δ) written above or below the reaction arrow indicates that heat is supplied to the reactants for the reaction to proceed."
+    },
+    {
+      id: "kmu-2026-chem-140",
+      question: "When heat is absorbed by the system from the surroundings, the sign of heat (q) is:",
+      options: [
+        "Negative",
+        "Positive",
+        "Variable",
+        "Zero"
+      ],
+      answer: 1,
+      explanation: "By thermodynamic sign convention, energy entering a system increases its internal energy. Therefore, when heat is absorbed by the system from the surroundings (an endothermic process), $q$ is positive ($q > 0$)."
+    },
+    {
+      id: "kmu-2026-chem-141",
+      question: "According to Hess’s Law, the overall enthalpy change depends only on the:",
+      options: [
+        "Activation energy",
+        "Reaction pathway",
+        "Initial and final states",
+        "Reaction mechanism"
+      ],
+      answer: 2,
+      explanation: "Enthalpy ($H$) is a state function. Hess's Law states that the total enthalpy change ($\\Delta H$) of a chemical reaction is independent of the route or number of steps taken and depends solely on the initial state (reactants) and final state (products)."
     }
   ];

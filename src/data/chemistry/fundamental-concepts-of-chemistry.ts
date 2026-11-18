@@ -953,5 +953,41 @@ export type Question = {
         ],
         answer: 1,
         explanation: "The molar mass of benzoic acid (C₇H₆O₂) is (7 × 12) + (6 × 1) + (2 × 16) = 84 + 6 + 32 = 122 g/mol. Number of moles = given mass / molar mass = 244 g / 122 g/mol = 2 moles. Number of molecules = 2 × Avogadro's number (6.02 × 10²³) = 12.04 × 10²³ = 1.2 × 10²⁴."
+      },
+      {
+        id: "kmu-2026-chem-118",
+        question: "What is the mass of 1 mole of calcium carbonate (CaCO₃)? (Molar mass of calcium: 40 g/mol, carbon: 12 g/mol, oxygen: 16 g/mol)",
+        options: [
+          "25 g",
+          "50 g",
+          "75 g",
+          "100 g"
+        ],
+        answer: 3,
+        explanation: "The molar mass of CaCO₃ is calculated by summing the atomic masses of its constituent atoms: 40 (Ca) + 12 (C) + 3 × 16 (O) = 40 + 12 + 48 = 100 g/mol. Therefore, 1 mole of CaCO₃ has a mass of 100 g."
+      },
+      {
+        id: "kmu-2026-chem-119",
+        question: "A limiting reagent:",
+        options: [
+          "Is present in maximum amount",
+          "Produces minimum number of moles of product",
+          "Produces maximum number of moles of product",
+          "Does not affect the amount of product"
+        ],
+        answer: 1,
+        explanation: "A limiting reagent is the reactant that is completely consumed first in a chemical reaction, thereby limiting the extent of the reaction and producing the minimum (least) number of moles of product."
+      },
+      {
+        id: "kmu-2026-chem-120",
+        question: "Which of the following is a CORRECT statement about yield?",
+        options: [
+          "Theoretical yield is the amount of product that is actually produced experimentally during a chemical reaction",
+          "The percent yield tells us the total mass of the reactants used in the reaction",
+          "Chemists use percentage yield to express the efficiency of a chemical reaction",
+          "Actual yield is the amount of the product calculated based on a balanced chemical equation"
+        ],
+        answer: 2,
+        explanation: "Percentage yield ((Actual yield / Theoretical yield) × 100) is used by chemists to measure and express the efficiency of a chemical reaction. Theoretical yield is the calculated amount from a balanced equation, whereas actual yield is obtained experimentally."
       }
   ];

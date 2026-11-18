@@ -985,5 +985,29 @@ export type Question = {
         ],
         answer: 1,
         explanation: "Lithium aluminum hydride (LiAlH₄) transfers a hydride ion (H⁻) to the carbonyl carbon, followed by acidic hydrolysis. Aldehydes (RCHO) are reduced to primary (1°) alcohols (RCH₂OH), whereas ketones (R₂CO) are reduced to secondary (2°) alcohols (R₂CHOH)."
+      },
+      {
+        id: "kmu-2026-chem-158",
+        question: "Which carbonyl compound is generally more reactive toward nucleophilic addition?",
+        options: [
+          "Aldehyde",
+          "Alcohol",
+          "Ether",
+          "Ketone"
+        ],
+        answer: 0,
+        explanation: "Aldehydes are generally more reactive than ketones toward nucleophilic addition due to two main factors: (1) less steric hindrance around the carbonyl carbon because aldehydes have at least one small hydrogen atom attached instead of two bulky alkyl groups, and (2) greater electrophilicity (partial positive charge) on the carbonyl carbon since aldehydes have only one electron-donating alkyl group (+I effect) compared to two in ketones."
+      },
+      {
+        id: "kmu-2026-chem-159",
+        question: "Which reagent distinguishes aldehydes from ketones by producing a silver mirror?",
+        options: [
+          "Benedict’s",
+          "Clemmensen",
+          "Fehling’s",
+          "Tollen’s"
+        ],
+        answer: 3,
+        explanation: "Tollen's reagent (ammoniacal silver nitrate, [Ag(NH₃)₂]⁺) is a mild oxidizing agent that oxidizes aldehydes to carboxylate ions while reducing Ag⁺ ions to metallic silver, which deposits on the inner wall of the test tube as a characteristic silver mirror. Ketones do not react with Tollen's reagent."
       }
   ];

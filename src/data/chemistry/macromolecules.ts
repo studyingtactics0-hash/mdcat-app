@@ -640,5 +640,17 @@ export type Question = {
         ],
         answer: 1,
         explanation: "Conjugated proteins (compound proteins) are composed of simple amino acid chains tightly bound to a non-protein chemical component known as a prosthetic group (such as heme in hemoglobin or carbohydrates in glycoproteins)."
+      },
+      {
+        id: "kmu-2026-chem-160",
+        question: "Which of the following protein-prosthetic group combinations is correctly matched?",
+        options: [
+          "Chromoproteins - Carbohydrates",
+          "Glycoproteins - Lipids",
+          "Lipoproteins - Lipids",
+          "Nucleoproteins - Carbohydrates"
+        ],
+        answer: 2,
+        explanation: "Conjugated proteins consist of a simple protein combined with a non-protein prosthetic group: lipoproteins contain lipids as their prosthetic group, glycoproteins contain carbohydrates, chromoproteins contain colored pigments/metal ions (such as heme in hemoglobin), and nucleoproteins contain nucleic acids."
       }
   ];

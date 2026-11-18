@@ -479,5 +479,53 @@ export type Question = {
         ],
         answer: 0,
         explanation: "In a body-centered cubic (BCC) unit cell, the central atom or ion is located entirely at the geometric center of the cube and is not shared with any neighboring unit cells, so it belongs exclusively to 1 unit cell."
+      },
+      {
+        id: "kmu-2026-chem-131",
+        question: "In a sodium chloride lattice, each ion is surrounded by ions of ______ charge.",
+        options: [
+          "Equal",
+          "Negative",
+          "Opposite",
+          "Positive"
+        ],
+        answer: 2,
+        explanation: "In the face-centered cubic crystal lattice of sodium chloride (NaCl), electrostatic attraction holds the crystal together: each Na⁺ ion is octahedrally surrounded by six Cl⁻ ions, and each Cl⁻ ion is surrounded by six Na⁺ ions (ions of opposite charge)."
+      },
+      {
+        id: "kmu-2026-chem-132",
+        question: "Ionic solids conduct electricity in ______ state.",
+        options: [
+          "Frozen",
+          "Molten",
+          "Solid",
+          "Vapour"
+        ],
+        answer: 1,
+        explanation: "In the solid state, ions are held rigidly in fixed lattice positions and cannot move freely. When melted into the molten state (or dissolved in water), the crystal lattice breaks down, allowing the ions to move freely and conduct an electric current."
+      },
+      {
+        id: "kmu-2026-chem-133",
+        question: "A unit cell of crystal lattice is characterized by ______ parameters.",
+        options: [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        answer: 2,
+        explanation: "A unit cell is defined by six crystallographic parameters: the three edge lengths (a, b, and c) along the three axes and the three interfacial angles (α, β, and γ) between them."
+      },
+      {
+        id: "kmu-2026-chem-134",
+        question: "When gaseous ions of opposite charge combine to form an ionic crystal, lattice energy is ______.",
+        options: [
+          "Absorbed",
+          "Released",
+          "Stored",
+          "Vaporized"
+        ],
+        answer: 1,
+        explanation: "Lattice energy is the enthalpy change when one mole of an ionic crystal is formed from its isolated gaseous ions. Because strong electrostatic attractions are formed between oppositely charged ions, the process is exothermic and energy is released."
       }
   ];
