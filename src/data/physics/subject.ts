@@ -13775,5 +13775,437 @@ export type Question = {
         ],
         answer: 2,
         explanation: "In standard MDCAT past paper phrasing, 'one-eighth (1/8th)' refers to the fraction remaining undecayed (N/N₀ = 1/8 = (1/2)³), which takes n = 3 half-lives. Since T₁/₂ = 2 minutes, total time t = n × T₁/₂ = 3 × 2 = 6 minutes."
+      },
+      {
+        id: "kmu-2026-phys-082",
+        question: "When two vectors A and B are added, which statement is correct?",
+        options: [
+          "A + B and B + A have different magnitudes but the same direction",
+          "The resultant depends on which vector is drawn first",
+          "A + B = B + A, so changing the order does not change the resultant",
+          "The commutative law applies only when the vectors are perpendicular"
+        ],
+        answer: 2,
+        explanation: "Vector addition obeys the commutative law (A + B = B + A), meaning the resultant vector has the exact same magnitude and direction regardless of the order in which the vectors are added."
+      },
+      {
+        id: "kmu-2026-phys-083",
+        question: "The direction of linear momentum is the same as the direction of:",
+        options: [
+          "Force",
+          "Acceleration",
+          "Velocity",
+          "Displacement"
+        ],
+        answer: 2,
+        explanation: "Linear momentum (p = mv) is the product of mass (a positive scalar) and velocity (a vector), so it always points in the exact same direction as velocity."
+      },
+      {
+        id: "kmu-2026-phys-084",
+        question: "Which situation represents uniform acceleration?",
+        options: [
+          "Velocity changes by unequal amounts during equal time intervals",
+          "Acceleration changes continuously with time",
+          "Velocity changes by equal amount in equal intervals of time",
+          "Velocity remains constant throughout the motion"
+        ],
+        answer: 2,
+        explanation: "Uniform (constant) acceleration is defined as a constant rate of change of velocity, meaning velocity changes by equal amounts in equal time intervals."
+      },
+      {
+        id: "kmu-2026-phys-085",
+        question: "A particle moves from 40 m at 10 s to 20 m at 15 s. Its average velocity is:",
+        options: [
+          "4 m/s",
+          "−4 m/s",
+          "0.04 m/s",
+          "−0.04 m/s"
+        ],
+        answer: 1,
+        explanation: "Average velocity is displacement divided by time interval: v_avg = (x₂ − x₁) / (t₂ − t₁) = (20 m − 40 m) / (15 s − 10 s) = −20 m / 5 s = −4 m/s."
+      },
+      {
+        id: "kmu-2026-phys-086",
+        question: "A 4 kg block and an 8 kg block are pushed with the same force on a frictionless surface. Which statement is CORRECT?",
+        options: [
+          "Both blocks have the same acceleration",
+          "The 4 kg block has double the acceleration of the 8 kg block",
+          "The 8 kg block has double the acceleration of the 4 kg block",
+          "Both blocks move with the same velocity"
+        ],
+        answer: 1,
+        explanation: "By Newton's second law (a = F / m), acceleration is inversely proportional to mass for a constant net force. Since 4 kg is half of 8 kg, the 4 kg block experiences double the acceleration."
+      },
+      {
+        id: "kmu-2026-phys-087",
+        question: "The maximum height reached by a projectile is directly proportional to:",
+        options: [
+          "sin²θ",
+          "cos²θ",
+          "cosθ",
+          "sinθ"
+        ],
+        answer: 0,
+        explanation: "The maximum height of a projectile is given by H = (v_i² sin²θ) / (2g). For a fixed launch speed and gravity, H is directly proportional to sin²θ."
+      },
+      {
+        id: "kmu-2026-phys-088",
+        question: "In an isolated system, total energy and momentum is ______ in all situations.",
+        options: [
+          "Conserved",
+          "Lost",
+          "Doubled",
+          "Halved"
+        ],
+        answer: 0,
+        explanation: "According to the fundamental conservation laws of physics, in the absence of external forces or energy transfer (an isolated system), both total energy and total linear momentum remain conserved."
+      },
+      {
+        id: "kmu-2026-phys-089",
+        question: "A person pushes against a stationary wall with a constant force for 2 mins. The work done on the wall is:",
+        options: [
+          "Positive",
+          "Negative",
+          "Zero",
+          "Equal to the applied force"
+        ],
+        answer: 2,
+        explanation: "Work is defined as W = F · d = Fd cosθ. Since the wall remains stationary, its displacement (d) is zero, making the work done equal to zero."
+      },
+      {
+        id: "kmu-2026-phys-090",
+        question: "A motor performs 2400 J of work in 2 minutes. The power generated is:",
+        options: [
+          "10 W",
+          "20 W",
+          "1200 W",
+          "4800 W"
+        ],
+        answer: 1,
+        explanation: "Power is work done per unit time: P = W / t. Converting 2 minutes into seconds gives t = 2 × 60 = 120 s. Therefore, P = 2400 J / 120 s = 20 W."
+      },
+      {
+        id: "kmu-2026-phys-091",
+        question: "The equation P.E = mgh is NOT applicable when:",
+        options: [
+          "The body’s height is much lesser than earth’s radius",
+          "The body’s height is much greater than earth’s radius",
+          "The mass is zero",
+          "Gravity is constant"
+        ],
+        answer: 1,
+        explanation: "The formula P.E = mgh assumes a constant acceleration due to gravity (g), which holds true only near Earth's surface (h << R). When the height is comparable to or much greater than Earth's radius, g varies significantly with distance and the general gravitational potential energy formula must be used."
+      },
+      {
+        id: "kmu-2026-phys-092",
+        question: "If the string breaks while a ball is moving in a circle, the ball will:",
+        options: [
+          "Continue moving in a circle",
+          "Stop immediately",
+          "Move in a straight line tangent to the circle",
+          "Fall directly towards the centre"
+        ],
+        answer: 2,
+        explanation: "When the string breaks, the centripetal force providing the inward acceleration vanishes. By Newton's first law of motion, the ball continues moving with its instantaneous velocity, which is directed tangentially to the circular path."
+      },
+      {
+        id: "kmu-2026-phys-093",
+        question: "One radian is the angle subtended at the centre by an arc whose length is equal to the ______ of the circle.",
+        options: [
+          "Diameter",
+          "Radius",
+          "Circumference",
+          "Chord"
+        ],
+        answer: 1,
+        explanation: "According to the relation θ = s / r, when the arc length (s) equals the radius (r) of the circle, the angle subtended at the center is θ = r / r = 1 radian."
+      },
+      {
+        id: "kmu-2026-phys-094",
+        question: "The SI unit of angular displacement is:",
+        options: [
+          "Degree",
+          "Revolution",
+          "Radian",
+          "Rad/s"
+        ],
+        answer: 2,
+        explanation: "The standard International System (SI) unit for measuring angular displacement (plane angle) is the radian (rad)."
+      },
+      {
+        id: "kmu-2026-phys-095",
+        question: "A raindrop falls through the air and eventually reaches terminal velocity. At this instant, the net force acting on the raindrop is:",
+        options: [
+          "Zero",
+          "Greater than its weight",
+          "Equal to the air resistance",
+          "Equal to the weight"
+        ],
+        answer: 0,
+        explanation: "At terminal velocity, the upward drag force (air resistance) balances the downward gravitational force (weight), resulting in zero acceleration and zero net force acting on the raindrop."
+      },
+      {
+        id: "kmu-2026-phys-096",
+        question: "As the skydiver slows down after opening the parachute and approaches terminal velocity, the air resistance is:",
+        options: [
+          "Zero",
+          "Increased",
+          "Reduced",
+          "Not changed"
+        ],
+        answer: 2,
+        explanation: "Opening the parachute initially creates a huge upward drag force greater than weight, causing the skydiver to decelerate. Because air resistance is proportional to speed (or speed squared), as the skydiver slows down, the air resistance decreases until it once again equals the skydiver's weight at the new, lower terminal velocity."
+      },
+      {
+        id: "kmu-2026-phys-097",
+        question: "A hosepipe ejects water with a velocity of 2 m/s from an opening of 0.05 m². To double the velocity the cross-sectional area should be:",
+        options: [
+          "0.025 m²",
+          "0.0125 m²",
+          "0.05 m²",
+          "0.10 m²"
+        ],
+        answer: 0,
+        explanation: "By the equation of continuity for an incompressible fluid (A₁v₁ = A₂v₂), velocity is inversely proportional to cross-sectional area. To double the velocity (from 2 m/s to 4 m/s), the area must be halved: A₂ = (0.05 m² × 2 m/s) / 4 m/s = 0.025 m²."
+      },
+      {
+        id: "kmu-2026-phys-098",
+        question: "If the radius of an artery is reduced due to arteriosclerosis, the heart must increase blood pressure to:",
+        options: [
+          "Increase the blood flow rate",
+          "Maintain the same blood flow rate",
+          "Reduce the blood flow rate",
+          "Increase the radius of the artery"
+        ],
+        answer: 1,
+        explanation: "According to Poiseuille's law (Q = πΔPr⁴ / 8ηL), narrowing of the arterial radius (r) drastically increases flow resistance. To keep vital organs supplied, the heart increases blood pressure (ΔP) to maintain the same normal volumetric blood flow rate (Q)."
+      },
+      {
+        id: "kmu-2026-phys-099",
+        question: "In a progressive wave, a wave crest moves a distance of ______ during one complete period (T).",
+        options: [
+          "Half a wavelength",
+          "One wavelength",
+          "Two wavelengths",
+          "Multiple wavelengths"
+        ],
+        answer: 1,
+        explanation: "By definition, the wavelength (λ) is the distance traveled by a wave disturbance (such as a crest) during one complete time period (T), satisfying v = λ / T."
+      },
+      {
+        id: "kmu-2026-phys-100",
+        question: "In transverse waves, the particles of the medium vibrate ______ to the direction of wave propagation, whereas in longitudinal waves they vibrate ______.",
+        options: [
+          "Perpendicular; parallel",
+          "Parallel; perpendicular",
+          "Parallel; parallel",
+          "Perpendicular; perpendicular"
+        ],
+        answer: 0,
+        explanation: "In transverse waves (such as waves on a string), particle oscillations occur perpendicular (at 90°) to the direction of energy propagation, whereas in longitudinal waves (such as sound waves), particles oscillate parallel (back and forth along) the direction of wave travel."
+      },
+      {
+        id: "kmu-2026-phys-101",
+        question: "A wave travels through a string with a frequency of 25 Hz and a wavelength of 1.6 m. How far does the wave travel in 8 seconds?",
+        options: [
+          "160 m",
+          "240 m",
+          "320 m",
+          "400 m"
+        ],
+        answer: 2,
+        explanation: "First calculate the wave speed: v = f × λ = 25 Hz × 1.6 m = 40 m/s. Then multiply speed by time to find distance: d = v × t = 40 m/s × 8 s = 320 m."
+      },
+      {
+        id: "kmu-2026-phys-102",
+        question: "The increase in speed of sound in gas for each 1°C rise in temperature is:",
+        options: [
+          "0.2 m/s",
+          "0.6 m/s",
+          "1.2 m/s",
+          "2.0 m/s"
+        ],
+        answer: 1,
+        explanation: "According to the empirical relation v_t = v_0 + 0.61t, the speed of sound in air increases by approximately 0.61 m/s (commonly rounded to 0.6 m/s) for every 1°C rise in temperature."
+      },
+      {
+        id: "kmu-2026-phys-103",
+        question: "According to Laplace, sound waves travel through air so rapidly that:",
+        options: [
+          "Heat is completely lost to the surroundings",
+          "Heat is completely gained from the surroundings",
+          "No heat is exchanged with the surroundings",
+          "Heat is exchanged slowly with the surroundings"
+        ],
+        answer: 2,
+        explanation: "Laplace corrected Newton's formula by recognizing that compressions and rarefactions in sound waves occur so rapidly in air (a poor thermal conductor) that no heat enters or leaves the system, making the process adiabatic (ΔQ = 0)."
+      },
+      {
+        id: "kmu-2026-phys-104",
+        question: "A gas absorbs 1.5 × 10³ J of heat and performs 5.0 × 10² J of work. Its change in internal energy (ΔU) is:",
+        options: [
+          "1.0 × 10³ J",
+          "−1.0 × 10³ J",
+          "2.0 × 10³ J",
+          "−2.0 × 10³ J"
+        ],
+        answer: 0,
+        explanation: "According to the first law of thermodynamics, ΔU = Q − W. Here, heat absorbed Q = +1500 J and work done by the gas W = +500 J, so ΔU = 1500 J − 500 J = 1000 J = 1.0 × 10³ J."
+      },
+      {
+        id: "kmu-2026-phys-105",
+        question: "One mole of an ideal gas is heated through 20 K at constant pressure, where R = 8.315 J mol⁻¹ K⁻¹. If Cᵥ = 21 J mol⁻¹ K⁻¹, the heat supplied is:",
+        options: [
+          "166 J",
+          "420 J",
+          "586 J",
+          "752 J"
+        ],
+        answer: 2,
+        explanation: "By Mayer's relation, Cₚ = Cᵥ + R = 21 + 8.315 = 29.315 J mol⁻¹ K⁻¹. At constant pressure, heat supplied is Q = nCₚΔT = 1 mol × 29.315 J mol⁻¹ K⁻¹ × 20 K = 586.3 J ≈ 586 J."
+      },
+      {
+        id: "kmu-2026-phys-106",
+        question: "In an adiabatic process if a gas is allowed to expand suddenly, its temperature will:",
+        options: [
+          "Decrease",
+          "Increase",
+          "Remain constant",
+          "Become absolute zero"
+        ],
+        answer: 0,
+        explanation: "In an adiabatic expansion, no heat enters or leaves the system (Q = 0). By the first law of thermodynamics (ΔU = −W), the gas does positive work against external pressure at the expense of its own internal energy, causing its temperature to decrease."
+      },
+      {
+        id: "kmu-2026-phys-107",
+        question: "According to Coulomb’s law, if the distance between two point charges is doubled while their magnitudes remain unchanged, the electrostatic force between them becomes:",
+        options: [
+          "One-fourth of its original value",
+          "One-half of its original value",
+          "Twice its original value",
+          "Four times its original value"
+        ],
+        answer: 0,
+        explanation: "By Coulomb's law, electrostatic force F = kq₁q₂ / r², so F is inversely proportional to the square of the distance (F ∝ 1/r²). Doubling the distance (2r) reduces the force by a factor of 2² = 4, making it one-fourth of its original value."
+      },
+      {
+        id: "kmu-2026-phys-108",
+        question: "A 12 V battery transfers 5000 C of charge through a circuit. The energy delivered is:",
+        options: [
+          "4.17 × 10² J",
+          "4.17 × 10³ J",
+          "6.0 × 10⁴ J",
+          "6.0 × 10⁵ J"
+        ],
+        answer: 2,
+        explanation: "Electrical energy delivered is given by E = q × V = 5000 C × 12 V = 60,000 J = 6.0 × 10⁴ J."
+      },
+      {
+        id: "kmu-2026-phys-109",
+        question: "An infinite plane sheet has a surface charge density σ = 8.85 × 10⁻⁶ C m⁻². The electric field on either side of the sheet is:",
+        options: [
+          "0.25 × 10⁶ N C⁻¹",
+          "0.5 × 10⁶ N C⁻¹",
+          "1 × 10⁶ N C⁻¹",
+          "2 × 10⁶ N C⁻¹"
+        ],
+        answer: 1,
+        explanation: "The electric field intensity near an infinite plane sheet of charge is E = σ / (2ε₀). Substituting σ = 8.85 × 10⁻⁶ C m⁻² and ε₀ = 8.85 × 10⁻¹² C² N⁻¹ m⁻² gives E = (8.85 × 10⁻⁶) / (2 × 8.85 × 10⁻¹²) = 0.5 × 10⁶ N C⁻¹."
+      },
+      {
+        id: "kmu-2026-phys-110",
+        question: "Steady current in a metallic conductor is due to the ______ under an electric field.",
+        options: [
+          "Directed flow of free electrons",
+          "Random electron motion",
+          "Positive ion movement",
+          "Continuously changing electron flow"
+        ],
+        answer: 0,
+        explanation: "In a metallic conductor, the positive ions are fixed in a crystal lattice. When an external electric field is applied, the delocalized free electrons acquire a steady net drift velocity opposite to the field, producing a directed flow of charge (steady electric current)."
+      },
+      {
+        id: "kmu-2026-phys-111",
+        question: "Which expression correctly represents the SI unit of magnetic flux density?",
+        options: [
+          "N A⁻¹ m⁻¹",
+          "N A⁻¹ m",
+          "N C⁻¹",
+          "Wb m²"
+        ],
+        answer: 0,
+        explanation: "From the magnetic force formula on a current-carrying conductor (F = ILB sinθ), magnetic flux density is B = F / (IL). Substituting SI units gives N / (A · m) = N A⁻¹ m⁻¹ (which is equivalent to 1 Tesla)."
+      },
+      {
+        id: "kmu-2026-phys-112",
+        question: "If the number of turns of a coil is doubled while the rate of change of magnetic flux remains constant, the induced e.m.f. will be:",
+        options: [
+          "Halved",
+          "Unchanged",
+          "Doubled",
+          "One-fourth"
+        ],
+        answer: 2,
+        explanation: "According to Faraday's law of electromagnetic induction (ε = −N ΔΦ / Δt), the induced e.m.f. is directly proportional to the number of turns (N) in the coil. When N is doubled and the rate of change of magnetic flux (ΔΦ / Δt) remains constant, the induced e.m.f. is also doubled."
+      },
+      {
+        id: "kmu-2026-phys-113",
+        question: "In an alternating current wave, the phase of the maximum positive value is:",
+        options: [
+          "0°",
+          "90°",
+          "180°",
+          "270°"
+        ],
+        answer: 1,
+        explanation: "In a sinusoidal alternating current wave represented by I = I₀ sin(θ), the current reaches its maximum positive peak value (+I₀) when sin(θ) = 1, which corresponds to a phase angle θ = 90° (or π/2 radians)."
+      },
+      {
+        id: "kmu-2026-phys-114",
+        question: "When a diode is reverse biased, it:",
+        options: [
+          "Almost stops the current",
+          "Reduces the resistance of the junction",
+          "Allows current to pass",
+          "Increases the current"
+        ],
+        answer: 0,
+        explanation: "When a p-n junction diode is reverse biased, the external voltage widens the depletion region and increases the potential barrier, presenting very high resistance that blocks majority charge carriers and almost completely stops current flow (except for a negligible reverse saturation leakage current)."
+      },
+      {
+        id: "kmu-2026-phys-115",
+        question: "According to Planck’s theory, an atom in one quantum state:",
+        options: [
+          "Emits energy continuously",
+          "Absorbs energy continuously",
+          "Neither emits nor absorbs energy",
+          "Emits one photon every second"
+        ],
+        answer: 2,
+        explanation: "According to Planck's quantum theory (and Bohr's atomic model built upon it), an atomic oscillator or electron remaining in a single stationary quantum state possesses a fixed discrete energy and neither emits nor absorbs energy; energy is emitted or absorbed only when it transitions between two different quantum states."
+      },
+      {
+        id: "kmu-2026-phys-116",
+        question: "Which type of spectrum consists of bright lines of various frequencies?",
+        options: [
+          "Line emission",
+          "Line absorption",
+          "Continuous",
+          "Band"
+        ],
+        answer: 0,
+        explanation: "A line emission spectrum is produced when excited atoms transition back to lower energy states, emitting photons of discrete frequencies that appear as distinct bright lines against a dark background."
+      },
+      {
+        id: "kmu-2026-phys-117",
+        question: "The half-life of a radioactive element is:",
+        options: [
+          "Constant",
+          "Variable",
+          "Dependent on the quantity",
+          "Dependent on temperature and pressure"
+        ],
+        answer: 0,
+        explanation: "Radioactive decay is a spontaneous nuclear process governed by the decay constant (λ) characteristic of each unstable isotope. Consequently, its half-life (T₁/₂ = 0.693 / λ) is a constant property unaffected by initial sample quantity or external physical conditions like temperature and pressure."
       }
 ];

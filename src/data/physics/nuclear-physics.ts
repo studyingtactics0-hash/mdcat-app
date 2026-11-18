@@ -966,5 +966,17 @@ export type Question = {
         ],
         answer: 2,
         explanation: "In standard MDCAT past paper phrasing, 'one-eighth (1/8th)' refers to the fraction remaining undecayed (N/N₀ = 1/8 = (1/2)³), which takes n = 3 half-lives. Since T₁/₂ = 2 minutes, total time t = n × T₁/₂ = 3 × 2 = 6 minutes."
+      },
+      {
+        id: "kmu-2026-phys-117",
+        question: "The half-life of a radioactive element is:",
+        options: [
+          "Constant",
+          "Variable",
+          "Dependent on the quantity",
+          "Dependent on temperature and pressure"
+        ],
+        answer: 0,
+        explanation: "Radioactive decay is a spontaneous nuclear process governed by the decay constant (λ) characteristic of each unstable isotope. Consequently, its half-life (T₁/₂ = 0.693 / λ) is a constant property unaffected by initial sample quantity or external physical conditions like temperature and pressure."
       }
   ];

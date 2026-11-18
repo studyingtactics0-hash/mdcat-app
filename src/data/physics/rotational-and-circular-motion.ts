@@ -964,5 +964,41 @@ export type Question = {
         ],
         answer: 1,
         explanation: "Since linear velocity is given by v = rω, the ratio v/ω equals the radius r (distance from the center). Therefore, if the distance r from the center is tripled, the ratio v/ω also triples."
+      },
+      {
+        id: "kmu-2026-phys-092",
+        question: "If the string breaks while a ball is moving in a circle, the ball will:",
+        options: [
+          "Continue moving in a circle",
+          "Stop immediately",
+          "Move in a straight line tangent to the circle",
+          "Fall directly towards the centre"
+        ],
+        answer: 2,
+        explanation: "When the string breaks, the centripetal force providing the inward acceleration vanishes. By Newton's first law of motion, the ball continues moving with its instantaneous velocity, which is directed tangentially to the circular path."
+      },
+      {
+        id: "kmu-2026-phys-093",
+        question: "One radian is the angle subtended at the centre by an arc whose length is equal to the ______ of the circle.",
+        options: [
+          "Diameter",
+          "Radius",
+          "Circumference",
+          "Chord"
+        ],
+        answer: 1,
+        explanation: "According to the relation θ = s / r, when the arc length (s) equals the radius (r) of the circle, the angle subtended at the center is θ = r / r = 1 radian."
+      },
+      {
+        id: "kmu-2026-phys-094",
+        question: "The SI unit of angular displacement is:",
+        options: [
+          "Degree",
+          "Revolution",
+          "Radian",
+          "Rad/s"
+        ],
+        answer: 2,
+        explanation: "The standard International System (SI) unit for measuring angular displacement (plane angle) is the radian (rad)."
       }
   ];

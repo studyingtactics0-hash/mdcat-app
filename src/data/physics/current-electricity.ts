@@ -1109,5 +1109,17 @@ export type Question = {
         ],
         answer: 3,
         explanation: "Resistivity (specific resistance) is an intrinsic material property that depends only on the nature of the material and temperature, not on its physical dimensions such as length or diameter. Therefore, doubling the diameter leaves the resistivity unchanged."
+      },
+      {
+        id: "kmu-2026-phys-110",
+        question: "Steady current in a metallic conductor is due to the ______ under an electric field.",
+        options: [
+          "Directed flow of free electrons",
+          "Random electron motion",
+          "Positive ion movement",
+          "Continuously changing electron flow"
+        ],
+        answer: 0,
+        explanation: "In a metallic conductor, the positive ions are fixed in a crystal lattice. When an external electric field is applied, the delocalized free electrons acquire a steady net drift velocity opposite to the field, producing a directed flow of charge (steady electric current)."
       }
   ];

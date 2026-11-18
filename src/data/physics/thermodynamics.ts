@@ -1478,5 +1478,41 @@ export type Question = {
           ],
           answer: 0,
           explanation: "By the first law of thermodynamics, Q = ΔU + W. In an isothermal process, temperature remains constant, so the change in internal energy of an ideal gas is zero (ΔU = 0), yielding Q = W."
+        },
+        {
+          id: "kmu-2026-phys-104",
+          question: "A gas absorbs 1.5 × 10³ J of heat and performs 5.0 × 10² J of work. Its change in internal energy (ΔU) is:",
+          options: [
+            "1.0 × 10³ J",
+            "−1.0 × 10³ J",
+            "2.0 × 10³ J",
+            "−2.0 × 10³ J"
+          ],
+          answer: 0,
+          explanation: "According to the first law of thermodynamics, ΔU = Q − W. Here, heat absorbed Q = +1500 J and work done by the gas W = +500 J, so ΔU = 1500 J − 500 J = 1000 J = 1.0 × 10³ J."
+        },
+        {
+          id: "kmu-2026-phys-105",
+          question: "One mole of an ideal gas is heated through 20 K at constant pressure, where R = 8.315 J mol⁻¹ K⁻¹. If Cᵥ = 21 J mol⁻¹ K⁻¹, the heat supplied is:",
+          options: [
+            "166 J",
+            "420 J",
+            "586 J",
+            "752 J"
+          ],
+          answer: 2,
+          explanation: "By Mayer's relation, Cₚ = Cᵥ + R = 21 + 8.315 = 29.315 J mol⁻¹ K⁻¹. At constant pressure, heat supplied is Q = nCₚΔT = 1 mol × 29.315 J mol⁻¹ K⁻¹ × 20 K = 586.3 J ≈ 586 J."
+        },
+        {
+          id: "kmu-2026-phys-106",
+          question: "In an adiabatic process if a gas is allowed to expand suddenly, its temperature will:",
+          options: [
+            "Decrease",
+            "Increase",
+            "Remain constant",
+            "Become absolute zero"
+          ],
+          answer: 0,
+          explanation: "In an adiabatic expansion, no heat enters or leaves the system (Q = 0). By the first law of thermodynamics (ΔU = −W), the gas does positive work against external pressure at the expense of its own internal energy, causing its temperature to decrease."
         }
   ];

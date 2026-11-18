@@ -518,5 +518,17 @@ export type Question = {
         ],
         answer: 2,
         explanation: "An emission line spectrum is produced when excited electrons in hydrogen atoms transition from higher energy levels (E₂) back down to lower energy levels (E₁), emitting photons of specific discrete wavelengths (colors) corresponding to ΔE = E₂ - E₁ = hf."
+      },
+      {
+        id: "kmu-2026-phys-116",
+        question: "Which type of spectrum consists of bright lines of various frequencies?",
+        options: [
+          "Line emission",
+          "Line absorption",
+          "Continuous",
+          "Band"
+        ],
+        answer: 0,
+        explanation: "A line emission spectrum is produced when excited atoms transition back to lower energy states, emitting photons of discrete frequencies that appear as distinct bright lines against a dark background."
       }
   ];

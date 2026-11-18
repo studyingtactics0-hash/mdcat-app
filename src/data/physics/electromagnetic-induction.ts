@@ -975,5 +975,17 @@ export type Question = {
         ],
         answer: 1,
         explanation: "Lenz's law determines the direction of the induced current (and polarity of induced emf), stating that the induced current always flows in a direction such that the magnetic field it creates opposes the change in magnetic flux that produced it."
+      },
+      {
+        id: "kmu-2026-phys-112",
+        question: "If the number of turns of a coil is doubled while the rate of change of magnetic flux remains constant, the induced e.m.f. will be:",
+        options: [
+          "Halved",
+          "Unchanged",
+          "Doubled",
+          "One-fourth"
+        ],
+        answer: 2,
+        explanation: "According to Faraday's law of electromagnetic induction (ε = −N ΔΦ / Δt), the induced e.m.f. is directly proportional to the number of turns (N) in the coil. When N is doubled and the rate of change of magnetic flux (ΔΦ / Δt) remains constant, the induced e.m.f. is also doubled."
       }
   ];

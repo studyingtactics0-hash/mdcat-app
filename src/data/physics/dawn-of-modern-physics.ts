@@ -879,5 +879,17 @@ export type Question = {
         ],
         answer: 2,
         explanation: "According to Planck's quantum theory, the energy difference between two consecutive quantum states is ΔE = hf. Dividing by frequency gives ΔE / f = h, which is Planck's constant (6.63 × 10⁻³⁴ J·s)."
+      },
+      {
+        id: "kmu-2026-phys-115",
+        question: "According to Planck’s theory, an atom in one quantum state:",
+        options: [
+          "Emits energy continuously",
+          "Absorbs energy continuously",
+          "Neither emits nor absorbs energy",
+          "Emits one photon every second"
+        ],
+        answer: 2,
+        explanation: "According to Planck's quantum theory (and Bohr's atomic model built upon it), an atomic oscillator or electron remaining in a single stationary quantum state possesses a fixed discrete energy and neither emits nor absorbs energy; energy is emitted or absorbed only when it transitions between two different quantum states."
       }
   ];

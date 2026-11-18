@@ -656,5 +656,17 @@ export type Question = {
         ],
         answer: 1,
         explanation: "In reverse biasing, the positive terminal of the external voltage source is connected to the n-type region and the negative terminal to the p-type region. This widens the depletion region and increases the potential barrier, preventing majority carrier flow and resulting in a very high junction resistance (on the order of megaohms)."
+      },
+      {
+        id: "kmu-2026-phys-114",
+        question: "When a diode is reverse biased, it:",
+        options: [
+          "Almost stops the current",
+          "Reduces the resistance of the junction",
+          "Allows current to pass",
+          "Increases the current"
+        ],
+        answer: 0,
+        explanation: "When a p-n junction diode is reverse biased, the external voltage widens the depletion region and increases the potential barrier, presenting very high resistance that blocks majority charge carriers and almost completely stops current flow (except for a negligible reverse saturation leakage current)."
       }
   ];

@@ -1053,5 +1053,41 @@ export type Question = {
         ],
         answer: 2,
         explanation: "Work done is given by W = Fd cosθ. When the force is parallel to the direction of displacement, the angle θ = 0° and cos(0°) = 1 (its maximum possible value), yielding maximum positive work (W = Fd)."
+      },
+      {
+        id: "kmu-2026-phys-089",
+        question: "A person pushes against a stationary wall with a constant force for 2 mins. The work done on the wall is:",
+        options: [
+          "Positive",
+          "Negative",
+          "Zero",
+          "Equal to the applied force"
+        ],
+        answer: 2,
+        explanation: "Work is defined as W = F · d = Fd cosθ. Since the wall remains stationary, its displacement (d) is zero, making the work done equal to zero."
+      },
+      {
+        id: "kmu-2026-phys-090",
+        question: "A motor performs 2400 J of work in 2 minutes. The power generated is:",
+        options: [
+          "10 W",
+          "20 W",
+          "1200 W",
+          "4800 W"
+        ],
+        answer: 1,
+        explanation: "Power is work done per unit time: P = W / t. Converting 2 minutes into seconds gives t = 2 × 60 = 120 s. Therefore, P = 2400 J / 120 s = 20 W."
+      },
+      {
+        id: "kmu-2026-phys-091",
+        question: "The equation P.E = mgh is NOT applicable when:",
+        options: [
+          "The body’s height is much lesser than earth’s radius",
+          "The body’s height is much greater than earth’s radius",
+          "The mass is zero",
+          "Gravity is constant"
+        ],
+        answer: 1,
+        explanation: "The formula P.E = mgh assumes a constant acceleration due to gravity (g), which holds true only near Earth's surface (h << R). When the height is comparable to or much greater than Earth's radius, g varies significantly with distance and the general gravitational potential energy formula must be used."
       }
   ];

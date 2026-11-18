@@ -1326,5 +1326,77 @@ export type Question = {
         ],
         answer: 1,
         explanation: "For horizontal projection, the initial vertical velocity v_iy = 0. Using the vertical equation of motion h = v_iy(t) + ½gt², we get 45 = 0 + ½(10)t² => 45 = 5t² => t² = 9 => t = 3 s."
+      },
+      {
+        id: "kmu-2026-phys-083",
+        question: "The direction of linear momentum is the same as the direction of:",
+        options: [
+          "Force",
+          "Acceleration",
+          "Velocity",
+          "Displacement"
+        ],
+        answer: 2,
+        explanation: "Linear momentum (p = mv) is the product of mass (a positive scalar) and velocity (a vector), so it always points in the exact same direction as velocity."
+      },
+      {
+        id: "kmu-2026-phys-084",
+        question: "Which situation represents uniform acceleration?",
+        options: [
+          "Velocity changes by unequal amounts during equal time intervals",
+          "Acceleration changes continuously with time",
+          "Velocity changes by equal amount in equal intervals of time",
+          "Velocity remains constant throughout the motion"
+        ],
+        answer: 2,
+        explanation: "Uniform (constant) acceleration is defined as a constant rate of change of velocity, meaning velocity changes by equal amounts in equal time intervals."
+      },
+      {
+        id: "kmu-2026-phys-085",
+        question: "A particle moves from 40 m at 10 s to 20 m at 15 s. Its average velocity is:",
+        options: [
+          "4 m/s",
+          "−4 m/s",
+          "0.04 m/s",
+          "−0.04 m/s"
+        ],
+        answer: 1,
+        explanation: "Average velocity is displacement divided by time interval: v_avg = (x₂ − x₁) / (t₂ − t₁) = (20 m − 40 m) / (15 s − 10 s) = −20 m / 5 s = −4 m/s."
+      },
+      {
+        id: "kmu-2026-phys-086",
+        question: "A 4 kg block and an 8 kg block are pushed with the same force on a frictionless surface. Which statement is CORRECT?",
+        options: [
+          "Both blocks have the same acceleration",
+          "The 4 kg block has double the acceleration of the 8 kg block",
+          "The 8 kg block has double the acceleration of the 4 kg block",
+          "Both blocks move with the same velocity"
+        ],
+        answer: 1,
+        explanation: "By Newton's second law (a = F / m), acceleration is inversely proportional to mass for a constant net force. Since 4 kg is half of 8 kg, the 4 kg block experiences double the acceleration."
+      },
+      {
+        id: "kmu-2026-phys-087",
+        question: "The maximum height reached by a projectile is directly proportional to:",
+        options: [
+          "sin²θ",
+          "cos²θ",
+          "cosθ",
+          "sinθ"
+        ],
+        answer: 0,
+        explanation: "The maximum height of a projectile is given by H = (v_i² sin²θ) / (2g). For a fixed launch speed and gravity, H is directly proportional to sin²θ."
+      },
+      {
+        id: "kmu-2026-phys-088",
+        question: "In an isolated system, total energy and momentum is ______ in all situations.",
+        options: [
+          "Conserved",
+          "Lost",
+          "Doubled",
+          "Halved"
+        ],
+        answer: 0,
+        explanation: "According to the fundamental conservation laws of physics, in the absence of external forces or energy transfer (an isolated system), both total energy and total linear momentum remain conserved."
       }
   ];

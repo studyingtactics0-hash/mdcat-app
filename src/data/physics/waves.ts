@@ -1334,5 +1334,65 @@ export type Question = {
           ],
           answer: 1,
           explanation: "Sound waves in air are longitudinal waves. When reflected from the closed end of a resonance tube at a resonant length, incident and reflected waves superimpose to form longitudinal stationary (standing) waves."
+        },
+        {
+          id: "kmu-2026-phys-099",
+          question: "In a progressive wave, a wave crest moves a distance of ______ during one complete period (T).",
+          options: [
+            "Half a wavelength",
+            "One wavelength",
+            "Two wavelengths",
+            "Multiple wavelengths"
+          ],
+          answer: 1,
+          explanation: "By definition, the wavelength (λ) is the distance traveled by a wave disturbance (such as a crest) during one complete time period (T), satisfying v = λ / T."
+        },
+        {
+          id: "kmu-2026-phys-100",
+          question: "In transverse waves, the particles of the medium vibrate ______ to the direction of wave propagation, whereas in longitudinal waves they vibrate ______.",
+          options: [
+            "Perpendicular; parallel",
+            "Parallel; perpendicular",
+            "Parallel; parallel",
+            "Perpendicular; perpendicular"
+          ],
+          answer: 0,
+          explanation: "In transverse waves (such as waves on a string), particle oscillations occur perpendicular (at 90°) to the direction of energy propagation, whereas in longitudinal waves (such as sound waves), particles oscillate parallel (back and forth along) the direction of wave travel."
+        },
+        {
+          id: "kmu-2026-phys-101",
+          question: "A wave travels through a string with a frequency of 25 Hz and a wavelength of 1.6 m. How far does the wave travel in 8 seconds?",
+          options: [
+            "160 m",
+            "240 m",
+            "320 m",
+            "400 m"
+          ],
+          answer: 2,
+          explanation: "First calculate the wave speed: v = f × λ = 25 Hz × 1.6 m = 40 m/s. Then multiply speed by time to find distance: d = v × t = 40 m/s × 8 s = 320 m."
+        },
+        {
+          id: "kmu-2026-phys-102",
+          question: "The increase in speed of sound in gas for each 1°C rise in temperature is:",
+          options: [
+            "0.2 m/s",
+            "0.6 m/s",
+            "1.2 m/s",
+            "2.0 m/s"
+          ],
+          answer: 1,
+          explanation: "According to the empirical relation v_t = v_0 + 0.61t, the speed of sound in air increases by approximately 0.61 m/s (commonly rounded to 0.6 m/s) for every 1°C rise in temperature."
+        },
+        {
+          id: "kmu-2026-phys-103",
+          question: "According to Laplace, sound waves travel through air so rapidly that:",
+          options: [
+            "Heat is completely lost to the surroundings",
+            "Heat is completely gained from the surroundings",
+            "No heat is exchanged with the surroundings",
+            "Heat is exchanged slowly with the surroundings"
+          ],
+          answer: 2,
+          explanation: "Laplace corrected Newton's formula by recognizing that compressions and rarefactions in sound waves occur so rapidly in air (a poor thermal conductor) that no heat enters or leaves the system, making the process adiabatic (ΔQ = 0)."
         }
   ];

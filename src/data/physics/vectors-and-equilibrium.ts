@@ -163,5 +163,17 @@ export type Question = {
       ],
       answer: 2,
       explanation: "The magnitude of the cross product of two vectors A and B is |A × B| = AB sinθ. For parallel vectors, the angle θ = 0° (or 180° for anti-parallel), and since sin(0°) = 0, the magnitude is zero."
+    },
+    {
+      id: "kmu-2026-phys-082",
+      question: "When two vectors A and B are added, which statement is correct?",
+      options: [
+        "A + B and B + A have different magnitudes but the same direction",
+        "The resultant depends on which vector is drawn first",
+        "A + B = B + A, so changing the order does not change the resultant",
+        "The commutative law applies only when the vectors are perpendicular"
+      ],
+      answer: 2,
+      explanation: "Vector addition obeys the commutative law (A + B = B + A), meaning the resultant vector has the exact same magnitude and direction regardless of the order in which the vectors are added."
     }
   ];

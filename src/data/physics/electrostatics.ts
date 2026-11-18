@@ -1216,5 +1216,41 @@ export type Question = {
         ],
         answer: 1,
         explanation: "The electrostatic force in a dielectric medium of relative permittivity (dielectric constant) M is F = F_vac / M. Therefore, when the medium is removed (leaving vacuum/air), the force increases by a factor of M to become F_vac = FM."
+      },
+      {
+        id: "kmu-2026-phys-107",
+        question: "According to Coulomb’s law, if the distance between two point charges is doubled while their magnitudes remain unchanged, the electrostatic force between them becomes:",
+        options: [
+          "One-fourth of its original value",
+          "One-half of its original value",
+          "Twice its original value",
+          "Four times its original value"
+        ],
+        answer: 0,
+        explanation: "By Coulomb's law, electrostatic force F = kq₁q₂ / r², so F is inversely proportional to the square of the distance (F ∝ 1/r²). Doubling the distance (2r) reduces the force by a factor of 2² = 4, making it one-fourth of its original value."
+      },
+      {
+        id: "kmu-2026-phys-108",
+        question: "A 12 V battery transfers 5000 C of charge through a circuit. The energy delivered is:",
+        options: [
+          "4.17 × 10² J",
+          "4.17 × 10³ J",
+          "6.0 × 10⁴ J",
+          "6.0 × 10⁵ J"
+        ],
+        answer: 2,
+        explanation: "Electrical energy delivered is given by E = q × V = 5000 C × 12 V = 60,000 J = 6.0 × 10⁴ J."
+      },
+      {
+        id: "kmu-2026-phys-109",
+        question: "An infinite plane sheet has a surface charge density σ = 8.85 × 10⁻⁶ C m⁻². The electric field on either side of the sheet is:",
+        options: [
+          "0.25 × 10⁶ N C⁻¹",
+          "0.5 × 10⁶ N C⁻¹",
+          "1 × 10⁶ N C⁻¹",
+          "2 × 10⁶ N C⁻¹"
+        ],
+        answer: 1,
+        explanation: "The electric field intensity near an infinite plane sheet of charge is E = σ / (2ε₀). Substituting σ = 8.85 × 10⁻⁶ C m⁻² and ε₀ = 8.85 × 10⁻¹² C² N⁻¹ m⁻² gives E = (8.85 × 10⁻⁶) / (2 × 8.85 × 10⁻¹²) = 0.5 × 10⁶ N C⁻¹."
       }
   ];

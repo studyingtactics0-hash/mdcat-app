@@ -800,5 +800,17 @@ export type Question = {
         ],
         answer: 3,
         explanation: "When a charged particle enters a uniform magnetic field perpendicularly, the magnetic force provides the centripetal force (qvB = mv²/r), giving a circular path of radius r = mv / (qB). Since charge (q), speed (v), and magnetic field (B) are identical for both particles, the radius is directly proportional to mass (r ∝ m). Therefore, the lighter particle will move in a circular path of smaller radius (small circular path)."
+      },
+      {
+        id: "kmu-2026-phys-111",
+        question: "Which expression correctly represents the SI unit of magnetic flux density?",
+        options: [
+          "N A⁻¹ m⁻¹",
+          "N A⁻¹ m",
+          "N C⁻¹",
+          "Wb m²"
+        ],
+        answer: 0,
+        explanation: "From the magnetic force formula on a current-carrying conductor (F = ILB sinθ), magnetic flux density is B = F / (IL). Substituting SI units gives N / (A · m) = N A⁻¹ m⁻¹ (which is equivalent to 1 Tesla)."
       }
   ];

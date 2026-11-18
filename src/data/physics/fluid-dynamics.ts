@@ -291,5 +291,53 @@ export type Question = {
       ],
       answer: 2,
       explanation: "The equation of continuity (A₁v₁ = A₂v₂) applies to an ideal fluid, which is defined as non-viscous, incompressible, and moving in a steady (streamline/laminar) flow—not a turbulent flow."
+    },
+    {
+      id: "kmu-2026-phys-095",
+      question: "A raindrop falls through the air and eventually reaches terminal velocity. At this instant, the net force acting on the raindrop is:",
+      options: [
+        "Zero",
+        "Greater than its weight",
+        "Equal to the air resistance",
+        "Equal to the weight"
+      ],
+      answer: 0,
+      explanation: "At terminal velocity, the upward drag force (air resistance) balances the downward gravitational force (weight), resulting in zero acceleration and zero net force acting on the raindrop."
+    },
+    {
+      id: "kmu-2026-phys-096",
+      question: "As the skydiver slows down after opening the parachute and approaches terminal velocity, the air resistance is:",
+      options: [
+        "Zero",
+        "Increased",
+        "Reduced",
+        "Not changed"
+      ],
+      answer: 2,
+      explanation: "Opening the parachute initially creates a huge upward drag force greater than weight, causing the skydiver to decelerate. Because air resistance is proportional to speed (or speed squared), as the skydiver slows down, the air resistance decreases until it once again equals the skydiver's weight at the new, lower terminal velocity."
+    },
+    {
+      id: "kmu-2026-phys-097",
+      question: "A hosepipe ejects water with a velocity of 2 m/s from an opening of 0.05 m². To double the velocity the cross-sectional area should be:",
+      options: [
+        "0.025 m²",
+        "0.0125 m²",
+        "0.05 m²",
+        "0.10 m²"
+      ],
+      answer: 0,
+      explanation: "By the equation of continuity for an incompressible fluid (A₁v₁ = A₂v₂), velocity is inversely proportional to cross-sectional area. To double the velocity (from 2 m/s to 4 m/s), the area must be halved: A₂ = (0.05 m² × 2 m/s) / 4 m/s = 0.025 m²."
+    },
+    {
+      id: "kmu-2026-phys-098",
+      question: "If the radius of an artery is reduced due to arteriosclerosis, the heart must increase blood pressure to:",
+      options: [
+        "Increase the blood flow rate",
+        "Maintain the same blood flow rate",
+        "Reduce the blood flow rate",
+        "Increase the radius of the artery"
+      ],
+      answer: 1,
+      explanation: "According to Poiseuille's law (Q = πΔPr⁴ / 8ηL), narrowing of the arterial radius (r) drastically increases flow resistance. To keep vital organs supplied, the heart increases blood pressure (ΔP) to maintain the same normal volumetric blood flow rate (Q)."
     }
   ];

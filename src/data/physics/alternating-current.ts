@@ -148,5 +148,17 @@ export type Question = {
       ],
       answer: 2,
       explanation: "Inductive reactance is directly proportional to the frequency of the AC supply (X_L = 2πfL). Therefore, at low frequency, the inductive reactance decreases."
+    },
+    {
+      id: "kmu-2026-phys-113",
+      question: "In an alternating current wave, the phase of the maximum positive value is:",
+      options: [
+        "0°",
+        "90°",
+        "180°",
+        "270°"
+      ],
+      answer: 1,
+      explanation: "In a sinusoidal alternating current wave represented by I = I₀ sin(θ), the current reaches its maximum positive peak value (+I₀) when sin(θ) = 1, which corresponds to a phase angle θ = 90° (or π/2 radians)."
     }
   ];
