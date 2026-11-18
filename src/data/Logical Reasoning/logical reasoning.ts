@@ -1047,5 +1047,113 @@ export const logicalReasoningQuestions = [
     ],
     answer: 1,
     explanation: "For a conditional statement 'If P, then Q', the logically equivalent deduction is its contrapositive 'If not Q, then not P' (Statement II). Statement I ('If not P, then not Q') is the inverse, which is not logically valid."
+  },
+  {
+    id: "kmu-2026-172",
+    question: "In how many different ways can four persons be seated on four chairs for a photograph?",
+    options: [
+      "8",
+      "12",
+      "16",
+      "24"
+    ],
+    answer: 3,
+    explanation: "The number of linear permutations of 4 distinct people in 4 chairs is 4! = 4 × 3 × 2 × 1 = 24 ways."
+  },
+  {
+    id: "kmu-2026-173",
+    question: "What is the missing term of the sequence? 1, 3, 6, 10, 15, 21, 28, ______",
+    options: [
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    answer: 3,
+    explanation: "This is the sequence of triangular numbers where consecutive differences increase by 1 (+2, +3, +4, +5, +6, +7, +8): 28 + 8 = 36."
+  },
+  {
+    id: "kmu-2026-174",
+    question: "Meetings are at 9am, 11am, and 2pm. HR meets before Finance. IT meets last. HR does not meet at 11am. Which team meets at 9am?",
+    options: [
+      "HR",
+      "IT",
+      "Finance",
+      "Cannot be determined"
+    ],
+    answer: 0,
+    explanation: "IT meets last (2 pm). Since HR meets before Finance, HR must be at 9 am and Finance at 11 am (which also satisfies HR not meeting at 11 am)."
+  },
+  {
+    id: "kmu-2026-175",
+    question: "Aimen is Amna’s daughter and Salman is Amna’s father. Sarah is Salman’s daughter. What is Aimen to Salman?",
+    options: [
+      "Grandmother",
+      "Granddaughter",
+      "Daughter",
+      "Mother"
+    ],
+    answer: 1,
+    explanation: "Salman is the father of Amna, and Aimen is the daughter of Amna; therefore, Aimen is Salman's granddaughter."
+  },
+  {
+    id: "kmu-2026-176",
+    question: "A hospital performs 25 surgeries daily for 6 days a week. How many surgeries are performed weekly?",
+    options: [
+      "120",
+      "145",
+      "150",
+      "175"
+    ],
+    answer: 2,
+    explanation: "Weekly surgeries = 25 surgeries/day × 6 days = 150 surgeries."
+  },
+  {
+    id: "kmu-2026-177",
+    question: "You park your car in a no-parking zone and are approached by a traffic police officer. What is the most appropriate response?",
+    options: [
+      "Argue with the officer to resolve the issue",
+      "Leave immediately without permission",
+      "Cooperate with the officer and comply with traffic regulations",
+      "Try to run away from the location"
+    ],
+    answer: 2,
+    explanation: "Cooperating respectfully with law enforcement and complying with traffic regulations is the responsible and lawful course of action."
+  },
+  {
+    id: "kmu-2026-178",
+    question: "Why is it important to monitor the implementation of a decision?",
+    options: [
+      "To hinder progress",
+      "To improve and adapt",
+      "To assign blame for mistakes",
+      "To shut down feedback"
+    ],
+    answer: 1,
+    explanation: "Monitoring decision implementation allows leaders and teams to evaluate outcomes, identify issues early, and make necessary improvements or adaptations."
+  },
+  {
+    id: "kmu-2026-179",
+    question: "Human rights protection leads to economic growth. In light of the statement, Pakistan improved its labor laws for protection of rights of labors. However, economic growth is still low. Therefore, human rights protection does not support economic growth. What is the weakness in the argument?",
+    options: [
+      "Human rights are only one of many factors influencing economic growth.",
+      "Labor laws alone guarantee economic growth.",
+      "Economic growth depends only on labor rights.",
+      "Human rights have no impact on national development."
+    ],
+    answer: 0,
+    explanation: "The argument commits a causal oversimplification fallacy by overlooking that macroeconomic growth depends on multiple variables (investment, inflation, governance, trade), not labor rights alone."
+  },
+  {
+    id: "kmu-2026-180",
+    question: "In a shop having 3 fruits, the oranges are cheaper than grapefruit and pricier than grapes, then ______.",
+    options: [
+      "Grapefruit is more expensive than grapes",
+      "Grapes are more expensive than grapefruit",
+      "Oranges are cheaper than grapes",
+      "Grapefruit and grapes cost the same"
+    ],
+    answer: 0,
+    explanation: "From the price ordering Grapes < Oranges < Grapefruit, it logically follows by transitivity that grapefruit is more expensive than grapes."
   }
   ];

@@ -3,6 +3,16 @@
 const kmuPapers = [
   {
     icon: "📝",
+    title: "KMU 2026",
+    description:
+      "Practice the complete KMU 2026 past paper with authentic questions and experience the style and difficulty of the latest examination.",
+    href: "/tests/mock-tests/past-papers/kmu/kmu-26",
+    button: "Start KMU 2026",
+    available: true,
+    featured: true,
+  },
+  {
+    icon: "📝",
     title: "KMU 2025",
     description:
       "Practice the complete KMU 2025 past paper with authentic questions and experience the style and difficulty of the actual examination.",
@@ -17,7 +27,7 @@ const kmuPapers = [
     description:
       "Practice the KMU 2024 past paper and strengthen your preparation with another authentic examination paper.",
     href: "/tests/mock-tests/past-papers/kmu/kmu-24",
-    button: "Start KMU 2025",
+    button: "Start KMU 2024",
     available: true,
     featured: true,
   },

@@ -1091,5 +1091,113 @@ export const formalAndWritingSkillQuestions = [
       ],
       answer: 1,
       explanation: "In active voice, the verb 'bid' (past tense 'bade') is followed by an object and a bare infinitive (without 'to'), making 'leave' the correct form."
-    }
+    },
+    {
+      id: "kmu-2026-163",
+      question: "I like cake, however my friend likes chocolate. The transitional device is used for:",
+      options: [
+        "Exception",
+        "Sequence",
+        "Addition",
+        "Contrast"
+      ],
+      answer: 3,
+      explanation: "The conjunctive adverb 'however' introduces a contrasting idea between two clauses."
+    },
+    {
+      id: "kmu-2026-164",
+      question: "Electric cars are becoming increasingly popular due to concerns about air pollution and fossil fuels. They produce zero emissions and are powered by rechargeable batteries. According to the passage, why are electric cars becoming popular?",
+      options: [
+        "They are faster than other cars.",
+        "They are cheaper to manufacture.",
+        "They reduce air pollution.",
+        "They use petrol efficiently."
+      ],
+      answer: 2,
+      explanation: "The passage explicitly states that electric cars are becoming popular due to concerns about air pollution and fossil fuels because they produce zero emissions."
+    },
+    {
+      id: "kmu-2026-165",
+      question: "Which of the following sentences uses the gerund as a subject?",
+      options: [
+        "I love singing in the shower.",
+        "Singing is my favorite hobby.",
+        "She is singing a beautiful song.",
+        "The singing bird is a nightingale."
+      ],
+      answer: 1,
+      explanation: "In 'Singing is my favorite hobby,' the verb form 'Singing' functions as a noun at the beginning of the sentence, acting as the subject of the verb 'is'."
+    },
+    {
+      id: "kmu-2026-166",
+      question: "My cat is hiding ______ the bed. Use correct preposition.",
+      options: [
+        "From",
+        "Inside",
+        "Under",
+        "To"
+      ],
+      answer: 2,
+      explanation: "The preposition 'under' properly indicates a position beneath the bed."
+    },
+    {
+      id: "kmu-2026-167",
+      question: "Turn left ______ the traffic signal and the cafe will be on your right.",
+      options: [
+        "Into",
+        "On",
+        "At",
+        "Between"
+      ],
+      answer: 2,
+      explanation: "The preposition 'at' is used to designate a specific point, intersection, or landmark such as a traffic signal."
+    },
+    {
+      id: "kmu-2026-168",
+      question: "Which one of the following options contains the appropriate use of tense?",
+      options: [
+        "The light went out while I am reading.",
+        "The light has gone out while I was reading.",
+        "The light went out while I was reading.",
+        "The light goes out while I am reading."
+      ],
+      answer: 2,
+      explanation: "When a shorter past action ('went out', simple past) interrupts an ongoing past action ('was reading', past continuous), both clauses must remain consistently in the past tense."
+    },
+    {
+      id: "kmu-2026-169",
+      question: "Which one of the following sentences employs CORRECT subject-verb agreement?",
+      options: [
+        "The number of students in Class 9 is twenty.",
+        "The number of students in Class 9 are twenty.",
+        "The numbers of students in Class 9 is twenty.",
+        "The numbers of student in Class 9 are twenty."
+      ],
+      answer: 0,
+      explanation: "The expression 'The number of + plural noun' refers to a single numerical figure and therefore takes a singular verb ('is')."
+    },
+    {
+      id: "kmu-2026-170",
+      question: "My parents do not allow me to stay out ______.",
+      options: [
+        "Latter",
+        "Lately",
+        "Late",
+        "Later"
+      ],
+      answer: 2,
+      explanation: "'Late' functions as an adverb of time meaning after the expected or usual hour ('stay out late'), whereas 'lately' means recently."
+    },
+    {
+      id: "kmu-2026-171",
+      question: "Which of the following is the FALSE cause and effect claim?",
+      options: [
+        "Smoking causes lung cancer.",
+        "Rain causes wet roads.",
+        "Wearing red clothes causes intelligence.",
+        "Exercise improves health."
+      ],
+      answer: 2,
+      explanation: "There is no causal relationship between the color of clothing worn and human intelligence, making 'Wearing red clothes causes intelligence' a false cause-and-effect claim."
+    },
   ];
