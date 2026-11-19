@@ -259,5 +259,53 @@ export const respirationQuestions = [
     ],
     answer: 2,
     explanation: "Emphysema is a chronic obstructive pulmonary disease (COPD) most commonly caused by cigarette smoking, characterized by the irreversible breakdown and destruction of alveolar walls, reducing the surface area available for gas exchange."
+  },
+  {
+    id: "bumhs-bio-2026-003",
+    question: "The contraction of inner intercostal muscles and relaxation of outer intercostal muscles results in _________ movement of ribs?",
+    options: [
+      "Downward and backward",
+      "Downward and forward",
+      "Upward and backward",
+      "Upward and forward"
+    ],
+    answer: 0,
+    explanation: "During forced expiration, contraction of the internal (inner) intercostal muscles and relaxation of the external (outer) intercostal muscles pulls the rib cage downward and inward/backward, decreasing thoracic volume."
+  },
+  {
+    id: "bumhs-bio-2026-012",
+    question: "Which of the following part is present within the lung?",
+    options: [
+      "Trachea",
+      "Larynx",
+      "Pharynx",
+      "Bronchi"
+    ],
+    answer: 3,
+    explanation: "The right and left primary bronchi enter the lungs at the hilum and branch inside the lungs into secondary and tertiary bronchi and bronchioles, whereas the pharynx, larynx, and trachea lie outside the lungs."
+  },
+  {
+    id: "bumhs-bio-2026-031",
+    question: "During expiration relaxation of the diaphragm causes it to become:",
+    options: [
+      "more dome shaped",
+      "less dome shaped",
+      "flat",
+      "U shaped"
+    ],
+    answer: 0,
+    explanation: "During expiration, the muscular diaphragm relaxes and arches upward into the thoracic cavity, becoming more dome-shaped and reducing thoracic volume."
+  },
+  {
+    id: "bumhs-bio-2026-066",
+    question: "A tube like structure that connects the nasal cavity and oral cavity to larynx is __________.",
+    options: [
+      "trachea",
+      "pharynx",
+      "glottis",
+      "wind pipe"
+    ],
+    answer: 1,
+    explanation: "The pharynx is a muscular funnel-shaped passageway behind the nasal and oral cavities that serves as a common pathway for air and food, leading inferiorly to the larynx and esophagus."
   }
 ]

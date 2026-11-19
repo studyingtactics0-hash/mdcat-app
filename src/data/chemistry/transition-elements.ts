@@ -644,5 +644,29 @@ export type Question = {
         ],
         answer: 1,
         explanation: "Copper (Cu, Z = 29) has an anomalous ground-state electronic configuration of [Ar] 3d¹⁰ 4s¹ rather than [Ar] 3d⁹ 4s². Promoting one 4s electron into the 3d subshell results in a completely filled 3d¹⁰ subshell, which provides extra stability due to symmetrical electron distribution and maximized exchange energy."
+      },
+      {
+        id: "bumhs-chem-2026-093",
+        question: "Which of the following is true for transition metals?",
+        options: [
+          "The element with an empty, half and full s-orbitals are stable.",
+          "The element with an empty, half and full p-orbitals are stable.",
+          "The element with an empty, half and full f-orbitals are stable.",
+          "The element with an empty, half and full d-orbitals are stable."
+        ],
+        answer: 3,
+        explanation: "In d-block transition elements, electronic configurations with completely empty (d⁰), half-filled (d⁵), or completely filled (d¹⁰) d-orbitals exhibit extra stability due to symmetrical electron distribution and maximum exchange energy."
+      },
+      {
+        id: "bumhs-chem-2026-111",
+        question: "Element with electronic configuration [Kr]4d⁵5s² is ______.",
+        options: [
+          "Nb",
+          "Tc",
+          "Cr",
+          "Mn"
+        ],
+        answer: 1,
+        explanation: "Krypton (Kr) has atomic number 36; adding 5 electrons in 4d and 2 electrons in 5s gives a total of 36 + 5 + 2 = 43 electrons, which corresponds to Technetium (Tc, Z = 43)."
       }
   ];

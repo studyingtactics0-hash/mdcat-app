@@ -674,5 +674,53 @@ export type Question = {
         ],
         answer: 1,
         explanation: "Acetic acid (CH₃COOH) reacts with ethanol (C₂H₅OH) in the presence of an acid catalyst (such as concentrated H₂SO₄) via Fischer esterification to produce an ester, ethyl acetate (CH₃COOC₂H₅), along with water."
+      },
+      {
+        id: "bumhs-chem-2026-095",
+        question: "Ammonia and ethanoyl chloride undergo which type of organic chemical reaction?",
+        options: [
+          "Nucleophilic addition-elimination reaction",
+          "Electrophilic addition-condensation reaction",
+          "Nucleophilic substitution-elimination reaction",
+          "Electrophilic elimination-substitution reaction"
+        ],
+        answer: 0,
+        explanation: "Ammonia acts as a nucleophile and attacks the electrophilic carbonyl carbon of ethanoyl chloride to form a tetrahedral intermediate (nucleophilic addition), followed by the elimination of a chloride ion (Cl⁻) and deprotonation to yield ethanamide and HCl (nucleophilic addition-elimination / nucleophilic acyl substitution)."
+      },
+      {
+        id: "bumhs-chem-2026-097",
+        question: "When the molar mass of aliphatic carboxylic acid increases, its solubility in water will ___________.",
+        options: [
+          "increases",
+          "decreases",
+          "remains the same.",
+          "becomes unstable."
+        ],
+        answer: 1,
+        explanation: "As the molar mass of an aliphatic carboxylic acid increases, the size of the non-polar hydrophobic hydrocarbon chain increases relative to the polar hydrophilic -COOH group, disrupting hydrogen bonding with water and decreasing solubility."
+      },
+      {
+        id: "bumhs-chem-2026-103",
+        question: "Which alcohol and carboxylic acid react together to form CH₃CH₂COOCH₃ ?",
+        options: [
+          "Propanoic acid and ethanol",
+          "Propanoic acid and methanol",
+          "Ethanoic acid and ethanol",
+          "Ethanoic acid and methanol"
+        ],
+        answer: 1,
+        explanation: "The ester CH₃CH₂COOCH₃ is methyl propanoate, where the acyl part (CH₃CH₂COO-) comes from propanoic acid (CH₃CH₂COOH) and the alkyl part (-OCH₃) comes from methanol (CH₃OH)."
+      },
+      {
+        id: "bumhs-chem-2026-104",
+        question: "An acetic acid is treated with ethanol in the presence of conc. H₂SO₄ to produce:",
+        options: [
+          "Ethyl acetate",
+          "Acetamide",
+          "Ethane",
+          "Acetic anhydride"
+        ],
+        answer: 0,
+        explanation: "In Fischer esterification, acetic acid (CH₃COOH) reacts with ethanol (C₂H₅OH) in the presence of concentrated H₂SO₄ as an acid catalyst and dehydrating agent to form the fruity-smelling ester ethyl acetate (CH₃COOC₂H₅) and water."
       }
   ];

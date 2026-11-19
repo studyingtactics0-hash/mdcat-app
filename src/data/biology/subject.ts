@@ -14845,5 +14845,977 @@ export const biologyquestions = [
                 ],
                 answer: 2,
                 explanation: "Nanoparticles are engineered nanoscale carriers used in nanomedicine for targeted drug delivery directly to diseased cells (such as tumors) and sensitive diagnostic imaging/detection. In contrast, biofertilizers/mycorrhiza aid plant nutrient uptake and nitrogen fixation, while biochips are used for genetic screening and pathogen detection."
+              },
+              {
+                id: "bumhs-bio-2026-001",
+                question: "Influenza is caused by:",
+                options: [
+                  "enveloped virus",
+                  "complex virus",
+                  "polyhedral virus",
+                  "helical"
+                ],
+                answer: 0,
+                explanation: "Influenza viruses are spherical, enveloped RNA viruses belonging to the family Orthomyxoviridae."
+              },
+              {
+                id: "bumhs-bio-2026-004",
+                question: "All of the following are present in all viruses, EXCEPT:",
+                options: [
+                  "Nucleic Acid",
+                  "Protein",
+                  "Envelope",
+                  "Genome"
+                ],
+                answer: 2,
+                explanation: "All viruses contain a nucleic acid genome (DNA or RNA) enclosed within a protein coat (capsid), whereas a lipid envelope is only present in enveloped viruses and absent in naked viruses."
+              },
+              {
+                id: "bumhs-bio-2026-006",
+                question: "HIV weakens the immune system primarily by:",
+                options: [
+                  "Rapidly destroying red blood cells",
+                  "Infecting and destroying T-Lymphocytes",
+                  "Increasing antibody production by B-Lymphocytes",
+                  "Blocking aerobic respiration"
+                ],
+                answer: 1,
+                explanation: "HIV specifically targets and destroys CD4+ helper T-lymphocytes, progressively impairing cell-mediated immunity and weakening the body's defense against opportunistic infections."
+              },
+              {
+                id: "bumhs-bio-2026-028",
+                question: "During HIV replication process, viral DNA is integrated into host genome by _________.",
+                options: [
+                  "Reverse transcriptase",
+                  "Helicase",
+                  "Integrase",
+                  "Polymerase"
+                ],
+                answer: 2,
+                explanation: "After reverse transcriptase synthesizes double-stranded viral DNA from HIV RNA, the viral enzyme integrase inserts this proviral DNA into the host cell's chromosomal DNA."
+              },
+              {
+                id: "bumhs-bio-2026-026",
+                question: "In energy releasing metabolism, proteins must undergo ___________ before entering respiratory metabolism.",
+                options: [
+                  "Acetylation",
+                  "Deamination",
+                  "Decarboxylation",
+                  "Dehydration"
+                ],
+                answer: 1,
+                explanation: "Before amino acids derived from proteins can be oxidized in cellular respiration, their amino groups (-NH2) must be removed via deamination to form keto acids that enter glycolysis or the Krebs cycle."
+              },
+              {
+                id: "bumhs-bio-2026-052",
+                question: "After deamination, glycine (NH₂CH₂COOH), enters into energy yielding metabolism in the form of:",
+                options: [
+                  "G-3-P",
+                  "Pyruvate",
+                  "Acetyl Co-A",
+                  "Oxaloacetate"
+                ],
+                answer: 1,
+                explanation: "Glycine (a 2-carbon amino acid) is converted into serine and subsequently deaminated to form pyruvate, which then enters aerobic respiration."
+              },
+              {
+                id: "bumhs-bio-2026-075",
+                question: "Decarboxylation of pyruvate and addition of Coenzyme-A to Acetyl takes place in:",
+                options: [
+                  "Mitochondrial Matrix",
+                  "Cytoplasm",
+                  "Inter membrane space",
+                  "Inner Mitochondrial membrane"
+                ],
+                answer: 0,
+                explanation: "Pyruvate oxidation (link reaction), catalyzed by the pyruvate dehydrogenase complex, occurs in the mitochondrial matrix where pyruvate is decarboxylated and attached to Coenzyme-A to form Acetyl Co-A."
+              },
+              {
+                id: "bumhs-bio-2026-008",
+                question: "Major part of lipids in an organisms body is made up of:",
+                options: [
+                  "terpenes",
+                  "waxes",
+                  "phospholipids",
+                  "acylglycerols"
+                ],
+                answer: 3,
+                explanation: "Acylglycerols (specifically triglycerides or triacylglycerols) are the most abundant lipids in living organisms, serving as the primary form of stored energy."
+              },
+              {
+                id: "bumhs-bio-2026-010",
+                question: "Which of the following statement correctly describes euchromatin?",
+                options: [
+                  "Highly condensed and inactive",
+                  "Loosely packed and transcriptionally active",
+                  "Found only in prokaryotes",
+                  "Composed only of RNA"
+                ],
+                answer: 1,
+                explanation: "Euchromatin is the lightly packed form of chromatin that is enriched in genes and is often under active transcription, unlike tightly condensed heterochromatin."
+              },
+              {
+                id: "bumhs-bio-2026-021",
+                question: "Information contained in the gene, which is needed by an organism, for the expression of its traits is in the form of:",
+                options: [
+                  "carbohydrates",
+                  "proteins",
+                  "lipids",
+                  "nucleic acids"
+                ],
+                answer: 3,
+                explanation: "Genes are segments of nucleic acids (DNA) whose specific nucleotide sequences carry the hereditary information needed for synthesizing proteins and expressing traits."
+              },
+              {
+                id: "bumhs-bio-2026-022",
+                question: "The combination of adenine, ribose and one phosphate group is called:",
+                options: [
+                  "Adenosine super phosphate",
+                  "Adenosine monophosphate",
+                  "Deoxyadenosine phosphate",
+                  "Ribonucleoside"
+                ],
+                answer: 1,
+                explanation: "Adenine attached to a ribose sugar forms the nucleoside adenosine; adding one phosphate group makes it the nucleotide adenosine monophosphate (AMP)."
+              },
+              {
+                id: "bumhs-bio-2026-027",
+                question: "Which of the under mentioned pair of nucleotides correctly represent Pyrimidines?",
+                options: [
+                  "Cytosine and Thymine",
+                  "Adenine and Guanine",
+                  "Thymine and Guanine",
+                  "Adenine and Cytosine"
+                ],
+                answer: 0,
+                explanation: "Pyrimidines are single-ring nitrogenous bases consisting of Cytosine (C), Thymine (T), and Uracil (U), whereas Adenine (A) and Guanine (G) are double-ring purines."
+              },
+              {
+                id: "bumhs-bio-2026-037",
+                question: "Approximate number of codons for a polypeptide having 300 amino acids are:",
+                options: [
+                  "100",
+                  "200",
+                  "300",
+                  "900"
+                ],
+                answer: 2,
+                explanation: "Because the genetic code is a triplet code where each mRNA codon (3 nucleotides) specifies one amino acid, a polypeptide of 300 amino acids requires approximately 300 coding codons (900 nucleotides)."
+              },
+              {
+                id: "bumhs-bio-2026-049",
+                question: "Which of the following biological molecules are abundantly present in the membranes, ribosomes, cytoskeleton and enzymes of the cell?",
+                options: [
+                  "lipids",
+                  "proteins",
+                  "carbohydrates",
+                  "nucleic acid"
+                ],
+                answer: 1,
+                explanation: "Proteins are the most abundant organic molecules in cells and form essential structural and functional components including membrane proteins, ribosomal proteins, cytoskeletal filaments, and enzymes."
+              },
+              {
+                id: "bumhs-bio-2026-053",
+                question: "Which of the following is mismatched?",
+                options: [
+                  "Phospholipid & choline",
+                  "Steroids & protein",
+                  "Glucose & fructose",
+                  "Protein & peptide chain"
+                ],
+                answer: 1,
+                explanation: "Steroids are lipids characterized by a four-fused carbon ring structure (steroid nucleus) and are not composed of proteins."
+              },
+              {
+                id: "bumhs-bio-2026-057",
+                question: "Ester bond in the biomolecules is a type of_______.",
+                options: [
+                  "Ionic bond",
+                  "Covalent bond",
+                  "Hydrogen bond",
+                  "Disulphide bond"
+                ],
+                answer: 1,
+                explanation: "An ester bond (-COO-) formed between an alcohol group (such as glycerol) and a carboxylic acid group (such as a fatty acid) is a strong covalent bond formed via condensation."
+              },
+              {
+                id: "bumhs-bio-2026-013",
+                question: "Which of the following structures contains highest concentration of RNA;",
+                options: [
+                  "Cytoplasm",
+                  "Nucleolus",
+                  "Centriole",
+                  "Chromosome"
+                ],
+                answer: 1,
+                explanation: "The nucleolus is the site of ribosomal RNA (rRNA) transcription and ribosome subunit assembly, giving it the highest concentration of RNA within the cell."
+              },
+              {
+                id: "bumhs-bio-2026-017",
+                question: "Which one of the following best describes endoplasmic reticulum?",
+                options: [
+                  "Disc shaped peripheral network",
+                  "Flattened membrane bound vesicles",
+                  "Involved in development of peroxisomes",
+                  "Complex network of channel extended from plasma membrane to nuclear membrane"
+                ],
+                answer: 3,
+                explanation: "The endoplasmic reticulum is an extensive, interconnected network of membranous channels and tubules extending throughout the cytoplasm from the nuclear envelope to the plasma membrane."
+              },
+              {
+                id: "bumhs-bio-2026-071",
+                question: "The transfer of materials from the endoplasmic reticulum is mainly directed towards __________ systems?",
+                options: [
+                  "Endomembrane",
+                  "Circulatory",
+                  "Endocrine",
+                  "Nervous"
+                ],
+                answer: 0,
+                explanation: "Proteins and lipids synthesized in the endoplasmic reticulum are packaged into transport vesicles and directed to the Golgi apparatus and other components of the endomembrane system."
+              },
+              {
+                id: "bumhs-bio-2026-080",
+                question: "Which region on a chromosome has a junk sequence of DNA?",
+                options: [
+                  "Centromere",
+                  "Telomere",
+                  "Secondary constriction",
+                  "Satellite"
+                ],
+                answer: 3,
+                explanation: "The chromosomal satellite (located distal to the secondary constriction on SAT-chromosomes) consists largely of repetitive, non-coding ('junk') DNA sequences."
+              },
+              {
+                id: "bumhs-bio-2026-025",
+                question: "In the human brain, sensory signals from different parts of the body are first processed and redirected to appropriate regions of the cerebrum for interpretation. Which brain structure functions as this main sensory relay center?",
+                options: [
+                  "Thalamus",
+                  "Cerebellum",
+                  "Hypothalamus",
+                  "Medulla oblongata"
+                ],
+                answer: 0,
+                explanation: "The thalamus acts as the primary sensory relay station of the forebrain, receiving sensory impulses (except olfaction) and routing them to the appropriate areas of the cerebral cortex."
+              },
+              {
+                id: "bumhs-bio-2026-034",
+                question: "A person was humiliated publicly by his boss, followed by sympathetically supported by his colleagues. Which part of his brain is dealing all these feelings of embarrassment and being cared?",
+                options: [
+                  "Pons",
+                  "Hypothalamus",
+                  "Hippocampus",
+                  "Amygdala"
+                ],
+                answer: 3,
+                explanation: "The amygdala, a key component of the limbic system, processes emotional responses such as fear, embarrassment, anger, and social/emotional attachment."
+              },
+              {
+                id: "bumhs-bio-2026-060",
+                question: "Influx of which one of the following ions, takes place during depolarization state across neurons?",
+                options: [
+                  "Magnesium",
+                  "Sodium",
+                  "Potassium",
+                  "Iron"
+                ],
+                answer: 1,
+                explanation: "During depolarization of a neuron, voltage-gated sodium (Na+) channels open, allowing a rapid influx of Na+ ions into the axon and reversing the membrane potential."
+              },
+              {
+                id: "bumhs-bio-2026-067",
+                question: "Reflex action is meant for:",
+                options: [
+                  "Long term memory",
+                  "Situations involved in deep thinking",
+                  "Voluntary actions in emergency",
+                  "Involuntary actions in emergency"
+                ],
+                answer: 3,
+                explanation: "A reflex action is a rapid, automatic, involuntary response to a stimulus that protects the body in sudden or emergency situations without requiring conscious brain deliberation."
+              },
+              {
+                id: "bumhs-bio-2026-073",
+                question: "A patient suffers memory loss after damage to a specific brain region. Which part is most likely to be affected?",
+                options: [
+                  "Hypothalamus",
+                  "Medulla oblongata",
+                  "Cerebrum",
+                  "Cerebellum"
+                ],
+                answer: 2,
+                explanation: "The cerebrum (along with its associated limbic structures such as the hippocampus) is responsible for higher cognitive functions including memory storage and recall."
+              },
+              {
+                id: "bumhs-bio-2026-076",
+                question: "Human intelligence is controlled by the_________ part of the brain.",
+                options: [
+                  "Cerebrum",
+                  "Medulla oblongata",
+                  "Hypothalamus",
+                  "Corpus callosum"
+                ],
+                answer: 0,
+                explanation: "The cerebrum is the largest part of the human brain and governs intelligence, reasoning, learning, conscious thought, and decision-making."
+              },
+              {
+                id: "bumhs-bio-2026-009",
+                question: "In different parts of human digestive system pH varies from acidic to basic ranges. Which one is true for Pepsin to works best?",
+                options: [
+                  "Pepsin only digest proteins in alkaline medium",
+                  "Pepsin's active site is stable in acidic environment",
+                  "Pepsin is not an enzyme",
+                  "Acid destroys the substrate"
+                ],
+                answer: 1,
+                explanation: "Pepsin is a proteolytic enzyme secreted in the stomach that has an optimum pH of around 1.5–2.0; its active site maintains the proper ionization and 3D conformation in a strongly acidic environment."
+              },
+              {
+                id: "bumhs-bio-2026-014",
+                question: "All of the following properties are matching with the induced fit model of enzyme action, EXCEPT:",
+                options: [
+                  "Flexibility of active site",
+                  "Absolute specificity due to fixed active site",
+                  "More than one related substrates can bind active site",
+                  "Enzymes become saturated"
+                ],
+                answer: 1,
+                explanation: "A rigid, fixed active site with absolute geometric specificity describes Emil Fischer's Lock and Key model, whereas Koshland's Induced Fit model proposes a flexible active site that undergoes conformational change upon substrate binding."
+              },
+              {
+                id: "bumhs-bio-2026-024",
+                question: "The active sites of enzyme are composed of ____ region(s).",
+                options: [
+                  "1",
+                  "2",
+                  "3",
+                  "4"
+                ],
+                answer: 1,
+                explanation: "The active site of an enzyme consists of two functional regions: the binding site (which recognizes and binds the substrate) and the catalytic site (which carries out the chemical reaction)."
+              },
+              {
+                id: "bumhs-bio-2026-048",
+                question: "According to the Lock and Key Hypothesis, Enzymes acts as a ______ and substrate acts as a _______.",
+                options: [
+                  "Lock, Key",
+                  "Lock, Knob",
+                  "Key, Lock",
+                  "Knob, Door"
+                ],
+                answer: 0,
+                explanation: "Proposed by Emil Fischer in 1894, the Lock and Key hypothesis states that the rigid active site of an enzyme acts like a lock into which only a specific substrate (acting as a key) can fit."
+              },
+              {
+                id: "bumhs-bio-2026-055",
+                question: "Catalysis of anabolic reaction for protein synthesis is controlled by:",
+                options: [
+                  "Ions",
+                  "Carbohydrates",
+                  "Enzymes",
+                  "Lipids"
+                ],
+                answer: 2,
+                explanation: "All metabolic pathways—including anabolic reactions such as protein synthesis (e.g., aminoacyl-tRNA synthetase and peptidyl transferase)—are catalyzed and controlled by specific enzymes."
+              },
+              {
+                id: "bumhs-bio-2026-059",
+                question: "Which one of the following is not affected by an enzyme during catalysis?",
+                options: [
+                  "Quantity of product",
+                  "Nature of product",
+                  "Activation energy",
+                  "Time to reach equilibrium"
+                ],
+                answer: 1,
+                explanation: "Enzymes lower the activation energy and reduce the time required to reach chemical equilibrium, but they do not alter the chemical nature or properties of the final products formed."
+              },
+              {
+                id: "bumhs-bio-2026-005",
+                question: "Another name of Lamarck's theory is:",
+                options: [
+                  "Theory of survival of the fittest",
+                  "Theory of genetic drift",
+                  "Theory of inheritance of acquired characters",
+                  "Theory of natural selection"
+                ],
+                answer: 2,
+                explanation: "Jean-Baptiste Lamarck proposed that traits acquired or lost by an organism during its lifetime through use or disuse are passed on to its offspring, known as the Theory of Inheritance of Acquired Characters."
+              },
+              {
+                id: "bumhs-bio-2026-007",
+                question: "Which of the following statements, correctly states the objections, which were raised on Lamarckism?",
+                options: [
+                  "There are many experimental proofs of Lamarckism",
+                  "The use and disuse of organs can alter the genotype of an organism",
+                  "Somatic changes are heritable",
+                  "Organs are not modified by the wish or requirement of an organism"
+                ],
+                answer: 3,
+                explanation: "A major objection to Lamarckism is that bodily organs do not develop or change simply because an organism wishes or needs them to, and somatic modifications do not alter germ cells."
+              },
+              {
+                id: "bumhs-bio-2026-020",
+                question: "According to the Lamarckism, long neck giraffes evolved because:",
+                options: [
+                  "nature favors only long neck giraffes",
+                  "they are less harmful to human than short neck giraffes",
+                  "long neck giraffes predated the short neck giraffes",
+                  "stretching of necks over many generations by short necked ones"
+                ],
+                answer: 3,
+                explanation: "Lamarck explained the long neck of giraffes by proposing that short-necked ancestors continuously stretched their necks to reach higher foliage, and this acquired elongation was inherited across generations."
+              },
+              {
+                id: "bumhs-bio-2026-079",
+                question: "It is observed that bacteria become more and more resistant against antibiotics over time. This is due to ________.",
+                options: [
+                  "Genetic drift",
+                  "Loss of quality of antibiotics over time",
+                  "Natural selection in bacteria",
+                  "Non random mating in bacteria"
+                ],
+                answer: 2,
+                explanation: "Antibiotic exposure acts as a selective pressure that kills susceptible bacteria while allowing resistant mutants to survive and reproduce, a classic example of natural selection."
+              },
+              {
+                id: "bumhs-bio-2026-011",
+                question: "_________ is an example of a sexually transmitted disease.",
+                options: [
+                  "Cardiovascular disease",
+                  "Diabetes",
+                  "Hypertension",
+                  "Syphilis"
+                ],
+                answer: 3,
+                explanation: "Syphilis is a sexually transmitted infection caused by the spirochete bacterium Treponema pallidum, whereas cardiovascular disease, diabetes, and hypertension are non-communicable disorders."
+              },
+              {
+                id: "bumhs-bio-2026-018",
+                question: "Male gonads are situated in a skin pouch called _________.",
+                options: [
+                  "Ductules",
+                  "Scrotum",
+                  "Urethra",
+                  "Lobules"
+                ],
+                answer: 1,
+                explanation: "The male gonads (testes) are housed outside the abdominal cavity in a sac of skin called the scrotum, which keeps them about 2–3°C cooler than core body temperature for normal spermatogenesis."
+              },
+              {
+                id: "bumhs-bio-2026-062",
+                question: "A male adult patient shows burning urination and pus discharge. Most probable infection is _________.",
+                options: [
+                  "Gonorrhea",
+                  "AIDS",
+                  "Herpes simplex",
+                  "Syphilis"
+                ],
+                answer: 0,
+                explanation: "Gonorrhea, caused by the bacterium Neisseria gonorrhoeae, affects the mucous membranes of the urinogenital tract and classically presents in males with painful/burning urination (dysuria) and purulent urethral discharge."
+              },
+              {
+                id: "bumhs-bio-2026-029",
+                question: "How does a cartilage function in trachea and bronchi?",
+                options: [
+                  "makes them harder",
+                  "divides them into compartments",
+                  "prevents them from collapsing",
+                  "narrows their passage"
+                ],
+                answer: 2,
+                explanation: "C-shaped rings and plates of hyaline cartilage reinforce the walls of the trachea and bronchi, keeping the airways open and preventing them from collapsing when air pressure drops during inhalation."
+              },
+              {
+                id: "bumhs-bio-2026-036",
+                question: "Bones are made up of three types of cells. Which of the following options correctly identifies these cells?",
+                options: [
+                  "Osteocytes, lymphocytes and osteoblasts",
+                  "Osteocytes, osteoclasts and osteoblasts",
+                  "Osteocytes, oocytes and osteoblasts",
+                  "Osteocytes, osteoclasts and neutrophils"
+                ],
+                answer: 1,
+                explanation: "Bone tissue consists of three primary cell types: osteoblasts (bone-forming cells), osteocytes (mature bone cells maintaining the matrix), and osteoclasts (bone-resorbing cells)."
+              },
+              {
+                id: "bumhs-bio-2026-047",
+                question: "Contractile unit of skeletal muscles is:",
+                options: [
+                  "Sarcomere",
+                  "A band",
+                  "Myofilament",
+                  "I band"
+                ],
+                answer: 0,
+                explanation: "A sarcomere, defined as the region of a myofibril between two successive Z-lines, is the basic structural and functional contractile unit of striated muscle."
+              },
+              {
+                id: "bumhs-bio-2026-051",
+                question: "The most common cartilage found in ribs and nose is ___________.",
+                options: [
+                  "Hyaline cartilage",
+                  "Elastic cartilage",
+                  "Fibro cartilage",
+                  "Neuro cartilage"
+                ],
+                answer: 0,
+                explanation: "Hyaline cartilage is the most abundant type of cartilage in the human body, found at the ends of long bones, in the nose, larynx, trachea, and costal cartilages connecting the ribs to the sternum."
+              },
+              {
+                id: "bumhs-bio-2026-064",
+                question: "Which of the following are cylindrically branched muscles?",
+                options: [
+                  "Smooth",
+                  "Cardiac",
+                  "Skeletal",
+                  "Voluntary"
+                ],
+                answer: 1,
+                explanation: "Cardiac muscle fibers are striated, cylindrical, and branched cells interconnected by intercalated discs, enabling synchronized contraction of the heart."
+              },
+              {
+                id: "bumhs-bio-2026-065",
+                question: "Cardiac muscles work ________ throughout our life.",
+                options: [
+                  "Voluntarily",
+                  "Involuntarily",
+                  "Randomly",
+                  "Reflexively"
+                ],
+                answer: 1,
+                explanation: "Cardiac muscle is myogenic and regulated by the autonomic nervous system, contracting rhythmically and involuntarily throughout a person's lifetime without fatigue."
+              },
+              {
+                id: "bumhs-bio-2026-074",
+                question: "If Z-lines fail to move closer during contraction, what is the likely issue?",
+                options: [
+                  "Faster nerve impulses",
+                  "ATP in excess",
+                  "Increased calcium ions",
+                  "Failure of actin-myosin interaction"
+                ],
+                answer: 3,
+                explanation: "According to the sliding filament model, sarcomere shortening (Z-lines moving closer together) occurs when myosin heads form cross-bridges with actin filaments and pull them inward; failure of actin-myosin interaction prevents contraction."
+              },
+              {
+                id: "bumhs-bio-2026-078",
+                question: "Ali experiences severe knee pain, and his lab results show inflammation of the synovial membrane in the knee joint. This inflammation lead to pain during movement, because it:",
+                options: [
+                  "cannot hold bones together and keep them stable.",
+                  "fails to provide strength to the surrounding muscles.",
+                  "cannot secrete synovial fluid that lubricates the joint.",
+                  "cannot absorb synovial fluid from the joint capsules."
+                ],
+                answer: 2,
+                explanation: "The synovial membrane lines the joint capsule and secretes synovial fluid, which lubricates articular cartilage and reduces friction; inflammation impairs proper lubrication and causes pain during joint movement."
+              },
+              {
+                id: "bumhs-bio-2026-002",
+                question: "In fruit flies (Drosophila melanogaster), brown body is dominant to black body. If scientists want to find out the genotype of a fly with a brown body, what genotype would they cross the fly with?",
+                options: [
+                  "Heterozygous recessive",
+                  "Homozygous recessive",
+                  "Heterozygous dominant",
+                  "Homozygous dominant"
+                ],
+                answer: 1,
+                explanation: "To determine whether an organism expressing a dominant phenotype (brown body) is homozygous dominant or heterozygous, a test cross is performed by mating it with an individual that is homozygous recessive (black body)."
+              },
+              {
+                id: "bumhs-bio-2026-015",
+                question: "What is the cause of hemophilia?",
+                options: [
+                  "Gene mutation",
+                  "Bacteria",
+                  "Viruses",
+                  "Unknown cause"
+                ],
+                answer: 0,
+                explanation: "Hemophilia is an X-linked recessive hereditary bleeding disorder caused by mutations in the genes encoding blood clotting factors (such as Factor VIII in hemophilia A or Factor IX in hemophilia B)."
+              },
+              {
+                id: "bumhs-bio-2026-038",
+                question: "If female is homozygous normal and male is suffering from hemophilia, the trait in children will appear like?",
+                options: [
+                  "Daughters normal & sons hemophilic",
+                  "Daughters carrier & sons hemophilic",
+                  "Daughters carrier & sons normal",
+                  "All sons & daughters hemophilic"
+                ],
+                answer: 2,
+                explanation: "Crossing a homozygous normal female (X^H X^H) with a hemophilic male (X^h Y) produces carrier daughters (X^H X^h) who inherit the defective X chromosome from their father, and phenotypically normal sons (X^H Y) who inherit their sole X chromosome from their mother."
+              },
+              {
+                id: "bumhs-bio-2026-039",
+                question: "If a woman is hemophiliac and her husband is also hemophiliac, who among her offspring would be normal?",
+                options: [
+                  "Sons",
+                  "Daughters",
+                  "Sons and Daughters",
+                  "None of the offspring"
+                ],
+                answer: 3,
+                explanation: "When both parents are hemophilic (X^h X^h × X^h Y), all gametes carry the recessive X^h allele (or Y in sperm), so 100% of daughters (X^h X^h) and 100% of sons (X^h Y) will inherit hemophilia and none will be normal."
+              },
+              {
+                id: "bumhs-bio-2026-043",
+                question: "Why do hemophilia A and B mostly affect males?",
+                options: [
+                  "It is carried only by genes on Y chromosome",
+                  "It is carried only by genes on X chromosome",
+                  "It only occurs when there are two Y chromosomes",
+                  "It makes them to be carriers, but not impacted by the disease"
+                ],
+                answer: 1,
+                explanation: "Hemophilia A and B are X-linked recessive disorders carried on the X chromosome; because males (XY) are hemizygous and possess only one X chromosome, a single recessive allele is sufficient to express the disease."
+              },
+              {
+                id: "bumhs-bio-2026-056",
+                question: "In AaBb x AaBb cross, phenotype ratio deviates in F2 generation from 9:3:3:1 when _____________.",
+                options: [
+                  "Alleles are dominant",
+                  "Genes are linked",
+                  "Traits are recessive",
+                  "Gametes are equal"
+                ],
+                answer: 1,
+                explanation: "Mendel's dihybrid F2 phenotypic ratio of 9:3:3:1 requires independent assortment of genes on different chromosomes; when two genes are located close together on the same chromosome (linked), they do not assort independently and the ratio deviates."
+              },
+              {
+                id: "bumhs-bio-2026-070",
+                question: "Genes for color blindness in man are located on:",
+                options: [
+                  "X chromosome only",
+                  "Y chromosome only",
+                  "Either X or Y chromosomes",
+                  "Both X and Y chromosomes"
+                ],
+                answer: 0,
+                explanation: "Red-green color blindness is an X-linked recessive trait controlled by genes located exclusively on the non-homologous region of the X chromosome."
+              },
+              {
+                id: "bumhs-bio-2026-019",
+                question: "Systolic blood pressure is measured during which phase of the heart beat?",
+                options: [
+                  "Ventricular relaxation",
+                  "Ventricular contraction",
+                  "Atrial contraction",
+                  "Atrial relaxation"
+                ],
+                answer: 1,
+                explanation: "Systolic blood pressure represents the peak pressure exerted on arterial walls when the ventricles contract (ventricular systole) and pump blood into the aorta and pulmonary arteries."
+              },
+              {
+                id: "bumhs-bio-2026-023",
+                question: "The average duration for one complete cardiac cycle in healthy human is _____ seconds.",
+                options: [
+                  "0.15",
+                  "0.3",
+                  "0.4",
+                  "0.8"
+                ],
+                answer: 3,
+                explanation: "At a normal resting heart rate of about 75 beats per minute, one complete cardiac cycle lasts approximately 0.8 seconds (0.1 s atrial systole, 0.3 s ventricular systole, and 0.4 s joint diastole)."
+              },
+              {
+                id: "bumhs-bio-2026-041",
+                question: "The bicupsid valve (atrioventricular valve) is the valve between the:",
+                options: [
+                  "right atrium and the right ventricle that prevents backflow of blood from the atrium to the ventricle when the ventricle contracts.",
+                  "left atrium and the right ventricle that prevents backflow of blood from the atrium to the ventricle when the ventricle contracts.",
+                  "left atrium and the left ventricle that prevents backflow of blood into the atrium when the ventricle contracts.",
+                  "right atrium and the left ventricle that prevents backflow of blood into the atrium when the ventricle contracts."
+                ],
+                answer: 2,
+                explanation: "The bicuspid (mitral) valve guards the opening between the left atrium and the left ventricle, closing tightly during ventricular systole to prevent backflow of oxygenated blood into the left atrium."
+              },
+              {
+                id: "bumhs-bio-2026-042",
+                question: "Which of the following is a largest lymph vessel?",
+                options: [
+                  "Iliac",
+                  "Subclavian",
+                  "Thoracic",
+                  "Lacteal"
+                ],
+                answer: 2,
+                explanation: "The thoracic duct is the largest lymphatic vessel in the human body, collecting lymph from the lower limbs, abdomen, left thorax, left upper limb, and left side of the head and neck before emptying into the left subclavian vein."
+              },
+              {
+                id: "bumhs-bio-2026-054",
+                question: "Which structures prevent backflow into ventricles during ventricular diastole?",
+                options: [
+                  "AV valves",
+                  "Semilunar valves",
+                  "Interventricular Septum",
+                  "Chordae tendineae"
+                ],
+                answer: 1,
+                explanation: "During ventricular diastole (relaxation), pressure in the ventricles drops below that in the aorta and pulmonary trunk, causing the aortic and pulmonary semilunar valves to snap shut and prevent backflow of blood into the ventricles."
+              },
+              {
+                id: "bumhs-bio-2026-016",
+                question: "The immune response provided by ______ is called cell mediated immune response.",
+                options: [
+                  "T Cells",
+                  "B Cells",
+                  "Macrophages",
+                  "Monocytes"
+                ],
+                answer: 0,
+                explanation: "T-lymphocytes (T cells) recognize antigens presented on infected or abnormal host cells and directly destroy them or coordinate immune responses, constituting cell-mediated immunity."
+              },
+              {
+                id: "bumhs-bio-2026-030",
+                question: "Anti-venom contains antibodies produced in an animal. This anti-venom can be injected to give protection against snake bite venom. Which type of immunity is this?",
+                options: [
+                  "Natural Active Immunity",
+                  "Natural Passive Immunity",
+                  "Artificial Active Immunity",
+                  "Artificial Passive Immunity"
+                ],
+                answer: 3,
+                explanation: "Injecting preformed antibodies (anti-venom) derived from another organism provides immediate, short-term protection without stimulating the recipient's own immune system, which is classified as artificial passive immunity."
+              },
+              {
+                id: "bumhs-bio-2026-033",
+                question: "Cell mediated immune response is the third line of defence of the body, which is provided by _______.",
+                options: [
+                  "B-Lymphocytes",
+                  "T-Lymphocytes",
+                  "Monocytes",
+                  "Histamines"
+                ],
+                answer: 1,
+                explanation: "Specific immunity (the third line of defense) consists of humoral immunity mediated by B-lymphocytes and cell-mediated immunity mediated by T-lymphocytes."
+              },
+              {
+                id: "bumhs-bio-2026-058",
+                question: "Introduction of antibodies from mother to baby during breast feeding is:",
+                options: [
+                  "Natural Active Immunity",
+                  "Artificial Active Immunity",
+                  "Natural Passive Immunity",
+                  "Artificial Passive Immunity"
+                ],
+                answer: 2,
+                explanation: "Transfer of maternal antibodies (such as IgA in breast milk/colostrum or IgG across the placenta) occurs naturally without medical intervention and confers immediate passive protection to the infant, known as natural passive immunity."
+              },
+              {
+                id: "bumhs-bio-2026-003",
+                question: "The contraction of inner intercostal muscles and relaxation of outer intercostal muscles results in _________ movement of ribs?",
+                options: [
+                  "Downward and backward",
+                  "Downward and forward",
+                  "Upward and backward",
+                  "Upward and forward"
+                ],
+                answer: 0,
+                explanation: "During forced expiration, contraction of the internal (inner) intercostal muscles and relaxation of the external (outer) intercostal muscles pulls the rib cage downward and inward/backward, decreasing thoracic volume."
+              },
+              {
+                id: "bumhs-bio-2026-012",
+                question: "Which of the following part is present within the lung?",
+                options: [
+                  "Trachea",
+                  "Larynx",
+                  "Pharynx",
+                  "Bronchi"
+                ],
+                answer: 3,
+                explanation: "The right and left primary bronchi enter the lungs at the hilum and branch inside the lungs into secondary and tertiary bronchi and bronchioles, whereas the pharynx, larynx, and trachea lie outside the lungs."
+              },
+              {
+                id: "bumhs-bio-2026-031",
+                question: "During expiration relaxation of the diaphragm causes it to become:",
+                options: [
+                  "more dome shaped",
+                  "less dome shaped",
+                  "flat",
+                  "U shaped"
+                ],
+                answer: 0,
+                explanation: "During expiration, the muscular diaphragm relaxes and arches upward into the thoracic cavity, becoming more dome-shaped and reducing thoracic volume."
+              },
+              {
+                id: "bumhs-bio-2026-066",
+                question: "A tube like structure that connects the nasal cavity and oral cavity to larynx is __________.",
+                options: [
+                  "trachea",
+                  "pharynx",
+                  "glottis",
+                  "wind pipe"
+                ],
+                answer: 1,
+                explanation: "The pharynx is a muscular funnel-shaped passageway behind the nasal and oral cavities that serves as a common pathway for air and food, leading inferiorly to the larynx and esophagus."
+              },
+              {
+                id: "bumhs-bio-2026-032",
+                question: "In the stomach, _________ softens the food and kills many microorganisms present in food.",
+                options: [
+                  "Pepsin",
+                  "Hydrochloric Acid",
+                  "Bile",
+                  "Pepsinogen"
+                ],
+                answer: 1,
+                explanation: "Hydrochloric acid (HCl) in gastric juice creates an acidic environment (pH 1.5–2.5) that denatures proteins, softens fibrous food components, activates pepsinogen into pepsin, and destroys most ingested microorganisms."
+              },
+              {
+                id: "bumhs-bio-2026-045",
+                question: "In the stomach HCl is secreted by _______.",
+                options: [
+                  "Zymogen cells",
+                  "Chief cells",
+                  "Oxyntic cells",
+                  "F cells"
+                ],
+                answer: 2,
+                explanation: "Oxyntic (parietal) cells of the gastric glands secrete hydrochloric acid (HCl) and intrinsic factor, whereas chief (zymogen) cells secrete pepsinogen."
+              },
+              {
+                id: "bumhs-bio-2026-046",
+                question: "Drugs and other poisonous substances in blood are cleared by?",
+                options: [
+                  "Villi",
+                  "Lacteal",
+                  "Rectum",
+                  "Liver"
+                ],
+                answer: 3,
+                explanation: "The liver is the primary organ of detoxification; hepatocytes metabolize, neutralize, and clear drugs, alcohol, metabolic wastes, and toxic substances from the blood."
+              },
+              {
+                id: "bumhs-bio-2026-063",
+                question: "Which part of alimentary canal performs both functions of digestion and absorption?",
+                options: [
+                  "Oral cavity",
+                  "Stomach",
+                  "Small intestine",
+                  "Large intestine"
+                ],
+                answer: 2,
+                explanation: "The small intestine completes the enzymatic digestion of carbohydrates, proteins, lipids, and nucleic acids (primarily in the duodenum) and absorbs nearly all digested nutrients through its villi and microvilli (in the jejunum and ileum)."
+              },
+              {
+                id: "bumhs-bio-2026-072",
+                question: "Which of the following is not a part of human digestive tract?",
+                options: [
+                  "Stomach",
+                  "Crop",
+                  "Rectum",
+                  "Caecum"
+                ],
+                answer: 1,
+                explanation: "The crop is a specialized food-storage pouch found in the digestive tract of birds, insects, and earthworms, and is not part of the human alimentary canal."
+              },
+              {
+                id: "bumhs-bio-2026-077",
+                question: "Bilirubin is converted to bile pigments in intestine by _________ to give characteristic brownish color of feces.",
+                options: [
+                  "Bacteria in intestine",
+                  "Hepatocytes",
+                  "Epithelial cells of villus",
+                  "Acinar cells"
+                ],
+                answer: 0,
+                explanation: "Gut bacteria in the intestine convert conjugated bilirubin into urobilinogen and stercobilinogen, which is oxidized to stercobilin—the pigment responsible for the characteristic brown color of feces."
+              },
+              {
+                id: "bumhs-bio-2026-035",
+                question: "Which of the following waste product is the most toxic and need extra water for its removal?",
+                options: [
+                  "Urea",
+                  "Uric acid",
+                  "Ammonia",
+                  "Creatinine"
+                ],
+                answer: 2,
+                explanation: "Ammonia is highly toxic and soluble in water, requiring a large volume of water (about 500 mL per gram of nitrogen) for safe excretion, which is typical of aquatic animals (ammonotelism)."
+              },
+              {
+                id: "bumhs-bio-2026-044",
+                question: "Which of the following hormone is responsible for the active uptake of sodium in the ascending limb?",
+                options: [
+                  "Aldosterone",
+                  "Oestrogen",
+                  "Testosterone",
+                  "ADH"
+                ],
+                answer: 0,
+                explanation: "Aldosterone, a mineralocorticoid secreted by the adrenal cortex, promotes the active reabsorption (uptake) of sodium ions (Na+) in the thick ascending limb of the loop of Henle, distal convoluted tubule, and collecting duct."
+              },
+              {
+                id: "bumhs-bio-2026-050",
+                question: "Formation of urea occurs in _______.",
+                options: [
+                  "Kidney",
+                  "Blood",
+                  "Liver",
+                  "Intestine"
+                ],
+                answer: 2,
+                explanation: "Urea is synthesized from ammonia and carbon dioxide in the liver via the ornithine (urea) cycle, and is then transported by the blood to the kidneys for excretion."
+              },
+              {
+                id: "bumhs-bio-2026-061",
+                question: "If the kidneys begin to loose their ability to function properly, which of the following is most likely to occur first?",
+                options: [
+                  "Electrolyte imbalance",
+                  "Accumulation of nitrogenous waste like urea",
+                  "Dehydration due to reduced water re-absorption",
+                  "Hormonal imbalance"
+                ],
+                answer: 1,
+                explanation: "A primary and immediate consequence of declining glomerular filtration and renal function is the retention and accumulation of nitrogenous metabolic wastes—such as urea and creatinine—in the blood (uremia/azotemia)."
+              },
+              {
+                id: "bumhs-bio-2026-069",
+                question: "All of the following have excretory role EXCEPT:",
+                options: [
+                  "Kidney",
+                  "Appendix",
+                  "Lungs",
+                  "Skin"
+                ],
+                answer: 1,
+                explanation: "The kidneys (excreting urea, excess salts, and water), lungs (excreting CO2 and water vapor), and skin (excreting water, salts, and traces of urea via sweat) all play excretory roles, whereas the appendix is a vestigial lymphoid structure attached to the caecum with no excretory function."
+              },
+              {
+                id: "bumhs-bio-2026-040",
+                question: "___________ is used to infect the stem cells with normal genes in gene therapy.",
+                options: [
+                  "Agrobacterium",
+                  "Retroviruses",
+                  "Bacteriophages",
+                  "Bacterial plasmids"
+                ],
+                answer: 1,
+                explanation: "Retroviruses are commonly used as viral vectors in ex vivo gene therapy (such as for SCID) to deliver and integrate functional normal genes into the DNA of patient bone marrow stem cells."
+              },
+              {
+                id: "bumhs-bio-2026-068",
+                question: "Interferons produced through biotechnology are primarily used to:",
+                options: [
+                  "Kill bacteria directly",
+                  "Stimulate antiviral responses in cells",
+                  "Digest proteins",
+                  "Transport oxygen"
+                ],
+                answer: 1,
+                explanation: "Interferons are antiviral cytokines produced via recombinant DNA technology that bind to cell surface receptors and stimulate neighboring host cells to synthesize antiviral proteins that inhibit viral replication."
+              },
+              {
+                id: "bumhs-bio-2026-081",
+                question: "The principle underlying the use of DNA / RNA probes in diagnosis is:",
+                options: [
+                  "Translation",
+                  "Mutation",
+                  "Complimentary base pairing",
+                  "Protein folding"
+                ],
+                answer: 2,
+                explanation: "Nucleic acid hybridization with labeled DNA or RNA probes relies on complementary base pairing (A-T/U and G-C) between the single-stranded probe and the target pathogen or mutant gene sequence."
               }
   ];

@@ -515,5 +515,53 @@ export type Question = {
       ],
       answer: 3,
       explanation: "Vaccines stimulate a primary adaptive immune response that generates long-lived memory B and memory T lymphocytes, enabling a rapid, robust secondary immune response upon future exposure to the pathogen."
+    },
+    {
+      id: "bumhs-bio-2026-016",
+      question: "The immune response provided by ______ is called cell mediated immune response.",
+      options: [
+        "T Cells",
+        "B Cells",
+        "Macrophages",
+        "Monocytes"
+      ],
+      answer: 0,
+      explanation: "T-lymphocytes (T cells) recognize antigens presented on infected or abnormal host cells and directly destroy them or coordinate immune responses, constituting cell-mediated immunity."
+    },
+    {
+      id: "bumhs-bio-2026-030",
+      question: "Anti-venom contains antibodies produced in an animal. This anti-venom can be injected to give protection against snake bite venom. Which type of immunity is this?",
+      options: [
+        "Natural Active Immunity",
+        "Natural Passive Immunity",
+        "Artificial Active Immunity",
+        "Artificial Passive Immunity"
+      ],
+      answer: 3,
+      explanation: "Injecting preformed antibodies (anti-venom) derived from another organism provides immediate, short-term protection without stimulating the recipient's own immune system, which is classified as artificial passive immunity."
+    },
+    {
+      id: "bumhs-bio-2026-033",
+      question: "Cell mediated immune response is the third line of defence of the body, which is provided by _______.",
+      options: [
+        "B-Lymphocytes",
+        "T-Lymphocytes",
+        "Monocytes",
+        "Histamines"
+      ],
+      answer: 1,
+      explanation: "Specific immunity (the third line of defense) consists of humoral immunity mediated by B-lymphocytes and cell-mediated immunity mediated by T-lymphocytes."
+    },
+    {
+      id: "bumhs-bio-2026-058",
+      question: "Introduction of antibodies from mother to baby during breast feeding is:",
+      options: [
+        "Natural Active Immunity",
+        "Artificial Active Immunity",
+        "Natural Passive Immunity",
+        "Artificial Passive Immunity"
+      ],
+      answer: 2,
+      explanation: "Transfer of maternal antibodies (such as IgA in breast milk/colostrum or IgG across the placenta) occurs naturally without medical intervention and confers immediate passive protection to the infant, known as natural passive immunity."
     }
   ]

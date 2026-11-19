@@ -1575,5 +1575,77 @@ export type Question = {
         ],
         answer: 1,
         explanation: "The amygdala is an almond-shaped cluster of nuclei located within the temporal lobe that forms a key component of the limbic system, regulating emotions such as fear, aggression, and emotional memory."
+      },
+      {
+        id: "bumhs-bio-2026-025",
+        question: "In the human brain, sensory signals from different parts of the body are first processed and redirected to appropriate regions of the cerebrum for interpretation. Which brain structure functions as this main sensory relay center?",
+        options: [
+          "Thalamus",
+          "Cerebellum",
+          "Hypothalamus",
+          "Medulla oblongata"
+        ],
+        answer: 0,
+        explanation: "The thalamus acts as the primary sensory relay station of the forebrain, receiving sensory impulses (except olfaction) and routing them to the appropriate areas of the cerebral cortex."
+      },
+      {
+        id: "bumhs-bio-2026-034",
+        question: "A person was humiliated publicly by his boss, followed by sympathetically supported by his colleagues. Which part of his brain is dealing all these feelings of embarrassment and being cared?",
+        options: [
+          "Pons",
+          "Hypothalamus",
+          "Hippocampus",
+          "Amygdala"
+        ],
+        answer: 3,
+        explanation: "The amygdala, a key component of the limbic system, processes emotional responses such as fear, embarrassment, anger, and social/emotional attachment."
+      },
+      {
+        id: "bumhs-bio-2026-060",
+        question: "Influx of which one of the following ions, takes place during depolarization state across neurons?",
+        options: [
+          "Magnesium",
+          "Sodium",
+          "Potassium",
+          "Iron"
+        ],
+        answer: 1,
+        explanation: "During depolarization of a neuron, voltage-gated sodium (Na+) channels open, allowing a rapid influx of Na+ ions into the axon and reversing the membrane potential."
+      },
+      {
+        id: "bumhs-bio-2026-067",
+        question: "Reflex action is meant for:",
+        options: [
+          "Long term memory",
+          "Situations involved in deep thinking",
+          "Voluntary actions in emergency",
+          "Involuntary actions in emergency"
+        ],
+        answer: 3,
+        explanation: "A reflex action is a rapid, automatic, involuntary response to a stimulus that protects the body in sudden or emergency situations without requiring conscious brain deliberation."
+      },
+      {
+        id: "bumhs-bio-2026-073",
+        question: "A patient suffers memory loss after damage to a specific brain region. Which part is most likely to be affected?",
+        options: [
+          "Hypothalamus",
+          "Medulla oblongata",
+          "Cerebrum",
+          "Cerebellum"
+        ],
+        answer: 2,
+        explanation: "The cerebrum (along with its associated limbic structures such as the hippocampus) is responsible for higher cognitive functions including memory storage and recall."
+      },
+      {
+        id: "bumhs-bio-2026-076",
+        question: "Human intelligence is controlled by the_________ part of the brain.",
+        options: [
+          "Cerebrum",
+          "Medulla oblongata",
+          "Hypothalamus",
+          "Corpus callosum"
+        ],
+        answer: 0,
+        explanation: "The cerebrum is the largest part of the human brain and governs intelligence, reasoning, learning, conscious thought, and decision-making."
       }
   ];

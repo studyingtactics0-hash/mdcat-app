@@ -1071,5 +1071,53 @@ export type Question = {
         ],
         answer: 1,
         explanation: "Calcium (Ca) has an atomic number of 20. Using the noble gas core of Argon ([Ar], which accounts for 18 electrons), the remaining 2 electrons fill the 4s subshell, giving [Ar] 4s²."
+      },
+      {
+        id: "bumhs-chem-2026-090",
+        question: "Energy of photon is directly proportional to:",
+        options: [
+          "wavelength",
+          "temperature",
+          "frequency",
+          "velocity"
+        ],
+        answer: 2,
+        explanation: "According to Planck's quantum theory, the energy of a photon is given by E = hν, showing that energy (E) is directly proportional to frequency (ν) and inversely proportional to wavelength."
+      },
+      {
+        id: "bumhs-chem-2026-091",
+        question: "Which of the following orbital is symmetrical about only the y-axis?",
+        options: [
+          "s",
+          "px",
+          "py",
+          "dxy"
+        ],
+        answer: 2,
+        explanation: "A p orbital is dumbbell-shaped with two lobes oriented along a specific axis; the py orbital has its electron density concentrated symmetrically along the y-axis."
+      },
+      {
+        id: "bumhs-chem-2026-106",
+        question: "Which of the following elements has no paired p electrons in a single uncombined atom of the element?",
+        options: [
+          "Sodium (Na₁₁)",
+          "Neon (Ne₁₀)",
+          "Phosphorous (P₁₅)",
+          "Oxygen (O₈)"
+        ],
+        answer: 2,
+        explanation: "In its valence shell, Phosphorus (1s² 2s² 2p⁶ 3s² 3p³) has three singly occupied 3p orbitals (3pₓ¹ 3pᵧ¹ 3p₂¹) following Hund's rule with no paired valence p electrons, whereas O₈ (2p⁴), Ne₁₀ (2p⁶), and Na₁₁ (2p⁶) contain paired p electrons in their highest occupied p subshell."
+      },
+      {
+        id: "bumhs-chem-2026-108",
+        question: "How many quantum numbers are required for an electron to explain its behavior according to Bohr atomic model?",
+        options: [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        answer: 0,
+        explanation: "In Bohr's atomic model, electrons revolve in fixed circular orbits (shells) whose energy and radius are determined by a single quantum number—the principal quantum number (n)."
       }
   ];

@@ -444,5 +444,53 @@ export type Question = {
       ],
       answer: 0,
       explanation: "Lamarck's theory of inheritance of acquired characters states that structural changes or modifications developed by an organism during its lifetime through use or disuse are transmitted directly to the next generation."
+    },
+    {
+      id: "bumhs-bio-2026-005",
+      question: "Another name of Lamarck's theory is:",
+      options: [
+        "Theory of survival of the fittest",
+        "Theory of genetic drift",
+        "Theory of inheritance of acquired characters",
+        "Theory of natural selection"
+      ],
+      answer: 2,
+      explanation: "Jean-Baptiste Lamarck proposed that traits acquired or lost by an organism during its lifetime through use or disuse are passed on to its offspring, known as the Theory of Inheritance of Acquired Characters."
+    },
+    {
+      id: "bumhs-bio-2026-007",
+      question: "Which of the following statements, correctly states the objections, which were raised on Lamarckism?",
+      options: [
+        "There are many experimental proofs of Lamarckism",
+        "The use and disuse of organs can alter the genotype of an organism",
+        "Somatic changes are heritable",
+        "Organs are not modified by the wish or requirement of an organism"
+      ],
+      answer: 3,
+      explanation: "A major objection to Lamarckism is that bodily organs do not develop or change simply because an organism wishes or needs them to, and somatic modifications do not alter germ cells."
+    },
+    {
+      id: "bumhs-bio-2026-020",
+      question: "According to the Lamarckism, long neck giraffes evolved because:",
+      options: [
+        "nature favors only long neck giraffes",
+        "they are less harmful to human than short neck giraffes",
+        "long neck giraffes predated the short neck giraffes",
+        "stretching of necks over many generations by short necked ones"
+      ],
+      answer: 3,
+      explanation: "Lamarck explained the long neck of giraffes by proposing that short-necked ancestors continuously stretched their necks to reach higher foliage, and this acquired elongation was inherited across generations."
+    },
+    {
+      id: "bumhs-bio-2026-079",
+      question: "It is observed that bacteria become more and more resistant against antibiotics over time. This is due to ________.",
+      options: [
+        "Genetic drift",
+        "Loss of quality of antibiotics over time",
+        "Natural selection in bacteria",
+        "Non random mating in bacteria"
+      ],
+      answer: 2,
+      explanation: "Antibiotic exposure acts as a selective pressure that kills susceptible bacteria while allowing resistant mutants to survive and reproduce, a classic example of natural selection."
     }
   ];

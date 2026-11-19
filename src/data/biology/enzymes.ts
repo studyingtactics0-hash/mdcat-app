@@ -942,5 +942,77 @@ export type Question = {
       ],
       answer: 0,
       explanation: "A competitive inhibitor closely resembles the three-dimensional structure of the normal substrate, allowing it to compete directly with the substrate for binding to the enzyme's active site."
+    },
+    {
+      id: "bumhs-bio-2026-009",
+      question: "In different parts of human digestive system pH varies from acidic to basic ranges. Which one is true for Pepsin to works best?",
+      options: [
+        "Pepsin only digest proteins in alkaline medium",
+        "Pepsin's active site is stable in acidic environment",
+        "Pepsin is not an enzyme",
+        "Acid destroys the substrate"
+      ],
+      answer: 1,
+      explanation: "Pepsin is a proteolytic enzyme secreted in the stomach that has an optimum pH of around 1.5–2.0; its active site maintains the proper ionization and 3D conformation in a strongly acidic environment."
+    },
+    {
+      id: "bumhs-bio-2026-014",
+      question: "All of the following properties are matching with the induced fit model of enzyme action, EXCEPT:",
+      options: [
+        "Flexibility of active site",
+        "Absolute specificity due to fixed active site",
+        "More than one related substrates can bind active site",
+        "Enzymes become saturated"
+      ],
+      answer: 1,
+      explanation: "A rigid, fixed active site with absolute geometric specificity describes Emil Fischer's Lock and Key model, whereas Koshland's Induced Fit model proposes a flexible active site that undergoes conformational change upon substrate binding."
+    },
+    {
+      id: "bumhs-bio-2026-024",
+      question: "The active sites of enzyme are composed of ____ region(s).",
+      options: [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      answer: 1,
+      explanation: "The active site of an enzyme consists of two functional regions: the binding site (which recognizes and binds the substrate) and the catalytic site (which carries out the chemical reaction)."
+    },
+    {
+      id: "bumhs-bio-2026-048",
+      question: "According to the Lock and Key Hypothesis, Enzymes acts as a ______ and substrate acts as a _______.",
+      options: [
+        "Lock, Key",
+        "Lock, Knob",
+        "Key, Lock",
+        "Knob, Door"
+      ],
+      answer: 0,
+      explanation: "Proposed by Emil Fischer in 1894, the Lock and Key hypothesis states that the rigid active site of an enzyme acts like a lock into which only a specific substrate (acting as a key) can fit."
+    },
+    {
+      id: "bumhs-bio-2026-055",
+      question: "Catalysis of anabolic reaction for protein synthesis is controlled by:",
+      options: [
+        "Ions",
+        "Carbohydrates",
+        "Enzymes",
+        "Lipids"
+      ],
+      answer: 2,
+      explanation: "All metabolic pathways—including anabolic reactions such as protein synthesis (e.g., aminoacyl-tRNA synthetase and peptidyl transferase)—are catalyzed and controlled by specific enzymes."
+    },
+    {
+      id: "bumhs-bio-2026-059",
+      question: "Which one of the following is not affected by an enzyme during catalysis?",
+      options: [
+        "Quantity of product",
+        "Nature of product",
+        "Activation energy",
+        "Time to reach equilibrium"
+      ],
+      answer: 1,
+      explanation: "Enzymes lower the activation energy and reduce the time required to reach chemical equilibrium, but they do not alter the chemical nature or properties of the final products formed."
     }
   ];

@@ -1011,5 +1011,65 @@ export type Question = {
         ],
         answer: 1,
         explanation: "Lymph is formed when excess interstitial fluid (tissue fluid) bathing the body's cells enters blind-ended lymphatic capillaries; therefore, its chemical composition is virtually identical to interstitial fluid."
+      },
+      {
+        id: "bumhs-bio-2026-019",
+        question: "Systolic blood pressure is measured during which phase of the heart beat?",
+        options: [
+          "Ventricular relaxation",
+          "Ventricular contraction",
+          "Atrial contraction",
+          "Atrial relaxation"
+        ],
+        answer: 1,
+        explanation: "Systolic blood pressure represents the peak pressure exerted on arterial walls when the ventricles contract (ventricular systole) and pump blood into the aorta and pulmonary arteries."
+      },
+      {
+        id: "bumhs-bio-2026-023",
+        question: "The average duration for one complete cardiac cycle in healthy human is _____ seconds.",
+        options: [
+          "0.15",
+          "0.3",
+          "0.4",
+          "0.8"
+        ],
+        answer: 3,
+        explanation: "At a normal resting heart rate of about 75 beats per minute, one complete cardiac cycle lasts approximately 0.8 seconds (0.1 s atrial systole, 0.3 s ventricular systole, and 0.4 s joint diastole)."
+      },
+      {
+        id: "bumhs-bio-2026-041",
+        question: "The bicupsid valve (atrioventricular valve) is the valve between the:",
+        options: [
+          "right atrium and the right ventricle that prevents backflow of blood from the atrium to the ventricle when the ventricle contracts.",
+          "left atrium and the right ventricle that prevents backflow of blood from the atrium to the ventricle when the ventricle contracts.",
+          "left atrium and the left ventricle that prevents backflow of blood into the atrium when the ventricle contracts.",
+          "right atrium and the left ventricle that prevents backflow of blood into the atrium when the ventricle contracts."
+        ],
+        answer: 2,
+        explanation: "The bicuspid (mitral) valve guards the opening between the left atrium and the left ventricle, closing tightly during ventricular systole to prevent backflow of oxygenated blood into the left atrium."
+      },
+      {
+        id: "bumhs-bio-2026-042",
+        question: "Which of the following is a largest lymph vessel?",
+        options: [
+          "Iliac",
+          "Subclavian",
+          "Thoracic",
+          "Lacteal"
+        ],
+        answer: 2,
+        explanation: "The thoracic duct is the largest lymphatic vessel in the human body, collecting lymph from the lower limbs, abdomen, left thorax, left upper limb, and left side of the head and neck before emptying into the left subclavian vein."
+      },
+      {
+        id: "bumhs-bio-2026-054",
+        question: "Which structures prevent backflow into ventricles during ventricular diastole?",
+        options: [
+          "AV valves",
+          "Semilunar valves",
+          "Interventricular Septum",
+          "Chordae tendineae"
+        ],
+        answer: 1,
+        explanation: "During ventricular diastole (relaxation), pressure in the ventricles drops below that in the aorta and pulmonary trunk, causing the aortic and pulmonary semilunar valves to snap shut and prevent backflow of blood into the ventricles."
       }
   ];

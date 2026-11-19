@@ -527,5 +527,17 @@ export type Question = {
         ],
         answer: 1,
         explanation: "Lattice energy is the enthalpy change when one mole of an ionic crystal is formed from its isolated gaseous ions. Because strong electrostatic attractions are formed between oppositely charged ions, the process is exothermic and energy is released."
+      },
+      {
+        id: "bumhs-chem-2026-088",
+        question: "If radius of anion and cation are 36pm and 18pm respectively, radius ratio will be?",
+        options: [
+          "2",
+          "0.5",
+          "0.1",
+          "0.56"
+        ],
+        answer: 1,
+        explanation: "The radius ratio of an ionic crystal is defined as the ratio of the radius of the cation (r⁺) to the radius of the anion (r⁻): r⁺ / r⁻ = 18 pm / 36 pm = 0.5."
       }
   ];

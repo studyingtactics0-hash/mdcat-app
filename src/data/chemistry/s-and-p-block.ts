@@ -872,5 +872,29 @@ export type Question = {
         ],
         answer: 0,
         explanation: "Carbon tetrachloride (CCl₄) does not undergo hydrolysis with water at room temperature because carbon lacks vacant d-orbitals in its valence shell to accept lone pairs of electrons from water molecules, and the bulky chlorine atoms sterically hinder nucleophilic attack. In contrast, SiCl₄, GeCl₄, and PbCl₄ possess vacant d-orbitals and hydrolyze readily in water."
+      },
+      {
+        id: "bumhs-chem-2026-105",
+        question: "Why do Group 2 Hydroxides become more soluble down the group?",
+        options: [
+          "charge density increases",
+          "enthalpy of hydration decreases more rapidly than enthalpy of lattice",
+          "enthalpy of lattice decreases more rapidly than enthalpy of hydration",
+          "enthalpy of solution becomes more exothermic down the group"
+        ],
+        answer: 2,
+        explanation: "Down Group 2, as cation size increases, both lattice energy and hydration energy decrease, but lattice energy decreases more rapidly than hydration energy (because the small OH⁻ ion makes lattice energy strongly dependent on cation radius). This makes the enthalpy of solution increasingly exothermic (or less endothermic), increasing solubility down the group."
+      },
+      {
+        id: "bumhs-chem-2026-115",
+        question: "When nuclear charge increases in period, then size of cation ______.",
+        options: [
+          "remains same",
+          "increases",
+          "decreases",
+          "first increases then decreases"
+        ],
+        answer: 2,
+        explanation: "Across a period from left to right, effective nuclear charge increases while electrons are added to the same principal shell (and isoelectronic cations have the same number of electrons). The stronger electrostatic attraction pulls the electron cloud closer to the nucleus, causing the cation radius to decrease."
       }
   ];

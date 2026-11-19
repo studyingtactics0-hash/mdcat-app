@@ -989,5 +989,41 @@ export type Question = {
         ],
         answer: 2,
         explanation: "Percentage yield ((Actual yield / Theoretical yield) × 100) is used by chemists to measure and express the efficiency of a chemical reaction. Theoretical yield is the calculated amount from a balanced equation, whereas actual yield is obtained experimentally."
+      },
+      {
+        id: "bumhs-chem-2026-089",
+        question: "Volume occupied by 1 mole of gas at standard temperature and pressure is:",
+        options: [
+          "22.4 dm³",
+          "22400 cm³",
+          "0.0224 m³",
+          "all of them"
+        ],
+        answer: 3,
+        explanation: "At STP, 1 mole of an ideal gas occupies a molar volume of 22.4 dm³ (liters), which is equivalent to 22,400 cm³ (since 1 dm³ = 1000 cm³) and 0.0224 m³ (since 1000 dm³ = 1 m³)."
+      },
+      {
+        id: "bumhs-chem-2026-113",
+        question: "9.8 g of an aqueous H₂SO₄ contains ______ moles of H⁺ ions.",
+        options: [
+          "0.1 moles",
+          "0.2 moles",
+          "0.3 moles",
+          "0.4 moles"
+        ],
+        answer: 1,
+        explanation: "Molar mass of H₂SO₄ is 98 g/mol, so 9.8 g equals 9.8 / 98 = 0.1 moles of H₂SO₄. Since each mole of H₂SO₄ ionizes completely to yield 2 moles of H⁺ ions, 0.1 moles of H₂SO₄ produces 0.1 × 2 = 0.2 moles of H⁺ ions."
+      },
+      {
+        id: "bumhs-chem-2026-121",
+        question: "The actual yield of a reaction is always:",
+        options: [
+          "exactly equal to the theoretical yield.",
+          "greater than the theoretical yield.",
+          "less than the theoretical yield.",
+          "independent of the amount of the theoretical yield."
+        ],
+        answer: 2,
+        explanation: "The actual yield obtained experimentally is always less than the theoretical yield due to factors such as incomplete/reversible reactions, competing side reactions, and mechanical losses during filtration, distillation, or transfer."
       }
   ];

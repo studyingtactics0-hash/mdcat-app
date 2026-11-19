@@ -458,5 +458,17 @@ export type Question = {
         ],
         answer: 0,
         explanation: "A hydrogen bond is an electrostatic attraction between a partially positive hydrogen atom covalently bonded to a small, highly electronegative atom (specifically fluorine, oxygen, or nitrogen) and a lone pair of electrons on another highly electronegative atom."
+      },
+      {
+        id: "bumhs-chem-2026-112",
+        question: "Which one has very high heat of vaporization ?",
+        options: [
+          "PH₃",
+          "H₂S",
+          "H₂O",
+          "HF"
+        ],
+        answer: 2,
+        explanation: "Water (H₂O) has an exceptionally high molar heat of vaporization (about 40.7 kJ/mol) because each H₂O molecule forms an extensive three-dimensional network of up to four strong intermolecular hydrogen bonds, requiring a large amount of energy to break during vaporization."
       }
   ];

@@ -3,6 +3,16 @@
 const kmuPapers = [
   {
     icon: "📝",
+    title: "BUMHS 2026",
+    description:
+      "Practice the complete BUMHS 2026 past paper with authentic questions and experience the style and difficulty of the actual examination.",
+    href: "/tests/mock-tests/past-papers/bumhs/bumhs-26",
+    button: "Start BUMHS 2026",
+    available: true,
+    featured: true,
+  },
+  {
+    icon: "📝",
     title: "BUMHS 2025",
     description:
       "Practice the complete BUMHS 2025 past paper with authentic questions and experience the style and difficulty of the actual examination.",

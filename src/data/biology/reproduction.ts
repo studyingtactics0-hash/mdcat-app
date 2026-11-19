@@ -1257,5 +1257,41 @@ export const reproductionQuestions = [
       ],
       answer: 1,
       explanation: "Primary syphilis, caused by the spirochete bacterium Treponema pallidum, characteristically presents with a solitary, painless, indurated (hard-edged) genital ulcer known as a chancre."
+    },
+    {
+      id: "bumhs-bio-2026-011",
+      question: "_________ is an example of a sexually transmitted disease.",
+      options: [
+        "Cardiovascular disease",
+        "Diabetes",
+        "Hypertension",
+        "Syphilis"
+      ],
+      answer: 3,
+      explanation: "Syphilis is a sexually transmitted infection caused by the spirochete bacterium Treponema pallidum, whereas cardiovascular disease, diabetes, and hypertension are non-communicable disorders."
+    },
+    {
+      id: "bumhs-bio-2026-018",
+      question: "Male gonads are situated in a skin pouch called _________.",
+      options: [
+        "Ductules",
+        "Scrotum",
+        "Urethra",
+        "Lobules"
+      ],
+      answer: 1,
+      explanation: "The male gonads (testes) are housed outside the abdominal cavity in a sac of skin called the scrotum, which keeps them about 2–3°C cooler than core body temperature for normal spermatogenesis."
+    },
+    {
+      id: "bumhs-bio-2026-062",
+      question: "A male adult patient shows burning urination and pus discharge. Most probable infection is _________.",
+      options: [
+        "Gonorrhea",
+        "AIDS",
+        "Herpes simplex",
+        "Syphilis"
+      ],
+      answer: 0,
+      explanation: "Gonorrhea, caused by the bacterium Neisseria gonorrhoeae, affects the mucous membranes of the urinogenital tract and classically presents in males with painful/burning urination (dysuria) and purulent urethral discharge."
     }
 ];

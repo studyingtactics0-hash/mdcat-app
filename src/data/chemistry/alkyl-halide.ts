@@ -773,5 +773,41 @@ export type Question = {
         ],
         answer: 2,
         explanation: "Fluorine has the smallest atomic radius among the halogens, allowing maximum orbital overlap with carbon and resulting in the shortest and strongest carbon-halogen bond (C–F, ~485 kJ/mol). Bond energy decreases down the group in the order: C–F > C–Cl > C–Br > C–I."
+      },
+      {
+        id: "bumhs-chem-2026-083",
+        question: "The order of leaving group ability relevant to dehydrohalogenation of alkyl halide is ___________.",
+        options: [
+          "R - Cl > R - Br > R - I",
+          "R - I > R - Br > R - Cl",
+          "R - F > R - Cl > R - Br",
+          "R - Br > R-I > R - Cl"
+        ],
+        answer: 1,
+        explanation: "Down the halogen group from Cl to I, atomic radius increases and the C–X bond becomes longer and weaker (lower bond dissociation energy). Furthermore, I⁻ is the weakest base and most stable leaving group, making the order of reactivity/leaving group ability R–I > R–Br > R–Cl > R–F."
+      },
+      {
+        id: "bumhs-chem-2026-087",
+        question: "Which of the following statements CORRECTLY describes an E₂ reaction?",
+        options: [
+          "It shows first order kinetics.",
+          "It occurs through a carbocation.",
+          "It includes two step mechanisms.",
+          "It stands for bimolecular elimination"
+        ],
+        answer: 3,
+        explanation: "E2 stands for bimolecular elimination; it proceeds via a single concerted step without a carbocation intermediate and exhibits second-order kinetics (rate depends on both the substrate and the base)."
+      },
+      {
+        id: "bumhs-chem-2026-098",
+        question: "Which one of the following is not a nucleophilic specie?",
+        options: [
+          "Water",
+          "Thiocyanate ion",
+          "Ammonia",
+          "Alkyl group"
+        ],
+        answer: 3,
+        explanation: "Nucleophiles are electron-rich species with lone pairs or negative charges (such as H₂O, SCN⁻, and NH₃) that donate an electron pair to an electrophile. A neutral/cationic alkyl group (R or R⁺) lacks a lone pair of electrons and does not act as a nucleophile."
       }
   ];

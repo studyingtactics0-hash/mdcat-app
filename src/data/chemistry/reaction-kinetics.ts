@@ -985,5 +985,29 @@ export type Question = {
         ],
         answer: 0,
         explanation: "According to the Arrhenius equation ($k = Ae^{-E_a/RT}$), a lower activation energy means a larger fraction of reactant molecules possess sufficient kinetic energy to overcome the energy barrier at a given temperature, resulting in a faster reaction rate."
+      },
+      {
+        id: "bumhs-chem-2026-100",
+        question: "The rate of a chemical reaction is independent of:",
+        options: [
+          "Molecularity",
+          "Temperature",
+          "Nature of reactants",
+          "Concentration of reactants"
+        ],
+        answer: 0,
+        explanation: "The rate of a chemical reaction depends on temperature, concentration of reactants, surface area, catalysts, and the nature of reactants, whereas molecularity is a theoretical count of colliding species in an elementary step and does not directly determine the experimental reaction rate."
+      },
+      {
+        id: "bumhs-chem-2026-118",
+        question: "In the law of rate of chemical reaction, the rate constant 'k' represents:",
+        options: [
+          "total concentration of products",
+          "rate of concentration of products",
+          "rate of concentration of reactant",
+          "fraction of collisions resulting in product formation."
+        ],
+        answer: 3,
+        explanation: "According to collision theory and the Arrhenius equation (k = A·e^(-Ea/RT)), the rate constant 'k' reflects the frequency of effective collisions—specifically the fraction of collisions with proper orientation and sufficient activation energy resulting in product formation."
       }
   ];

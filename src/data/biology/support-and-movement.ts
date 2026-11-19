@@ -1596,5 +1596,101 @@ export type Question = {
         ],
         answer: 3,
         explanation: "Arthritis involves inflammation of the synovial membrane and degeneration of articular cartilage, increasing friction between articulating bone surfaces and causing pain, stiffness, and impaired smooth movement of joints."
+      },
+      {
+        id: "bumhs-bio-2026-029",
+        question: "How does a cartilage function in trachea and bronchi?",
+        options: [
+          "makes them harder",
+          "divides them into compartments",
+          "prevents them from collapsing",
+          "narrows their passage"
+        ],
+        answer: 2,
+        explanation: "C-shaped rings and plates of hyaline cartilage reinforce the walls of the trachea and bronchi, keeping the airways open and preventing them from collapsing when air pressure drops during inhalation."
+      },
+      {
+        id: "bumhs-bio-2026-036",
+        question: "Bones are made up of three types of cells. Which of the following options correctly identifies these cells?",
+        options: [
+          "Osteocytes, lymphocytes and osteoblasts",
+          "Osteocytes, osteoclasts and osteoblasts",
+          "Osteocytes, oocytes and osteoblasts",
+          "Osteocytes, osteoclasts and neutrophils"
+        ],
+        answer: 1,
+        explanation: "Bone tissue consists of three primary cell types: osteoblasts (bone-forming cells), osteocytes (mature bone cells maintaining the matrix), and osteoclasts (bone-resorbing cells)."
+      },
+      {
+        id: "bumhs-bio-2026-047",
+        question: "Contractile unit of skeletal muscles is:",
+        options: [
+          "Sarcomere",
+          "A band",
+          "Myofilament",
+          "I band"
+        ],
+        answer: 0,
+        explanation: "A sarcomere, defined as the region of a myofibril between two successive Z-lines, is the basic structural and functional contractile unit of striated muscle."
+      },
+      {
+        id: "bumhs-bio-2026-051",
+        question: "The most common cartilage found in ribs and nose is ___________.",
+        options: [
+          "Hyaline cartilage",
+          "Elastic cartilage",
+          "Fibro cartilage",
+          "Neuro cartilage"
+        ],
+        answer: 0,
+        explanation: "Hyaline cartilage is the most abundant type of cartilage in the human body, found at the ends of long bones, in the nose, larynx, trachea, and costal cartilages connecting the ribs to the sternum."
+      },
+      {
+        id: "bumhs-bio-2026-064",
+        question: "Which of the following are cylindrically branched muscles?",
+        options: [
+          "Smooth",
+          "Cardiac",
+          "Skeletal",
+          "Voluntary"
+        ],
+        answer: 1,
+        explanation: "Cardiac muscle fibers are striated, cylindrical, and branched cells interconnected by intercalated discs, enabling synchronized contraction of the heart."
+      },
+      {
+        id: "bumhs-bio-2026-065",
+        question: "Cardiac muscles work ________ throughout our life.",
+        options: [
+          "Voluntarily",
+          "Involuntarily",
+          "Randomly",
+          "Reflexively"
+        ],
+        answer: 1,
+        explanation: "Cardiac muscle is myogenic and regulated by the autonomic nervous system, contracting rhythmically and involuntarily throughout a person's lifetime without fatigue."
+      },
+      {
+        id: "bumhs-bio-2026-074",
+        question: "If Z-lines fail to move closer during contraction, what is the likely issue?",
+        options: [
+          "Faster nerve impulses",
+          "ATP in excess",
+          "Increased calcium ions",
+          "Failure of actin-myosin interaction"
+        ],
+        answer: 3,
+        explanation: "According to the sliding filament model, sarcomere shortening (Z-lines moving closer together) occurs when myosin heads form cross-bridges with actin filaments and pull them inward; failure of actin-myosin interaction prevents contraction."
+      },
+      {
+        id: "bumhs-bio-2026-078",
+        question: "Ali experiences severe knee pain, and his lab results show inflammation of the synovial membrane in the knee joint. This inflammation lead to pain during movement, because it:",
+        options: [
+          "cannot hold bones together and keep them stable.",
+          "fails to provide strength to the surrounding muscles.",
+          "cannot secrete synovial fluid that lubricates the joint.",
+          "cannot absorb synovial fluid from the joint capsules."
+        ],
+        answer: 2,
+        explanation: "The synovial membrane lines the joint capsule and secretes synovial fluid, which lubricates articular cartilage and reduces friction; inflammation impairs proper lubrication and causes pain during joint movement."
       }
   ];

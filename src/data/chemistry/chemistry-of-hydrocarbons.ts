@@ -1127,5 +1127,77 @@ export type Question = {
         ],
         answer: 0,
         explanation: "Ethyne (HC≡CH) reacts with water in the presence of dilute H₂SO₄ and HgSO₄ catalyst to initially form an unstable enol intermediate, vinyl alcohol (CH₂=CH–OH), which rapidly tautomerizes into the stable carbonyl compound acetaldehyde (ethanal, CH₃CHO)."
+      },
+      {
+        id: "bumhs-chem-2026-086",
+        question: "Which of the following compound is conjugated?",
+        options: [
+          "Hexa -1,4 diene",
+          "Non - 2,5,8 triene",
+          "Octa1,3,5,7 tetra-ene",
+          "Butan -1,2- diene"
+        ],
+        answer: 2,
+        explanation: "In a conjugated system, double and single bonds alternate continuously (C=C–C=C). Octa-1,3,5,7-tetraene has alternating single and double bonds across C1=C2–C3=C4–C5=C6–C7=C8, whereas hexa-1,4-diene and nona-2,5,8-triene are isolated dienes/trienes and buta-1,2-diene is a cumulated diene."
+      },
+      {
+        id: "bumhs-chem-2026-099",
+        question: "Which of the following statement is incorrect about structure of cyclo propane?",
+        options: [
+          "It is planar molecule",
+          "The C-C-C bond angle is 60°",
+          "The C-C-H angles are 109.5°",
+          "The bonds are directed in three dimensions"
+        ],
+        answer: 2,
+        explanation: "Cyclopropane forms a planar three-membered ring with C–C–C bond angles of 60°. Due to high ring strain and increased s-character in the external C–H orbitals, the H–C–H and C–C–H angles expand beyond the standard tetrahedral 109.5° (to roughly 114°–118°)."
+      },
+      {
+        id: "bumhs-chem-2026-101",
+        question: "What is the major product when propene reacts with HBr in presence of peroxide?",
+        options: [
+          "allyl bromide",
+          "iso-propyl bromide",
+          "n-propyl bromide",
+          "iso-bromo propane"
+        ],
+        answer: 2,
+        explanation: "In the presence of organic peroxides (Kharasch peroxide effect), HBr adds to unsymmetrical alkenes like propene via a free-radical anti-Markovnikov mechanism, attaching bromine to the less substituted terminal carbon to yield 1-bromopropane (n-propyl bromide) as the major product."
+      },
+      {
+        id: "bumhs-chem-2026-116",
+        question: "When nitration of toluene occurs, Methyl group directs the incoming nitro group mainly to which position of benzene?",
+        options: [
+          "Meta position only",
+          "Ortho and Para position only",
+          "Ortho position only",
+          "All positions equally"
+        ],
+        answer: 1,
+        explanation: "The methyl (-CH₃) group is an electron-donating (+I / hyperconjugative) ring activator that increases electron density at the ortho and para positions, directing incoming electrophiles like -NO₂ predominantly to the ortho and para positions."
+      },
+      {
+        id: "bumhs-chem-2026-122",
+        question: "The product formed by the reaction of benzene with chlorine in the presence of ultraviolet light is?",
+        options: [
+          "chlorobenzene",
+          "chlorocyclohexane",
+          "1,2,3,4,5,6 - hexachlorocyclohexane",
+          "1,1,2,2,4,5,6 - hexachlorocyclohexane"
+        ],
+        answer: 2,
+        explanation: "In the presence of ultraviolet (UV) light and absence of halogen carriers, benzene undergoes free-radical addition with three moles of Cl₂ across all three double bonds to form 1,2,3,4,5,6-hexachlorocyclohexane (BHC / gammaxene)."
+      },
+      {
+        id: "bumhs-chem-2026-126",
+        question: "IUPAC name of CH₃CH(CH₃)CH₂CH(C₂H₅)CH₃ is:",
+        options: [
+          "2-ETHYL-3-METHYLPENTANE",
+          "3,5-DIMETHYL HEXANE",
+          "2,4-DIMETHYL HEXANE",
+          "2-METHYL-4-ETHYL PENTANE"
+        ],
+        answer: 2,
+        explanation: "Expanding the ethyl group gives CH₃–CH(CH₃)–CH₂–CH(CH₃)–CH₂–CH₃. The longest continuous carbon chain contains 6 carbons (hexane). Numbering from the end closest to the first substituent places methyl groups at C-2 and C-4, giving 2,4-dimethylhexane."
       }
   ];

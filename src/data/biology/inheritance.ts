@@ -1383,5 +1383,89 @@ export type Question = {
         ],
         answer: 1,
         explanation: "Haemophilia A and B are X-linked recessive bleeding disorders caused by recessive mutations in the clotting factor VIII (F8) or factor IX (F9) genes located on the X chromosome."
+      },
+      {
+        id: "bumhs-bio-2026-002",
+        question: "In fruit flies (Drosophila melanogaster), brown body is dominant to black body. If scientists want to find out the genotype of a fly with a brown body, what genotype would they cross the fly with?",
+        options: [
+          "Heterozygous recessive",
+          "Homozygous recessive",
+          "Heterozygous dominant",
+          "Homozygous dominant"
+        ],
+        answer: 1,
+        explanation: "To determine whether an organism expressing a dominant phenotype (brown body) is homozygous dominant or heterozygous, a test cross is performed by mating it with an individual that is homozygous recessive (black body)."
+      },
+      {
+        id: "bumhs-bio-2026-015",
+        question: "What is the cause of hemophilia?",
+        options: [
+          "Gene mutation",
+          "Bacteria",
+          "Viruses",
+          "Unknown cause"
+        ],
+        answer: 0,
+        explanation: "Hemophilia is an X-linked recessive hereditary bleeding disorder caused by mutations in the genes encoding blood clotting factors (such as Factor VIII in hemophilia A or Factor IX in hemophilia B)."
+      },
+      {
+        id: "bumhs-bio-2026-038",
+        question: "If female is homozygous normal and male is suffering from hemophilia, the trait in children will appear like?",
+        options: [
+          "Daughters normal & sons hemophilic",
+          "Daughters carrier & sons hemophilic",
+          "Daughters carrier & sons normal",
+          "All sons & daughters hemophilic"
+        ],
+        answer: 2,
+        explanation: "Crossing a homozygous normal female (X^H X^H) with a hemophilic male (X^h Y) produces carrier daughters (X^H X^h) who inherit the defective X chromosome from their father, and phenotypically normal sons (X^H Y) who inherit their sole X chromosome from their mother."
+      },
+      {
+        id: "bumhs-bio-2026-039",
+        question: "If a woman is hemophiliac and her husband is also hemophiliac, who among her offspring would be normal?",
+        options: [
+          "Sons",
+          "Daughters",
+          "Sons and Daughters",
+          "None of the offspring"
+        ],
+        answer: 3,
+        explanation: "When both parents are hemophilic (X^h X^h × X^h Y), all gametes carry the recessive X^h allele (or Y in sperm), so 100% of daughters (X^h X^h) and 100% of sons (X^h Y) will inherit hemophilia and none will be normal."
+      },
+      {
+        id: "bumhs-bio-2026-043",
+        question: "Why do hemophilia A and B mostly affect males?",
+        options: [
+          "It is carried only by genes on Y chromosome",
+          "It is carried only by genes on X chromosome",
+          "It only occurs when there are two Y chromosomes",
+          "It makes them to be carriers, but not impacted by the disease"
+        ],
+        answer: 1,
+        explanation: "Hemophilia A and B are X-linked recessive disorders carried on the X chromosome; because males (XY) are hemizygous and possess only one X chromosome, a single recessive allele is sufficient to express the disease."
+      },
+      {
+        id: "bumhs-bio-2026-056",
+        question: "In AaBb x AaBb cross, phenotype ratio deviates in F2 generation from 9:3:3:1 when _____________.",
+        options: [
+          "Alleles are dominant",
+          "Genes are linked",
+          "Traits are recessive",
+          "Gametes are equal"
+        ],
+        answer: 1,
+        explanation: "Mendel's dihybrid F2 phenotypic ratio of 9:3:3:1 requires independent assortment of genes on different chromosomes; when two genes are located close together on the same chromosome (linked), they do not assort independently and the ratio deviates."
+      },
+      {
+        id: "bumhs-bio-2026-070",
+        question: "Genes for color blindness in man are located on:",
+        options: [
+          "X chromosome only",
+          "Y chromosome only",
+          "Either X or Y chromosomes",
+          "Both X and Y chromosomes"
+        ],
+        answer: 0,
+        explanation: "Red-green color blindness is an X-linked recessive trait controlled by genes located exclusively on the non-homologous region of the X chromosome."
       }
   ];

@@ -836,5 +836,77 @@ export type Question = {
       ],
       answer: 2,
       explanation: "Infection and colonization of the gastric mucosa by the bacterium Helicobacter pylori breaks down the protective mucus-bicarbonate barrier of the stomach wall, exposing epithelial cells to acid and pepsin and leading to peptic/gastric ulcers."
+    },
+    {
+      id: "bumhs-bio-2026-032",
+      question: "In the stomach, _________ softens the food and kills many microorganisms present in food.",
+      options: [
+        "Pepsin",
+        "Hydrochloric Acid",
+        "Bile",
+        "Pepsinogen"
+      ],
+      answer: 1,
+      explanation: "Hydrochloric acid (HCl) in gastric juice creates an acidic environment (pH 1.5–2.5) that denatures proteins, softens fibrous food components, activates pepsinogen into pepsin, and destroys most ingested microorganisms."
+    },
+    {
+      id: "bumhs-bio-2026-045",
+      question: "In the stomach HCl is secreted by _______.",
+      options: [
+        "Zymogen cells",
+        "Chief cells",
+        "Oxyntic cells",
+        "F cells"
+      ],
+      answer: 2,
+      explanation: "Oxyntic (parietal) cells of the gastric glands secrete hydrochloric acid (HCl) and intrinsic factor, whereas chief (zymogen) cells secrete pepsinogen."
+    },
+    {
+      id: "bumhs-bio-2026-046",
+      question: "Drugs and other poisonous substances in blood are cleared by?",
+      options: [
+        "Villi",
+        "Lacteal",
+        "Rectum",
+        "Liver"
+      ],
+      answer: 3,
+      explanation: "The liver is the primary organ of detoxification; hepatocytes metabolize, neutralize, and clear drugs, alcohol, metabolic wastes, and toxic substances from the blood."
+    },
+    {
+      id: "bumhs-bio-2026-063",
+      question: "Which part of alimentary canal performs both functions of digestion and absorption?",
+      options: [
+        "Oral cavity",
+        "Stomach",
+        "Small intestine",
+        "Large intestine"
+      ],
+      answer: 2,
+      explanation: "The small intestine completes the enzymatic digestion of carbohydrates, proteins, lipids, and nucleic acids (primarily in the duodenum) and absorbs nearly all digested nutrients through its villi and microvilli (in the jejunum and ileum)."
+    },
+    {
+      id: "bumhs-bio-2026-072",
+      question: "Which of the following is not a part of human digestive tract?",
+      options: [
+        "Stomach",
+        "Crop",
+        "Rectum",
+        "Caecum"
+      ],
+      answer: 1,
+      explanation: "The crop is a specialized food-storage pouch found in the digestive tract of birds, insects, and earthworms, and is not part of the human alimentary canal."
+    },
+    {
+      id: "bumhs-bio-2026-077",
+      question: "Bilirubin is converted to bile pigments in intestine by _________ to give characteristic brownish color of feces.",
+      options: [
+        "Bacteria in intestine",
+        "Hepatocytes",
+        "Epithelial cells of villus",
+        "Acinar cells"
+      ],
+      answer: 0,
+      explanation: "Gut bacteria in the intestine convert conjugated bilirubin into urobilinogen and stercobilinogen, which is oxidized to stercobilin—the pigment responsible for the characteristic brown color of feces."
     }
   ]

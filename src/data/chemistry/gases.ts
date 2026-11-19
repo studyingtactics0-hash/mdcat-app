@@ -757,5 +757,41 @@ export type Question = {
         ],
         answer: 2,
         explanation: "Absolute zero ($0\\text{ K}$) is the theoretical lowest possible temperature at which gas volume and molecular translational kinetic energy approach zero. On the Celsius scale, $0\\text{ K}$ corresponds to $-273.15\\text{ }^\\circ\\text{C}$ (commonly rounded to $-273\\text{ }^\\circ\\text{C}$)."
+      },
+      {
+        id: "bumhs-chem-2026-096",
+        question: "According to kinetic particle theory, which of the following statement is NOT TRUE about behavior of ideal gases?",
+        options: [
+          "ideal gases have zero particle volume",
+          "ideal gases have no force of attraction between their molecules",
+          "The particles of gases are in constant random motion",
+          "Kinetic energy is lost during the collisions"
+        ],
+        answer: 3,
+        explanation: "According to the Kinetic Molecular Theory (KMT), collisions between ideal gas molecules and the container walls are perfectly elastic, meaning total kinetic energy is conserved and not lost during collisions."
+      },
+      {
+        id: "bumhs-chem-2026-110",
+        question: "64g of CH₄ has volume of 22.4 dm³ at 546K. The pressure of sample will be:",
+        options: [
+          "2 atm",
+          "4 atm",
+          "6 atm",
+          "8 atm"
+        ],
+        answer: 3,
+        explanation: "Number of moles of CH₄ (molar mass = 16 g/mol) is n = 64 / 16 = 4 moles. Using the ideal gas equation P = nRT / V = (4 × 0.0821 × 546) / 22.4 = 8 atm."
+      },
+      {
+        id: "bumhs-chem-2026-114",
+        question: "According to assumption of KMT, there are no intermolecular forces among gas molecules, so ideal gas ______.",
+        options: [
+          "will liquefy before 0 K",
+          "can never liquefy",
+          "can liquefy at any temperature",
+          "can liquefy at liquefaction point"
+        ],
+        answer: 1,
+        explanation: "Liquefaction requires intermolecular attractive forces to pull gas molecules together into the liquid state. Because ideal gases are assumed to have zero intermolecular forces, an ideal gas can never be liquefied."
       }
   ];

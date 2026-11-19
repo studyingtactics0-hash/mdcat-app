@@ -395,5 +395,65 @@ export type Question = {
       ],
       answer: 0,
       explanation: "Humans are ureotelic organisms; the liver converts highly toxic ammonia produced from amino acid deamination into urea via the ornithine (urea) cycle, which is far less toxic and serves as the primary nitrogenous waste excreted in human urine."
+    },
+    {
+      id: "bumhs-bio-2026-035",
+      question: "Which of the following waste product is the most toxic and need extra water for its removal?",
+      options: [
+        "Urea",
+        "Uric acid",
+        "Ammonia",
+        "Creatinine"
+      ],
+      answer: 2,
+      explanation: "Ammonia is highly toxic and soluble in water, requiring a large volume of water (about 500 mL per gram of nitrogen) for safe excretion, which is typical of aquatic animals (ammonotelism)."
+    },
+    {
+      id: "bumhs-bio-2026-044",
+      question: "Which of the following hormone is responsible for the active uptake of sodium in the ascending limb?",
+      options: [
+        "Aldosterone",
+        "Oestrogen",
+        "Testosterone",
+        "ADH"
+      ],
+      answer: 0,
+      explanation: "Aldosterone, a mineralocorticoid secreted by the adrenal cortex, promotes the active reabsorption (uptake) of sodium ions (Na+) in the thick ascending limb of the loop of Henle, distal convoluted tubule, and collecting duct."
+    },
+    {
+      id: "bumhs-bio-2026-050",
+      question: "Formation of urea occurs in _______.",
+      options: [
+        "Kidney",
+        "Blood",
+        "Liver",
+        "Intestine"
+      ],
+      answer: 2,
+      explanation: "Urea is synthesized from ammonia and carbon dioxide in the liver via the ornithine (urea) cycle, and is then transported by the blood to the kidneys for excretion."
+    },
+    {
+      id: "bumhs-bio-2026-061",
+      question: "If the kidneys begin to loose their ability to function properly, which of the following is most likely to occur first?",
+      options: [
+        "Electrolyte imbalance",
+        "Accumulation of nitrogenous waste like urea",
+        "Dehydration due to reduced water re-absorption",
+        "Hormonal imbalance"
+      ],
+      answer: 1,
+      explanation: "A primary and immediate consequence of declining glomerular filtration and renal function is the retention and accumulation of nitrogenous metabolic wastes—such as urea and creatinine—in the blood (uremia/azotemia)."
+    },
+    {
+      id: "bumhs-bio-2026-069",
+      question: "All of the following have excretory role EXCEPT:",
+      options: [
+        "Kidney",
+        "Appendix",
+        "Lungs",
+        "Skin"
+      ],
+      answer: 1,
+      explanation: "The kidneys (excreting urea, excess salts, and water), lungs (excreting CO2 and water vapor), and skin (excreting water, salts, and traces of urea via sweat) all play excretory roles, whereas the appendix is a vestigial lymphoid structure attached to the caecum with no excretory function."
     }
   ];

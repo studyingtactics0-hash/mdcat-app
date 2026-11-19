@@ -652,5 +652,17 @@ export type Question = {
         ],
         answer: 2,
         explanation: "Conjugated proteins consist of a simple protein combined with a non-protein prosthetic group: lipoproteins contain lipids as their prosthetic group, glycoproteins contain carbohydrates, chromoproteins contain colored pigments/metal ions (such as heme in hemoglobin), and nucleoproteins contain nucleic acids."
+      },
+      {
+        id: "bumhs-chem-2026-092",
+        question: "Protein on heating becomes _______.",
+        options: [
+          "Dissolved",
+          "Degraded",
+          "Separated",
+          "Agglomerated"
+        ],
+        answer: 3,
+        explanation: "On heating, proteins undergo denaturation in which weak secondary and tertiary interactions (such as hydrogen bonds and hydrophobic interactions) are disrupted, causing unfolded polypeptide chains to clump together (coagulate or agglomerate) into an insoluble mass."
       }
   ];

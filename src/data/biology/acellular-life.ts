@@ -992,5 +992,53 @@ export const acellularLifeQuestions = [
         ],
         answer: 2,
         explanation: "HIV primarily targets and destroys helper T-lymphocytes (CD4+ T-cells), leading to a progressive weakening of the immune system and increased vulnerability to opportunistic infections."
+      },
+      {
+        id: "bumhs-bio-2026-001",
+        question: "Influenza is caused by:",
+        options: [
+          "enveloped virus",
+          "complex virus",
+          "polyhedral virus",
+          "helical"
+        ],
+        answer: 0,
+        explanation: "Influenza viruses are spherical, enveloped RNA viruses belonging to the family Orthomyxoviridae."
+      },
+      {
+        id: "bumhs-bio-2026-004",
+        question: "All of the following are present in all viruses, EXCEPT:",
+        options: [
+          "Nucleic Acid",
+          "Protein",
+          "Envelope",
+          "Genome"
+        ],
+        answer: 2,
+        explanation: "All viruses contain a nucleic acid genome (DNA or RNA) enclosed within a protein coat (capsid), whereas a lipid envelope is only present in enveloped viruses and absent in naked viruses."
+      },
+      {
+        id: "bumhs-bio-2026-006",
+        question: "HIV weakens the immune system primarily by:",
+        options: [
+          "Rapidly destroying red blood cells",
+          "Infecting and destroying T-Lymphocytes",
+          "Increasing antibody production by B-Lymphocytes",
+          "Blocking aerobic respiration"
+        ],
+        answer: 1,
+        explanation: "HIV specifically targets and destroys CD4+ helper T-lymphocytes, progressively impairing cell-mediated immunity and weakening the body's defense against opportunistic infections."
+      },
+      {
+        id: "bumhs-bio-2026-028",
+        question: "During HIV replication process, viral DNA is integrated into host genome by _________.",
+        options: [
+          "Reverse transcriptase",
+          "Helicase",
+          "Integrase",
+          "Polymerase"
+        ],
+        answer: 2,
+        explanation: "After reverse transcriptase synthesizes double-stranded viral DNA from HIV RNA, the viral enzyme integrase inserts this proviral DNA into the host cell's chromosomal DNA."
       }
 ];

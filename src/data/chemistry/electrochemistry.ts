@@ -926,5 +926,17 @@ export type Question = {
         ],
         answer: 1,
         explanation: "Reduction is the gain of electrons, which results in a decrease in oxidation number. Changing from +2 to 0 represents a decrease in oxidation state (gain of 2 electrons), whereas the other options show increases in oxidation number (oxidation)."
+      },
+      {
+        id: "bumhs-chem-2026-085",
+        question: "In a galvanic cell, the anode is defined as:",
+        options: [
+          "the negative terminal where oxidation occurs.",
+          "the positive terminal where reduction occurs.",
+          "the electrode which is always made of platinum.",
+          "the electrode with the highest standard electrode potential."
+        ],
+        answer: 0,
+        explanation: "In a galvanic (voltaic) cell, spontaneous redox reactions occur where oxidation (loss of electrons) takes place at the anode, releasing electrons and making it the negative terminal."
       }
   ];

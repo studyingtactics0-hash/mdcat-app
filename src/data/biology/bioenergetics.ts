@@ -654,5 +654,41 @@ export type Question = {
         ],
         answer: 2,
         explanation: "Beta-oxidation cleaves a fatty acid into two-carbon Acetyl-CoA units. Dividing an 18-carbon fatty acid (such as stearic acid) by 2 carbons per Acetyl-CoA yields 9 molecules of Acetyl-CoA (after 8 cycles of beta-oxidation)."
+      },
+      {
+        id: "bumhs-bio-2026-026",
+        question: "In energy releasing metabolism, proteins must undergo ___________ before entering respiratory metabolism.",
+        options: [
+          "Acetylation",
+          "Deamination",
+          "Decarboxylation",
+          "Dehydration"
+        ],
+        answer: 1,
+        explanation: "Before amino acids derived from proteins can be oxidized in cellular respiration, their amino groups (-NH2) must be removed via deamination to form keto acids that enter glycolysis or the Krebs cycle."
+      },
+      {
+        id: "bumhs-bio-2026-052",
+        question: "After deamination, glycine (NH₂CH₂COOH), enters into energy yielding metabolism in the form of:",
+        options: [
+          "G-3-P",
+          "Pyruvate",
+          "Acetyl Co-A",
+          "Oxaloacetate"
+        ],
+        answer: 1,
+        explanation: "Glycine (a 2-carbon amino acid) is converted into serine and subsequently deaminated to form pyruvate, which then enters aerobic respiration."
+      },
+      {
+        id: "bumhs-bio-2026-075",
+        question: "Decarboxylation of pyruvate and addition of Coenzyme-A to Acetyl takes place in:",
+        options: [
+          "Mitochondrial Matrix",
+          "Cytoplasm",
+          "Inter membrane space",
+          "Inner Mitochondrial membrane"
+        ],
+        answer: 0,
+        explanation: "Pyruvate oxidation (link reaction), catalyzed by the pyruvate dehydrogenase complex, occurs in the mitochondrial matrix where pyruvate is decarboxylated and attached to Coenzyme-A to form Acetyl Co-A."
       }
   ];

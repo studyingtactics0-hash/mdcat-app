@@ -15717,5 +15717,545 @@ export type Question = {
             ],
             answer: 0,
             explanation: "Nylon-6,6 is a polyamide produced by the condensation (step-growth) polymerization of hexamethylenediamine and adipic acid, with the elimination of water molecules. Polyethene, polyvinyl chloride (PVC), and polystyrene are all addition polymers formed from unsaturated monomers without byproduct elimination."
+          },
+          {
+            id: "bumhs-chem-2026-089",
+            question: "Volume occupied by 1 mole of gas at standard temperature and pressure is:",
+            options: [
+              "22.4 dm³",
+              "22400 cm³",
+              "0.0224 m³",
+              "all of them"
+            ],
+            answer: 3,
+            explanation: "At STP, 1 mole of an ideal gas occupies a molar volume of 22.4 dm³ (liters), which is equivalent to 22,400 cm³ (since 1 dm³ = 1000 cm³) and 0.0224 m³ (since 1000 dm³ = 1 m³)."
+          },
+          {
+            id: "bumhs-chem-2026-113",
+            question: "9.8 g of an aqueous H₂SO₄ contains ______ moles of H⁺ ions.",
+            options: [
+              "0.1 moles",
+              "0.2 moles",
+              "0.3 moles",
+              "0.4 moles"
+            ],
+            answer: 1,
+            explanation: "Molar mass of H₂SO₄ is 98 g/mol, so 9.8 g equals 9.8 / 98 = 0.1 moles of H₂SO₄. Since each mole of H₂SO₄ ionizes completely to yield 2 moles of H⁺ ions, 0.1 moles of H₂SO₄ produces 0.1 × 2 = 0.2 moles of H⁺ ions."
+          },
+          {
+            id: "bumhs-chem-2026-121",
+            question: "The actual yield of a reaction is always:",
+            options: [
+              "exactly equal to the theoretical yield.",
+              "greater than the theoretical yield.",
+              "less than the theoretical yield.",
+              "independent of the amount of the theoretical yield."
+            ],
+            answer: 2,
+            explanation: "The actual yield obtained experimentally is always less than the theoretical yield due to factors such as incomplete/reversible reactions, competing side reactions, and mechanical losses during filtration, distillation, or transfer."
+          },
+          {
+            id: "bumhs-chem-2026-090",
+            question: "Energy of photon is directly proportional to:",
+            options: [
+              "wavelength",
+              "temperature",
+              "frequency",
+              "velocity"
+            ],
+            answer: 2,
+            explanation: "According to Planck's quantum theory, the energy of a photon is given by E = hν, showing that energy (E) is directly proportional to frequency (ν) and inversely proportional to wavelength."
+          },
+          {
+            id: "bumhs-chem-2026-091",
+            question: "Which of the following orbital is symmetrical about only the y-axis?",
+            options: [
+              "s",
+              "px",
+              "py",
+              "dxy"
+            ],
+            answer: 2,
+            explanation: "A p orbital is dumbbell-shaped with two lobes oriented along a specific axis; the py orbital has its electron density concentrated symmetrically along the y-axis."
+          },
+          {
+            id: "bumhs-chem-2026-106",
+            question: "Which of the following elements has no paired p electrons in a single uncombined atom of the element?",
+            options: [
+              "Sodium (Na₁₁)",
+              "Neon (Ne₁₀)",
+              "Phosphorous (P₁₅)",
+              "Oxygen (O₈)"
+            ],
+            answer: 2,
+            explanation: "In its valence shell, Phosphorus (1s² 2s² 2p⁶ 3s² 3p³) has three singly occupied 3p orbitals (3pₓ¹ 3pᵧ¹ 3p₂¹) following Hund's rule with no paired valence p electrons, whereas O₈ (2p⁴), Ne₁₀ (2p⁶), and Na₁₁ (2p⁶) contain paired p electrons in their highest occupied p subshell."
+          },
+          {
+            id: "bumhs-chem-2026-108",
+            question: "How many quantum numbers are required for an electron to explain its behavior according to Bohr atomic model?",
+            options: [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            answer: 0,
+            explanation: "In Bohr's atomic model, electrons revolve in fixed circular orbits (shells) whose energy and radius are determined by a single quantum number—the principal quantum number (n)."
+          },
+          {
+            id: "bumhs-chem-2026-096",
+            question: "According to kinetic particle theory, which of the following statement is NOT TRUE about behavior of ideal gases?",
+            options: [
+              "ideal gases have zero particle volume",
+              "ideal gases have no force of attraction between their molecules",
+              "The particles of gases are in constant random motion",
+              "Kinetic energy is lost during the collisions"
+            ],
+            answer: 3,
+            explanation: "According to the Kinetic Molecular Theory (KMT), collisions between ideal gas molecules and the container walls are perfectly elastic, meaning total kinetic energy is conserved and not lost during collisions."
+          },
+          {
+            id: "bumhs-chem-2026-110",
+            question: "64g of CH₄ has volume of 22.4 dm³ at 546K. The pressure of sample will be:",
+            options: [
+              "2 atm",
+              "4 atm",
+              "6 atm",
+              "8 atm"
+            ],
+            answer: 3,
+            explanation: "Number of moles of CH₄ (molar mass = 16 g/mol) is n = 64 / 16 = 4 moles. Using the ideal gas equation P = nRT / V = (4 × 0.0821 × 546) / 22.4 = 8 atm."
+          },
+          {
+            id: "bumhs-chem-2026-114",
+            question: "According to assumption of KMT, there are no intermolecular forces among gas molecules, so ideal gas ______.",
+            options: [
+              "will liquefy before 0 K",
+              "can never liquefy",
+              "can liquefy at any temperature",
+              "can liquefy at liquefaction point"
+            ],
+            answer: 1,
+            explanation: "Liquefaction requires intermolecular attractive forces to pull gas molecules together into the liquid state. Because ideal gases are assumed to have zero intermolecular forces, an ideal gas can never be liquefied."
+          },
+          {
+            id: "bumhs-chem-2026-112",
+            question: "Which one has very high heat of vaporization ?",
+            options: [
+              "PH₃",
+              "H₂S",
+              "H₂O",
+              "HF"
+            ],
+            answer: 2,
+            explanation: "Water (H₂O) has an exceptionally high molar heat of vaporization (about 40.7 kJ/mol) because each H₂O molecule forms an extensive three-dimensional network of up to four strong intermolecular hydrogen bonds, requiring a large amount of energy to break during vaporization."
+          },
+          {
+            id: "bumhs-chem-2026-088",
+            question: "If radius of anion and cation are 36pm and 18pm respectively, radius ratio will be?",
+            options: [
+              "2",
+              "0.5",
+              "0.1",
+              "0.56"
+            ],
+            answer: 1,
+            explanation: "The radius ratio of an ionic crystal is defined as the ratio of the radius of the cation (r⁺) to the radius of the anion (r⁻): r⁺ / r⁻ = 18 pm / 36 pm = 0.5."
+          },
+          {
+            id: "bumhs-chem-2026-117",
+            question: "The equilibrium stage of a reaction disturbs and reaction is moved in forward direction when a substance is:\n1. added among reactants\n2. removed among reactants\n3. removed among products\n4. added among products",
+            options: [
+              "1 & 4",
+              "1 & 3",
+              "2 & 3",
+              "2 & 4"
+            ],
+            answer: 1,
+            explanation: "According to Le Chatelier's principle, a reversible reaction shifts in the forward direction to counteract a disturbance when either the concentration of reactants is increased (added among reactants) or the concentration of products is decreased (removed among products)."
+          },
+          {
+            id: "bumhs-chem-2026-124",
+            question: "Kc for a reaction is 8 and Kr is 0.25 then Kf will be:",
+            options: [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            answer: 1,
+            explanation: "The equilibrium constant Kc is the ratio of the forward rate constant (Kf) to the reverse rate constant (Kr): Kc = Kf / Kr. Therefore, Kf = Kc × Kr = 8 × 0.25 = 2."
+          },
+          {
+            id: "bumhs-chem-2026-100",
+            question: "The rate of a chemical reaction is independent of:",
+            options: [
+              "Molecularity",
+              "Temperature",
+              "Nature of reactants",
+              "Concentration of reactants"
+            ],
+            answer: 0,
+            explanation: "The rate of a chemical reaction depends on temperature, concentration of reactants, surface area, catalysts, and the nature of reactants, whereas molecularity is a theoretical count of colliding species in an elementary step and does not directly determine the experimental reaction rate."
+          },
+          {
+            id: "bumhs-chem-2026-118",
+            question: "In the law of rate of chemical reaction, the rate constant 'k' represents:",
+            options: [
+              "total concentration of products",
+              "rate of concentration of products",
+              "rate of concentration of reactant",
+              "fraction of collisions resulting in product formation."
+            ],
+            answer: 3,
+            explanation: "According to collision theory and the Arrhenius equation (k = A·e^(-Ea/RT)), the rate constant 'k' reflects the frequency of effective collisions—specifically the fraction of collisions with proper orientation and sufficient activation energy resulting in product formation."
+          },
+          {
+            id: "bumhs-chem-2026-109",
+            question: "For the reaction NaOH (aq) + HCl (aq) → NaCl (aq) + H₂O (l), the standard enthalpy is -57.4 kJ.mole⁻¹, this enthalpy is understood as:",
+            options: [
+              "Standard Enthalpy of Solution",
+              "Standard Enthalpy of Formation",
+              "Standard Enthalpy of Neutralization",
+              "Standard Enthalpy of Reaction"
+            ],
+            answer: 2,
+            explanation: "Standard enthalpy of neutralization is the enthalpy change when one mole of H⁺ ions from an acid reacts with one mole of OH⁻ ions from a base to form one mole of liquid water under standard conditions, which is approximately -57.4 kJ/mol for strong acids and strong bases."
+          },
+          {
+            id: "bumhs-chem-2026-085",
+            question: "In a galvanic cell, the anode is defined as:",
+            options: [
+              "the negative terminal where oxidation occurs.",
+              "the positive terminal where reduction occurs.",
+              "the electrode which is always made of platinum.",
+              "the electrode with the highest standard electrode potential."
+            ],
+            answer: 0,
+            explanation: "In a galvanic (voltaic) cell, spontaneous redox reactions occur where oxidation (loss of electrons) takes place at the anode, releasing electrons and making it the negative terminal."
+          },
+          {
+            id: "bumhs-chem-2026-082",
+            question: "Which of the following bonds typically has the highest bond energy?",
+            options: [
+              "Hydrogen bond",
+              "Single bond",
+              "Double bond",
+              "Triple bond"
+            ],
+            answer: 3,
+            explanation: "A triple covalent bond consists of one sigma (σ) and two pi (π) bonds, sharing three pairs of electrons between two nuclei. This results in the shortest bond length and the highest bond dissociation energy compared to double, single, and hydrogen bonds."
+          },
+          {
+            id: "bumhs-chem-2026-094",
+            question: "Which of the following increasing order of the bond strength of hydrogen halide from HF to HI is correct?",
+            options: [
+              "HF > HCl > HBr > HI",
+              "HI > HBr > HCl > HF",
+              "HI < HBr < HCl < HF",
+              "HF < HCl < HBr < HI"
+            ],
+            answer: 2,
+            explanation: "Down Group VIIA from fluorine to iodine, atomic size increases, resulting in longer and weaker H–X bonds. Therefore, the increasing order of bond strength is HI < HBr < HCl < HF."
+          },
+          {
+            id: "bumhs-chem-2026-119",
+            question: "Which one is least polar?",
+            options: [
+              "NF₃",
+              "NH₃",
+              "NCl₃",
+              "NBr₃"
+            ],
+            answer: 2,
+            explanation: "Nitrogen (3.04) and chlorine (3.16) have nearly identical electronegativities (ΔEN ≈ 0.12), making the N–Cl bonds almost non-polar and giving NCl₃ the lowest dipole moment/polarity among the given nitrogen trihalides and ammonia."
+          },
+          {
+            id: "bumhs-chem-2026-123",
+            question: "What type of hybridization is present in an ammonia NH₃ molecule?",
+            options: [
+              "sp",
+              "sp²",
+              "sp³",
+              "it doesn’t show hybridization"
+            ],
+            answer: 2,
+            explanation: "In NH₃, the central nitrogen atom has four electron domains (three N–H bonding pairs and one lone pair), which corresponds to sp³ hybridization and a trigonal pyramidal molecular geometry."
+          },
+          {
+            id: "bumhs-chem-2026-125",
+            question: "In a molecule of ethene, the total numbers of sigma (σ) and pi (π) bonds are:",
+            options: [
+              "σ = 2 and π = 4",
+              "σ = 4 and π = 2",
+              "σ = 6 and π = 0",
+              "σ = 5 and π = 1"
+            ],
+            answer: 3,
+            explanation: "Ethene (C₂H₄) contains four C–H single (σ) bonds and one C=C double bond (consisting of one σ bond and one π bond), giving a total of 5 sigma (σ) bonds and 1 pi (π) bond."
+          },
+          {
+            id: "bumhs-chem-2026-105",
+            question: "Why do Group 2 Hydroxides become more soluble down the group?",
+            options: [
+              "charge density increases",
+              "enthalpy of hydration decreases more rapidly than enthalpy of lattice",
+              "enthalpy of lattice decreases more rapidly than enthalpy of hydration",
+              "enthalpy of solution becomes more exothermic down the group"
+            ],
+            answer: 2,
+            explanation: "Down Group 2, as cation size increases, both lattice energy and hydration energy decrease, but lattice energy decreases more rapidly than hydration energy (because the small OH⁻ ion makes lattice energy strongly dependent on cation radius). This makes the enthalpy of solution increasingly exothermic (or less endothermic), increasing solubility down the group."
+          },
+          {
+            id: "bumhs-chem-2026-115",
+            question: "When nuclear charge increases in period, then size of cation ______.",
+            options: [
+              "remains same",
+              "increases",
+              "decreases",
+              "first increases then decreases"
+            ],
+            answer: 2,
+            explanation: "Across a period from left to right, effective nuclear charge increases while electrons are added to the same principal shell (and isoelectronic cations have the same number of electrons). The stronger electrostatic attraction pulls the electron cloud closer to the nucleus, causing the cation radius to decrease."
+          },
+          {
+            id: "bumhs-chem-2026-093",
+            question: "Which of the following is true for transition metals?",
+            options: [
+              "The element with an empty, half and full s-orbitals are stable.",
+              "The element with an empty, half and full p-orbitals are stable.",
+              "The element with an empty, half and full f-orbitals are stable.",
+              "The element with an empty, half and full d-orbitals are stable."
+            ],
+            answer: 3,
+            explanation: "In d-block transition elements, electronic configurations with completely empty (d⁰), half-filled (d⁵), or completely filled (d¹⁰) d-orbitals exhibit extra stability due to symmetrical electron distribution and maximum exchange energy."
+          },
+          {
+            id: "bumhs-chem-2026-111",
+            question: "Element with electronic configuration [Kr]4d⁵5s² is ______.",
+            options: [
+              "Nb",
+              "Tc",
+              "Cr",
+              "Mn"
+            ],
+            answer: 1,
+            explanation: "Krypton (Kr) has atomic number 36; adding 5 electrons in 4d and 2 electrons in 5s gives a total of 36 + 5 + 2 = 43 electrons, which corresponds to Technetium (Tc, Z = 43)."
+          },
+          {
+            id: "bumhs-chem-2026-086",
+            question: "Which of the following compound is conjugated?",
+            options: [
+              "Hexa -1,4 diene",
+              "Non - 2,5,8 triene",
+              "Octa1,3,5,7 tetra-ene",
+              "Butan -1,2- diene"
+            ],
+            answer: 2,
+            explanation: "In a conjugated system, double and single bonds alternate continuously (C=C–C=C). Octa-1,3,5,7-tetraene has alternating single and double bonds across C1=C2–C3=C4–C5=C6–C7=C8, whereas hexa-1,4-diene and nona-2,5,8-triene are isolated dienes/trienes and buta-1,2-diene is a cumulated diene."
+          },
+          {
+            id: "bumhs-chem-2026-099",
+            question: "Which of the following statement is incorrect about structure of cyclo propane?",
+            options: [
+              "It is planar molecule",
+              "The C-C-C bond angle is 60°",
+              "The C-C-H angles are 109.5°",
+              "The bonds are directed in three dimensions"
+            ],
+            answer: 2,
+            explanation: "Cyclopropane forms a planar three-membered ring with C–C–C bond angles of 60°. Due to high ring strain and increased s-character in the external C–H orbitals, the H–C–H and C–C–H angles expand beyond the standard tetrahedral 109.5° (to roughly 114°–118°)."
+          },
+          {
+            id: "bumhs-chem-2026-101",
+            question: "What is the major product when propene reacts with HBr in presence of peroxide?",
+            options: [
+              "allyl bromide",
+              "iso-propyl bromide",
+              "n-propyl bromide",
+              "iso-bromo propane"
+            ],
+            answer: 2,
+            explanation: "In the presence of organic peroxides (Kharasch peroxide effect), HBr adds to unsymmetrical alkenes like propene via a free-radical anti-Markovnikov mechanism, attaching bromine to the less substituted terminal carbon to yield 1-bromopropane (n-propyl bromide) as the major product."
+          },
+          {
+            id: "bumhs-chem-2026-116",
+            question: "When nitration of toluene occurs, Methyl group directs the incoming nitro group mainly to which position of benzene?",
+            options: [
+              "Meta position only",
+              "Ortho and Para position only",
+              "Ortho position only",
+              "All positions equally"
+            ],
+            answer: 1,
+            explanation: "The methyl (-CH₃) group is an electron-donating (+I / hyperconjugative) ring activator that increases electron density at the ortho and para positions, directing incoming electrophiles like -NO₂ predominantly to the ortho and para positions."
+          },
+          {
+            id: "bumhs-chem-2026-122",
+            question: "The product formed by the reaction of benzene with chlorine in the presence of ultraviolet light is?",
+            options: [
+              "chlorobenzene",
+              "chlorocyclohexane",
+              "1,2,3,4,5,6 - hexachlorocyclohexane",
+              "1,1,2,2,4,5,6 - hexachlorocyclohexane"
+            ],
+            answer: 2,
+            explanation: "In the presence of ultraviolet (UV) light and absence of halogen carriers, benzene undergoes free-radical addition with three moles of Cl₂ across all three double bonds to form 1,2,3,4,5,6-hexachlorocyclohexane (BHC / gammaxene)."
+          },
+          {
+            id: "bumhs-chem-2026-126",
+            question: "IUPAC name of CH₃CH(CH₃)CH₂CH(C₂H₅)CH₃ is:",
+            options: [
+              "2-ETHYL-3-METHYLPENTANE",
+              "3,5-DIMETHYL HEXANE",
+              "2,4-DIMETHYL HEXANE",
+              "2-METHYL-4-ETHYL PENTANE"
+            ],
+            answer: 2,
+            explanation: "Expanding the ethyl group gives CH₃–CH(CH₃)–CH₂–CH(CH₃)–CH₂–CH₃. The longest continuous carbon chain contains 6 carbons (hexane). Numbering from the end closest to the first substituent places methyl groups at C-2 and C-4, giving 2,4-dimethylhexane."
+          },
+          {
+            id: "bumhs-chem-2026-083",
+            question: "The order of leaving group ability relevant to dehydrohalogenation of alkyl halide is ___________.",
+            options: [
+              "R - Cl > R - Br > R - I",
+              "R - I > R - Br > R - Cl",
+              "R - F > R - Cl > R - Br",
+              "R - Br > R-I > R - Cl"
+            ],
+            answer: 1,
+            explanation: "Down the halogen group from Cl to I, atomic radius increases and the C–X bond becomes longer and weaker (lower bond dissociation energy). Furthermore, I⁻ is the weakest base and most stable leaving group, making the order of reactivity/leaving group ability R–I > R–Br > R–Cl > R–F."
+          },
+          {
+            id: "bumhs-chem-2026-087",
+            question: "Which of the following statements CORRECTLY describes an E₂ reaction?",
+            options: [
+              "It shows first order kinetics.",
+              "It occurs through a carbocation.",
+              "It includes two step mechanisms.",
+              "It stands for bimolecular elimination"
+            ],
+            answer: 3,
+            explanation: "E2 stands for bimolecular elimination; it proceeds via a single concerted step without a carbocation intermediate and exhibits second-order kinetics (rate depends on both the substrate and the base)."
+          },
+          {
+            id: "bumhs-chem-2026-098",
+            question: "Which one of the following is not a nucleophilic specie?",
+            options: [
+              "Water",
+              "Thiocyanate ion",
+              "Ammonia",
+              "Alkyl group"
+            ],
+            answer: 3,
+            explanation: "Nucleophiles are electron-rich species with lone pairs or negative charges (such as H₂O, SCN⁻, and NH₃) that donate an electron pair to an electrophile. A neutral/cationic alkyl group (R or R⁺) lacks a lone pair of electrons and does not act as a nucleophile."
+          },
+          {
+            id: "bumhs-chem-2026-107",
+            question: "On the basis of O-H bond breakage in alcohol, which of the following order is correct?",
+            options: [
+              "CH₃(CH₂)₂OH > (CH₃)₂CHOH > (CH₃)₃COH",
+              "CH₃(CH₂)₂OH > (CH₃)₂CHOH < (CH₃)₃COH",
+              "(CH₃)₃COH > (CH₃)₂CHOH > CH₃(CH₂)₂OH",
+              "(CH₃)₂CHOH"
+            ],
+            answer: 0,
+            explanation: "Reactions involving cleavage of the O–H bond reflect the acidic character of alcohols. Electron-donating (+I) alkyl groups increase electron density on the oxygen atom, making O–H bond cleavage more difficult and destabilizing the alkoxide ion. Thus, reactivity follows the order: primary alcohol [CH₃(CH₂)₂OH] > secondary alcohol [(CH₃)₂CHOH] > tertiary alcohol [(CH₃)₃COH]."
+          },
+          {
+            id: "bumhs-chem-2026-120",
+            question: "Which one of the following reagents cannot be used for dehydration of alcohols?",
+            options: [
+              "Alumina",
+              "Sulphuric acid",
+              "Phosphoric acid",
+              "Carbon monoxide"
+            ],
+            answer: 3,
+            explanation: "Alcohols undergo dehydration to alkenes or ethers using dehydrating agents such as concentrated sulphuric acid (H₂SO₄), phosphoric acid (H₃PO₄), or heated alumina (Al₂O₃). Carbon monoxide (CO) is not a dehydrating agent for alcohols."
+          },
+          {
+            id: "bumhs-chem-2026-084",
+            question: "When formaldehyde reacts with nucleophile (OH⁻), the oxidation state of carbon changes to ___.",
+            options: [
+              "+1",
+              "+2",
+              "-2",
+              "+4"
+            ],
+            answer: 1,
+            explanation: "In formaldehyde (HCHO), the oxidation state of carbon is 0. When formaldehyde undergoes nucleophilic attack by OH⁻ (such as in the Cannizzaro reaction), it disproportionates into formate ion (HCOO⁻, where carbon is oxidized to +2) and methanol (CH₃OH, where carbon is reduced to -2)."
+          },
+          {
+            id: "bumhs-chem-2026-102",
+            question: "Which of the following reaction will give imine on reduction of carbonyl compounds?",
+            options: [
+              "acetaldehyde with terminal alkyne",
+              "acetone with hydrogen cyanide",
+              "acetone with Grignard's reagent",
+              "acetaldehyde with ammonia"
+            ],
+            answer: 3,
+            explanation: "Aldehydes and ketones react with ammonia (NH₃) or primary amines via nucleophilic addition followed by elimination of water (condensation) to form an imine (containing a C=N bond)."
+          },
+          {
+            id: "bumhs-chem-2026-095",
+            question: "Ammonia and ethanoyl chloride undergo which type of organic chemical reaction?",
+            options: [
+              "Nucleophilic addition-elimination reaction",
+              "Electrophilic addition-condensation reaction",
+              "Nucleophilic substitution-elimination reaction",
+              "Electrophilic elimination-substitution reaction"
+            ],
+            answer: 0,
+            explanation: "Ammonia acts as a nucleophile and attacks the electrophilic carbonyl carbon of ethanoyl chloride to form a tetrahedral intermediate (nucleophilic addition), followed by the elimination of a chloride ion (Cl⁻) and deprotonation to yield ethanamide and HCl (nucleophilic addition-elimination / nucleophilic acyl substitution)."
+          },
+          {
+            id: "bumhs-chem-2026-097",
+            question: "When the molar mass of aliphatic carboxylic acid increases, its solubility in water will ___________.",
+            options: [
+              "increases",
+              "decreases",
+              "remains the same.",
+              "becomes unstable."
+            ],
+            answer: 1,
+            explanation: "As the molar mass of an aliphatic carboxylic acid increases, the size of the non-polar hydrophobic hydrocarbon chain increases relative to the polar hydrophilic -COOH group, disrupting hydrogen bonding with water and decreasing solubility."
+          },
+          {
+            id: "bumhs-chem-2026-103",
+            question: "Which alcohol and carboxylic acid react together to form CH₃CH₂COOCH₃ ?",
+            options: [
+              "Propanoic acid and ethanol",
+              "Propanoic acid and methanol",
+              "Ethanoic acid and ethanol",
+              "Ethanoic acid and methanol"
+            ],
+            answer: 1,
+            explanation: "The ester CH₃CH₂COOCH₃ is methyl propanoate, where the acyl part (CH₃CH₂COO-) comes from propanoic acid (CH₃CH₂COOH) and the alkyl part (-OCH₃) comes from methanol (CH₃OH)."
+          },
+          {
+            id: "bumhs-chem-2026-104",
+            question: "An acetic acid is treated with ethanol in the presence of conc. H₂SO₄ to produce:",
+            options: [
+              "Ethyl acetate",
+              "Acetamide",
+              "Ethane",
+              "Acetic anhydride"
+            ],
+            answer: 0,
+            explanation: "In Fischer esterification, acetic acid (CH₃COOH) reacts with ethanol (C₂H₅OH) in the presence of concentrated H₂SO₄ as an acid catalyst and dehydrating agent to form the fruity-smelling ester ethyl acetate (CH₃COOC₂H₅) and water."
+          },
+          {
+            id: "bumhs-chem-2026-092",
+            question: "Protein on heating becomes _______.",
+            options: [
+              "Dissolved",
+              "Degraded",
+              "Separated",
+              "Agglomerated"
+            ],
+            answer: 3,
+            explanation: "On heating, proteins undergo denaturation in which weak secondary and tertiary interactions (such as hydrogen bonds and hydrophobic interactions) are disrupted, causing unfolded polypeptide chains to clump together (coagulate or agglomerate) into an insoluble mass."
           }
 ];

@@ -389,5 +389,17 @@ export type Question = {
       ],
       answer: 2,
       explanation: "Enthalpy ($H$) is a state function. Hess's Law states that the total enthalpy change ($\\Delta H$) of a chemical reaction is independent of the route or number of steps taken and depends solely on the initial state (reactants) and final state (products)."
+    },
+    {
+      id: "bumhs-chem-2026-109",
+      question: "For the reaction NaOH (aq) + HCl (aq) → NaCl (aq) + H₂O (l), the standard enthalpy is -57.4 kJ.mole⁻¹, this enthalpy is understood as:",
+      options: [
+        "Standard Enthalpy of Solution",
+        "Standard Enthalpy of Formation",
+        "Standard Enthalpy of Neutralization",
+        "Standard Enthalpy of Reaction"
+      ],
+      answer: 2,
+      explanation: "Standard enthalpy of neutralization is the enthalpy change when one mole of H⁺ ions from an acid reacts with one mole of OH⁻ ions from a base to form one mole of liquid water under standard conditions, which is approximately -57.4 kJ/mol for strong acids and strong bases."
     }
   ];

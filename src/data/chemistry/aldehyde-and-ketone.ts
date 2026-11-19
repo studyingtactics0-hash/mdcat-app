@@ -1009,5 +1009,29 @@ export type Question = {
         ],
         answer: 3,
         explanation: "Tollen's reagent (ammoniacal silver nitrate, [Ag(NH₃)₂]⁺) is a mild oxidizing agent that oxidizes aldehydes to carboxylate ions while reducing Ag⁺ ions to metallic silver, which deposits on the inner wall of the test tube as a characteristic silver mirror. Ketones do not react with Tollen's reagent."
+      },
+      {
+        id: "bumhs-chem-2026-084",
+        question: "When formaldehyde reacts with nucleophile (OH⁻), the oxidation state of carbon changes to ___.",
+        options: [
+          "+1",
+          "+2",
+          "-2",
+          "+4"
+        ],
+        answer: 1,
+        explanation: "In formaldehyde (HCHO), the oxidation state of carbon is 0. When formaldehyde undergoes nucleophilic attack by OH⁻ (such as in the Cannizzaro reaction), it disproportionates into formate ion (HCOO⁻, where carbon is oxidized to +2) and methanol (CH₃OH, where carbon is reduced to -2)."
+      },
+      {
+        id: "bumhs-chem-2026-102",
+        question: "Which of the following reaction will give imine on reduction of carbonyl compounds?",
+        options: [
+          "acetaldehyde with terminal alkyne",
+          "acetone with hydrogen cyanide",
+          "acetone with Grignard's reagent",
+          "acetaldehyde with ammonia"
+        ],
+        answer: 3,
+        explanation: "Aldehydes and ketones react with ammonia (NH₃) or primary amines via nucleophilic addition followed by elimination of water (condensation) to form an imine (containing a C=N bond)."
       }
   ];

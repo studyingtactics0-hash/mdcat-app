@@ -268,5 +268,41 @@ export type Question = {
       ],
       answer: 2,
       explanation: "Nanoparticles are engineered nanoscale carriers used in nanomedicine for targeted drug delivery directly to diseased cells (such as tumors) and sensitive diagnostic imaging/detection. In contrast, biofertilizers/mycorrhiza aid plant nutrient uptake and nitrogen fixation, while biochips are used for genetic screening and pathogen detection."
+    },
+    {
+      id: "bumhs-bio-2026-040",
+      question: "___________ is used to infect the stem cells with normal genes in gene therapy.",
+      options: [
+        "Agrobacterium",
+        "Retroviruses",
+        "Bacteriophages",
+        "Bacterial plasmids"
+      ],
+      answer: 1,
+      explanation: "Retroviruses are commonly used as viral vectors in ex vivo gene therapy (such as for SCID) to deliver and integrate functional normal genes into the DNA of patient bone marrow stem cells."
+    },
+    {
+      id: "bumhs-bio-2026-068",
+      question: "Interferons produced through biotechnology are primarily used to:",
+      options: [
+        "Kill bacteria directly",
+        "Stimulate antiviral responses in cells",
+        "Digest proteins",
+        "Transport oxygen"
+      ],
+      answer: 1,
+      explanation: "Interferons are antiviral cytokines produced via recombinant DNA technology that bind to cell surface receptors and stimulate neighboring host cells to synthesize antiviral proteins that inhibit viral replication."
+    },
+    {
+      id: "bumhs-bio-2026-081",
+      question: "The principle underlying the use of DNA / RNA probes in diagnosis is:",
+      options: [
+        "Translation",
+        "Mutation",
+        "Complimentary base pairing",
+        "Protein folding"
+      ],
+      answer: 2,
+      explanation: "Nucleic acid hybridization with labeled DNA or RNA probes relies on complementary base pairing (A-T/U and G-C) between the single-stranded probe and the target pathogen or mutant gene sequence."
     }
   ];

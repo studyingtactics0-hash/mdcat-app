@@ -1112,5 +1112,65 @@ export type Question = {
         ],
         answer: 2,
         explanation: "Dipole moment ($\\mu$) measures the polarity of a covalent bond resulting from unequal sharing of electrons. Comparing the observed dipole moment of a bond to the theoretical dipole moment for complete electron transfer allows chemists to calculate the percentage ionic character of a covalent bond ($\\text{\\% Ionic character} = \\frac{\\mu_{\\text{observed}}}{\\mu_{\\text{ionic}}} \\times 100$)."
+      },
+      {
+        id: "bumhs-chem-2026-082",
+        question: "Which of the following bonds typically has the highest bond energy?",
+        options: [
+          "Hydrogen bond",
+          "Single bond",
+          "Double bond",
+          "Triple bond"
+        ],
+        answer: 3,
+        explanation: "A triple covalent bond consists of one sigma (σ) and two pi (π) bonds, sharing three pairs of electrons between two nuclei. This results in the shortest bond length and the highest bond dissociation energy compared to double, single, and hydrogen bonds."
+      },
+      {
+        id: "bumhs-chem-2026-094",
+        question: "Which of the following increasing order of the bond strength of hydrogen halide from HF to HI is correct?",
+        options: [
+          "HF > HCl > HBr > HI",
+          "HI > HBr > HCl > HF",
+          "HI < HBr < HCl < HF",
+          "HF < HCl < HBr < HI"
+        ],
+        answer: 2,
+        explanation: "Down Group VIIA from fluorine to iodine, atomic size increases, resulting in longer and weaker H–X bonds. Therefore, the increasing order of bond strength is HI < HBr < HCl < HF."
+      },
+      {
+        id: "bumhs-chem-2026-119",
+        question: "Which one is least polar?",
+        options: [
+          "NF₃",
+          "NH₃",
+          "NCl₃",
+          "NBr₃"
+        ],
+        answer: 2,
+        explanation: "Nitrogen (3.04) and chlorine (3.16) have nearly identical electronegativities (ΔEN ≈ 0.12), making the N–Cl bonds almost non-polar and giving NCl₃ the lowest dipole moment/polarity among the given nitrogen trihalides and ammonia."
+      },
+      {
+        id: "bumhs-chem-2026-123",
+        question: "What type of hybridization is present in an ammonia NH₃ molecule?",
+        options: [
+          "sp",
+          "sp²",
+          "sp³",
+          "it doesn’t show hybridization"
+        ],
+        answer: 2,
+        explanation: "In NH₃, the central nitrogen atom has four electron domains (three N–H bonding pairs and one lone pair), which corresponds to sp³ hybridization and a trigonal pyramidal molecular geometry."
+      },
+      {
+        id: "bumhs-chem-2026-125",
+        question: "In a molecule of ethene, the total numbers of sigma (σ) and pi (π) bonds are:",
+        options: [
+          "σ = 2 and π = 4",
+          "σ = 4 and π = 2",
+          "σ = 6 and π = 0",
+          "σ = 5 and π = 1"
+        ],
+        answer: 3,
+        explanation: "Ethene (C₂H₄) contains four C–H single (σ) bonds and one C=C double bond (consisting of one σ bond and one π bond), giving a total of 5 sigma (σ) bonds and 1 pi (π) bond."
       }
   ];

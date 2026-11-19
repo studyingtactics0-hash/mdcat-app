@@ -882,5 +882,29 @@ export type Question = {
         ],
         answer: 1,
         explanation: "Lithium aluminium hydride (LiAlH₄) is a strong reducing agent that cleaves and reduces esters (RCOOR') completely into two alcohol molecules: a primary alcohol from the acyl portion (RCH₂OH) and another alcohol from the alkoxy leaving group (R'OH)."
+      },
+      {
+        id: "bumhs-chem-2026-107",
+        question: "On the basis of O-H bond breakage in alcohol, which of the following order is correct?",
+        options: [
+          "CH₃(CH₂)₂OH > (CH₃)₂CHOH > (CH₃)₃COH",
+          "CH₃(CH₂)₂OH > (CH₃)₂CHOH < (CH₃)₃COH",
+          "(CH₃)₃COH > (CH₃)₂CHOH > CH₃(CH₂)₂OH",
+          "(CH₃)₂CHOH"
+        ],
+        answer: 0,
+        explanation: "Reactions involving cleavage of the O–H bond reflect the acidic character of alcohols. Electron-donating (+I) alkyl groups increase electron density on the oxygen atom, making O–H bond cleavage more difficult and destabilizing the alkoxide ion. Thus, reactivity follows the order: primary alcohol [CH₃(CH₂)₂OH] > secondary alcohol [(CH₃)₂CHOH] > tertiary alcohol [(CH₃)₃COH]."
+      },
+      {
+        id: "bumhs-chem-2026-120",
+        question: "Which one of the following reagents cannot be used for dehydration of alcohols?",
+        options: [
+          "Alumina",
+          "Sulphuric acid",
+          "Phosphoric acid",
+          "Carbon monoxide"
+        ],
+        answer: 3,
+        explanation: "Alcohols undergo dehydration to alkenes or ethers using dehydrating agents such as concentrated sulphuric acid (H₂SO₄), phosphoric acid (H₃PO₄), or heated alumina (Al₂O₃). Carbon monoxide (CO) is not a dehydrating agent for alcohols."
       }
   ];

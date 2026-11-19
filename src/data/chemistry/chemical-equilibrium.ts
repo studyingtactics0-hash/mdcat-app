@@ -1036,5 +1036,29 @@ export type Question = {
         ],
         answer: 1,
         explanation: "In the Haber process ($\\text{N}_2(g) + 3\\text{H}_2(g) \\rightleftharpoons 2\\text{NH}_3(g), \\Delta H = -92.4\\text{ kJ/mol}$), the forward reaction is exothermic. By Le Chatelier's Principle, lowering the temperature shifts the equilibrium in the exothermic direction to release heat, favoring the formation of ammonia."
+      },
+      {
+        id: "bumhs-chem-2026-117",
+        question: "The equilibrium stage of a reaction disturbs and reaction is moved in forward direction when a substance is:\n1. added among reactants\n2. removed among reactants\n3. removed among products\n4. added among products",
+        options: [
+          "1 & 4",
+          "1 & 3",
+          "2 & 3",
+          "2 & 4"
+        ],
+        answer: 1,
+        explanation: "According to Le Chatelier's principle, a reversible reaction shifts in the forward direction to counteract a disturbance when either the concentration of reactants is increased (added among reactants) or the concentration of products is decreased (removed among products)."
+      },
+      {
+        id: "bumhs-chem-2026-124",
+        question: "Kc for a reaction is 8 and Kr is 0.25 then Kf will be:",
+        options: [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        answer: 1,
+        explanation: "The equilibrium constant Kc is the ratio of the forward rate constant (Kf) to the reverse rate constant (Kr): Kc = Kf / Kr. Therefore, Kf = Kc × Kr = 8 × 0.25 = 2."
       }
   ];

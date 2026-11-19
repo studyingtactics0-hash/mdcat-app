@@ -1600,5 +1600,113 @@ export type Question = {
         ],
         answer: 1,
         explanation: "Fatty acids and glycerol are the fundamental building blocks (components) of simple lipids (acylglycerols), whereas amino acids are the monomeric building blocks of proteins."
+      },
+      {
+        id: "bumhs-bio-2026-008",
+        question: "Major part of lipids in an organisms body is made up of:",
+        options: [
+          "terpenes",
+          "waxes",
+          "phospholipids",
+          "acylglycerols"
+        ],
+        answer: 3,
+        explanation: "Acylglycerols (specifically triglycerides or triacylglycerols) are the most abundant lipids in living organisms, serving as the primary form of stored energy."
+      },
+      {
+        id: "bumhs-bio-2026-010",
+        question: "Which of the following statement correctly describes euchromatin?",
+        options: [
+          "Highly condensed and inactive",
+          "Loosely packed and transcriptionally active",
+          "Found only in prokaryotes",
+          "Composed only of RNA"
+        ],
+        answer: 1,
+        explanation: "Euchromatin is the lightly packed form of chromatin that is enriched in genes and is often under active transcription, unlike tightly condensed heterochromatin."
+      },
+      {
+        id: "bumhs-bio-2026-021",
+        question: "Information contained in the gene, which is needed by an organism, for the expression of its traits is in the form of:",
+        options: [
+          "carbohydrates",
+          "proteins",
+          "lipids",
+          "nucleic acids"
+        ],
+        answer: 3,
+        explanation: "Genes are segments of nucleic acids (DNA) whose specific nucleotide sequences carry the hereditary information needed for synthesizing proteins and expressing traits."
+      },
+      {
+        id: "bumhs-bio-2026-022",
+        question: "The combination of adenine, ribose and one phosphate group is called:",
+        options: [
+          "Adenosine super phosphate",
+          "Adenosine monophosphate",
+          "Deoxyadenosine phosphate",
+          "Ribonucleoside"
+        ],
+        answer: 1,
+        explanation: "Adenine attached to a ribose sugar forms the nucleoside adenosine; adding one phosphate group makes it the nucleotide adenosine monophosphate (AMP)."
+      },
+      {
+        id: "bumhs-bio-2026-027",
+        question: "Which of the under mentioned pair of nucleotides correctly represent Pyrimidines?",
+        options: [
+          "Cytosine and Thymine",
+          "Adenine and Guanine",
+          "Thymine and Guanine",
+          "Adenine and Cytosine"
+        ],
+        answer: 0,
+        explanation: "Pyrimidines are single-ring nitrogenous bases consisting of Cytosine (C), Thymine (T), and Uracil (U), whereas Adenine (A) and Guanine (G) are double-ring purines."
+      },
+      {
+        id: "bumhs-bio-2026-037",
+        question: "Approximate number of codons for a polypeptide having 300 amino acids are:",
+        options: [
+          "100",
+          "200",
+          "300",
+          "900"
+        ],
+        answer: 2,
+        explanation: "Because the genetic code is a triplet code where each mRNA codon (3 nucleotides) specifies one amino acid, a polypeptide of 300 amino acids requires approximately 300 coding codons (900 nucleotides)."
+      },
+      {
+        id: "bumhs-bio-2026-049",
+        question: "Which of the following biological molecules are abundantly present in the membranes, ribosomes, cytoskeleton and enzymes of the cell?",
+        options: [
+          "lipids",
+          "proteins",
+          "carbohydrates",
+          "nucleic acid"
+        ],
+        answer: 1,
+        explanation: "Proteins are the most abundant organic molecules in cells and form essential structural and functional components including membrane proteins, ribosomal proteins, cytoskeletal filaments, and enzymes."
+      },
+      {
+        id: "bumhs-bio-2026-053",
+        question: "Which of the following is mismatched?",
+        options: [
+          "Phospholipid & choline",
+          "Steroids & protein",
+          "Glucose & fructose",
+          "Protein & peptide chain"
+        ],
+        answer: 1,
+        explanation: "Steroids are lipids characterized by a four-fused carbon ring structure (steroid nucleus) and are not composed of proteins."
+      },
+      {
+        id: "bumhs-bio-2026-057",
+        question: "Ester bond in the biomolecules is a type of_______.",
+        options: [
+          "Ionic bond",
+          "Covalent bond",
+          "Hydrogen bond",
+          "Disulphide bond"
+        ],
+        answer: 1,
+        explanation: "An ester bond (-COO-) formed between an alcohol group (such as glycerol) and a carboxylic acid group (such as a fatty acid) is a strong covalent bond formed via condensation."
       }
   ];

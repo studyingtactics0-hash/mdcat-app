@@ -1470,5 +1470,53 @@ export type Question = {
         ],
         answer: 1,
         explanation: "The centromere is the specialized constricted region of a replicated chromosome that holds the two identical sister chromatids together and serves as the attachment site for kinetochore proteins and spindle fibers during mitosis and meiosis."
+      },
+      {
+        id: "bumhs-bio-2026-013",
+        question: "Which of the following structures contains highest concentration of RNA;",
+        options: [
+          "Cytoplasm",
+          "Nucleolus",
+          "Centriole",
+          "Chromosome"
+        ],
+        answer: 1,
+        explanation: "The nucleolus is the site of ribosomal RNA (rRNA) transcription and ribosome subunit assembly, giving it the highest concentration of RNA within the cell."
+      },
+      {
+        id: "bumhs-bio-2026-017",
+        question: "Which one of the following best describes endoplasmic reticulum?",
+        options: [
+          "Disc shaped peripheral network",
+          "Flattened membrane bound vesicles",
+          "Involved in development of peroxisomes",
+          "Complex network of channel extended from plasma membrane to nuclear membrane"
+        ],
+        answer: 3,
+        explanation: "The endoplasmic reticulum is an extensive, interconnected network of membranous channels and tubules extending throughout the cytoplasm from the nuclear envelope to the plasma membrane."
+      },
+      {
+        id: "bumhs-bio-2026-071",
+        question: "The transfer of materials from the endoplasmic reticulum is mainly directed towards __________ systems?",
+        options: [
+          "Endomembrane",
+          "Circulatory",
+          "Endocrine",
+          "Nervous"
+        ],
+        answer: 0,
+        explanation: "Proteins and lipids synthesized in the endoplasmic reticulum are packaged into transport vesicles and directed to the Golgi apparatus and other components of the endomembrane system."
+      },
+      {
+        id: "bumhs-bio-2026-080",
+        question: "Which region on a chromosome has a junk sequence of DNA?",
+        options: [
+          "Centromere",
+          "Telomere",
+          "Secondary constriction",
+          "Satellite"
+        ],
+        answer: 3,
+        explanation: "The chromosomal satellite (located distal to the secondary constriction on SAT-chromosomes) consists largely of repetitive, non-coding ('junk') DNA sequences."
       }
   ];
