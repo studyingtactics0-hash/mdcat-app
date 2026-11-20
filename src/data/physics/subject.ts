@@ -14207,5 +14207,437 @@ export type Question = {
         ],
         answer: 0,
         explanation: "Radioactive decay is a spontaneous nuclear process governed by the decay constant (λ) characteristic of each unstable isotope. Consequently, its half-life (T₁/₂ = 0.693 / λ) is a constant property unaffected by initial sample quantity or external physical conditions like temperature and pressure."
+      },
+      {
+        id: "bumhs-phys-2026-137",
+        question: "Which method is used to find the magnitude of a vector, if the resultant of two perpendicular vectors and the magnitude of the second vector are only given?",
+        options: [
+          "Trigonometric ratio",
+          "Pythagoras theorem",
+          "Cosine rule",
+          "Sine rule"
+        ],
+        answer: 1,
+        explanation: "For two perpendicular vectors A and B, the resultant magnitude is given by R = √(A² + B²) via the Pythagoras theorem. Rearranging gives A = √(R² - B²), allowing us to find the unknown vector's magnitude without needing angle information."
+      },
+      {
+        id: "bumhs-phys-2026-155",
+        question: "The x-component of a force lying at 60° with x-axis is 100N. The magnitude of force is:",
+        options: [
+          "50 N",
+          "100 N",
+          "150 N",
+          "200 N"
+        ],
+        answer: 3,
+        explanation: "The x-component of a force is given by Fx = F cos(θ). Substituting the given values: 100 = F cos(60°). Since cos(60°) = 0.5, F = 100 / 0.5 = 200 N."
+      },
+      {
+        id: "bumhs-phys-2026-159",
+        question: "Simplify the expression A × (A + B)",
+        options: [
+          "A + A × B",
+          "A² + A × B",
+          "A × B",
+          "0"
+        ],
+        answer: 2,
+        explanation: "Using the distributive property of the cross product: A × (A + B) = (A × A) + (A × B). Since the cross product of any vector with itself is a zero vector (A × A = 0), the expression simplifies to 0 + (A × B) = A × B."
+      },
+      {
+        id: "bumhs-phys-2026-145",
+        question: "The acceleration of a projectile along the x-axis (horizontal) is:",
+        options: [
+          "Zero",
+          "Increasing",
+          "Decreasing",
+          "Constant"
+        ],
+        answer: 0,
+        explanation: "In ideal projectile motion (neglecting air resistance), no horizontal force acts on the projectile. According to Newton's second law (F = ma), since Fx = 0, the horizontal acceleration ax is zero."
+      },
+      {
+        id: "bumhs-phys-2026-146",
+        question: "X-component of velocity of projectile does not change due to:",
+        options: [
+          "no force acting along X-axis",
+          "no acceleration produced along Y-axis",
+          "no force along acting Y-axis",
+          "acceleration produced along X-axis"
+        ],
+        answer: 0,
+        explanation: "Gravity acts strictly vertically (along the y-axis). Because there is no net force acting along the horizontal x-axis (ignoring air resistance), there is no horizontal acceleration, keeping the x-component of velocity constant."
+      },
+      {
+        id: "bumhs-phys-2026-154",
+        question: "The slope of displacement time graph represents:",
+        options: [
+          "Displacement",
+          "Velocity",
+          "Acceleration",
+          "speed"
+        ],
+        answer: 1,
+        explanation: "The slope of a displacement-time graph is given by Δd / Δt, which by definition is velocity."
+      },
+      {
+        id: "bumhs-phys-2026-162",
+        question: "A fire cracker is exploded into its fragments and spread out with different velocities because of different masses. The momentum of each fragment is equal in magnitude to the one that is moving in opposite direction. Based on this scenario, which of the following statement is true?",
+        options: [
+          "energy is conserved",
+          "total momentum is conserved",
+          "KE is always conserved",
+          "same force on all fragments"
+        ],
+        answer: 1,
+        explanation: "An explosion is driven purely by internal forces with no external net force acting on the system. By the law of conservation of linear momentum, the total momentum of the system before and after the explosion remains conserved (zero in the center-of-mass frame), while kinetic energy increases due to chemical energy conversion."
+      },
+      {
+        id: "bumhs-phys-2026-131",
+        question: "To find gravitational potential energy near earth's surface, we use E = mgh, the reason for using this equation is,",
+        options: [
+          "m remains constant",
+          "g remains constant near earth's surface",
+          "h is too large",
+          "gravity is too weak"
+        ],
+        answer: 1,
+        explanation: "The simplified formula PE = mgh is valid only when height h is small compared to Earth's radius, ensuring that the acceleration due to gravity (g) remains essentially constant throughout the displacement."
+      },
+      {
+        id: "bumhs-phys-2026-135",
+        question: "While designing a more efficient electric kettle, its body is made up of white plastic. How this will improve the efficiency of the kettle?",
+        options: [
+          "By slowing the rate of heat energy given to water",
+          "Plastic kettle will reduce the thermal energy losses to surroundings",
+          "No chances of electric shock",
+          "Electric current cannot pass through the plastic body"
+        ],
+        answer: 1,
+        explanation: "Plastic is a poor conductor of heat (thermal insulator), and a white surface is a poor emitter of thermal radiation. Together, they minimize heat loss to the surroundings, allowing more electrical energy to go into heating the water and thus increasing efficiency."
+      },
+      {
+        id: "bumhs-phys-2026-143",
+        question: "A boy lifts a box of mass 2kg vertically from the ground to a height of 1.5m. The work done on the box is:",
+        options: [
+          "0 J",
+          "3 J",
+          "15 J",
+          "30 J"
+        ],
+        answer: 3,
+        explanation: "Work done against gravity is given by W = mgh. Taking g ≈ 10 m/s², W = 2 kg × 10 m/s² × 1.5 m = 30 J."
+      },
+      {
+        id: "bumhs-phys-2026-134",
+        question: "A particle moves in a circular path of radius R. If the particle travels an arc length equal to the diameter of the circle, what is its angular displacement in radians?",
+        options: [
+          "1 rad",
+          "4 rad",
+          "π rad",
+          "2 rad"
+        ],
+        answer: 3,
+        explanation: "Angular displacement in radians is defined as θ = s / r, where s is the arc length and r is the radius. Since the arc length equals the diameter (s = 2R) and r = R, θ = 2R / R = 2 rad."
+      },
+      {
+        id: "bumhs-phys-2026-140",
+        question: "Tangential acceleration of a rotating object increases, if:",
+        options: [
+          "radius decreases",
+          "angular acceleration increases",
+          "angular velocity decreases",
+          "moment of inertia increases"
+        ],
+        answer: 1,
+        explanation: "Tangential acceleration is given by the relation a_t = rα, where r is the radius and α is the angular acceleration. Therefore, a_t is directly proportional to angular acceleration (α) and increases when angular acceleration increases."
+      },
+      {
+        id: "bumhs-phys-2026-150",
+        question: "Oil in pipelines flow turbulently even with smooth walls, mainly due to:",
+        options: [
+          "Oil temperature",
+          "Flow velocity",
+          "Pipeline length",
+          "Oil viscosity"
+        ],
+        answer: 1,
+        explanation: "The transition from laminar to turbulent flow is governed by the Reynolds number (Re = ρvD / η). When the flow velocity (v) exceeds a critical threshold, inertial forces overcome viscous damping forces, causing turbulent flow even inside smooth-walled pipes."
+      },
+      {
+        id: "bumhs-phys-2026-156",
+        question: "The equation of continuity (Av = constant) is a mathematical statement of which of the following conservation law?",
+        options: [
+          "Conservation of energy",
+          "Conservation of momentum",
+          "Conservation of mass",
+          "Conservation of volume"
+        ],
+        answer: 2,
+        explanation: "The equation of continuity is derived directly from the law of conservation of mass for an incompressible fluid in steady flow, stating that the mass entering a pipe per unit time must equal the mass leaving it (ρA₁v₁ = ρA₂v₂, which simplifies to Av = constant when density ρ is constant)."
+      },
+      {
+        id: "bumhs-phys-2026-158",
+        question: "If cross-sectional area of a point is 2cm², where speed of liquid passing through is 100m/s, then flow rate will be:",
+        options: [
+          "200 m³/s",
+          "2 m³/s",
+          "50 m³/s",
+          "0.02 m³/s"
+        ],
+        answer: 3,
+        explanation: "Volume flow rate is given by Q = A × v. First convert the cross-sectional area to SI units: A = 2 cm² = 2 × 10⁻⁴ m². Multiplying by velocity v = 100 m/s gives Q = (2 × 10⁻⁴ m²) × 100 m/s = 0.02 m³/s."
+      },
+      {
+        id: "bumhs-phys-2026-144",
+        question: "_________ is an example of the longitudinal waves.",
+        options: [
+          "sound waves",
+          "water waves",
+          "light waves",
+          "radio waves"
+        ],
+        answer: 0,
+        explanation: "Sound waves in air and fluids are longitudinal waves because the particles of the medium oscillate parallel to the direction of wave propagation, forming compressions and rarefactions."
+      },
+      {
+        id: "bumhs-phys-2026-148",
+        question: "In a standing wave, the point that undergoes maximum acceleration is:",
+        options: [
+          "Node",
+          "Antinode",
+          "Midpoint between node and antinode",
+          "Every point along the wave"
+        ],
+        answer: 1,
+        explanation: "In simple harmonic oscillation of standing wave particles, acceleration is proportional to displacement (a = -ω²y). Because antinodes experience the maximum displacement amplitude, they also undergo the maximum acceleration."
+      },
+      {
+        id: "bumhs-phys-2026-149",
+        question: "A simple pendulum displaced by a student once and then it is left to oscillate on its own. The motion of pendulum can be described as:",
+        options: [
+          "simple vibrations.",
+          "simple harmonic motion.",
+          "forced oscillation.",
+          "complex harmonic motion."
+        ],
+        answer: 1,
+        explanation: "When displaced through a small angle and released to oscillate freely under gravity without continuous external driving forces, the restoring force is directly proportional to the displacement, resulting in simple harmonic motion (free oscillation)."
+      },
+      {
+        id: "bumhs-phys-2026-160",
+        question: "A guitar string of length 50 cm vibrates in its first overtone. The speed of waves in stretched string is 350 m/s. The frequency of this standing wave is:",
+        options: [
+          "175 Hz",
+          "350 Hz",
+          "525 Hz",
+          "700 Hz"
+        ],
+        answer: 3,
+        explanation: "The first overtone on a stretched string corresponds to the second harmonic (n = 2). Using fₙ = nv / (2L) with n = 2, v = 350 m/s, and L = 0.50 m: f₂ = (2 × 350) / (2 × 0.50) = 700 / 1.0 = 700 Hz."
+      },
+      {
+        id: "bumhs-phys-2026-130",
+        question: "If molar specific heat is kept constant but its molar mass is doubled, then its specific heat:",
+        options: [
+          "becomes halved",
+          "becomes doubled",
+          "remains the same",
+          "becomes one-forth"
+        ],
+        answer: 0,
+        explanation: "Molar specific heat (C) is related to specific heat capacity (c) and molar mass (M) by the formula C = M × c, which gives c = C / M. If C is held constant and molar mass M is doubled, the specific heat c becomes halved."
+      },
+      {
+        id: "bumhs-phys-2026-138",
+        question: "In a closed system with two bodies at different temperatures, thermal energy continuous to move until:",
+        options: [
+          "The molecules in both bodies stop vibrating",
+          "The total kinetic energy of both bodies becomes equal",
+          "The temperature difference becomes zero",
+          "The hotter body losses all of its internal energy"
+        ],
+        answer: 2,
+        explanation: "According to the Zeroth Law of Thermodynamics, heat flows spontaneously from a hotter body to a colder body until both reach thermal equilibrium—meaning their temperatures become equal and the temperature difference becomes zero."
+      },
+      {
+        id: "bumhs-phys-2026-127",
+        question: "The value of Coulomb’s constant k depends upon:",
+        options: [
+          "quantity of the charges.",
+          "system of units between two charges only.",
+          "nature of medium between two charges only.",
+          "nature of medium and system of units between two charges."
+        ],
+        answer: 3,
+        explanation: "Coulomb's constant is given by k = 1 / (4πε₀εᵣ). Its numerical value depends on both the system of units chosen (such as SI vs. CGS) and the permittivity (nature) of the medium between the two charges."
+      },
+      {
+        id: "bumhs-phys-2026-153",
+        question: "The capacitance of parallel plates capacitor is 5 μF. When a glass plate is placed between the plates of capacitor, its potential becomes 1/8 of its original value. The value of dielectric constant will be:",
+        options: [
+          "1.6",
+          "5",
+          "8",
+          "40"
+        ],
+        answer: 2,
+        explanation: "When a dielectric slab is inserted between the plates of an isolated charged capacitor, the potential difference drops by a factor equal to the dielectric constant (V' = V / εᵣ). Since V' = V / 8, the dielectric constant εᵣ = 8."
+      },
+      {
+        id: "bumhs-phys-2026-128",
+        question: "Power delivered to the load decreases, if load resistance exceeds:",
+        options: [
+          "Emf",
+          "terminal voltage",
+          "external resistance",
+          "internal resistance"
+        ],
+        answer: 3,
+        explanation: "By the Maximum Power Transfer Theorem, a source delivers maximum power to a load when the load resistance (R) equals the internal resistance (r) of the source. If the load resistance exceeds the internal resistance (R > r), the power delivered to the load decreases."
+      },
+      {
+        id: "bumhs-phys-2026-129",
+        question: "If the change in temperature of a conductor does not affect its resistance, the value of temperature coefficient of material is:",
+        options: [
+          "Positive",
+          "Negative",
+          "Constant",
+          "Zero"
+        ],
+        answer: 3,
+        explanation: "The temperature coefficient of resistance is defined as α = ΔR / (R₀ ΔT). If a change in temperature (ΔT ≠ 0) produces no change in resistance (ΔR = 0), then α = 0."
+      },
+      {
+        id: "bumhs-phys-2026-139",
+        question: "One weber is the magnetic flux through a surface area of 1/2 m², when magnetic field is:",
+        options: [
+          "1/2 tesla",
+          "1 tesla",
+          "2 tesla",
+          "4 tesla"
+        ],
+        answer: 2,
+        explanation: "Magnetic flux is given by Φ = B · A (for a surface perpendicular to the magnetic field). Substituting Φ = 1 Wb and A = 1/2 m²: 1 = B × (1/2), which gives B = 2 tesla."
+      },
+      {
+        id: "bumhs-phys-2026-142",
+        question: "In a cyclotron, the time taken by a particle of mass m and charge q to complete one semi-circle in a 'Dee' is t. If the magnetic field B is doubled, what will be the new time for completing a semi-circle?",
+        options: [
+          "t / 4",
+          "2t",
+          "t / 2",
+          "t"
+        ],
+        answer: 2,
+        explanation: "The time taken by a charged particle to complete a semi-circular path in a magnetic field is t = πm / (qB). Since t is inversely proportional to the magnetic field B, doubling B halves the time taken to t / 2."
+      },
+      {
+        id: "bumhs-phys-2026-147",
+        question: "If a coil placed parallel to a uniform magnetic field is moved with uniform acceleration through the field, the induced emf through the coil is:",
+        options: [
+          "Zero",
+          "constant",
+          "increasing with time",
+          "decreasing with time"
+        ],
+        answer: 0,
+        explanation: "Magnetic flux through a coil is given by Φ = B A cos(θ), where θ is the angle between the normal to the coil and the magnetic field. When the coil is placed parallel to the magnetic field, the normal is perpendicular (θ = 90°), so cos(90°) = 0 and Φ = 0. Because the magnetic field is uniform and the orientation does not change, the magnetic flux remains zero throughout the motion (ΔΦ/Δt = 0), resulting in zero induced emf."
+      },
+      {
+        id: "bumhs-phys-2026-161",
+        question: "A coil’s induced emf is largest when:",
+        options: [
+          "Magnetic flux is maximum",
+          "Rate of change of flux is maximum",
+          "Current is stead",
+          "Resistance is minimum"
+        ],
+        answer: 1,
+        explanation: "According to Faraday's law of electromagnetic induction, the magnitude of induced emf is directly proportional to the rate of change of magnetic flux through the coil (ε = -N ΔΦ / Δt). Therefore, the induced emf is largest when the rate of change of magnetic flux is maximum."
+      },
+      {
+        id: "bumhs-phys-2026-132",
+        question: "The longest wave in electromagnetic spectrum is:",
+        options: [
+          "Infra-red wave",
+          "Radio wave",
+          "microwave",
+          "X-Rays"
+        ],
+        answer: 1,
+        explanation: "Radio waves have the lowest frequencies and consequently the longest wavelengths in the electromagnetic spectrum, ranging from about 1 millimeter to over 100 kilometers."
+      },
+      {
+        id: "bumhs-phys-2026-141",
+        question: "When silicon is doped with a penta-valent element, it becomes:",
+        options: [
+          "an insulator.",
+          "a conductor.",
+          "n-type semiconductor.",
+          "p-type semiconductor."
+        ],
+        answer: 2,
+        explanation: "Silicon has four valence electrons. When doped with a pentavalent impurity (such as phosphorus, arsenic, or antimony) that has five valence electrons, four electrons form covalent bonds with neighboring silicon atoms while the fifth electron remains loosely bound as a free charge carrier, creating an n-type semiconductor."
+      },
+      {
+        id: "bumhs-phys-2026-157",
+        question: "A photon’s energy is inversely proportional to its:",
+        options: [
+          "Frequency",
+          "Wavelength",
+          "Speed",
+          "Amplitude"
+        ],
+        answer: 1,
+        explanation: "According to Planck's quantum theory, the energy of a photon is given by E = hf = hc / λ, where h is Planck's constant, c is the speed of light, f is frequency, and λ is wavelength. Therefore, a photon's energy is inversely proportional to its wavelength (λ)."
+      },
+      {
+        id: "bumhs-phys-2026-133",
+        question: "_________ deals with the investigation of wavelength and intensities of electromagnetic radiations.",
+        options: [
+          "Electromagnetic Theory",
+          "Electrodynamics",
+          "Physical optics",
+          "Spectroscopy"
+        ],
+        answer: 3,
+        explanation: "Spectroscopy is the branch of physics that deals with the measurement, analysis, and investigation of the wavelengths and intensities of electromagnetic radiation emitted or absorbed by matter."
+      },
+      {
+        id: "bumhs-phys-2026-151",
+        question: "Which series contains wavelengths in the visible portion of the hydrogen gas spectrum?",
+        options: [
+          "Lymnan series",
+          "Balmer series",
+          "Pfund series",
+          "Paschen series"
+        ],
+        answer: 1,
+        explanation: "In the hydrogen emission spectrum, transitions ending at the n = 2 energy level produce the Balmer series, whose wavelengths lie in the visible region of the electromagnetic spectrum (approximately 400 nm to 700 nm)."
+      },
+      {
+        id: "bumhs-phys-2026-136",
+        question: "If A is an atomic mass number and Z is the atomic number, then the number of neutron N in the nucleus of an atom are calculated by:",
+        options: [
+          "N = A + Z",
+          "N = Z - A",
+          "N = A - Z",
+          "N = A / Z"
+        ],
+        answer: 2,
+        explanation: "The atomic mass number (A) equals the total number of nucleons—protons (Z) plus neutrons (N)—in an atomic nucleus (A = Z + N). Rearranging this equation gives the number of neutrons as N = A - Z."
+      },
+      {
+        id: "bumhs-phys-2026-152",
+        question: "During a nuclear decay three types of radiations (α, β and γ) are emitted. Which one is not deflected by electric field?",
+        options: [
+          "α",
+          "β",
+          "γ",
+          "both α and β"
+        ],
+        answer: 2,
+        explanation: "Gamma (γ) rays are high-energy electromagnetic photons with zero net electric charge. Because an electric field exerts force only on charged particles (F = qE), γ rays pass through an electric field undeflected, whereas positively charged α particles and negatively charged β particles are deflected in opposite directions."
       }
 ];

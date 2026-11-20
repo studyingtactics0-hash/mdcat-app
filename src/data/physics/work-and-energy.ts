@@ -1089,5 +1089,41 @@ export type Question = {
         ],
         answer: 1,
         explanation: "The formula P.E = mgh assumes a constant acceleration due to gravity (g), which holds true only near Earth's surface (h << R). When the height is comparable to or much greater than Earth's radius, g varies significantly with distance and the general gravitational potential energy formula must be used."
+      },
+      {
+        id: "bumhs-phys-2026-131",
+        question: "To find gravitational potential energy near earth's surface, we use E = mgh, the reason for using this equation is,",
+        options: [
+          "m remains constant",
+          "g remains constant near earth's surface",
+          "h is too large",
+          "gravity is too weak"
+        ],
+        answer: 1,
+        explanation: "The simplified formula PE = mgh is valid only when height h is small compared to Earth's radius, ensuring that the acceleration due to gravity (g) remains essentially constant throughout the displacement."
+      },
+      {
+        id: "bumhs-phys-2026-135",
+        question: "While designing a more efficient electric kettle, its body is made up of white plastic. How this will improve the efficiency of the kettle?",
+        options: [
+          "By slowing the rate of heat energy given to water",
+          "Plastic kettle will reduce the thermal energy losses to surroundings",
+          "No chances of electric shock",
+          "Electric current cannot pass through the plastic body"
+        ],
+        answer: 1,
+        explanation: "Plastic is a poor conductor of heat (thermal insulator), and a white surface is a poor emitter of thermal radiation. Together, they minimize heat loss to the surroundings, allowing more electrical energy to go into heating the water and thus increasing efficiency."
+      },
+      {
+        id: "bumhs-phys-2026-143",
+        question: "A boy lifts a box of mass 2kg vertically from the ground to a height of 1.5m. The work done on the box is:",
+        options: [
+          "0 J",
+          "3 J",
+          "15 J",
+          "30 J"
+        ],
+        answer: 3,
+        explanation: "Work done against gravity is given by W = mgh. Taking g ≈ 10 m/s², W = 2 kg × 10 m/s² × 1.5 m = 30 J."
       }
   ];

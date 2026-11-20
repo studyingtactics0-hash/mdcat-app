@@ -978,5 +978,29 @@ export type Question = {
         ],
         answer: 0,
         explanation: "Radioactive decay is a spontaneous nuclear process governed by the decay constant (λ) characteristic of each unstable isotope. Consequently, its half-life (T₁/₂ = 0.693 / λ) is a constant property unaffected by initial sample quantity or external physical conditions like temperature and pressure."
+      },
+      {
+        id: "bumhs-phys-2026-136",
+        question: "If A is an atomic mass number and Z is the atomic number, then the number of neutron N in the nucleus of an atom are calculated by:",
+        options: [
+          "N = A + Z",
+          "N = Z - A",
+          "N = A - Z",
+          "N = A / Z"
+        ],
+        answer: 2,
+        explanation: "The atomic mass number (A) equals the total number of nucleons—protons (Z) plus neutrons (N)—in an atomic nucleus (A = Z + N). Rearranging this equation gives the number of neutrons as N = A - Z."
+      },
+      {
+        id: "bumhs-phys-2026-152",
+        question: "During a nuclear decay three types of radiations (α, β and γ) are emitted. Which one is not deflected by electric field?",
+        options: [
+          "α",
+          "β",
+          "γ",
+          "both α and β"
+        ],
+        answer: 2,
+        explanation: "Gamma (γ) rays are high-energy electromagnetic photons with zero net electric charge. Because an electric field exerts force only on charged particles (F = qE), γ rays pass through an electric field undeflected, whereas positively charged α particles and negatively charged β particles are deflected in opposite directions."
       }
   ];

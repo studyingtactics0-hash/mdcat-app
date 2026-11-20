@@ -339,5 +339,41 @@ export type Question = {
       ],
       answer: 1,
       explanation: "According to Poiseuille's law (Q = πΔPr⁴ / 8ηL), narrowing of the arterial radius (r) drastically increases flow resistance. To keep vital organs supplied, the heart increases blood pressure (ΔP) to maintain the same normal volumetric blood flow rate (Q)."
+    },
+    {
+      id: "bumhs-phys-2026-150",
+      question: "Oil in pipelines flow turbulently even with smooth walls, mainly due to:",
+      options: [
+        "Oil temperature",
+        "Flow velocity",
+        "Pipeline length",
+        "Oil viscosity"
+      ],
+      answer: 1,
+      explanation: "The transition from laminar to turbulent flow is governed by the Reynolds number (Re = ρvD / η). When the flow velocity (v) exceeds a critical threshold, inertial forces overcome viscous damping forces, causing turbulent flow even inside smooth-walled pipes."
+    },
+    {
+      id: "bumhs-phys-2026-156",
+      question: "The equation of continuity (Av = constant) is a mathematical statement of which of the following conservation law?",
+      options: [
+        "Conservation of energy",
+        "Conservation of momentum",
+        "Conservation of mass",
+        "Conservation of volume"
+      ],
+      answer: 2,
+      explanation: "The equation of continuity is derived directly from the law of conservation of mass for an incompressible fluid in steady flow, stating that the mass entering a pipe per unit time must equal the mass leaving it (ρA₁v₁ = ρA₂v₂, which simplifies to Av = constant when density ρ is constant)."
+    },
+    {
+      id: "bumhs-phys-2026-158",
+      question: "If cross-sectional area of a point is 2cm², where speed of liquid passing through is 100m/s, then flow rate will be:",
+      options: [
+        "200 m³/s",
+        "2 m³/s",
+        "50 m³/s",
+        "0.02 m³/s"
+      ],
+      answer: 3,
+      explanation: "Volume flow rate is given by Q = A × v. First convert the cross-sectional area to SI units: A = 2 cm² = 2 × 10⁻⁴ m². Multiplying by velocity v = 100 m/s gives Q = (2 × 10⁻⁴ m²) × 100 m/s = 0.02 m³/s."
     }
   ];

@@ -1394,5 +1394,53 @@ export type Question = {
           ],
           answer: 2,
           explanation: "Laplace corrected Newton's formula by recognizing that compressions and rarefactions in sound waves occur so rapidly in air (a poor thermal conductor) that no heat enters or leaves the system, making the process adiabatic (ΔQ = 0)."
+        },
+        {
+          id: "bumhs-phys-2026-144",
+          question: "_________ is an example of the longitudinal waves.",
+          options: [
+            "sound waves",
+            "water waves",
+            "light waves",
+            "radio waves"
+          ],
+          answer: 0,
+          explanation: "Sound waves in air and fluids are longitudinal waves because the particles of the medium oscillate parallel to the direction of wave propagation, forming compressions and rarefactions."
+        },
+        {
+          id: "bumhs-phys-2026-148",
+          question: "In a standing wave, the point that undergoes maximum acceleration is:",
+          options: [
+            "Node",
+            "Antinode",
+            "Midpoint between node and antinode",
+            "Every point along the wave"
+          ],
+          answer: 1,
+          explanation: "In simple harmonic oscillation of standing wave particles, acceleration is proportional to displacement (a = -ω²y). Because antinodes experience the maximum displacement amplitude, they also undergo the maximum acceleration."
+        },
+        {
+          id: "bumhs-phys-2026-149",
+          question: "A simple pendulum displaced by a student once and then it is left to oscillate on its own. The motion of pendulum can be described as:",
+          options: [
+            "simple vibrations.",
+            "simple harmonic motion.",
+            "forced oscillation.",
+            "complex harmonic motion."
+          ],
+          answer: 1,
+          explanation: "When displaced through a small angle and released to oscillate freely under gravity without continuous external driving forces, the restoring force is directly proportional to the displacement, resulting in simple harmonic motion (free oscillation)."
+        },
+        {
+          id: "bumhs-phys-2026-160",
+          question: "A guitar string of length 50 cm vibrates in its first overtone. The speed of waves in stretched string is 350 m/s. The frequency of this standing wave is:",
+          options: [
+            "175 Hz",
+            "350 Hz",
+            "525 Hz",
+            "700 Hz"
+          ],
+          answer: 3,
+          explanation: "The first overtone on a stretched string corresponds to the second harmonic (n = 2). Using fₙ = nv / (2L) with n = 2, v = 350 m/s, and L = 0.50 m: f₂ = (2 × 350) / (2 × 0.50) = 700 / 1.0 = 700 Hz."
         }
   ];

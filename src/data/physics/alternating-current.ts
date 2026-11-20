@@ -160,5 +160,17 @@ export type Question = {
       ],
       answer: 1,
       explanation: "In a sinusoidal alternating current wave represented by I = I₀ sin(θ), the current reaches its maximum positive peak value (+I₀) when sin(θ) = 1, which corresponds to a phase angle θ = 90° (or π/2 radians)."
+    },
+    {
+      id: "bumhs-phys-2026-132",
+      question: "The longest wave in electromagnetic spectrum is:",
+      options: [
+        "Infra-red wave",
+        "Radio wave",
+        "microwave",
+        "X-Rays"
+      ],
+      answer: 1,
+      explanation: "Radio waves have the lowest frequencies and consequently the longest wavelengths in the electromagnetic spectrum, ranging from about 1 millimeter to over 100 kilometers."
     }
   ];

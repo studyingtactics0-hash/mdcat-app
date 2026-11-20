@@ -1398,5 +1398,53 @@ export type Question = {
         ],
         answer: 0,
         explanation: "According to the fundamental conservation laws of physics, in the absence of external forces or energy transfer (an isolated system), both total energy and total linear momentum remain conserved."
+      },
+      {
+        id: "bumhs-phys-2026-145",
+        question: "The acceleration of a projectile along the x-axis (horizontal) is:",
+        options: [
+          "Zero",
+          "Increasing",
+          "Decreasing",
+          "Constant"
+        ],
+        answer: 0,
+        explanation: "In ideal projectile motion (neglecting air resistance), no horizontal force acts on the projectile. According to Newton's second law (F = ma), since Fx = 0, the horizontal acceleration ax is zero."
+      },
+      {
+        id: "bumhs-phys-2026-146",
+        question: "X-component of velocity of projectile does not change due to:",
+        options: [
+          "no force acting along X-axis",
+          "no acceleration produced along Y-axis",
+          "no force along acting Y-axis",
+          "acceleration produced along X-axis"
+        ],
+        answer: 0,
+        explanation: "Gravity acts strictly vertically (along the y-axis). Because there is no net force acting along the horizontal x-axis (ignoring air resistance), there is no horizontal acceleration, keeping the x-component of velocity constant."
+      },
+      {
+        id: "bumhs-phys-2026-154",
+        question: "The slope of displacement time graph represents:",
+        options: [
+          "Displacement",
+          "Velocity",
+          "Acceleration",
+          "speed"
+        ],
+        answer: 1,
+        explanation: "The slope of a displacement-time graph is given by Δd / Δt, which by definition is velocity."
+      },
+      {
+        id: "bumhs-phys-2026-162",
+        question: "A fire cracker is exploded into its fragments and spread out with different velocities because of different masses. The momentum of each fragment is equal in magnitude to the one that is moving in opposite direction. Based on this scenario, which of the following statement is true?",
+        options: [
+          "energy is conserved",
+          "total momentum is conserved",
+          "KE is always conserved",
+          "same force on all fragments"
+        ],
+        answer: 1,
+        explanation: "An explosion is driven purely by internal forces with no external net force acting on the system. By the law of conservation of linear momentum, the total momentum of the system before and after the explosion remains conserved (zero in the center-of-mass frame), while kinetic energy increases due to chemical energy conversion."
       }
   ];

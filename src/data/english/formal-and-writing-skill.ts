@@ -1200,4 +1200,112 @@ export const formalAndWritingSkillQuestions = [
       answer: 2,
       explanation: "There is no causal relationship between the color of clothing worn and human intelligence, making 'Wearing red clothes causes intelligence' a false cause-and-effect claim."
     },
+    {
+      id: "bumhs-2026-163",
+      question: "Which of the following sentences follows the correct structure?",
+      options: [
+        "I suggested that you will see him.",
+        "I suggested that you see him",
+        "I suggest that you should see him.",
+        "I suggest you to see him."
+      ],
+      answer: 1,
+      explanation: "Verbs of recommendation/suggestion like 'suggest' take the mandative subjunctive mood ('that + subject + base verb'): 'I suggested that you see him.'"
+    },
+    {
+      id: "bumhs-2026-164",
+      question: "The witness’s testimony was so equivocal that the jury struggled to determine his true position. The most appropriate meaning of the word “equivocal” is:",
+      options: [
+        "deliberately vague",
+        "unambigious",
+        "highly emotional",
+        "legally binding"
+      ],
+      answer: 0,
+      explanation: "'Equivocal' means open to more than one interpretation, ambiguous, or deliberately vague."
+    },
+    {
+      id: "bumhs-2026-165",
+      question: "Choose the appropriate preposition.\n\nShe has been working on this project ______ the past six months with remarkable consistency.",
+      options: [
+        "since",
+        "for",
+        "during",
+        "by"
+      ],
+      answer: 1,
+      explanation: "'For' is used with a duration of time ('the past six months'), whereas 'since' is used with a specific starting point."
+    },
+    {
+      id: "bumhs-2026-166",
+      question: "Choose the most suitable synonym for the underlined word.\n\nThe police have expressed grave concern about the missing child’s safety.",
+      options: [
+        "stout",
+        "talkative",
+        "courteous",
+        "serious"
+      ],
+      answer: 3,
+      explanation: "In this context, 'grave' means serious, solemn, or critical."
+    },
+    {
+      id: "bumhs-2026-167",
+      question: "Choose the example of opinion statement.",
+      options: [
+        "If a number is divisible by 2, then it is even.",
+        "The ground is wet, it probably rained.",
+        "The Eiffel Tower is in Paris.",
+        "The human body has 206 bones."
+      ],
+      answer: 1,
+      explanation: "'The ground is wet, it probably rained' expresses a subjective inference/judgment rather than an established objective fact."
+    },
+    {
+      id: "bumhs-2026-168",
+      question: "“The thief was caught by the police after a long chase.”\n\nWhich of the following choices entails the correct change of voice?",
+      options: [
+        "The police catch the thief after a long chase.",
+        "The police caught the thief after a long chase.",
+        "The police catches the thief after a long chase.",
+        "The police was catching the thief after a long chase."
+      ],
+      answer: 1,
+      explanation: "The passive sentence is in the simple past tense ('was caught'); converting it to active voice gives 'The police caught the thief after a long chase.'"
+    },
+    {
+      id: "bumhs-2026-169",
+      question: "The poet saw dancing Daffodils. The underlined word is an example of:",
+      options: [
+        "Present Participle",
+        "Gerund",
+        "Past Participle",
+        "Infinitive"
+      ],
+      answer: 0,
+      explanation: "'Dancing' ends in -ing and functions as an adjective modifying the noun 'Daffodils', making it a present participle."
+    },
+    {
+      id: "bumhs-2026-170",
+      question: "Choose the most appropriate sentence, keeping in view the level of formality:",
+      options: [
+        "The CEO told everyone they gotta stick to the safety rules no matter what.",
+        "The CEO emphasized that the company should stick to safety rules always.",
+        "The CEO told them they should keep the safety rules in mind, kinda always.",
+        "The CEO emphasized that the company must adhere to the safety protocols at all times."
+      ],
+      answer: 3,
+      explanation: "Option (d) uses formal, professional vocabulary ('emphasized', 'adhere to', 'safety protocols', 'at all times') without colloquialisms like 'gotta' or 'kinda'."
+    },
+    {
+      id: "bumhs-2026-171",
+      question: "He didn’t mean to rock the boat with his comment during the meeting. What does “rock” most likely mean?",
+      options: [
+        "A big piece of stone",
+        "To move gently back and forth",
+        "To cause trouble or disturbance",
+        "To mention broken boat"
+      ],
+      answer: 2,
+      explanation: "The idiom 'rock the boat' means to do or say something that disrupts a stable situation or causes trouble."
+    },
   ];

@@ -1514,5 +1514,29 @@ export type Question = {
           ],
           answer: 0,
           explanation: "In an adiabatic expansion, no heat enters or leaves the system (Q = 0). By the first law of thermodynamics (ΔU = −W), the gas does positive work against external pressure at the expense of its own internal energy, causing its temperature to decrease."
+        },
+        {
+          id: "bumhs-phys-2026-130",
+          question: "If molar specific heat is kept constant but its molar mass is doubled, then its specific heat:",
+          options: [
+            "becomes halved",
+            "becomes doubled",
+            "remains the same",
+            "becomes one-forth"
+          ],
+          answer: 0,
+          explanation: "Molar specific heat (C) is related to specific heat capacity (c) and molar mass (M) by the formula C = M × c, which gives c = C / M. If C is held constant and molar mass M is doubled, the specific heat c becomes halved."
+        },
+        {
+          id: "bumhs-phys-2026-138",
+          question: "In a closed system with two bodies at different temperatures, thermal energy continuous to move until:",
+          options: [
+            "The molecules in both bodies stop vibrating",
+            "The total kinetic energy of both bodies becomes equal",
+            "The temperature difference becomes zero",
+            "The hotter body losses all of its internal energy"
+          ],
+          answer: 2,
+          explanation: "According to the Zeroth Law of Thermodynamics, heat flows spontaneously from a hotter body to a colder body until both reach thermal equilibrium—meaning their temperatures become equal and the temperature difference becomes zero."
         }
   ];

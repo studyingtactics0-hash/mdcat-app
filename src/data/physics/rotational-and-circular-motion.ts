@@ -1000,5 +1000,29 @@ export type Question = {
         ],
         answer: 2,
         explanation: "The standard International System (SI) unit for measuring angular displacement (plane angle) is the radian (rad)."
+      },
+      {
+        id: "bumhs-phys-2026-134",
+        question: "A particle moves in a circular path of radius R. If the particle travels an arc length equal to the diameter of the circle, what is its angular displacement in radians?",
+        options: [
+          "1 rad",
+          "4 rad",
+          "π rad",
+          "2 rad"
+        ],
+        answer: 3,
+        explanation: "Angular displacement in radians is defined as θ = s / r, where s is the arc length and r is the radius. Since the arc length equals the diameter (s = 2R) and r = R, θ = 2R / R = 2 rad."
+      },
+      {
+        id: "bumhs-phys-2026-140",
+        question: "Tangential acceleration of a rotating object increases, if:",
+        options: [
+          "radius decreases",
+          "angular acceleration increases",
+          "angular velocity decreases",
+          "moment of inertia increases"
+        ],
+        answer: 1,
+        explanation: "Tangential acceleration is given by the relation a_t = rα, where r is the radius and α is the angular acceleration. Therefore, a_t is directly proportional to angular acceleration (α) and increases when angular acceleration increases."
       }
   ];

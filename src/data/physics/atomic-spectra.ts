@@ -530,5 +530,29 @@ export type Question = {
         ],
         answer: 0,
         explanation: "A line emission spectrum is produced when excited atoms transition back to lower energy states, emitting photons of discrete frequencies that appear as distinct bright lines against a dark background."
+      },
+      {
+        id: "bumhs-phys-2026-133",
+        question: "_________ deals with the investigation of wavelength and intensities of electromagnetic radiations.",
+        options: [
+          "Electromagnetic Theory",
+          "Electrodynamics",
+          "Physical optics",
+          "Spectroscopy"
+        ],
+        answer: 3,
+        explanation: "Spectroscopy is the branch of physics that deals with the measurement, analysis, and investigation of the wavelengths and intensities of electromagnetic radiation emitted or absorbed by matter."
+      },
+      {
+        id: "bumhs-phys-2026-151",
+        question: "Which series contains wavelengths in the visible portion of the hydrogen gas spectrum?",
+        options: [
+          "Lymnan series",
+          "Balmer series",
+          "Pfund series",
+          "Paschen series"
+        ],
+        answer: 1,
+        explanation: "In the hydrogen emission spectrum, transitions ending at the n = 2 energy level produce the Balmer series, whose wavelengths lie in the visible region of the electromagnetic spectrum (approximately 400 nm to 700 nm)."
       }
   ];

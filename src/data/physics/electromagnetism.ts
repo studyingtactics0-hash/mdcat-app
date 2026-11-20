@@ -812,5 +812,29 @@ export type Question = {
         ],
         answer: 0,
         explanation: "From the magnetic force formula on a current-carrying conductor (F = ILB sinθ), magnetic flux density is B = F / (IL). Substituting SI units gives N / (A · m) = N A⁻¹ m⁻¹ (which is equivalent to 1 Tesla)."
+      },
+      {
+        id: "bumhs-phys-2026-139",
+        question: "One weber is the magnetic flux through a surface area of 1/2 m², when magnetic field is:",
+        options: [
+          "1/2 tesla",
+          "1 tesla",
+          "2 tesla",
+          "4 tesla"
+        ],
+        answer: 2,
+        explanation: "Magnetic flux is given by Φ = B · A (for a surface perpendicular to the magnetic field). Substituting Φ = 1 Wb and A = 1/2 m²: 1 = B × (1/2), which gives B = 2 tesla."
+      },
+      {
+        id: "bumhs-phys-2026-142",
+        question: "In a cyclotron, the time taken by a particle of mass m and charge q to complete one semi-circle in a 'Dee' is t. If the magnetic field B is doubled, what will be the new time for completing a semi-circle?",
+        options: [
+          "t / 4",
+          "2t",
+          "t / 2",
+          "t"
+        ],
+        answer: 2,
+        explanation: "The time taken by a charged particle to complete a semi-circular path in a magnetic field is t = πm / (qB). Since t is inversely proportional to the magnetic field B, doubling B halves the time taken to t / 2."
       }
   ];

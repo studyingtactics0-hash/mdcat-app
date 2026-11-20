@@ -987,5 +987,29 @@ export type Question = {
         ],
         answer: 2,
         explanation: "According to Faraday's law of electromagnetic induction (ε = −N ΔΦ / Δt), the induced e.m.f. is directly proportional to the number of turns (N) in the coil. When N is doubled and the rate of change of magnetic flux (ΔΦ / Δt) remains constant, the induced e.m.f. is also doubled."
+      },
+      {
+        id: "bumhs-phys-2026-147",
+        question: "If a coil placed parallel to a uniform magnetic field is moved with uniform acceleration through the field, the induced emf through the coil is:",
+        options: [
+          "Zero",
+          "constant",
+          "increasing with time",
+          "decreasing with time"
+        ],
+        answer: 0,
+        explanation: "Magnetic flux through a coil is given by Φ = B A cos(θ), where θ is the angle between the normal to the coil and the magnetic field. When the coil is placed parallel to the magnetic field, the normal is perpendicular (θ = 90°), so cos(90°) = 0 and Φ = 0. Because the magnetic field is uniform and the orientation does not change, the magnetic flux remains zero throughout the motion (ΔΦ/Δt = 0), resulting in zero induced emf."
+      },
+      {
+        id: "bumhs-phys-2026-161",
+        question: "A coil’s induced emf is largest when:",
+        options: [
+          "Magnetic flux is maximum",
+          "Rate of change of flux is maximum",
+          "Current is stead",
+          "Resistance is minimum"
+        ],
+        answer: 1,
+        explanation: "According to Faraday's law of electromagnetic induction, the magnitude of induced emf is directly proportional to the rate of change of magnetic flux through the coil (ε = -N ΔΦ / Δt). Therefore, the induced emf is largest when the rate of change of magnetic flux is maximum."
       }
   ];

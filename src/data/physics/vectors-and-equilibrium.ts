@@ -175,5 +175,41 @@ export type Question = {
       ],
       answer: 2,
       explanation: "Vector addition obeys the commutative law (A + B = B + A), meaning the resultant vector has the exact same magnitude and direction regardless of the order in which the vectors are added."
+    },
+    {
+      id: "bumhs-phys-2026-137",
+      question: "Which method is used to find the magnitude of a vector, if the resultant of two perpendicular vectors and the magnitude of the second vector are only given?",
+      options: [
+        "Trigonometric ratio",
+        "Pythagoras theorem",
+        "Cosine rule",
+        "Sine rule"
+      ],
+      answer: 1,
+      explanation: "For two perpendicular vectors A and B, the resultant magnitude is given by R = √(A² + B²) via the Pythagoras theorem. Rearranging gives A = √(R² - B²), allowing us to find the unknown vector's magnitude without needing angle information."
+    },
+    {
+      id: "bumhs-phys-2026-155",
+      question: "The x-component of a force lying at 60° with x-axis is 100N. The magnitude of force is:",
+      options: [
+        "50 N",
+        "100 N",
+        "150 N",
+        "200 N"
+      ],
+      answer: 3,
+      explanation: "The x-component of a force is given by Fx = F cos(θ). Substituting the given values: 100 = F cos(60°). Since cos(60°) = 0.5, F = 100 / 0.5 = 200 N."
+    },
+    {
+      id: "bumhs-phys-2026-159",
+      question: "Simplify the expression A × (A + B)",
+      options: [
+        "A + A × B",
+        "A² + A × B",
+        "A × B",
+        "0"
+      ],
+      answer: 2,
+      explanation: "Using the distributive property of the cross product: A × (A + B) = (A × A) + (A × B). Since the cross product of any vector with itself is a zero vector (A × A = 0), the expression simplifies to 0 + (A × B) = A × B."
     }
   ];

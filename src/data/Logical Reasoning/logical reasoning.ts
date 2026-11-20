@@ -1155,5 +1155,113 @@ export const logicalReasoningQuestions = [
     ],
     answer: 0,
     explanation: "From the price ordering Grapes < Oranges < Grapefruit, it logically follows by transitivity that grapefruit is more expensive than grapes."
+  },
+  {
+    id: "bumhs-2026-172",
+    question: "Find the odd one out from the given series: 4, 9, 16, 25, 36, 48...",
+    options: [
+      "25",
+      "48",
+      "9",
+      "16"
+    ],
+    answer: 1,
+    explanation: "4 (2²), 9 (3²), 16 (4²), 25 (5²), and 36 (6²) are all perfect squares; 48 is not a perfect square (should be 49 = 7²)."
+  },
+  {
+    id: "bumhs-2026-173",
+    question: "How can schools ensure better academic performance in the future?",
+    options: [
+      "Regular academic support and counseling.",
+      "Heavy fine on absent students on daily basis.",
+      "System of serious punishment for students.",
+      "Frequent conduction of exam without calendar year."
+    ],
+    answer: 0,
+    explanation: "Constructive educational measures such as regular academic support and counseling directly address learning gaps and improve student outcomes."
+  },
+  {
+    id: "bumhs-2026-174",
+    question: "A sequence is obtained by multiplying the previous term of the sequence by 2 and subtracting 1 from it. If the first term of the sequence is 2, what is its fourth term?",
+    options: [
+      "9",
+      "11",
+      "13",
+      "7"
+    ],
+    answer: 0,
+    explanation: "1st term = 2; 2nd term = 2(2) - 1 = 3; 3rd term = 2(3) - 1 = 5; 4th term = 2(5) - 1 = 9."
+  },
+  {
+    id: "bumhs-2026-175",
+    question: "A medical student reviews 18 patients files per hour. She reviews for 5 hours daily. How many patient files does she review per day?",
+    options: [
+      "80",
+      "85",
+      "90",
+      "95"
+    ],
+    answer: 2,
+    explanation: "Total files per day = 18 files/hour × 5 hours = 90 patient files."
+  },
+  {
+    id: "bumhs-2026-176",
+    question: "A box contains 4 blue pens, 3 black pens, and 3 red pens. If one pen is selected at random, what is the probability that it is blue?",
+    options: [
+      "1/3",
+      "2/5",
+      "2/3",
+      "2/10"
+    ],
+    answer: 1,
+    explanation: "Total pens = 4 + 3 + 3 = 10. Probability of selecting a blue pen = 4 / 10 = 2 / 5."
+  },
+  {
+    id: "bumhs-2026-177",
+    question: "All viruses are living things. Some disease causing agents are viruses. Therefore, some disease causing agents are living things.\nThe conclusion given above is ________.",
+    options: [
+      "Valid",
+      "Invalid",
+      "Emotional",
+      "Contradictory"
+    ],
+    answer: 0,
+    explanation: "In formal syllogistic logic (All M are P; Some S are M; Therefore, some S are P — Darius/Darii form), the conclusion follows necessarily from the premises, making the argument deductively valid."
+  },
+  {
+    id: "bumhs-2026-178",
+    question: "Five friends Parvez, Qasim, Rashid, Sami and Tahir each have different number of coins. The difference in number of coins is given in the following statements.\n1. Parvez has more coins than Qasim\n2. Rashid has fewer coins than Sami\n3. Tahir has more coins than Parvez\n4. Qasim has more coins than Rashid\n5. Sami has fewer coins than Qasim\nBased on the given information, which friend has most coins?",
+    options: [
+      "Sami",
+      "Parvez",
+      "Qasim",
+      "Tahir"
+    ],
+    answer: 3,
+    explanation: "Ordering from most to fewest coins: Tahir > Parvez > Qasim > Sami > Rashid. Therefore, Tahir has the most coins."
+  },
+  {
+    id: "bumhs-2026-179",
+    question: "Statement: A sudden outbreak of flu occurs in a school.\nCourse of Action:\n\nI. Isolate affected students.\n\nII. Increase sanitation measures.",
+    options: [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follows",
+      "Neither follows"
+    ],
+    answer: 2,
+    explanation: "Both isolating infected individuals to prevent direct transmission and increasing sanitation to reduce surface spread are logical, standard public health actions."
+  },
+  {
+    id: "bumhs-2026-180",
+    question: "What is the area of square which is 8 feet long and 8 feet wide?",
+    options: [
+      "40",
+      "55",
+      "64",
+      "70"
+    ],
+    answer: 2,
+    explanation: "Area of a square = side × side = 8 ft × 8 ft = 64 sq ft."
   }
   ];

@@ -891,5 +891,17 @@ export type Question = {
         ],
         answer: 2,
         explanation: "According to Planck's quantum theory (and Bohr's atomic model built upon it), an atomic oscillator or electron remaining in a single stationary quantum state possesses a fixed discrete energy and neither emits nor absorbs energy; energy is emitted or absorbed only when it transitions between two different quantum states."
+      },
+      {
+        id: "bumhs-phys-2026-157",
+        question: "A photon’s energy is inversely proportional to its:",
+        options: [
+          "Frequency",
+          "Wavelength",
+          "Speed",
+          "Amplitude"
+        ],
+        answer: 1,
+        explanation: "According to Planck's quantum theory, the energy of a photon is given by E = hf = hc / λ, where h is Planck's constant, c is the speed of light, f is frequency, and λ is wavelength. Therefore, a photon's energy is inversely proportional to its wavelength (λ)."
       }
   ];

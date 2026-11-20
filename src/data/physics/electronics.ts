@@ -668,5 +668,17 @@ export type Question = {
         ],
         answer: 0,
         explanation: "When a p-n junction diode is reverse biased, the external voltage widens the depletion region and increases the potential barrier, presenting very high resistance that blocks majority charge carriers and almost completely stops current flow (except for a negligible reverse saturation leakage current)."
+      },
+      {
+        id: "bumhs-phys-2026-141",
+        question: "When silicon is doped with a penta-valent element, it becomes:",
+        options: [
+          "an insulator.",
+          "a conductor.",
+          "n-type semiconductor.",
+          "p-type semiconductor."
+        ],
+        answer: 2,
+        explanation: "Silicon has four valence electrons. When doped with a pentavalent impurity (such as phosphorus, arsenic, or antimony) that has five valence electrons, four electrons form covalent bonds with neighboring silicon atoms while the fifth electron remains loosely bound as a free charge carrier, creating an n-type semiconductor."
       }
   ];

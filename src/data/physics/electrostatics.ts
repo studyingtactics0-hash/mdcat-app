@@ -1252,5 +1252,29 @@ export type Question = {
         ],
         answer: 1,
         explanation: "The electric field intensity near an infinite plane sheet of charge is E = σ / (2ε₀). Substituting σ = 8.85 × 10⁻⁶ C m⁻² and ε₀ = 8.85 × 10⁻¹² C² N⁻¹ m⁻² gives E = (8.85 × 10⁻⁶) / (2 × 8.85 × 10⁻¹²) = 0.5 × 10⁶ N C⁻¹."
+      },
+      {
+        id: "bumhs-phys-2026-127",
+        question: "The value of Coulomb’s constant k depends upon:",
+        options: [
+          "quantity of the charges.",
+          "system of units between two charges only.",
+          "nature of medium between two charges only.",
+          "nature of medium and system of units between two charges."
+        ],
+        answer: 3,
+        explanation: "Coulomb's constant is given by k = 1 / (4πε₀εᵣ). Its numerical value depends on both the system of units chosen (such as SI vs. CGS) and the permittivity (nature) of the medium between the two charges."
+      },
+      {
+        id: "bumhs-phys-2026-153",
+        question: "The capacitance of parallel plates capacitor is 5 μF. When a glass plate is placed between the plates of capacitor, its potential becomes 1/8 of its original value. The value of dielectric constant will be:",
+        options: [
+          "1.6",
+          "5",
+          "8",
+          "40"
+        ],
+        answer: 2,
+        explanation: "When a dielectric slab is inserted between the plates of an isolated charged capacitor, the potential difference drops by a factor equal to the dielectric constant (V' = V / εᵣ). Since V' = V / 8, the dielectric constant εᵣ = 8."
       }
   ];

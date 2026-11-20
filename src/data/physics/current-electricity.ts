@@ -1121,5 +1121,29 @@ export type Question = {
         ],
         answer: 0,
         explanation: "In a metallic conductor, the positive ions are fixed in a crystal lattice. When an external electric field is applied, the delocalized free electrons acquire a steady net drift velocity opposite to the field, producing a directed flow of charge (steady electric current)."
+      },
+      {
+        id: "bumhs-phys-2026-128",
+        question: "Power delivered to the load decreases, if load resistance exceeds:",
+        options: [
+          "Emf",
+          "terminal voltage",
+          "external resistance",
+          "internal resistance"
+        ],
+        answer: 3,
+        explanation: "By the Maximum Power Transfer Theorem, a source delivers maximum power to a load when the load resistance (R) equals the internal resistance (r) of the source. If the load resistance exceeds the internal resistance (R > r), the power delivered to the load decreases."
+      },
+      {
+        id: "bumhs-phys-2026-129",
+        question: "If the change in temperature of a conductor does not affect its resistance, the value of temperature coefficient of material is:",
+        options: [
+          "Positive",
+          "Negative",
+          "Constant",
+          "Zero"
+        ],
+        answer: 3,
+        explanation: "The temperature coefficient of resistance is defined as α = ΔR / (R₀ ΔT). If a change in temperature (ΔT ≠ 0) produces no change in resistance (ΔR = 0), then α = 0."
       }
   ];
